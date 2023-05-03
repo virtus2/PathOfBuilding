@@ -15,6 +15,15 @@ local realmList = {
 	{ label = "Garena", id = "PC", realmCode = "pc", hostName = "https://web.poe.garena.tw/", profileURL = "account/view-profile/" },
 	{ label = "Tencent", id = "PC", realmCode = "pc", hostName = "https://poe.game.qq.com/", profileURL = "account/view-profile/" },
 }
+local classesKR = {
+	Duelist = "듀얼리스트", Slayer = "슬레이어", Gladiator = "글래디에이터", Champion = "챔피언",
+	Marauder = "野蛮人", Juggernaut = "勇士", Berserker = "暴徒", Chieftain = "酋长",
+	Ranger = "游侠", Deadeye = "锐眼", Raider = "侠客", Pathfinder = "追猎者",
+	Shadow = "暗影刺客", Assassin = "刺客", Saboteur = "破坏者", Trickster = "欺诈师",
+	Witch = "女巫", Necromancer = "召唤师", Occultist = "秘术家", Elementalist = "元素使",
+	Templar = "圣堂武僧", Inquisitor = "判官", Hierophant = "Hierophant하이로펀트", Guardian = "守护者",
+	Scion = "贵族", Ascendant = "升华使徒"
+}
 
 local influenceInfo = itemLib.influenceInfo
 
@@ -471,7 +480,7 @@ function ImportTabClass:BuildCharacterList(league)
 	for i, char in ipairs(self.lastCharList) do
 		if not league or char.league == league then
 			t_insert(self.controls.charSelect.list, {
-				label = string.format("%s: Level %d %s in %s", char.name or "?", char.level or 0, char.class or "?", char.league or "?"),
+				label = string.format("%s: 레벨 %d %s in %s", char.name or "?", char.level or 0, classesKR[char.class] or "?", char.league or "?"),
 				char = char,
 			})
 		end

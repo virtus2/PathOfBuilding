@@ -133,7 +133,7 @@ function BuildListClass:RenameBuild(build, copyOnName)
 		main:ClosePopup()
 		self.listMode:SelectControl(self)
 	end)
-	main:OpenPopup(370, 100, (copyOnName and "Copy " or "Rename ")..(build.folderName and "Folder" or "Build"), controls, "save", "edit")	
+	main:OpenPopup(370, 100, (copyOnName and "복사 " or "이름 변경 ")..(build.folderName and "Folder" or "Build"), controls, "save", "edit")	
 end
 
 function BuildListClass:DeleteBuild(build)

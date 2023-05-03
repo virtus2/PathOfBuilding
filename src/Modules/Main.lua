@@ -1223,10 +1223,10 @@ function main:OpenMessagePopup(title, msg)
 		t_insert(controls, new("LabelControl", nil, 0, 20 + numMsgLines * 16, 0, 16, line))
 		numMsgLines = numMsgLines + 1
 	end
-	controls.close = new("ButtonControl", nil, 0, 40 + numMsgLines * 16, 80, 20, "Ok", function()
+	controls.close = new("ButtonControl", nil, 0, 40 + numMsgLines * 16, 80, 20, "확인", function()
 		main:ClosePopup()
 	end)
-	return self:OpenPopup(m_max(DrawStringWidth(16, "VAR", msg) + 30, 190), 70 + numMsgLines * 16, title, controls, "close")
+	return self:OpenPopup(m_max(DrawStringWidth(16, "VAR", msg) + 30, 190), 70 + numMsgLines * 16, title, controls, "닫기")
 end
 
 function main:OpenConfirmPopup(title, msg, confirmLabel, onConfirm)
@@ -1241,19 +1241,19 @@ function main:OpenConfirmPopup(title, msg, confirmLabel, onConfirm)
 		main:ClosePopup()
 		onConfirm()
 	end)
-	t_insert(controls, new("ButtonControl", nil, 5 + m_ceil(confirmWidth/2), 40 + numMsgLines * 16, confirmWidth, 20, "Cancel", function()
+	t_insert(controls, new("ButtonControl", nil, 5 + m_ceil(confirmWidth/2), 40 + numMsgLines * 16, confirmWidth, 20, "취소", function()
 		main:ClosePopup()
 	end))
-	return self:OpenPopup(m_max(DrawStringWidth(16, "VAR", msg) + 30, 190), 70 + numMsgLines * 16, title, controls, "confirm")
+	return self:OpenPopup(m_max(DrawStringWidth(16, "VAR", msg) + 30, 190), 70 + numMsgLines * 16, title, controls, "확인")
 end
 
 function main:OpenNewFolderPopup(path, onClose)
 	local controls = { }
-	controls.label = new("LabelControl", nil, 0, 20, 0, 16, "^7Enter folder name:")
+	controls.label = new("LabelControl", nil, 0, 20, 0, 16, "^7폴더 이름 입력:")
 	controls.edit = new("EditControl", nil, 0, 40, 350, 20, nil, nil, "\\/:%*%?\"<>|%c", 100, function(buf)
 		controls.create.enabled = buf:match("%S")
 	end)
-	controls.create = new("ButtonControl", nil, -45, 70, 80, 20, "Create", function()
+	controls.create = new("ButtonControl", nil, -45, 70, 80, 20, "생성", function()
 		local newFolderName = controls.edit.buf
 		local res, msg = MakeDir(path..newFolderName)
 		if not res then
