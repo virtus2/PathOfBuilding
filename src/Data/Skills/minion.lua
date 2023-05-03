@@ -12,7 +12,7 @@ skills["ChaosElementalCascadeSummoned"] = {
 	color = 3,
 	baseEffectiveness = 1.3650000095367,
 	incrementalEffectiveness = 0.040600001811981,
-	description = "Icicles emerge from the ground in a series of small bursts, each damaging enemies caught in the area.",
+	description = "땅에서 고드름이 솟아오르면서 잇달아 작은 폭발을 일으켜 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Cold] = true, [SkillType.Physical] = true, [SkillType.CanRapidFire] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -70,7 +70,7 @@ skills["FireElementalFlameRedSummoned"] = {
 	color = 4,
 	baseEffectiveness = 1.2546999454498,
 	incrementalEffectiveness = 0.044599998742342,
-	description = "Summons a totem that fires a stream of flame at nearby enemies.",
+	description = "주변의 적들에게 불줄기를 뿜어내는 토템을 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Damage] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, [SkillType.Fire] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 8,
@@ -100,7 +100,7 @@ skills["FireElementalMortarSummoned"] = {
 	color = 4,
 	baseEffectiveness = 3.8238000869751,
 	incrementalEffectiveness = 0.034600000828505,
-	description = "Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+	description = "일반적인 몬스터 박격포 스킬입니다. 몬스터 투사체와 같지만 충격 효과를 가집니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -179,7 +179,7 @@ skills["IceElementalIceCyclone"] = {
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 0.85000002384186,
-	description = "Damage enemies around you, then perform a spinning series of attacks as you travel to a target location. Cannot be supported by Ruthless or Multistrike.",
+	description = "주변 적들에게 피해를 준 뒤 목표 지점으로 이동하는 동안 연속 회전 공격을 합니다. 무자비 또는 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Movement] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -344,7 +344,7 @@ skills["SpectralSkullShieldCharge"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Charges at an enemy, bashing it with the character's shield and striking it. This knocks it back and stuns it. Enemies in the way are pushed to the side. Damage and stun are proportional to distance travelled. Cannot be supported by Multistrike.",
+	description = "상대에게 돌진하여 방패로 후려침과 동시에 적을 밀어내고 기절시킵니다. 해당 경로에 있는 적들은 옆으로 밀려납니다. 피해와 기절 효과는 이동한 거리에 비례합니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -377,11 +377,11 @@ skills["SpectralSkullShieldCharge"] = {
 	},
 }
 skills["RagingSpiritMeleeAttack"] = {
-	name = "Default Attack",
+	name = "기본 공격",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
+	description = "강력한 일격으로 적들을 쓰러트립니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.MirageArcherCanUse] = true, [SkillType.Projectile] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -514,7 +514,7 @@ skills["RockGolemMinionWhirlingBlades"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Dive through enemies, dealing weapon damage. Only works with daggers, claws and one handed swords. Cannot be supported by Multistrike.",
+	description = "나선형으로 돌진하여 무기 피해를 줍니다. 단검과 클로 한손 검으로만 사용할 수 있습니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, },
 	weaponTypes = {
 		["Thrusting One Handed Sword"] = true,
@@ -575,12 +575,12 @@ skills["ZombieSlam"] = {
 	},
 }
 skills["SummonedSpiderViperStrike"] = {
-	name = "Viper Strike",
+	name = "맹독 타격",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0.64999997615814,
 	incrementalEffectiveness = 0.025499999523163,
-	description = "Hits enemies, converting some of your physical damage to chaos damage and inflicting poison which will be affected by modifiers to skill duration. If dual wielding, will strike with both weapons. Requires a claw, dagger or sword.",
+	description = "적을 명중시키면 물리 피해의 일부가 카오스 피해로 전환되고 중독을 유발합니다. 중독은 스킬 지속시간 관련 속성 부여의 영향을 받습니다. 쌍수를 사용할 경우 양쪽 무기 모두로 타격합니다. 클로나 단검, 검이 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Duration] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.DamageOverTime] = true, [SkillType.Chaos] = true, },
 	weaponTypes = {
 		["Claw"] = true,
@@ -608,10 +608,10 @@ skills["SummonedSpiderViperStrike"] = {
 	},
 }
 skills["DancingDervishCycloneChannelled"] = {
-	name = "Cyclone",
+	name = "회오리바람",
 	hidden = true,
 	color = 4,
-	description = "Channel this skill to move towards a targeted location while spinning, building up stages while constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back.",
+	description = "이 스킬에 집중을 유지하면, 회전하는 동안 목표 지점으로 이동하면서 주변 지역의 적들을 지속적으로 공격하고 단계를 형성합니다. 스킬에 집중을 유지하는 동안에는 밀려나지 않습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Movement] = true, [SkillType.Channel] = true, [SkillType.Physical] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -679,7 +679,7 @@ skills["HeraldOfAgonyMinionMortar"] = {
 	name = "Mortar",
 	hidden = true,
 	color = 4,
-	description = "Generic monster mortar skill. Like Monster Projectile but has an impact effect.",
+	description = "일반적인 몬스터 박격포 스킬입니다. 몬스터 투사체와 같지만 충격 효과를 가집니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 2,
@@ -733,7 +733,7 @@ skills["HeraldOfAgonyMinionCleave"] = {
 	name = "Cleave",
 	hidden = true,
 	color = 1,
-	description = "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords.",
+	description = "무기(쌍수일 경우 2개 모두)를 크게 휘둘러 범위 내 몬스터들에게 피해를 줍니다. 도끼와 검으로만 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ThresholdJewelArea] = true, [SkillType.Physical] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -875,11 +875,11 @@ skills["RelicTriggeredNova"] = {
 	},
 }
 skills["DominatingBlowMinionCharge"] = {
-	name = "Shield Charge",
+	name = "방패 돌진",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.",
+	description = "대상 지점으로 돌진하여 경로상에 있는 적들을 밀어내고 피해를 주며 대상 지점에 도착 시 범위 피해를 줍니다. 또한 이동거리가 멀수록 적들에게 주는 피해가 증가하며 기절시킬 확률이 높아집니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RequiresShield] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -912,12 +912,12 @@ skills["DominatingBlowMinionCharge"] = {
 	},
 }
 skills["AbsolutionMinion"] = {
-	name = "Absolution",
+	name = "면죄",
 	hidden = true,
 	color = 1,
 	baseEffectiveness = 1.9819999933243,
 	incrementalEffectiveness = 0.045299999415874,
-	description = "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed to summon a Sentinel of Absolution for a longer secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
+	description = "지역에 있는 적에게 피해를 주고 짧은 시간 동안 디버프를 적용합니다. 디버프의 영향을 받는 동안 비-고유 적이 죽으면, 해당 적의 시신을 소모하여 더 긴 2차 지속시간 동안 면죄의 파수꾼 1명이 소환됩니다. 이미 소환된 파수꾼의 수가 최대치라면 기존 파수꾼 1명의 지속시간과 생명력이 초기화됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, [SkillType.Lightning] = true, [SkillType.MinionsCanExplode] = true, [SkillType.CreatesMinion] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Multicastable] = true, [SkillType.Cascadable] = true, [SkillType.Triggerable] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.CanRapidFire] = true, },
 	statDescriptionScope = "minion_spell_damage_skill_stat_descriptions",
 	castTime = 0.75,
@@ -940,12 +940,12 @@ skills["AbsolutionMinion"] = {
 	},
 }
 skills["AbsolutionMinionEmpowered"] = {
-	name = "Absolution",
+	name = "면죄",
 	hidden = true,
 	color = 1,
 	baseEffectiveness = 1.4865000247955,
 	incrementalEffectiveness = 0.045299999415874,
-	description = "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed to summon a Sentinel of Absolution for a longer secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
+	description = "지역에 있는 적에게 피해를 주고 짧은 시간 동안 디버프를 적용합니다. 디버프의 영향을 받는 동안 비-고유 적이 죽으면, 해당 적의 시신을 소모하여 더 긴 2차 지속시간 동안 면죄의 파수꾼 1명이 소환됩니다. 이미 소환된 파수꾼의 수가 최대치라면 기존 파수꾼 1명의 지속시간과 생명력이 초기화됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, [SkillType.Lightning] = true, [SkillType.MinionsCanExplode] = true, [SkillType.CreatesMinion] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Multicastable] = true, [SkillType.Cascadable] = true, [SkillType.Triggerable] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.CanRapidFire] = true, },
 	statDescriptionScope = "minion_spell_damage_skill_stat_descriptions",
 	castTime = 0.75,
@@ -969,11 +969,11 @@ skills["AbsolutionMinionEmpowered"] = {
 	},
 }
 skills["SummonedRhoaShieldCharge"] = {
-	name = "Shield Charge",
+	name = "방패 돌진",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.",
+	description = "대상 지점으로 돌진하여 경로상에 있는 적들을 밀어내고 피해를 주며 대상 지점에 도착 시 범위 피해를 줍니다. 또한 이동거리가 멀수록 적들에게 주는 피해가 증가하며 기절시킬 확률이 높아집니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RequiresShield] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -1029,11 +1029,11 @@ skills["SummonedSnakeProjectile"] = {
 	},
 }
 skills["DropBearSummonedGroundSlam"] = {
-	name = "Ground Slam",
+	name = "대지 강타",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "The character slams the ground in front of them with a Staff, Mace or Sceptre, creating a wave that travels forward and damages enemies with an increased chance to stun.",
+	description = "지팡이나 철퇴, 셉터로 전방의 바닥을 후려치면 앞쪽으로 파도를 일으키며 뻗어 나가 적들에게 피해를 주고 증가된 확률로 기절시킵니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -1057,10 +1057,10 @@ skills["DropBearSummonedGroundSlam"] = {
 	},
 }
 skills["DropBearSummonedRallyingCry"] = {
-	name = "Rallying Cry",
+	name = "집결의 함성",
 	hidden = true,
 	color = 1,
-	description = "Performs a warcry, granting increased damage and mana regeneration to the user and nearby allies if there are nearby enemies. The damage increase is proportional to the number of surrounding enemies. Taunts all nearby enemies to attack the user. Shares a cooldown with other Warcry skills.",
+	description = "함성을 질러, 주변에 적이 있을 경우 시전자 및 주변 동료들의 피해와 마나 재생을 증가시킵니다. 피해 증가는 주변의 적 숫자에 비례합니다. 주변의 모든 적이 시전자를 공격하도록 도발하는 효과가 있습니다. 다른 함성 스킬과 재사용 대기시간을 공유합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.25,
@@ -1148,10 +1148,10 @@ skills["BoneGolemCascade"] = {
 	},
 }
 skills["BoneGolemLeapSlam"] = {
-	name = "Leap Slam",
+	name = "도약 강타",
 	hidden = true,
 	color = 4,
-	description = "Jump into the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.",
+	description = "원하는 지점으로 도약 후 착지하면서 무기로 적들에게 피해를 주고 밀쳐 냅니다. 착지 지점의 적은 바깥으로 밀려납니다. 도끼나 철퇴, 셉터, 검, 지팡이가 필요합니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1301,7 +1301,7 @@ skills["MeleeAtAnimationSpeedUnique"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
+	description = "강력한 일격으로 적들을 쓰러트립니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.MirageArcherCanUse] = true, [SkillType.Projectile] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1326,7 +1326,7 @@ skills["SummonedReaperMelee"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
+	description = "강력한 일격으로 적들을 쓰러트립니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.MirageArcherCanUse] = true, [SkillType.Projectile] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,

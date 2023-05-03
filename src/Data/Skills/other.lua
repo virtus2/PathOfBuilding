@@ -7,10 +7,10 @@
 local skills, mod, flag, skill = ...
 
 skills["RepeatingShockwave"] = {
-	name = "Abberath's Fury",
+	name = "아버라스의 광분",
 	hidden = true,
 	color = 4,
-	description = "While you run, this skill creates a small explosion with each step, dealing fire damage in an area around you.",
+	description = "달리는 동안 매 걸음마다 작은 폭발을 일으켜, 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Fire] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -37,10 +37,10 @@ skills["RepeatingShockwave"] = {
 	},
 }
 skills["AnimateGuardianWeapon"] = {
-	name = "Animate Guardian's Weapon",
+	name = "움직이는 수호자의 무기",
 	hidden = true,
 	color = 2,
-	description = "Animates a copy of your Animated Guardian's main-hand weapon to fight by your side.",
+	description = "기동된 수호자가 장비한 주 무기의 복제품을 움직여 시전자의 편에서 싸우게 만듭니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Duration] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggered] = true, [SkillType.CreatesMinion] = true, [SkillType.Physical] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.ThresholdJewelProjectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.ThresholdJewelRangedAttack] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -88,10 +88,10 @@ skills["AnimateGuardianWeapon"] = {
 	},
 }
 skills["TouchOfFire"] = {
-	name = "Approaching Flames",
+	name = "다가가는 화염",
 	hidden = true,
 	color = 4,
-	description = "Become touched by the flames of the Cleansing Fire.",
+	description = "정화의 불길의 손길이 닿았습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.HasReservation] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -130,10 +130,10 @@ skills["SupportTriggerSpellOnBowAttack"] = {
 	},
 }
 skills["BirdAspect"] = {
-	name = "Aspect of the Avian",
+	name = "새의 위상",
 	hidden = true,
 	color = 4,
-	description = "While active, grants the Avian's Might and Avian's Flight buffs in sequence. Avian's Might grants you and your minions a chance to deal Double Damage with hits for a duration. Avian's Flight grants you and your minions increased Movement Speed for a secondary duration.",
+	description = "활성화된 동안, 차례로 새의 힘과 새의 비행 버프를 적용합니다. 새의 힘은 지속시간 동안 플레이어와 소환수에게 일정 확률로 두 배의 피해를 주도록 해줍니다. 새의 비행은 2차 지속시간 동안 플레이어와 소환수의 이동 속도를 증가시켜 줍니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Spell] = true, [SkillType.HasReservation] = true, [SkillType.Duration] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -170,10 +170,10 @@ skills["BirdAspect"] = {
 	},
 }
 skills["CatAspect"] = {
-	name = "Aspect of the Cat",
+	name = "고양이의 위상",
 	hidden = true,
 	color = 4,
-	description = "While active, grants the Cat's Stealth and Cat's Agility buffs in sequence. Cat's Stealth increases your critical strike chance, makes you harder to see, and gives you a chance to avoid damage for a short duration. Cat's Agility increases your attack and cast speed for a longer secondary duration.",
+	description = "활성화된 동안, 차례로 고양이의 은신과 고양이의 날렵함 버프를 적용합니다. 고양이의 은신은 짧은 지속시간 동안 치명타 확률을 증가시켜 줌과 동시에 알아채기 힘들게 해주며, 일정 확률로 피해를 피하게 해줍니다. 고양이의 날렵함은 보다 긴 별도의 지속시간 동안 공격 속도와 시전 속도를 증가시켜 줍니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Spell] = true, [SkillType.HasReservation] = true, [SkillType.Duration] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -212,10 +212,10 @@ skills["CatAspect"] = {
 	},
 }
 skills["CrabAspect"] = {
-	name = "Aspect of the Crab",
+	name = "게의 위상",
 	hidden = true,
 	color = 4,
-	description = "While active, periodically adds Crab Barriers to you, and grants additional Physical Damage reduction for each Crab Barrier you have. All Crab Barriers are lost when you take physical damage from a hit.",
+	description = "활성화된 동안 일시적으로 게의 방어막을 부여하여, 방어막을 얻을 때마다 받는 물리 피해를 추가로 감소합니다. 피격 시 물리 피해를 받을 경우 모든 게의 방어막을 잃게 됩니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Spell] = true, [SkillType.HasReservation] = true, [SkillType.Instant] = true, [SkillType.Physical] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -242,10 +242,10 @@ skills["CrabAspect"] = {
 	},
 }
 skills["SpiderAspect"] = {
-	name = "Aspect of the Spider",
+	name = "거미의 위상",
 	hidden = true,
 	color = 4,
-	description = "While active, periodically applies a Spider's Web debuff to nearby Enemies, and Hinders them. Each Spider's Web on an Enemy increases the Damage they take. Hinder reduces their movement speed.",
+	description = "활성화된 동안, 일시적으로 주변의 적들에게 거미줄 디버프를 부여하고 이동을 방해합니다. 적에게 거미줄이 걸릴 때마다 적이 받는 피해가 증가합니다. 이동을 방해받으면 이동 속도가 감소합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Spell] = true, [SkillType.HasReservation] = true, [SkillType.Duration] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0,
@@ -297,10 +297,10 @@ skills["SupportBloodMagicUniquePrismGuardian"] = {
 	},
 }
 skills["BloodOffering"] = {
-	name = "Blood Offering",
+	name = "피의 공물",
 	hidden = true,
 	color = 3,
-	description = "Consumes a corpse, and sacrifices a portion of your life, granting your minions life regeneration based on the life sacrificed, and a bonus to damage. The skill consumes other nearby corpses, increasing the duration and life regeneration for each corpse consumed.",
+	description = "시체를 소모하고 플레이어의 생명력 일부를 희생하여, 희생된 생명력에 비례해 소환수의 생명력을 재생시키고 피해에 보너스를 적용합니다. 주변의 다른 시체를 소모할 때마다 지속시간과 생명력 재생이 증가합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Minion] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.Totemable] = true, },
 	statDescriptionScope = "offering_skill_stat_descriptions",
 	castTime = 1,
@@ -349,11 +349,11 @@ skills["BloodOffering"] = {
 	},
 }
 skills["BloodSacramentUnique"] = {
-	name = "Blood Sacrament",
+	name = "피 성체",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 7.5999999046326,
-	description = "Channel this skill to reserve more and more of your life, building up power in a marker on the ground under you. Release to deal physical damage in an area based on how much life you reserved. Cannot be cast by Totems.",
+	description = "집중을 유지하며 이 스킬을 시전하면 점점 더 많은 생명력을 점유하며, 아래의 바닥에 있는 표식에 힘이 축적됩니다. 시전을 종료하면 점유한 생명력에 비례하여 일정 범위에 물리 피해를 줍니다. 토템으로 이 스킬을 시전할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Channel] = true, [SkillType.AreaSpell] = true, [SkillType.HasReservation] = true, [SkillType.Physical] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.2,
@@ -401,12 +401,12 @@ skills["BloodSacramentUnique"] = {
 	},
 }
 skills["BoneArmour"] = {
-	name = "Bone Armour",
+	name = "뼈 갑옷",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 10,
 	incrementalEffectiveness = 0.029999999329448,
-	description = "Applies a buff to you and each of your minions, which will take some of the damage from enemy hits before being depleted. The buff also grants immunity to bleeding. Shares a cooldown with other Guard skills.",
+	description = "시전자와 각각의 소환수에게 버프를 적용하면 소진될 때까지 적의 명중으로 인한 피해의 일부를 대신 받습니다. 또한 이 버프는 출혈에 면역을 부여합니다. 다른 수호 스킬과 재사용 대기시간을 공유합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Guard] = true, [SkillType.Minion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -441,10 +441,10 @@ skills["BoneArmour"] = {
 	},
 }
 skills["TriggeredBoneNova"] = {
-	name = "Bone Nova",
+	name = "뼈 폭발",
 	hidden = true,
 	color = 4,
-	description = "Bones erupt around enemies you hit, dealing physical damage.",
+	description = "명중한 적 주위에서 뼈가 폭발하여 물리 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -469,12 +469,12 @@ skills["TriggeredBoneNova"] = {
 	},
 }
 skills["BrandDetonate"] = {
-	name = "Brandsurge",
+	name = "낙인 쇄도",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 6.5999999046326,
 	incrementalEffectiveness = 0.03999999910593,
-	description = "Overcharges your brands near the targeted area, causing them to accelerate how quickly they activate and expire. Deals damage in an area around each overcharged brand when it expires.",
+	description = "목표 지역 주변에 있는 플레이어의 낙인들을 과충전하여, 활성화 속도와 만료 속도를 가속합니다. 과충전된 낙인은 만료 시에 주변 지역에 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Physical] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Multicastable] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.Totemable] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.6,
@@ -498,10 +498,10 @@ skills["BrandDetonate"] = {
 	},
 }
 skills["ColdAegis"] = {
-	name = "Cold Aegis",
+	name = "냉기의 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes cold damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking cold damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 냉기 피해를 받아주는 비호를 불러냅니다. 냉기 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -530,12 +530,12 @@ skills["ColdAegis"] = {
 	},
 }
 skills["UniqueEnchantmentOfInfernoOnCrit"] = {
-	name = "Commandment of Inferno",
+	name = "지옥불의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3.5555999279022,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+	description = "주변의 적에게 유성을 떨어트려 그 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -567,7 +567,7 @@ skills["TriggeredConsecrate"] = {
 	name = "Consecrate",
 	hidden = true,
 	color = 4,
-	description = "Creates an area of Consecrated Ground, providing life regeneration and reducing the effect of curses for you and allies who stand in it.",
+	description = "신성화 지대를 만들어 그 안에 있는 플레이어와 동료에게 적용되는 저주의 효과를 감소시키고 생명력 재생을 제공합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -590,10 +590,10 @@ skills["TriggeredConsecrate"] = {
 	},
 }
 skills["CreateFungalGroundOnKill"] = {
-	name = "Contaminate",
+	name = "오염",
 	hidden = true,
 	color = 4,
-	description = "Creates a patch of Fungal Ground at the targeted location.",
+	description = "목표 지점에 곰팡이 지대를 만듭니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -615,10 +615,10 @@ skills["CreateFungalGroundOnKill"] = {
 	},
 }
 skills["CorpseWalk"] = {
-	name = "Corpse Walk",
+	name = "시체 보행",
 	hidden = true,
 	color = 4,
-	description = "Spawns corpses around you while you move. The corpses will be chosen from the monsters in the current area and any Spectres that have existed in this instance.",
+	description = "이동하는 동안 주변에 시신을 생성합니다. 시신들은 현재 지역의 몬스터와 현재 인스턴스에 존재한 적 있는 망령들 중에서 선택됩니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -657,10 +657,10 @@ skills["SupportUniqueCosprisMaliceColdSpellsCastOnMeleeCriticalStrike"] = {
 	},
 }
 skills["TriggeredSummonLesserShrine"] = {
-	name = "Create Lesser Shrine",
+	name = "하위 성소 창조",
 	hidden = true,
 	color = 4,
-	description = "Creates a Lesser Shrine, which will grant a bonus when touched. The Lesser Shrine will disappear after a short duration, or when used. This skill starts on cooldown.",
+	description = "하위 성소를 만들어 접촉 시 보너스가 적용됩니다. 짧은 지속시간이 지나거나 사용하고 나면 하위 성소는 사라집니다. 스킬 사용 시 재사용 대기시간이 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Duration] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -681,10 +681,10 @@ skills["TriggeredSummonLesserShrine"] = {
 	},
 }
 skills["ChaosDegenAuraUnique"] = {
-	name = "Death Aura",
+	name = "죽음의 오라",
 	hidden = true,
 	color = 4,
-	description = "Casts an aura that deals Chaos Damage over Time to nearby Enemies. This skill cannot be cast by Totems.",
+	description = "주변의 적들에게 지속 카오스 피해를 주는 오라를 시전합니다. 토템으로 이 스킬을 시전할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.DamageOverTime] = true, [SkillType.Aura] = true, [SkillType.AuraAffectsEnemies] = true, [SkillType.Chaos] = true, [SkillType.AreaSpell] = true, [SkillType.HasReservation] = true, [SkillType.ZeroReservation] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 1,
@@ -712,10 +712,10 @@ skills["ChaosDegenAuraUnique"] = {
 	},
 }
 skills["DeathWalk"] = {
-	name = "Death Walk",
+	name = "죽음의 발걸음",
 	hidden = true,
 	color = 4,
-	description = "While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.",
+	description = "걸어가는 동안 근처의 시체들을 폭발시켜 범위 화염 피해를 줍니다. 시체의 폭발은 주문 피해 속성 부여에 영향을 받지 않으며, 반사할 수 없습니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Fire] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -745,12 +745,12 @@ skills["DeathWalk"] = {
 	},
 }
 skills["DeathWish"] = {
-	name = "Death Wish",
+	name = "죽음 동경",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 2.1530001163483,
 	incrementalEffectiveness = 0.032299999147654,
-	description = "As you channel this spell, it spreads its effect to more of your minions. When you stop channelling, each affected minion explodes, and this skill deals spell damage around them.  The explosion of the minion is not affected by modifiers to spell damage, and cannot be reflected.",
+	description = "이 주문은 시전 시, 효과를 퍼뜨려 더 많은 플레이어의 소환수에게 영향을 미칩니다.  플레이어가 집중 유지를 멈추면 주문의 영향을 받은 각 소환수가 폭발하고, 이 스킬이 해당 소환수 주변에 주문 피해를 줍니다. 주문 피해 속성 부여는 소환수의 폭발에 영향을 미치지 않으며, 이 폭발의 피해는 반사되지 않습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Channel] = true, [SkillType.AreaSpell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Minion] = true, [SkillType.Fire] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.2,
@@ -830,7 +830,7 @@ skills["Melee"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
+	description = "강력한 일격으로 적들을 쓰러트립니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.MirageArcherCanUse] = true, [SkillType.Projectile] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -852,7 +852,7 @@ skills["MeleeUseContactPoint"] = {
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
+	description = "강력한 일격으로 적들을 쓰러트립니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.MirageArcherCanUse] = true, [SkillType.Projectile] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -872,9 +872,9 @@ skills["MeleeUseContactPoint"] = {
 	},
 }
 skills["GemDetonateMines"] = {
-	name = "Detonate Mines",
+	name = "지뢰 폭발",
 	color = 4,
-	description = "Detonates a Mine, starting a Detonation Sequence which will detonate other Mines around it.",
+	description = "지뢰 하나를 폭발시키면 주변 지뢰들이 연쇄 폭발합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Triggerable] = true, [SkillType.Instant] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -909,10 +909,10 @@ skills["GemDetonateMines"] = {
 	},
 }
 skills["TouchOfGod"] = {
-	name = "Doryani's Touch",
+	name = "도리아니의 손길",
 	hidden = true,
 	color = 1,
-	description = "The character uses their fist to slam the ground in front of them, with less attack speed, but more damage. This attack deals Lightning Damage to enemies in a large area, with a chance to Shock them. Cannot be used while wielding a Weapon. Cannot be Evaded.",
+	description = "주먹으로 전방의 지면을 강타하게 되면, 공격 속도는 느려지지만 피해는 증가합니다. 나아가 넓은 범위의 적들에게 번개 피해를 주고, 일정 확률로 감전시킵니다. 무기를 착용한 상태에서는 사용할 수 없으며 회피할 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Lightning] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -978,10 +978,10 @@ skills["TouchOfGod"] = {
 	},
 }
 skills["ElementalAegis"] = {
-	name = "Elemental Aegis",
+	name = "원소의 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes elemental damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking elemental damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 원소 피해를 받아주는 비호를 불러냅니다. 원소 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1011,8 +1011,8 @@ skills["ElementalAegis"] = {
 	},
 }
 skills["SupportElementalPenetration"] = {
-	name = "Elemental Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy elemental resistances.",
+	name = "원소 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 원소 저항을 관통합니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1075,12 +1075,12 @@ skills["SupportElementalPenetration"] = {
 	},
 }
 skills["OnHitWhileCursedTriggeredCurseNova"] = {
-	name = "Elemental Warding",
+	name = "원소의 수호",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3,
 	incrementalEffectiveness = 0.050000000745058,
-	description = "Fires projectiles in all directions, converting all their physical damage to a random element, and grants a buff which makes you unaffected by curses for a duration. Removes curses on you when used.",
+	description = "사방으로 투사체를 발사해 모든 물리 피해를 무작위의 원소 피해로 전환하며, 일정 시간 동안 저주에 영향을 받지 않게 해주는 버프를 시전자에게 부여합니다. 사용 시 자신에게 걸린 저주가 제거됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Fire] = true, [SkillType.Cold] = true, [SkillType.Lightning] = true, [SkillType.Duration] = true, [SkillType.Buff] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1125,10 +1125,10 @@ skills["OnHitWhileCursedTriggeredCurseNova"] = {
 	},
 }
 skills["EmbraceMadness"] = {
-	name = "Embrace Madness",
+	name = "광기의 수용",
 	hidden = true,
 	color = 4,
-	description = "Grants Glorious Madness. Using this skill again will remove Glorious Madness and the Touched Debuffs it inflicts, but you will be unable to Embrace Madness again until the cooldown expires.",
+	description = "찬란한 광기를 부여합니다. 스킬을 한 번 더 사용하면 찬란한 광기와 광기가 유발한 손길 디버프를 제거하지만, 재사용 대기시간이 만료될 때까진 광기의 수용을 다시 사용할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.Cooldown] = true, [SkillType.HasReservation] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -1148,12 +1148,12 @@ skills["EmbraceMadness"] = {
 	},
 }
 skills["Envy"] = {
-	name = "Envy",
+	name = "선망",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 2.0999999046326,
 	incrementalEffectiveness = 0.023000000044703,
-	description = "Casts an aura that adds chaos damage to the attacks and spells of you and your allies.",
+	description = "플레이어와 동료들에게 공격과 주문에 카오스 피해를 추가하는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Chaos] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, [SkillType.CanHaveBlessing] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -1195,10 +1195,10 @@ skills["Envy"] = {
 	},
 }
 skills["FireAegis"] = {
-	name = "Fire Aegis",
+	name = "화염의 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes fire damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking fire damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 화염 피해를 받아주는 비호를 불러냅니다. 화염 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1226,12 +1226,12 @@ skills["FireAegis"] = {
 	},
 }
 skills["FireBurstOnHit"] = {
-	name = "Fire Burst",
+	name = "화염 격발",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 2.5199999809265,
 	incrementalEffectiveness = 0.043999999761581,
-	description = "A burst of flame errupts from the location of a hit, dealing fire damage.",
+	description = "명중 지점에서 화염 폭발이 일어나며 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1286,10 +1286,10 @@ skills["FireBurstOnHit"] = {
 	},
 }
 skills["FieryImpactHeistMaceImplicit"] = {
-	name = "Fiery Impact",
+	name = "불타는 충격",
 	hidden = true,
 	color = 4,
-	description = "Deals attack damage in an area.",
+	description = "범위 내에 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Melee] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1326,12 +1326,12 @@ skills["FieryImpactHeistMaceImplicit"] = {
 	},
 }
 skills["AtziriUniqueStaffFlameblast"] = {
-	name = "Flames of Judgement",
+	name = "심판의 화염",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 4.0500001907349,
 	incrementalEffectiveness = 0.055500000715256,
-	description = "Creates markers at your location and a targeted location, which grow over time based on cast speed, then explode, dealing fire damage. Cannot be supported by Spell Cascade.",
+	description = "플레이어가 있는 지점과 대상 지점에 징표들을 만듭니다. 징표는 시간이 지나면서 시전 속도에 따라 크기가 커진 다음 화염 피해를 줍니다. 연속 주문의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Fire] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -1360,10 +1360,10 @@ skills["AtziriUniqueStaffFlameblast"] = {
 	},
 }
 skills["Focus"] = {
-	name = "Focus",
+	name = "집중",
 	hidden = true,
 	color = 2,
-	description = "Focus your power, granting yourself the Focused buff.",
+	description = "힘을 집중하여, 자신에게 집중 버프를 적용합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Spell] = true, [SkillType.Instant] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -1403,10 +1403,10 @@ skills["SupportTriggerSpellFromHelmet"] = {
 	},
 }
 skills["CreateSmokeCloud"] = {
-	name = "Fog of War",
+	name = "전장의 안개",
 	hidden = true,
 	color = 4,
-	description = "Creates a Smoke Cloud in an area, which blinds enemies within it.",
+	description = "범위 내에 연막을 만들어, 그 안에 있는 적들을 실명시킵니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1425,10 +1425,10 @@ skills["CreateSmokeCloud"] = {
 	},
 }
 skills["VaalAuraElementalDamageHealing"] = {
-	name = "Gluttony of Elements",
+	name = "원소의 폭식",
 	hidden = true,
 	color = 4,
-	description = "Casts an aura that causes taking elemental damage to heal you and nearby allies instead.",
+	description = "원소 피해를 받는 대신 플레이어와 주변 동료들을 치유하는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Vaal] = true, [SkillType.Aura] = true, [SkillType.AreaSpell] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -1463,10 +1463,10 @@ skills["VaalAuraElementalDamageHealing"] = {
 	},
 }
 skills["GoreShockwave"] = {
-	name = "Gore Shockwave",
+	name = "선혈 충격파",
 	hidden = true,
 	color = 1,
-	description = "Deals attack damage in an area.",
+	description = "범위 내에 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Melee] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -1528,11 +1528,11 @@ skills["SupportGreaterSpellEcho"] = {
 	},
 }
 skills["IcestormUniqueStaff12"] = {
-	name = "Icestorm",
+	name = "얼음태풍",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 0,
-	description = "Icy bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies and chilling them, as well as causing patches of chilled ground. Skill damage is based on Intelligence.",
+	description = "목표 지역에 얼음 화살이 쏟아져 내립니다. 땅에 떨어진 화살은 주변의 적들에게 피해를 주고 냉각시키는 동시에 땅을 냉기로 뒤덮습니다. 스킬의 피해량은 지능에 비례합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Cold] = true, [SkillType.Cascadable] = true, [SkillType.ChillingArea] = true, [SkillType.CanRapidFire] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.75,
@@ -1567,10 +1567,10 @@ skills["IcestormUniqueStaff12"] = {
 	},
 }
 skills["TriggeredIcicleNova"] = {
-	name = "Icicle Burst",
+	name = "고드름 격발",
 	hidden = true,
 	color = 4,
-	description = "This attack fires icy projectiles in a circle around enemies you hit, dealing attack damage with all physical damage converted to cold.",
+	description = "이 공격은 명중한 적들 주변에 얼음 투사체를 원형으로 발사합니다. 투사체는 모든 물리 피해를 냉기 피해로 전환하여 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Cold] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1599,10 +1599,10 @@ skills["TriggeredIcicleNova"] = {
 	},
 }
 skills["MerveilWarp"] = {
-	name = "Illusory Warp",
+	name = "환상의 차원",
 	hidden = true,
 	color = 4,
-	description = "Teleport to a target destination. Chilled ground is spread in an area around both where the caster was and where they teleported to.",
+	description = "목표 지점으로 순간이동합니다. 시전자가 원래 있던 곳과 순간이동한 곳 주변으로 얼어붙은 땅이 확산됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Movement] = true, [SkillType.Duration] = true, [SkillType.Cold] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.6,
@@ -1622,10 +1622,10 @@ skills["MerveilWarp"] = {
 	},
 }
 skills["CatsStealthTriggeredIntimidatingCry"] = {
-	name = "Intimidating Cry",
+	name = "위협의 함성",
 	hidden = true,
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which lowers the effect of enemy physical damage reduction against your hits.",
+	description = "함성을 질러 주변의 적들을 도발하여 시전자를 공격하게 하고, 이어지는 공격에 전력을 다합니다. 플레이어가 명중시키는 공격에 대한 적의 물리 피해 감소 효과를 낮추는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, [SkillType.Physical] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.25,
@@ -1683,10 +1683,10 @@ skills["SupportCastOnManaSpent"] = {
 	},
 }
 skills["LightningAegis"] = {
-	name = "Lightning Aegis",
+	name = "번개의 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes lightning damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking lightning damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 번개 피해를 받아주는 비호를 불러냅니다. 번개 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1715,12 +1715,12 @@ skills["LightningAegis"] = {
 	},
 }
 skills["LightningSpell"] = {
-	name = "Lightning Bolt",
+	name = "낙뢰",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 8,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "A bolt of lightning strikes an area, dealing lightning damage.",
+	description = "낙뢰가 지역을 공격해 번개 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggered] = true, [SkillType.Lightning] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.InbuiltTrigger] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1792,10 +1792,10 @@ skills["SupportTriggerBowSkillOnBowAttack"] = {
 	},
 }
 skills["UniqueAnimateWeapon"] = {
-	name = "Manifest Dancing Dervishes",
+	name = "춤추는 수도승 출현",
 	hidden = true,
 	color = 4,
-	description = "Manifests two Dancing Dervishes to fight by your side. While a Dancing Dervish is manifested, you have Onslaught and cannot use Weapons. Cannot be supported by supports that would create other minions.",
+	description = "춤추는 수도승 2명이 나타나 플레이어 편에서 싸웁니다. 춤추는 수도승이 나타나는 동안, 플레이어는 맹공 상태가 되고 무기는 사용할 수 없습니다. 다른 소환수를 만들어 내는 보조 스킬의 보조도 받을 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Triggerable] = true, [SkillType.InbuiltTrigger] = true, [SkillType.MinionsPersistWhenSkillRemoved] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Movement] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -1858,10 +1858,10 @@ skills["SupportUniqueMjolnerLightningSpellsCastOnHit"] = {
 	},
 }
 skills["TriggeredMoltenStrike"] = {
-	name = "Molten Burst",
+	name = "마그마 폭발",
 	hidden = true,
 	color = 1,
-	description = "Launch molten projectiles from the point of impact, causing AoE attack damage to enemies where they land.",
+	description = "충돌 지점에서 마그마 투사체를 발사해, 투사체가 떨어지는 곳의 적들에게 범위 피해를 줍니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.RangedAttack] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1886,10 +1886,10 @@ skills["TriggeredMoltenStrike"] = {
 	},
 }
 skills["PhysicalAegis"] = {
-	name = "Physical Aegis",
+	name = "물리 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes physical damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking physical damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 물리 피해를 받아주는 비호를 불러냅니다. 물리 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1936,10 +1936,10 @@ skills["SupportTriggerSpellOnAttack"] = {
 	},
 }
 skills["Portal"] = {
-	name = "Portal",
+	name = "포탈",
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Creates a portal to the current area's town.",
+	description = "현재 위치한 지역의 마을로 가는 포탈을 생성합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.TotemCastsAlone] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 2.5,
@@ -1971,10 +1971,10 @@ skills["Portal"] = {
 	},
 }
 skills["QueensDemand"] = {
-	name = "Queen's Demand",
+	name = "여왕의 요구",
 	hidden = true,
 	color = 4,
-	description = "Alternates triggering Flames of Judgement and Storm of Judgement",
+	description = "심판의 화염과 심판의 폭풍을 번갈아 발동합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Multicastable] = true, [SkillType.CanRapidFire] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1989,10 +1989,10 @@ skills["QueensDemand"] = {
 	},
 }
 skills["PrimalAegis"] = {
-	name = "Primal Aegis",
+	name = "원시 비호",
 	hidden = true,
 	color = 4,
-	description = "Calls forth a protective aegis which takes elemental damage from hits for you until depleted. The aegis will be restored to its full value after a short delay if you stop taking elemental damage from hits, or if depleted.",
+	description = "고갈될 때까지 플레이어를 대신해 원소 피해를 받아주는 비호를 불러냅니다. 원소 피해를 받지 않게 되거나 비호가 고갈되면 잠시 후 비호는 완전한 상태로 복구됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Aegis] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2015,10 +2015,10 @@ skills["PrimalAegis"] = {
 	},
 }
 skills["TriggeredSummonSpider"] = {
-	name = "Raise Spiders",
+	name = "거미 소환",
 	hidden = true,
 	color = 3,
-	description = "Raise two spectral spiders from each nearby corpse that will attack your enemies with Viper Strike. Each raised spider grants you increased Attack Speed and increased Damage with Poison. Enemies will not engage the spiders directly, and they are immune to damage.",
+	description = "주변의 시체 하나당 두 마리의 영체 거미가 소환되어 맹독 타격으로 적들을 공격합니다. 소환된 거미들로 플레이어의 공격 속도가 증가하고 독 피해가 증가합니다. 적들은 거미들을 직접 공격하지 않으며, 거미들은 피해에 면역됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.CreatesMinion] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2059,10 +2059,10 @@ skills["TriggeredSummonSpider"] = {
 	},
 }
 skills["UniqueMirageWarriors"] = {
-	name = "Reflection",
+	name = "투영",
 	hidden = true,
 	color = 4,
-	description = "When you attack with The Saviour and deal a critical strike, this skill can summon a Mirage Saviour. Summoned Mirage Saviours will fight for you using whichever of your attack skills you dealt the critical strike with that caused them to be summoned. Mirage Saviours will not be resummoned using the same skills if you already have the maximum number of them.",
+	description = "플레이어가 구원자로 공격해 치명타를 입힐 경우, 이 스킬로 신기루 구원자를 소환할 수 있습니다. 소환된 신기루 구원자는 치명타를 입힐 때 사용했던 플레이어의 공격 스킬을 사용해 적과 싸웁니다. 이미 최대 수의 신기루 구원자를 소환했다면 동일 스킬로는 신기루 구원자가 소환되지 않습니다.",
 	skillTypes = { [SkillType.Duration] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -2097,10 +2097,10 @@ skills["UniqueMirageWarriors"] = {
 	},
 }
 skills["ShadeForm"] = {
-	name = "Shade Form",
+	name = "그림자 형상",
 	hidden = true,
 	color = 4,
-	description = "Makes you immune to physical damage, and harder for enemies to detect, for a duration.",
+	description = "일정 시간 동안 물리 피해에 면역이 되고 적이 탐지하기 어렵도록 만들어 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.Buff] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2122,12 +2122,12 @@ skills["ShadeForm"] = {
 	},
 }
 skills["ShieldShatter"] = {
-	name = "Shield Shatter",
+	name = "방패 파괴",
 	hidden = true,
 	color = 1,
 	baseEffectiveness = 0.34000000357628,
 	incrementalEffectiveness = 0.045000001788139,
-	description = "Your shield shatters, dealing physical spell damage to enemies in an area, based on the shield's quality. For a short duration after this, you will be unable to block and will gain no defences from your shield, but your spells will deal added physical damage.",
+	description = "방패가 파괴되며 방패의 퀄리티에 따라 범위 내의 적에게 물리 주문 피해를 줍니다. 이후 짧은 시간 동안 막기를 사용할 수 없고 방패로부터 방어력을 얻을 수 없지만, 주문 사용 시 추가 물리 피해를 줍니다.",
 	skillTypes = { [SkillType.Damage] = true, [SkillType.Physical] = true, [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Duration] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 1,
@@ -2169,10 +2169,10 @@ skills["ShieldShatter"] = {
 	},
 }
 skills["TriggeredShockedGround"] = {
-	name = "Shock Ground",
+	name = "충격 지면",
 	hidden = true,
 	color = 4,
-	description = "Creates a patch of Shocked Ground in a radius around you.",
+	description = "주위에 일정 범위의 감전 지대를 만듭니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Lightning] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.ElementalStatus] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2197,10 +2197,10 @@ skills["TriggeredShockedGround"] = {
 	},
 }
 skills["SummonEssenceSpirits"] = {
-	name = "Spectral Spirits",
+	name = "영체 혼백",
 	hidden = true,
 	color = 3,
-	description = "Summons three invulnerable spectral skulls that rush at nearby enemies and attack them rapidly. Enemies will not engage these spirits, and can pass through them.",
+	description = "피해를 받지 않는 영체 해골 3 마리를 소환하여, 주변의 적들에게 달려들어 빠르게 공격하도록 합니다. 적들은 이 혼백을 공격할 수 없으며, 그대로 통과만 할 수 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.CreatesMinion] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2259,12 +2259,12 @@ skills["SummonEssenceSpirits"] = {
 	},
 }
 skills["SpiritBurst"] = {
-	name = "Spirit Burst",
+	name = "혼백 격발",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 1.875,
 	incrementalEffectiveness = 0.03999999910593,
-	description = "Consumes a spirit charge to fire projectiles which deals physical damage.",
+	description = "혼백 충전을 소모하여 물리 피해를 주는 투사체를 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2292,12 +2292,12 @@ skills["SpiritBurst"] = {
 	},
 }
 skills["VolatileDeadChaos"] = {
-	name = "Stalking Pustule",
+	name = "농포 확산",
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 3,
 	incrementalEffectiveness = 0.0337999984622,
-	description = "A corpse near the targeted location explodes, dealing damage in a small area and creating an orb which moves towards nearby enemies before dealing spell damage in a larger area. The explosion of the corpse is not affected by modifiers to spell damage, and cannot be reflected.",
+	description = "목표 지점 주변의 시신 1구를 폭발시켜 범위 피해를 주고, 주변의 적에게 다가가 주문 피해를 주는 구슬을 생성합니다. 시체 폭발은 주문 피해 속성 부여에 영향을 받지 않으며 반사할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Chaos] = true, [SkillType.Cascadable] = true, [SkillType.CanRapidFire] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -2329,12 +2329,12 @@ skills["VolatileDeadChaos"] = {
 	},
 }
 skills["StormCascadeTriggered"] = {
-	name = "Storm Cascade",
+	name = "태풍 폭포",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 1.7555999755859,
 	incrementalEffectiveness = 0.034600000828505,
-	description = "Lightning crackles in a series of small bursts, each damaging enemies caught in the area.",
+	description = "번개가 탁탁대며 잇달아 작은 폭발을 일으켜 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Lightning] = true, [SkillType.Physical] = true, [SkillType.InbuiltTrigger] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -2389,12 +2389,12 @@ skills["StormCascadeTriggered"] = {
 	},
 }
 skills["AtziriUniqueStaffStormCall"] = {
-	name = "Storm of Judgement",
+	name = "심판의 폭풍",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 4.0549998283386,
 	incrementalEffectiveness = 0.040500000119209,
-	description = "Creates a number of markers around the targeted location, which will explode after a duration, dealing lightning damage. Cannot be supported by Spell Cascade.",
+	description = "대상 지점 주변에 여러 개의 징표를 만듭니다. 징표는 일정 시간 후에 폭발하여 번개 피해를 줍니다. 연속 주문의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Lightning] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -2427,10 +2427,10 @@ skills["AtziriUniqueStaffStormCall"] = {
 	},
 }
 skills["SummonArbalists"] = {
-	name = "Summon Arbalists",
+	name = "석궁병 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons Arbalist minions which use projectile attacks.",
+	description = "투사체 공격을 사용하는 석궁병 소환수를 소환합니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Physical] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Spell] = true, [SkillType.CreatesMinion] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2456,10 +2456,10 @@ skills["SummonArbalists"] = {
 	},
 }
 skills["SummonBeastialRhoa"] = {
-	name = "Summon Bestial Rhoa",
+	name = "흉포한 로아 소환",
 	hidden = true,
 	color = 3,
-	description = "Summons a Bestial Rhoa. In addition to its melee attack, the Bestial Rhoa uses a charge and has an aura that intimidates enemies. This minion's hits cannot be evaded.",
+	description = "흉포한 로아를 소환합니다. 흉포한 로아는 근접 공격에 더해 돌진을 사용하며, 적들을 위협하는 오라를 발산합니다. 이 소환수의 공격은 회피할 수 없습니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2494,10 +2494,10 @@ skills["SummonBeastialRhoa"] = {
 	},
 }
 skills["SummonBeastialSnake"] = {
-	name = "Summon Bestial Snake",
+	name = "흉포한 뱀 소환",
 	hidden = true,
 	color = 3,
-	description = "Summons a Bestial Snake. The Bestial Snake fires powerful chaos projectile attacks. This minion's hits cannot be evaded.",
+	description = "흉포한 뱀을 소환합니다. 흉포한 뱀은 강력한 카오스 투사체 공격을 가합니다. 이 소환수의 공격은 회피할 수 없습니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Chains] = true, [SkillType.RangedAttack] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2533,10 +2533,10 @@ skills["SummonBeastialSnake"] = {
 	},
 }
 skills["SummonBeastialUrsa"] = {
-	name = "Summon Bestial Ursa",
+	name = "흉포한 곰 소환",
 	hidden = true,
 	color = 3,
-	description = "Summons a Bestial Ursa. In addition to its melee attack, the Bestial Ursa uses a powerful Ground Slam and Rallying Cry. This minion's hits cannot be evaded.",
+	description = "흉포한 곰을 소환합니다. 흉포한 곰은 근접 공격에 더해 강력한 대지 강타와 집결의 함성을 사용합니다. 이 소환수의 공격은 회피할 수 없습니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2572,10 +2572,10 @@ skills["SummonBeastialUrsa"] = {
 	},
 }
 skills["CursePillar"] = {
-	name = "Summon Doedre's Effigy",
+	name = "도이드리의 인형 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an effigy of Doedre, which will project auras of all the curse skill gems socketed in Doedre's Skin. These curses have less effectiveness.",
+	description = "도이드리의 인형을 소환하여, 도이드리의 가죽(Doedre's Skin)에 박힌 모든 저주 스킬 젬의 오라를 투영합니다. 해당 저주들은 효율이 떨어집니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Instant] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.5,
@@ -2618,10 +2618,10 @@ skills["SupportCursePillarTriggerCurses"] = {
 	},
 }
 skills["SummonHarbingerOfTheArcaneUber"] = {
-	name = "Summon Greater Harbinger of the Arcane",
+	name = "상위 비전의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion has two buff spells it will cast on you: Arcane Surge, granting More Spell Damage and increased Mana Regeneration, and a buff that grants Chance to Shock and Lightning Penetration.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수는 플레이어에게 2가지 버프 주문을 시전합니다. 플레이어의 주문 피해를 증폭하고 마나 재생을 증가시키는 비전 쇄도, 그리고 감전 확률과 번개 관통 효과를 부여하는 버프입니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2642,10 +2642,10 @@ skills["SummonHarbingerOfTheArcaneUber"] = {
 	},
 }
 skills["SummonHarbingerOfBrutalityUber"] = {
-	name = "Summon Greater Harbinger of Brutality",
+	name = "상위 잔인성의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. When you are near a rare or unique enemy, the minion will occasionally grant you a buff giving significantly increased Damage, Attack Speed, and Movement Speed, reducing the Damage you take, and causing Bleeding Enemies that you Kill to Explode, dealing 10% of their maximum Life as Physical Damage.",
+	description = "불멸의 선구자 소환수를 소환합니다. 희귀 또는 고유 적 주변에 있을 때, 소환수가 종종 플레이어의 피해와 공격 속도, 이동 속도를 상당 부분 증가시키고, 플레이어가 받는 피해를 감소시키며, 플레이어가 처치하는 출혈 상태의 적을 폭발시켜 적 최대 생명력의 10%를 물리 피해로 주게 하는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2666,10 +2666,10 @@ skills["SummonHarbingerOfBrutalityUber"] = {
 	},
 }
 skills["SummonHarbingerOfDirectionsUber"] = {
-	name = "Summon Greater Harbinger of Directions",
+	name = "상위 지시의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will cast a random buff on you that grants one or all of the following: Fire 2 additional Projectiles, Chain 2 additional times, Projectiles Pierce 2 additional targets, or Projectiles Fork then Fork an additional time.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수는 플레이어게 무작위로 버프를 걸어 다음 중 1개 이상의 효과를 적용합니다: 투사체 2개 추가 발사, 연쇄 2회 추가, 투사체가 추가 대상 2마리 관통, 또는 투사체가 갈라진 후 1회 추가로 갈라짐",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2690,10 +2690,10 @@ skills["SummonHarbingerOfDirectionsUber"] = {
 	},
 }
 skills["SummonHarbingerOfFocusUber"] = {
-	name = "Summon Greater Harbinger of Focus",
+	name = "상위 집중의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. While you are channelling, the minion will occasionally cast a buff on you that reduces the Damage you take, makes you avoid all Stuns and Elemental Ailments, and prevents Curses affecting you.",
+	description = "불멸의 선구자 소환수를 소환합니다. 집중 유지를 지속하는 동안 소환수가 종종 플레이어에게 버프를 걸어 받는 피해를 감소시키고 모든 기절과 원소 상태 이상 효과를 피하게 해주며, 저주의 영향을 받지 않게 해줍니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2714,10 +2714,10 @@ skills["SummonHarbingerOfFocusUber"] = {
 	},
 }
 skills["SummonHarbingerOfStormsUber"] = {
-	name = "Summon Greater Harbinger of Storms",
+	name = "상위 태풍의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will occasionally apply a Chill or Shock with increased effect to an enemy that chains to other nearby enemies.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수가 종종 적에게 보다 효과적인 냉각이나 감전을 적용시켜 주변의 다른 적들에게도 연쇄 작용을 일으킵니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.NonHitChill] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -2739,10 +2739,10 @@ skills["SummonHarbingerOfStormsUber"] = {
 	},
 }
 skills["SummonHarbingerOfTimeUber"] = {
-	name = "Summon Greater Harbinger of Time",
+	name = "상위 시간의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will occasionally create an aura on you that increases the Action Speed of you and all allies near you.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수가 종종 플레이어에게 오라를 시전하여 플레이어 및 근접한 모든 동료들의 동작 속도를 증가시킵니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2767,10 +2767,10 @@ skills["SummonHarbingerOfTimeUber"] = {
 	},
 }
 skills["SummonHarbingerOfTheArcane"] = {
-	name = "Summon Harbinger of the Arcane",
+	name = "비전의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will occasionally cast Arcane Surge on you, granting More Spell Damage and increased Mana Regeneration.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수가 종종 플레이어에게 비전 쇄도를 시전하여 플레이어의 주문 피해를 증폭하고 마나 재생을 증가시킵니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 1,
@@ -2788,10 +2788,10 @@ skills["SummonHarbingerOfTheArcane"] = {
 	},
 }
 skills["SummonHarbingerOfBrutality"] = {
-	name = "Summon Harbinger of Brutality",
+	name = "잔인성의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. When you are near a rare or unique enemy, the minion will occasionally grant you a buff giving significantly increased Damage, Attack Speed, and Movement Speed, and reducing the Damage you take.",
+	description = "불멸하는 선구자 소환수를 소환합니다. 희귀 또는 고유 적 주변에 있을 때, 소환수가 종종 플레이어의 피해와 공격 속도, 이동 속도를 상당 부분 증가시키며, 플레이어가 받는 피해를 감소시키는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 1,
@@ -2812,10 +2812,10 @@ skills["SummonHarbingerOfBrutality"] = {
 	},
 }
 skills["SummonHarbingerOfDirections"] = {
-	name = "Summon Harbinger of Directions",
+	name = "지시의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will cast a random buff on you that grants one or all of the following: 1 additional Projectile, +1 Chain, Pierce 1 additional Target, or Projectiles Fork.",
+	description = "불멸하는 선구자 소환수를 소환합니다. 소환수가 종종 플레이어게 무작위로 버프를 걸어 다음 중 1개 이상의 효과를 적용시킵니다: 투사체 추가 +1, 연쇄 +1, 대상 관통 추가 +1, 또는 갈래 투사체",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 1,
@@ -2836,10 +2836,10 @@ skills["SummonHarbingerOfDirections"] = {
 	},
 }
 skills["SummonHarbingerOfFocus"] = {
-	name = "Summon Harbinger of Focus",
+	name = "집중의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. While you are channelling, the minion will occasionally cast a buff on you that reduces the Damage you take, and makes you avoid all Stuns and Elemental Ailments.",
+	description = "불멸의 선구자 소환수를 소환합니다. 집중 유지를 지속하는 동안 소환수가 종종 플레이어에게 버프를 걸어, 받는 피해를 감소시키고 모든 기절과 원소 상태 이상 효과를 피하게 해줍니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 1,
@@ -2860,10 +2860,10 @@ skills["SummonHarbingerOfFocus"] = {
 	},
 }
 skills["SummonHarbingerOfStorms"] = {
-	name = "Summon Harbinger of Storms",
+	name = "폭풍의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will occasionally apply a Chill or Shock to an enemy that chains to other nearby enemies.",
+	description = "불멸하는 선구자 소환수를 소환합니다. 소환수가 종종 적에게 냉각이나 감전을 적용시켜 주변의 다른 적들에게도 연쇄 작용을 일으킵니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.NonHitChill] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2885,10 +2885,10 @@ skills["SummonHarbingerOfStorms"] = {
 	},
 }
 skills["SummonHarbingerOfTime"] = {
-	name = "Summon Harbinger of Time",
+	name = "시간의 선구자 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons an immortal Harbinger minion. The minion will occasionally create an aura on you that increases the Action Speed of you, and all allies and enemies near you.",
+	description = "불멸의 선구자 소환수를 소환합니다. 소환수가 종종 플레이어에게 오라를 시전하여 플레이어 및 근접한 모든 동료들과 적들의 동작 속도를 증가시킵니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 1,
@@ -2916,7 +2916,7 @@ skills["TriggeredSummonGhostOnKill"] = {
 	name = "Triggered Summon Phantasm",
 	hidden = true,
 	color = 3,
-	description = "Summons a Phantasm minion, which uses a piercing projectile spell that deals physical damage.",
+	description = "환영 소환수를 소환합니다. 관통성 투사체 주문을 사용하여 물리 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.CreatesMinion] = true, },
 	minionSkillTypes = { [SkillType.Duration] = true, [SkillType.Projectile] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -2950,10 +2950,10 @@ skills["TriggeredSummonGhostOnKill"] = {
 	},
 }
 skills["SummonRigwaldsPack"] = {
-	name = "Summon Spectral Wolf",
+	name = "영체 늑대 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons a spectral wolf companion that attacks nearby enemies and dies after a duration. Each spectral wolf grants you a buff that adds damage to your attacks. If you have the maximum number of them, refreshes the duration and life of an existing one instead.",
+	description = "주변의 적들을 공격하고 일정 시간 후에 죽는 영체 늑대 동료를 소환합니다. 각각의 영체 늑대는 시전자에게 공격 피해를 추가하는 버프를 부여합니다. 이미 소환된 영체 늑대의 수가 최대치라면 기존 영체 늑대 1마리의 지속시간과 생명력이 초기화됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.CreatesMinion] = true, [SkillType.Buff] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -3002,10 +3002,10 @@ skills["SummonRigwaldsPack"] = {
 	},
 }
 skills["SummonTauntingContraption"] = {
-	name = "Summon Taunting Contraption",
+	name = "도발 장치 소환",
 	hidden = true,
 	color = 4,
-	description = "Summons a Taunting Contraption that taunts nearby enemies to attack it.",
+	description = "주변 적들을 도발하여 장치를 공격하게 만드는 도발 장치를 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.CreatesMinion] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Buff] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
 	castTime = 0,
@@ -3036,7 +3036,7 @@ skills["SummonVoidSphere"] = {
 	color = 3,
 	baseEffectiveness = 3.4818000793457,
 	incrementalEffectiveness = 0.035599999129772,
-	description = "Creates an orb which moves towards nearby enemies, exploding after a duration or when it gets close enough. The explosion deals cold spell damage in an area, and leaves behind a Vortex on the ground for a secondary duration which continues to deal cold damage over time and chill enemies caught in it.",
+	description = "주변의 적들을 향하여 움직이는 구슬을 만듭니다. 지속시간이 지나거나 근접 시 폭발합니다. 폭발은 범위 내에 냉기 주문 피해를 주고, 2차 지속시간을 갖는 소용돌이를 만듭니다. 소용돌이는 지속 냉기 피해를 주며 붙잡힌 적들을 냉각시킵니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Cold] = true, [SkillType.ChillingArea] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -3070,10 +3070,10 @@ skills["SummonVoidSphere"] = {
 	},
 }
 skills["SummonMirageChieftain"] = {
-	name = "Tawhoa's Chosen",
+	name = "타호아의 선택받은 자",
 	hidden = true,
 	color = 1,
-	description = "This skill is triggered when you use a Slam skill, and summons a Mirage Chieftain who will use that Slam skill once before dissipating.",
+	description = "이 스킬은 강타 스킬을 사용하면 발동하여 신기루 부족장을 소환합니다. 신기루 부족장은 해당 강타 스킬을 한 번 사용하고 소멸합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Instant] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -3096,10 +3096,10 @@ skills["SummonMirageChieftain"] = {
 	},
 }
 skills["TentacleSmash"] = {
-	name = "Tentacle Whip",
+	name = "촉수 채찍",
 	hidden = true,
 	color = 4,
-	description = "This attack causes three otherworldly tentacles to strike the ground around you, each dealing your attack damage in an area.",
+	description = "이계의 촉수 3개를 소환하여 주위의 지면을 강타합니다. 각각의 촉수는 범위 내에서 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -3120,10 +3120,10 @@ skills["TentacleSmash"] = {
 	},
 }
 skills["VampiricIcon"] = {
-	name = "Thirst for Blood",
+	name = "피의 갈증",
 	hidden = true,
 	color = 4,
-	description = "Reserves some of your life to cause bleeding you inflict to be stronger, and grant life regeneration based on the number bleeding enemies nearby.",
+	description = "생명력의 일부를 점유하여 플레이어가 유발하는 출혈의 효과를 증폭하고, 주변의 출혈 중인 적의 숫자에 비례하여 생명력 재생을 제공합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.HasReservation] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0,
@@ -3175,12 +3175,12 @@ skills["SupportTriggerSpellOnSkillUse"] = {
 	},
 }
 skills["AvianTornado"] = {
-	name = "Twister",
+	name = "돌개바람",
 	hidden = true,
 	color = 3,
 	baseEffectiveness = 2.1300001144409,
 	incrementalEffectiveness = 0.02559999935329,
-	description = "Launches an unpredictable, piercing twister projectile that moves randomly for a duration, repeatedly dealing damage to enemies it intersects.",
+	description = "예측 불가능한 관통성 돌개바람 투사체를 발사합니다. 돌개바람은 일정 시간 동안 무작위로 이동하며 만나는 적들에게 반복적으로 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Damage] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.65,
@@ -3211,10 +3211,10 @@ skills["AvianTornado"] = {
 	},
 }
 skills["Unhinge"] = {
-	name = "Unhinge",
+	name = "흐트러뜨리기",
 	hidden = true,
 	color = 4,
-	description = "Relinquish your grip on reality.",
+	description = "현실 감각을 잃습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.HasReservation] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -3230,10 +3230,10 @@ skills["Unhinge"] = {
 	},
 }
 skills["HiddenBlade"] = {
-	name = "Unseen Strike",
+	name = "보이지 않는 일격",
 	hidden = true,
 	color = 2,
-	description = "Launches a spinning blade that deals weapon damage to enemies. If firing multiple projectiles, they will be fired in a circle.",
+	description = "회전하는 칼날을 발사해 적에게 무기 피해를 줍니다. 여러 개의 투사체를 발사하는 경우, 원형으로 발사합니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Triggerable] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Physical] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["Claw"] = true,
@@ -3261,10 +3261,10 @@ skills["HiddenBlade"] = {
 	},
 }
 skills["VaalBreach"] = {
-	name = "Vaal Breach",
+	name = "바알 균열",
 	color = 4,
 	baseEffectiveness = 0,
-	description = "Creates a breach, making you vulnerable to its powerful inhabitants.",
+	description = "균열이 생성됩니다. 그 균열로부터 나온 생물들에게 공격받습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Vaal] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 2.5,
@@ -3295,10 +3295,10 @@ skills["VaalBreach"] = {
 	},
 }
 skills["VoidGaze"] = {
-	name = "Void Gaze",
+	name = "공허의 응시",
 	hidden = true,
 	color = 3,
-	description = "Applies a debuff to Enemies, removing some of their resistance to Chaos damage.",
+	description = "공허의 응시적들에게 디버프를 걸어, 카오스 피해에 대한 저항을 일부 제거합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Chaos] = true, [SkillType.Area] = true, [SkillType.Totemable] = true, [SkillType.Duration] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.Triggered] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0.21,
@@ -3325,10 +3325,10 @@ skills["VoidGaze"] = {
 	},
 }
 skills["VoidShot"] = {
-	name = "Void Shot",
+	name = "공허 사격",
 	hidden = true,
 	color = 4,
-	description = "Fires an arrow which decelerates to the target location, the arrow will then become unstable and explode dealing weapon damage in an area, converting half of the physical damage to cold damage.",
+	description = "화살을 발사하면 속도가 줄어들며 목표 지점에 도달합니다. 해당 화살은 점차 흔들리며 폭발하여 범위 내에 무기 피해를 줍니다. 물리 피해의 절반을 냉기 피해로 전환합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Projectile] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Cold] = true, [SkillType.ProjectilesFromUser] = true, },
 	weaponTypes = {
 		["Bow"] = true,

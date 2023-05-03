@@ -2,2978 +2,3240 @@
 -- Item data (c) Grinding Gear Games
 
 return {
-	["Absolution"] = {
-		["MERCILESS"] = {
-			"20% increased Sentinel of Absolution Duration",
-			"8% increased Absolution Cast Speed",
-			"Summoned Sentinels of Absolution have 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"30% increased Sentinel of Absolution Duration",
-			"12% increased Absolution Cast Speed",
-			"Summoned Sentinels of Absolution have 24% increased Area of Effect",
-		},
-	},
-	["Alchemist's Mark"] = {
-		["MERCILESS"] = {
-			"20% increased Alchemist's Mark Curse Effect",
-		},
-		["ENDGAME"] = {
-			"30% increased Alchemist's Mark Curse Effect",
-		},
-	},
-	["Ambush"] = {
-		["MERCILESS"] = {
-			"20% increased Ambush Cooldown Recovery Rate",
-			"Attacks Exerted by Ambush have +25% to Critical Strike Multiplier",
-		},
-		["ENDGAME"] = {
-			"30% increased Ambush Cooldown Recovery Rate",
-			"Attacks Exerted by Ambush have +40% to Critical Strike Multiplier",
-		},
-	},
-	["Ancestral Cry"] = {
-		["MERCILESS"] = {
-			"Attacks Exerted by Ancestral Cry deal 35% increased Damage",
-		},
-		["ENDGAME"] = {
-			"Attacks Exerted by Ancestral Cry deal 50% increased Damage",
-			"Ancestral Cry has a minimum of 10 Power",
-		},
-	},
 	["Ancestral Protector"] = {
 		["MERCILESS"] = {
-			"Ancestral Protector Totem deals 25% increased Damage",
-			"12% increased Ancestral Protector Totem Placement Speed",
-			"+24% to Ancestral Protector Totem Elemental Resistances",
-			"Ancestral Protector Totem grants 12% increased Attack Speed while Active",
+			"선대의 수호자 토템이 활성 상태인 동안 공격 속도 12% 증가",
 		},
 		["ENDGAME"] = {
-			"Ancestral Protector Totem deals 40% increased Damage",
-			"18% increased Ancestral Protector Totem Placement Speed",
-			"+36% to Ancestral Protector Totem Elemental Resistances",
-			"Ancestral Protector Totem grants 18% increased Attack Speed while Active",
+			"선대의 수호자 토템이 활성 상태인 동안 공격 속도 18% 증가",
 		},
 	},
 	["Ancestral Warchief"] = {
 		["MERCILESS"] = {
-			"25% increased Ancestral Warchief Totem Damage",
-			"16% increased Ancestral Warchief Totem Area of Effect",
-			"Ancestral Warchief Totem grants 20% increased Melee Damage while Active",
+			"선대의 대전사 토템이 활성 상태인 동안 토템의 근접 피해 20% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Ancestral Warchief Totem Damage",
-			"24% increased Ancestral Warchief Totem Area of Effect",
-			"Ancestral Warchief Totem grants 30% increased Melee Damage while Active",
-		},
-	},
-	["Anger"] = {
-		["MERCILESS"] = {
-			"Anger has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Anger has 30% increased Mana Reservation Efficiency",
+			"선대의 대전사 토템이 활성 상태인 동안 토템의 근접 피해 30% 증가",
 		},
 	},
 	["Animate Guardian"] = {
 		["MERCILESS"] = {
-			"Animated Guardians deal 25% increased Damage",
-			"+24% to Animated Guardian Elemental Resistances",
+			"기동된 수호자가 주는 피해 25% 증가",
+			"기동된 수호자 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Animated Guardians deal 40% increased Damage",
-			"+36% to Animated Guardian Elemental Resistances",
+			"기동된 수호자가 주는 피해 40% 증가",
+			"기동된 수호자 원소 저항 +36%",
 		},
 	},
 	["Animate Weapon"] = {
 		["MERCILESS"] = {
-			"Animated Weapons deal 25% increased Damage",
-			"20% increased Animate Weapon Duration",
-			"16% chance to create an additional Animate Weapon copy",
+			"기동된 무기가 주는 피해 25% 증가",
+			"16%의 확률로 무기 기동 복제본 1개 추가 생성",
 		},
 		["ENDGAME"] = {
-			"Animated Weapons deal 40% increased Damage",
-			"30% increased Animate Weapon Duration",
-			"24% chance to create an additional Animate Weapon copy",
-		},
-	},
-	["Arc"] = {
-		["MERCILESS"] = {
-			"25% increased Arc Damage",
-			"Arc has +20% chance to Shock",
-			"Arc deals 8% increased Damage for each time it has Chained",
-		},
-		["ENDGAME"] = {
-			"40% increased Arc Damage",
-			"Arc Chains an additional time",
-			"Arc has +30% chance to Shock",
-			"Arc deals 12% increased Damage for each time it has Chained",
-		},
-	},
-	["Arcane Cloak"] = {
-		["MERCILESS"] = {
-			"Arcane Cloak Spends an additional 10% of current Mana",
-		},
-		["ENDGAME"] = {
-			"Arcane Cloak Spends an additional 15% of current Mana",
-			"Arcane Cloak grants Life Regeneration equal to 15% of Mana Spent per Second",
+			"기동된 무기가 주는 피해 40% 증가",
+			"24%의 확률로 무기 기동 복제본 1개 추가 생성",
 		},
 	},
 	["Arcanist Brand"] = {
-		["MERCILESS"] = {
-			"Arcanist Brand has 8% increased Cast Speed",
-		},
 		["ENDGAME"] = {
-			"Arcanist Brand has 12% increased Cast Speed",
-			"Spells Triggered by Arcanist Brand Unnerve enemies on Hit for 4 seconds",
-		},
-	},
-	["Arctic Armour"] = {
-		["MERCILESS"] = {
-			"Arctic Armour has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Arctic Armour has 75% increased Mana Reservation Efficiency",
-		},
-	},
-	["Armageddon Brand"] = {
-		["MERCILESS"] = {
-			"Armageddon Brand deals 25% increased Damage",
-			"Armageddon Brand has 8% increased Activation Frequency",
-			"Armageddon Brand Damage Penetrates 8% of Branded Enemy's Fire Resistance",
-		},
-		["ENDGAME"] = {
-			"Armageddon Brand deals 40% increased Damage",
-			"Armageddon Brand has 12% increased Activation Frequency",
-			"Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance",
+			"신비학자 낙인으로 발동한 주문이 명중 시 4초 동안 적 낙담 유발",
 		},
 	},
 	["Artillery Ballista"] = {
 		["MERCILESS"] = {
-			"Artillery Ballista Damage Penetrates 6% Fire Resistance",
-			"Artillery Ballista fires an additional Arrow",
+			"포대 쇠뇌 피해가 6%의 화염 저항 관통",
+			"포대 쇠뇌 사용 시 화살 1개 추가 발사",
 		},
 		["ENDGAME"] = {
-			"Artillery Ballista Damage Penetrates 10% Fire Resistance",
-			"Artillery Ballista fires 2 additional Arrows",
-			"Artillery Ballista Projectiles fall in two perpendicular lines instead",
-		},
-	},
-	["Assassin's Mark"] = {
-		["MERCILESS"] = {
-			"20% increased Assassin's Mark Curse Effect",
-		},
-		["ENDGAME"] = {
-			"30% increased Assassin's Mark Curse Effect",
-		},
-	},
-	["Ball Lightning"] = {
-		["MERCILESS"] = {
-			"25% increased Ball Lightning Damage",
-			"16% increased Ball Lightning Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Ball Lightning Damage",
-			"24% increased Ball Lightning Area of Effect",
-			"Ball Lightning fires an additional Projectile",
+			"포대 쇠뇌 피해가 10%의 화염 저항 관통",
+			"포대 쇠뇌 사용 시 화살 2개 추가 발사",
+			"포대 쇠뇌의 투사체가 2개의 수직선 형태로 떨어짐",
 		},
 	},
 	["Bane"] = {
-		["MERCILESS"] = {
-			"Bane deals 25% increased Damage",
-			"Bane has 16% increased Area of Effect",
-		},
 		["ENDGAME"] = {
-			"Bane deals 40% increased Damage",
-			"Bane has 24% increased Area of Effect",
-			"10% increased Effect of Curses applied by Bane",
-		},
-	},
-	["Barrage"] = {
-		["MERCILESS"] = {
-			"25% increased Barrage Damage",
-			"10% increased Barrage Attack Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Barrage Damage",
-			"15% increased Barrage Attack Speed",
-			"Barrage fires an additional Projectile",
-		},
-	},
-	["Battlemage's Cry"] = {
-		["MERCILESS"] = {
-			"10% increased Battlemage's Cry Buff Effect",
-		},
-		["ENDGAME"] = {
-			"15% increased Battlemage's Cry Buff Effect",
-			"Battlemage's Cry Exerts 1 additional Attack",
-		},
-	},
-	["Bear Trap"] = {
-		["MERCILESS"] = {
-			"25% increased Bear Trap Damage",
-			"Bear Trap has 10% increased Cooldown Recovery Rate",
-			"Enemies affected by Bear Trap take 5% increased Damage from Trap or Mine Hits",
-		},
-		["ENDGAME"] = {
-			"40% increased Bear Trap Damage",
-			"Bear Trap has 15% increased Cooldown Recovery Rate",
-			"Enemies affected by Bear Trap take 10% increased Damage from Trap or Mine Hits",
+			"파멸의 저주 효과 10% 증가",
 		},
 	},
 	["Berserk"] = {
 		["MERCILESS"] = {
-			"Berserk has 25% reduced Rage loss per second",
-			"Berserk has 20% increased Buff Effect",
+			"1초마다 광폭의 격노 상실 25% 감소",
 		},
 		["ENDGAME"] = {
-			"Berserk has 40% reduced Rage loss per second",
-			"Berserk has 30% increased Buff Effect",
+			"1초마다 광폭의 격노 상실 40% 감소",
 		},
 	},
 	["Blade Blast"] = {
 		["MERCILESS"] = {
-			"Blade Blast has 16% increased Area of Effect",
-			"Blade Blast detonates other Lingering Blades within an 50% increased Area",
-			"Blade Blast deals 25% increased Damage",
+			"칼날 폭격이 다른 지속되는 칼날을 폭발시키는 범위 50% 증가",
 		},
 		["ENDGAME"] = {
-			"Blade Blast has 24% increased Area of Effect",
-			"Blade Blast detonates other Lingering Blades within an 75% increased Area",
-			"Blade Blast deals 40% increased Damage",
+			"칼날 폭격이 다른 지속되는 칼날을 폭발시키는 범위 75% 증가",
 		},
 	},
 	["Blade Flurry"] = {
-		["MERCILESS"] = {
-			"25% increased Blade Flurry Damage",
-			"16% increased Blade Flurry Area of Effect",
-		},
 		["ENDGAME"] = {
-			"40% increased Blade Flurry Damage",
-			"24% increased Blade Flurry Area of Effect",
-			"+1 to maximum Blade Flurry stages",
+			"최대 질풍의 칼날 단계 +1",
 		},
 	},
 	["Blade Trap"] = {
-		["MERCILESS"] = {
-			"25% increased Blade Trap Damage",
-			"16% increased Blade Trap Area of Effect",
-		},
 		["ENDGAME"] = {
-			"40% increased Blade Trap Damage",
-			"24% increased Blade Trap Area of Effect",
-			"Blade Trap rotates +1 times",
-		},
-	},
-	["Blade Vortex"] = {
-		["MERCILESS"] = {
-			"25% increased Blade Vortex Spell Damage",
-			"20% increased Blade Vortex Duration",
-			"16% increased Blade Vortex Area of Effect",
-			"Blade Vortex has +2% to Critical Strike Multiplier for each blade",
-		},
-		["ENDGAME"] = {
-			"40% increased Blade Vortex Spell Damage",
-			"30% increased Blade Vortex Duration",
-			"24% increased Blade Vortex Area of Effect",
-			"Blade Vortex has +3% to Critical Strike Multiplier for each blade",
+			"칼날 덫 회전 +1회",
 		},
 	},
 	["Bladefall"] = {
-		["MERCILESS"] = {
-			"25% increased Bladefall Damage",
-			"60% increased Bladefall Critical Strike Chance",
-			"16% increased Bladefall Area of Effect",
-		},
 		["ENDGAME"] = {
-			"40% increased Bladefall Damage",
-			"90% increased Bladefall Critical Strike Chance",
-			"24% increased Bladefall Area of Effect",
-			"Bladefall has an additional Volley",
+			"칼날비에 칼날 1개 추가",
 		},
 	},
 	["Bladestorm"] = {
 		["MERCILESS"] = {
-			"Sand Bladestorms move with 50% increased speed",
-			"Bladestorm deals 25% increased Damage",
+			"모래 칼날 폭풍 이동 속도 50% 증가",
 		},
 		["ENDGAME"] = {
-			"+1 to maximum number of Bladestorms",
-			"Sand Bladestorms move with 75% increased speed",
-			"Bladestorm deals 40% increased Damage",
-		},
-	},
-	["Blast Rain"] = {
-		["MERCILESS"] = {
-			"Blast Rain deals 25% increased Damage",
-			"Blast Rain has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Blast Rain deals 40% increased Damage",
-			"Blast Rain has 24% increased Area of Effect",
-			"Blast Rain fires an additional Arrow",
+			"모래 칼날 폭풍 이동 속도 75% 증가",
 		},
 	},
 	["Blazing Salvo"] = {
 		["MERCILESS"] = {
-			"Blazing Salvo deals 25% increased Damage",
-			"Blazing Salvo Projectiles land in a 20% increased Area",
+			"맹렬한 포격 투사체가 떨어지는 범위 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Blazing Salvo deals 40% increased Damage",
-			"Blazing Salvo fires an additional Projectile",
-			"Blazing Salvo Projectiles land in a 30% increased Area",
-		},
-	},
-	["Blight"] = {
-		["MERCILESS"] = {
-			"25% increased Blight Damage",
-			"16% increased Blight Area of Effect",
-			"Blight has 20% increased Hinder Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Blight Damage",
-			"24% increased Blight Area of Effect",
-			"Blight has 30% increased Hinder Duration",
-		},
-	},
-	["Blink Arrow"] = {
-		["MERCILESS"] = {
-			"Blink Arrow and Blink Arrow Clones have 25% increased Damage",
-			"Blink Arrow and Blink Arrow Clones have 10% increased Attack Speed",
-			"Blink Arrow has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Blink Arrow and Blink Arrow Clones have 40% increased Damage",
-			"Blink Arrow and Blink Arrow Clones have 15% increased Attack Speed",
-			"Blink Arrow has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Blood Rage"] = {
-		["MERCILESS"] = {
-			"Blood Rage grants additional 8% increased Attack Speed",
-			"Blood Rage grants additional 20% chance to gain a Frenzy Charge on Kill",
-		},
-		["ENDGAME"] = {
-			"Blood Rage grants additional 12% increased Attack Speed",
-			"Blood Rage grants additional 30% chance to gain a Frenzy Charge on Kill",
-		},
-	},
-	["Blood and Sand"] = {
-		["MERCILESS"] = {
-			"Blood and Sand has 25% increased Buff Effect",
-		},
-		["ENDGAME"] = {
-			"Blood and Sand has 40% increased Buff Effect",
-		},
-	},
-	["Bodyswap"] = {
-		["MERCILESS"] = {
-			"25% increased Bodyswap Damage",
-			"8% increased Bodyswap Cast Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Bodyswap Damage",
-			"12% increased Bodyswap Cast Speed",
-		},
-	},
-	["Bone Offering"] = {
-		["MERCILESS"] = {
-			"30% increased Bone Offering Duration",
-			"Bone Offering grants an additional +6% Chance to Block Attack Damage",
-		},
-		["ENDGAME"] = {
-			"45% increased Bone Offering Duration",
-			"Bone Offering grants an additional +9% Chance to Block Attack Damage",
-		},
-	},
-	["Boneshatter"] = {
-		["MERCILESS"] = {
-			"25% increased Boneshatter Damage",
-			"25% increased Boneshatter Stun Duration",
-			"Boneshatter has 16% chance to grant +1 Trauma",
-		},
-		["ENDGAME"] = {
-			"40% increased Boneshatter Damage",
-			"40% increased Boneshatter Stun Duration",
-			"Boneshatter has 24% chance to grant +1 Trauma",
-		},
-	},
-	["Burning Arrow"] = {
-		["MERCILESS"] = {
-			"25% increased Burning Arrow Damage",
-			"Burning Arrow has +20% chance to Ignite",
-			"10% of Burning Arrow Physical Damage gained as Extra Fire Damage",
-		},
-		["ENDGAME"] = {
-			"40% increased Burning Arrow Damage",
-			"Burning Arrow has +30% chance to Ignite",
-			"15% of Burning Arrow Physical Damage gained as Extra Fire Damage",
-		},
-	},
-	["Caustic Arrow"] = {
-		["MERCILESS"] = {
-			"25% increased Caustic Arrow Damage",
-			"20% increased Caustic Arrow Duration",
-			"16% increased Caustic Arrow Area of Effect",
-			"Caustic Arrow has 14% chance to inflict Withered on Hit for 2 seconds base Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Caustic Arrow Damage",
-			"30% increased Caustic Arrow Duration",
-			"24% increased Caustic Arrow Area of Effect",
-			"Caustic Arrow has 20% chance to inflict Withered on Hit for 2 seconds base Duration",
+			"맹렬한 포격 투사체가 떨어지는 범위 30% 증가",
 		},
 	},
 	["Chain Hook"] = {
 		["MERCILESS"] = {
-			"Chain Hook has a 25% chance to grant +1 Rage if it Hits Enemies",
-			"Chain Hook deals 25% increased Damage",
+			"사슬 갈고리로 적 명중 시 25% 확률로 격노 +1 획득",
 		},
 		["ENDGAME"] = {
-			"Chain Hook has a 40% chance to grant +1 Rage if it Hits Enemies",
-			"Chain Hook has +1 Radius per 12 Rage",
-			"Chain Hook deals 40% increased Damage",
+			"사슬 갈고리로 적 명중 시 40% 확률로 격노 +1 획득",
+			"격노 12당 사슬 갈고리의 효과 범위 +1",
 		},
 	},
 	["Charged Dash"] = {
 		["MERCILESS"] = {
-			"25% increased Charged Dash Damage",
-			"Charged Dash has +4 to Radius of each Wave's last damage Area",
-			"Charged Dash has 10% more Movement Speed",
+			"충전 질주의 각 파도의 마지막 피해 반경 +4",
 		},
 		["ENDGAME"] = {
-			"40% increased Charged Dash Damage",
-			"Charged Dash has +6 to Radius of each Wave's last damage Area",
-			"Charged Dash has 15% more Movement Speed",
-		},
-	},
-	["Clarity"] = {
-		["MERCILESS"] = {
-			"Clarity has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Clarity has 75% increased Mana Reservation Efficiency",
-		},
-	},
-	["Cleave"] = {
-		["MERCILESS"] = {
-			"25% increased Cleave Damage",
-			"10% increased Cleave Attack Speed",
-			"16% increased Cleave Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Cleave Damage",
-			"15% increased Cleave Attack Speed",
-			"24% increased Cleave Area of Effect",
-		},
-	},
-	["Cobra Lash"] = {
-		["MERCILESS"] = {
-			"Cobra Lash deals 25% increased Damage",
-			"Cobra Lash has 20% increased Projectile Speed",
-			"Cobra Lash Chains 2 additional times",
-		},
-		["ENDGAME"] = {
-			"Cobra Lash deals 40% increased Damage",
-			"Cobra Lash has 30% increased Projectile Speed",
-			"Cobra Lash Chains 3 additional times",
-		},
-	},
-	["Cold Snap"] = {
-		["MERCILESS"] = {
-			"25% increased Cold Snap Damage",
-			"Cold Snap has 20% increased Cooldown Recovery Rate",
-			"16% increased Cold Snap Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Cold Snap Damage",
-			"Cold Snap has 30% increased Cooldown Recovery Rate",
-			"24% increased Cold Snap Area of Effect",
-		},
-	},
-	["Combust"] = {
-		["ENDGAME"] = {
-			"Combust has 30% increased Area of Effect",
-		},
-	},
-	["Conductivity"] = {
-		["MERCILESS"] = {
-			"10% increased Conductivity Curse Effect",
-			"30% increased Conductivity Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Conductivity Curse Effect",
-			"45% increased Conductivity Duration",
-		},
-	},
-	["Consecrated Path"] = {
-		["MERCILESS"] = {
-			"Consecrated Path deals 25% increased Damage",
-			"Consecrated Path has 10% increased teleport range",
-			"Consecrated Path has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Consecrated Path deals 40% increased Damage",
-			"Consecrated Path has 15% increased teleport range",
-			"Consecrated Path has 24% increased Area of Effect",
-		},
-	},
-	["Contagion"] = {
-		["MERCILESS"] = {
-			"25% increased Contagion Damage",
-			"20% increased Contagion Duration",
-			"16% increased Contagion Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Contagion Damage",
-			"30% increased Contagion Duration",
-			"24% increased Contagion Area of Effect",
+			"충전 질주의 각 파도의 마지막 피해 반경 +6",
 		},
 	},
 	["Conversion Trap"] = {
 		["MERCILESS"] = {
-			"Converted Enemies have 25% increased Damage",
-			"Conversion Trap 20% increased Cooldown Recovery Rate",
+			"전환된 적의 피해 25% 증가",
+			"전향 덫의 재사용 대기시간 회복 속도 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Converted Enemies have 40% increased Damage",
-			"Conversion Trap 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Convocation"] = {
-		["MERCILESS"] = {
-			"Convocation has 20% increased Cooldown Recovery Rate",
-			"24% increased Convocation Buff Effect",
-		},
-		["ENDGAME"] = {
-			"Convocation has 30% increased Cooldown Recovery Rate",
-			"36% increased Convocation Buff Effect",
-		},
-	},
-	["Corrupting Fever"] = {
-		["MERCILESS"] = {
-			"Corrupting Fever deals 25% increased Damage",
-			"20% increased Corrupting Fever Duration",
-		},
-		["ENDGAME"] = {
-			"Corrupting Fever deals 40% increased Damage",
-			"30% increased Corrupting Fever Duration",
-			"Corrupting Fever has +50% chance to inflict an additional Corrupted Blood Debuff",
+			"전환된 적의 피해 40% 증가",
+			"전향 덫의 재사용 대기시간 회복 속도 30% 증가",
 		},
 	},
 	["Crackling Lance"] = {
 		["MERCILESS"] = {
-			"Crackling Lance deals 25% increased Damage",
-			"Crackling Lance has 8% increased Cast Speed",
-			"Crackling Lance has 24% increased branching angle",
+			"치직대는 창의 갈라지는 각도 24% 증가",
 		},
 		["ENDGAME"] = {
-			"Crackling Lance deals 40% increased Damage",
-			"Crackling Lance has 16% increased Cast Speed",
-			"Crackling Lance has 36% increased branching angle",
-		},
-	},
-	["Creeping Frost"] = {
-		["MERCILESS"] = {
-			"25% increased Creeping Frost Damage",
-			"24% increased Creeping Frost Duration",
-			"16% increased Creeping Frost Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Creeping Frost Damage",
-			"36% increased Creeping Frost Duration",
-			"24% increased Creeping Frost Area of Effect",
-			"Creeping Frost's Chilling Area has 38% increased Movement Speed",
+			"치직대는 창의 갈라지는 각도 36% 증가",
 		},
 	},
 	["Cremation"] = {
-		["MERCILESS"] = {
-			"25% increased Cremation Damage",
-			"8% increased Cremation Cast Speed",
-		},
 		["ENDGAME"] = {
-			"Cremation can have up to 1 additional Geyser at a time",
-			"40% increased Cremation Damage",
-			"12% increased Cremation Cast Speed",
-		},
-	},
-	["Cyclone"] = {
-		["MERCILESS"] = {
-			"25% increased Cyclone Damage",
-			"10% increased Cyclone Attack Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Cyclone Damage",
-			"15% increased Cyclone Attack Speed",
-		},
-	},
-	["Dark Pact"] = {
-		["MERCILESS"] = {
-			"25% increased Dark Pact Damage",
-			"8% increased Dark Pact Cast Speed",
-			"16% increased Dark Pact Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Dark Pact Damage",
-			"12% increased Dark Pact Cast Speed",
-			"24% increased Dark Pact Area of Effect",
-		},
-	},
-	["Dash"] = {
-		["MERCILESS"] = {
-			"Dash travels 65% increased distance",
-			"Dash has +1 Cooldown Use",
-		},
-		["ENDGAME"] = {
-			"Dash travels 100% increased distance",
-			"Dash has +2 Cooldown Uses",
-		},
-	},
-	["Decoy Totem"] = {
-		["MERCILESS"] = {
-			"40% increased Decoy Totem Life",
-			"16% increased Decoy Totem Area of Effect",
-		},
-		["ENDGAME"] = {
-			"60% increased Decoy Totem Life",
-			"24% increased Decoy Totem Area of Effect",
-		},
-	},
-	["Defiance Banner"] = {
-		["MERCILESS"] = {
-			"Defiance Banner has 25% increased Aura Effect",
-		},
-		["ENDGAME"] = {
-			"Defiance Banner has 40% increased Aura Effect",
+			"시체 소각이 1회에 유지할 수 있는 간헐천 최대 1개 추가",
 		},
 	},
 	["Desecrate"] = {
 		["MERCILESS"] = {
-			"Desecrate Spawns 2 additional corpses",
+			"모독이 시신 2구 추가 생성",
 		},
 		["ENDGAME"] = {
-			"Desecrate Spawns 3 additional corpses",
-		},
-	},
-	["Despair"] = {
-		["MERCILESS"] = {
-			"30% increased Despair Duration",
-			"10% increased Despair Curse Effect",
-		},
-		["ENDGAME"] = {
-			"45% increased Despair Duration",
-			"15% increased Despair Curse Effect",
-		},
-	},
-	["Destructive Link"] = {
-		["MERCILESS"] = {
-			"20% increased Destructive Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Destructive Link Duration",
+			"모독이 시신 3구 추가 생성",
 		},
 	},
 	["Determination"] = {
 		["MERCILESS"] = {
-			"Determination has 20% increased Mana Reservation Efficiency",
+			"결의의 마나 점유 효율 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Determination has 30% increased Mana Reservation Efficiency",
+			"결의의 마나 점유 효율 30% 증가",
 		},
 	},
 	["Detonate Dead"] = {
 		["MERCILESS"] = {
-			"25% increased Detonate Dead Damage",
-			"Detonate Dead has a 30% chance to detonate an additional corpse",
-			"16% increased Detonate Dead Area of Effect",
+			"시체 폭발이 30%의 확률로 시체 1구 추가 폭발",
 		},
 		["ENDGAME"] = {
-			"40% increased Detonate Dead Damage",
-			"Detonate Dead has a 45% chance to detonate an additional corpse",
-			"24% increased Detonate Dead Area of Effect",
+			"시체 폭발이 45%의 확률로 시체 1구 추가 폭발",
 		},
 	},
 	["Devouring Totem"] = {
 		["MERCILESS"] = {
-			"Devouring Totem has 40% Chance to Consume an additional corpse",
-			"24% increased Devouring Totem Leech per second",
+			"포식 토템이 시신을 추가로 소모할 확률 40% 획득",
+			"1초마다 포식 토템 흡수 24% 증가",
 		},
 		["ENDGAME"] = {
-			"Devouring Totem has 60% Chance to Consume an additional corpse",
-			"36% increased Devouring Totem Leech per second",
+			"포식 토템이 시신을 추가로 소모할 확률 60% 획득",
+			"1초마다 포식 토템 흡수 36% 증가",
 		},
 	},
 	["Discharge"] = {
 		["MERCILESS"] = {
-			"20% chance for Discharge to deal Damage without removing Charges",
-			"Discharge has +3 to Radius",
-			"25% increased Discharge Damage",
+			"방출이 충전 제거 없이 20%의 확률로 피해를 줌",
+			"방출 반경 +3",
+			"방출 피해 25% 증가",
 		},
 		["ENDGAME"] = {
-			"30% chance for Discharge to deal Damage without removing Charges",
-			"Discharge has +5 to Radius",
-			"40% increased Discharge Damage",
+			"방출이 충전 제거 없이 30%의 확률로 피해를 줌",
+			"방출 반경 +5",
+			"방출 피해 40% 증가",
 		},
 	},
 	["Discipline"] = {
 		["MERCILESS"] = {
-			"Discipline has 30% increased Mana Reservation Efficiency",
+			"단련의 마나 점유 효율 30% 증가",
 		},
 		["ENDGAME"] = {
-			"Discipline has 45% increased Mana Reservation Efficiency",
+			"단련의 마나 점유 효율 45% 증가",
 		},
 	},
 	["Divine Ire"] = {
 		["MERCILESS"] = {
-			"Divine Ire deals 25% increased Damage",
-			"Divine Ire's beam has 10% increased width",
-			"Divine Ire Damages an additional nearby Enemy when gaining Stages",
+			"단계 획득 시 신성한 진노가 주변의 추가 적에게 피해를 줌",
 		},
 		["ENDGAME"] = {
-			"Divine Ire deals 40% increased Damage",
-			"Divine Ire's beam has 15% increased width",
-			"Divine Ire Damages 2 additional nearby Enemies when gaining Stages",
-		},
-	},
-	["Dominating Blow"] = {
-		["MERCILESS"] = {
-			"20% increased Sentinel of Dominance Duration",
-			"Dominating Blow can summon 2 additional Magic Sentinels of Dominance",
-		},
-		["ENDGAME"] = {
-			"30% increased Sentinel of Dominance Duration",
-			"Dominating Blow can summon 3 additional Magic Sentinels of Dominance",
-			"Dominating Blow can summon an additional Rare Sentinel of Dominance",
-		},
-	},
-	["Double Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Double Strike Damage",
-			"10% increased Double Strike Attack Speed",
-			"60% increased Double Strike Critical Strike Chance",
-			"Double Strike has a 10% chance to deal Double Damage to Bleeding Enemies",
-		},
-		["ENDGAME"] = {
-			"40% increased Double Strike Damage",
-			"15% increased Double Strike Attack Speed",
-			"90% increased Double Strike Critical Strike Chance",
-			"Double Strike has a 15% chance to deal Double Damage to Bleeding Enemies",
-		},
-	},
-	["Dread Banner"] = {
-		["MERCILESS"] = {
-			"Dread Banner has 25% increased Aura Effect",
-		},
-		["ENDGAME"] = {
-			"Dread Banner has 40% increased Aura Effect",
-		},
-	},
-	["Dual Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Dual Strike Damage",
-			"10% increased Dual Strike Attack Speed",
-			"60% increased Dual Strike Critical Strike Chance",
-		},
-		["ENDGAME"] = {
-			"40% increased Dual Strike Damage",
-			"15% increased Dual Strike Attack Speed",
-			"90% increased Dual Strike Critical Strike Chance",
-		},
-	},
-	["Earthquake"] = {
-		["MERCILESS"] = {
-			"25% increased Earthquake Damage",
-			"16% increased Earthquake Area of Effect",
-			"Earthquake deals 5% increased Damage per 0.1 seconds Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Earthquake Damage",
-			"24% increased Earthquake Area of Effect",
-			"Earthquake deals 8% increased Damage per 0.1 seconds Duration",
-		},
-	},
-	["Earthshatter"] = {
-		["MERCILESS"] = {
-			"Earthshatter deals 25% increased Damage",
-			"Earthshatter has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Earthshatter deals 40% increased Damage",
-			"Earthshatter has 24% increased Area of Effect",
-			"Earthshatter creates +1 fissures",
-		},
-	},
-	["Elemental Hit"] = {
-		["MERCILESS"] = {
-			"Elemental Hit deals 25% increased Damage",
-			"10% increased Elemental Hit Attack Speed",
-			"Elemental Hit has +20% chance to Freeze, Shock and Ignite",
-		},
-		["ENDGAME"] = {
-			"Elemental Hit deals 40% increased Damage",
-			"15% increased Elemental Hit Attack Speed",
-			"Elemental Hit has +30% chance to Freeze, Shock and Ignite",
-		},
-	},
-	["Elemental Weakness"] = {
-		["MERCILESS"] = {
-			"10% increased Elemental Weakness Curse Effect",
-			"30% increased Elemental Weakness Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Elemental Weakness Curse Effect",
-			"45% increased Elemental Weakness Duration",
-		},
-	},
-	["Enduring Cry"] = {
-		["MERCILESS"] = {
-			"Enduring Cry has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Enduring Cry has 30% increased Cooldown Recovery Rate",
-			"Enduring Cry grants 1 additional Endurance Charge",
-		},
-	},
-	["Energy Blade"] = {
-		["MERCILESS"] = {
-			"Energy Blades have 10% increased Attack Speed",
-			"Attacks with Energy Blades Penetrate 8% Lightning Resistance",
-		},
-		["ENDGAME"] = {
-			"Energy Blades have 15% increased Attack Speed",
-			"Attacks with Energy Blades Penetrate 12% Lightning Resistance",
-		},
-	},
-	["Enfeeble"] = {
-		["MERCILESS"] = {
-			"10% increased Enfeeble Curse Effect",
-			"30% increased Enfeeble Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Enfeeble Curse Effect",
-			"45% increased Enfeeble Duration",
-		},
-	},
-	["Ensnaring Arrow"] = {
-		["MERCILESS"] = {
-			"Ensnaring Arrow has 20% increased Debuff Effect",
-			"Ensnaring Arrow has 60% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Ensnaring Arrow has 30% increased Debuff Effect",
-			"Ensnaring Arrow has 90% increased Area of Effect",
-		},
-	},
-	["Essence Drain"] = {
-		["MERCILESS"] = {
-			"25% increased Essence Drain Damage",
-			"20% increased Essence Drain Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Essence Drain Damage",
-			"30% increased Essence Drain Duration",
-		},
-	},
-	["Ethereal Knives"] = {
-		["MERCILESS"] = {
-			"25% increased Ethereal Knives Damage",
-			"20% increased Ethereal Knives Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Ethereal Knives Damage",
-			"30% increased Ethereal Knives Projectile Speed",
-			"Ethereal Knives fires Projectiles in a circle",
-		},
-	},
-	["Explosive Arrow"] = {
-		["MERCILESS"] = {
-			"Explosive Arrow deals 25% increased Damage",
-			"Explosive Arrow has 16% increased Area of Effect",
-			"Explosive Arrow has 10% increased Attack Speed",
-			"Explosive Arrow has 25% increased Duration",
-			"Explosive Arrow has 20% reduced Duration",
-		},
-		["ENDGAME"] = {
-			"Explosive Arrow deals 40% increased Damage",
-			"Explosive Arrow has 24% increased Area of Effect",
-			"Explosive Arrow has 15% increased Attack Speed",
-			"Explosive Arrow has 40% increased Duration",
-			"Explosive Arrow has 30% reduced Duration",
-		},
-	},
-	["Explosive Concoction"] = {
-		["MERCILESS"] = {
-			"25% increased Explosive Concoction Damage",
-			"16% increased Explosive Concoction Area of Effect",
-			"Explosive Concoction uses 8% reduced Flask Charges",
-		},
-		["ENDGAME"] = {
-			"40% increased Explosive Concoction Damage",
-			"24% increased Explosive Concoction Area of Effect",
-			"Explosive Concoction uses 12% reduced Flask Charges",
-		},
-	},
-	["Explosive Trap"] = {
-		["MERCILESS"] = {
-			"Explosive Trap deals 25% increased Damage",
-			"Explosive Trap has 16% increased Area of Effect",
-			"Explosive Trap causes an additional smaller explosion",
-		},
-		["ENDGAME"] = {
-			"Explosive Trap deals 40% increased Damage",
-			"Explosive Trap has 24% increased Area of Effect",
-			"Explosive Trap causes 2 additional smaller explosions",
-		},
-	},
-	["Exsanguinate"] = {
-		["MERCILESS"] = {
-			"Exsanguinate deals 25% increased Damage",
-			"20% increased Exsanguinate Duration",
-		},
-		["ENDGAME"] = {
-			"Exsanguinate deals 40% increased Damage",
-			"30% increased Exsanguinate Duration",
-			"Exsanguinate has a 25% chance to Chain an additional time",
-		},
-	},
-	["Eye of Winter"] = {
-		["MERCILESS"] = {
-			"25% increased Eye of Winter Damage",
-			"20% increased Eye of Winter Projectile Speed",
-			"Eye of Winter fires Shard projectiles with 8% increased Frequency during flight",
-		},
-		["ENDGAME"] = {
-			"40% increased Eye of Winter Damage",
-			"30% increased Eye of Winter Projectile Speed",
-			"Eye of Winter fires Shard projectiles with 12% increased Frequency during flight",
-		},
-	},
-	["Fire Trap"] = {
-		["MERCILESS"] = {
-			"25% increased Fire Trap Damage",
-			"40% increased Fire Trap Burning Damage",
-			"30% increased Fire Trap Burning Ground Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Fire Trap Damage",
-			"60% increased Fire Trap Burning Damage",
-			"45% increased Fire Trap Burning Ground Duration",
-		},
-	},
-	["Fireball"] = {
-		["MERCILESS"] = {
-			"25% increased Fireball Damage",
-			"8% increased Fireball Cast Speed",
-			"Fireball has +20% chance to Ignite",
-		},
-		["ENDGAME"] = {
-			"40% increased Fireball Damage",
-			"12% increased Fireball Cast Speed",
-			"Fireball has +30% chance to Ignite",
+			"단계 획득 시 신성한 진노가 주변의 추가 적 2명에게 피해를 줌",
 		},
 	},
 	["Firestorm"] = {
 		["MERCILESS"] = {
-			"25% increased Firestorm Damage",
-			"20% increased Firestorm Duration",
-			"16% increased Firestorm explosion Area of Effect",
+			"화염 폭풍 폭발 효과 범위 16% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Firestorm Damage",
-			"30% increased Firestorm Duration",
-			"24% increased Firestorm explosion Area of Effect",
-		},
-	},
-	["Flame Dash"] = {
-		["MERCILESS"] = {
-			"25% increased Flame Dash Damage",
-			"Flame Dash has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"40% increased Flame Dash Damage",
-			"Flame Dash has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Flame Link"] = {
-		["MERCILESS"] = {
-			"20% increased Flame Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Flame Link Duration",
-		},
-	},
-	["Flame Surge"] = {
-		["MERCILESS"] = {
-			"25% increased Flame Surge Damage",
-			"60% increased Flame Surge Critical Strike Chance",
-			"40% increased Flame Surge Damage with Hits and Ailments against Burning Enemies",
-		},
-		["ENDGAME"] = {
-			"40% increased Flame Surge Damage",
-			"90% increased Flame Surge Critical Strike Chance",
-			"60% increased Flame Surge Damage with Hits and Ailments against Burning Enemies",
-		},
-	},
-	["Flame Wall"] = {
-		["MERCILESS"] = {
-			"Flame Wall deals 25% increased Damage",
-			"Flame Wall grants 19 to 28 Added Fire Damage to Projectiles",
-		},
-		["ENDGAME"] = {
-			"Flame Wall deals 40% increased Damage",
-			"Flame Wall grants 31 to 47 Added Fire Damage to Projectiles",
-			"+1 to maximum number of Flame Walls",
-		},
-	},
-	["Flameblast"] = {
-		["MERCILESS"] = {
-			"25% increased Flameblast Damage",
-			"60% increased Flameblast Critical Strike Chance",
-			"16% increased Flameblast Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Flameblast Damage",
-			"90% increased Flameblast Critical Strike Chance",
-			"24% increased Flameblast Area of Effect",
-		},
-	},
-	["Flamethrower Trap"] = {
-		["MERCILESS"] = {
-			"Flamethrower Trap deals 25% increased Damage",
-			"Flamethrower Trap has 10% increased Cooldown Recovery Rate",
-			"Flamethrower Trap has 20% increased Skill Effect Duration",
-			"Flamethrower Trap has an additional Flame",
-		},
-		["ENDGAME"] = {
-			"Flamethrower Trap deals 40% increased Damage",
-			"Flamethrower Trap has 15% increased Cooldown Recovery Rate",
-			"Flamethrower Trap has 30% increased Skill Effect Duration",
-			"Flamethrower Trap has 2 additional Flames",
-		},
-	},
-	["Flammability"] = {
-		["MERCILESS"] = {
-			"10% increased Flammability Curse Effect",
-			"30% increased Flammability Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Flammability Curse Effect",
-			"45% increased Flammability Duration",
-		},
-	},
-	["Flesh Offering"] = {
-		["MERCILESS"] = {
-			"30% increased Flesh Offering Duration",
-			"Flesh Offering grants an additional 14% increased Attack Speed",
-		},
-		["ENDGAME"] = {
-			"45% increased Flesh Offering Duration",
-			"Flesh Offering grants an additional 21% increased Attack Speed",
-		},
-	},
-	["Flesh and Stone"] = {
-		["MERCILESS"] = {
-			"Flesh and Stone has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Flesh and Stone has 75% increased Mana Reservation Efficiency",
-		},
-	},
-	["Flicker Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Flicker Strike Damage",
-			"Flicker Strike has 20% increased Cooldown Recovery Rate",
-			"6% increased Flicker Strike Damage per Frenzy Charge",
-		},
-		["ENDGAME"] = {
-			"40% increased Flicker Strike Damage",
-			"Flicker Strike has 30% increased Cooldown Recovery Rate",
-			"9% increased Flicker Strike Damage per Frenzy Charge",
-		},
-	},
-	["Forbidden Rite"] = {
-		["MERCILESS"] = {
-			"25% increased Forbidden Rite Damage",
-			"20% increased Forbidden Rite Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Forbidden Rite Damage",
-			"30% increased Forbidden Rite Projectile Speed",
-			"Forbidden Rite fires an additional Projectile",
-		},
-	},
-	["Freezing Pulse"] = {
-		["MERCILESS"] = {
-			"25% increased Freezing Pulse Damage",
-			"8% increased Freezing Pulse Cast Speed",
-			"20% increased Freezing Pulse Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Freezing Pulse Damage",
-			"12% increased Freezing Pulse Cast Speed",
-			"30% increased Freezing Pulse Projectile Speed",
+			"화염 폭풍 폭발 효과 범위 24% 증가",
 		},
 	},
 	["Frenzy"] = {
 		["MERCILESS"] = {
-			"25% increased Frenzy Damage",
-			"20% Chance on Frenzy to gain an additional Frenzy Charge",
-			"6% increased Frenzy Damage per Frenzy Charge",
+			"격분 피해 25% 증가",
+			"격분 상태 시 20%의 확률로 격분 충전 획득",
+			"격분 충전 하나당 격분 피해 6% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Frenzy Damage",
-			"30% Chance on Frenzy to gain an additional Frenzy Charge",
-			"9% increased Frenzy Damage per Frenzy Charge",
-		},
-	},
-	["Frost Blades"] = {
-		["MERCILESS"] = {
-			"25% increased Frost Blades Damage",
-			"20% increased Frost Blades Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Frost Blades Damage",
-			"30% increased Frost Blades Projectile Speed",
-		},
-	},
-	["Frost Bomb"] = {
-		["MERCILESS"] = {
-			"25% increased Frost Bomb Damage",
-			"Frost Bomb has 20% increased Cooldown Recovery Rate",
-			"16% increased Frost Bomb Area of Effect",
-			"Frost Bomb has 20% increased Debuff Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Frost Bomb Damage",
-			"Frost Bomb has 30% increased Cooldown Recovery Rate",
-			"24% increased Frost Bomb Area of Effect",
-			"Frost Bomb has 30% increased Debuff Duration",
-		},
-	},
-	["Frost Shield"] = {
-		["MERCILESS"] = {
-			"Frost Shield has +125 to maximum Life per Stage",
-		},
-		["ENDGAME"] = {
-			"Frost Shield has +1 Cooldown Use",
-			"Frost Shield has +180 to maximum Life per Stage",
-		},
-	},
-	["Frost Wall"] = {
-		["MERCILESS"] = {
-			"Frost Wall has 20% increased Cooldown Recovery Rate",
-			"24% increased Frost Wall Duration",
-		},
-		["ENDGAME"] = {
-			"Frost Wall has 30% increased Cooldown Recovery Rate",
-			"36% increased Frost Wall Duration",
-		},
-	},
-	["Frostbite"] = {
-		["MERCILESS"] = {
-			"10% increased Frostbite Curse Effect",
-			"30% increased Frostbite Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Frostbite Curse Effect",
-			"45% increased Frostbite Duration",
-		},
-	},
-	["Frostblink"] = {
-		["MERCILESS"] = {
-			"Frostblink has 20% increased Cooldown Recovery Rate",
-			"Frostblink has 50% increased maximum travel distance",
-		},
-		["ENDGAME"] = {
-			"Frostblink has 30% increased Cooldown Recovery Rate",
-			"Frostblink has 75% increased maximum travel distance",
-		},
-	},
-	["Frostbolt"] = {
-		["MERCILESS"] = {
-			"25% increased Frostbolt Damage",
-			"10% increased Frostbolt Cast Speed",
-			"Frostbolt has +10% chance to Freeze",
-		},
-		["ENDGAME"] = {
-			"40% increased Frostbolt Damage",
-			"15% increased Frostbolt Cast Speed",
-			"Frostbolt has +15% chance to Freeze",
-		},
-	},
-	["Frozen Legion"] = {
-		["MERCILESS"] = {
-			"Frozen Legion has 20% increased Cooldown Recovery Rate",
-			"Frozen Legion has +1 Cooldown Use",
-		},
-		["ENDGAME"] = {
-			"Frozen Legion has 30% increased Cooldown Recovery Rate",
-			"Frozen Legion has +2 Cooldown Uses",
-		},
-	},
-	["Frozen Sweep"] = {
-		["MERCILESS"] = {
-			"Frozen Sweep deals 25% increased Damage",
-		},
-		["ENDGAME"] = {
-			"Frozen Sweep deals 40% increased Damage",
-		},
-	},
-	["Galvanic Arrow"] = {
-		["MERCILESS"] = {
-			"25% increased Galvanic Arrow Damage",
-			"10% of Galvanic Arrow Physical Damage gained as extra Lightning Damage",
-			"Galvanic Arrow has 20% increased Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Galvanic Arrow Damage",
-			"15% of Galvanic Arrow Physical Damage gained as extra Lightning Damage",
-			"Galvanic Arrow has 30% increased Projectile Speed",
-		},
-	},
-	["Galvanic Field"] = {
-		["MERCILESS"] = {
-			"Galvanic Field deals 25% increased Damage",
-			"Galvanic Field has 8% increased Cast Speed",
-		},
-		["ENDGAME"] = {
-			"Galvanic Field deals 40% increased Damage",
-			"Galvanic Field has 12% increased Cast Speed",
-			"Galvanic Field Chains an additional time",
-		},
-	},
-	["General's Cry"] = {
-		["MERCILESS"] = {
-			"General's Cry has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"General's Cry has 30% increased Cooldown Recovery Rate",
-			"General's Cry has +1 to maximum number of Mirage Warriors",
-		},
-	},
-	["Glacial Cascade"] = {
-		["MERCILESS"] = {
-			"25% increased Glacial Cascade Damage",
-			"16% increased Glacial Cascade Area of Effect",
-			"Glacial Cascade gains 6% of Physical Damage as Extra Cold Damage",
-		},
-		["ENDGAME"] = {
-			"40% increased Glacial Cascade Damage",
-			"24% increased Glacial Cascade Area of Effect",
-			"Glacial Cascade gains 10% of Physical Damage as Extra Cold Damage",
-		},
-	},
-	["Glacial Hammer"] = {
-		["MERCILESS"] = {
-			"25% increased Glacial Hammer Damage",
-			"Glacial Hammer has +20% chance to Freeze",
-			"10% of Glacial Hammer Physical Damage gained as Extra Cold Damage",
-		},
-		["ENDGAME"] = {
-			"40% increased Glacial Hammer Damage",
-			"Glacial Hammer has +30% chance to Freeze",
-			"15% of Glacial Hammer Physical Damage gained as Extra Cold Damage",
-		},
-	},
-	["Grace"] = {
-		["MERCILESS"] = {
-			"Grace has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Grace has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Ground Slam"] = {
-		["MERCILESS"] = {
-			"25% increased Ground Slam Damage",
-			"16% increased Ground Slam Area of Effect",
-			"Ground Slam has a 16% increased angle",
-		},
-		["ENDGAME"] = {
-			"40% increased Ground Slam Damage",
-			"24% increased Ground Slam Area of Effect",
-			"Ground Slam has a 24% increased angle",
-		},
-	},
-	["Haste"] = {
-		["MERCILESS"] = {
-			"Haste has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Haste has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Hatred"] = {
-		["MERCILESS"] = {
-			"Hatred has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Hatred has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Heavy Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Heavy Strike Damage",
-			"10% increased Heavy Strike Attack Speed",
-			"Heavy Strike has a 8% chance to deal Double Damage",
-		},
-		["ENDGAME"] = {
-			"40% increased Heavy Strike Damage",
-			"15% increased Heavy Strike Attack Speed",
-			"Heavy Strike has a 12% chance to deal Double Damage",
+			"격분 피해 40% 증가",
+			"격분 상태 시 30%의 확률로 격분 충전 획득",
+			"격분 충전 하나당 격분 피해 9% 증가",
 		},
 	},
 	["Herald of Agony"] = {
-		["MERCILESS"] = {
-			"Herald of Agony has 50% increased Mana Reservation Efficiency",
-		},
 		["ENDGAME"] = {
-			"Herald of Agony has 75% increased Mana Reservation Efficiency",
-			"Summoned Agony Crawler fires 2 additional Projectiles",
-		},
-	},
-	["Herald of Ash"] = {
-		["MERCILESS"] = {
-			"25% increased Herald of Ash Damage",
-			"Herald of Ash has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"40% increased Herald of Ash Damage",
-			"Herald of Ash has 75% increased Mana Reservation Efficiency",
-		},
-	},
-	["Herald of Ice"] = {
-		["MERCILESS"] = {
-			"25% increased Herald of Ice Damage",
-			"Herald of Ice has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"40% increased Herald of Ice Damage",
-			"Herald of Ice has 75% increased Mana Reservation Efficiency",
+			"소환된 고통의 벌레가 투사체 2개 추가 발사",
 		},
 	},
 	["Herald of Purity"] = {
-		["MERCILESS"] = {
-			"Herald of Purity has 50% increased Mana Reservation Efficiency",
-		},
 		["ENDGAME"] = {
-			"Herald of Purity has 75% increased Mana Reservation Efficiency",
-			"+1 to maximum number of Sentinels of Purity",
-		},
-	},
-	["Herald of Thunder"] = {
-		["MERCILESS"] = {
-			"25% increased Herald of Thunder Damage",
-			"Herald of Thunder has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"40% increased Herald of Thunder Damage",
-			"Herald of Thunder has 75% increased Mana Reservation Efficiency",
+			"정화의 파수꾼 최대치 +1",
 		},
 	},
 	["Hexblast"] = {
 		["MERCILESS"] = {
-			"Hexblast deals 25% increased Damage",
-			"Hexblast has 16% increased Area of Effect",
-			"Hexblast has 10% chance to not remove a Hex",
+			"사술 폭발이 10%의 확률로 사술을 제거하지 않음",
 		},
 		["ENDGAME"] = {
-			"Hexblast deals 40% increased Damage",
-			"Hexblast has 24% increased Area of Effect",
-			"Hexblast has 15% chance to not remove a Hex",
-		},
-	},
-	["Holy Flame Totem"] = {
-		["MERCILESS"] = {
-			"Holy Flame Totem deals 25% increased Damage",
-			"Holy Flame Totem fires an additional Projectile",
-			"Holy Flame Totem has 20% increased Projectile Speed",
-			"Consecrated Ground from Holy Flame Totem applies 6% increased Damage taken to Enemies",
-		},
-		["ENDGAME"] = {
-			"Holy Flame Totem deals 40% increased Damage",
-			"Holy Flame Totem fires 2 additional Projectiles",
-			"Holy Flame Totem has 30% increased Projectile Speed",
-			"Consecrated Ground from Holy Flame Totem applies 9% increased Damage taken to Enemies",
+			"사술 폭발이 15%의 확률로 사술을 제거하지 않음",
 		},
 	},
 	["Hydrosphere"] = {
 		["MERCILESS"] = {
-			"Hydrosphere deals 25% increased Damage",
-			"Hydrosphere has 20% increased Pulse Frequency",
-			"Enemies Drenched by Hydrosphere have Cold and Lightning Exposure, applying -4% to Resistances",
+			"물의 구체의 파동 빈도 20% 증가",
+			"물의 구체로 흠뻑 젖은 적이 냉기 및 번개에 노출되어, 적의 저항 -4%",
 		},
 		["ENDGAME"] = {
-			"Hydrosphere deals 40% increased Damage",
-			"Hydrosphere has 30% increased Pulse Frequency",
-			"Enemies Drenched by Hydrosphere have Cold and Lightning Exposure, applying -6% to Resistances",
-		},
-	},
-	["Ice Crash"] = {
-		["MERCILESS"] = {
-			"25% increased Ice Crash Damage",
-			"10% of Ice Crash Physical Damage gained as Extra Cold Damage",
-			"16% increased Ice Crash Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Ice Crash Damage",
-			"15% of Ice Crash Physical Damage gained as Extra Cold Damage",
-			"24% increased Ice Crash Area of Effect",
-		},
-	},
-	["Ice Nova"] = {
-		["MERCILESS"] = {
-			"25% increased Ice Nova Damage",
-			"Ice Nova has +20% chance to Freeze",
-			"16% increased Ice Nova Area of Effect",
-			"Chills from Ice Nova Hits always reduce Action Speed by at least 6%",
-		},
-		["ENDGAME"] = {
-			"40% increased Ice Nova Damage",
-			"Ice Nova has +30% chance to Freeze",
-			"24% increased Ice Nova Area of Effect",
-			"Chills from Ice Nova Hits always reduce Action Speed by at least 8%",
-		},
-	},
-	["Ice Shot"] = {
-		["MERCILESS"] = {
-			"25% increased Ice Shot Damage",
-			"16% increased Ice Shot Area of Effect",
-			"Ice Shot has 30% increased Area of Effect angle",
-		},
-		["ENDGAME"] = {
-			"40% increased Ice Shot Damage",
-			"24% increased Ice Shot Area of Effect",
-			"Ice Shot has 60% increased Area of Effect angle",
+			"물의 구체의 파동 빈도 30% 증가",
+			"물의 구체로 흠뻑 젖은 적이 냉기 및 번개에 노출되어, 적의 저항 -6%",
 		},
 	},
 	["Ice Spear"] = {
 		["MERCILESS"] = {
-			"10% Chance to gain a Power Charge on Critical Strike with Ice Spear",
-			"200% increased Ice Spear Critical Strike Chance in second form",
-			"Ice Spear travels 20% reduced distance before changing forms",
+			"얼음 창 치명타 명중 시 10%의 확률로 권능 충전 획득",
+			"두 번째 형태의 얼음 창 치명타 확률 200% 증가",
 		},
 		["ENDGAME"] = {
-			"15% Chance to gain a Power Charge on Critical Strike with Ice Spear",
-			"300% increased Ice Spear Critical Strike Chance in second form",
-			"Ice Spear fires an additional Projectile",
-			"Ice Spear travels 30% reduced distance before changing forms",
-		},
-	},
-	["Ice Trap"] = {
-		["MERCILESS"] = {
-			"25% increased Ice Trap Damage",
-			"16% increased Ice Trap Area of Effect",
-			"Ice Trap Damage Penetrates 6% Cold Resistance",
-		},
-		["ENDGAME"] = {
-			"40% increased Ice Trap Damage",
-			"24% increased Ice Trap Area of Effect",
-			"Ice Trap Damage Penetrates 10% Cold Resistance",
+			"얼음 창 치명타 명중 시 15%의 확률로 권능 충전 획득",
+			"두 번째 형태의 얼음 창 치명타 확률 300% 증가",
 		},
 	},
 	["Icicle Mine"] = {
 		["MERCILESS"] = {
-			"Icicle Mine deals 25% increased Damage",
-			"Icicle Mine has 10% increased Throwing Speed",
-			"Icicle Mine has +20% to Critical Strike Multiplier",
+			"고드름 지뢰의 피해 25% 증가",
+			"고드름 지뢰 투척 속도 10% 증가",
+			"고드름 지뢰 치명타 피해 배율 +20% 적용",
 		},
 		["ENDGAME"] = {
-			"Icicle Mine deals 40% increased Damage",
-			"Icicle Mine has 15% increased Throwing Speed",
-			"Icicle Mine has +30% to Critical Strike Multiplier",
-		},
-	},
-	["Immortal Call"] = {
-		["MERCILESS"] = {
-			"24% increased Immortal Call Duration",
-		},
-		["ENDGAME"] = {
-			"36% increased Immortal Call Duration",
+			"고드름 지뢰의 피해 40% 증가",
+			"고드름 지뢰 투척 속도 15% 증가",
+			"고드름 지뢰 치명타 피해 배율 +30% 적용",
 		},
 	},
 	["Incinerate"] = {
 		["MERCILESS"] = {
-			"25% increased Incinerate Damage",
-			"Incinerate has 16% increased Area of Effect",
-			"Incinerate has +1 to maximum stages",
+			"소각 피해 25% 증가",
+			"소각의 효과 범위 16% 증가",
+			"소각의 단계 최대치 +1",
 		},
 		["ENDGAME"] = {
-			"40% increased Incinerate Damage",
-			"Incinerate has 24% increased Area of Effect",
-			"Incinerate has +2 to maximum stages",
-			"10% increased Incinerate Damage for each stage",
-		},
-	},
-	["Infernal Blow"] = {
-		["MERCILESS"] = {
-			"25% increased Infernal Blow Damage",
-			"10% of Infernal Blow Physical Damage gained as Extra Fire Damage",
-			"16% increased Infernal Blow Area of Effect",
-			"Infernal Blow Debuff deals an additional 3% of Damage per Charge",
-		},
-		["ENDGAME"] = {
-			"40% increased Infernal Blow Damage",
-			"15% of Infernal Blow Physical Damage gained as Extra Fire Damage",
-			"24% increased Infernal Blow Area of Effect",
-			"Infernal Blow Debuff deals an additional 5% of Damage per Charge",
-		},
-	},
-	["Infernal Cry"] = {
-		["MERCILESS"] = {
-			"Infernal Cry has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Infernal Cry has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Intimidating Cry"] = {
-		["MERCILESS"] = {
-			"Intimidating Cry has 20% increased Cooldown Recovery Rate",
-			"Intimidating Cry has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Intimidating Cry has 30% increased Cooldown Recovery Rate",
-			"Intimidating Cry has 24% increased Area of Effect",
-		},
-	},
-	["Intuitive Link"] = {
-		["MERCILESS"] = {
-			"20% increased Intuitive Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Intuitive Link Duration",
+			"소각 피해 40% 증가",
+			"소각의 효과 범위 24% 증가",
+			"소각의 단계 최대치 +2",
+			"단계 하나당 소각 피해 10% 증가",
 		},
 	},
 	["Kinetic Blast"] = {
 		["MERCILESS"] = {
-			"25% increased Kinetic Blast Damage",
-			"16% increased Kinetic Blast Area of Effect",
-			"Kinetic Blast has a 50% chance for an additional explosion",
+			"역학 폭발이 1회 추가 폭발할 확률 50%",
 		},
 		["ENDGAME"] = {
-			"40% increased Kinetic Blast Damage",
-			"24% increased Kinetic Blast Area of Effect",
-			"Kinetic Blast has a 75% chance for an additional explosion",
+			"역학 폭발이 1회 추가 폭발할 확률 75%",
 		},
 	},
 	["Kinetic Bolt"] = {
 		["MERCILESS"] = {
-			"Kinetic Bolt has 10% increased Attack Speed",
-			"Kinetic Bolt has 20% increased Projectile Speed",
-			"Kinetic Bolt changes direction 1 additional time",
+			"역학 투사체 방향 전환 1회 추가",
 		},
 		["ENDGAME"] = {
-			"Kinetic Bolt has 15% increased Attack Speed",
-			"Kinetic Bolt has 30% increased Projectile Speed",
-			"Kinetic Bolt changes direction 2 additional times",
-		},
-	},
-	["Lacerate"] = {
-		["MERCILESS"] = {
-			"25% increased Lacerate Damage",
-			"40% increased Lacerate Critical Strike Chance",
-			"16% increased Lacerate Area of Effect",
-			"Lacerate deals (4-8) to (10-15) added Physical Damage against Bleeding Enemies",
-		},
-		["ENDGAME"] = {
-			"40% increased Lacerate Damage",
-			"60% increased Lacerate Critical Strike Chance",
-			"24% increased Lacerate Area of Effect",
-			"Lacerate deals (14-18) to (20-25) added Physical Damage against Bleeding Enemies",
-		},
-	},
-	["Lancing Steel"] = {
-		["MERCILESS"] = {
-			"Lancing Steel deals 25% increased Damage",
-			"Lancing Steel has 20% chance to count as consuming Steel Shards without Consuming them",
-		},
-		["ENDGAME"] = {
-			"Lancing Steel deals 40% increased Damage",
-			"Lancing Steel has 30% chance to count as consuming Steel Shards without Consuming them",
-			"Lancing Steel fires an additional Projectile",
-		},
-	},
-	["Leap Slam"] = {
-		["MERCILESS"] = {
-			"25% increased Leap Slam Damage",
-			"10% increased Leap Slam Attack Speed",
-			"16% increased Leap Slam Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Leap Slam Damage",
-			"15% increased Leap Slam Attack Speed",
-			"24% increased Leap Slam Area of Effect",
+			"역학 투사체 방향 전환 2회 추가",
 		},
 	},
 	["Lightning Arrow"] = {
 		["MERCILESS"] = {
-			"25% increased Lightning Arrow Damage",
-			"16% increased Lightning Arrow Area of Effect",
-			"Lightning Arrow hits an additional Enemy",
+			"번개 화살이 적 1명 추가 적중",
 		},
 		["ENDGAME"] = {
-			"40% increased Lightning Arrow Damage",
-			"24% increased Lightning Arrow Area of Effect",
-			"Lightning Arrow hits 2 additional Enemies",
-		},
-	},
-	["Lightning Conduit"] = {
-		["MERCILESS"] = {
-			"Lightning Conduit deals 25% increased Damage",
-			"Lightning Conduit has 8% increased Cast Speed",
-			"Lightning Conduit has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Lightning Conduit deals 40% increased Damage",
-			"Lightning Conduit has 12% increased Cast Speed",
-			"Lightning Conduit has 24% increased Area of Effect",
-		},
-	},
-	["Lightning Spire Trap"] = {
-		["MERCILESS"] = {
-			"Lightning Spire Trap deals 25% increased Damage",
-			"8% increased Lightning Spire Trap Throwing Speed",
-			"Lightning Spire Trap has 20% increased Skill Effect Duration",
-			"Lightning Spire Trap has 10% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Lightning Spire Trap deals 40% increased Damage",
-			"12% increased Lightning Spire Trap Throwing Speed",
-			"Lightning Spire Trap has 30% increased Skill Effect Duration",
-			"Lightning Spire Trap has 15% increased Cooldown Recovery Rate",
-			"Lightning Spire Trap strikes an additional area",
-		},
-	},
-	["Lightning Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Lightning Strike Damage",
-			"Lightning Strike fires an additional Projectile",
-			"Lightning Strike pierces 2 additional Targets",
-		},
-		["ENDGAME"] = {
-			"40% increased Lightning Strike Damage",
-			"Lightning Strike fires 2 additional Projectiles",
-			"Lightning Strike pierces 3 additional Targets",
-		},
-	},
-	["Lightning Tendrils"] = {
-		["MERCILESS"] = {
-			"25% increased Lightning Tendrils Damage",
-			"16% increased Lightning Tendrils Area of Effect",
-			"40% increased Lightning Tendrils Critical Strike Chance",
-		},
-		["ENDGAME"] = {
-			"40% increased Lightning Tendrils Damage",
-			"24% increased Lightning Tendrils Area of Effect",
-			"60% increased Lightning Tendrils Critical Strike Chance",
-		},
-	},
-	["Lightning Trap"] = {
-		["MERCILESS"] = {
-			"25% increased Lightning Trap Damage",
-			"Lightning Trap pierces 2 additional Targets",
-			"Lightning Trap Damage Penetrates 6% Lightning Resistance",
-			"25% increased Lightning Trap Lightning Ailment Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Lightning Trap Damage",
-			"Lightning Trap pierces 3 additional Targets",
-			"Lightning Trap Damage Penetrates 10% Lightning Resistance",
-			"40% increased Lightning Trap Lightning Ailment Effect",
-		},
-	},
-	["Lightning Warp"] = {
-		["MERCILESS"] = {
-			"25% increased Lightning Warp Damage",
-			"8% increased Lightning Warp Cast Speed",
-			"20% reduced Lightning Warp Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Lightning Warp Damage",
-			"12% increased Lightning Warp Cast Speed",
-			"30% reduced Lightning Warp Duration",
+			"번개 화살이 적 2명 추가 적중",
 		},
 	},
 	["Malevolence"] = {
 		["MERCILESS"] = {
-			"Malevolence has 20% increased Mana Reservation Efficiency",
+			"악의의 마나 점유 효율 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Malevolence has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Manabond"] = {
-		["MERCILESS"] = {
-			"25% increased Manabond Damage",
-			"16% increased Manabond Area of Effect",
-			"Manabond Penetrates 8% Lightning Resistance while on Low Mana",
-		},
-		["ENDGAME"] = {
-			"40% increased Manabond Damage",
-			"24% increased Manabond Area of Effect",
-			"Manabond Penetrates 12% Lightning Resistance while on Low Mana",
-		},
-	},
-	["Mirror Arrow"] = {
-		["MERCILESS"] = {
-			"Mirror Arrow and Mirror Arrow Clones deal 25% increased Damage",
-			"Mirror Arrow and Mirror Arrow Clones have 10% increased Attack Speed",
-			"Mirror Arrow has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Mirror Arrow and Mirror Arrow Clones deal 40% increased Damage",
-			"Mirror Arrow and Mirror Arrow Clones have 15% increased Attack Speed",
-			"Mirror Arrow has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Molten Shell"] = {
-		["MERCILESS"] = {
-			"Molten Shell has 25% increased Skill Effect Duration",
-		},
-		["ENDGAME"] = {
-			"Molten Shell has 40% increased Skill Effect Duration",
-		},
-	},
-	["Molten Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Molten Strike Damage",
-			"Molten Strike fires an additional Projectile",
-			"16% increased Molten Strike Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Molten Strike Damage",
-			"Molten Strike fires 2 additional Projectiles",
-			"24% increased Molten Strike Area of Effect",
-		},
-	},
-	["Orb of Storms"] = {
-		["MERCILESS"] = {
-			"Orb of Storms deals 25% increased Damage",
-			"Orb of Storms has 20% increased Cast Speed",
-			"60% increased Orb of Storms Critical Strike Chance",
-			"16% increased Orb of Storms Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Orb of Storms deals 40% increased Damage",
-			"Orb of Storms has 30% increased Cast Speed",
-			"90% increased Orb of Storms Critical Strike Chance",
-			"24% increased Orb of Storms Area of Effect",
-		},
-	},
-	["Penance Brand"] = {
-		["MERCILESS"] = {
-			"Penance Brand deals 25% increased Damage",
-			"Penance Brand has 8% increased Cast Speed",
-			"Penance Brand has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Penance Brand deals 40% increased Damage",
-			"Penance Brand has 12% increased Cast Speed",
-			"Penance Brand has 24% increased Area of Effect",
+			"악의의 마나 점유 효율 30% 증가",
 		},
 	},
 	["Perforate"] = {
 		["MERCILESS"] = {
-			"Perforate creates +1 Spike",
-			"Perforate has 16% increased Area of Effect",
-			"Perforate deals 25% increased Damage",
+			"천공이 가시 +1개 생성",
+			"천공 효과 범위 16% 증가",
+			"천공이 주는 피해 25% 증가",
 		},
 		["ENDGAME"] = {
-			"Perforate creates +2 Spikes",
-			"Perforate has 24% increased Area of Effect",
-			"Perforate deals 40% increased Damage",
-		},
-	},
-	["Pestilent Strike"] = {
-		["MERCILESS"] = {
-			"Pestilent Strike deals 25% increased Damage",
-			"Pestilent Strike has 25% increased Duration",
-			"Pestilent Strike has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Pestilent Strike deals 40% increased Damage",
-			"Pestilent Strike has 40% increased Duration",
-			"Pestilent Strike has 24% increased Area of Effect",
-		},
-	},
-	["Petrified Blood"] = {
-		["MERCILESS"] = {
-			"Petrified Blood has 30% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Petrified Blood has 45% increased Mana Reservation Efficiency",
+			"천공이 가시 +2개 생성",
+			"천공 효과 범위 24% 증가",
+			"천공이 주는 피해 40% 증가",
 		},
 	},
 	["Phase Run"] = {
 		["MERCILESS"] = {
-			"20% chance for Phase Run to increase Duration without removing Frenzy Charges",
-			"24% increased Phase Run Duration",
+			"20%의 확률로 격분 충전 제거 없이 위상 질주 지속시간 증가",
 		},
 		["ENDGAME"] = {
-			"30% chance for Phase Run to increase Duration without removing Frenzy Charges",
-			"36% increased Phase Run Duration",
-		},
-	},
-	["Plague Bearer"] = {
-		["MERCILESS"] = {
-			"Plague Bearer Buff grants +12% to Poison Damage over Time Multiplier while Infecting",
-			"Plague Bearer deals Damage based on an additional 3% of Plague Value",
-		},
-		["ENDGAME"] = {
-			"Plague Bearer Buff grants +20% to Poison Damage over Time Multiplier while Infecting",
-			"Plague Bearer deals Damage based on an additional 5% of Plague Value",
-		},
-	},
-	["Poacher's Mark"] = {
-		["MERCILESS"] = {
-			"20% increased Poacher's Mark Curse Effect",
-		},
-		["ENDGAME"] = {
-			"30% increased Poacher's Mark Curse Effect",
-		},
-	},
-	["Poisonous Concoction"] = {
-		["MERCILESS"] = {
-			"25% increased Poisonous Concoction Damage",
-			"16% increased Poisonous Concoction Area of Effect",
-			"Poisonous Concoction uses 8% reduced Flask Charges",
-		},
-		["ENDGAME"] = {
-			"40% increased Poisonous Concoction Damage",
-			"24% increased Poisonous Concoction Area of Effect",
-			"Poisonous Concoction uses 12% reduced Flask Charges",
+			"30%의 확률로 격분 충전 제거 없이 위상 질주 지속시간 증가",
 		},
 	},
 	["Power Siphon"] = {
 		["MERCILESS"] = {
-			"25% increased Power Siphon Damage",
-			"30% Chance to gain an additional Power Charge on Kill with Power Siphon",
-			"10% increased Power Siphon Attack Speed",
-			"Power Siphon fires an additional Projectile",
+			"권능 착취로 적 처치 시 30%의 확률로 추가 권능 충전 획득",
 		},
 		["ENDGAME"] = {
-			"40% increased Power Siphon Damage",
-			"45% Chance to gain an additional Power Charge on Kill with Power Siphon",
-			"15% increased Power Siphon Attack Speed",
-			"Power Siphon fires 2 additional Projectiles",
-		},
-	},
-	["Precision"] = {
-		["MERCILESS"] = {
-			"Precision has 50% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Precision has 75% increased Mana Reservation Efficiency",
-		},
-	},
-	["Pride"] = {
-		["MERCILESS"] = {
-			"Pride has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Pride has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Protective Link"] = {
-		["MERCILESS"] = {
-			"20% increased Protective Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Protective Link Duration",
-		},
-	},
-	["Puncture"] = {
-		["MERCILESS"] = {
-			"25% increased Puncture Damage",
-			"30% increased Puncture Duration",
-			"20% Chance for Puncture to Maim on hit",
-		},
-		["ENDGAME"] = {
-			"40% increased Puncture Damage",
-			"45% increased Puncture Duration",
-			"30% Chance for Puncture to Maim on hit",
-		},
-	},
-	["Punishment"] = {
-		["MERCILESS"] = {
-			"10% increased Punishment Curse Effect",
-			"30% increased Punishment Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Punishment Curse Effect",
-			"45% increased Punishment Duration",
+			"권능 착취로 적 처치 시 45%의 확률로 추가 권능 충전 획득",
 		},
 	},
 	["Purifying Flame"] = {
 		["MERCILESS"] = {
-			"Purifying Flame deals 25% increased Damage",
-			"Purifying Flame has 20% increased Area of Effect if targeting Consecrated Ground",
-			"Consecrated Ground from Purifying Flame applies 6% increased Damage taken to Enemies",
+			"신성화 지대를 대상으로 한 경우 정화의 불길 효과 범위 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Purifying Flame deals 40% increased Damage",
-			"Purifying Flame has 30% increased Area of Effect if targeting Consecrated Ground",
-			"Consecrated Ground from Purifying Flame applies 9% increased Damage taken to Enemies",
-		},
-	},
-	["Purity of Elements"] = {
-		["MERCILESS"] = {
-			"Purity of Elements has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Purity of Elements has 30% increased Mana Reservation Efficiency",
-		},
-	},
-	["Purity of Fire"] = {
-		["MERCILESS"] = {
-			"Purity of Fire has 30% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Purity of Fire has 45% increased Mana Reservation Efficiency",
-		},
-	},
-	["Purity of Ice"] = {
-		["MERCILESS"] = {
-			"Purity of Ice has 30% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Purity of Ice has 45% increased Mana Reservation Efficiency",
-		},
-	},
-	["Purity of Lightning"] = {
-		["MERCILESS"] = {
-			"Purity of Lightning has 30% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Purity of Lightning has 45% increased Mana Reservation Efficiency",
-		},
-	},
-	["Pyroclast Mine"] = {
-		["MERCILESS"] = {
-			"Pyroclast Mine deals 25% increased Damage",
-			"Pyroclast Mine has 10% increased Throwing Speed",
-		},
-		["ENDGAME"] = {
-			"Pyroclast Mine deals 40% increased Damage",
-			"Pyroclast Mine has 15% increased Throwing Speed",
-			"Pyroclast Mine fires an additional Projectile",
-		},
-	},
-	["Rage Vortex"] = {
-		["MERCILESS"] = {
-			"25% increased Rage Vortex Damage",
-			"16% increased Rage Vortex Area of Effect",
-			"Rage Vortex Sacrifices +3% of Rage",
-		},
-		["ENDGAME"] = {
-			"40% increased Rage Vortex Damage",
-			"24% increased Rage Vortex Area of Effect",
-			"Rage Vortex Sacrifices +5% of Rage",
-		},
-	},
-	["Rain of Arrows"] = {
-		["MERCILESS"] = {
-			"25% increased Rain of Arrows Damage",
-			"10% increased Rain of Arrows Attack Speed",
-			"16% increased Rain of Arrows Area of Effect",
-			"Rain of Arrows has 10% chance to fire an additional sequence of arrows",
-		},
-		["ENDGAME"] = {
-			"40% increased Rain of Arrows Damage",
-			"15% increased Rain of Arrows Attack Speed",
-			"24% increased Rain of Arrows Area of Effect",
-			"Rain of Arrows has 15% chance to fire an additional sequence of arrows",
+			"신성화 지대를 대상으로 한 경우 정화의 불길 효과 범위 30% 증가",
 		},
 	},
 	["Raise Spectre"] = {
 		["MERCILESS"] = {
-			"Spectres have 25% increased Damage",
-			"Spectres have 8% increased Attack and Cast Speed",
-			"+24% to Raised Spectre Elemental Resistances",
+			"망령의 피해 25% 증가",
+			"망령의 공격 및 시전 속도 8% 증가",
+			"소환한 망령 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Spectres have 40% increased Damage",
-			"Spectres have 12% increased Attack and Cast Speed",
-			"+36% to Raised Spectre Elemental Resistances",
+			"망령의 피해 40% 증가",
+			"망령의 공격 및 시전 속도 12% 증가",
+			"소환한 망령 원소 저항 +36%",
 		},
 	},
 	["Raise Zombie"] = {
 		["MERCILESS"] = {
-			"Raised Zombies deal 25% increased Damage",
-			"Raised Zombies have 10% increased Attack Speed",
-			"Raised Zombies have +24% to Elemental Resistances",
+			"소환된 좀비가 주는 피해 25% 증가",
+			"소환한 좀비의 공격 속도 10% 증가",
+			"소환한 좀비의 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Raised Zombies deal 40% increased Damage",
-			"Raised Zombies have 15% increased Attack Speed",
-			"Raised Zombies have +36% to Elemental Resistances",
-		},
-	},
-	["Rallying Cry"] = {
-		["MERCILESS"] = {
-			"10% increased Rallying Cry Buff Effect",
-		},
-		["ENDGAME"] = {
-			"15% increased Rallying Cry Buff Effect",
-			"Rallying Cry Exerts 1 additional Attack",
+			"소환된 좀비가 주는 피해 40% 증가",
+			"소환한 좀비의 공격 속도 15% 증가",
+			"소환한 좀비의 원소 저항 +36%",
 		},
 	},
 	["Reap"] = {
 		["MERCILESS"] = {
-			"Reap deals 25% increased Damage",
-			"16% increased Reap Area of Effect",
+			"낫질로 주는 피해 25% 증가",
+			"낫질 효과 범위 16% 증가",
 		},
 		["ENDGAME"] = {
-			"Reap deals 40% increased Damage",
-			"24% increased Reap Area of Effect",
-			"+1 to Maximum Blood Charges",
-		},
-	},
-	["Reave"] = {
-		["MERCILESS"] = {
-			"25% increased Reave Damage",
-			"16% increased Reave Radius",
-		},
-		["ENDGAME"] = {
-			"40% increased Reave Damage",
-			"24% increased Reave Radius",
-		},
-	},
-	["Reckoning"] = {
-		["MERCILESS"] = {
-			"25% increased Reckoning Damage",
-			"Reckoning has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"40% increased Reckoning Damage",
-			"Reckoning has 30% increased Cooldown Recovery Rate",
+			"낫질로 주는 피해 40% 증가",
+			"낫질 효과 범위 24% 증가",
+			"피 충전 최대치 +1",
 		},
 	},
 	["Rejuvenation Totem"] = {
 		["MERCILESS"] = {
-			"Rejuvenation Totem also grants Mana Regeneration equal to 10% of its Life Regeneration",
-			"30% increased Rejuvenation Totem Aura Effect",
+			"회복 토템이 추가로 생명력 재생의 10%와 동일한 마나 재생",
+			"회복 토템 오라 효과 30% 증가",
 		},
 		["ENDGAME"] = {
-			"Rejuvenation Totem also grants Mana Regeneration equal to 15% of its Life Regeneration",
-			"45% increased Rejuvenation Totem Aura Effect",
-		},
-	},
-	["Righteous Fire"] = {
-		["MERCILESS"] = {
-			"25% increased Righteous Fire Damage",
-			"16% increased Righteous Fire Area of Effect",
-			"Righteous Fire grants 20% increased Spell Damage",
-		},
-		["ENDGAME"] = {
-			"40% increased Righteous Fire Damage",
-			"24% increased Righteous Fire Area of Effect",
-			"Righteous Fire grants 30% increased Spell Damage",
-		},
-	},
-	["Riposte"] = {
-		["MERCILESS"] = {
-			"25% increased Riposte Damage",
-			"Riposte has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"40% increased Riposte Damage",
-			"Riposte has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Rolling Magma"] = {
-		["MERCILESS"] = {
-			"25% increased Rolling Magma Damage",
-			"16% increased Rolling Magma Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Rolling Magma Damage",
-			"Rolling Magma Chains an additional time",
-			"24% increased Rolling Magma Area of Effect",
+			"회복 토템이 추가로 생명력 재생의 15%와 동일한 마나 재생",
+			"회복 토템 오라 효과 45% 증가",
 		},
 	},
 	["Scorching Ray"] = {
 		["MERCILESS"] = {
-			"25% increased Scorching Ray Damage",
-			"8% increased Scorching Ray Cast Speed",
-			"10% increased Scorching Ray beam length",
+			"작열 광선 사거리 10% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Scorching Ray Damage",
-			"12% increased Scorching Ray Cast Speed",
-			"15% increased Scorching Ray beam length",
+			"작열 광선 사거리 15% 증가",
 		},
 	},
 	["Scourge Arrow"] = {
 		["MERCILESS"] = {
-			"Scourge Arrow deals 25% increased Damage",
-			"Scourge Arrow has 6% chance to Poison per Stage",
+			"재앙의 화살 단계 하나당 6%의 확률로 중독 유발",
 		},
 		["ENDGAME"] = {
-			"Scourge Arrow deals 40% increased Damage",
-			"Scourge Arrow has 8% chance to Poison per Stage",
-			"Scourge Arrow creates an additional spore pod at Maximum Stages",
-		},
-	},
-	["Searing Bond"] = {
-		["MERCILESS"] = {
-			"25% increased Searing Bond Damage",
-			"40% increased Searing Bond Totem Placement Speed",
-			"24% increased Searing Bond Totem Elemental Resistances",
-		},
-		["ENDGAME"] = {
-			"40% increased Searing Bond Damage",
-			"60% increased Searing Bond Totem Placement Speed",
-			"36% increased Searing Bond Totem Elemental Resistances",
-		},
-	},
-	["Seismic Cry"] = {
-		["MERCILESS"] = {
-			"Attacks Exerted by Seismic Cry deal 35% increased Damage",
-		},
-		["ENDGAME"] = {
-			"Attacks Exerted by Seismic Cry deal 50% increased Damage",
-			"Seismic Cry has a minimum of 10 Power",
-		},
-	},
-	["Seismic Trap"] = {
-		["MERCILESS"] = {
-			"Seismic Trap deals 25% increased Damage",
-			"Seismic Trap has 20% increased Skill Effect Duration",
-			"Seismic Trap has 10% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Seismic Trap deals 40% increased Damage",
-			"Seismic Trap has 30% increased Skill Effect Duration",
-			"Seismic Trap has 15% increased Cooldown Recovery Rate",
-			"Seismic Trap releases an additional Wave",
-		},
-	},
-	["Shattering Steel"] = {
-		["MERCILESS"] = {
-			"Shattering Steel deals 25% increased Damage",
-			"Shattering Steel has 20% chance to not consume Steel Shards",
-		},
-		["ENDGAME"] = {
-			"Shattering Steel deals 40% increased Damage",
-			"Hits at Close Range with Shattering Steel Fortify",
-			"Shattering Steel has 30% chance to not consume Steel Shards",
-		},
-	},
-	["Shield Charge"] = {
-		["MERCILESS"] = {
-			"25% increased Shield Charge Damage",
-			"10% increased Shield Charge Attack Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Shield Charge Damage",
-			"15% increased Shield Charge Attack Speed",
-		},
-	},
-	["Shield Crush"] = {
-		["MERCILESS"] = {
-			"25% increased Shield Crush Damage",
-			"10% increased Shield Crush Attack Speed",
-			"Shield Crush central wave has 16% more Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Shield Crush Damage",
-			"15% increased Shield Crush Attack Speed",
-			"Shield Crush central wave has 24% more Area of Effect",
+			"재앙의 화살 단계 하나당 8%의 확률로 중독 유발",
+			"재앙의 화살이 최대 단계 도달 시 포자 주머니 추가 생성",
 		},
 	},
 	["Shock Nova"] = {
 		["MERCILESS"] = {
-			"25% increased Shock Nova Damage",
-			"Shock Nova ring deals 40% increased Damage",
-			"16% increased Shock Nova Area of Effect",
+			"충격 폭발 고리가 주는 피해 40% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Shock Nova Damage",
-			"Shock Nova ring deals 60% increased Damage",
-			"24% increased Shock Nova Area of Effect",
-		},
-	},
-	["Shockwave Totem"] = {
-		["MERCILESS"] = {
-			"25% increased Shockwave Totem Damage",
-			"10% increased Shockwave Totem Cast Speed",
-			"16% increased Shockwave Totem Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Shockwave Totem Damage",
-			"15% increased Shockwave Totem Cast Speed",
-			"24% increased Shockwave Totem Area of Effect",
-		},
-	},
-	["Shrapnel Ballista"] = {
-		["MERCILESS"] = {
-			"Shrapnel Ballista Pierces 4 additional Targets",
-			"Shrapnel Ballista has 20% increased Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"Shrapnel Ballista fires an additional Arrow",
-			"Shrapnel Ballista Pierces 6 additional Targets",
-			"Shrapnel Ballista has 30% increased Projectile Speed",
-		},
-	},
-	["Siege Ballista"] = {
-		["MERCILESS"] = {
-			"Siege Ballista deals 25% increased Damage",
-			"Siege Ballista has 10% increased Attack Speed",
-			"Siege Ballista has 30% increased Totem Placement Speed",
-		},
-		["ENDGAME"] = {
-			"Siege Ballista deals 40% increased Damage",
-			"Siege Ballista has 15% increased Attack Speed",
-			"Siege Ballista has 45% increased Totem Placement Speed",
+			"충격 폭발 고리가 주는 피해 60% 증가",
 		},
 	},
 	["Sigil of Power"] = {
 		["MERCILESS"] = {
-			"Sigil of Power requires 10% reduced Mana Spent to gain a Stage",
-			"Sigil of Power's Buff also grants 20% increased Critical Strike Chance per Stage",
+			"힘의 부적 단계 하나 획득에 소모되는 마나 10% 감소",
 		},
 		["ENDGAME"] = {
-			"Sigil of Power requires 20% reduced Mana Spent to gain a Stage",
-			"Sigil of Power's Buff also grants 30% increased Critical Strike Chance per Stage",
-		},
-	},
-	["Siphoning Trap"] = {
-		["MERCILESS"] = {
-			"Siphoning Trap deals 25% increased Damage",
-			"Siphoning Trap has 30% increased Skill Effect Duration",
-			"Siphoning Trap has 25% increased Chill Effect",
-		},
-		["ENDGAME"] = {
-			"Siphoning Trap deals 40% increased Damage",
-			"Siphoning Trap has 45% increased Skill Effect Duration",
-			"Siphoning Trap's beam to you grants 1% reduced Damage taken for each other beam",
-			"Siphoning Trap has 40% increased Chill Effect",
+			"힘의 부적 단계 하나 획득에 소모되는 마나 20% 감소",
 		},
 	},
 	["Smite"] = {
 		["MERCILESS"] = {
-			"Smite deals 25% increased Damage",
-			"Smite has a 10% chance for lightning to strike another target",
-			"Smite has 20% increased Aura Effect",
+			"징벌의 번개가 10%의 확률로 다른 대상을 타격",
+			"징벌의 오라 효과 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Smite deals 40% increased Damage",
-			"Smite has a 15% chance for lightning to strike another target",
-			"Smite has 30% increased Aura Effect",
-		},
-	},
-	["Smoke Mine"] = {
-		["MERCILESS"] = {
-			"20% increased Smoke Mine Duration",
-			"Smoke Mine grants additional 20% increased Movement Speed",
-		},
-		["ENDGAME"] = {
-			"30% increased Smoke Mine Duration",
-			"Smoke Mine grants additional 30% increased Movement Speed",
-		},
-	},
-	["Snipe"] = {
-		["MERCILESS"] = {
-			"10% increased Attack Speed with Snipe",
-			"35% chance to Avoid being Stunned while Channelling Snipe",
-		},
-		["ENDGAME"] = {
-			"+1 to maximum Snipe Stages",
-			"15% increased Attack Speed with Snipe",
-			"50% chance to Avoid being Stunned while Channelling Snipe",
-		},
-	},
-	["Sniper's Mark"] = {
-		["MERCILESS"] = {
-			"Sniper's Mark has 10% increased Curse Effect",
-		},
-		["ENDGAME"] = {
-			"Sniper's Mark has 15% increased Curse Effect",
-		},
-	},
-	["Soul Link"] = {
-		["MERCILESS"] = {
-			"20% increased Soul Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Soul Link Duration",
+			"징벌의 번개가 15%의 확률로 다른 대상을 타격",
+			"징벌의 오라 효과 30% 증가",
 		},
 	},
 	["Soulrend"] = {
 		["MERCILESS"] = {
-			"Soulrend deals 25% increased Damage",
-			"Soulrend also Hinders Enemies, with 25% reduced Movement Speed",
+			"영혼 분리가 적을 이동 방해하여 이동 속도 25% 감소",
 		},
 		["ENDGAME"] = {
-			"Soulrend deals 40% increased Damage",
-			"Soulrend also Hinders Enemies, with 40% reduced Movement Speed",
-			"Soulrend fires an additional Projectile",
-		},
-	},
-	["Spark"] = {
-		["MERCILESS"] = {
-			"25% increased Spark Damage",
-			"Spark fires 2 additional Projectiles",
-		},
-		["ENDGAME"] = {
-			"40% increased Spark Damage",
-			"Spark fires 3 additional Projectiles",
-			"Spark fires Projectiles in a circle",
-		},
-	},
-	["Spectral Helix"] = {
-		["MERCILESS"] = {
-			"25% increased Spectral Helix Damage",
-			"20% increased Spectral Helix Projectile Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Spectral Helix Damage",
-			"30% increased Spectral Helix Projectile Speed",
-			"Spectral Helix Projectile spirals through +1 rotations",
-		},
-	},
-	["Spectral Shield Throw"] = {
-		["MERCILESS"] = {
-			"25% increased Spectral Shield Throw Damage",
-			"20% increased Spectral Shield Throw Projectile Speed",
-			"Spectral Shield Throw fires 2 additional Shard Projectiles",
-		},
-		["ENDGAME"] = {
-			"40% increased Spectral Shield Throw Damage",
-			"30% increased Spectral Shield Throw Projectile Speed",
-			"Spectral Shield Throw fires 3 additional Shard Projectiles",
+			"영혼 분리가 적을 이동 방해하여 이동 속도 40% 감소",
 		},
 	},
 	["Spectral Throw"] = {
 		["MERCILESS"] = {
-			"25% increased Spectral Throw Damage",
-			"20% reduced Spectral Throw Projectile Deceleration",
-			"20% increased Spectral Throw Projectile Speed",
+			"환영 무기 투척 투사체 감속 20% 감소",
 		},
 		["ENDGAME"] = {
-			"40% increased Spectral Throw Damage",
-			"30% reduced Spectral Throw Projectile Deceleration",
-			"30% increased Spectral Throw Projectile Speed",
+			"환영 무기 투척 투사체 감속 30% 감소",
 		},
 	},
 	["Spellslinger"] = {
 		["MERCILESS"] = {
-			"20% increased Mana Reservation Efficiency of Skills Supported by Spellslinger",
-			"Skills Supported by Spellslinger have 20% increased Cooldown Recovery Rate",
+			"주문투척 보조 효과가 적용되는 스킬의 마나 점유 효율 20% 증가",
+			"주문투척 보조 효과가 적용되는 스킬의 재사용 대기시간 회복 속도 20% 증가",
 		},
 		["ENDGAME"] = {
-			"30% increased Mana Reservation Efficiency of Skills Supported by Spellslinger",
-			"Skills Supported by Spellslinger have 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Spirit Offering"] = {
-		["MERCILESS"] = {
-			"30% increased Spirit Offering Duration",
-			"Spirit Offering grants +8% to Critical Strike Multiplier",
-		},
-		["ENDGAME"] = {
-			"45% increased Spirit Offering Duration",
-			"Spirit Offering grants +12% to Critical Strike Multiplier",
-		},
-	},
-	["Split Arrow"] = {
-		["MERCILESS"] = {
-			"25% increased Split Arrow Damage",
-			"60% increased Split Arrow Critical Strike Chance",
-			"Split Arrow fires 2 additional Projectiles",
-		},
-		["ENDGAME"] = {
-			"40% increased Split Arrow Damage",
-			"90% increased Split Arrow Critical Strike Chance",
-			"Split Arrow fires 3 additional Projectiles",
-		},
-	},
-	["Splitting Steel"] = {
-		["MERCILESS"] = {
-			"Splitting Steel deals 25% increased Damage",
-			"Splitting Steel has 16% increased Area of Effect",
-			"Splitting Steel has 20% chance to not consume Steel Shards",
-		},
-		["ENDGAME"] = {
-			"Splitting Steel deals 40% increased Damage",
-			"Splitting Steel has 24% increased Area of Effect",
-			"Splitting Steel has 30% chance to not consume Steel Shards",
-		},
-	},
-	["Static Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Static Strike Damage",
-			"30% increased Static Strike Duration",
-			"16% increased Static Strike Area of Effect",
-			"Static Strike has +1 maximum Beam Targets",
-		},
-		["ENDGAME"] = {
-			"40% increased Static Strike Damage",
-			"45% increased Static Strike Duration",
-			"24% increased Static Strike Area of Effect",
-			"Static Strike has +2 maximum Beam Targets",
+			"주문투척 보조 효과가 적용되는 스킬의 마나 점유 효율 30% 증가",
+			"주문투척 보조 효과가 적용되는 스킬의 재사용 대기시간 회복 속도 30% 증가",
 		},
 	},
 	["Steelskin"] = {
 		["MERCILESS"] = {
-			"Steelskin grants 8% additional Physical Damage Reduction",
-			"Steelskin Buff can take 30% increased amount of Damage",
+			"강철피부 버프가 받는 피해량 30% 증가",
 		},
 		["ENDGAME"] = {
-			"Steelskin grants 12% additional Physical Damage Reduction",
-			"Steelskin Buff can take 45% increased amount of Damage",
-		},
-	},
-	["Storm Brand"] = {
-		["MERCILESS"] = {
-			"Storm Brand deals 25% increased Damage",
-			"Storm Brand has a 12% chance to Chain an additional time",
-			"Storm Brand Damage Penetrates 8% of Branded Enemy's Lightning Resistance",
-		},
-		["ENDGAME"] = {
-			"Storm Brand deals 40% increased Damage",
-			"Storm Brand has a 18% chance to Chain an additional time",
-			"Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance",
+			"강철피부 버프가 받는 피해량 45% 증가",
 		},
 	},
 	["Storm Burst"] = {
 		["MERCILESS"] = {
-			"25% increased Storm Burst Damage",
-			"16% increased Storm Burst Area of Effect",
-			"Storm Burst has a 10% chance to create an additional Orb",
+			"10%의 확률로 폭풍 점사가 추가 구체 생성",
 		},
 		["ENDGAME"] = {
-			"40% increased Storm Burst Damage",
-			"24% increased Storm Burst Area of Effect",
-			"Storm Burst has a 15% chance to create an additional Orb",
-		},
-	},
-	["Storm Call"] = {
-		["MERCILESS"] = {
-			"25% increased Storm Call Damage",
-			"20% reduced Storm Call Duration",
-			"16% increased Storm Call Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Storm Call Damage",
-			"30% reduced Storm Call Duration",
-			"24% increased Storm Call Area of Effect",
+			"15%의 확률로 폭풍 점사가 추가 구체 생성",
 		},
 	},
 	["Storm Rain"] = {
 		["MERCILESS"] = {
-			"25% increased Storm Rain Damage",
-			"Storm Rain has 25% increased Beam frequency",
+			"폭풍우의 광선 빈도 25% 증가",
 		},
 		["ENDGAME"] = {
-			"40% increased Storm Rain Damage",
-			"Storm Rain has 40% increased Beam frequency",
-			"Storm Rain fires an additional Arrow",
+			"폭풍우의 광선 빈도 40% 증가",
 		},
 	},
 	["Stormbind"] = {
 		["MERCILESS"] = {
-			"Stormbind has 16% increased Area of Effect",
-			"Stormbind deals 25% increased Damage",
-			"Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1 second",
+			"최근 1초 내에 룬 문자를 폭발시키지 않았다면 룬 폭발이 자신을 폭발한 룬 문자로 순간이동",
 		},
 		["ENDGAME"] = {
-			"Stormbind has 24% increased Area of Effect",
-			"Stormbind deals 40% increased Damage",
-			"Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds",
+			"최근 1.5초 내에 룬 문자를 폭발시키지 않았다면 룬 폭발이 자신을 폭발한 룬 문자로 순간이동",
 		},
 	},
 	["Stormblast Mine"] = {
 		["MERCILESS"] = {
-			"Stormblast Mine deals 25% increased Damage",
-			"Stormblast Mine has 10% increased Throwing Speed",
-			"Stormblast Mine has 20% increased Aura Effect",
+			"태풍 파열 지뢰가 주는 피해 25% 증가",
+			"태풍 파열 지뢰의 투척 속도 10% 증가",
+			"태풍 파열 지뢰의 오라 효과 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Stormblast Mine deals 40% increased Damage",
-			"Stormblast Mine has 15% increased Throwing Speed",
-			"Stormblast Mine has 40% increased Aura Effect",
+			"태풍 파열 지뢰가 주는 피해 40% 증가",
+			"태풍 파열 지뢰의 투척 속도 15% 증가",
+			"태풍 파열 지뢰의 오라 효과 40% 증가",
 		},
 	},
 	["Summon Carrion Golem"] = {
 		["MERCILESS"] = {
-			"Summoned Carrion Golems deal 25% increased Damage",
-			"100% increased Effect of the Buff granted by your Carrion Golems",
-			"Summoned Carrion Golems have +24% to all Elemental Resistances",
+			"소환된 부패 골렘이 주는 피해 25% 증가",
+			"부패 골렘이 제공하는 버프 효과 100% 증가",
+			"소환된 부패 골렘의 모든 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Summoned Carrion Golems deal 40% increased Damage",
-			"150% increased Effect of the Buff granted by your Carrion Golems",
-			"Summoned Carrion Golems have +36% to all Elemental Resistances",
+			"소환된 부패 골렘이 주는 피해 40% 증가",
+			"부패 골렘이 제공하는 버프 효과 150% 증가",
+			"소환된 부패 골렘의 모든 원소 저항 +36%",
 		},
 	},
 	["Summon Chaos Golem"] = {
 		["MERCILESS"] = {
-			"Chaos Golems deal 25% increased Damage",
-			"75% increased Effect of the Buff granted by your Chaos Golems",
-			"+24% to Chaos Golem Elemental Resistances",
+			"카오스 골렘이 주는 피해 25% 증가",
+			"카오스 골렘의 버프 효과 75% 증가",
+			"카오스 골렘 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Chaos Golems deal 40% increased Damage",
-			"100% increased Effect of the Buff granted by your Chaos Golems",
-			"+36% to Chaos Golem Elemental Resistances",
+			"카오스 골렘이 주는 피해 40% 증가",
+			"카오스 골렘의 버프 효과 100% 증가",
+			"카오스 골렘 원소 저항 +36%",
 		},
 	},
 	["Summon Flame Golem"] = {
 		["MERCILESS"] = {
-			"Flame Golems have 25% increased Damage",
-			"+24% increased Flame Golem Elemental Resistances",
-			"100% increased Effect of the Buff granted by your Flame Golems",
+			"화염 골렘이 주는 피해 25% 증가",
+			"화염 골렘 원소 저항 +24%",
+			"화염 골렘이 제공하는 버프 효과 100% 증가",
 		},
 		["ENDGAME"] = {
-			"Flame Golems have 40% increased Damage",
-			"+36% increased Flame Golem Elemental Resistances",
-			"150% increased Effect of the Buff granted by your Flame Golems",
+			"화염 골렘이 주는 피해 40% 증가",
+			"화염 골렘 원소 저항 +36%",
+			"화염 골렘이 제공하는 버프 효과 150% 증가",
 		},
 	},
 	["Summon Holy Relic"] = {
 		["MERCILESS"] = {
-			"Summoned Holy Relics deal 25% increased Damage",
-			"Summoned Holy Relics have 16% increased Area of Effect",
-			"Summoned Holy Relics have 40% increased Buff Effect",
+			"소환된 신성한 유물이 주는 피해 25% 증가",
+			"소환된 신성한 유물의 효과 범위 16% 증가",
+			"소환된 신성한 유물의 버프 효과 40% 증가",
 		},
 		["ENDGAME"] = {
-			"Summoned Holy Relics deal 40% increased Damage",
-			"Summoned Holy Relics have 24% increased Area of Effect",
-			"Summoned Holy Relics have 60% increased Buff Effect",
+			"소환된 신성한 유물이 주는 피해 40% 증가",
+			"소환된 신성한 유물의 효과 범위 24% 증가",
+			"소환된 신성한 유물의 버프 효과 60% 증가",
 		},
 	},
 	["Summon Ice Golem"] = {
 		["MERCILESS"] = {
-			"Ice Golems deal 25% increased Damage",
-			"+24% to Ice Golem Elemental Resistances",
-			"100% increased Effect of the Buff granted by your Ice Golems",
+			"얼음 골렘이 주는 피해 25% 증가",
+			"얼음 골렘 원소 저항 +24%",
+			"얼음 골렘이 제공하는 버프 효과 100% 증가",
 		},
 		["ENDGAME"] = {
-			"Ice Golems deal 40% increased Damage",
-			"+36% to Ice Golem Elemental Resistances",
-			"150% increased Effect of the Buff granted by your Ice Golems",
+			"얼음 골렘이 주는 피해 40% 증가",
+			"얼음 골렘 원소 저항 +36%",
+			"얼음 골렘이 제공하는 버프 효과 150% 증가",
 		},
 	},
 	["Summon Lightning Golem"] = {
 		["MERCILESS"] = {
-			"Lightning Golems deal 25% increased Damage",
-			"100% increased Effect of the Buff granted by your Lightning Golems",
-			"+24% to Lightning Golem Elemental Resistances",
+			"번개 골렘이 주는 피해 25% 증가",
+			"번개 골렘이 제공하는 버프 효과 100% 증가",
+			"번개 골렘 원소 저항 +24%",
 		},
 		["ENDGAME"] = {
-			"Lightning Golems deal 40% increased Damage",
-			"150% increased Effect of the Buff granted by your Lightning Golems",
-			"+36% to Lightning Golem Elemental Resistances",
+			"번개 골렘이 주는 피해 40% 증가",
+			"번개 골렘이 제공하는 버프 효과 150% 증가",
+			"번개 골렘 원소 저항 +36%",
 		},
 	},
 	["Summon Raging Spirit"] = {
 		["MERCILESS"] = {
-			"Summon Raging Spirit has 20% increased Duration",
-			"Summon Raging Spirit has 16% chance to summon an extra Minion",
-			"Summoned Raging Spirits deal 25% increased Damage",
+			"격노의 유령 소환 시 16%의 확률로 소환수 하나를 추가 소환",
+			"소환된 격노의 유령이 주는 피해 25% 증가",
 		},
 		["ENDGAME"] = {
-			"Summon Raging Spirit has 30% increased Duration",
-			"Summon Raging Spirit has 24% chance to summon an extra Minion",
-			"Summoned Raging Spirits deal 40% increased Damage",
+			"격노의 유령 소환 시 24%의 확률로 소환수 하나를 추가 소환",
+			"소환된 격노의 유령이 주는 피해 40% 증가",
 		},
 	},
 	["Summon Reaper"] = {
 		["MERCILESS"] = {
-			"Summoned Reaper deals 25% increased Damage",
-			"Summoned Reaper has +12% to Physical Damage over Time Multiplier",
-			"20% increased Summon Reaper Cooldown Recovery Rate",
+			"소환된 수확자가 주는 피해 25% 증가",
+			"소환된 수확자의 지속 물리 피해 배율 +12%",
 		},
 		["ENDGAME"] = {
-			"Summoned Reaper deals 40% increased Damage",
-			"Summoned Reaper has +20% to Physical Damage over Time Multiplier",
-			"30% increased Summon Reaper Cooldown Recovery Rate",
+			"소환된 수확자가 주는 피해 40% 증가",
+			"소환된 수확자의 지속 물리 피해 배율 +20%",
 		},
 	},
 	["Summon Skeletons"] = {
 		["MERCILESS"] = {
-			"Skeletons deal 25% increased Damage",
-			"20% chance to Summon an additional Skeleton with Summon Skeletons",
+			"해골이 주는 피해 25% 증가",
+			"해골 소환으로 20%의 확률로 해골 1마리 추가 소환",
 		},
 		["ENDGAME"] = {
-			"Skeletons deal 40% increased Damage",
-			"40% chance to Summon an additional Skeleton with Summon Skeletons",
+			"해골이 주는 피해 40% 증가",
+			"해골 소환으로 40%의 확률로 해골 1마리 추가 소환",
 		},
 	},
 	["Summon Skitterbots"] = {
 		["MERCILESS"] = {
-			"Summoned Skitterbots have 60% increased Area of Effect",
-			"Summon Skitterbots has 30% increased Mana Reservation Efficiency",
+			"소환된 원격 기폭 장치의 효과 범위 60% 증가",
 		},
 		["ENDGAME"] = {
-			"Summoned Skitterbots have 90% increased Area of Effect",
-			"Summon Skitterbots has 45% increased Mana Reservation Efficiency",
+			"소환된 원격 기폭 장치의 효과 범위 90% 증가",
 		},
 	},
 	["Summon Stone Golem"] = {
 		["MERCILESS"] = {
-			"Stone Golems deal 25% increased Damage",
-			"+24% to Stone Golem Elemental Resistances",
-			"100% increased Effect of the Buff granted by your Stone Golems",
+			"돌 골렘이 주는 피해 25% 증가",
+			"돌 골렘 원소 저항 +24%",
+			"돌 골렘이 제공하는 버프 효과 100% 증가",
 		},
 		["ENDGAME"] = {
-			"Stone Golems deal 40% increased Damage",
-			"+36% to Stone Golem Elemental Resistances",
-			"150% increased Effect of the Buff granted by your Stone Golems",
-		},
-	},
-	["Sunder"] = {
-		["MERCILESS"] = {
-			"Sunder has 25% increased Damage",
-			"Sunder has 16% increased Area of Effect",
-			"Sunder has 15% reduced delay between Areas in the Wave",
-		},
-		["ENDGAME"] = {
-			"Sunder has 40% increased Damage",
-			"Sunder has 24% increased Area of Effect",
-			"Sunder has 20% reduced delay between Areas in the Wave",
-		},
-	},
-	["Sweep"] = {
-		["MERCILESS"] = {
-			"25% increased Sweep Damage",
-			"Sweep has a 20% chance to grant an Endurance Charge on Hit",
-			"16% increased Sweep Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Sweep Damage",
-			"Sweep has a 30% chance to grant an Endurance Charge on Hit",
-			"24% increased Sweep Area of Effect",
-		},
-	},
-	["Tectonic Slam"] = {
-		["MERCILESS"] = {
-			"Tectonic Slam deals 25% increased Damage",
-			"Tectonic Slam has 16% increased Area of Effect",
-			"Tectonic Slam has +12% fissure branching chance",
-		},
-		["ENDGAME"] = {
-			"Tectonic Slam deals 40% increased Damage",
-			"Tectonic Slam has 24% increased Area of Effect",
-			"Tectonic Slam has +20% fissure branching chance",
-		},
-	},
-	["Tempest Shield"] = {
-		["MERCILESS"] = {
-			"25% increased Tempest Shield Damage",
-			"Tempest Shield chains an additional 2 times",
-		},
-		["ENDGAME"] = {
-			"40% increased Tempest Shield Damage",
-			"Tempest Shield chains an additional 3 times",
-		},
-	},
-	["Temporal Chains"] = {
-		["MERCILESS"] = {
-			"10% increased Temporal Chains Curse Effect",
-			"30% increased Temporal Chains Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Temporal Chains Curse Effect",
-			"45% increased Temporal Chains Duration",
-		},
-	},
-	["Temporal Rift"] = {
-		["MERCILESS"] = {
-			"Temporal Rift has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"Temporal Rift has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Tornado"] = {
-		["MERCILESS"] = {
-			"25% increased Tornado Damage",
-			"16% increased Tornado Area of Effect",
-			"Tornado has 20% increased Movement Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Tornado Damage",
-			"24% increased Tornado Area of Effect",
-			"Tornado has 30% increased Movement Speed",
+			"돌 골렘이 주는 피해 40% 증가",
+			"돌 골렘 원소 저항 +36%",
+			"돌 골렘이 제공하는 버프 효과 150% 증가",
 		},
 	},
 	["Tornado Shot"] = {
-		["MERCILESS"] = {
-			"25% increased Tornado Shot Damage",
-			"60% increased Tornado Shot Critical Strike Chance",
-		},
 		["ENDGAME"] = {
-			"40% increased Tornado Shot Damage",
-			"90% increased Tornado Shot Critical Strike Chance",
-			"Tornado Shot fires an additional secondary Projectile",
-		},
-	},
-	["Toxic Rain"] = {
-		["MERCILESS"] = {
-			"Toxic Rain deals 25% increased Damage",
-			"Toxic Rain gains 6% of Physical Damage as Extra Chaos Damage",
-		},
-		["ENDGAME"] = {
-			"Toxic Rain deals 40% increased Damage",
-			"Toxic Rain gains 10% of Physical Damage as Extra Chaos Damage",
-			"Toxic Rain fires 1 additional Arrow",
+			"회오리 사격이 부가 투사체 1개 추가 발사",
 		},
 	},
 	["Unearth"] = {
 		["MERCILESS"] = {
-			"Unearth Spawns corpses with +3 Level",
-			"25% increased Unearth Damage",
-			"8% increased Unearth Cast Speed",
+			"발굴로 +3레벨 시신 생성",
+			"발굴 피해 25% 증가",
+			"발굴 시전 속도 8% 증가",
 		},
 		["ENDGAME"] = {
-			"Unearth Spawns corpses with +5 Level",
-			"40% increased Unearth Damage",
-			"12% increased Unearth Cast Speed",
-		},
-	},
-	["Vampiric Link"] = {
-		["MERCILESS"] = {
-			"20% increased Vampiric Link Duration",
-		},
-		["ENDGAME"] = {
-			"30% increased Vampiric Link Duration",
-		},
-	},
-	["Vengeance"] = {
-		["MERCILESS"] = {
-			"25% increased Vengeance Damage",
-			"Vengeance has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"40% increased Vengeance Damage",
-			"Vengeance has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Venom Gyre"] = {
-		["MERCILESS"] = {
-			"Venom Gyre deals 25% increased Damage",
-			"Venom Gyre has a 12% chance to inflict Withered for 2 seconds on Hit",
-		},
-		["ENDGAME"] = {
-			"Venom Gyre deals 40% increased Damage",
-			"Venom Gyre has a 20% chance to inflict Withered for 2 seconds on Hit",
-			"Venom Gyre has a 25% chance to keep each caught Projectile fired with Whirling Blades",
-		},
-	},
-	["Vigilant Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Vigilant Strike Damage",
-			"Vigilant Strike has 30% increased Fortification Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Vigilant Strike Damage",
-			"Vigilant Strike has 45% increased Fortification Duration",
-		},
-	},
-	["Viper Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Viper Strike Damage",
-			"60% increased Viper Strike Critical Strike Chance",
-			"20% increased Viper Strike Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Viper Strike Damage",
-			"90% increased Viper Strike Critical Strike Chance",
-			"30% increased Viper Strike Duration",
+			"발굴로 +5레벨 시신 생성",
+			"발굴 피해 40% 증가",
+			"발굴 시전 속도 12% 증가",
 		},
 	},
 	["Vitality"] = {
 		["MERCILESS"] = {
-			"Vitality has 50% increased Mana Reservation Efficiency",
+			"활력의 마나 점유 효율 50% 증가",
 		},
 		["ENDGAME"] = {
-			"Vitality has 75% increased Mana Reservation Efficiency",
+			"활력의 마나 점유 효율 75% 증가",
 		},
 	},
 	["Void Sphere"] = {
 		["MERCILESS"] = {
-			"Void Sphere has 20% increased Cooldown Recovery Rate",
-			"Enemies in Void Sphere's range take up to 6% increased Damage, based on distance from the Void Sphere",
-			"Void Sphere has 12% increased Pulse Frequency",
+			"공허 구체와의 거리에 따라 공허 구체의 범위 내 적이 받는 피해 최대 6% 증가",
+			"공허 구체의 파동 빈도 12% 증가",
 		},
 		["ENDGAME"] = {
-			"Void Sphere has 30% increased Cooldown Recovery Rate",
-			"Enemies in Void Sphere's range take up to 10% increased Damage, based on distance from the Void Sphere",
-			"Void Sphere has 18% increased Pulse Frequency",
+			"공허 구체와의 거리에 따라 공허 구체의 범위 내 적이 받는 피해 최대 10% 증가",
+			"공허 구체의 파동 빈도 18% 증가",
 		},
 	},
 	["Volatile Dead"] = {
-		["MERCILESS"] = {
-			"25% increased Volatile Dead Damage",
-			"8% increased Volatile Dead Cast Speed",
-		},
 		["ENDGAME"] = {
-			"Volatile Dead Consumes up to 1 additional corpse",
-			"40% increased Volatile Dead Damage",
-			"12% increased Volatile Dead Cast Speed",
+			"시체 불덩이가 시신 최대 1구 추가 소모",
 		},
 	},
 	["Volcanic Fissure"] = {
 		["MERCILESS"] = {
-			"Volcanic Fissure deals 25% increased Damage",
-			"Volcanic Fissure fires an additional Projectile",
-			"Volcanic Fissure travels 60% faster",
+			"화산 균열로 주는 피해 25% 증가",
+			"화산 균열이 투사체 1개 추가 발사",
+			"화산 균열의 이동 속도 60% 가속",
 		},
 		["ENDGAME"] = {
-			"Volcanic Fissure deals 40% increased Damage",
-			"Volcanic Fissure fires 2 additional Projectiles",
-			"Volcanic Fissure travels 80% faster",
-		},
-	},
-	["Voltaxic Burst"] = {
-		["MERCILESS"] = {
-			"25% increased Voltaxic Burst Damage",
-			"16% increased Voltaxic Burst Area of Effect",
-			"Voltaxic Burst deals 2% increased Damage per 0.1 seconds of Duration",
-		},
-		["ENDGAME"] = {
-			"40% increased Voltaxic Burst Damage",
-			"24% increased Voltaxic Burst Area of Effect",
-			"Voltaxic Burst deals 3% increased Damage per 0.1 seconds of Duration",
-		},
-	},
-	["Vortex"] = {
-		["MERCILESS"] = {
-			"25% increased Vortex Damage",
-			"20% increased Vortex Duration",
-			"Vortex has 30% increased Area of Effect when Cast on Frostbolt",
-			"Vortex has 20% increased Cooldown Recovery Rate",
-		},
-		["ENDGAME"] = {
-			"40% increased Vortex Damage",
-			"30% increased Vortex Duration",
-			"Vortex has 45% increased Area of Effect when Cast on Frostbolt",
-			"Vortex has 30% increased Cooldown Recovery Rate",
-		},
-	},
-	["Vulnerability"] = {
-		["MERCILESS"] = {
-			"10% increased Vulnerability Curse Effect",
-			"30% increased Vulnerability Duration",
-		},
-		["ENDGAME"] = {
-			"15% increased Vulnerability Curse Effect",
-			"45% increased Vulnerability Duration",
-		},
-	},
-	["War Banner"] = {
-		["MERCILESS"] = {
-			"War Banner has 25% increased Aura Effect",
-		},
-		["ENDGAME"] = {
-			"War Banner has 40% increased Aura Effect",
-		},
-	},
-	["Warlord's Mark"] = {
-		["MERCILESS"] = {
-			"20% increased Warlord's Mark Curse Effect",
-		},
-		["ENDGAME"] = {
-			"30% increased Warlord's Mark Curse Effect",
-		},
-	},
-	["Wave of Conviction"] = {
-		["MERCILESS"] = {
-			"Wave of Conviction deals 25% increased Damage",
-			"Wave of Conviction's Exposure applies an extra -4% to Elemental Resistance",
-			"Wave of Conviction has 20% increased Duration",
-		},
-		["ENDGAME"] = {
-			"Wave of Conviction deals 40% increased Damage",
-			"Wave of Conviction's Exposure applies an extra -6% to Elemental Resistance",
-			"Wave of Conviction has 30% increased Duration",
-		},
-	},
-	["Whirling Blades"] = {
-		["MERCILESS"] = {
-			"25% increased Whirling Blades Damage",
-			"10% increased Whirling Blades Attack Speed",
-		},
-		["ENDGAME"] = {
-			"40% increased Whirling Blades Damage",
-			"15% increased Whirling Blades Attack Speed",
-		},
-	},
-	["Wild Strike"] = {
-		["MERCILESS"] = {
-			"25% increased Wild Strike Damage",
-			"Wild Strike's Beam Chains an additional 4 times",
-			"24% increased Wild Strike Area of Effect",
-		},
-		["ENDGAME"] = {
-			"40% increased Wild Strike Damage",
-			"Wild Strike's Beam Chains an additional 6 times",
-			"36% increased Wild Strike Area of Effect",
-		},
-	},
-	["Winter Orb"] = {
-		["MERCILESS"] = {
-			"Winter Orb deals 25% increased Damage",
-			"Winter Orb has 2% increased Area of Effect per Stage",
-		},
-		["ENDGAME"] = {
-			"Winter Orb deals 40% increased Damage",
-			"Winter Orb has +2 Maximum Stages",
-			"Winter Orb has 3% increased Area of Effect per Stage",
-		},
-	},
-	["Wintertide Brand"] = {
-		["MERCILESS"] = {
-			"Wintertide Brand deals 25% increased Damage",
-			"Wintertide Brand has +2 to maximum Stages",
-			"Wintertide Brand has 25% increased Chill Effect",
-		},
-		["ENDGAME"] = {
-			"Wintertide Brand deals 40% increased Damage",
-			"Wintertide Brand has +4 to maximum Stages",
-			"Wintertide Brand has 40% increased Chill Effect",
-		},
-	},
-	["Wither"] = {
-		["MERCILESS"] = {
-			"Wither has 24% increased Duration",
-			"Wither has 16% increased Area of Effect",
-		},
-		["ENDGAME"] = {
-			"Wither has 36% increased Duration",
-			"Wither has 24% increased Area of Effect",
-		},
-	},
-	["Withering Step"] = {
-		["MERCILESS"] = {
-			"Withering Step inflicts 2 additional Withered Debuffs",
-			"Withering Step has 20% increased Elusive Effect",
-		},
-		["ENDGAME"] = {
-			"Withering Step inflicts 3 additional Withered Debuffs",
-			"Withering Step has 30% increased Elusive Effect",
-		},
-	},
-	["Wrath"] = {
-		["MERCILESS"] = {
-			"Wrath has 20% increased Mana Reservation Efficiency",
-		},
-		["ENDGAME"] = {
-			"Wrath has 30% increased Mana Reservation Efficiency",
+			"화산 균열로 주는 피해 40% 증가",
+			"화산 균열이 투사체 2개 추가 발사",
+			"화산 균열의 이동 속도 80% 가속",
 		},
 	},
 	["Zealotry"] = {
 		["MERCILESS"] = {
-			"Zealotry has 20% increased Mana Reservation Efficiency",
+			"열광의 마나 점유 효율 20% 증가",
 		},
 		["ENDGAME"] = {
-			"Zealotry has 30% increased Mana Reservation Efficiency",
+			"열광의 마나 점유 효율 30% 증가",
+		},
+	},
+	["가속"] = {
+		["MERCILESS"] = {
+			"가속의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"가속의 마나 점유 효율 30% 증가",
+		},
+	},
+	["강철 관통"] = {
+		["MERCILESS"] = {
+			"강철 관통으로 주는 피해 25% 증가",
+			"강철 관통이 20%의 확률로 강철 조각을 소모하지 않아도 소모한 것으로 간주",
+		},
+		["ENDGAME"] = {
+			"강철 관통으로 주는 피해 40% 증가",
+			"강철 관통이 30%의 확률로 강철 조각을 소모하지 않아도 소모한 것으로 간주",
+			"강철 관통이 투사체 1개 추가 발사",
+		},
+	},
+	["강철 분할"] = {
+		["MERCILESS"] = {
+			"강철 분할로 주는 피해 25% 증가",
+			"강철 분할의 효과 범위 16% 증가",
+			"강철 분할이 20%의 확률로 강철 조각을 소모하지 않음",
+		},
+		["ENDGAME"] = {
+			"강철 분할로 주는 피해 40% 증가",
+			"강철 분할의 효과 범위 24% 증가",
+			"강철 분할이 30%의 확률로 강철 조각을 소모하지 않음",
+		},
+	},
+	["강철 파편"] = {
+		["MERCILESS"] = {
+			"강철 파편으로 주는 피해 25% 증가",
+			"강철 파편이 20%의 확률로 강철 조각을 소모하지 않음",
+		},
+		["ENDGAME"] = {
+			"강철 파편으로 주는 피해 40% 증가",
+			"근거리에서 강철 파편 명중 시 방어 상승",
+			"강철 파편이 30%의 확률로 강철 조각을 소모하지 않음",
+		},
+	},
+	["강철피부"] = {
+		["MERCILESS"] = {
+			"강철피부 사용 시 받는 물리 피해 8% 추가 감소 제공",
+		},
+		["ENDGAME"] = {
+			"강철피부 사용 시 받는 물리 피해 12% 추가 감소 제공",
+		},
+	},
+	["거울 화살"] = {
+		["MERCILESS"] = {
+			"거울 화살 및 거울 화살 분신이 주는 피해 25% 증가",
+			"거울 화살 및 거울 화살 분신의 공격 속도 10% 증가",
+			"거울 화살의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"거울 화살 및 거울 화살 분신이 주는 피해 40% 증가",
+			"거울 화살 및 거울 화살 분신의 공격 속도 15% 증가",
+			"거울 화살의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["겨울 보주"] = {
+		["MERCILESS"] = {
+			"겨울 보주로 주는 피해 25% 증가",
+			"겨울 보주 단계 하나당 효과 범위 2% 증가",
+		},
+		["ENDGAME"] = {
+			"겨울 보주로 주는 피해 40% 증가",
+			"겨울 보주 최대 단계 +2",
+			"겨울 보주 단계 하나당 효과 범위 3% 증가",
+		},
+	},
+	["겨울의 낙인"] = {
+		["MERCILESS"] = {
+			"겨울의 낙인이 주는 피해 25% 증가",
+			"겨울의 낙인의 단계 최대치 +2",
+			"겨울의 낙인의 냉각 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"겨울의 낙인이 주는 피해 40% 증가",
+			"겨울의 낙인의 단계 최대치 +4",
+			"겨울의 낙인의 냉각 효과 40% 증가",
+		},
+	},
+	["겨울의 눈"] = {
+		["MERCILESS"] = {
+			"겨울의 눈 피해 25% 증가",
+			"겨울의 눈 투사체 속도 20% 증가",
+			"겨울의 눈이 비행하는 동안 발사하는 파편 투사체의 빈도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"겨울의 눈 피해 40% 증가",
+			"겨울의 눈 투사체 속도 30% 증가",
+			"겨울의 눈이 비행하는 동안 발사하는 파편 투사체의 빈도 12% 증가",
+		},
+	},
+	["격노 소용돌이"] = {
+		["MERCILESS"] = {
+			"격노 소용돌이 피해 25% 증가",
+			"격노 소용돌이의 효과 범위 16% 증가",
+			"격노 소용돌이가 소모하는 격노 +3%",
+		},
+		["ENDGAME"] = {
+			"격노 소용돌이 피해 40% 증가",
+			"격노 소용돌이의 효과 범위 24% 증가",
+			"격노 소용돌이가 소모하는 격노 +5%",
+		},
+	},
+	["격노의 유령 소환"] = {
+		["MERCILESS"] = {
+			"격노의 유령 소환 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"격노의 유령 소환 지속시간 30% 증가",
+		},
+	},
+	["경계 타격"] = {
+		["MERCILESS"] = {
+			"경계 타격 피해 25% 증가",
+			"경계 타격의 방어 상승 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"경계 타격 피해 40% 증가",
+			"경계 타격의 방어 상승 지속시간 45% 증가",
+		},
+	},
+	["고사시키는 걸음"] = {
+		["MERCILESS"] = {
+			"고사시키는 걸음이 위축 디버프 2개 추가 유발",
+			"고사시키는 걸음의 도피 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"고사시키는 걸음이 위축 디버프 3개 추가 유발",
+			"고사시키는 걸음의 도피 효과 30% 증가",
+		},
+	},
+	["고통의 전령"] = {
+		["MERCILESS"] = {
+			"고통의 전령의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"고통의 전령의 마나 점유 효율 75% 증가",
+		},
+	},
+	["곰 덫"] = {
+		["MERCILESS"] = {
+			"곰 덫 피해 25% 증가",
+			"곰 덫의 재사용 대기시간 회복 속도 10% 증가",
+			"곰 덫의 영향을 받는 적이 덫 또는 지뢰 명중으로 받는 피해 5% 증가",
+		},
+		["ENDGAME"] = {
+			"곰 덫 피해 40% 증가",
+			"곰 덫의 재사용 대기시간 회복 속도 15% 증가",
+			"곰 덫의 영향을 받는 적이 덫 또는 지뢰 명중으로 받는 피해 10% 증가",
+		},
+	},
+	["공성 쇠뇌"] = {
+		["MERCILESS"] = {
+			"공성 쇠뇌로 주는 피해 25% 증가",
+			"공성 쇠뇌 공격 속도 10% 증가",
+			"공성 쇠뇌의 토템 설치 속도 30% 증가",
+		},
+		["ENDGAME"] = {
+			"공성 쇠뇌로 주는 피해 40% 증가",
+			"공성 쇠뇌 공격 속도 15% 증가",
+			"공성 쇠뇌의 토템 설치 속도 45% 증가",
+		},
+	},
+	["공포의 깃발"] = {
+		["MERCILESS"] = {
+			"공포의 깃발 오라 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"공포의 깃발 오라 효과 40% 증가",
+		},
+	},
+	["공허 구체"] = {
+		["MERCILESS"] = {
+			"공허 구체의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"공허 구체의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["관통상"] = {
+		["MERCILESS"] = {
+			"관통상 피해 25% 증가",
+			"관통상 지속시간 30% 증가",
+			"명중 시 20%의 확률로 관통상이 힘줄 절단",
+		},
+		["ENDGAME"] = {
+			"관통상 피해 40% 증가",
+			"관통상 지속시간 45% 증가",
+			"명중 시 30%의 확률로 관통상이 힘줄 절단",
+		},
+	},
+	["광폭"] = {
+		["MERCILESS"] = {
+			"광폭의 버프 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"광폭의 버프 효과 30% 증가",
+		},
+	},
+	["구형 번개"] = {
+		["MERCILESS"] = {
+			"구형 번개 피해 25% 증가",
+			"구형 번개 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"구형 번개 피해 40% 증가",
+			"구형 번개 효과 범위 24% 증가",
+			"구형 번개가 투사체 1개 추가 발사",
+		},
+	},
+	["권능 착취"] = {
+		["MERCILESS"] = {
+			"권능 착취 피해 25% 증가",
+			"권능 착취 공격 속도 10% 증가",
+			"권능 착취가 투사체 1개 추가 발사",
+		},
+		["ENDGAME"] = {
+			"권능 착취 피해 40% 증가",
+			"권능 착취 공격 속도 15% 증가",
+			"권능 착취가 투사체 2개 추가 발사",
+		},
+	},
+	["금단의 의식"] = {
+		["MERCILESS"] = {
+			"금단의 의식 피해 25% 증가",
+			"금단의 의식 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"금단의 의식 피해 40% 증가",
+			"금단의 의식 투사체 속도 30% 증가",
+			"금단의 의식이 투사체 1개 추가 발사",
+		},
+	},
+	["대지 강타"] = {
+		["MERCILESS"] = {
+			"대지 강타 피해 25% 증가",
+			"대지 강타 효과 범위 16% 증가",
+			"대지 강타의 각도 16% 증가",
+		},
+		["ENDGAME"] = {
+			"대지 강타 피해 40% 증가",
+			"대지 강타 효과 범위 24% 증가",
+			"대지 강타의 각도 24% 증가",
+		},
+	},
+	["덩굴 번개"] = {
+		["MERCILESS"] = {
+			"덩굴 번개 피해 25% 증가",
+			"덩굴 번개 효과 범위 16% 증가",
+			"덩굴 번개 치명타 확률 40% 증가",
+		},
+		["ENDGAME"] = {
+			"덩굴 번개 피해 40% 증가",
+			"덩굴 번개 효과 범위 24% 증가",
+			"덩굴 번개 치명타 확률 60% 증가",
+		},
+	},
+	["도약 강타"] = {
+		["MERCILESS"] = {
+			"도약 강타 피해 25% 증가",
+			"도약 강타 공격 속도 10% 증가",
+			"도약 강타 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"도약 강타 피해 40% 증가",
+			"도약 강타 공격 속도 15% 증가",
+			"도약 강타 효과 범위 24% 증가",
+		},
+	},
+	["독성 운반자"] = {
+		["MERCILESS"] = {
+			"독성 운반자 버프에 감염된 동안 지속 중독 피해 배율 +12% 적용",
+			"독성 운반자가 주는 피해가 역병 수치의 3%에 비례",
+		},
+		["ENDGAME"] = {
+			"독성 운반자 버프에 감염된 동안 지속 중독 피해 배율 +20% 적용",
+			"독성 운반자가 주는 피해가 역병 수치의 5%에 비례",
+		},
+	},
+	["독성 혼합물"] = {
+		["MERCILESS"] = {
+			"독성 혼합물 피해 25% 증가",
+			"독성 혼합물 효과 범위 16% 증가",
+			"독성 혼합물의 플라스크 충전 사용 8% 감소",
+		},
+		["ENDGAME"] = {
+			"독성 혼합물 피해 40% 증가",
+			"독성 혼합물 효과 범위 24% 증가",
+			"독성 혼합물의 플라스크 충전 사용 12% 감소",
+		},
+	},
+	["독액 선회"] = {
+		["MERCILESS"] = {
+			"독액 선회로 주는 피해 25% 증가",
+			"독액 선회 명중 시 12% 확률로 2초 동안 위축 유발",
+		},
+		["ENDGAME"] = {
+			"독액 선회로 주는 피해 40% 증가",
+			"독액 선회 명중 시 20% 확률로 2초 동안 위축 유발",
+			"독액 선회의 붙잡은 투사체가 칼날 선회로 발사될 때 25% 확률로 유지됨",
+		},
+	},
+	["동결 파동"] = {
+		["MERCILESS"] = {
+			"동결 파동 피해 25% 증가",
+			"동결 파동 시전 속도 8% 증가",
+			"동결 파동 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"동결 파동 피해 40% 증가",
+			"동결 파동 시전 속도 12% 증가",
+			"동결 파동 투사체 속도 30% 증가",
+		},
+	},
+	["동상"] = {
+		["MERCILESS"] = {
+			"동상 저주 효과 10% 증가",
+			"동상 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"동상 저주 효과 15% 증가",
+			"동상 지속시간 45% 증가",
+		},
+	},
+	["마나 결속"] = {
+		["MERCILESS"] = {
+			"마나 결속 피해 25% 증가",
+			"마나 결속 효과 범위 16% 증가",
+			"마나 결속이 낮은 마나 상태에서 8%의 번개 저항 관통",
+		},
+		["ENDGAME"] = {
+			"마나 결속 피해 40% 증가",
+			"마나 결속 효과 범위 24% 증가",
+			"마나 결속이 낮은 마나 상태에서 12%의 번개 저항 관통",
+		},
+	},
+	["매복"] = {
+		["MERCILESS"] = {
+			"매복의 재사용 대기시간 회복 속도 20% 증가",
+			"매복 버프 시 전력 공격의 치명타 피해 배율 +25%",
+		},
+		["ENDGAME"] = {
+			"매복의 재사용 대기시간 회복 속도 30% 증가",
+			"매복 버프 시 전력 공격의 치명타 피해 배율 +40%",
+		},
+	},
+	["맹독 타격"] = {
+		["MERCILESS"] = {
+			"맹독 타격 피해 25% 증가",
+			"맹독 타격 치명타 확률 60% 증가",
+			"맹독 타격 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"맹독 타격 피해 40% 증가",
+			"맹독 타격 치명타 확률 90% 증가",
+			"맹독 타격 지속시간 30% 증가",
+		},
+	},
+	["맹독성 비"] = {
+		["MERCILESS"] = {
+			"맹독성 비가 주는 피해 25% 증가",
+			"맹독성 비가 물리 피해의 6%를 추가 카오스 피해로 획득",
+		},
+		["ENDGAME"] = {
+			"맹독성 비가 주는 피해 40% 증가",
+			"맹독성 비가 물리 피해의 10%를 추가 카오스 피해로 획득",
+			"맹독성 비가 화살 1개 추가 발사",
+		},
+	},
+	["맹렬한 포격"] = {
+		["MERCILESS"] = {
+			"맹렬한 포격으로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"맹렬한 포격으로 주는 피해 40% 증가",
+			"맹렬한 포격이 투사체 1개 추가 발사",
+		},
+	},
+	["면죄"] = {
+		["MERCILESS"] = {
+			"면죄의 파수꾼 지속시간 20% 증가",
+			"면죄 시전 속도 8% 증가",
+			"소환된 면죄의 파수꾼 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"면죄의 파수꾼 지속시간 30% 증가",
+			"면죄 시전 속도 12% 증가",
+			"소환된 면죄의 파수꾼 효과 범위 24% 증가",
+		},
+	},
+	["명상"] = {
+		["MERCILESS"] = {
+			"명상의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"명상의 마나 점유 효율 75% 증가",
+		},
+	},
+	["몰려오는 마그마"] = {
+		["MERCILESS"] = {
+			"몰려오는 마그마 피해 25% 증가",
+			"몰려오는 마그마 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"몰려오는 마그마 피해 40% 증가",
+			"몰려오는 마그마가 1회 추가 연쇄",
+			"몰려오는 마그마 효과 범위 24% 증가",
+		},
+	},
+	["무기 기동"] = {
+		["MERCILESS"] = {
+			"무기 기동 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"무기 기동 지속시간 30% 증가",
+		},
+	},
+	["묵직한 타격"] = {
+		["MERCILESS"] = {
+			"묵직한 타격 피해 25% 증가",
+			"묵직한 타격 공격 속도 10% 증가",
+			"묵직한 타격이 8%의 확률로 2배의 피해를 줌",
+		},
+		["ENDGAME"] = {
+			"묵직한 타격 피해 40% 증가",
+			"묵직한 타격 공격 속도 15% 증가",
+			"묵직한 타격이 12%의 확률로 2배의 피해를 줌",
+		},
+	},
+	["물의 구체"] = {
+		["MERCILESS"] = {
+			"물의 구체로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"물의 구체로 주는 피해 40% 증가",
+		},
+	},
+	["미끼 토템"] = {
+		["MERCILESS"] = {
+			"미끼 토템 생명력 40% 증가",
+			"미끼 토템 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"미끼 토템 생명력 60% 증가",
+			"미끼 토템 효과 범위 24% 증가",
+		},
+	},
+	["밀렵꾼의 징표"] = {
+		["MERCILESS"] = {
+			"밀렵꾼의 징표 저주 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"밀렵꾼의 징표 저주 효과 30% 증가",
+		},
+	},
+	["반격"] = {
+		["MERCILESS"] = {
+			"반격 피해 25% 증가",
+			"반격 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"반격 피해 40% 증가",
+			"반격 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["발화"] = {
+		["ENDGAME"] = {
+			"발화의 효과 범위 30% 증가",
+		},
+	},
+	["방패 타쇄"] = {
+		["MERCILESS"] = {
+			"방패 타쇄 피해 25% 증가",
+			"방패 타쇄 공격 속도 10% 증가",
+			"방패 타쇄의 중앙 파장의 효과 범위 16% 증폭",
+		},
+		["ENDGAME"] = {
+			"방패 타쇄 피해 40% 증가",
+			"방패 타쇄 공격 속도 15% 증가",
+			"방패 타쇄의 중앙 파장의 효과 범위 24% 증폭",
+		},
+	},
+	["방혈"] = {
+		["MERCILESS"] = {
+			"방혈로 주는 피해 25% 증가",
+			"방혈 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"방혈로 주는 피해 40% 증가",
+			"방혈 지속시간 30% 증가",
+			"25%의 확률로 방혈 추가 연쇄",
+		},
+	},
+	["번개 덫"] = {
+		["MERCILESS"] = {
+			"번개 덫 피해 25% 증가",
+			"번개 덫이 대상 2개 추가 관통",
+			"번개 덫 피해가 6%의 번개 저항 관통",
+			"번개 덫의 번개 상태 이상 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"번개 덫 피해 40% 증가",
+			"번개 덫이 대상 3개 추가 관통",
+			"번개 덫 피해가 10%의 번개 저항 관통",
+			"번개 덫의 번개 상태 이상 효과 40% 증가",
+		},
+	},
+	["번개 도관"] = {
+		["MERCILESS"] = {
+			"번개 도관으로 주는 피해 25% 증가",
+			"번개 도관의 시전 속도 8% 증가",
+			"번개 도관의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"번개 도관으로 주는 피해 40% 증가",
+			"번개 도관의 시전 속도 12% 증가",
+			"번개 도관의 효과 범위 24% 증가",
+		},
+	},
+	["번개 차원 이동"] = {
+		["MERCILESS"] = {
+			"번개 차원 이동 피해 25% 증가",
+			"번개 차원 이동 시전 속도 8% 증가",
+			"번개 차원 이동 지속시간 20% 감소",
+		},
+		["ENDGAME"] = {
+			"번개 차원 이동 피해 40% 증가",
+			"번개 차원 이동 시전 속도 12% 증가",
+			"번개 차원 이동 지속시간 30% 감소",
+		},
+	},
+	["번개 첨탑 덫"] = {
+		["MERCILESS"] = {
+			"번개 첨탑 덫이 주는 피해 25% 증가",
+			"번개 첨탑 덫 투척 속도 8% 증가",
+			"번개 첨탑 덫의 스킬 효과 지속시간 20% 증가",
+			"번개 첨탑 덫 재사용 대기시간 회복 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"번개 첨탑 덫이 주는 피해 40% 증가",
+			"번개 첨탑 덫 투척 속도 12% 증가",
+			"번개 첨탑 덫의 스킬 효과 지속시간 30% 증가",
+			"번개 첨탑 덫 재사용 대기시간 회복 속도 15% 증가",
+			"번개 첨탑 덫이 지역 1개 추가 타격",
+		},
+	},
+	["번개 타격"] = {
+		["MERCILESS"] = {
+			"번개 타격 피해 25% 증가",
+			"번개 타격이 투사체 1개 추가 발사",
+			"번개 타격이 대상 2개 추가 관통",
+		},
+		["ENDGAME"] = {
+			"번개 타격 피해 40% 증가",
+			"번개 타격이 투사체 2개 추가 발사",
+			"번개 타격이 대상 3개 추가 관통",
+		},
+	},
+	["번개 화살"] = {
+		["MERCILESS"] = {
+			"번개 화살 피해 25% 증가",
+			"번개 화살 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"번개 화살 피해 40% 증가",
+			"번개 화살 효과 범위 24% 증가",
+		},
+	},
+	["번개의 순수함"] = {
+		["MERCILESS"] = {
+			"번개의 순수함의 마나 점유 효율 30% 증가",
+		},
+		["ENDGAME"] = {
+			"번개의 순수함의 마나 점유 효율 45% 증가",
+		},
+	},
+	["보호의 연결"] = {
+		["MERCILESS"] = {
+			"보호의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"보호의 연결 지속시간 30% 증가",
+		},
+	},
+	["복수"] = {
+		["MERCILESS"] = {
+			"복수 피해 25% 증가",
+			"복수의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"복수 피해 40% 증가",
+			"복수의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["부식성 화살"] = {
+		["MERCILESS"] = {
+			"부식성 화살 피해 25% 증가",
+			"부식성 화살 지속시간 20% 증가",
+			"부식성 화살 효과 범위 16% 증가",
+			"부식성 화살 명중 시 14%의 확률로 2초의 기본 지속시간 동안 위축 유발",
+		},
+		["ENDGAME"] = {
+			"부식성 화살 피해 40% 증가",
+			"부식성 화살 지속시간 30% 증가",
+			"부식성 화살 효과 범위 24% 증가",
+			"부식성 화살 명중 시 20%의 확률로 2초의 기본 지속시간 동안 위축 유발",
+		},
+	},
+	["분노"] = {
+		["MERCILESS"] = {
+			"분노의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"분노의 마나 점유 효율 30% 증가",
+		},
+	},
+	["분할 화살"] = {
+		["MERCILESS"] = {
+			"분할 화살 피해 25% 증가",
+			"분할 화살 치명타 확률 60% 증가",
+			"분할 화살로 투사체 2개 추가 발사",
+		},
+		["ENDGAME"] = {
+			"분할 화살 피해 40% 증가",
+			"분할 화살 치명타 확률 90% 증가",
+			"분할 화살로 투사체 3개 추가 발사",
+		},
+	},
+	["불멸의 외침"] = {
+		["MERCILESS"] = {
+			"불멸의 외침 지속시간 24% 증가",
+		},
+		["ENDGAME"] = {
+			"불멸의 외침 지속시간 36% 증가",
+		},
+	},
+	["불의 순수함"] = {
+		["MERCILESS"] = {
+			"불의 순수함의 마나 점유 효율 30% 증가",
+		},
+		["ENDGAME"] = {
+			"불의 순수함의 마나 점유 효율 45% 증가",
+		},
+	},
+	["불타는 굴레"] = {
+		["MERCILESS"] = {
+			"불타는 굴레 피해 25% 증가",
+			"불타는 굴레 토템 설치 속도 40% 증가",
+			"불타는 굴레 토템 원소 저항 24% 증가",
+		},
+		["ENDGAME"] = {
+			"불타는 굴레 피해 40% 증가",
+			"불타는 굴레 토템 설치 속도 60% 증가",
+			"불타는 굴레 토템 원소 저항 36% 증가",
+		},
+	},
+	["불타는 화살"] = {
+		["MERCILESS"] = {
+			"불타는 화살 피해 25% 증가",
+			"불타는 화살의 점화 확률 +20%",
+			"불타는 화살 물리 피해의 10%를 추가 화염 피해로 획득",
+		},
+		["ENDGAME"] = {
+			"불타는 화살 피해 40% 증가",
+			"불타는 화살의 점화 확률 +30%",
+			"불타는 화살 물리 피해의 15%를 추가 화염 피해로 획득",
+		},
+	},
+	["비전의 망토"] = {
+		["MERCILESS"] = {
+			"비전의 망토가 현재 마나의 10%를 추가 소모",
+		},
+		["ENDGAME"] = {
+			"비전의 망토가 현재 마나의 15%를 추가 소모",
+			"비전의 망토가 1초마다 사용한 마나의 15%와 동일한 생명력 재생",
+		},
+	},
+	["빙하 망치"] = {
+		["MERCILESS"] = {
+			"빙하 망치 피해 25% 증가",
+			"빙하 망치의 동결 확률 +20%",
+			"빙하 망치 물리 피해의 10%를 추가 냉기 피해로 획득",
+		},
+		["ENDGAME"] = {
+			"빙하 망치 피해 40% 증가",
+			"빙하 망치의 동결 확률 +30%",
+			"빙하 망치 물리 피해의 15%를 추가 냉기 피해로 획득",
+		},
+	},
+	["빙하 폭포"] = {
+		["MERCILESS"] = {
+			"빙하 폭포 피해 25% 증가",
+			"빙하 폭포 효과 범위 16% 증가",
+			"빙하 폭포가 물리 피해의 6%를 추가 냉기 피해로 획득",
+		},
+		["ENDGAME"] = {
+			"빙하 폭포 피해 40% 증가",
+			"빙하 폭포 효과 범위 24% 증가",
+			"빙하 폭포가 물리 피해의 10%를 추가 냉기 피해로 획득",
+		},
+	},
+	["뼈 공물"] = {
+		["MERCILESS"] = {
+			"뼈 공물 지속시간 30% 증가",
+			"뼈 공물이 공격 피해를 막아낼 확률 +6% 추가",
+		},
+		["ENDGAME"] = {
+			"뼈 공물 지속시간 45% 증가",
+			"뼈 공물이 공격 피해를 막아낼 확률 +9% 추가",
+		},
+	},
+	["뼈 박살"] = {
+		["MERCILESS"] = {
+			"뼈 박살이 주는 피해 25% 증가",
+			"뼈 박살의 기절 지속시간 25% 증가",
+			"뼈 박살이 16%의 확률로 외상 +1 획득",
+		},
+		["ENDGAME"] = {
+			"뼈 박살이 주는 피해 40% 증가",
+			"뼈 박살의 기절 지속시간 40% 증가",
+			"뼈 박살이 24%의 확률로 외상 +1 획득",
+		},
+	},
+	["사나운 타격"] = {
+		["MERCILESS"] = {
+			"사나운 타격 피해 25% 증가",
+			"사나운 타격의 광선이 4회 추가 연쇄",
+			"사나운 타격 효과 범위 24% 증가",
+		},
+		["ENDGAME"] = {
+			"사나운 타격 피해 40% 증가",
+			"사나운 타격의 광선이 6회 추가 연쇄",
+			"사나운 타격 효과 범위 36% 증가",
+		},
+	},
+	["사술 폭발"] = {
+		["MERCILESS"] = {
+			"사술 폭발이 주는 피해 25% 증가",
+			"사술 폭발의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"사술 폭발이 주는 피해 40% 증가",
+			"사술 폭발의 효과 범위 24% 증가",
+		},
+	},
+	["사슬 갈고리"] = {
+		["MERCILESS"] = {
+			"사슬 갈고리가 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"사슬 갈고리가 주는 피해 40% 증가",
+		},
+	},
+	["산산조각"] = {
+		["MERCILESS"] = {
+			"산산조각 피해 25% 증가",
+			"산산조각 효과 범위 16% 증가",
+			"산산조각의 파도 내 범위 사이의 지연시간 15% 감소",
+		},
+		["ENDGAME"] = {
+			"산산조각 피해 40% 증가",
+			"산산조각 효과 범위 24% 증가",
+			"산산조각의 파도 내 범위 사이의 지연시간 20% 감소",
+		},
+	},
+	["살점 공물"] = {
+		["MERCILESS"] = {
+			"살점 공물 지속시간 30% 증가",
+			"살점 공물의 공격 속도 14% 추가 증가",
+		},
+		["ENDGAME"] = {
+			"살점 공물 지속시간 45% 증가",
+			"살점 공물의 공격 속도 21% 추가 증가",
+		},
+	},
+	["서리 구체"] = {
+		["MERCILESS"] = {
+			"서리 구체 피해 25% 증가",
+			"서리 구체 시전 속도 10% 증가",
+			"서리 구체의 동결 확률 +10%",
+		},
+		["ENDGAME"] = {
+			"서리 구체 피해 40% 증가",
+			"서리 구체 시전 속도 15% 증가",
+			"서리 구체의 동결 확률 +15%",
+		},
+	},
+	["서리 방벽"] = {
+		["MERCILESS"] = {
+			"서리 방벽의 재사용 대기시간 회복 속도 20% 증가",
+			"서리 방벽 지속시간 24% 증가",
+		},
+		["ENDGAME"] = {
+			"서리 방벽의 재사용 대기시간 회복 속도 30% 증가",
+			"서리 방벽 지속시간 36% 증가",
+		},
+	},
+	["서리 방패"] = {
+		["MERCILESS"] = {
+			"단계 하나당 서리 방패가 최대 생명력 +125 보유",
+		},
+		["ENDGAME"] = {
+			"서리 방패의 재사용 횟수 +1회",
+			"단계 하나당 서리 방패가 최대 생명력 +180 보유",
+		},
+	},
+	["서리 칼날"] = {
+		["MERCILESS"] = {
+			"서리 칼날 피해 25% 증가",
+			"서리 칼날 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"서리 칼날 피해 40% 증가",
+			"서리 칼날 투사체 속도 30% 증가",
+		},
+	},
+	["서리 폭탄"] = {
+		["MERCILESS"] = {
+			"서리 폭탄 피해 25% 증가",
+			"서리 폭탄의 재사용 대기시간 회복 속도 20% 증가",
+			"서리 폭탄 효과 범위 16% 증가",
+			"서리 폭탄 디버프 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"서리 폭탄 피해 40% 증가",
+			"서리 폭탄의 재사용 대기시간 회복 속도 30% 증가",
+			"서리 폭탄 효과 범위 24% 증가",
+			"서리 폭탄 디버프 지속시간 30% 증가",
+		},
+	},
+	["서리점멸"] = {
+		["MERCILESS"] = {
+			"서리점멸의 재사용 대기시간 회복 속도 20% 증가",
+			"서리점멸의 최대 이동 거리 50% 증가",
+		},
+		["ENDGAME"] = {
+			"서리점멸의 재사용 대기시간 회복 속도 30% 증가",
+			"서리점멸의 최대 이동 거리 75% 증가",
+		},
+	},
+	["선대의 대전사"] = {
+		["MERCILESS"] = {
+			"선대의 대전사 토템 피해 25% 증가",
+			"선대의 대전사 토템 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"선대의 대전사 토템 피해 40% 증가",
+			"선대의 대전사 토템 효과 범위 24% 증가",
+		},
+	},
+	["선대의 수호자"] = {
+		["MERCILESS"] = {
+			"선대의 수호자 토템이 주는 피해 25% 증가",
+			"선대의 수호자 토템 설치 속도 12% 증가",
+			"선대의 수호자 토템 원소 저항 +24%",
+		},
+		["ENDGAME"] = {
+			"선대의 수호자 토템이 주는 피해 40% 증가",
+			"선대의 수호자 토템 설치 속도 18% 증가",
+			"선대의 수호자 토템 원소 저항 +36%",
+		},
+	},
+	["선대의 함성"] = {
+		["MERCILESS"] = {
+			"선대의 함성으로 인한 전력 공격이 주는 피해 35% 증가",
+		},
+		["ENDGAME"] = {
+			"선대의 함성으로 인한 전력 공격이 주는 피해 50% 증가",
+			"선대의 함성의 최소 위세 10",
+		},
+	},
+	["소용돌이"] = {
+		["MERCILESS"] = {
+			"소용돌이 피해 25% 증가",
+			"소용돌이 지속시간 20% 증가",
+			"서리 구체 시전 시 소용돌이의 효과 범위 30% 증가",
+			"소용돌이 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"소용돌이 피해 40% 증가",
+			"소용돌이 지속시간 30% 증가",
+			"서리 구체 시전 시 소용돌이의 효과 범위 45% 증가",
+			"소용돌이 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["소집"] = {
+		["MERCILESS"] = {
+			"소집의 재사용 대기시간 회복 속도 20% 증가",
+			"소집 버프 효과 24% 증가",
+		},
+		["ENDGAME"] = {
+			"소집의 재사용 대기시간 회복 속도 30% 증가",
+			"소집 버프 효과 36% 증가",
+		},
+	},
+	["속죄의 낙인"] = {
+		["MERCILESS"] = {
+			"속죄의 낙인이 주는 피해 25% 증가",
+			"속죄의 낙인의 시전 속도 8% 증가",
+			"속죄의 낙인의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"속죄의 낙인이 주는 피해 40% 증가",
+			"속죄의 낙인의 시전 속도 12% 증가",
+			"속죄의 낙인의 효과 범위 24% 증가",
+		},
+	},
+	["쇠약화"] = {
+		["MERCILESS"] = {
+			"쇠약화 저주 효과 10% 증가",
+			"쇠약화 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"쇠약화 저주 효과 15% 증가",
+			"쇠약화 지속시간 45% 증가",
+		},
+	},
+	["수확자 소환"] = {
+		["MERCILESS"] = {
+			"수확자 소환의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"수확자 소환의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["순수의 전령"] = {
+		["MERCILESS"] = {
+			"순수의 전령의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"순수의 전령의 마나 점유 효율 75% 증가",
+		},
+	},
+	["시간의 균열"] = {
+		["MERCILESS"] = {
+			"시간의 균열의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"시간의 균열의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["시간의 사슬"] = {
+		["MERCILESS"] = {
+			"시간의 사슬 저주 효과 10% 증가",
+			"시간의 사슬 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"시간의 사슬 저주 효과 15% 증가",
+			"시간의 사슬 지속시간 45% 증가",
+		},
+	},
+	["시체 불덩이"] = {
+		["MERCILESS"] = {
+			"시체 불덩이 피해 25% 증가",
+			"시체 불덩이 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"시체 불덩이 피해 40% 증가",
+			"시체 불덩이 시전 속도 12% 증가",
+		},
+	},
+	["시체 소각"] = {
+		["MERCILESS"] = {
+			"시체 소각 피해 25% 증가",
+			"시체 소각 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"시체 소각 피해 40% 증가",
+			"시체 소각 시전 속도 12% 증가",
+		},
+	},
+	["시체 폭발"] = {
+		["MERCILESS"] = {
+			"시체 폭발 피해 25% 증가",
+			"시체 폭발 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"시체 폭발 피해 40% 증가",
+			"시체 폭발 효과 범위 24% 증가",
+		},
+	},
+	["신념의 파도"] = {
+		["MERCILESS"] = {
+			"신념의 파도로 주는 피해 25% 증가",
+			"신념의 파도의 노출이 원소 저항에 추가 -4% 적용",
+			"신념의 파도 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"신념의 파도로 주는 피해 40% 증가",
+			"신념의 파도의 노출이 원소 저항에 추가 -6% 적용",
+			"신념의 파도 지속시간 30% 증가",
+		},
+	},
+	["신비학자 낙인"] = {
+		["MERCILESS"] = {
+			"신비학자 낙인 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"신비학자 낙인 시전 속도 12% 증가",
+		},
+	},
+	["신성한 진노"] = {
+		["MERCILESS"] = {
+			"신성한 진노가 주는 피해 25% 증가",
+			"신성한 진노의 광선 폭 10% 증가",
+		},
+		["ENDGAME"] = {
+			"신성한 진노가 주는 피해 40% 증가",
+			"신성한 진노의 광선 폭 15% 증가",
+		},
+	},
+	["신성한 화염 토템"] = {
+		["MERCILESS"] = {
+			"신성한 화염 토템이 주는 피해 25% 증가",
+			"신성한 화염 토템이 투사체 1개 추가 발사",
+			"신성한 화염 토템의 투사체 속도 20% 증가",
+			"신성한 화염 토템이 생성하는 신성화 지대에 있는 적이 받는 피해 6% 증가",
+		},
+		["ENDGAME"] = {
+			"신성한 화염 토템이 주는 피해 40% 증가",
+			"신성한 화염 토템이 투사체 2개 추가 발사",
+			"신성한 화염 토템의 투사체 속도 30% 증가",
+			"신성한 화염 토템이 생성하는 신성화 지대에 있는 적이 받는 피해 9% 증가",
+		},
+	},
+	["신체 전환"] = {
+		["MERCILESS"] = {
+			"신체 전환 피해 25% 증가",
+			"신체 전환 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"신체 전환 피해 40% 증가",
+			"신체 전환 시전 속도 12% 증가",
+		},
+	},
+	["쌍수 타격"] = {
+		["MERCILESS"] = {
+			"쌍수 타격 피해 25% 증가",
+			"쌍수 타격 공격 속도 10% 증가",
+			"쌍수 타격 치명타 확률 60% 증가",
+		},
+		["ENDGAME"] = {
+			"쌍수 타격 피해 40% 증가",
+			"쌍수 타격 공격 속도 15% 증가",
+			"쌍수 타격 치명타 확률 90% 증가",
+		},
+	},
+	["암살자의 징표"] = {
+		["MERCILESS"] = {
+			"암살자의 징표 저주 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"암살자의 징표 저주 효과 30% 증가",
+		},
+	},
+	["약탈"] = {
+		["MERCILESS"] = {
+			"약탈 피해 25% 증가",
+			"약탈의 반경 16% 증가",
+		},
+		["ENDGAME"] = {
+			"약탈 피해 40% 증가",
+			"약탈의 반경 24% 증가",
+		},
+	},
+	["어둠의 서약"] = {
+		["MERCILESS"] = {
+			"어둠의 서약 피해 25% 증가",
+			"어둠의 서약 시전 속도 8% 증가",
+			"어둠의 서약 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"어둠의 서약 피해 40% 증가",
+			"어둠의 서약 시전 속도 12% 증가",
+			"어둠의 서약 효과 범위 24% 증가",
+		},
+	},
+	["얼어붙은 군단"] = {
+		["MERCILESS"] = {
+			"얼어붙은 군단의 재사용 대기시간 회복 속도 20% 증가",
+			"얼어붙은 군단의 재사용 횟수 +1회",
+		},
+		["ENDGAME"] = {
+			"얼어붙은 군단의 재사용 대기시간 회복 속도 30% 증가",
+			"얼어붙은 군단의 재사용 횟수 +2회",
+		},
+	},
+	["얼어붙은 휩쓸기"] = {
+		["MERCILESS"] = {
+			"얼어붙은 휩쓸기로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"얼어붙은 휩쓸기로 주는 피해 40% 증가",
+		},
+	},
+	["얼음 덫"] = {
+		["MERCILESS"] = {
+			"얼음 덫 피해 25% 증가",
+			"얼음 덫 효과 범위 16% 증가",
+			"얼음 덫 피해가 6%의 냉기 저항 관통",
+		},
+		["ENDGAME"] = {
+			"얼음 덫 피해 40% 증가",
+			"얼음 덫 효과 범위 24% 증가",
+			"얼음 덫 피해가 10%의 냉기 저항 관통",
+		},
+	},
+	["얼음 창"] = {
+		["MERCILESS"] = {
+			"얼음 창의 형태 변경 전 이동 거리 20% 감소",
+		},
+		["ENDGAME"] = {
+			"얼음 창이 투사체 1개 추가 발사",
+			"얼음 창의 형태 변경 전 이동 거리 30% 감소",
+		},
+	},
+	["얼음 충격"] = {
+		["MERCILESS"] = {
+			"얼음 충격 피해 25% 증가",
+			"얼음 충격 물리 피해의 10%를 추가 냉기 피해로 획득",
+			"얼음 충격 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"얼음 충격 피해 40% 증가",
+			"얼음 충격 물리 피해의 15%를 추가 냉기 피해로 획득",
+			"얼음 충격 효과 범위 24% 증가",
+		},
+	},
+	["얼음 폭발"] = {
+		["MERCILESS"] = {
+			"얼음 폭발 피해 25% 증가",
+			"얼음 폭발 동결 확률 +20%",
+			"얼음 폭발 효과 범위 16% 증가",
+			"얼음 폭발로 인한 냉각이 항상 동작 속도를 6% 이상 감소",
+		},
+		["ENDGAME"] = {
+			"얼음 폭발 피해 40% 증가",
+			"얼음 폭발 동결 확률 +30%",
+			"얼음 폭발 효과 범위 24% 증가",
+			"얼음 폭발로 인한 냉각이 항상 동작 속도를 8% 이상 감소",
+		},
+	},
+	["얼음 화살"] = {
+		["MERCILESS"] = {
+			"얼음 화살 피해 25% 증가",
+			"얼음 화살 효과 범위 16% 증가",
+			"얼음 화살의 효과 범위 각도 30% 증가",
+		},
+		["ENDGAME"] = {
+			"얼음 화살 피해 40% 증가",
+			"얼음 화살 효과 범위 24% 증가",
+			"얼음 화살의 효과 범위 각도 60% 증가",
+		},
+	},
+	["얼음의 순수함"] = {
+		["MERCILESS"] = {
+			"얼음의 순수함의 마나 점유 효율 30% 증가",
+		},
+		["ENDGAME"] = {
+			"얼음의 순수함의 마나 점유 효율 45% 증가",
+		},
+	},
+	["얼음의 전령"] = {
+		["MERCILESS"] = {
+			"얼음의 전령 피해 25% 증가",
+			"얼음의 전령의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"얼음의 전령 피해 40% 증가",
+			"얼음의 전령의 마나 점유 효율 75% 증가",
+		},
+	},
+	["엄습하는 서리"] = {
+		["MERCILESS"] = {
+			"엄습하는 서리의 피해 25% 증가",
+			"엄습하는 서리 지속시간 24% 증가",
+			"엄습하는 서리 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"엄습하는 서리의 피해 40% 증가",
+			"엄습하는 서리 지속시간 36% 증가",
+			"엄습하는 서리 효과 범위 24% 증가",
+			"엄습하는 서리의 냉각 지역 이동 속도 38% 증가",
+		},
+	},
+	["에너지 칼날"] = {
+		["MERCILESS"] = {
+			"에너지 칼날의 공격 속도 10% 증가",
+			"에너지 칼날로 공격 시 번개 저항 8% 관통",
+		},
+		["ENDGAME"] = {
+			"에너지 칼날의 공격 속도 15% 증가",
+			"에너지 칼날로 공격 시 번개 저항 12% 관통",
+		},
+	},
+	["역습"] = {
+		["MERCILESS"] = {
+			"징벌 피해 25% 증가",
+			"역습의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"징벌 피해 40% 증가",
+			"역습의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["역학 투사체"] = {
+		["MERCILESS"] = {
+			"역학 투사체 공격 속도 10% 증가",
+			"역학 투사체의 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"역학 투사체 공격 속도 15% 증가",
+			"역학 투사체의 투사체 속도 30% 증가",
+		},
+	},
+	["역학 폭발"] = {
+		["MERCILESS"] = {
+			"역학 폭발 피해 25% 증가",
+			"역학 폭발 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"역학 폭발 피해 40% 증가",
+			"역학 폭발 효과 범위 24% 증가",
+		},
+	},
+	["연금술사의 징표"] = {
+		["MERCILESS"] = {
+			"연금술사의 징표 저주 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"연금술사의 징표 저주 효과 30% 증가",
+		},
+	},
+	["연막 지뢰"] = {
+		["MERCILESS"] = {
+			"연막 지뢰 지속시간 20% 증가",
+			"연막 지뢰로 얻는 이동 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"연막 지뢰 지속시간 30% 증가",
+			"연막 지뢰로 얻는 이동 속도 30% 증가",
+		},
+	},
+	["연발 사격"] = {
+		["MERCILESS"] = {
+			"연발 사격 피해 25% 증가",
+			"연발 사격 공격 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"연발 사격 피해 40% 증가",
+			"연발 사격 공격 속도 15% 증가",
+			"연발 사격이 투사체 1개 추가 발사",
+		},
+	},
+	["연쇄 번개"] = {
+		["MERCILESS"] = {
+			"연쇄 번개 피해 25% 증가",
+			"연쇄 번개 감전 확률 +20%",
+			"연쇄 번개가 연쇄한 횟수 하나당 주는 피해 8% 증가",
+		},
+		["ENDGAME"] = {
+			"연쇄 번개 피해 40% 증가",
+			"연쇄 번개가 1회 추가 연쇄",
+			"연쇄 번개 감전 확률 +30%",
+			"연쇄 번개가 연쇄한 횟수 하나당 주는 피해 12% 증가",
+		},
+	},
+	["영체 나선"] = {
+		["MERCILESS"] = {
+			"영체 나선 피해 25% 증가",
+			"영체 나선 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"영체 나선 피해 40% 증가",
+			"영체 나선 투사체 속도 30% 증가",
+			"영체 나선 투사체가 나선 모양으로 회전 +1회",
+		},
+	},
+	["영혼 공물"] = {
+		["MERCILESS"] = {
+			"영혼 공물 지속시간 30% 증가",
+			"영혼 공물 사용 시 치명타 피해 배율 +8%",
+		},
+		["ENDGAME"] = {
+			"영혼 공물 지속시간 45% 증가",
+			"영혼 공물 사용 시 치명타 피해 배율 +12%",
+		},
+	},
+	["영혼 분리"] = {
+		["MERCILESS"] = {
+			"영혼 분리로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"영혼 분리로 주는 피해 40% 증가",
+			"영혼 분리가 투사체 1개 추가 발사",
+		},
+	},
+	["영혼의 연결"] = {
+		["MERCILESS"] = {
+			"영혼의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"영혼의 연결 지속시간 30% 증가",
+		},
+	},
+	["올가미 화살"] = {
+		["MERCILESS"] = {
+			"올가미 화살의 디버프 효과 20% 증가",
+			"올가미 화살의 효과 범위 60% 증가",
+		},
+		["ENDGAME"] = {
+			"올가미 화살의 디버프 효과 30% 증가",
+			"올가미 화살의 효과 범위 90% 증가",
+		},
+	},
+	["용암 방패"] = {
+		["MERCILESS"] = {
+			"용암 방패의 스킬 효과 지속시간 25% 증가",
+		},
+		["ENDGAME"] = {
+			"용암 방패의 스킬 효과 지속시간 40% 증가",
+		},
+	},
+	["용암 타격"] = {
+		["MERCILESS"] = {
+			"용암 타격 피해 25% 증가",
+			"용암 타격이 투사체 1개 추가 발사",
+			"용암 타격 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"용암 타격 피해 40% 증가",
+			"용암 타격이 투사체 2개 추가 발사",
+			"용암 타격 효과 범위 24% 증가",
+		},
+	},
+	["원격 기폭 장치 소환"] = {
+		["MERCILESS"] = {
+			"원격 기폭 장치 소환의 마나 점유 효율 30% 증가",
+		},
+		["ENDGAME"] = {
+			"원격 기폭 장치 소환의 마나 점유 효율 45% 증가",
+		},
+	},
+	["원소 약화"] = {
+		["MERCILESS"] = {
+			"원소 약화 저주 효과 10% 증가",
+			"원소 약화 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"원소 약화 저주 효과 15% 증가",
+			"원소 약화 지속시간 45% 증가",
+		},
+	},
+	["원소의 순수함"] = {
+		["MERCILESS"] = {
+			"원소의 순수함의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"원소의 순수함의 마나 점유 효율 30% 증가",
+		},
+	},
+	["원소의 일격"] = {
+		["MERCILESS"] = {
+			"원소의 일격 피해 25% 증가",
+			"원소의 일격 공격 속도 10% 증가",
+			"원소의 일격 동결, 감전 및 점화 확률 +20%",
+		},
+		["ENDGAME"] = {
+			"원소의 일격 피해 40% 증가",
+			"원소의 일격 공격 속도 15% 증가",
+			"원소의 일격 동결, 감전 및 점화 확률 +30%",
+		},
+	},
+	["위상 질주"] = {
+		["MERCILESS"] = {
+			"위상 질주 지속시간 24% 증가",
+		},
+		["ENDGAME"] = {
+			"위상 질주 지속시간 36% 증가",
+		},
+	},
+	["위축"] = {
+		["MERCILESS"] = {
+			"위축 지속시간 24% 증가",
+			"위축 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"위축 지속시간 36% 증가",
+			"위축 효과 범위 24% 증가",
+		},
+	},
+	["위협의 함성"] = {
+		["MERCILESS"] = {
+			"위협의 함성의 재사용 대기시간 회복 속도 20% 증가",
+			"위협의 함성의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"위협의 함성의 재사용 대기시간 회복 속도 30% 증가",
+			"위협의 함성의 효과 범위 24% 증가",
+		},
+	},
+	["육체와 돌"] = {
+		["MERCILESS"] = {
+			"육체와 돌의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"육체와 돌의 마나 점유 효율 75% 증가",
+		},
+	},
+	["은총"] = {
+		["MERCILESS"] = {
+			"은총의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"은총의 마나 점유 효율 30% 증가",
+		},
+	},
+	["응징"] = {
+		["MERCILESS"] = {
+			"응징 저주 효과 10% 증가",
+			"응징 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"응징 저주 효과 15% 증가",
+			"응징 지속시간 45% 증가",
+		},
+	},
+	["이중 타격"] = {
+		["MERCILESS"] = {
+			"이중 타격 피해 25% 증가",
+			"이중 타격 공격 속도 10% 증가",
+			"이중 타격 치명타 확률 60% 증가",
+			"이중 타격이 10%의 확률로 출혈 중인 적에게 2배의 피해를 줌",
+		},
+		["ENDGAME"] = {
+			"이중 타격 피해 40% 증가",
+			"이중 타격 공격 속도 15% 증가",
+			"이중 타격 치명타 확률 90% 증가",
+			"이중 타격이 15%의 확률로 출혈 중인 적에게 2배의 피해를 줌",
+		},
+	},
+	["인내의 함성"] = {
+		["MERCILESS"] = {
+			"인내의 함성의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"인내의 함성의 재사용 대기시간 회복 속도 30% 증가",
+			"인내의 함성이 인내 충전 1회 추가",
+		},
+	},
+	["인화성"] = {
+		["MERCILESS"] = {
+			"인화성 저주 효과 10% 증가",
+			"인화성 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"인화성 저주 효과 15% 증가",
+			"인화성 지속시간 45% 증가",
+		},
+	},
+	["자부심"] = {
+		["MERCILESS"] = {
+			"자부심의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"자부심의 마나 점유 효율 30% 증가",
+		},
+	},
+	["작열 광선"] = {
+		["MERCILESS"] = {
+			"작열 광선 피해 25% 증가",
+			"작열 광선 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"작열 광선 피해 40% 증가",
+			"작열 광선 시전 속도 12% 증가",
+		},
+	},
+	["장군의 함성"] = {
+		["MERCILESS"] = {
+			"장군의 함성의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"장군의 함성의 재사용 대기시간 회복 속도 30% 증가",
+			"장군의 함성의 신기루 전사 최대치 +1",
+		},
+	},
+	["재앙의 화살"] = {
+		["MERCILESS"] = {
+			"재앙의 화살로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"재앙의 화살로 주는 피해 40% 증가",
+		},
+	},
+	["재의 전령"] = {
+		["MERCILESS"] = {
+			"재의 전령 피해 25% 증가",
+			"재의 전령의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"재의 전령 피해 40% 증가",
+			"재의 전령의 마나 점유 효율 75% 증가",
+		},
+	},
+	["저격"] = {
+		["MERCILESS"] = {
+			"저격 사용 시 공격 속도 10% 증가",
+			"저격에 집중 유지하는 동안 35%의 확률로 기절 긴급회피",
+		},
+		["ENDGAME"] = {
+			"저격 최대 단계 +1",
+			"저격 사용 시 공격 속도 15% 증가",
+			"저격에 집중 유지하는 동안 50%의 확률로 기절 긴급회피",
+		},
+	},
+	["저격수의 징표"] = {
+		["MERCILESS"] = {
+			"저격수의 징표 저주 효과 10% 증가",
+		},
+		["ENDGAME"] = {
+			"저격수의 징표 저주 효과 15% 증가",
+		},
+	},
+	["저항의 깃발"] = {
+		["MERCILESS"] = {
+			"저항의 깃발의 오라 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"저항의 깃발의 오라 효과 40% 증가",
+		},
+	},
+	["전기불꽃"] = {
+		["MERCILESS"] = {
+			"전기불꽃 피해 25% 증가",
+			"전기불꽃이 투사체 2개 추가 발사",
+		},
+		["ENDGAME"] = {
+			"전기불꽃 피해 40% 증가",
+			"전기불꽃이 투사체 3개 추가 발사",
+			"전기불꽃이 원형으로 투사체 발사",
+		},
+	},
+	["전도성"] = {
+		["MERCILESS"] = {
+			"전도성 저주 효과 10% 증가",
+			"전도성 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"전도성 저주 효과 15% 증가",
+			"전도성 지속시간 45% 증가",
+		},
+	},
+	["전도성 격발"] = {
+		["MERCILESS"] = {
+			"전도성 격발 피해 25% 증가",
+			"전도성 격발 효과 범위 16% 증가",
+			"전도성 격발이 지속시간 0.1초마다 주는 피해 2% 증가",
+		},
+		["ENDGAME"] = {
+			"전도성 격발 피해 40% 증가",
+			"전도성 격발 효과 범위 24% 증가",
+			"전도성 격발이 지속시간 0.1초마다 주는 피해 3% 증가",
+		},
+	},
+	["전염"] = {
+		["MERCILESS"] = {
+			"전염 피해 25% 증가",
+			"전염 지속시간 20% 증가",
+			"전염 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"전염 피해 40% 증가",
+			"전염 지속시간 30% 증가",
+			"전염 효과 범위 24% 증가",
+		},
+	},
+	["전염성 일격"] = {
+		["MERCILESS"] = {
+			"전염성 일격이 주는 피해 25% 증가",
+			"전염성 일격의 지속시간 25% 증가",
+			"전염성 일격의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"전염성 일격이 주는 피해 40% 증가",
+			"전염성 일격의 지속시간 40% 증가",
+			"전염성 일격의 효과 범위 24% 증가",
+		},
+	},
+	["전쟁 깃발"] = {
+		["MERCILESS"] = {
+			"전쟁 깃발의 오라 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"전쟁 깃발의 오라 효과 40% 증가",
+		},
+	},
+	["전쟁군주의 징표"] = {
+		["MERCILESS"] = {
+			"전쟁군주의 징표 저주 효과 20% 증가",
+		},
+		["ENDGAME"] = {
+			"전쟁군주의 징표 저주 효과 30% 증가",
+		},
+	},
+	["전투마법사의 함성"] = {
+		["MERCILESS"] = {
+			"전투마법사의 함성 버프 효과 10% 증가",
+		},
+		["ENDGAME"] = {
+			"전투마법사의 함성 버프 효과 15% 증가",
+			"전투마법사의 함성 사용 시 전력 공격 1회 추가",
+		},
+	},
+	["절망"] = {
+		["MERCILESS"] = {
+			"절망 지속시간 30% 증가",
+			"절망의 저주 효과 10% 증가",
+		},
+		["ENDGAME"] = {
+			"절망 지속시간 45% 증가",
+			"절망의 저주 효과 15% 증가",
+		},
+	},
+	["점멸 타격"] = {
+		["MERCILESS"] = {
+			"점멸 타격 피해 25% 증가",
+			"점멸 타격의 재사용 대기시간 회복 속도 20% 증가",
+			"격분 충전 하나당 점멸 타격 피해 6% 증가",
+		},
+		["ENDGAME"] = {
+			"점멸 타격 피해 40% 증가",
+			"점멸 타격의 재사용 대기시간 회복 속도 30% 증가",
+			"격분 충전 하나당 점멸 타격 피해 9% 증가",
+		},
+	},
+	["점멸 화살"] = {
+		["MERCILESS"] = {
+			"점멸 화살 및 점멸 화살 분신의 피해 25% 증가",
+			"점멸 화살 및 점멸 화살 분신의 공격 속도 10% 증가",
+			"점멸 화살의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"점멸 화살 및 점멸 화살 분신의 피해 40% 증가",
+			"점멸 화살 및 점멸 화살 분신의 공격 속도 15% 증가",
+			"점멸 화살의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["정밀함"] = {
+		["MERCILESS"] = {
+			"정밀함의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"정밀함의 마나 점유 효율 75% 증가",
+		},
+	},
+	["정수 흡수"] = {
+		["MERCILESS"] = {
+			"정수 흡수 피해 25% 증가",
+			"정수 흡수 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"정수 흡수 피해 40% 증가",
+			"정수 흡수 지속시간 30% 증가",
+		},
+	},
+	["정의의 화염"] = {
+		["MERCILESS"] = {
+			"정의의 화염 피해 25% 증가",
+			"정의의 화염 효과 범위 16% 증가",
+			"정의의 화염이 주문 피해 20% 증가 부여",
+		},
+		["ENDGAME"] = {
+			"정의의 화염 피해 40% 증가",
+			"정의의 화염 효과 범위 24% 증가",
+			"정의의 화염이 주문 피해 30% 증가 부여",
+		},
+	},
+	["정전기 타격"] = {
+		["MERCILESS"] = {
+			"정전기 타격 피해 25% 증가",
+			"정전기 타격 지속시간 30% 증가",
+			"정전기 타격 효과 범위 16% 증가",
+			"정전기 타격의 최대 광선 대상 +1",
+		},
+		["ENDGAME"] = {
+			"정전기 타격 피해 40% 증가",
+			"정전기 타격 지속시간 45% 증가",
+			"정전기 타격 효과 범위 24% 증가",
+			"정전기 타격의 최대 광선 대상 +2",
+		},
+	},
+	["정화의 불길"] = {
+		["MERCILESS"] = {
+			"정화의 불길로 주는 피해 25% 증가",
+			"정화의 불길이 생성하는 신성화 지대에 있는 적이 받는 피해 6% 증가",
+		},
+		["ENDGAME"] = {
+			"정화의 불길로 주는 피해 40% 증가",
+			"정화의 불길이 생성하는 신성화 지대에 있는 적이 받는 피해 9% 증가",
+		},
+	},
+	["종말의 낙인"] = {
+		["MERCILESS"] = {
+			"종말의 낙인이 주는 피해 25% 증가",
+			"종말의 낙인 활성화 빈도 8% 증가",
+			"종말의 낙인 피해가 낙인이 부착된 적 화염 저항의 8%를 관통",
+		},
+		["ENDGAME"] = {
+			"종말의 낙인이 주는 피해 40% 증가",
+			"종말의 낙인 활성화 빈도 12% 증가",
+			"종말의 낙인 피해가 낙인이 부착된 적 화염 저항의 12%를 관통",
+		},
+	},
+	["증오"] = {
+		["MERCILESS"] = {
+			"증오의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"증오의 마나 점유 효율 30% 증가",
+		},
+	},
+	["지면 분쇄"] = {
+		["MERCILESS"] = {
+			"지면 분쇄로 주는 피해 25% 증가",
+			"지면 분쇄 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"지면 분쇄로 주는 피해 40% 증가",
+			"지면 분쇄 효과 범위 24% 증가",
+			"지면 분쇄가 균열 +1개 생성",
+		},
+	},
+	["지배의 맹타"] = {
+		["MERCILESS"] = {
+			"지배의 파수꾼 지속시간 20% 증가",
+			"지배의 맹타가 마법 지배의 파수꾼 2명 추가 소환 가능",
+		},
+		["ENDGAME"] = {
+			"지배의 파수꾼 지속시간 30% 증가",
+			"지배의 맹타가 마법 지배의 파수꾼 3명 추가 소환 가능",
+			"지배의 맹타가 희귀 지배의 파수꾼 1명 추가 소환 가능",
+		},
+	},
+	["지옥불 맹타"] = {
+		["MERCILESS"] = {
+			"지옥불 맹타 피해 25% 증가",
+			"지옥불 맹타 물리 피해의 10%를 추가 화염 피해로 획득",
+			"지옥불 맹타 효과 범위 16% 증가",
+			"지옥불 맹타 디버프가 충전 하나당 주는 추가 피해 3%",
+		},
+		["ENDGAME"] = {
+			"지옥불 맹타 피해 40% 증가",
+			"지옥불 맹타 물리 피해의 15%를 추가 화염 피해로 획득",
+			"지옥불 맹타 효과 범위 24% 증가",
+			"지옥불 맹타 디버프가 충전 하나당 주는 추가 피해 5%",
+		},
+	},
+	["지옥불 함성"] = {
+		["MERCILESS"] = {
+			"지옥불 함성의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"지옥불 함성의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["지진"] = {
+		["MERCILESS"] = {
+			"지진 피해 25% 증가",
+			"지진 효과 범위 16% 증가",
+			"지진이 지속시간 0.1초마다 주는 피해 5% 증가",
+		},
+		["ENDGAME"] = {
+			"지진 피해 40% 증가",
+			"지진 효과 범위 24% 증가",
+			"지진이 지속시간 0.1초마다 주는 피해 8% 증가",
+		},
+	},
+	["지진 덫"] = {
+		["MERCILESS"] = {
+			"지진 덫으로 주는 피해 25% 증가",
+			"지진 덫의 스킬 효과 지속시간 20% 증가",
+			"지진 덫의 재사용 대기시간 회복 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"지진 덫으로 주는 피해 40% 증가",
+			"지진 덫의 스킬 효과 지속시간 30% 증가",
+			"지진 덫의 재사용 대기시간 회복 속도 15% 증가",
+			"지진 덫이 추가 파도 1회 방출",
+		},
+	},
+	["지진 함성"] = {
+		["MERCILESS"] = {
+			"지진 함성으로 인한 전력 공격이 주는 피해 35% 증가",
+		},
+		["ENDGAME"] = {
+			"지진 함성으로 인한 전력 공격이 주는 피해 50% 증가",
+			"지진 함성의 최소 위세 10",
+		},
+	},
+	["지층 강타"] = {
+		["MERCILESS"] = {
+			"지층 강타로 주는 피해 25% 증가",
+			"지층 강타의 효과 범위 16% 증가",
+			"지층 강타의 균열 파생 확률 +12%",
+		},
+		["ENDGAME"] = {
+			"지층 강타로 주는 피해 40% 증가",
+			"지층 강타의 효과 범위 24% 증가",
+			"지층 강타의 균열 파생 확률 +20%",
+		},
+	},
+	["직관의 연결"] = {
+		["MERCILESS"] = {
+			"직관의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"직관의 연결 지속시간 30% 증가",
+		},
+	},
+	["진노"] = {
+		["MERCILESS"] = {
+			"진노의 마나 점유 효율 20% 증가",
+		},
+		["ENDGAME"] = {
+			"진노의 마나 점유 효율 30% 증가",
+		},
+	},
+	["질주"] = {
+		["MERCILESS"] = {
+			"질주의 이동 거리 65% 증가",
+			"질주의 재사용 횟수 +1회",
+		},
+		["ENDGAME"] = {
+			"질주의 이동 거리 100% 증가",
+			"질주의 재사용 횟수 +2회",
+		},
+	},
+	["질풍의 칼날"] = {
+		["MERCILESS"] = {
+			"질풍의 칼날 피해 25% 증가",
+			"질풍의 칼날 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"질풍의 칼날 피해 40% 증가",
+			"질풍의 칼날 효과 범위 24% 증가",
+		},
+	},
+	["집결의 함성"] = {
+		["MERCILESS"] = {
+			"집결의 함성 버프 효과 10% 증가",
+		},
+		["ENDGAME"] = {
+			"집결의 함성 버프 효과 15% 증가",
+			"집결의 함성 사용 시 전력 공격 1회 추가",
+		},
+	},
+	["징벌"] = {
+		["MERCILESS"] = {
+			"징벌로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"징벌로 주는 피해 40% 증가",
+		},
+	},
+	["착취 덫"] = {
+		["MERCILESS"] = {
+			"착취 덫이 주는 피해 25% 증가",
+			"착취 덫의 스킬 효과 지속시간 30% 증가",
+			"착취 덫의 냉각 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"착취 덫이 주는 피해 40% 증가",
+			"착취 덫의 스킬 효과 지속시간 45% 증가",
+			"착취 덫의 광선으로 다른 광선에 받는 피해 1% 감소",
+			"착취 덫의 냉각 효과 40% 증가",
+		},
+	},
+	["천둥의 전령"] = {
+		["MERCILESS"] = {
+			"천둥의 전령 피해 25% 증가",
+			"천둥의 전령의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"천둥의 전령 피해 40% 증가",
+			"천둥의 전령의 마나 점유 효율 75% 증가",
+		},
+	},
+	["천상의 단도"] = {
+		["MERCILESS"] = {
+			"천상의 단도 피해 25% 증가",
+			"천상의 단도 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"천상의 단도 피해 40% 증가",
+			"천상의 단도 투사체 속도 30% 증가",
+			"천상의 단도가 원형으로 투사체 발사",
+		},
+	},
+	["축성의 진격"] = {
+		["MERCILESS"] = {
+			"축성의 진격이 주는 피해 25% 증가",
+			"축성의 진격의 순간이동 범위 10% 증가",
+			"축성의 진격의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"축성의 진격이 주는 피해 40% 증가",
+			"축성의 진격의 순간이동 범위 15% 증가",
+			"축성의 진격의 효과 범위 24% 증가",
+		},
+	},
+	["충격 폭발"] = {
+		["MERCILESS"] = {
+			"충격 폭발 피해 25% 증가",
+			"충격 폭발 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"충격 폭발 피해 40% 증가",
+			"충격 폭발 효과 범위 24% 증가",
+		},
+	},
+	["충격 화살"] = {
+		["MERCILESS"] = {
+			"충격 화살 피해 25% 증가",
+			"충격 화살 물리 피해의 10%를 추가 번개 피해로 획득",
+			"충격 화살의 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"충격 화살 피해 40% 증가",
+			"충격 화살 물리 피해의 15%를 추가 번개 피해로 획득",
+			"충격 화살의 투사체 속도 30% 증가",
+		},
+	},
+	["충격장"] = {
+		["MERCILESS"] = {
+			"충격장으로 주는 피해 25% 증가",
+			"충격장의 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"충격장으로 주는 피해 40% 증가",
+			"충격장의 시전 속도 12% 증가",
+			"충격장이 1회 추가 연쇄",
+		},
+	},
+	["충격파 토템"] = {
+		["MERCILESS"] = {
+			"충격파 토템 피해 25% 증가",
+			"충격파 토템 시전 속도 10% 증가",
+			"충격파 토템 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"충격파 토템 피해 40% 증가",
+			"충격파 토템 시전 속도 15% 증가",
+			"충격파 토템 효과 범위 24% 증가",
+		},
+	},
+	["충전 질주"] = {
+		["MERCILESS"] = {
+			"충전 질주 피해 25% 증가",
+			"충전 질주의 이동 속도 10% 증폭",
+		},
+		["ENDGAME"] = {
+			"충전 질주 피해 40% 증가",
+			"충전 질주의 이동 속도 15% 증폭",
+		},
+	},
+	["취약성"] = {
+		["MERCILESS"] = {
+			"취약성 저주 효과 10% 증가",
+			"취약성 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"취약성 저주 효과 15% 증가",
+			"취약성 지속시간 45% 증가",
+		},
+	},
+	["치직대는 창"] = {
+		["MERCILESS"] = {
+			"치직대는 창이 주는 피해 25% 증가",
+			"치직대는 창의 시전 속도 8% 증가",
+		},
+		["ENDGAME"] = {
+			"치직대는 창이 주는 피해 40% 증가",
+			"치직대는 창의 시전 속도 16% 증가",
+		},
+	},
+	["칼날 덫"] = {
+		["MERCILESS"] = {
+			"칼날 덫 피해 25% 증가",
+			"칼날 덫 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"칼날 덫 피해 40% 증가",
+			"칼날 덫 효과 범위 24% 증가",
+		},
+	},
+	["칼날 선회"] = {
+		["MERCILESS"] = {
+			"칼날 선회 피해 25% 증가",
+			"칼날 선회 공격 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"칼날 선회 피해 40% 증가",
+			"칼날 선회 공격 속도 15% 증가",
+		},
+	},
+	["칼날 소용돌이"] = {
+		["MERCILESS"] = {
+			"칼날 소용돌이 주문 피해 25% 증가",
+			"칼날 소용돌이 지속시간 20% 증가",
+			"칼날 소용돌이 효과 범위 16% 증가",
+			"칼날 하나당 칼날 소용돌이의 치명타 피해 배율 +2%",
+		},
+		["ENDGAME"] = {
+			"칼날 소용돌이 주문 피해 40% 증가",
+			"칼날 소용돌이 지속시간 30% 증가",
+			"칼날 소용돌이 효과 범위 24% 증가",
+			"칼날 하나당 칼날 소용돌이의 치명타 피해 배율 +3%",
+		},
+	},
+	["칼날 폭격"] = {
+		["MERCILESS"] = {
+			"칼날 폭격의 효과 범위 16% 증가",
+			"칼날 폭격으로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"칼날 폭격의 효과 범위 24% 증가",
+			"칼날 폭격으로 주는 피해 40% 증가",
+		},
+	},
+	["칼날 폭풍"] = {
+		["MERCILESS"] = {
+			"칼날 폭풍이 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"칼날 폭풍 최대치 +1",
+			"칼날 폭풍이 주는 피해 40% 증가",
+		},
+	},
+	["칼날비"] = {
+		["MERCILESS"] = {
+			"칼날비 피해 25% 증가",
+			"칼날비 치명타 확률 60% 증가",
+			"칼날비 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"칼날비 피해 40% 증가",
+			"칼날비 치명타 확률 90% 증가",
+			"칼날비 효과 범위 24% 증가",
+		},
+	},
+	["코브라 채찍"] = {
+		["MERCILESS"] = {
+			"코브라 채찍이 주는 피해 25% 증가",
+			"코브라 채찍의 투사체 속도 20% 증가",
+			"코브라 채찍의 연쇄 2회 추가",
+		},
+		["ENDGAME"] = {
+			"코브라 채찍이 주는 피해 40% 증가",
+			"코브라 채찍의 투사체 속도 30% 증가",
+			"코브라 채찍의 연쇄 3회 추가",
+		},
+	},
+	["타락한 열병"] = {
+		["MERCILESS"] = {
+			"타락한 열병으로 주는 피해 25% 증가",
+			"타락한 열병 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"타락한 열병으로 주는 피해 40% 증가",
+			"타락한 열병 지속시간 30% 증가",
+			"타락한 열병이 +50%의 확률로 타락한 피 디버프 1개 추가 유발",
+		},
+	},
+	["탁자 돌진"] = {
+		["MERCILESS"] = {
+			"방패 돌진 피해 25% 증가",
+			"방패 돌진 공격 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"방패 돌진 피해 40% 증가",
+			"방패 돌진 공격 속도 15% 증가",
+		},
+	},
+	["파괴의 연결"] = {
+		["MERCILESS"] = {
+			"파괴의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"파괴의 연결 지속시간 30% 증가",
+		},
+	},
+	["파멸"] = {
+		["MERCILESS"] = {
+			"파멸로 주는 피해 25% 증가",
+			"파멸 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"파멸로 주는 피해 40% 증가",
+			"파멸 효과 범위 24% 증가",
+		},
+	},
+	["파편 쇠뇌"] = {
+		["MERCILESS"] = {
+			"파편 쇠뇌가 대상 4개 추가 관통",
+			"파편 쇠뇌의 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"파편 쇠뇌가 화살 1개 추가 발사",
+			"파편 쇠뇌가 대상 6개 추가 관통",
+			"파편 쇠뇌의 투사체 속도 30% 증가",
+		},
+	},
+	["폭발 덫"] = {
+		["MERCILESS"] = {
+			"폭발 덫으로 주는 피해 25% 증가",
+			"폭발 덫 효과 범위 16% 증가",
+			"폭발 덫이 소규모 폭발을 1회 추가 유발",
+		},
+		["ENDGAME"] = {
+			"폭발 덫으로 주는 피해 40% 증가",
+			"폭발 덫 효과 범위 24% 증가",
+			"폭발 덫이 소규모 폭발을 2회 추가 유발",
+		},
+	},
+	["폭발 화살"] = {
+		["MERCILESS"] = {
+			"폭발 화살의 피해 25% 증가",
+			"폭발 화살의 효과 범위 16% 증가",
+			"폭발 화살 공격 속도 10% 증가",
+			"폭발 화살의 지속시간 25% 증가",
+			"폭발 화살의 지속시간 20% 감소",
+		},
+		["ENDGAME"] = {
+			"폭발 화살의 피해 40% 증가",
+			"폭발 화살의 효과 범위 24% 증가",
+			"폭발 화살 공격 속도 15% 증가",
+			"폭발 화살의 지속시간 40% 증가",
+			"폭발 화살의 지속시간 30% 감소",
+		},
+	},
+	["폭발 화살비"] = {
+		["MERCILESS"] = {
+			"폭발 화살비가 주는 피해 25% 증가",
+			"폭발 화살비 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"폭발 화살비가 주는 피해 40% 증가",
+			"폭발 화살비 효과 범위 24% 증가",
+			"폭발 화살비 사용 시 화살 1개 추가 발사",
+		},
+	},
+	["폭발성 혼합물"] = {
+		["MERCILESS"] = {
+			"폭발성 혼합물 피해 25% 증가",
+			"폭발성 혼합물 효과 범위 16% 증가",
+			"폭발성 혼합물의 플라스크 충전 사용 8% 감소",
+		},
+		["ENDGAME"] = {
+			"폭발성 혼합물 피해 40% 증가",
+			"폭발성 혼합물 효과 범위 24% 증가",
+			"폭발성 혼합물의 플라스크 충전 사용 12% 감소",
+		},
+	},
+	["폭풍 보주"] = {
+		["MERCILESS"] = {
+			"폭풍 보주가 주는 피해 25% 증가",
+			"폭풍 보주 시전 속도 20% 증가",
+			"폭풍 보주 치명타 확률 60% 증가",
+			"폭풍 보주 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"폭풍 보주가 주는 피해 40% 증가",
+			"폭풍 보주 시전 속도 30% 증가",
+			"폭풍 보주 치명타 확률 90% 증가",
+			"폭풍 보주 효과 범위 24% 증가",
+		},
+	},
+	["폭풍 부름"] = {
+		["MERCILESS"] = {
+			"폭풍 부름의 피해 25% 증가",
+			"폭풍 부름의 지속시간 20% 감소",
+			"폭풍 부름의 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"폭풍 부름의 피해 40% 증가",
+			"폭풍 부름의 지속시간 30% 감소",
+			"폭풍 부름의 효과 범위 24% 증가",
+		},
+	},
+	["폭풍 연대"] = {
+		["MERCILESS"] = {
+			"폭풍 연대의 효과 범위 16% 증가",
+			"폭풍 연대로 주는 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"폭풍 연대의 효과 범위 24% 증가",
+			"폭풍 연대로 주는 피해 40% 증가",
+		},
+	},
+	["폭풍 점사"] = {
+		["MERCILESS"] = {
+			"폭풍 점사 피해 25% 증가",
+			"폭풍 점사 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"폭풍 점사 피해 40% 증가",
+			"폭풍 점사 효과 범위 24% 증가",
+		},
+	},
+	["폭풍우"] = {
+		["MERCILESS"] = {
+			"폭풍우 피해 25% 증가",
+		},
+		["ENDGAME"] = {
+			"폭풍우 피해 40% 증가",
+			"폭풍우가 화살 1개 추가 발사",
+		},
+	},
+	["폭풍의 낙인"] = {
+		["MERCILESS"] = {
+			"폭풍의 낙인이 주는 피해 25% 증가",
+			"12%의 확률로 폭풍의 낙인 추가 연쇄",
+			"폭풍의 낙인 피해가 낙인이 부착된 적 번개 저항의 8%를 관통",
+		},
+		["ENDGAME"] = {
+			"폭풍의 낙인이 주는 피해 40% 증가",
+			"18%의 확률로 폭풍의 낙인 추가 연쇄",
+			"폭풍의 낙인 피해가 낙인이 부착된 적 번개 저항의 12%를 관통",
+		},
+	},
+	["폭풍의 방패"] = {
+		["MERCILESS"] = {
+			"폭풍의 방패 피해 25% 증가",
+			"폭풍의 방패 2회 추가 연쇄",
+		},
+		["ENDGAME"] = {
+			"폭풍의 방패 피해 40% 증가",
+			"폭풍의 방패 3회 추가 연쇄",
+		},
+	},
+	["피 석화"] = {
+		["MERCILESS"] = {
+			"피 석화의 마나 점유 효율 30% 증가",
+		},
+		["ENDGAME"] = {
+			"피 석화의 마나 점유 효율 45% 증가",
+		},
+	},
+	["피부 찢기"] = {
+		["MERCILESS"] = {
+			"피부 찢기 피해 25% 증가",
+			"피부 찢기 치명타 확률 40% 증가",
+			"피부 찢기 효과 범위 16% 증가",
+			"출혈 중인 적을 상대로 피부 찢기 사용 시 물리 피해 (4-8)~(10-15) 추가",
+		},
+		["ENDGAME"] = {
+			"피부 찢기 피해 40% 증가",
+			"피부 찢기 치명타 확률 60% 증가",
+			"피부 찢기 효과 범위 24% 증가",
+			"출혈 중인 적을 상대로 피부 찢기 사용 시 물리 피해 (14-18)~(20-25) 추가",
+		},
+	},
+	["피와 모래"] = {
+		["MERCILESS"] = {
+			"피와 모래의 버프 효과 25% 증가",
+		},
+		["ENDGAME"] = {
+			"피와 모래의 버프 효과 40% 증가",
+		},
+	},
+	["피의 격노"] = {
+		["MERCILESS"] = {
+			"피의 격노의 공격 속도 8% 추가 증가",
+			"피의 격노가 처치 시 격분 충전을 획득할 확률 20% 추가",
+		},
+		["ENDGAME"] = {
+			"피의 격노의 공격 속도 12% 추가 증가",
+			"피의 격노가 처치 시 격분 충전을 획득할 확률 30% 추가",
+		},
+	},
+	["한기의 방어구"] = {
+		["MERCILESS"] = {
+			"한기의 방어구의 마나 점유 효율 50% 증가",
+		},
+		["ENDGAME"] = {
+			"한기의 방어구의 마나 점유 효율 75% 증가",
+		},
+	},
+	["한파"] = {
+		["MERCILESS"] = {
+			"한파 피해 25% 증가",
+			"한파의 재사용 대기시간 회복 속도 20% 증가",
+			"한파 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"한파 피해 40% 증가",
+			"한파의 재사용 대기시간 회복 속도 30% 증가",
+			"한파 효과 범위 24% 증가",
+		},
+	},
+	["화산탄 지뢰"] = {
+		["MERCILESS"] = {
+			"화산탄 지뢰가 주는 피해 25% 증가",
+			"화산탄 지뢰의 투척 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"화산탄 지뢰가 주는 피해 40% 증가",
+			"화산탄 지뢰의 투척 속도 15% 증가",
+			"화산탄 지뢰가 투사체 1개 추가 발사",
+		},
+	},
+	["화살비"] = {
+		["MERCILESS"] = {
+			"화살비 피해 25% 증가",
+			"화살비 공격 속도 10% 증가",
+			"화살비 효과 범위 16% 증가",
+			"화살비가 10%의 확률로 연속 화살 1회 추가 발사",
+		},
+		["ENDGAME"] = {
+			"화살비 피해 40% 증가",
+			"화살비 공격 속도 15% 증가",
+			"화살비 효과 범위 24% 증가",
+			"화살비가 15%의 확률로 연속 화살 1회 추가 발사",
+		},
+	},
+	["화염 덫"] = {
+		["MERCILESS"] = {
+			"화염 덫 피해 25% 증가",
+			"화염 덫 화상 피해 40% 증가",
+			"화염 덫 용암 지대 지속시간 30% 증가",
+		},
+		["ENDGAME"] = {
+			"화염 덫 피해 40% 증가",
+			"화염 덫 화상 피해 60% 증가",
+			"화염 덫 용암 지대 지속시간 45% 증가",
+		},
+	},
+	["화염 벽"] = {
+		["MERCILESS"] = {
+			"화염 벽이 주는 피해 25% 증가",
+			"화염 벽이 투사체에 19~28의 화염 피해 추가",
+		},
+		["ENDGAME"] = {
+			"화염 벽이 주는 피해 40% 증가",
+			"화염 벽이 투사체에 31~47의 화염 피해 추가",
+			"화염 벽 최대치 +1",
+		},
+	},
+	["화염 쇄도"] = {
+		["MERCILESS"] = {
+			"화염 쇄도 피해 25% 증가",
+			"화염 쇄도 치명타 확률 60% 증가",
+			"화상 상태의 적에 대한 화염 쇄도의 명중 및 상태 이상 피해 40% 증가",
+		},
+		["ENDGAME"] = {
+			"화염 쇄도 피해 40% 증가",
+			"화염 쇄도 치명타 확률 90% 증가",
+			"화상 상태의 적에 대한 화염 쇄도의 명중 및 상태 이상 피해 60% 증가",
+		},
+	},
+	["화염 질주"] = {
+		["MERCILESS"] = {
+			"화염 질주 피해 25% 증가",
+			"화염 질주의 재사용 대기시간 회복 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"화염 질주 피해 40% 증가",
+			"화염 질주의 재사용 대기시간 회복 속도 30% 증가",
+		},
+	},
+	["화염 폭풍"] = {
+		["MERCILESS"] = {
+			"화염 폭풍 피해 25% 증가",
+			"화염 폭풍 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"화염 폭풍 피해 40% 증가",
+			"화염 폭풍 지속시간 30% 증가",
+		},
+	},
+	["화염구"] = {
+		["MERCILESS"] = {
+			"화염구 피해 25% 증가",
+			"화염구 시전 속도 8% 증가",
+			"화염구의 점화 확률 +20%",
+		},
+		["ENDGAME"] = {
+			"화염구 피해 40% 증가",
+			"화염구 시전 속도 12% 증가",
+			"화염구의 점화 확률 +30%",
+		},
+	},
+	["화염방사기 덫"] = {
+		["MERCILESS"] = {
+			"화염방사기 덫이 주는 피해 25% 증가",
+			"화염방사기 덫 재사용 대기시간 회복 속도 10% 증가",
+			"화염방사기 덫의 스킬 효과 지속시간 20% 증가",
+			"화염방사기 덫에 화염 추가",
+		},
+		["ENDGAME"] = {
+			"화염방사기 덫이 주는 피해 40% 증가",
+			"화염방사기 덫 재사용 대기시간 회복 속도 15% 증가",
+			"화염방사기 덫의 스킬 효과 지속시간 30% 증가",
+			"화염방사기 덫에 화염 2개 추가",
+		},
+	},
+	["화염의 연결"] = {
+		["MERCILESS"] = {
+			"화염의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"화염의 연결 지속시간 30% 증가",
+		},
+	},
+	["화염파"] = {
+		["MERCILESS"] = {
+			"화염파 피해 25% 증가",
+			"화염파 치명타 확률 60% 증가",
+			"화염파 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"화염파 피해 40% 증가",
+			"화염파 치명타 확률 90% 증가",
+			"화염파 효과 범위 24% 증가",
+		},
+	},
+	["환영 무기 투척"] = {
+		["MERCILESS"] = {
+			"환영 무기 투척 피해 25% 증가",
+			"환영 무기 투척 투사체 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"환영 무기 투척 피해 40% 증가",
+			"환영 무기 투척 투사체 속도 30% 증가",
+		},
+	},
+	["환영 방패 투척"] = {
+		["MERCILESS"] = {
+			"환영 방패 투척 피해 25% 증가",
+			"환영 방패 투척 투사체 속도 20% 증가",
+			"환영 방패 투척이 파편 투사체 2개 추가 발사",
+		},
+		["ENDGAME"] = {
+			"환영 방패 투척 피해 40% 증가",
+			"환영 방패 투척 투사체 속도 30% 증가",
+			"환영 방패 투척이 파편 투사체 3개 추가 발사",
+		},
+	},
+	["황폐"] = {
+		["MERCILESS"] = {
+			"황폐 피해 25% 증가",
+			"황폐 효과 범위 16% 증가",
+			"황폐의 이동 방해 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"황폐 피해 40% 증가",
+			"황폐 효과 범위 24% 증가",
+			"황폐의 이동 방해 지속시간 30% 증가",
+		},
+	},
+	["회오리"] = {
+		["MERCILESS"] = {
+			"회오리 피해 25% 증가",
+			"회오리 효과 범위 16% 증가",
+			"회오리 이동 속도 20% 증가",
+		},
+		["ENDGAME"] = {
+			"회오리 피해 40% 증가",
+			"회오리 효과 범위 24% 증가",
+			"회오리 이동 속도 30% 증가",
+		},
+	},
+	["회오리 사격"] = {
+		["MERCILESS"] = {
+			"회오리 사격 피해 25% 증가",
+			"회오리 사격 치명타 확률 60% 증가",
+		},
+		["ENDGAME"] = {
+			"회오리 사격 피해 40% 증가",
+			"회오리 사격 치명타 확률 90% 증가",
+		},
+	},
+	["회오리바람"] = {
+		["MERCILESS"] = {
+			"회오리바람 피해 25% 증가",
+			"회오리바람 공격 속도 10% 증가",
+		},
+		["ENDGAME"] = {
+			"회오리바람 피해 40% 증가",
+			"회오리바람 공격 속도 15% 증가",
+		},
+	},
+	["회전베기"] = {
+		["MERCILESS"] = {
+			"회전베기 피해 25% 증가",
+			"회전베기 공격 속도 10% 증가",
+			"회전베기 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"회전베기 피해 40% 증가",
+			"회전베기 공격 속도 15% 증가",
+			"회전베기 효과 범위 24% 증가",
+		},
+	},
+	["휩쓸기"] = {
+		["MERCILESS"] = {
+			"휩쓸기 피해 25% 증가",
+			"휩쓸기로 명중 시 20%의 확률로 인내 충전 획득",
+			"휩쓸기 효과 범위 16% 증가",
+		},
+		["ENDGAME"] = {
+			"휩쓸기 피해 40% 증가",
+			"휩쓸기로 명중 시 30%의 확률로 인내 충전 획득",
+			"휩쓸기 효과 범위 24% 증가",
+		},
+	},
+	["흡혈의 연결"] = {
+		["MERCILESS"] = {
+			"흡혈의 연결 지속시간 20% 증가",
+		},
+		["ENDGAME"] = {
+			"흡혈의 연결 지속시간 30% 증가",
+		},
+	},
+	["힘의 부적"] = {
+		["MERCILESS"] = {
+			"힘의 부적 버프 시 단계 하나당 치명타 확률 또한 20% 증가",
+		},
+		["ENDGAME"] = {
+			"힘의 부적 버프 시 단계 하나당 치명타 확률 또한 30% 증가",
 		},
 	},
 }

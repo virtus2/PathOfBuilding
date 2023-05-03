@@ -74,11 +74,11 @@ function GGPKClass:ExtractFiles()
 end
 
 function GGPKClass:AddDatFiles()
-	local datFiles = scanDir(self.oozPath .. "Data\\", '%w+%.dat$')
+	local datFiles = scanDir(self.oozPath .. "Data\\Korean\\", '%w+%.dat$')
 	for _, f in ipairs(datFiles) do
 		local record = { }
 		record.name = f
-		local rawFile = io.open(self.oozPath .. "Data\\" .. f, 'rb')
+		local rawFile = io.open(self.oozPath .. "Data\\Korean\\" .. f, 'rb')
 		record.data = rawFile:read("*all")
 		rawFile:close()
 		--ConPrintf("FILENAME: %s", fname)
@@ -87,11 +87,11 @@ function GGPKClass:AddDatFiles()
 end
 
 function GGPKClass:AddDat64Files()
-	local datFiles = scanDir(self.oozPath .. "Data\\", '%w+%.dat64$')
+	local datFiles = scanDir(self.oozPath .. "Data\\Korean\\", '%w+%.dat64$')
 	for _, f in ipairs(datFiles) do
 		local record = { }
 		record.name = f
-		local rawFile = io.open(self.oozPath .. "Data\\" .. f, 'rb')
+		local rawFile = io.open(self.oozPath .. "Data\\Korean\\" .. f, 'rb')
 		record.data = rawFile:read("*all")
 		rawFile:close()
 		--ConPrintf("FILENAME: %s", fname)
@@ -207,6 +207,113 @@ function GGPKClass:GetNeededFiles()
 		"Data/UniqueStashTypes.dat",
 		"Data/Shrines.dat",
 	}
+	local datFilesKR = {
+		"Data/Korean/Stats.dat",
+		"Data/Korean/StatSemantics.dat",
+		"Data/Korean/VirtualStatContextFlags.dat",
+		"Data/Korean/BaseItemTypes.dat",
+		"Data/Korean/WeaponTypes.dat",
+		"Data/Korean/ArmourTypes.dat",
+		"Data/Korean/ShieldTypes.dat",
+		"Data/Korean/Flasks.dat",
+		"Data/Korean/ComponentCharges.dat",
+		"Data/Korean/ComponentAttributeRequirements.dat",
+		"Data/Korean/PassiveSkills.dat",
+		"Data/Korean/PassiveSkillTypes.dat",
+		"Data/Korean/PassiveSkillStatCategories.dat",
+		"Data/Korean/PassiveSkillMasteryGroups.dat",
+		"Data/Korean/PassiveSkillMasteryEffects.dat",
+		"Data/Korean/PassiveTreeExpansionJewelSizes.dat",
+		"Data/Korean/PassiveTreeExpansionJewels.dat",
+		"Data/Korean/PassiveJewelSlots.dat",
+		"Data/Korean/PassiveTreeExpansionSkills.dat",
+		"Data/Korean/PassiveTreeExpansionSpecialSkills.dat",
+		"Data/Korean/Mods.dat",
+		"Data/Korean/ModType.dat",
+		"Data/Korean/ModDomains.dat",
+		"Data/Korean/ModGenerationType.dat",
+		"Data/Korean/ModFamily.dat",
+		"Data/Korean/ModAuraFlags.dat",
+		"Data/Korean/ModSellPriceTypes.dat",
+		"Data/Korean/ModEffectStats.dat",
+		"Data/Korean/ActiveSkills.dat",
+		"Data/Korean/ActiveSkillTargetTypes.dat",
+		"Data/Korean/ActiveSkillType.dat",
+		"Data/Korean/AlternateSkillTargetingBehaviours.dat",
+		"Data/Korean/Ascendancy.dat",
+		"Data/Korean/ClientStrings.dat",
+		"Data/Korean/FlavourText.dat",
+		"Data/Korean/Words.dat",
+		"Data/Korean/ItemClasses.dat",
+		"Data/Korean/SkillTotems.dat",
+		"Data/Korean/SkillTotemVariations.dat",
+		"Data/Korean/SkillMines.dat",
+		"Data/Korean/Essences.dat",
+		"Data/Korean/EssenceType.dat",
+		"Data/Korean/Characters.dat",
+		"Data/Korean/BuffDefinitions.dat",
+		"Data/Korean/BuffCategories.dat",
+		"Data/Korean/BuffTemplates.dat",
+		"Data/Korean/BuffVisuals.dat",
+		"Data/Korean/BuffVisualSets.dat",
+		"Data/Korean/BuffVisualSetEntries.dat",
+		"Data/Korean/BuffVisualsArtVariations.dat",
+		"Data/Korean/BuffVisualOrbs.dat",
+		"Data/Korean/BuffVisualOrbTypes.dat",
+		"Data/Korean/BuffVisualOrbArt.dat",
+		"Data/Korean/GenericBuffAuras.dat",
+		"Data/Korean/AddBuffToTargetVarieties.dat",
+		"Data/Korean/HideoutNPCs.dat",
+		"Data/Korean/NPCs.dat",
+		"Data/Korean/CraftingBenchOptions.dat",
+		"Data/Korean/CraftingItemClassCategories.dat",
+		"Data/Korean/CraftingBenchUnlockCategories.dat",
+		"Data/Korean/CraftingBenchSortCategories.dat",
+		"Data/Korean/MonsterVarieties.dat",
+		"Data/Korean/MonsterResistances.dat",
+		"Data/Korean/MonsterTypes.dat",
+		"Data/Korean/DefaultMonsterStats.dat",
+		"Data/Korean/SkillGems.dat",
+		"Data/Korean/GrantedEffects.dat",
+		"Data/Korean/GrantedEffectsPerLevel.dat",
+		"Data/Korean/ItemExperiencePerLevel.dat",
+		"Data/Korean/EffectivenessCostConstants.dat",
+		"Data/Korean/StatInterpolationTypes.dat",
+		"Data/Korean/Tags.dat",
+		"Data/Korean/GemTags.dat",
+		"Data/Korean/ItemVisualIdentity.dat",
+		"Data/Korean/AchievementItems.dat",
+		"Data/Korean/MultiPartAchievements.dat",
+		"Data/Korean/PantheonPanelLayout.dat",
+		"Data/Korean/AlternatePassiveAdditions.dat",
+		"Data/Korean/AlternatePassiveSkills.dat",
+		"Data/Korean/AlternateTreeVersions.dat",
+		"Data/Korean/GrantedEffectQualityTypes.dat",
+		"Data/Korean/GrantedEffectQualityStats.dat",
+		"Data/Korean/GrantedEffectGroups.dat",
+		"Data/Korean/AegisVariations.dat",
+		"Data/Korean/CostTypes.dat",
+		"Data/Korean/PassiveJewelRadii.dat",
+		"Data/Korean/SoundEffects.dat",
+		"Data/Korean/MavenJewelRadiusKeystones.dat",
+		"Data/Korean/TableCharge.dat",
+		"Data/Korean/GrantedEffectStatSets.dat",
+		"Data/Korean/GrantedEffectStatSetsPerLevel.dat",
+		"Data/Korean/MonsterMapDifficulty.dat",
+		"Data/Korean/MonsterMapBossDifficulty.dat",
+		"Data/Korean/ReminderText.dat",
+		"Data/Korean/Projectiles.dat",
+		"Data/Korean/AnimateWeaponUniques.dat",
+		"Data/Korean/ItemExperienceTypes.dat",
+		"Data/Korean/WeaponPassiveSkills.dat",
+		"Data/Korean/WeaponPassiveSkillTypes.dat",
+		"Data/Korean/WeaponPassiveTreeBalancePerItemLevel.dat",
+		"Data/Korean/WeaponPassiveTreeUniqueBaseTypes.dat",
+		"Data/Korean/CrucibleTags.dat",
+		"Data/Korean/UniqueStashLayout.dat",
+		"Data/Korean/UniqueStashTypes.dat",
+		"Data/Korean/Shrines.dat",
+	}
 	local txtFiles = {
 		"Metadata/StatDescriptions/passive_skill_aura_stat_descriptions.txt",
 		"Metadata/StatDescriptions/passive_skill_stat_descriptions.txt",
@@ -274,5 +381,5 @@ function GGPKClass:GetNeededFiles()
 		"Metadata/Items/Equipment.it",
 		"Metadata/Items/Weapons/AbstractWeapon.it",
 	}
-	return datFiles, txtFiles, itFiles
+	return datFilesKR, txtFiles, itFiles
 end

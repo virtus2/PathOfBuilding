@@ -2,7 +2,7 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Crude Bow"] = {
+itemBases["조잡한 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -11,7 +11,7 @@ itemBases["Crude Bow"] = {
 	weapon = { PhysicalMin = 5, PhysicalMax = 13, CritChanceBase = 5, AttackRateBase = 1.4, Range = 120, },
 	req = { dex = 14, },
 }
-itemBases["Short Bow"] = {
+itemBases["단궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -20,7 +20,7 @@ itemBases["Short Bow"] = {
 	weapon = { PhysicalMin = 6, PhysicalMax = 16, CritChanceBase = 5, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 5, dex = 26, },
 }
-itemBases["Long Bow"] = {
+itemBases["장궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -29,7 +29,7 @@ itemBases["Long Bow"] = {
 	weapon = { PhysicalMin = 8, PhysicalMax = 33, CritChanceBase = 6, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 9, dex = 38, },
 }
-itemBases["Composite Bow"] = {
+itemBases["합성궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -38,17 +38,17 @@ itemBases["Composite Bow"] = {
 	weapon = { PhysicalMin = 16, PhysicalMax = 34, CritChanceBase = 6, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 14, dex = 53, },
 }
-itemBases["Recurve Bow"] = {
+itemBases["반곡궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "+(15-25)% to Global Critical Strike Multiplier",
+	implicit = "일반 치명타 피해 배율 +(15-25)%",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 15, PhysicalMax = 45, CritChanceBase = 6.7, AttackRateBase = 1.25, Range = 120, },
 	req = { level = 18, dex = 65, },
 }
-itemBases["Bone Bow"] = {
+itemBases["뼈 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -57,37 +57,37 @@ itemBases["Bone Bow"] = {
 	weapon = { PhysicalMin = 15, PhysicalMax = 45, CritChanceBase = 6.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 23, dex = 80, },
 }
-itemBases["Royal Bow"] = {
+itemBases["왕실 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(20-24)% increased Elemental Damage with Attack Skills",
+	implicit = "공격 스킬의 원소 피해 (20-24)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "attack" }, },
 	weapon = { PhysicalMin = 14, PhysicalMax = 56, CritChanceBase = 5, AttackRateBase = 1.45, Range = 120, },
 	req = { level = 28, dex = 95, },
 }
-itemBases["Death Bow"] = {
+itemBases["죽음의 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(30-50)% increased Critical Strike Chance",
+	implicit = "치명타 확률 (30-50)% 증가",
 	implicitModTypes = { { "attack", "critical" }, },
 	weapon = { PhysicalMin = 28, PhysicalMax = 73, CritChanceBase = 5, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 32, dex = 107, },
 }
-itemBases["Reflex Bow"] = {
+itemBases["반동궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, maraketh = true, not_for_sale = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	weapon = { PhysicalMin = 37, PhysicalMax = 56, CritChanceBase = 5.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 36, dex = 124, },
 }
-itemBases["Grove Bow"] = {
+itemBases["수목원 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -96,7 +96,7 @@ itemBases["Grove Bow"] = {
 	weapon = { PhysicalMin = 20, PhysicalMax = 61, CritChanceBase = 5, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 35, dex = 116, },
 }
-itemBases["Decurve Bow"] = {
+itemBases["비곡궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -105,7 +105,7 @@ itemBases["Decurve Bow"] = {
 	weapon = { PhysicalMin = 24, PhysicalMax = 96, CritChanceBase = 6, AttackRateBase = 1.25, Range = 120, },
 	req = { level = 38, dex = 125, },
 }
-itemBases["Compound Bow"] = {
+itemBases["복합궁"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -114,17 +114,17 @@ itemBases["Compound Bow"] = {
 	weapon = { PhysicalMin = 37, PhysicalMax = 76, CritChanceBase = 6, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 41, dex = 134, },
 }
-itemBases["Sniper Bow"] = {
+itemBases["저격수 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "+(15-25)% to Global Critical Strike Multiplier",
+	implicit = "일반 치명타 피해 배율 +(15-25)%",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 32, PhysicalMax = 96, CritChanceBase = 6.7, AttackRateBase = 1.25, Range = 120, },
 	req = { level = 44, dex = 143, },
 }
-itemBases["Ivory Bow"] = {
+itemBases["상아색 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -133,37 +133,37 @@ itemBases["Ivory Bow"] = {
 	weapon = { PhysicalMin = 29, PhysicalMax = 86, CritChanceBase = 6.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 47, dex = 152, },
 }
-itemBases["Highborn Bow"] = {
+itemBases["명문가의 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(20-24)% increased Elemental Damage with Attack Skills",
+	implicit = "공격 스킬의 원소 피해 (20-24)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "attack" }, },
 	weapon = { PhysicalMin = 24, PhysicalMax = 94, CritChanceBase = 5, AttackRateBase = 1.45, Range = 120, },
 	req = { level = 50, dex = 161, },
 }
-itemBases["Decimation Bow"] = {
+itemBases["대량 학살의 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(30-50)% increased Critical Strike Chance",
+	implicit = "치명타 확률 (30-50)% 증가",
 	implicitModTypes = { { "attack", "critical" }, },
 	weapon = { PhysicalMin = 44, PhysicalMax = 116, CritChanceBase = 5, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 53, dex = 170, },
 }
-itemBases["Steelwood Bow"] = {
+itemBases["강철목 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, maraketh = true, not_for_sale = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	weapon = { PhysicalMin = 58, PhysicalMax = 86, CritChanceBase = 5.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 57, dex = 190, },
 }
-itemBases["Thicket Bow"] = {
+itemBases["잡목림 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -172,7 +172,7 @@ itemBases["Thicket Bow"] = {
 	weapon = { PhysicalMin = 32, PhysicalMax = 96, CritChanceBase = 5, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 56, dex = 179, },
 }
-itemBases["Citadel Bow"] = {
+itemBases["성채 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -181,7 +181,7 @@ itemBases["Citadel Bow"] = {
 	weapon = { PhysicalMin = 36, PhysicalMax = 144, CritChanceBase = 6, AttackRateBase = 1.25, Range = 120, },
 	req = { level = 58, dex = 185, },
 }
-itemBases["Ranger Bow"] = {
+itemBases["레인저 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -190,17 +190,17 @@ itemBases["Ranger Bow"] = {
 	weapon = { PhysicalMin = 56, PhysicalMax = 117, CritChanceBase = 6, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 60, dex = 212, },
 }
-itemBases["Assassin Bow"] = {
+itemBases["암살자 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, top_tier_base_item_type = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "+(15-25)% to Global Critical Strike Multiplier",
+	implicit = "일반 치명타 피해 배율 +(15-25)%",
 	implicitModTypes = { { "damage", "critical" }, },
 	weapon = { PhysicalMin = 43, PhysicalMax = 130, CritChanceBase = 6.7, AttackRateBase = 1.25, Range = 120, },
 	req = { level = 62, dex = 212, },
 }
-itemBases["Spine Bow"] = {
+itemBases["척추 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, top_tier_base_item_type = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
@@ -209,62 +209,62 @@ itemBases["Spine Bow"] = {
 	weapon = { PhysicalMin = 38, PhysicalMax = 115, CritChanceBase = 6.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 64, dex = 212, },
 }
-itemBases["Imperial Bow"] = {
+itemBases["제국 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, top_tier_base_item_type = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(20-24)% increased Elemental Damage with Attack Skills",
+	implicit = "공격 스킬의 원소 피해 (20-24)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "attack" }, },
 	weapon = { PhysicalMin = 29, PhysicalMax = 117, CritChanceBase = 5, AttackRateBase = 1.45, Range = 120, },
 	req = { level = 66, dex = 212, },
 }
-itemBases["Harbinger Bow"] = {
+itemBases["선구자 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, top_tier_base_item_type = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "(30-50)% increased Critical Strike Chance",
+	implicit = "치명타 확률 (30-50)% 증가",
 	implicitModTypes = { { "attack", "critical" }, },
 	weapon = { PhysicalMin = 50, PhysicalMax = 133, CritChanceBase = 5, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 68, dex = 212, },
 }
-itemBases["Maraketh Bow"] = {
+itemBases["마라케스 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, maraketh = true, not_for_sale = true, ranged = true, weapon = true, default = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "10% increased Movement Speed",
+	implicit = "이동 속도 10% 증가",
 	implicitModTypes = { { "speed" }, },
 	weapon = { PhysicalMin = 61, PhysicalMax = 92, CritChanceBase = 5.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 71, dex = 222, },
 }
-itemBases["Hedron Bow"] = {
+itemBases["다면체 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, default = true, not_for_sale = true, ranged = true, weapon = true, experimental_base = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "Adds (40-48) to (60-72) Fire Damage",
+	implicit = "화염 피해 (40-48)~(60-72) 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	weapon = { PhysicalMin = 9, PhysicalMax = 13, CritChanceBase = 5.5, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 30, dex = 101, },
 }
-itemBases["Foundry Bow"] = {
+itemBases["주물 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, default = true, not_for_sale = true, ranged = true, weapon = true, experimental_base = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "Adds (70-84) to (110-124) Fire Damage",
+	implicit = "화염 피해 (70-84)~(110-124) 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	weapon = { PhysicalMin = 13, PhysicalMax = 20, CritChanceBase = 5.5, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 50, dex = 161, },
 }
-itemBases["Solarine Bow"] = {
+itemBases["태양의 활"] = {
 	type = "Bow",
 	socketLimit = 6,
 	tags = { two_hand_weapon = true, default = true, not_for_sale = true, ranged = true, weapon = true, experimental_base = true, twohand = true, bow = true, },
 	influenceTags = { shaper = "bow_shaper", elder = "bow_elder", adjudicator = "bow_adjudicator", basilisk = "bow_basilisk", crusader = "bow_crusader", eyrie = "bow_eyrie", cleansing = "bow_cleansing", tangle = "bow_tangle" },
-	implicit = "Adds (105-116) to (160-172) Fire Damage",
+	implicit = "화염 피해 (105-116)~(160-172) 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	weapon = { PhysicalMin = 16, PhysicalMax = 24, CritChanceBase = 5.5, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 70, dex = 212, },

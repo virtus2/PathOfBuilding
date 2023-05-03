@@ -9,7 +9,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17,7 +17,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance for Brands to Attach to a new Enemy each time they Activate"
+					text="낙인이 활성화될 때마다 {0}%의 확률로 새로운 적에게 부착"
 				}
 			}
 		},
@@ -28,7 +28,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -40,7 +40,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can be Detached for a total Duration of {0} seconds"
+					text="총 {0}초의 지속시간 동안 분리 가능"
 				}
 			}
 		},
@@ -51,7 +51,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -67,7 +67,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can be Attached for a total Duration of {0} seconds"
+					text="총 {0}초의 지속시간 동안 부착 가능"
 				}
 			}
 		},
@@ -79,7 +79,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -91,7 +91,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Base Debuff Duration is {0} seconds"
+					text="기본 디버프 지속시간 {0}초"
 				}
 			}
 		},
@@ -102,7 +102,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -110,7 +110,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have {0} Brand Attached to an Enemy"
+					text="적에게 낙인 {0}개 부착 가능"
 				},
 				[2]={
 					limit={
@@ -119,7 +119,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have {0} Brands Attached to an Enemy"
+					text="적에게 낙인 {0}개 부착 가능"
 				}
 			}
 		},
@@ -130,7 +130,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -138,7 +138,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Sends beam to the Branded Enemy"
+					text="낙인이 부착된 적에게 광선 발사"
 				},
 				[2]={
 					limit={
@@ -147,7 +147,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Sends beams to {0} Enemies, including the Branded Enemy"
+					text="낙인이 부착된 적 포함, 적 {0}명에게 광선 발사"
 				}
 			}
 		},
@@ -158,7 +158,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -170,7 +170,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can be Detached for a total Duration of {0} seconds"
+					text="총 {0}초의 지속시간 동안 분리 가능"
 				}
 			}
 		},
@@ -181,7 +181,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -189,7 +189,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% more Damage with Hits against Branded Enemy"
+					text="낙인이 부착된 적 명중 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -202,7 +202,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Deals {0}% less Damage with Hits against Branded Enemy"
+					text="낙인이 부착된 적 명중 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -213,7 +213,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -225,7 +225,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Activates every {0} second while Attached"
+					text="낙인이 부착된 동안 {0}초마다 활성화"
 				},
 				[2]={
 					[1]={
@@ -238,7 +238,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Activates every {0} seconds while Attached"
+					text="낙인이 부착된 동안 {0}초마다 활성화"
 				}
 			}
 		},
@@ -249,7 +249,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -261,7 +261,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can be Attached for a total Duration of {0} seconds"
+					text="총 {0}초의 지속시간 동안 부착 가능"
 				}
 			}
 		},
@@ -272,7 +272,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -284,7 +284,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Debuff Lasts {0} seconds"
+					text="{0}초간 디버프 지속"
 				}
 			}
 		},

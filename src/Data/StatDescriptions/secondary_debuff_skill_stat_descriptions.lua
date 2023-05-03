@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Debuff Lasts {0} seconds"
+					text="디버프 {0}초간 지속"
 				}
 			}
 		},

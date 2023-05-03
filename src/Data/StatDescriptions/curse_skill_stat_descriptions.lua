@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Curse lasts {0} seconds"
+					text="{0}초간 저주 지속"
 				}
 			}
 		},
@@ -27,7 +27,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -35,7 +35,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Normal and Magic Enemies have {0}% more Action Speed"
+					text="저주받은 일반 및 마법 등급 적의 동작 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -48,7 +48,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed Normal and Magic Enemies have {0}% less Action Speed"
+					text="저주받은 일반 및 마법 등급 적의 동작 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -59,7 +59,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -67,7 +67,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Other effects on Cursed enemies expire {0}% faster"
+					text="저주받은 적에게 적용된 다른 효과들이 {0}% 빠르게 만료"
 				},
 				[2]={
 					[1]={
@@ -84,7 +84,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Other effects on Cursed enemies expire {0}% slower"
+					text="저주받은 적에게 적용된 다른 효과들이 {0}% 느리게 만료"
 				}
 			}
 		},
@@ -95,7 +95,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -103,7 +103,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Elemental Resistances"
+					text="저주받은 적의 원소 저항 {0:+d}%"
 				}
 			}
 		},
@@ -114,7 +114,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -122,7 +122,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Fire Resistance"
+					text="저주받은 적의 화염 저항 {0:+d}%"
 				}
 			}
 		},
@@ -133,7 +133,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -141,7 +141,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Cold Resistance"
+					text="저주받은 적의 냉기 저항 {0:+d}%"
 				}
 			}
 		},
@@ -152,7 +152,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -160,7 +160,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Lightning Resistance"
+					text="저주받은 적의 번개 저항 {0:+d}%"
 				}
 			}
 		},
@@ -171,7 +171,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -179,7 +179,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Chaos Resistance"
+					text="저주받은 적의 카오스 저항 {0:+d}%"
 				}
 			}
 		},
@@ -190,7 +190,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -202,7 +202,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0:+d}% chance to Freeze"
+					text="저주받은 적 명중 시 동결 확률 {0:+d}%"
 				}
 			}
 		},
@@ -213,7 +213,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -225,7 +225,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0:+d}% chance to Ignite"
+					text="저주받은 적 명중 시 점화 확률 {0:+d}%"
 				}
 			}
 		},
@@ -236,7 +236,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -248,7 +248,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0:+d}% chance to Shock"
+					text="저주받은 적 명중 시 감전 확률 {0:+d}%"
 				}
 			}
 		},
@@ -259,7 +259,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -267,7 +267,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% increased Flask Charges"
+					text="저주받은 적에게 받는 플라스크 충전량 {0}% 증가"
 				}
 			}
 		},
@@ -278,7 +278,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -294,7 +294,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% Life Leech when Hit by Attacks"
+					text="저주받은 적을 공격으로 명중 시, {0}% 생명력 흡수"
 				}
 			}
 		},
@@ -305,7 +305,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -321,7 +321,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% Life Leech when Hit"
+					text="저주받은 적 명중 시, {0}% 생명력 흡수"
 				}
 			}
 		},
@@ -332,7 +332,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -348,7 +348,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% Mana Leech when Hit by Attacks"
+					text="저주받은 적을 공격으로 명중 시, {0}% 마나 흡수"
 				}
 			}
 		},
@@ -359,7 +359,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -375,7 +375,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% Mana Leech when Hit"
+					text="저주받은 적 명중 시, {0}% 마나 흡수"
 				}
 			}
 		},
@@ -386,7 +386,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -394,7 +394,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have a {0}% chance to grant an Endurance Charge when slain"
+					text="저주받은 적 처치 시 {0}%의 확률로 인내 충전 획득"
 				}
 			}
 		},
@@ -405,7 +405,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -413,7 +413,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have a {0}% chance to grant a Frenzy Charge when slain"
+					text="저주받은 적 처치 시 {0}%의 확률로 격분 충전 획득"
 				}
 			}
 		},
@@ -424,7 +424,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -432,7 +432,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have a {0}% chance to grant a Power Charge when slain"
+					text="저주받은 적 처치 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -443,7 +443,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -451,7 +451,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0}% increased Accuracy Rating"
+					text="저주받은 적의 정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -464,7 +464,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies have {0}% reduced Accuracy Rating"
+					text="저주받은 적의 정확도 {0}% 감소"
 				}
 			}
 		},
@@ -475,7 +475,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -483,7 +483,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0}% increased Critical Strike Chance"
+					text="저주받은 적의 치명타 확률이 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -496,7 +496,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies have {0}% reduced Critical Strike Chance"
+					text="저주받은 적의 치명타 확률이 {0}% 감소"
 				}
 			}
 		},
@@ -507,7 +507,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -515,7 +515,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Critical Strike Multiplier"
+					text="저주받은 적의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -526,7 +526,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -534,7 +534,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Normal or Magic enemies deal {0}% more Damage"
+					text="저주받은 일반 및 마법 적이 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -547,7 +547,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed Normal or Magic enemies deal {0}% less Damage"
+					text="저주받은 일반 및 마법 적이 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -558,7 +558,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -570,7 +570,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0:+d}% to Critical Strike Chance"
+					text="저주받은 적 명중 시 치명타 확률 {0:+d}%"
 				}
 			}
 		},
@@ -581,7 +581,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -589,7 +589,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0:+d}% to Critical Strike Multiplier"
+					text="저주받은 적 명중 시 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -600,7 +600,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -608,7 +608,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% reduced Extra Damage from Critical Strikes"
+					text="저주받은 적이 치명타로 받는 추가 피해 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -621,7 +621,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies take {0}% increased Extra Damage from Critical Strikes"
+					text="저주받은 적이 치명타로 받는 추가 피해 {0}% 증가"
 				}
 			}
 		},
@@ -632,7 +632,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -640,7 +640,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Pierce Cursed Enemies"
+					text="투사체들이 저주받은 적을 관통"
 				}
 			}
 		},
@@ -651,7 +651,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -663,7 +663,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits on Cursed Enemies have an additional {0}% chance to Knockback"
+					text="저주받은 적 명중 시 밀어내기 확률 {0}% 추가"
 				}
 			}
 		},
@@ -674,7 +674,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -682,7 +682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0}% more Evasion Rating"
+					text="저주받은 적의 회피가 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -695,7 +695,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies have {0}% less Evasion Rating"
+					text="저주받은 적의 회피가 {0}% 감폭"
 				}
 			}
 		},
@@ -706,7 +706,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -714,7 +714,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% increased Damage from Projectile Hits"
+					text="저주받은 적이 투사체 피격 시 받는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -725,7 +725,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -733,7 +733,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Enemies have an additional {0}% chance to be Stunned"
+					text="저주받은 적이 기절할 확률 {0}% 추가"
 				}
 			}
 		},
@@ -744,7 +744,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -752,7 +752,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0}% increased Stun and Block Recovery"
+					text="저주받은 적의 기절 및 막기 회복 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -765,7 +765,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies have {0}% reduced Stun and Block Recovery"
+					text="저주받은 적의 기절 및 막기 회복 확률 {0}% 감소"
 				}
 			}
 		},
@@ -776,7 +776,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -784,7 +784,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% increased Physical Damage"
+					text="저주받은 적이 받는 물리 피해 {0}% 증가"
 				}
 			}
 		},
@@ -795,7 +795,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -803,7 +803,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% increased Damage from Damage Over Time effects"
+					text="저주받은 적이 지속 피해 효과로 받는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -814,7 +814,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -822,7 +822,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignite on Cursed enemies has {0}% reduced Duration"
+					text="저주받은 적을 {0}% 감소한 지속시간 동안 점화"
 				},
 				[2]={
 					[1]={
@@ -835,7 +835,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ignite on Cursed enemies has {0}% increased Duration"
+					text="저주받은 적을 {0}% 증가한 지속시간 동안 점화"
 				}
 			}
 		},
@@ -846,7 +846,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -854,7 +854,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Freezes on Cursed enemies have {0}% reduced Duration"
+					text="저주받은 적을 {0}% 감소한 지속시간 동안 동결"
 				},
 				[2]={
 					[1]={
@@ -867,7 +867,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Freezes on Cursed enemies have {0}% increased Duration"
+					text="저주받은 적을 {0}% 증가한 지속시간 동안 동결"
 				}
 			}
 		},
@@ -878,7 +878,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -886,7 +886,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Shocks on Cursed enemies have {0}% reduced Duration"
+					text="저주받은 적을 {0}% 감소한 지속시간 동안 감전"
 				},
 				[2]={
 					[1]={
@@ -899,7 +899,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Shocks on Cursed enemies have {0}% increased Duration"
+					text="저주받은 적을 {0}% 증가한 지속시간 동안 감전"
 				}
 			}
 		},
@@ -910,7 +910,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -918,7 +918,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You cannot Cast this Spell directly"
+					text="이 주문은 직접 시전할 수 없음"
 				}
 			}
 		},
@@ -929,7 +929,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -937,7 +937,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0} Life when Hit by Attacks"
+					text="저주받은 적을 공격으로 명중 시, {0} 생명력 회복"
 				}
 			}
 		},
@@ -948,7 +948,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -956,7 +956,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0} Mana when Hit by Attacks"
+					text="저주받은 적을 공격으로 명중 시, {0} 마나 회복"
 				}
 			}
 		},
@@ -967,7 +967,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -975,7 +975,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0} Life when Killed"
+					text="저주받은 적 처치 시 {0}의 생명력 획득"
 				}
 			}
 		},
@@ -986,7 +986,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -994,7 +994,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0} Mana when Killed"
+					text="저주받은 적 처치 시 {0}의 마나 획득"
 				}
 			}
 		},
@@ -1005,7 +1005,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1013,7 +1013,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect"
+					text="효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1026,7 +1026,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area of Effect"
+					text="효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -1037,7 +1037,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1045,7 +1045,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Curse is Cast as an Aura applying to nearby Enemies"
+					text="주변 적들에게 오라의 형태로 시전되는 저주"
 				}
 			}
 		},
@@ -1056,7 +1056,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1064,7 +1064,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Gain {0} Flask Charge when you Hit a Cursed Enemy, no more than once every 3 seconds"
+					text="저주받은 적 명중 시 플라스크 {0} 충전, 3초마다 최대 1번 충전"
 				},
 				[2]={
 					limit={
@@ -1073,7 +1073,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0} Flask Charges when you Hit a Cursed Enemy, no more than once every 3 seconds"
+					text="저주받은 적 명중 시 플라스크 {0} 충전, 3초마다 최대 1번 충전"
 				}
 			}
 		},
@@ -1084,7 +1084,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1092,7 +1092,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies have {0:+d}% to Physical Damage Reduction"
+					text="저주받은 적이 받는 물리 피해 감소 {0:+d}%"
 				}
 			}
 		},
@@ -1103,7 +1103,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1111,7 +1111,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% increased Damage"
+					text="저주받은 적이 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1124,7 +1124,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies take {0}% reduced Damage"
+					text="저주받은 적이 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1135,7 +1135,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1147,7 +1147,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spell Hits have {0}% chance to Hinder Cursed Enemies"
+					text="주문 명중 시 {0}%의 확률로 저주받은 적을 이동 방해"
 				}
 			}
 		},
@@ -1158,7 +1158,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1170,7 +1170,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Attack Hits have {0}% chance to Maim Cursed Enemies for 4 seconds"
+					text="공격 적중이 {0}%의 확률로 4초 동안 저주받은 적 힘줄 절단 유발"
 				}
 			}
 		},
@@ -1181,7 +1181,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1193,7 +1193,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Enemies take {0}% increased Damage while on Low Life"
+					text="저주받은 적이 낮은 생명력 상태일 때 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1210,7 +1210,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed Enemies take {0}% reduced Damage while on Low Life"
+					text="저주받은 적이 낮은 생명력 상태일 때 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1221,7 +1221,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -1237,7 +1237,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Enemies are Debilitated for {0} Seconds when they Hit"
+					text="저주받은 적이 명중 시 해당 적이 {0}초 동안 쇠잔 상태가 됨"
 				}
 			}
 		},
@@ -1248,7 +1248,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1256,7 +1256,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits against Cursed Enemies have {0}% chance to double Stun Duration"
+					text="저주받은 적 명중 시 {0}%의 확률로 기절 지속시간 2배"
 				}
 			}
 		},
@@ -1267,7 +1267,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1279,7 +1279,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ailments inflicted on Cursed Enemies deal Damage {0}% Faster"
+					text="저주받은 적에게 유발되는 상태 이상의 피해 {0}% 가속"
 				}
 			}
 		},
@@ -1290,7 +1290,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1298,7 +1298,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Enemies grant {0} Rage Regenerated over 1 second when Stunned"
+					text="저주받은 적 기절 시 1초 동안 격노 {0} 재생"
 				}
 			}
 		},
@@ -1309,7 +1309,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -1325,7 +1325,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies grant {0}% Energy Shield Leech when Hit"
+					text="저주받은 적 명중 시 {0}% 에너지 보호막 흡수"
 				}
 			}
 		},
@@ -1336,7 +1336,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1344,7 +1344,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Rare or Unique enemies deal {0}% more Damage"
+					text="저주받은 희귀 또는 고유 적이 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1357,7 +1357,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed Rare or Unique enemies deal {0}% less Damage"
+					text="저주받은 희귀 또는 고유 적이 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1368,7 +1368,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1376,7 +1376,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Cursed Enemies grant an Endurance Charge when Hit"
+					text="저주받은 적 명중 시 인내 충전 획득"
 				},
 				[2]={
 					limit={
@@ -1385,7 +1385,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Cursed Enemies have a {0}% chance to grant an Endurance Charge when Hit"
+					text="저주받은 적 명중 시 {0}%의 확률로 인내 충전 획득"
 				}
 			}
 		},
@@ -1396,7 +1396,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1404,7 +1404,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Cursed Enemies grant a Frenzy Charge when Hit"
+					text="저주받은 적 명중 시 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -1413,7 +1413,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Cursed Enemies have a {0}% chance to grant a Frenzy Charge when Hit"
+					text="저주받은 적 명중 시 {0}%의 확률로 격분 충전 획득"
 				}
 			}
 		},
@@ -1424,7 +1424,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1432,7 +1432,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Cursed Enemies grant a Power Charge when Hit"
+					text="저주받은 적 명중 시 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -1441,7 +1441,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Cursed Enemies have a {0}% chance to grant a Power Charge when Hit"
+					text="저주받은 적 명중 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -1452,7 +1452,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1460,7 +1460,7 @@ return {
 							[2]=1
 						}
 					},
-					text="You gain a Life Flask Charge when you Hit Cursed Enemy, no more\nthan once every 0.5 seconds"
+					text="저주받은 적 명중 시 생명력 플라스크 1 충전,\n0.5초마다 최대 1번 충전"
 				},
 				[2]={
 					limit={
@@ -1469,7 +1469,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You gain {0} Life Flask Charges when you Hit Cursed Enemy, no more\nthan once every 0.5 seconds"
+					text="저주받은 적 명중 시 생명력 플라스크 {0} 충전,\n0.5초마다 최대 1번 충전"
 				}
 			}
 		},
@@ -1480,7 +1480,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1488,7 +1488,7 @@ return {
 							[2]=1
 						}
 					},
-					text="You gain a Mana Flask Charge when you Hit Cursed Enemy, no more\nthan once every 0.5 seconds"
+					text="저주받은 적 명중 시 마나 플라스크 1 충전,\n0.5초마다 최대 1번 충전"
 				},
 				[2]={
 					limit={
@@ -1497,7 +1497,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You gain {0} Mana Flask Charges when you Hit Cursed Enemy, no more\nthan once every 0.5 seconds"
+					text="저주받은 적 명중 시 마나 플라스크 {0} 충전,\n0.5초마다 최대 1번 충전"
 				}
 			}
 		},
@@ -1508,7 +1508,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1516,7 +1516,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Mark"
+					text="징표 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1529,7 +1529,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Mark"
+					text="징표 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1540,7 +1540,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1552,7 +1552,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Chaos Damage to Hits against Cursed Enemies"
+					text="저주받은 적 명중 시 카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1564,7 +1564,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1576,7 +1576,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Physical Damage to Hits against Cursed Enemies"
+					text="저주받은 적 명중 시 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1588,7 +1588,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1596,7 +1596,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed enemies take {0}% increased Physical Damage from Damage Over Time"
+					text="저주받은 적이 받는 지속 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1609,7 +1609,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed enemies take {0}% reduced Physical Damage from Damage Over Time"
+					text="저주받은 적이 받는 지속 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1620,7 +1620,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1628,7 +1628,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles which Hit Cursed Enemies Split towards {0} additional targets"
+					text="투사체가 저주받은 적 적중 시 추가 대상 {0}개를 향해 분할"
 				}
 			}
 		},
@@ -1639,7 +1639,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1651,7 +1651,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Attacks Hits against Cursed Enemies have {0}% chance to inflict Bleeding"
+					text="저주받은 적에게 공격 적중 시 {0}%의 확률로 출혈 유발"
 				}
 			}
 		},
@@ -1662,7 +1662,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1674,7 +1674,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Overkill Damage from Killing Blows on Cursed Enemies is Reflected to other Enemies as Physical Damage"
+					text="저주받은 적에 대한 최후의 일격으로 발생하는 과잉살상 피해의 {0}%를 다른 적에게 물리 피해로 반사"
 				}
 			}
 		},
@@ -1685,7 +1685,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1693,7 +1693,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Duration of Bleeding on Cursed Enemies"
+					text="저주받은 적의 출혈 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1706,7 +1706,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Duration of Bleeding on Cursed Enemies"
+					text="저주받은 적의 출혈 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1717,7 +1717,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1729,7 +1729,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% reduced Duration of Elemental Ailments on Cursed enemies"
+					text="저주받은 적의 원소 상태 이상 지속시간 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -1746,7 +1746,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% increased Duration of Elemental Ailments on Cursed enemies"
+					text="저주받은 적의 원소 상태 이상 지속시간 {0}% 증가"
 				}
 			}
 		},
@@ -1757,7 +1757,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1765,7 +1765,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Curse"
+					text="저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1778,7 +1778,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Curse"
+					text="저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -1789,7 +1789,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1797,7 +1797,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Curse"
+					text="저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1810,7 +1810,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Curse"
+					text="저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -1821,7 +1821,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1829,7 +1829,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Curse"
+					text="저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1842,7 +1842,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Curse"
+					text="저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -1853,7 +1853,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1861,7 +1861,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cursed Rare and Unique Enemies have {0}% more Action Speed"
+					text="저주받은 희귀 및 고유 적의 동작 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1874,7 +1874,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cursed Rare and Unique Enemies have {0}% less Action Speed"
+					text="저주받은 희귀 및 고유 적의 동작 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -1885,7 +1885,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1893,7 +1893,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Trigger Doom Blast when Curse ends"
+					text="저주 종료 시 멸망 폭발 발동"
 				},
 				[2]={
 					limit={
@@ -1902,7 +1902,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger Doom Blast when Curse ends"
+					text="저주 종료 시 멸망 폭발 발동"
 				}
 			}
 		},

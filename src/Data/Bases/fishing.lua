@@ -2,7 +2,7 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Fishing Rod"] = {
+itemBases["낚싯대"] = {
 	type = "Fishing Rod",
 	socketLimit = 4,
 	tags = { two_hand_weapon = true, not_for_sale = true, weapon = true, twohand = true, fishing_rod = true, default = true, },

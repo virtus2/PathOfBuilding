@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Melee Physical Damage"
+					text="보조 대상 스킬로 주는 근접 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -25,7 +25,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Melee Physical Damage"
+					text="보조 대상 스킬로 주는 근접 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -35,7 +35,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -43,7 +43,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Bleeding and Poison caused by Melee Hits"
+					text="보조 대상 스킬로 주는 근접 명중에 의한 출혈 및 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -56,7 +56,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Bleeding and Poison caused by Melee Hits"
+					text="보조 대상 스킬로 주는 근접 명중에 의한 출혈 및 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -66,7 +66,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -74,7 +74,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Curse Skills apply their Curses as Auras\nSupported Curse Skills also count as Aura Skills"
+					text="보조 대상 저주 스킬의 저주가 오라로 적용\n보조 대상 저주 스킬을 오라 스킬로 간주"
 				}
 			}
 		},
@@ -84,7 +84,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -92,7 +92,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -105,7 +105,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -115,7 +115,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -123,7 +123,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -136,7 +136,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -146,7 +146,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -154,7 +154,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -167,7 +167,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -177,7 +177,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -185,7 +185,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Using Supported Skills is Instant"
+					text="보조 대상 스킬 즉시 사용"
 				}
 			}
 		},
@@ -195,7 +195,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -203,7 +203,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attack Skills deal {0}% more Damage while on Full Life"
+					text="생명력이 최대일 때 보조 대상 공격 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -216,7 +216,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attack Skills deal {0}% less Damage while on Full Life"
+					text="생명력이 최대일 때 보조 대상 공격 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -226,7 +226,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -234,7 +234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attack Skills deal {0}% more Elemental Damage"
+					text="보조 대상 공격 스킬로 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -247,7 +247,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attack Skills deal {0}% less Elemental Damage"
+					text="보조 대상 공격 스킬로 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -257,7 +257,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -265,7 +265,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Weapon Elemental Damage"
+					text="보조 대상 스킬로 주는 무기 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -278,7 +278,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Weapon Elemental Damage"
+					text="보조 대상 스킬로 주는 무기 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -288,7 +288,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -296,7 +296,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -309,7 +309,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -319,7 +319,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -327,7 +327,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -340,7 +340,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -350,7 +350,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -358,7 +358,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -371,7 +371,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -381,7 +381,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -389,7 +389,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -402,7 +402,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -412,7 +412,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -420,7 +420,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -433,7 +433,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -443,7 +443,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -451,7 +451,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -464,7 +464,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -474,7 +474,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -482,7 +482,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -495,7 +495,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -505,7 +505,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -513,7 +513,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells deal {0}% increased Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -526,7 +526,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells deal {0}% reduced Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 감소"
 				}
 			}
 		},
@@ -536,7 +536,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -544,7 +544,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -557,7 +557,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -567,7 +567,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -575,7 +575,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells have {0}% more Spell Damage"
+					text="보조 대상 주문의 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -588,7 +588,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells have {0}% less Spell Damage"
+					text="보조 대상 주문의 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -598,7 +598,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -606,7 +606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Triggered Spells deal {0}% more Damage"
+					text="보조 대상 발동형 주문으로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -619,7 +619,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Triggered Spells deal {0}% less Damage"
+					text="보조 대상 발동형 주문으로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -629,7 +629,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -637,7 +637,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells deal {0}% more Damage"
+					text="보조 대상 주문으로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -650,7 +650,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells deal {0}% less Damage"
+					text="보조 대상 주문으로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -660,7 +660,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -668,7 +668,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Cost"
+					text="보조 대상 스킬의 소모 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -681,7 +681,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Cost"
+					text="보조 대상 스킬의 소모 {0}% 감소"
 				}
 			}
 		},
@@ -691,7 +691,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -699,7 +699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Life Cost"
+					text="보조 대상 스킬의 생명력 소모 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -712,7 +712,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Life Cost"
+					text="보조 대상 스킬의 생명력 소모 {0}% 감소"
 				}
 			}
 		},
@@ -722,7 +722,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -730,7 +730,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% reduced Mana Cost"
+					text="보조 대상 스킬의 마나 소모 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -743,7 +743,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% increased Mana Cost"
+					text="보조 대상 스킬의 마나 소모 {0}% 증가"
 				}
 			}
 		},
@@ -753,7 +753,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -761,7 +761,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Strike Skills target {0} additional nearby Enemy"
+					text="보조 대상 타격 스킬이 주변 적 {0}명을 추가 대상으로 삼음"
 				},
 				[2]={
 					limit={
@@ -770,7 +770,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Strike Skills target {0} additional nearby Enemies"
+					text="보조 대상 타격 스킬이 주변 적 {0}명을 추가 대상으로 삼음"
 				}
 			}
 		},
@@ -780,7 +780,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -788,7 +788,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Strike Skills cannot target additional Enemies"
+					text="보조 대상 타격 스킬이 추가 적을 대상으로 삼을 수 없음"
 				}
 			}
 		},
@@ -798,7 +798,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -806,7 +806,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Extra Targets for Supported Skills can be found {0}% further away"
+					text="보조 대상 스킬의 추가 대상 탐색 범위 {0}% 증가"
 				}
 			}
 		},
@@ -816,7 +816,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -824,7 +824,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -837,7 +837,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -847,7 +847,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -855,7 +855,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -868,7 +868,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -878,7 +878,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -886,7 +886,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Area of Effect while Dead"
+					text="죽음 상태에서 보조 대상 스킬의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -899,7 +899,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Area of Effect while Dead"
+					text="죽음 상태에서 보조 대상 스킬의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -909,7 +909,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -917,7 +917,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Aura Area of Effect"
+					text="보조 대상 스킬의 오라 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -930,7 +930,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Aura Area of Effect"
+					text="보조 대상 스킬의 오라 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -940,7 +940,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -948,7 +948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Aura effect"
+					text="보조 대상 스킬의 오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -961,7 +961,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Aura effect"
+					text="보조 대상 스킬의 오라 효과 {0}% 감소"
 				}
 			}
 		},
@@ -971,7 +971,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -979,7 +979,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -992,7 +992,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 감폭"
 				}
 			}
 		},
@@ -1002,7 +1002,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1010,7 +1010,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Cost Life instead of Mana"
+					text="보조 대상 스킬이 마나 대신 생명력 소모"
 				}
 			}
 		},
@@ -1020,7 +1020,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1028,7 +1028,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Reserve Life instead of Mana"
+					text="보조 대상 스킬이 마나 대신 생명력 점유"
 				}
 			}
 		},
@@ -1038,7 +1038,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1046,7 +1046,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spend Life instead of Mana for effects of Supported Skills"
+					text="보조 대상 스킬의 효과에 마나 대신 생명력을 소모"
 				}
 			}
 		},
@@ -1056,7 +1056,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1064,7 +1064,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills fire a Payload Arrow into the air\nProjectiles from the Supported Skill Fire from where the Payload Arrow lands"
+					text="보조 대상 스킬이 허공으로 탄두 화살을 발사함\n탄두 화살이 떨어진 곳에서 보조 대상 스킬의 투사체가 발사됨"
 				}
 			}
 		},
@@ -1074,7 +1074,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1082,7 +1082,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignites caused by Supported Skills spread to other Enemies within a Radius of {0}"
+					text="보조 대상 스킬로 발생한 점화가 반경 {0} 이내의 다른 적에게 확산"
 				}
 			}
 		},
@@ -1092,7 +1092,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1136,7 +1136,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles in random directions"
+					text="보조 대상 스킬이 임의의 방향으로 투사체 발사"
 				},
 				[2]={
 					limit={
@@ -1181,7 +1181,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles in a spiral"
+					text="보조 대상 스킬이 소용돌이 모양으로 투사체 발사"
 				},
 				[3]={
 					limit={
@@ -1226,7 +1226,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles in two mirrored spirals"
+					text="보조 대상 스킬이 대칭되는 2개의 소용돌이 모양으로 투사체 발사"
 				},
 				[4]={
 					limit={
@@ -1271,7 +1271,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles in a spiral"
+					text="보조 대상 스킬이 소용돌이 모양으로 투사체 발사"
 				},
 				[5]={
 					limit={
@@ -1316,7 +1316,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles in a circle"
+					text="보조 대상 스킬이 원형으로 투사체 발사"
 				},
 				[6]={
 					limit={
@@ -1361,7 +1361,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills Fire Projectiles sequentially"
+					text="보조 대상 스킬이 연속해서 투사체 발사"
 				}
 			}
 		},
@@ -1380,7 +1380,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1392,7 +1392,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Elemental Ailments caused by Supported Skills spread to other enemies in a Radius of {0}"
+					text="보조 대상 스킬로 발생한 원소 상태 이상이 반경 {0} 이내의 다른 적에게 확산"
 				}
 			}
 		},
@@ -1402,7 +1402,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1410,7 +1410,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Kill Enemies that have 10% Life or lower when Hit by Supported Skills"
+					text="보조 대상 스킬 적중 시 생명력이 10% 이하인 적 처치"
 				}
 			}
 		},
@@ -1420,7 +1420,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1428,7 +1428,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills' Projectile Attack Hits deal up to 30% more Damage to targets at the start of their movement, dealing less Damage to targets as the projectile travels farther"
+					text="보조 대상 스킬의 투사체 공격 적중 시, 투사체 발사 지점에서 대상이 가까울수록 받는 피해 최대 30% 증폭, 멀어질수록 받는 피해 감폭"
 				}
 			}
 		},
@@ -1438,7 +1438,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1446,7 +1446,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strength's Damage bonus applies to Projectile Attack Damage as well for Supported Skills"
+					text="보조 대상 스킬의 투사체 공격 피해에도 힘의 피해 보너스 적용"
 				}
 			}
 		},
@@ -1456,7 +1456,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1464,7 +1464,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strength's Damage bonus applies to all Spell Damage as well for Supported Skills"
+					text="보조 대상 스킬의 모든 주문 피해에도 힘의 피해 보너스 적용"
 				}
 			}
 		},
@@ -1474,7 +1474,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1486,7 +1486,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Throws a Remote Mine which uses the Supported Skill when detonated"
+					text="폭발 시 보조 대상 스킬을 사용하는 원격 지뢰 1개 투척"
 				},
 				[2]={
 					limit={
@@ -1499,7 +1499,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Throws {1} Remote Mines which use the Supported Skill when detonated"
+					text="폭발 시 보조 대상 스킬을 사용하는 원격 지뢰 {1}개 투척"
 				}
 			}
 		},
@@ -1510,7 +1510,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1518,7 +1518,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills throw up to 1 additional Trap"
+					text="보조 대상 스킬이 덫 최대 1개 추가 투척"
 				},
 				[2]={
 					limit={
@@ -1527,7 +1527,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills throw up to {0} additional Traps"
+					text="보조 대상 스킬이 덫 최대 {0}개 추가 투척"
 				}
 			}
 		},
@@ -1537,7 +1537,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1549,7 +1549,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to throw up to 1 additional Trap or Mine"
+					text="보조 대상 스킬이 {0}% 확률로 덫 또는 지뢰 최대 1개 추가 투척"
 				}
 			}
 		},
@@ -1559,7 +1559,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1571,7 +1571,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to throw up to 2 additional Traps or Mines"
+					text="보조 대상 스킬이 {0}% 확률로 덫 또는 지뢰 최대 2개 추가 투척"
 				}
 			}
 		},
@@ -1581,7 +1581,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1593,7 +1593,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to throw up to 3 additional Traps or Mines"
+					text="보조 대상 스킬이 {0}% 확률로 덫 또는 지뢰 최대 3개 추가 투척"
 				}
 			}
 		},
@@ -1603,7 +1603,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1611,7 +1611,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills throw Traps randomly around targeted location"
+					text="보조 대상 스킬이 목표 지점 주위에 무작위로 덫 투척"
 				}
 			}
 		},
@@ -1621,7 +1621,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1637,7 +1637,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills will summon a Totem which uses that Skill"
+					text="보조 대상 스킬이 해당 스킬을 사용하는 토템 1개 소환"
 				},
 				[2]={
 					limit={
@@ -1654,7 +1654,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills will summon a Ballista Totem which uses that Skill"
+					text="보조 대상 스킬이 해당 스킬을 사용하는 쇠뇌 토템 1개 소환"
 				},
 				[3]={
 					limit={
@@ -1671,7 +1671,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills will summon {0} Totems which use that Skill"
+					text="보조 대상 스킬이 해당 스킬을 사용하는 토템 {0}개 소환"
 				},
 				[4]={
 					limit={
@@ -1688,7 +1688,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills will summon {0} Ballista Totems which use that Skill"
+					text="보조 대상 스킬이 해당 스킬을 사용하는 쇠뇌 토템 {0}개 소환"
 				}
 			}
 		},
@@ -1700,7 +1700,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -1712,7 +1712,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totem lasts {0} seconds"
+					text="{0}초간 토템 지속"
 				}
 			}
 		},
@@ -1722,7 +1722,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1730,7 +1730,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Projectiles from Supported Skills Pierce {0} additional Target"
+					text="보조 대상 스킬의 투사체가 대상 {0}개를 추가로 관통"
 				},
 				[2]={
 					limit={
@@ -1739,7 +1739,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Pierce {0} additional Targets"
+					text="보조 대상 스킬의 투사체가 대상 {0}개를 추가로 관통"
 				}
 			}
 		},
@@ -1749,7 +1749,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -1761,7 +1761,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trap lasts {0} seconds"
+					text="{0}초간 덫 지속"
 				}
 			}
 		},
@@ -1771,7 +1771,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -1783,7 +1783,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mine lasts {0} seconds"
+					text="{0}초간 지뢰 지속"
 				}
 			}
 		},
@@ -1793,7 +1793,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -1805,7 +1805,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mine lasts {0} seconds"
+					text="{0}초간 지뢰 지속"
 				}
 			}
 		},
@@ -1815,7 +1815,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1823,7 +1823,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d} to maximum number of Summoned Ballista Totems"
+					text="보조 대상 스킬로 소환 가능한 쇠뇌 토템 최대치 {0:+d}"
 				}
 			}
 		},
@@ -1833,7 +1833,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1841,7 +1841,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d} to maximum number of Summoned Totems"
+					text="보조 대상 스킬로 소환 가능한 토템 최대치 {0:+d}"
 				}
 			}
 		},
@@ -1851,7 +1851,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1859,7 +1859,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Summon two Totems instead of one"
+					text="보조 대상 스킬을 사용하는 토템을 1개가 아닌 2개를 소환"
 				}
 			}
 		},
@@ -1869,7 +1869,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1877,7 +1877,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have up to {0} Trap placed at a time"
+					text="한 번에 덫 최대 {0}개 설치"
 				},
 				[2]={
 					limit={
@@ -1886,7 +1886,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have up to {0} Traps placed at a time"
+					text="한 번에 덫 최대 {0}개 설치"
 				}
 			}
 		},
@@ -1896,7 +1896,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1904,7 +1904,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have up to {0} Remote Mine placed at a time"
+					text="한 번에 원격 지뢰 최대 {0}개 설치"
 				},
 				[2]={
 					limit={
@@ -1913,7 +1913,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have up to {0} Remote Mines placed at a time"
+					text="한 번에 원격 지뢰 최대 {0}개 설치"
 				}
 			}
 		},
@@ -1923,7 +1923,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1931,7 +1931,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Trap Duration"
+					text="보조 대상 스킬의 덫 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1944,7 +1944,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Trap Duration"
+					text="보조 대상 스킬의 덫 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1954,7 +1954,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1962,7 +1962,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased duration"
+					text="보조 대상 스킬의 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1975,7 +1975,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced duration"
+					text="보조 대상 스킬의 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1985,7 +1985,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1997,7 +1997,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to Blind enemies on hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 적 실명 유발"
 				}
 			}
 		},
@@ -2007,7 +2007,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2015,7 +2015,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Blinding duration"
+					text="보조 대상 스킬의 실명 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2028,7 +2028,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Blinding duration"
+					text="보조 대상 스킬의 실명 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -2038,7 +2038,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2046,7 +2046,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2059,7 +2059,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -2069,7 +2069,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2077,7 +2077,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2090,7 +2090,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0}% 감폭"
 				}
 			}
 		},
@@ -2100,7 +2100,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2108,7 +2108,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Critical Strike Multiplier"
+					text="보조 대상 스킬의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -2118,7 +2118,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2126,7 +2126,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Penetrate {0}% Fire Resistance"
+					text="보조 대상 스킬로 화염 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2136,7 +2136,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2144,7 +2144,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Penetrate {0}% Cold Resistance"
+					text="보조 대상 스킬로 냉기 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2154,7 +2154,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2162,7 +2162,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Penetrate {0}% Elemental Resistances"
+					text="보조 대상 스킬로 {0}%의 원소 저항 관통"
 				}
 			}
 		},
@@ -2172,7 +2172,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2180,7 +2180,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Penetrate {0}% Lightning Resistance"
+					text="보조 대상 스킬로 번개 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2190,7 +2190,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2198,7 +2198,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Chain {0:+d} times"
+					text="보조 대상 스킬 연쇄 {0:+d}회"
 				}
 			}
 		},
@@ -2208,7 +2208,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2216,7 +2216,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Split towards {0} targets"
+					text="보조 대상 스킬의 투사체가 대상 {0}개를 향해 분할"
 				}
 			}
 		},
@@ -2226,7 +2226,7 @@ return {
 	},
 	[76]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2234,7 +2234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Fork"
+					text="보조 대상 스킬의 투사체 갈라짐"
 				}
 			}
 		},
@@ -2244,7 +2244,7 @@ return {
 	},
 	[77]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2252,7 +2252,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Projectiles from Supported Skills Fork an additional Time"
+					text="보조 대상 스킬의 투사체가 1회 추가로 갈라짐"
 				},
 				[2]={
 					limit={
@@ -2261,7 +2261,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Fork {0} additional Times"
+					text="보조 대상 스킬의 투사체가 {0}회 추가로 갈라짐"
 				}
 			}
 		},
@@ -2271,7 +2271,7 @@ return {
 	},
 	[78]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2283,7 +2283,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Projectiles from Supported Skills have {1}% chance to Return to you"
+					text="보조 대상 스킬의 투사체가 {1}%의 확률로 자신에게 돌아옴"
 				},
 				[2]={
 					limit={
@@ -2296,7 +2296,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Return to you"
+					text="보조 대상 스킬의 투사체가 자신에게 돌아옴"
 				},
 				[3]={
 					limit={
@@ -2309,7 +2309,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Return to you"
+					text="보조 대상 스킬의 투사체가 자신에게 돌아옴"
 				}
 			}
 		},
@@ -2320,7 +2320,7 @@ return {
 	},
 	[79]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2328,7 +2328,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2341,7 +2341,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2351,7 +2351,7 @@ return {
 	},
 	[80]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2359,7 +2359,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2372,7 +2372,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2382,7 +2382,7 @@ return {
 	},
 	[81]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2390,7 +2390,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2403,7 +2403,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2413,7 +2413,7 @@ return {
 	},
 	[82]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2421,7 +2421,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2434,7 +2434,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2444,7 +2444,7 @@ return {
 	},
 	[83]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2456,7 +2456,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits for each Poison on the Enemy, up to {1}"
+					text="보조 대상 스킬로 명중 시 적에게 중첩된 중독 하나당 주는 피해 {0}% 증폭, 최대 {1}"
 				},
 				[2]={
 					[1]={
@@ -2473,7 +2473,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits for each Poison on the Enemy, up to {1}"
+					text="보조 대상 스킬로 명중 시 적에게 중첩된 중독 하나당 주는 피해 {0}% 감폭, 최대 {1}"
 				}
 			}
 		},
@@ -2484,7 +2484,7 @@ return {
 	},
 	[84]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2492,7 +2492,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2505,7 +2505,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2515,7 +2515,7 @@ return {
 	},
 	[85]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2523,7 +2523,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2536,7 +2536,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2546,7 +2546,7 @@ return {
 	},
 	[86]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2554,7 +2554,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2567,7 +2567,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2577,7 +2577,7 @@ return {
 	},
 	[87]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2585,7 +2585,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2598,7 +2598,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2608,7 +2608,7 @@ return {
 	},
 	[88]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2616,7 +2616,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2629,7 +2629,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2639,7 +2639,7 @@ return {
 	},
 	[89]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2647,7 +2647,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2660,7 +2660,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2670,7 +2670,7 @@ return {
 	},
 	[90]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2678,7 +2678,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2691,7 +2691,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2701,7 +2701,7 @@ return {
 	},
 	[91]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2709,7 +2709,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2722,7 +2722,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2732,7 +2732,7 @@ return {
 	},
 	[92]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2740,7 +2740,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2753,7 +2753,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2763,7 +2763,7 @@ return {
 	},
 	[93]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2775,7 +2775,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2792,7 +2792,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2802,7 +2802,7 @@ return {
 	},
 	[94]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2810,7 +2810,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2823,7 +2823,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2833,7 +2833,7 @@ return {
 	},
 	[95]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2841,7 +2841,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2854,7 +2854,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2864,7 +2864,7 @@ return {
 	},
 	[96]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2872,7 +2872,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Fire Damage"
+					text="보조 대상 스킬로 주는 화염 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2885,7 +2885,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Fire Damage"
+					text="보조 대상 스킬로 주는 화염 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2895,7 +2895,7 @@ return {
 	},
 	[97]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2903,7 +2903,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2916,7 +2916,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits"
+					text="보조 대상 스킬 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2926,7 +2926,7 @@ return {
 	},
 	[98]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2934,7 +2934,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Elemental Damage"
+					text="보조 대상 스킬로 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2947,7 +2947,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Elemental Damage"
+					text="보조 대상 스킬로 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2957,7 +2957,7 @@ return {
 	},
 	[99]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2965,7 +2965,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Ignite"
+					text="보조 대상 스킬로 주는 점화 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2978,7 +2978,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Ignite"
+					text="보조 대상 스킬로 주는 점화 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2988,7 +2988,7 @@ return {
 	},
 	[100]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2996,7 +2996,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3009,7 +3009,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3019,7 +3019,7 @@ return {
 	},
 	[101]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3027,7 +3027,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal up to {0}% more Melee Damage to Enemies, based on proximity"
+					text="적이 가까울수록 보조 대상 스킬이 주는 근접 피해가 최대 {0}% 증폭"
 				}
 			}
 		},
@@ -3037,7 +3037,7 @@ return {
 	},
 	[102]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3045,7 +3045,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Trap and Mine Damage"
+					text="보조 대상 스킬로 주는 덫 및 지뢰 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3058,7 +3058,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Trap and Mine Damage"
+					text="보조 대상 스킬로 주는 덫 및 지뢰 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3068,7 +3068,7 @@ return {
 	},
 	[103]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3076,7 +3076,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} Life gained per Enemy Hit with Supported Attacks"
+					text="보조 대상 공격으로 명중한 적 하나당 생명력 {0} 획득"
 				},
 				[2]={
 					[1]={
@@ -3089,7 +3089,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0} Life lost per Enemy Hit with Supported Attacks"
+					text="보조 대상 공격으로 명중한 적 하나당 생명력 {0} 상실"
 				}
 			}
 		},
@@ -3099,7 +3099,7 @@ return {
 	},
 	[104]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3107,7 +3107,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} Mana gained per Enemy Hit with Supported Attacks"
+					text="보조 대상 공격으로 명중한 적 하나당 마나 {0} 획득"
 				},
 				[2]={
 					[1]={
@@ -3120,7 +3120,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0} Mana lost per Enemy Hit with Supported Attacks"
+					text="보조 대상 공격으로 명중한 적 하나당 마나 {0} 상실"
 				}
 			}
 		},
@@ -3130,7 +3130,7 @@ return {
 	},
 	[105]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3138,7 +3138,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage to main target"
+					text="보조 대상 스킬로 주 대상에게 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3151,7 +3151,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage to main target"
+					text="보조 대상 스킬로 주 대상에게 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3161,7 +3161,7 @@ return {
 	},
 	[106]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3169,7 +3169,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal Splash Damage to surrounding targets"
+					text="보조 대상 스킬로 주변 대상에게 범위 피해를 줌"
 				}
 			}
 		},
@@ -3179,7 +3179,7 @@ return {
 	},
 	[107]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3191,7 +3191,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills deal {0}% more Damage to surrounding targets"
+					text="보조 대상 스킬로 주변 대상에게 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3208,7 +3208,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills deal {0}% less Damage to surrounding targets"
+					text="보조 대상 스킬이 주변 대상에게 주는 피해 {0}% 감폭"
 				},
 				[3]={
 					[1]={
@@ -3225,7 +3225,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills deal {0}% less Damage to surrounding targets"
+					text="보조 대상 스킬이 주변 대상에게 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3236,7 +3236,7 @@ return {
 	},
 	[108]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3244,7 +3244,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Repeat {0} additional times"
+					text="보조 대상 스킬 {0}회 추가 반복"
 				}
 			}
 		},
@@ -3254,7 +3254,7 @@ return {
 	},
 	[109]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3262,7 +3262,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills Repeat an additional time"
+					text="보조 대상 스킬 1회 추가 반복"
 				},
 				[2]={
 					limit={
@@ -3271,7 +3271,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Repeat an additional {0} times"
+					text="보조 대상 스킬 {0}회 추가 반복"
 				}
 			}
 		},
@@ -3281,7 +3281,7 @@ return {
 	},
 	[110]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3289,7 +3289,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3302,7 +3302,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -3312,7 +3312,7 @@ return {
 	},
 	[111]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3320,7 +3320,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Melee Attack Speed"
+					text="보조 대상 스킬의 근접 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3333,7 +3333,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Melee Attack Speed"
+					text="보조 대상 스킬의 근접 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -3343,7 +3343,7 @@ return {
 	},
 	[112]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3351,7 +3351,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3364,7 +3364,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3374,7 +3374,7 @@ return {
 	},
 	[113]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3382,7 +3382,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Trap Damage"
+					text="보조 대상 스킬로 주는 덫 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3395,7 +3395,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Trap Damage"
+					text="보조 대상 스킬로 주는 덫 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3405,7 +3405,7 @@ return {
 	},
 	[114]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3413,7 +3413,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3426,7 +3426,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3436,7 +3436,7 @@ return {
 	},
 	[115]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3444,7 +3444,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Damage while Dead"
+					text="죽음 상태에서 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3457,7 +3457,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Damage while Dead"
+					text="죽음 상태에서 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3467,7 +3467,7 @@ return {
 	},
 	[116]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3475,7 +3475,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3488,7 +3488,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3498,7 +3498,7 @@ return {
 	},
 	[117]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3506,7 +3506,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems and Minions summoned by Supported Skills have {0:+d}% Fire Resistance"
+					text="보조 대상 스킬로 소환된 토템 및 소환수의 화염 저항 {0:+d}%"
 				}
 			}
 		},
@@ -3516,7 +3516,7 @@ return {
 	},
 	[118]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3524,7 +3524,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems and Minions summoned by Supported Skills have {0:+d}% Cold Resistance"
+					text="보조 대상 스킬로 소환된 토템 및 소환수의 냉기 저항 {0:+d}%"
 				}
 			}
 		},
@@ -3534,7 +3534,7 @@ return {
 	},
 	[119]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3542,7 +3542,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems and Minions summoned by Supported Skills have {0:+d}% Lightning Resistance"
+					text="보조 대상 스킬로 소환된 토템 및 소환수의 번개 저항 {0:+d}%"
 				}
 			}
 		},
@@ -3552,7 +3552,7 @@ return {
 	},
 	[120]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3560,7 +3560,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have a {0}% chance to apply Supported Curses on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 보조 대상 저주 적용"
 				},
 				[2]={
 					limit={
@@ -3569,7 +3569,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills apply supported Curses on Hit"
+					text="명중 시 보조 대상 스킬이 보조 대상 저주에 적용"
 				}
 			}
 		},
@@ -3579,7 +3579,7 @@ return {
 	},
 	[121]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3587,7 +3587,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You cannot Cast Supported Curse Spells"
+					text="보조 대상 저주 주문 시전 불가"
 				}
 			}
 		},
@@ -3597,7 +3597,7 @@ return {
 	},
 	[122]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3605,7 +3605,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Attacks have a {0}% chance to Trigger a Supported Spell when you Crit an Enemy"
+					text="보조 대상 스킬 치명타 시 {0}%의 확률로 보조 대상 주문 발동"
 				},
 				[2]={
 					limit={
@@ -3614,7 +3614,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks will Trigger a Supported Spell when you Crit an Enemy"
+					text="적에게 치명타 시 보조 대상 공격으로 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3624,7 +3624,7 @@ return {
 	},
 	[123]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3632,7 +3632,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Melee Attacks have a {0}% chance to Trigger a Supported Spell on Kill"
+					text="보조 대상 근접 스킬로 처치 시 {0}%의 확률로 보조 대상 주문 발동"
 				},
 				[2]={
 					limit={
@@ -3641,7 +3641,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Melee Attacks will Trigger a Supported Spell on Kill"
+					text="처치 시 보조 대상 근접 공격이 보조 대상 주문을 발동"
 				}
 			}
 		},
@@ -3651,7 +3651,7 @@ return {
 	},
 	[124]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3659,7 +3659,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Trigger Doom Blast when a Hex from Supported Curse Skills ends"
+					text="보조 대상 저주 스킬의 사술 종료 시 멸망 폭발 발동"
 				},
 				[2]={
 					limit={
@@ -3668,7 +3668,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger Doom Blast when a Hex from Supported Curse Skills ends"
+					text="보조 대상 저주 스킬의 사술 종료 시 멸망 폭발 발동"
 				}
 			}
 		},
@@ -3678,7 +3678,7 @@ return {
 	},
 	[125]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3690,7 +3690,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You cannot Cast Supported Triggerable Spells directly"
+					text="보조 대상 발동형 주문을 직접 시전할 수 없음"
 				}
 			}
 		},
@@ -3701,7 +3701,7 @@ return {
 	},
 	[126]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3709,7 +3709,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Trigger Supported Non-Minion Spells on Death"
+					text="사망 시 {0}%의 확률로 비-소환수 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3719,7 +3719,7 @@ return {
 	},
 	[127]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3727,7 +3727,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Trigger Supported Spells when you are Stunned, or\nBlock a Stunning Hit"
+					text="기절하거나 기절 유발 명중을 막아낼 경우,\n{0}%의 확률로 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3737,7 +3737,7 @@ return {
 	},
 	[128]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3745,7 +3745,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Trigger Supported Spells when you fire Projectiles from a Non-Triggered Wand Attack"
+					text="비-발동형 마법봉 공격으로 투사체 발사 시 {0}%의 확률로 보조 대상 주문 발동"
 				},
 				[2]={
 					limit={
@@ -3754,7 +3754,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger Supported Spells when you fire Projectiles from a Non-Triggered Wand Attack"
+					text="비-발동형 마법봉 공격으로 투사체 발사 시 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3764,7 +3764,7 @@ return {
 	},
 	[129]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3780,7 +3780,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Trigger Supported Spells when you take a total of {2} Damage"
+					text="총 {2}의 피해를 받았을 시 {0}%의 확률로 보조 대상 주문 발동"
 				},
 				[2]={
 					limit={
@@ -3797,7 +3797,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger Supported Spells when you take a total of {2} Damage"
+					text="총 {2}의 피해를 받았을 시 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3809,7 +3809,7 @@ return {
 	},
 	[130]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -3821,7 +3821,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger a Supported Spell every {0} seconds while Channelling Supported Skills"
+					text="보조 대상 스킬을 집중 유지하는 동안 {0}초마다 보조 대상 주문 발동"
 				}
 			}
 		},
@@ -3831,7 +3831,7 @@ return {
 	},
 	[131]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -3843,7 +3843,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} Base Chaos Damage per second"
+					text="1초마다 {0}의 기본 카오스 피해를 줌"
 				}
 			}
 		},
@@ -3853,7 +3853,7 @@ return {
 	},
 	[132]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -3865,7 +3865,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} Base Fire Damage per second"
+					text="1초마다 {0}의 기본 화염 피해를 줌"
 				}
 			}
 		},
@@ -3875,7 +3875,7 @@ return {
 	},
 	[133]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -3887,7 +3887,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} Base Physical Damage per second"
+					text="1초마다 {0}의 기본 물리 피해를 줌"
 				}
 			}
 		},
@@ -3897,7 +3897,7 @@ return {
 	},
 	[134]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -3909,7 +3909,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Secondary Debuff Deals {0} Base Fire Damage per second"
+					text="2차 디버프가 1초마다 {0}의 기본 화염 피해를 줌"
 				}
 			}
 		},
@@ -3919,7 +3919,7 @@ return {
 	},
 	[135]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -3931,7 +3931,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} Base Cold Damage per second"
+					text="1초마다 {0}의 기본 냉기 피해를 줌"
 				}
 			}
 		},
@@ -3941,7 +3941,7 @@ return {
 	},
 	[136]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3949,7 +3949,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3962,7 +3962,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 감소"
 				}
 			}
 		},
@@ -3972,7 +3972,7 @@ return {
 	},
 	[137]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3980,7 +3980,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3993,7 +3993,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -4003,7 +4003,7 @@ return {
 	},
 	[138]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4011,7 +4011,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4024,7 +4024,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -4034,7 +4034,7 @@ return {
 	},
 	[139]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4042,7 +4042,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4055,7 +4055,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Effect of Supported Curses"
+					text="보조 대상 저주 효과 {0}% 감폭"
 				}
 			}
 		},
@@ -4065,7 +4065,7 @@ return {
 	},
 	[140]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4073,7 +4073,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4086,7 +4086,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -4096,7 +4096,7 @@ return {
 	},
 	[141]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4104,7 +4104,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4117,7 +4117,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -4127,7 +4127,7 @@ return {
 	},
 	[142]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4143,7 +4143,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Causes Bleeding on Hit for {0} seconds"
+					text="명중 시 {0}초 동안 출혈 유발"
 				}
 			}
 		},
@@ -4153,7 +4153,7 @@ return {
 	},
 	[143]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4161,7 +4161,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Auras do not affect you"
+					text="보조 대상 오라가 자신에게 영향을 주지 않음"
 				}
 			}
 		},
@@ -4171,7 +4171,7 @@ return {
 	},
 	[144]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4179,7 +4179,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Melee Physical Damage against Bleeding enemies"
+					text="보조 대상 스킬이 출혈 중인 적을 상대로 주는 근접 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4192,7 +4192,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Melee Physical Damage against Bleeding enemies"
+					text="보조 대상 스킬이 출혈 중인 적을 상대로 주는 근접 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4202,7 +4202,7 @@ return {
 	},
 	[145]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4210,7 +4210,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Projectile Speed"
+					text="보조 대상 스킬의 투사체 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4223,7 +4223,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Projectile Speed"
+					text="보조 대상 스킬의 투사체 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -4233,7 +4233,7 @@ return {
 	},
 	[146]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4241,7 +4241,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4254,7 +4254,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4264,7 +4264,7 @@ return {
 	},
 	[147]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4272,7 +4272,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Skill Effect Duration"
+					text="보조 대상 스킬의 스킬 효과 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4285,7 +4285,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Skill Effect Duration"
+					text="보조 대상 스킬의 스킬 효과 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -4295,7 +4295,7 @@ return {
 	},
 	[148]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4307,7 +4307,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills have {0}% more Attached Duration"
+					text="보조 대상 스킬의 부착 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4324,7 +4324,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills have {0}% less Attached Duration"
+					text="보조 대상 스킬의 부착 지속시간 {0}% 감폭"
 				},
 				[3]={
 					[1]={
@@ -4341,7 +4341,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills have {0}% less Attached Duration"
+					text="보조 대상 스킬의 부착 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -4352,7 +4352,7 @@ return {
 	},
 	[149]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4360,7 +4360,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Detached Duration"
+					text="보조 대상 스킬의 분리 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4373,7 +4373,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Detached Duration"
+					text="보조 대상 스킬의 분리 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -4383,7 +4383,7 @@ return {
 	},
 	[150]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4395,7 +4395,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have a {0}% chance to grant Elusive on Critical Strike"
+					text="보조 대상 스킬 치명타 명중 시 {0}% 확률로 도피 획득"
 				},
 				[2]={
 					[1]={
@@ -4408,7 +4408,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills grant Elusive on Critical Strike"
+					text="보조 대상 스킬 치명타 명중 시 도피 획득"
 				}
 			}
 		},
@@ -4418,7 +4418,7 @@ return {
 	},
 	[151]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4430,7 +4430,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Poison Enemies on Hit"
+					text="명중 시 보조 대상 스킬로 적 중독 유발"
 				}
 			}
 		},
@@ -4440,7 +4440,7 @@ return {
 	},
 	[152]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4452,7 +4452,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Poison on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 중독 유발"
 				},
 				[2]={
 					[1]={
@@ -4465,7 +4465,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always Poison on Hit"
+					text="명중 시 보조 대상 스킬이 항상 중독 유발"
 				}
 			}
 		},
@@ -4475,7 +4475,7 @@ return {
 	},
 	[153]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4487,7 +4487,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to inflict Withered on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 위축 유발"
 				},
 				[2]={
 					[1]={
@@ -4500,7 +4500,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always inflict Withered on Hit"
+					text="명중 시 보조 대상 스킬이 항상 위축 유발"
 				}
 			}
 		},
@@ -4510,7 +4510,7 @@ return {
 	},
 	[154]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4522,7 +4522,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills cannot inflict Elemental Ailments"
+					text="보조 대상 스킬로 원소 상태 이상 유발 불가"
 				}
 			}
 		},
@@ -4532,7 +4532,7 @@ return {
 	},
 	[155]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="negate",
@@ -4544,7 +4544,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies lose {0}% Cold Resistance while Frozen"
+					text="적이 동결 상태에서 {0}%의 냉기 저항 상실"
 				}
 			}
 		},
@@ -4554,7 +4554,7 @@ return {
 	},
 	[156]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4562,7 +4562,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Critical Strike Multiplier while Elusive"
+					text="도피 중 보조 대상 스킬의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -4572,7 +4572,7 @@ return {
 	},
 	[157]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4584,7 +4584,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Arcane Surge after Spending a total of {0} Mana on\nUpfront Costs and Effects of a Supported Skill"
+					text="보조 대상 스킬의 초기 비용 또는 효과로\n총 {0}의 마나 소모 시 비전 쇄도 획득"
 				}
 			}
 		},
@@ -4594,7 +4594,7 @@ return {
 	},
 	[158]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4606,7 +4606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Arcane Surge grants {1}% increased Mana Regeneration rate"
+					text="비전 쇄도가 마나 재생 속도 {1}% 증가 효과 부여"
 				},
 				[2]={
 					limit={
@@ -4619,7 +4619,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Arcane Surge grants {0}% increased Cast Speed\nArcane Surge grants {1}% increased Mana Regeneration rate"
+					text="비전 쇄도가 시전 속도 {0}% 증가 효과 부여\n비전 쇄도가 마나 재생 속도 {1}% 증가 효과 부여"
 				}
 			}
 		},
@@ -4630,7 +4630,7 @@ return {
 	},
 	[159]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4638,7 +4638,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cruelty granted by Supported Skills has {0}% increased Duration"
+					text="보조 대상 스킬이 부여하는 잔혹의 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4651,7 +4651,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Cruelty granted by Supported Skills has {0}% reduced Duration"
+					text="보조 대상 스킬이 부여하는 잔혹의 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -4661,7 +4661,7 @@ return {
 	},
 	[160]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4673,7 +4673,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Arcane Surge lasts {0} second"
+					text="{0}초간 비전 쇄도 지속"
 				},
 				[2]={
 					[1]={
@@ -4686,7 +4686,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Arcane Surge lasts {0} seconds"
+					text="{0}초간 비전 쇄도 지속"
 				}
 			}
 		},
@@ -4696,7 +4696,7 @@ return {
 	},
 	[161]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4708,7 +4708,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Cruelty has a Base Duration of {0} second"
+					text="잔혹의 기본 지속시간 {0}초"
 				},
 				[2]={
 					[1]={
@@ -4721,7 +4721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cruelty has a Base Duration of {0} seconds"
+					text="잔혹의 기본 지속시간 {0}초"
 				}
 			}
 		},
@@ -4731,7 +4731,7 @@ return {
 	},
 	[162]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4743,7 +4743,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Withered lasts {0} second"
+					text="{0}초간 위축 지속"
 				},
 				[2]={
 					[1]={
@@ -4756,7 +4756,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Withered lasts {0} seconds"
+					text="{0}초간 위축 지속"
 				}
 			}
 		},
@@ -4766,7 +4766,7 @@ return {
 	},
 	[163]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4782,7 +4782,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Withered lasts {0} second"
+					text="{0}초간 위축 지속"
 				},
 				[2]={
 					[1]={
@@ -4799,7 +4799,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Withered lasts {0} seconds"
+					text="{0}초간 위축 지속"
 				}
 			}
 		},
@@ -4809,7 +4809,7 @@ return {
 	},
 	[164]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4821,7 +4821,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Arcane Surge lasts {0} second"
+					text="{0}초간 비전 쇄도 지속"
 				},
 				[2]={
 					[1]={
@@ -4834,7 +4834,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Arcane Surge lasts {0} seconds"
+					text="{0}초간 비전 쇄도 지속"
 				}
 			}
 		},
@@ -4844,7 +4844,7 @@ return {
 	},
 	[165]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4856,7 +4856,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Withered lasts {0} second"
+					text="{0}초간 위축 지속"
 				},
 				[2]={
 					[1]={
@@ -4869,7 +4869,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Withered lasts {0} seconds"
+					text="{0}초간 위축 지속"
 				}
 			}
 		},
@@ -4879,7 +4879,7 @@ return {
 	},
 	[166]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4887,7 +4887,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Innervation on Killing a Shocked Enemy with Supported Skills"
+					text="보조 대상 스킬로 감전된 적 처치 시 신경 자극 획득"
 				}
 			}
 		},
@@ -4897,7 +4897,7 @@ return {
 	},
 	[167]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4909,7 +4909,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Innervation grants {0} to {1} Lightning Damage"
+					text="신경 자극이 {0}~{1}의 번개 피해 제공"
 				}
 			}
 		},
@@ -4920,7 +4920,7 @@ return {
 	},
 	[168]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -4932,7 +4932,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Innervation lasts {0} second"
+					text="{0}초간 신경 자극 지속"
 				},
 				[2]={
 					[1]={
@@ -4945,7 +4945,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Innervation lasts {0} seconds"
+					text="{0}초간 신경 자극 지속"
 				}
 			}
 		},
@@ -4955,7 +4955,7 @@ return {
 	},
 	[169]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4963,7 +4963,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Every third Attack with Supported Melee Attacks deals a Ruthless Blow"
+					text="보조 대상 근접 공격으로 세 번째 공격할 때마다 무자비한 맹타 시전"
 				}
 			}
 		},
@@ -4973,7 +4973,7 @@ return {
 	},
 	[170]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4981,7 +4981,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ruthless Blows with Supported Skills deal {0}% more Melee Damage"
+					text="보조 대상 스킬로 무자비한 맹타 사용 시 근접 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -4991,7 +4991,7 @@ return {
 	},
 	[171]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4999,7 +4999,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ruthless Blows with Supported Skills deal {0}% more Damage with Bleeding caused by Melee Hits"
+					text="보조 대상 스킬의 무자비한 맹타가 근접 명중으로 유발하는 출혈 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -5009,7 +5009,7 @@ return {
 	},
 	[172]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -5021,7 +5021,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ruthless Blows with Supported Skills have a base Stun Duration of {0} seconds"
+					text="보조 대상 스킬로 무자비한 맹타 사용 시 기본 기절 지속시간 {0}초"
 				}
 			}
 		},
@@ -5031,7 +5031,7 @@ return {
 	},
 	[173]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5039,7 +5039,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Summon a Phantasm when Supported Skills, or Non-Phantasm Minions\nfrom Supported Skills, deal a Killing Blow"
+					text="보조 대상 스킬이, 또는 보조 대상 스킬로 소환된 비-환영 소환수가 최후의 일격 사용 시 {0}%의 확률로 환영 1개체 소환"
 				},
 				[2]={
 					limit={
@@ -5048,7 +5048,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summon a Phantasm when Supported Skills, or Non-Phantasm Minions\nfrom Supported Skills, deal a Killing Blow"
+					text="보조 대상 스킬이, 또는 보조 대상 스킬로 소환된 비-환영 소환수가 최후의 일격 사용 시 환영 1개체 소환"
 				}
 			}
 		},
@@ -5058,7 +5058,7 @@ return {
 	},
 	[174]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5066,7 +5066,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Effect of Chill on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 냉각 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5079,7 +5079,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Effect of Chill on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 냉각 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5089,7 +5089,7 @@ return {
 	},
 	[175]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5097,7 +5097,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Chill Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 냉각 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5110,7 +5110,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Chill Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 냉각 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -5120,7 +5120,7 @@ return {
 	},
 	[176]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5132,7 +5132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by Supported Skills take {0}% increased Cold Damage over Time"
+					text="보조 대상 스킬로 냉각된 적이 받는 지속 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5149,7 +5149,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Chilled by Supported Skills take {0}% reduced Cold Damage over Time"
+					text="보조 대상 스킬로 냉각된 적이 받는 지속 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5159,7 +5159,7 @@ return {
 	},
 	[177]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5167,7 +5167,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by Supported Skills increase Cold Damage taken by Chill Effect"
+					text="보조 대상 스킬로 냉각된 적이 받는 냉기 피해가 냉각 효과 만큼 증가"
 				}
 			}
 		},
@@ -5177,7 +5177,7 @@ return {
 	},
 	[178]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5189,7 +5189,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies in Chilling Areas from Supported Skills take {0}% increased Cold Damage over Time"
+					text="보조 대상 스킬로 발생한 냉각 지역에 있는 적이 받는 지속 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5206,7 +5206,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies in Chilling Areas from Supported Skills take {0}% reduced Cold Damage over Time"
+					text="보조 대상 스킬로 발생한 냉각 지역에 있는 적이 받는 지속 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5216,7 +5216,7 @@ return {
 	},
 	[179]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5228,7 +5228,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies in Chilling Areas from Supported Skills increase Cold Damage taken by Chill Effect"
+					text="보조 대상 스킬로 발생한 냉각 지역에 있는 적이 받는 냉기 피해가 냉각 효과 만큼 증가"
 				}
 			}
 		},
@@ -5238,7 +5238,7 @@ return {
 	},
 	[180]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5246,7 +5246,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Mine Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬의 지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5259,7 +5259,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Mine Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬의 지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -5269,7 +5269,7 @@ return {
 	},
 	[181]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5277,7 +5277,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Critical Strike Chance per\nPower Charge when used by Mines"
+					text="지뢰에 의해 사용될 시 권능 충전 하나당 보조 대상 스킬의\n치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5290,7 +5290,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Critical Strike Chance per\nPower Charge when used by Mines"
+					text="지뢰에 의해 사용될 시 권능 충전 하나당 보조 대상 스킬의\n치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -5300,7 +5300,7 @@ return {
 	},
 	[182]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5308,7 +5308,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0:+d}% to all Elemental Resistances"
+					text="보조 대상 스킬로 소환된 소환수의 모든 원소 저항 {0:+d}%"
 				}
 			}
 		},
@@ -5318,7 +5318,7 @@ return {
 	},
 	[183]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5330,7 +5330,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0:+d}% to all maximum Elemental Resistances"
+					text="보조 대상 스킬로 소환된 소환수의 모든 원소 저항 최대치 {0:+d}%"
 				}
 			}
 		},
@@ -5340,7 +5340,7 @@ return {
 	},
 	[184]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -5352,7 +5352,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills take {0}% of their Maximum Life as Fire Damage per second"
+					text="보조 대상 스킬로 소환된 소환수가 1초마다 소환수의 최대 생명력의 {0}%를 화염 피해로 받음"
 				}
 			}
 		},
@@ -5362,7 +5362,7 @@ return {
 	},
 	[185]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5370,7 +5370,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills take {0}% increased Fire Damage"
+					text="보조 대상 스킬로 소환된 소환수가 받는 화염 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5383,7 +5383,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills take {0}% reduced Fire Damage"
+					text="보조 대상 스킬로 소환된 소환수가 받는 화염 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5393,7 +5393,7 @@ return {
 	},
 	[186]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -5405,7 +5405,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0} Fire Damage per second to Enemies near them"
+					text="보조 대상 스킬로 소환된 소환수가 1초마다 주변의 적에게 {0}의 화염 피해를 줌"
 				}
 			}
 		},
@@ -5415,7 +5415,7 @@ return {
 	},
 	[187]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5423,7 +5423,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0:+d} to Radius of their Burning Effect"
+					text="보조 대상 스킬로 소환된 소환수의 화상 효과 범위 {0:+d} 적용"
 				}
 			}
 		},
@@ -5433,7 +5433,7 @@ return {
 	},
 	[188]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -5445,7 +5445,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Attacks with Supported Skill are Ancestrally Boosted, no more than once every {0} seconds\nAncestral Boost does not apply to repeats of the Attack"
+					text="보조 대상 스킬 공격이 선대의 힘으로 증폭, {0}초마다 최대 1번 적용\n선대의 증폭은 공격 반복에는 적용되지 않음"
 				}
 			}
 		},
@@ -5455,7 +5455,7 @@ return {
 	},
 	[189]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5463,7 +5463,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ancestrally Boosted Slams deal {0}% more Damage with Hits"
+					text="선대의 힘으로 증폭된 강타의 적 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -5476,7 +5476,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ancestrally Boosted Slams deal {0}% less Damage with Hits"
+					text="선대의 힘으로 증폭된 강타의 적 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -5486,7 +5486,7 @@ return {
 	},
 	[190]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5494,7 +5494,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ancestrally Boosted Slams deal {0}% more Damage with Ailments"
+					text="선대의 힘으로 증폭된 강타의 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -5507,7 +5507,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ancestrally Boosted Slams deal {0}% more Damage with Ailments"
+					text="선대의 힘으로 증폭된 강타의 상태 이상 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -5517,7 +5517,7 @@ return {
 	},
 	[191]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5525,7 +5525,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ancestrally Boosted Slams have {0}% increased Area of Effect"
+					text="선대의 힘으로 증폭된 강타의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5538,7 +5538,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ancestrally Boosted Slams have {0}% reduced Area of Effect"
+					text="선대의 힘으로 증폭된 강타의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -5548,7 +5548,7 @@ return {
 	},
 	[192]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5560,7 +5560,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits with Supported Skills for which the highest Damage Type is Elemental cause you to gain 25 Resonance of other Elements per second for 2 seconds\nLose 5 Resonance per second of each Element you are not gaining"
+					text="보조 대상 스킬 명중 시 가장 큰 피해 유형이 원소인 경우, 2초 동안 1초마다 다른 원소의 공명 25 획득\n획득하지 않는 각 원소에서 1초마다 공명 5 상실"
 				}
 			}
 		},
@@ -5570,7 +5570,7 @@ return {
 	},
 	[193]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5578,7 +5578,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Elemental Damage per 5 of lowest Resonance"
+					text="가장 낮은 공명 5당 보조 대상 스킬로 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -5591,7 +5591,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Elemental Damage per 5 of lowest Resonance"
+					text="가장 낮은 공명 5당 보조 대상 스킬로 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -5601,7 +5601,7 @@ return {
 	},
 	[194]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5609,7 +5609,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills penetrate {0}% Elemental Resistances while each Resonance is at least 25"
+					text="각 공명이 최소 25일 때 보조 대상 스킬로 {0}%의 원소 저항 관통"
 				}
 			}
 		},
@@ -5619,7 +5619,7 @@ return {
 	},
 	[195]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5627,7 +5627,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack and Cast Speed while each Resonance is at least 25"
+					text="각 공명이 최소 25일 때 보조 대상 스킬의 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5640,7 +5640,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack and Cast Speed while each Resonance is at least 25"
+					text="각 공명이 최소 25일 때 보조 대상 스킬의 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -5650,7 +5650,7 @@ return {
 	},
 	[196]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5662,7 +5662,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits from Supported Skills grant Cruelty"
+					text="보조 대상 스킬 명중 시 잔혹 부여"
 				}
 			}
 		},
@@ -5672,7 +5672,7 @@ return {
 	},
 	[197]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5680,7 +5680,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Cost {0:+d} Mana"
+					text="보조 대상 스킬의 마나 소모 {0:+d}"
 				}
 			}
 		},
@@ -5690,7 +5690,7 @@ return {
 	},
 	[198]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5698,7 +5698,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Marks from Supported Skills"
+					text="보조 대상 스킬의 징표 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5711,7 +5711,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Marks from Supported Skills"
+					text="보조 대상 스킬의 징표 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5721,7 +5721,7 @@ return {
 	},
 	[199]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5729,7 +5729,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d} to Accuracy Rating"
+					text="보조 대상 스킬의 정확도 {0:+d}"
 				}
 			}
 		},
@@ -5739,7 +5739,7 @@ return {
 	},
 	[200]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5747,7 +5747,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Accuracy Rating"
+					text="보조 대상 스킬의 정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5760,7 +5760,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Accuracy Rating"
+					text="보조 대상 스킬의 정확도 {0}% 감소"
 				}
 			}
 		},
@@ -5770,7 +5770,7 @@ return {
 	},
 	[201]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5778,7 +5778,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill"
+					text="주문 피해에 적용된 증가 및 감소 수치를 이 스킬로 인한 공격 피해에도 적용"
 				},
 				[2]={
 					limit={
@@ -5787,7 +5787,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Spell Damage also apply to Attack Damage from this Skill at {0}% of their value"
+					text="주문 피해에 적용된 증가 및 감소 수치의 {0}%를 이 스킬로 인한 공격 피해에도 적용"
 				}
 			}
 		},
@@ -5797,7 +5797,7 @@ return {
 	},
 	[202]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5805,7 +5805,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Power Charge on Critical Strike"
+					text="보조 대상 스킬 치명타 명중 시 {0}%의 확률로 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -5814,7 +5814,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain a Power Charge on Critical Strike"
+					text="치명타 명중 시 보조 대상 스킬로 권능 충전 획득"
 				}
 			}
 		},
@@ -5824,7 +5824,7 @@ return {
 	},
 	[203]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5832,7 +5832,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Power Charge on Kill"
+					text="보조 대상 스킬로 처치 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -5842,7 +5842,7 @@ return {
 	},
 	[204]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5850,7 +5850,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% more Added Damage"
+					text="보조 대상 스킬의 추가 피해 {}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -5863,7 +5863,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {}% less Added Damage"
+					text="보조 대상 스킬의 추가 피해 {}% 감폭"
 				}
 			}
 		},
@@ -5873,7 +5873,7 @@ return {
 	},
 	[205]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5885,7 +5885,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Critical Strike Chance"
+					text="보조 대상 스킬의 치명타 확률 {0:+d}%"
 				}
 			}
 		},
@@ -5895,7 +5895,7 @@ return {
 	},
 	[206]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5907,7 +5907,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% chance to Freeze Enemies which are Chilled"
+					text="보조 대상 스킬의 냉각된 적 동결 확률 {0:+d}%"
 				}
 			}
 		},
@@ -5917,7 +5917,7 @@ return {
 	},
 	[207]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5929,7 +5929,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {:+d}% to Critical Strike Chance while Dead"
+					text="죽음 상태에서 보조 대상 스킬의 치명타 확률 {:+d}%"
 				}
 			}
 		},
@@ -5939,7 +5939,7 @@ return {
 	},
 	[208]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5951,7 +5951,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Critical Strike Chance while Elusive"
+					text="도피 중 보조 대상 스킬의 치명타 확률 {0:+d}%"
 				}
 			}
 		},
@@ -5961,7 +5961,7 @@ return {
 	},
 	[209]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5969,7 +5969,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills fire an additional Projectile per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬이 발사하는 투사체 1개 증가"
 				},
 				[2]={
 					limit={
@@ -5978,7 +5978,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills fire {0} additional Projectiles per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬이 발사하는 투사체 {0}개 증가"
 				},
 				[3]={
 					limit={
@@ -5987,7 +5987,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills fire 1 fewer Projectile per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬이 발사하는 투사체 1개 감소"
 				},
 				[4]={
 					[1]={
@@ -6000,7 +6000,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills fire {0} fewer Projectiles per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬이 발사하는 투사체 {0}개 감소"
 				}
 			}
 		},
@@ -6010,7 +6010,7 @@ return {
 	},
 	[210]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6018,7 +6018,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Ancestor Totem Buff"
+					text="선대의 토템 버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6031,7 +6031,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Ancestor Totem Buff"
+					text="선대의 토템 버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -6041,7 +6041,7 @@ return {
 	},
 	[211]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6049,7 +6049,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect with Melee Skills while Totem is Active"
+					text="토템이 활성화된 동안 근접 스킬의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6062,7 +6062,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% increased Area of Effect with Melee Skills while Totem is Active"
+					text="토템이 활성화된 동안 근접 스킬의 효과 범위 {0}% 증가"
 				}
 			}
 		},
@@ -6072,7 +6072,7 @@ return {
 	},
 	[212]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6084,7 +6084,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ancestrally Boosted Slams have {}% reduced Enemy Stun Threshold"
+					text="선대의 힘으로 증폭된 강타의 적 기절 한계치 {}% 감소"
 				},
 				[2]={
 					[1]={
@@ -6101,7 +6101,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ancestrally Boosted Slams have {}% increased Enemy Stun Threshold"
+					text="선대의 힘으로 증폭된 강타의 적 기절 한계치 {}% 증가"
 				}
 			}
 		},
@@ -6111,7 +6111,7 @@ return {
 	},
 	[213]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6119,7 +6119,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Overpowered applies -{0}% chance to Block Attack and Spell Damage"
+					text="압도가 -{0}%의 확률로 공격 및 주문 피해를 막아냄"
 				}
 			}
 		},
@@ -6129,7 +6129,7 @@ return {
 	},
 	[214]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6137,7 +6137,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6150,7 +6150,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6160,7 +6160,7 @@ return {
 	},
 	[215]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6168,7 +6168,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack and Cast Speed"
+					text="보조 대상 스킬의 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6181,7 +6181,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack and Cast Speed"
+					text="보조 대상 스킬의 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6191,7 +6191,7 @@ return {
 	},
 	[216]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6199,7 +6199,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack and Cast Speed during Onslaught"
+					text="맹공 상태일 때 보조 대상 스킬의 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6212,7 +6212,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack and Cast Speed during Onslaught"
+					text="맹공 상태일 때 보조 대상 스킬의 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6222,7 +6222,7 @@ return {
 	},
 	[217]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6230,7 +6230,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack Critical Strike Chance"
+					text="보조 대상 스킬의 공격 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6243,7 +6243,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack Critical Strike Chance"
+					text="보조 대상 스킬의 공격 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -6253,7 +6253,7 @@ return {
 	},
 	[218]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6261,7 +6261,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6274,7 +6274,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6284,7 +6284,7 @@ return {
 	},
 	[219]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6292,7 +6292,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {}% increased Attack damage per 1000 Accuracy Rating"
+					text="정확도 1000당 보조 대상 스킬로 주는 공격 피해 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6305,7 +6305,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {}% reduced Attack damage per 1000 Accuracy Rating"
+					text="정확도 1000당 보조 대상 스킬로 주는 공격 피해 {}% 감소"
 				}
 			}
 		},
@@ -6315,7 +6315,7 @@ return {
 	},
 	[220]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6327,7 +6327,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0} to {1} added Physical Damage with Weapons per 10 Rage"
+					text="격노 10당 무기 사용 시 보조 대상 공격으로 주는 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -6338,7 +6338,7 @@ return {
 	},
 	[221]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6350,7 +6350,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0} to {1} added Physical Damage with Weapons while you have at least 10 Rage"
+					text="최소 10 격노 보유 중 무기 사용 시 보조 대상 공격으로 주는 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -6361,7 +6361,7 @@ return {
 	},
 	[222]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6373,7 +6373,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0} to {1} added Physical Damage with Weapons"
+					text="무기 사용 시 보조 대상 공격으로 주는 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -6384,7 +6384,7 @@ return {
 	},
 	[223]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -6400,7 +6400,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks have {0}% of Damage Leeched as Mana"
+					text="보조 대상 공격 스킬이 피해의 {0}%를 마나로 흡수"
 				}
 			}
 		},
@@ -6410,7 +6410,7 @@ return {
 	},
 	[224]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6418,7 +6418,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6431,7 +6431,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6441,7 +6441,7 @@ return {
 	},
 	[225]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6453,7 +6453,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack Speed when on Low Life"
+					text="낮은 생명력 상태일 때 보조 대상 스킬의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6470,7 +6470,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack Speed when on Low Life"
+					text="낮은 생명력 상태일 때 보조 대상 스킬의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6480,7 +6480,7 @@ return {
 	},
 	[226]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6488,7 +6488,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack Speed while you have at least 20 Rage"
+					text="격노가 20 이상인 경우 보조 대상 스킬의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6501,7 +6501,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack Speed while you have at least 20 Rage"
+					text="격노가 20 이상인 경우 보조 대상 스킬의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6511,7 +6511,7 @@ return {
 	},
 	[227]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6523,7 +6523,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Attacks have {0}% chance to Impale Enemies on Hit"
+					text="보조 대상 공격이 명중 시 {0}%의 확률로 적 꿰뚫음"
 				},
 				[2]={
 					[1]={
@@ -6536,7 +6536,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks always Impale Enemies on Hit"
+					text="보조 대상 공격이 명중 시 항상 적을 꿰뚫음"
 				}
 			}
 		},
@@ -6546,7 +6546,7 @@ return {
 	},
 	[228]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6554,7 +6554,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Ignore Stuns while Using Supported Skills"
+					text="보조 대상 스킬을 사용하는 동안 {0}%의 확률로 기절 무시"
 				},
 				[2]={
 					limit={
@@ -6563,7 +6563,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignore Stuns while Using Supported Skills"
+					text="보조 대상 스킬을 사용하는 동안 기절 무시"
 				}
 			}
 		},
@@ -6573,7 +6573,7 @@ return {
 	},
 	[229]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6581,7 +6581,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Supported Skills have {0}% increased Projectile spread"
+					text="보조 대상 스킬로 발사하는 투사체의 투사체 확산 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6594,7 +6594,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles Fired by Supported Skills have {0}% reduced Projectile spread"
+					text="보조 대상 스킬로 발사하는 투사체의 투사체 확산 범위 {0}% 감소"
 				}
 			}
 		},
@@ -6604,7 +6604,7 @@ return {
 	},
 	[230]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6616,7 +6616,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6633,7 +6633,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6643,7 +6643,7 @@ return {
 	},
 	[231]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6655,7 +6655,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Duration of Ailments on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6672,7 +6672,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Duration of Ailments on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -6682,7 +6682,7 @@ return {
 	},
 	[232]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6690,7 +6690,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks have {0}% increased Bleeding Duration"
+					text="보조 대상 공격의 출혈 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6703,7 +6703,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attacks have {0}% reduced Bleeding Duration"
+					text="보조 대상 공격의 출혈 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -6713,7 +6713,7 @@ return {
 	},
 	[233]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6721,7 +6721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6734,7 +6734,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Cast Speed"
+					text="보조 대상 스킬의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6744,7 +6744,7 @@ return {
 	},
 	[234]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6752,7 +6752,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to Destroy Ignited Corpses on Killing Blow"
+					text="보조 대상 스킬로 최후의 일격 시 {0}%의 확률로 점화된 시신을 파괴"
 				}
 			}
 		},
@@ -6762,7 +6762,7 @@ return {
 	},
 	[235]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6778,7 +6778,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always Freeze Enemies on Hit"
+					text="명중 시 보조 대상 스킬로 항상 동결 유발"
 				},
 				[2]={
 					[1]={
@@ -6795,7 +6795,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills always Freeze"
+					text="보조 대상 스킬로 항상 동결 유발"
 				},
 				[3]={
 					[1]={
@@ -6812,7 +6812,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills have {0}% chance to Freeze"
+					text="보조 대상 스킬이 {0}%의 확률로 적 동결"
 				}
 			}
 		},
@@ -6823,7 +6823,7 @@ return {
 	},
 	[236]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6835,7 +6835,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Ignite"
+					text="보조 대상 스킬이 {0}%의 확률로 적 점화"
 				},
 				[2]={
 					[1]={
@@ -6848,7 +6848,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always Ignite"
+					text="보조 대상 스킬로 항상 점화 유발"
 				}
 			}
 		},
@@ -6858,7 +6858,7 @@ return {
 	},
 	[237]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6870,7 +6870,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Shock"
+					text="보조 대상 스킬이 {0}%의 확률로 적 감전"
 				},
 				[2]={
 					[1]={
@@ -6883,7 +6883,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always Shock"
+					text="보조 대상 스킬로 항상 감전 유발"
 				}
 			}
 		},
@@ -6893,7 +6893,7 @@ return {
 	},
 	[238]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -6905,7 +6905,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d} seconds to Cooldown"
+					text="보조 대상 스킬의 재사용 대기시간 {0:+d}초"
 				}
 			}
 		},
@@ -6915,7 +6915,7 @@ return {
 	},
 	[239]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6923,7 +6923,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Cooldown Recovery Rate"
+					text="보조 대상 스킬의 재사용 대기시간 회복 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6936,7 +6936,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Cooldown Recovery Rate"
+					text="보조 대상 스킬의 재사용 대기시간 회복 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6946,7 +6946,7 @@ return {
 	},
 	[240]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6954,7 +6954,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Curse Duration"
+					text="보조 대상 스킬의 저주 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6967,7 +6967,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Curse Duration"
+					text="보조 대상 스킬의 저주 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -6977,7 +6977,7 @@ return {
 	},
 	[241]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6985,7 +6985,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while you are affected by an Ailment"
+					text="상태 이상의 영향을 받는 동안 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6998,7 +6998,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while you are affected by an Ailment"
+					text="상태 이상의 영향을 받는 동안 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7008,7 +7008,7 @@ return {
 	},
 	[242]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7016,7 +7016,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal no Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 없음"
 				}
 			}
 		},
@@ -7026,7 +7026,7 @@ return {
 	},
 	[243]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7038,7 +7038,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to Knock Enemies Back on hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 적을 밀어냄"
 				}
 			}
 		},
@@ -7048,7 +7048,7 @@ return {
 	},
 	[244]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -7060,7 +7060,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Supported Skills create Cursed Ground with a base Duration of {0} second\nHexes from Supported Skills have no Duration\nEnemies on the Cursed Ground from a Supported Skill are Cursed with that Hex\nLimit 1 area of Cursed Ground"
+					text="보조 대상 스킬이 기본 지속시간이 {0}초인 저주받은 지대 생성\n보조 대상 스킬로 건 사술의 지속시간 없음\n보조 대상 스킬로 생성된 저주받은 지대에 있는 적이 해당 사술에 걸림\n저주받은 지대는 최대 1개로 제한"
 				},
 				[2]={
 					[1]={
@@ -7073,7 +7073,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills create Cursed Ground with a base Duration of {0} seconds\nHexes from Supported Skills have no Duration\nEnemies on the Cursed Ground from a Supported Skill are Cursed with that Hex\nMaximum 1 area of Cursed Ground"
+					text="보조 대상 스킬이 기본 지속시간이 {0}초인 저주받은 지대 생성\n보조 대상 스킬로 건 사술의 지속시간 없음\n보조 대상 스킬로 생성된 저주받은 지대에 있는 적이 해당 사술에 걸림\n저주받은 지대는 최대 1개로 제한"
 				}
 			}
 		},
@@ -7083,7 +7083,7 @@ return {
 	},
 	[245]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7095,7 +7095,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to inflict Cold Exposure on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 냉기 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -7108,7 +7108,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Inflict Cold Exposure on Hit"
+					text="보조 대상 스킬 명중 시 냉기 노출 유발"
 				}
 			}
 		},
@@ -7118,7 +7118,7 @@ return {
 	},
 	[246]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7130,7 +7130,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to inflict Fire Exposure on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 화염 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -7143,7 +7143,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Inflict Fire Exposure on Hit"
+					text="보조 대상 스킬 명중 시 화염 노출 유발"
 				}
 			}
 		},
@@ -7153,7 +7153,7 @@ return {
 	},
 	[247]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7165,7 +7165,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to inflict Lightning Exposure on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 번개 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -7178,7 +7178,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Inflict Lightning Exposure on Hit"
+					text="보조 대상 스킬 명중 시 번개 노출 유발"
 				}
 			}
 		},
@@ -7188,7 +7188,7 @@ return {
 	},
 	[248]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7196,7 +7196,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Quantity of Items Dropped by Enemies Slain from Supported Skills"
+					text="보조 대상 스킬로 처치한 적이 떨어뜨리는 아이템 수량 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7209,7 +7209,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Quantity of Items Dropped by Enemies Slain from Supported Skills"
+					text="보조 대상 스킬로 처치한 적이 떨어뜨리는 아이템 수량 {0}% 감소"
 				}
 			}
 		},
@@ -7219,7 +7219,7 @@ return {
 	},
 	[249]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7227,7 +7227,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Rarity of Items Dropped by Enemies Slain from Supported Skills"
+					text="보조 대상 스킬로 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7240,7 +7240,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Rarity of Items Dropped by Enemies Slain from Supported Skills"
+					text="보조 대상 스킬로 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 감소"
 				}
 			}
 		},
@@ -7250,7 +7250,7 @@ return {
 	},
 	[250]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -7266,7 +7266,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Attack Damage Leeched as Life"
+					text="보조 대상 스킬이 공격 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -7276,7 +7276,7 @@ return {
 	},
 	[251]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -7292,7 +7292,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Chaos Damage Leeched as Life"
+					text="보조 대상 스킬이 카오스 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -7302,7 +7302,7 @@ return {
 	},
 	[252]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7310,7 +7310,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Life Reservation Efficiency"
+					text="보조 대상 스킬의 생명력 점유 효율 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7323,7 +7323,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Life Reservation Efficiency"
+					text="보조 대상 스킬의 생명력 점유 효율 {0}% 감소"
 				}
 			}
 		},
@@ -7333,7 +7333,7 @@ return {
 	},
 	[253]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7341,7 +7341,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Life Reservation"
+					text="보조 대상 스킬의 생명력 점유 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7354,7 +7354,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Life Reservation"
+					text="보조 대상 스킬의 생명력 점유 {0}% 감소"
 				}
 			}
 		},
@@ -7364,7 +7364,7 @@ return {
 	},
 	[254]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7372,7 +7372,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Mana Reservation"
+					text="보조 대상 스킬의 점유 마나 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7385,7 +7385,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Mana Reservation"
+					text="보조 대상 스킬의 점유 마나 {0}% 감소"
 				}
 			}
 		},
@@ -7395,7 +7395,7 @@ return {
 	},
 	[255]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -7407,7 +7407,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have a Base Mine Detonation Time of {0} seconds"
+					text="보조 대상 스킬의 기본 지뢰 폭파 시간 {0}초"
 				}
 			}
 		},
@@ -7417,7 +7417,7 @@ return {
 	},
 	[256]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7425,7 +7425,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Phantasm"
+					text="소환된 환영 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -7434,7 +7434,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Phantasm"
+					text="소환된 환영 최대 {0}마리"
 				}
 			}
 		},
@@ -7444,7 +7444,7 @@ return {
 	},
 	[257]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7452,7 +7452,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Physical Damage Converted to Lightning Damage"
+					text="보조 대상 스킬이 {0}%의 물리 피해를 번개 피해로 전환"
 				}
 			}
 		},
@@ -7462,7 +7462,7 @@ return {
 	},
 	[258]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7470,7 +7470,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7483,7 +7483,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Poison"
+					text="보조 대상 스킬로 주는 중독 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7493,7 +7493,7 @@ return {
 	},
 	[259]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7501,7 +7501,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Poison Duration"
+					text="보조 대상 스킬의 중독 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7514,7 +7514,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Poison Duration"
+					text="보조 대상 스킬의 중독 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -7524,7 +7524,7 @@ return {
 	},
 	[260]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7532,7 +7532,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Projectile Speed"
+					text="보조 대상 스킬의 투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7545,7 +7545,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Projectile Speed"
+					text="보조 대상 스킬의 투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -7555,7 +7555,7 @@ return {
 	},
 	[261]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7563,7 +7563,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Reservation Efficiency"
+					text="보조 대상 스킬의 점유 효율 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7576,7 +7576,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Reservation Efficiency"
+					text="보조 대상 스킬의 점유 효율 {0}% 감소"
 				}
 			}
 		},
@@ -7586,7 +7586,7 @@ return {
 	},
 	[262]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7594,7 +7594,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Reservation"
+					text="보조 대상 스킬의 점유 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7607,7 +7607,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Reservation"
+					text="보조 대상 스킬의 점유 {0}% 감소"
 				}
 			}
 		},
@@ -7617,7 +7617,7 @@ return {
 	},
 	[263]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7625,7 +7625,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have no Reservation"
+					text="보조 대상 스킬로 인한 점유 없음"
 				}
 			}
 		},
@@ -7635,7 +7635,7 @@ return {
 	},
 	[264]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7643,7 +7643,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells have {0}% increased Cooldown Recovery Rate"
+					text="보조 대상 주문의 재사용 대기시간 회복 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7656,7 +7656,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells have {0}% reduced Cooldown Recovery Rate"
+					text="보조 대상 주문의 재사용 대기시간 회복 속도 {0}% 감소"
 				}
 			}
 		},
@@ -7666,7 +7666,7 @@ return {
 	},
 	[265]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7674,7 +7674,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Stun Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 기절 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7687,7 +7687,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Stun Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 기절 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -7697,7 +7697,7 @@ return {
 	},
 	[266]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7709,7 +7709,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% reduced Enemy Stun Threshold"
+					text="보조 대상 스킬의 적 기절 한계치 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -7726,7 +7726,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% increased Enemy Stun Threshold"
+					text="보조 대상 스킬의 적 기절 한계치 {0}% 증가"
 				}
 			}
 		},
@@ -7736,7 +7736,7 @@ return {
 	},
 	[267]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7752,7 +7752,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Attacks cannot cause Bleeding"
+					text="보조 대상 공격으로 출혈 유발 불가"
 				},
 				[2]={
 					[1]={
@@ -7773,7 +7773,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Attacks cause Bleeding"
+					text="보조 대상 공격 시 출혈 유발"
 				},
 				[3]={
 					[1]={
@@ -7794,7 +7794,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Attacks cause Bleeding"
+					text="보조 대상 공격 시 출혈 유발"
 				},
 				[4]={
 					[1]={
@@ -7815,7 +7815,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Attacks have {0}% chance to cause Bleeding"
+					text="보조 대상 공격 시 {0}%의 확률로 출혈 유발"
 				}
 			}
 		},
@@ -7827,7 +7827,7 @@ return {
 	},
 	[268]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7835,7 +7835,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0}% increased Damage with Bleeding"
+					text="보조 대상 공격으로 주는 출혈 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7848,7 +7848,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attacks deal {0}% reduced Damage with Bleeding"
+					text="보조 대상 공격으로 주는 출혈 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7858,7 +7858,7 @@ return {
 	},
 	[269]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7870,7 +7870,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal Added Physical Damage with Weapons equal\nto {0}% of Maximum Life while on Low Life"
+					text="낮은 생명력 상태일 때 무기 사용 시 보조 대상 공격이 최대 생명력의\n{0}%와 동일한 추가 물리 피해를 줌"
 				}
 			}
 		},
@@ -7880,7 +7880,7 @@ return {
 	},
 	[270]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7888,7 +7888,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Burning Damage"
+					text="보조 대상 스킬로 주는 화상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7901,7 +7901,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Burning Damage"
+					text="보조 대상 스킬로 주는 화상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7911,7 +7911,7 @@ return {
 	},
 	[271]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7919,7 +7919,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills require {0}% increased amount of Damage taken to Trigger"
+					text="보조 대상 스킬이 발동하기 위해 받아야 하는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7932,7 +7932,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills require {0}% reduced amount of Damage taken to Trigger"
+					text="보조 대상 스킬이 발동하기 위해 받아야 하는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7942,7 +7942,7 @@ return {
 	},
 	[272]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7950,7 +7950,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Chaining range"
+					text="보조 대상 스킬의 연쇄 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7963,7 +7963,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Chaining range"
+					text="보조 대상 스킬의 연쇄 범위 {0}% 감소"
 				}
 			}
 		},
@@ -7973,7 +7973,7 @@ return {
 	},
 	[273]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7981,7 +7981,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% chance for Coin Shower on Kill"
+					text="보조 대상 스킬로 처치 시 {}%의 확률로 코인 벼락"
 				}
 			}
 		},
@@ -7991,7 +7991,7 @@ return {
 	},
 	[274]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8003,7 +8003,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% chance for Damage with Hits to be Lucky"
+					text="보조 대상 스킬 명중 시 {}%의 확률로 피해에 행운 적용"
 				},
 				[2]={
 					[1]={
@@ -8016,7 +8016,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {}% chance for Damage with Hits to be Unlucky"
+					text="보조 대상 스킬 명중 시 {}%의 확률로 피해에 불운 적용"
 				}
 			}
 		},
@@ -8026,7 +8026,7 @@ return {
 	},
 	[275]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8038,7 +8038,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% chance to inflict Bleeding on Maimed Enemies"
+					text="보조 대상 스킬이 힘줄 절단된 적에게 {}%의 확률로 출혈 유발"
 				}
 			}
 		},
@@ -8048,7 +8048,7 @@ return {
 	},
 	[276]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8060,7 +8060,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Crush Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 4초 동안 적 타쇄"
 				},
 				[2]={
 					[1]={
@@ -8073,7 +8073,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Crush Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 4초 동안 적 타쇄"
 				}
 			}
 		},
@@ -8083,7 +8083,7 @@ return {
 	},
 	[277]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8091,7 +8091,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to double Stun Duration"
+					text="{0}%의 확률로 보조 대상 스킬의 기절 지속시간 2배"
 				}
 			}
 		},
@@ -8101,7 +8101,7 @@ return {
 	},
 	[278]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8109,7 +8109,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills have {0}% chance for an additional Projectile when Forking"
+					text="보조 대상 스킬의 투사체가 갈라질 때 {0}%의 확률로 투사체 1개 추가 생성"
 				}
 			}
 		},
@@ -8119,7 +8119,7 @@ return {
 	},
 	[279]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8135,7 +8135,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Melee Hits from Supported Skills Fortify"
+					text="보조 대상 스킬 근접 명중 시 방어 상승"
 				},
 				[2]={
 					[1]={
@@ -8152,7 +8152,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Melee Hits from Supported Skills have {0}% chance to Fortify"
+					text="보조 대상 스킬 근접 명중 시 {0}%의 확률로 방어 상승"
 				}
 			}
 		},
@@ -8162,7 +8162,7 @@ return {
 	},
 	[280]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8182,7 +8182,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Freeze, Shock and Ignite"
+					text="보조 대상 스킬이 {0}%의 확률로 동결, 감전 및 점화 유발"
 				},
 				[2]={
 					[1]={
@@ -8203,7 +8203,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills always Freeze, Shock and Ignite"
+					text="보조 대상 스킬이 항상 동결, 감전 및 점화 유발"
 				}
 			}
 		},
@@ -8213,7 +8213,7 @@ return {
 	},
 	[281]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8221,7 +8221,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Frenzy Charge on Killing a Frozen Enemy"
+					text="보조 대상 스킬로 동결된 적 처치 시 {0}%의 확률로 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -8230,7 +8230,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain a Frenzy Charge on Killing a Frozen Enemy"
+					text="동결된 적 처치 시 보조 대상 스킬로 격분 충전 획득"
 				}
 			}
 		},
@@ -8240,7 +8240,7 @@ return {
 	},
 	[282]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8248,7 +8248,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hexes applied by Supported Curse Skills have {0}% chance to affect Hexproof Enemies"
+					text="보조 대상 저주 스킬의 사술이 {0}%의 확률로 사술 방지 적에게 영향을 줌"
 				}
 			}
 		},
@@ -8258,7 +8258,7 @@ return {
 	},
 	[283]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8270,7 +8270,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to inflict an additional Impale on Enemies they Impale"
+					text="보조 대상 스킬이 꿰뚫은 적을 {0}%의 확률로 추가로 꿰뚫음"
 				}
 			}
 		},
@@ -8280,7 +8280,7 @@ return {
 	},
 	[284]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8292,7 +8292,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Intimidate Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 4초 동안 적 위협"
 				},
 				[2]={
 					[1]={
@@ -8305,7 +8305,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Intimidate Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 4초 동안 적 위협"
 				}
 			}
 		},
@@ -8315,7 +8315,7 @@ return {
 	},
 	[285]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8327,7 +8327,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to throw up to 1 additional Mine"
+					text="보조 대상 스킬이 {0}% 확률로 지뢰 최대 1개 추가 투척"
 				}
 			}
 		},
@@ -8337,7 +8337,7 @@ return {
 	},
 	[286]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8345,7 +8345,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Summon a Phantasm when Supported Skills, or Non-Phantasm Minions\nfrom Supported Skills, Hit a Rare or Unique Enemy"
+					text="보조 대상 스킬이, 또는 보조 대상 스킬로 소환된 비-환영 소환수가\n희귀 또는 고유 적 명중 시 {0}%의 확률로 환영 1개체 소환"
 				},
 				[2]={
 					limit={
@@ -8354,7 +8354,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summon a Phantasm when Supported Skills, or Non-Phantasm Minions\nfrom Supported Skills, Hit a Rare or Unique Enemy"
+					text="보조 대상 스킬이, 또는 보조 대상 스킬로 소환된 비-환영 소환수가\n희귀 또는 고유 적 명중 시 환영 1개체 소환"
 				}
 			}
 		},
@@ -8364,7 +8364,7 @@ return {
 	},
 	[287]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8376,7 +8376,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {0}% chance to Unnerve Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 4초 동안 적 낙담 유발"
 				},
 				[2]={
 					[1]={
@@ -8389,7 +8389,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Unnerve Enemies for 4 seconds on Hit"
+					text="보조 대상 스킬 명중 시 4초 동안 적 낙담 유발"
 				}
 			}
 		},
@@ -8399,7 +8399,7 @@ return {
 	},
 	[288]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8407,7 +8407,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Channelling Skills deal {0}% increased Damage"
+					text="보조 대상 집중 유지 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8420,7 +8420,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Channelling Skills deal {0}% reduced Damage"
+					text="보조 대상 집중 유지 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8430,7 +8430,7 @@ return {
 	},
 	[289]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8438,7 +8438,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8451,7 +8451,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8461,7 +8461,7 @@ return {
 	},
 	[290]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8469,7 +8469,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits to Close Range Enemies"
+					text="근거리에 있는 적에게 주는 명중 피해 {0}% 증가"
 				}
 			}
 		},
@@ -8479,7 +8479,7 @@ return {
 	},
 	[291]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8491,7 +8491,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Effect of Cold Ailments"
+					text="보조 대상 스킬의 냉기 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8508,7 +8508,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Effect of Cold Ailments"
+					text="보조 대상 스킬의 냉기 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -8518,7 +8518,7 @@ return {
 	},
 	[292]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8526,7 +8526,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain {0}% of Cold Damage as Extra Fire Damage"
+					text="보조 대상 스킬로 냉기 피해의 {0}%를 추가 화염 피해로 획득"
 				}
 			}
 		},
@@ -8536,7 +8536,7 @@ return {
 	},
 	[293]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8544,7 +8544,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Cold Damage"
+					text="보조 대상 스킬로 주는 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8557,7 +8557,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Cold Damage"
+					text="보조 대상 스킬로 주는 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8567,7 +8567,7 @@ return {
 	},
 	[294]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8575,7 +8575,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{}% increased Effect of Combat Rush granted by Supported Skills"
+					text="보조 대상 스킬이 제공하는 전투 돌격 효과 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8588,7 +8588,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{}% reduced Effect of Combat Rush granted by Supported Skills"
+					text="보조 대상 스킬이 제공하는 전투 돌격 효과 {}% 감소"
 				}
 			}
 		},
@@ -8598,7 +8598,7 @@ return {
 	},
 	[295]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8606,7 +8606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cooldown Recovery Rate if used while a Unique Enemy is in your Presence"
+					text="고유 적이 접근해 있는 동안 사용하면 재사용 대기시간 회복 속도 {0}% 증가"
 				},
 				[2]={
 					limit={
@@ -8615,7 +8615,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% decreased Cooldown Recovery Rate if used while a Unique Enemy is in your Presence"
+					text="고유 적이 접근해 있는 동안 사용하면 재사용 대기시간 회복 속도 {0}% 감소"
 				}
 			}
 		},
@@ -8625,7 +8625,7 @@ return {
 	},
 	[296]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8633,7 +8633,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% Damage over Time Multiplier for Ailments from Critical Strikes"
+					text="보조 대상 스킬이 치명타로 주는 상태 이상 지속 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -8643,7 +8643,7 @@ return {
 	},
 	[297]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8651,7 +8651,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Critical Strike Chance against Blinded Enemies"
+					text="보조 대상 스킬이 실명된 적을 상대로 주는 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8664,7 +8664,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Critical Strike Chance against Blinded Enemies"
+					text="보조 대상 스킬이 실명된 적을 상대로 주는 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -8674,7 +8674,7 @@ return {
 	},
 	[298]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8682,7 +8682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Cruelty granted by Supported Skills"
+					text="보조 대상 스킬이 부여하는 잔혹 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8695,7 +8695,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Cruelty granted by Supported Skills"
+					text="보조 대상 스킬이 부여하는 잔혹 효과 {0}% 감소"
 				}
 			}
 		},
@@ -8705,7 +8705,7 @@ return {
 	},
 	[299]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8717,7 +8717,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {}% chance to Crush for 2 seconds on Hit"
+					text="보조 대상 스킬 명중 시 {}%의 확률로 2초 동안 타쇄"
 				},
 				[2]={
 					[1]={
@@ -8730,7 +8730,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Crush for 2 seconds on Hit"
+					text="보조 대상 스킬 명중 시 2초 동안 타쇄"
 				}
 			}
 		},
@@ -8740,7 +8740,7 @@ return {
 	},
 	[300]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8748,7 +8748,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect of Supported Curse Skills"
+					text="보조 대상 저주 스킬의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8761,7 +8761,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area of Effect of Supported Curse Skills"
+					text="보조 대상 저주 스킬의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -8771,7 +8771,7 @@ return {
 	},
 	[301]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8779,7 +8779,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8792,7 +8792,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage over Time"
+					text="보조 대상 스킬로 주는 지속 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8802,7 +8802,7 @@ return {
 	},
 	[302]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8810,7 +8810,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8823,7 +8823,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8833,7 +8833,7 @@ return {
 	},
 	[303]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8841,7 +8841,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased non-Minion Damage"
+					text="비-소환수 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8854,7 +8854,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced non-Minion Damage"
+					text="비-소환수 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8864,7 +8864,7 @@ return {
 	},
 	[304]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8872,7 +8872,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {}% increased Damage if you've lost an Endurance Charge in the past 8 seconds"
+					text="지난 8초 이내 인내 충전을 잃은 경우 보조 대상 스킬이 주는 피해 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8885,7 +8885,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {}% reduced Damage if you've lost an Endurance Charge in the past 8 seconds"
+					text="지난 8초 이내 인내 충전을 잃은 경우 보조 대상 스킬이 주는 피해 {}% 감소"
 				}
 			}
 		},
@@ -8895,7 +8895,7 @@ return {
 	},
 	[305]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8903,7 +8903,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Damage for each 200 Mana you have Spent Recently"
+					text="최근 4초 이내 사용한 마나 200당 보조 대상 스킬의 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8916,7 +8916,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Damage for each 200 Mana you have Spent Recently"
+					text="최근 4초 이내 사용한 마나 200당 보조 대상 스킬의 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8926,7 +8926,7 @@ return {
 	},
 	[306]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8934,7 +8934,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage per Endurance Charge"
+					text="인내 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8947,7 +8947,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage per Endurance Charge"
+					text="인내 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8957,7 +8957,7 @@ return {
 	},
 	[307]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8965,7 +8965,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8978,7 +8978,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8988,7 +8988,7 @@ return {
 	},
 	[308]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8996,7 +8996,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage per Power Charge"
+					text="권능 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9009,7 +9009,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage per Power Charge"
+					text="권능 충전 하나당 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9019,7 +9019,7 @@ return {
 	},
 	[309]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9027,7 +9027,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits and Ailments against Enemies that are on Full Life"
+					text="생명력이 최대인 적에 대한 보조 대상 스킬의 적중 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9040,7 +9040,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Hits and Ailments against Enemies that are on Full Life"
+					text="생명력이 최대인 적에 대한 보조 대상 스킬의 적중 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9050,7 +9050,7 @@ return {
 	},
 	[310]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9062,7 +9062,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits and Ailments per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 보조 대상 스킬이 주는 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9079,7 +9079,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Hits and Ailments  per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 보조 대상 스킬이 주는 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9089,7 +9089,7 @@ return {
 	},
 	[311]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9097,7 +9097,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits against Frozen Enemies"
+					text="보조 대상 스킬로 동결된 적 명중 시 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9110,7 +9110,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Hits against Frozen Enemies"
+					text="보조 대상 스킬로 동결된 적 명중 시 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9120,7 +9120,7 @@ return {
 	},
 	[312]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9128,7 +9128,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9141,7 +9141,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9151,7 +9151,7 @@ return {
 	},
 	[313]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9159,7 +9159,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage when on Full Life"
+					text="생명력이 최대일 때 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9172,7 +9172,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage when on Full Life"
+					text="생명력이 최대일 때 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9182,7 +9182,7 @@ return {
 	},
 	[314]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9194,7 +9194,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Deal {0}% increased Damage while on Low Life"
+					text="낮은 생명력 상태일 때 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9211,7 +9211,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills Deal {0}% reduced Damage while on Low Life"
+					text="낮은 생명력 상태일 때 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9221,7 +9221,7 @@ return {
 	},
 	[315]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9233,7 +9233,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while you are affected by an Ailment"
+					text="상태 이상의 영향을 받는 동안 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9250,7 +9250,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while you are affected by an Ailment"
+					text="상태 이상의 영향을 받는 동안 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9260,7 +9260,7 @@ return {
 	},
 	[316]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9268,7 +9268,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9281,7 +9281,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9291,7 +9291,7 @@ return {
 	},
 	[317]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9299,7 +9299,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9312,7 +9312,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9322,7 +9322,7 @@ return {
 	},
 	[318]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9330,7 +9330,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9343,7 +9343,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9353,7 +9353,7 @@ return {
 	},
 	[319]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9365,7 +9365,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 보조 대상 스킬로 주는 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9382,7 +9382,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 보조 대상 스킬로 주는 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9392,7 +9392,7 @@ return {
 	},
 	[320]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9400,7 +9400,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits against Enemies that are on Low Life"
+					text="낮은 생명력 상태의 적 적중 시 보조 대상 스킬로 주는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -9410,7 +9410,7 @@ return {
 	},
 	[321]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9422,7 +9422,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Damaging Ailments inflicted with Supported Skills deal damage {0}% faster"
+					text="보조 대상 스킬이 유발하는 상태 이상 피해 {0}%만큼 가속"
 				}
 			}
 		},
@@ -9432,7 +9432,7 @@ return {
 	},
 	[322]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9440,7 +9440,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills inflict Decay on Hit, dealing {0} Chaos Damage per second for 8 seconds"
+					text="보조 대상 스킬이 명중 시 부패를 유발하여, 8초 동안 1초마다 {0} 카오스 피해를 줌"
 				}
 			}
 		},
@@ -9450,7 +9450,7 @@ return {
 	},
 	[323]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9458,7 +9458,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal no Elemental Damage"
+					text="보조 대상 스킬로 주는 원소 피해 없음"
 				}
 			}
 		},
@@ -9468,7 +9468,7 @@ return {
 	},
 	[324]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9476,7 +9476,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -9489,7 +9489,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -9499,7 +9499,7 @@ return {
 	},
 	[325]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -9511,7 +9511,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells lose 1 Intensity every 0.25 seconds while moving, or immediately if you teleport"
+					text="이동 중인 경우 보조 대상 주문이 0.25초마다 격렬함 1 상실, 순간이동할 경우에는 즉시 상실"
 				}
 			}
 		},
@@ -9521,7 +9521,7 @@ return {
 	},
 	[326]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9529,7 +9529,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems cannot gain Infusion"
+					text="토템은 주입 획득 불가"
 				}
 			}
 		},
@@ -9539,7 +9539,7 @@ return {
 	},
 	[327]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9547,7 +9547,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Damage over Time Multiplier"
+					text="보조 대상 스킬의 지속 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -9557,7 +9557,7 @@ return {
 	},
 	[328]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9565,7 +9565,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Elemental Damage from Supported Skills cannot be Reflected"
+					text="보조 대상 스킬로 주는 원소 피해가 반사되지 않음"
 				}
 			}
 		},
@@ -9575,7 +9575,7 @@ return {
 	},
 	[329]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9583,7 +9583,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Elemental Damage"
+					text="보조 대상 스킬로 주는 원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9596,7 +9596,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Elemental Damage"
+					text="보조 대상 스킬로 주는 원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9606,7 +9606,7 @@ return {
 	},
 	[330]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9618,7 +9618,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Elusive from Supported Skills"
+					text="보조 대상 스킬로 부여된 도피 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9635,7 +9635,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Elusive from Supported Skills"
+					text="보조 대상 스킬로 부여된 도피 효과 {0}% 감소"
 				}
 			}
 		},
@@ -9645,7 +9645,7 @@ return {
 	},
 	[331]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9653,7 +9653,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Shocked by supported Skills have {0}% increased Movement Speed"
+					text="보조 대상 스킬로 감전된 적의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9666,7 +9666,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Shocked by supported Skills have {0}% reduced Movement Speed"
+					text="보조 대상 스킬로 감전된 적의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -9676,7 +9676,7 @@ return {
 	},
 	[332]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9684,7 +9684,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Shocked by Supported Skills take {0}% increased Physical Damage"
+					text="보조 대상 스킬로 감전된 적이 받는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9697,7 +9697,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Shocked by Supported Skills take {0}% reduced Physical Damage"
+					text="보조 대상 스킬로 감전된 적이 받는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9707,7 +9707,7 @@ return {
 	},
 	[333]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9719,7 +9719,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Overwhelm {0}% Physical Damage Reduction"
+					text="보조 대상 스킬이 물리 피해 감소의 {0}% 압도"
 				}
 			}
 		},
@@ -9729,7 +9729,7 @@ return {
 	},
 	[334]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -9745,7 +9745,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Damage Leeched as Energy Shield"
+					text="보조 대상 스킬이 피해의 {0}%를 에너지 보호막으로 흡수"
 				}
 			}
 		},
@@ -9755,7 +9755,7 @@ return {
 	},
 	[335]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9767,7 +9767,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Bleeding inflicted by Supported Skills deals Damage {0}% faster"
+					text="보조 대상 스킬이 유발하는 출혈 피해 {0}% 가속"
 				}
 			}
 		},
@@ -9777,7 +9777,7 @@ return {
 	},
 	[336]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9789,7 +9789,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignites from Supported Skills deal Damage {0}% faster"
+					text="보조 대상 스킬의 점화 피해 {0}% 가속"
 				},
 				[2]={
 					[1]={
@@ -9802,7 +9802,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ignites from Supported Skills deal Damage {0}% slower"
+					text="보조 대상 스킬의 점화 피해 {0}% 감속"
 				}
 			}
 		},
@@ -9812,7 +9812,7 @@ return {
 	},
 	[337]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -9828,7 +9828,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Poisons from Supported Skills deal Damage {0}% faster"
+					text="보조 대상 스킬의 중독 피해 {0}% 가속"
 				}
 			}
 		},
@@ -9838,7 +9838,7 @@ return {
 	},
 	[338]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9846,7 +9846,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Fire Damage"
+					text="보조 대상 스킬로 주는 화염 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9859,7 +9859,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Fire Damage"
+					text="보조 대상 스킬로 주는 화염 피해 {0}% 감소"
 				}
 			}
 		},
@@ -9869,7 +9869,7 @@ return {
 	},
 	[339]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9877,7 +9877,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Fire Damage over Time Multiplier"
+					text="보조 대상 스킬의 지속 화염 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -9887,7 +9887,7 @@ return {
 	},
 	[340]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -9899,7 +9899,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Burning Ground lasts {0} seconds"
+					text="{0}초간 용암 지대 지속"
 				}
 			}
 		},
@@ -9909,7 +9909,7 @@ return {
 	},
 	[341]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9917,7 +9917,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Fortification Duration"
+					text="보조 대상 스킬의 방어 상승 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9930,7 +9930,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Fortification Duration"
+					text="보조 대상 스킬의 방어 상승 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -9940,7 +9940,7 @@ return {
 	},
 	[342]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9948,7 +9948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Frozen by Supported Skills have {:+d}% to Cold Resistance"
+					text="보조 대상 스킬로 동결된 적의 냉기 저항 {:+d}%"
 				}
 			}
 		},
@@ -9958,7 +9958,7 @@ return {
 	},
 	[343]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9966,7 +9966,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Freeze Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 동결 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -9979,7 +9979,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Freeze Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 동결 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -9989,7 +9989,7 @@ return {
 	},
 	[344]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -9997,7 +9997,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Activation Frequency if 75% of Attached Duration expired"
+					text="부착 지속시간의 75%가 경과하면 보조 대상 스킬의 활성화 빈도 {0}% 증폭"
 				}
 			}
 		},
@@ -10007,7 +10007,7 @@ return {
 	},
 	[345]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10015,7 +10015,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Damage with Hits per 0.1 seconds Duration"
+					text="지속시간 0.1초당 명중 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -10028,7 +10028,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Damage with Hits per 0.1 seconds Duration"
+					text="지속시간 0.1초당 명중 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -10038,7 +10038,7 @@ return {
 	},
 	[346]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10046,7 +10046,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have Added Spell Damage equal to {0}% of Damage of Equipped Wand\nIf two Wands are Equipped, each contributes half as much Added Damage"
+					text="보조 대상 스킬의 추가 주문 피해가 장착한 마법봉 피해의 {0}%와 동일\n마법봉 2개를 장착할 경우, 각 마법봉 피해의 절반이 추가 피해에 더해짐"
 				}
 			}
 		},
@@ -10056,7 +10056,7 @@ return {
 	},
 	[347]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10064,7 +10064,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to gain 1 Rage when you use Supported Skills"
+					text="보조 대상 스킬 사용 시 {0}%의 확률로 격노 1 획득"
 				}
 			}
 		},
@@ -10074,7 +10074,7 @@ return {
 	},
 	[348]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10086,7 +10086,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{1}% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+					text="보조 대상 스킬로 근접 명중하여 적 지절 시 {1}%의 확률로 인내 충전 획득"
 				},
 				[2]={
 					limit={
@@ -10099,7 +10099,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+					text="보조 대상 스킬로 근접 명중하여 적 기절 시 인내 충전 획득"
 				},
 				[3]={
 					limit={
@@ -10112,7 +10112,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain an Endurance Charge when you Stun an Enemy with a Melee Hit from Supported Skills"
+					text="보조 대상 스킬로 근접 명중하여 적 기절 시 인내 충전 획득"
 				}
 			}
 		},
@@ -10123,7 +10123,7 @@ return {
 	},
 	[349]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10131,7 +10131,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Frenzy Charge on Killing an Enemy affected by at least 5 Poisons"
+					text="보조 대상 스킬로 중독 5중첩 이상의 적 처치 시 {0}%의 확률로 격분 충전 획득"
 				}
 			}
 		},
@@ -10141,7 +10141,7 @@ return {
 	},
 	[350]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10149,7 +10149,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons"
+					text="보조 대상 스킬이 중독 5중첩 이상의 적을 상대로 최후의 일격 시 {0}%의 확률로 격분 충전 획득"
 				}
 			}
 		},
@@ -10159,7 +10159,7 @@ return {
 	},
 	[351]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10167,7 +10167,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Power Charge on Killing Blow"
+					text="보조 대상 스킬이 최후의 일격 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -10177,7 +10177,7 @@ return {
 	},
 	[352]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -10189,7 +10189,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to gain an Inspiration Charge when you Spend Mana on\nUpfront Costs or Effects of Supported Skills"
+					text="보조 대상 스킬의 초기 비용 또는 효과로\n마나 소모 시 {0}%의 확률로 영감 충전 획득"
 				},
 				[2]={
 					[1]={
@@ -10202,7 +10202,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain an Inspiration Charge when you Spend Mana on Upfront\nCosts or Effects of Supported Skills"
+					text="보조 대상 스킬의 초기 비용 또는 효과로\n마나 소모 시 영감 충전 획득"
 				}
 			}
 		},
@@ -10212,7 +10212,7 @@ return {
 	},
 	[353]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -10224,7 +10224,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain a Vaal Soul on Hit\nYou can only generate a Soul every {0} seconds"
+					text="명중 시 보조 대상 스킬로 바알 영혼 획득\n{0}초마다 영혼 1개만 생성 가능"
 				}
 			}
 		},
@@ -10234,7 +10234,7 @@ return {
 	},
 	[354]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10242,7 +10242,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Quality has no effect"
+					text="퀄리티가 영향을 미치지 않음"
 				}
 			}
 		},
@@ -10252,7 +10252,7 @@ return {
 	},
 	[355]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10260,7 +10260,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {:d}% chance to Cause Monsters to Flee"
+					text="보조 대상 스킬이 {:d}%의 확률로 몬스터를 도망치게 함"
 				}
 			}
 		},
@@ -10270,7 +10270,7 @@ return {
 	},
 	[356]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10282,7 +10282,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Chaos Damage"
+					text="보조 대상 스킬의 카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -10293,7 +10293,7 @@ return {
 	},
 	[357]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10305,7 +10305,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Cold Damage"
+					text="보조 대상 스킬의 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -10316,7 +10316,7 @@ return {
 	},
 	[358]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10328,7 +10328,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Fire Damage"
+					text="보조 대상 스킬의 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -10339,7 +10339,7 @@ return {
 	},
 	[359]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10351,7 +10351,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Lightning Damage"
+					text="보조 대상 스킬의 번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -10362,7 +10362,7 @@ return {
 	},
 	[360]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10374,7 +10374,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Physical Damage"
+					text="보조 대상 스킬의 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -10385,7 +10385,7 @@ return {
 	},
 	[361]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10393,7 +10393,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% reduced Enemy Block Chance"
+					text="보조 대상 스킬의 적 막기 확률 {0}% 감소"
 				}
 			}
 		},
@@ -10403,7 +10403,7 @@ return {
 	},
 	[362]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10411,7 +10411,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% more Damage with Hits per Intensity"
+					text="격렬함 하나당 보조 대상 스킬의 투사체가 주는 명중 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -10424,7 +10424,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% less Damage with Hits per Intensity"
+					text="격렬함 하나당 보조 대상 스킬의 투사체가 주는 명중 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -10434,7 +10434,7 @@ return {
 	},
 	[363]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10442,7 +10442,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Hex Transfer range"
+					text="보조 대상 스킬의 사술 전이 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10455,7 +10455,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Hex Transfer range"
+					text="보조 대상 스킬의 사술 전이 범위 {0}% 감소"
 				}
 			}
 		},
@@ -10465,7 +10465,7 @@ return {
 	},
 	[364]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10473,7 +10473,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Poison"
+					text="적중 및 중독 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10486,7 +10486,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Poison"
+					text="적중 및 중독 피해 {0}% 감소"
 				}
 			}
 		},
@@ -10496,7 +10496,7 @@ return {
 	},
 	[365]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10504,7 +10504,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Poison for each Poison on the Enemy"
+					text="적에게 중첩된 중독 하나당 명중 및 중독 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10517,7 +10517,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Poison for each Poison on the Enemy"
+					text="적에게 중첩된 중독 하나당 명중 및 중독 피해 {0}% 감소"
 				}
 			}
 		},
@@ -10527,7 +10527,7 @@ return {
 	},
 	[366]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10535,7 +10535,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Damage with Hits"
+					text="명중 시 보조 대상 스킬이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10548,7 +10548,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Damage with Hits"
+					text="명중 시 보조 대상 스킬이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -10558,7 +10558,7 @@ return {
 	},
 	[367]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10566,7 +10566,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Ignite Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 점화 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10579,7 +10579,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Ignite Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 점화 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -10589,7 +10589,7 @@ return {
 	},
 	[368]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10597,7 +10597,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Ignited by Supported Skills have {0:+d}% to Fire Resistance"
+					text="보조 대상 스킬로 점화된 적의 화염 저항 {0:+d}%"
 				}
 			}
 		},
@@ -10607,7 +10607,7 @@ return {
 	},
 	[369]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10615,7 +10615,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks have {0}% increased Impale Effect"
+					text="보조 대상 공격의 꿰뚫기 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10628,7 +10628,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attacks have {0}% reduced Impale Effect"
+					text="보조 대상 공격의 꿰뚫기 효과 {0}% 감소"
 				}
 			}
 		},
@@ -10638,7 +10638,7 @@ return {
 	},
 	[370]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -10650,7 +10650,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Impale Damage dealt to Enemies Impaled by Supported Skills Overwhelms {0}% Physical Damage Reduction"
+					text="보조 대상 스킬에 꿰뚫린 적에게 주는 꿰뚫기 피해가 물리 피해 감소의 {0}% 압도"
 				}
 			}
 		},
@@ -10660,7 +10660,7 @@ return {
 	},
 	[371]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10668,7 +10668,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -10678,7 +10678,7 @@ return {
 	},
 	[372]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10686,7 +10686,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -10699,7 +10699,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Area Damage"
+					text="보조 대상 스킬로 주는 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -10709,7 +10709,7 @@ return {
 	},
 	[373]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -10721,7 +10721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Infusion grants {}% of Life Regenerated per second"
+					text="주입 적용 시 1초마다 {}%의 생명력 재생"
 				}
 			}
 		},
@@ -10731,7 +10731,7 @@ return {
 	},
 	[374]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10739,7 +10739,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Inspiration Charge Duration"
+					text="보조 대상 스킬이 영감 충전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10752,7 +10752,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Inspiration Charge Duration"
+					text="보조 대상 스킬이 영감 충전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -10762,7 +10762,7 @@ return {
 	},
 	[375]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10770,7 +10770,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells lose Intensity with {0}% increased frequency while moving"
+					text="이동 중 보조 대상 주문의 격렬함 상실 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10783,7 +10783,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells lose Intensity with {0}% reduced frequency while moving"
+					text="이동 중 보조 대상 주문의 격렬함 상실 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -10793,7 +10793,7 @@ return {
 	},
 	[376]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10801,7 +10801,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Attacks with Supported Skills count as Exerted"
+					text="보조 대상 스킬 공격을 전력 공격으로 간주"
 				}
 			}
 		},
@@ -10811,7 +10811,7 @@ return {
 	},
 	[377]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10819,7 +10819,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to Knock Enemies Back with Hits at Close Range"
+					text="보조 대상 스킬이 근거리에서 적중 시 {0}%의 확률로 적을 밀어냄"
 				}
 			}
 		},
@@ -10829,7 +10829,7 @@ return {
 	},
 	[378]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10837,7 +10837,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Knockback Distance"
+					text="보조 대상 스킬의 밀어내기 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10850,7 +10850,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Knockback Distance"
+					text="보조 대상 스킬의 밀어내기 거리 {0}% 감소"
 				}
 			}
 		},
@@ -10860,7 +10860,7 @@ return {
 	},
 	[379]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -10876,7 +10876,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Damage Leeched as Life"
+					text="보조 대상 스킬 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -10886,7 +10886,7 @@ return {
 	},
 	[380]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -10898,7 +10898,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Effect of Lightning Ailments"
+					text="보조 대상 스킬의 번개 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10915,7 +10915,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Effect of Lightning Ailments"
+					text="보조 대상 스킬의 번개 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -10925,7 +10925,7 @@ return {
 	},
 	[381]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10933,7 +10933,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Lightning Damage"
+					text="보조 대상 스킬로 주는 번개 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10946,7 +10946,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Lightning Damage"
+					text="보조 대상 스킬로 주는 번개 피해 {0}% 감소"
 				}
 			}
 		},
@@ -10956,7 +10956,7 @@ return {
 	},
 	[382]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10964,7 +10964,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Dexterity Requirement"
+					text="민첩 요구사항 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -10977,7 +10977,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Dexterity Requirement"
+					text="민첩 요구사항 {0}% 감소"
 				}
 			}
 		},
@@ -10987,7 +10987,7 @@ return {
 	},
 	[383]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -10995,7 +10995,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Intelligence Requirement"
+					text="지능 요구사항 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11008,7 +11008,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Intelligence Requirement"
+					text="지능 요구사항 {0}% 감소"
 				}
 			}
 		},
@@ -11018,7 +11018,7 @@ return {
 	},
 	[384]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11026,7 +11026,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Strength Requirement"
+					text="힘 요구사항 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11039,7 +11039,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Strength Requirement"
+					text="힘 요구사항 {0}% 감소"
 				}
 			}
 		},
@@ -11049,7 +11049,7 @@ return {
 	},
 	[385]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11057,7 +11057,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Effect of Maim"
+					text="보조 대상 스킬의 힘줄 절단 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11070,7 +11070,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Effect of Maim"
+					text="보조 대상 스킬의 힘줄 절단 효과 {0}% 감소"
 				}
 			}
 		},
@@ -11080,7 +11080,7 @@ return {
 	},
 	[386]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -11092,7 +11092,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Attacks have {0}% chance to Maim on Hit"
+					text="보조 대상 스킬 명중 시 {0}%의 확률로 힘줄 절단"
 				},
 				[2]={
 					[1]={
@@ -11105,7 +11105,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks always Maim on Hit"
+					text="명중 시 보조 대상 공격이 항상 힘줄 절단 유발"
 				}
 			}
 		},
@@ -11115,7 +11115,7 @@ return {
 	},
 	[387]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -11131,7 +11131,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Damage Leeched as Mana"
+					text="보조 대상 스킬로 피해의 {0}%를 마나로 흡수"
 				}
 			}
 		},
@@ -11141,7 +11141,7 @@ return {
 	},
 	[388]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11153,7 +11153,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have base Mana Cost equal to {0}% of Unreserved Maximum Mana, if that value is higher\nSupported Skills gain Added Lightning Damage equal to {1}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
+					text="보조 대상 스킬의 기본 마나 소모량보다 점유하지 않은 최대 마나의 {0}%가 클 경우, 기본 마나 소모가 이와 동일한 값을 가짐.\n마나 소모량이 소모할 수 있는 최대 마나보다 크지 않을 경우, 보조 대상 스킬이 마나 소모량의 {1}%와 동일한 추가 번개 피해를 얻음"
 				},
 				[2]={
 					[1]={
@@ -11170,7 +11170,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills lose Added Lightning Damage equal to {1}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
+					text="마나 소모량이 소모할 수 있는 최대 마나보다 크지 않을 경우, 보조 대상 스킬이 마나 소모량의 {1}%와 동일한 추가 번개 피해를 잃음"
 				}
 			}
 		},
@@ -11181,7 +11181,7 @@ return {
 	},
 	[389]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11189,7 +11189,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain Added Cold Damage equal to {0}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
+					text="마나 소모량이 소모할 수 있는 최대 마나보다 크지 않을 경우, 보조 대상 스킬이 마나 소모량의 {0}%와 동일한 추가 냉기 피해를 얻음"
 				}
 			}
 		},
@@ -11199,7 +11199,7 @@ return {
 	},
 	[390]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11207,7 +11207,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Maximum Recovery per Energy Shield Leech"
+					text="에너지 보호막 흡수당 보조 대상 스킬이 회복량 최대치 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11220,7 +11220,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Maximum Recovery per Energy Shield Leech"
+					text="에너지 보호막 흡수당 보조 대상 스킬이 회복량 최대치 {0}% 감소"
 				}
 			}
 		},
@@ -11230,7 +11230,7 @@ return {
 	},
 	[391]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11238,7 +11238,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to maximum Intensity"
+					text="격렬함 최대치 {0:+d}"
 				}
 			}
 		},
@@ -11248,7 +11248,7 @@ return {
 	},
 	[392]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11256,7 +11256,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Maximum Recovery per Life Leech"
+					text="생명력 흡수당 보조 대상 스킬이 회복량 최대치 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11269,7 +11269,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Maximum Recovery per Life Leech"
+					text="생명력 흡수당 보조 대상 스킬이 회복량 최대치 {0}% 감소"
 				}
 			}
 		},
@@ -11279,7 +11279,7 @@ return {
 	},
 	[393]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11287,7 +11287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Melee Damage"
+					text="보조 대상 스킬로 주는 근접 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11300,7 +11300,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Melee Damage"
+					text="보조 대상 스킬로 주는 근접 피해 {0}% 감소"
 				}
 			}
 		},
@@ -11310,7 +11310,7 @@ return {
 	},
 	[394]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11318,7 +11318,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Melee Damage against Bleeding Enemies"
+					text="보조 대상 스킬이 출혈 중인 적을 상대로 주는 근접 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11331,7 +11331,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Melee Damage against Bleeding Enemies"
+					text="보조 대상 스킬이 출혈 중인 적을 상대로 주는 근접 피해 {0}% 감소"
 				}
 			}
 		},
@@ -11341,7 +11341,7 @@ return {
 	},
 	[395]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11349,7 +11349,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Melee Physical Damage"
+					text="보조 대상 스킬로 주는 근접 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11362,7 +11362,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Melee Physical Damage"
+					text="보조 대상 스킬로 주는 근접 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -11372,7 +11372,7 @@ return {
 	},
 	[396]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -11384,7 +11384,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d} to Melee Strike Range"
+					text="보조 대상 스킬의 근접 타격 범위 {0:+d}"
 				}
 			}
 		},
@@ -11394,7 +11394,7 @@ return {
 	},
 	[397]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11402,7 +11402,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Melee Splash Area of Effect"
+					text="보조 대상 스킬의 근접 범위 피해 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -11415,7 +11415,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Melee Splash Area of Effect"
+					text="보조 대상 스킬의 근접 범위 피해 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -11425,7 +11425,7 @@ return {
 	},
 	[398]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11433,7 +11433,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Mine Detonation Area of Effect"
+					text="보조 대상 스킬의 지뢰 폭파 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11446,7 +11446,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Mine Detonation Area of Effect"
+					text="보조 대상 스킬의 지뢰 폭파 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -11456,7 +11456,7 @@ return {
 	},
 	[399]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11464,7 +11464,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mines from Supported Skills have {0}% increased Detonation Speed"
+					text="보조 대상 스킬로 투척한 지뢰의 폭파 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11477,7 +11477,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Mines from Supported Skills have {0}% reduced Detonation Speed"
+					text="보조 대상 스킬로 투척한 지뢰의 폭파 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11487,7 +11487,7 @@ return {
 	},
 	[400]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11495,7 +11495,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11508,7 +11508,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11518,7 +11518,7 @@ return {
 	},
 	[401]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11526,7 +11526,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Projectile Speed per Frenzy Charge when used by a Mine"
+					text="지뢰에 의해 사용될 시 격분 충전 하나당 보조 대상 스킬의 투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11539,7 +11539,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Projectile Speed per Frenzy Charge when used by a Mine"
+					text="지뢰에 의해 사용될 시 격분 충전 하나당 보조 대상 스킬의 투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11549,7 +11549,7 @@ return {
 	},
 	[402]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11561,7 +11561,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0} to {1} added Cold Damage per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬의 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -11572,7 +11572,7 @@ return {
 	},
 	[403]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -11584,7 +11584,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have minimum of {0} Power"
+					text="보조 대상 스킬의 최소 위세 {0}"
 				}
 			}
 		},
@@ -11594,7 +11594,7 @@ return {
 	},
 	[404]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11602,7 +11602,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% additional Physical Damage Reduction"
+					text="보조 대상 스킬 소환수가 받는 물리 피해 {0}% 추가 감소"
 				}
 			}
 		},
@@ -11612,7 +11612,7 @@ return {
 	},
 	[405]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11620,7 +11620,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {}% increased Damage with Ailments"
+					text="보조 대상 스킬로 소환된 소환수가 주는 상태 이상 피해 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11633,7 +11633,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {}% reduced Damage with Ailments"
+					text="보조 대상 스킬로 소환된 소환수가 주는 상태 이상 피해 {}% 감소"
 				}
 			}
 		},
@@ -11643,7 +11643,7 @@ return {
 	},
 	[406]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11651,7 +11651,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Minion Attack Speed"
+					text="보조 대상 스킬의 소환수 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11664,7 +11664,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Minion Attack Speed"
+					text="보조 대상 스킬의 소환수 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11674,7 +11674,7 @@ return {
 	},
 	[407]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11682,7 +11682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0:+d}% Chance to Block Attack Damage"
+					text="보조 대상 스킬로 소환된 소환수가 공격 피해를 막아낼 확률 {0:+d}%"
 				}
 			}
 		},
@@ -11692,7 +11692,7 @@ return {
 	},
 	[408]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11700,7 +11700,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {}% increased Burning Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 화상 피해 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11713,7 +11713,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {}% reduced Burning Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 화상 피해 {}% 감소"
 				}
 			}
 		},
@@ -11723,7 +11723,7 @@ return {
 	},
 	[409]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11731,7 +11731,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Minion Cast Speed"
+					text="보조 대상 스킬의 소환수 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11744,7 +11744,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Minion Cast Speed"
+					text="보조 대상 스킬의 소환수 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11754,7 +11754,7 @@ return {
 	},
 	[410]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11762,7 +11762,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% chance to deal Double Damage"
+					text="보조 대상 스킬로 소환된 소환수가 {0}%의 확률로 2배의 피해를 줌"
 				}
 			}
 		},
@@ -11772,7 +11772,7 @@ return {
 	},
 	[411]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11780,7 +11780,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% chance to Taunt on Hit"
+					text="보조 대상 스킬로 소환된 소환수가 적 적중 시 {0}%의 확률로 도발"
 				}
 			}
 		},
@@ -11790,7 +11790,7 @@ return {
 	},
 	[412]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11798,7 +11798,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {}% increased Cooldown Recovery Rate"
+					text="보조 대상 스킬로 소환된 소환수의 재사용 대기시간 회복 속도 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11811,7 +11811,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills have {}% reduced Cooldown Recovery Rate"
+					text="보조 대상 스킬로 소환된 소환수의 재사용 대기시간 회복 속도 {}% 감소"
 				}
 			}
 		},
@@ -11821,7 +11821,7 @@ return {
 	},
 	[413]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11829,7 +11829,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% increased Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11842,7 +11842,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% reduced Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -11852,7 +11852,7 @@ return {
 	},
 	[414]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11860,7 +11860,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {}% increased Damage while on Full Life"
+					text="보조 대상 스킬로 소환된 소환수가 생명력이 최대치일 때 주는 피해 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11873,7 +11873,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {}% reduced Damage while on Full Life"
+					text="보조 대상 스킬로 소환된 소환수가 생명력이 최대치일 때 주는 피해 {}% 감소"
 				}
 			}
 		},
@@ -11883,7 +11883,7 @@ return {
 	},
 	[415]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -11895,7 +11895,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% chance to grant Feeding Frenzy to you on Hit"
+					text="보조 대상 스킬로 소환된 소환수가 적 적중 시, {0}% 확률로 플레이어에게 격분 주입 부여"
 				}
 			}
 		},
@@ -11905,7 +11905,7 @@ return {
 	},
 	[416]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -11921,7 +11921,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skill Leech {}% of Elemental Damage as Life"
+					text="보조 대상 스킬로 소환된 소환수가 원소 피해의 {}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -11931,7 +11931,7 @@ return {
 	},
 	[417]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11939,7 +11939,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Minion maximum Life"
+					text="보조 대상 스킬의 소환수 최대 생명력 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11952,7 +11952,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Minion maximum Life"
+					text="보조 대상 스킬의 소환수 최대 생명력 {0}% 감소"
 				}
 			}
 		},
@@ -11962,7 +11962,7 @@ return {
 	},
 	[418]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -11970,7 +11970,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Minion Movement Speed"
+					text="보조 대상 스킬의 소환수 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -11983,7 +11983,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Minion Movement Speed"
+					text="보조 대상 스킬의 소환수 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -11993,7 +11993,7 @@ return {
 	},
 	[419]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12001,7 +12001,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% increased Projectile Speed"
+					text="보조 대상 스킬로 소환된 소환수의 투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12014,7 +12014,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills have {0}% reduced Projectile Speed"
+					text="보조 대상 스킬로 소환된 소환수의 투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -12024,7 +12024,7 @@ return {
 	},
 	[420]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12032,7 +12032,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills recover {0}% of Life on Hit"
+					text="보조 대상 스킬로 소환된 소환수가 명중 시 생명력의 {0}% 회복"
 				}
 			}
 		},
@@ -12042,7 +12042,7 @@ return {
 	},
 	[421]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12050,7 +12050,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions from Supported Skills have {0}% chance to inflict Exposure on Hit, applying -10% to the Elemental Resistance matching highest Damage type taken by Enemy"
+					text="보조 대상 스킬로 소환된 소환수가 적 적중 시 {0}% 확률로 노출 유발, 적에게 받는 가장 큰 피해 유형의 원소 저항에 -10% 적용"
 				},
 				[2]={
 					limit={
@@ -12059,7 +12059,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills inflict Exposure on Hit, applying -10% to the Elemental Resistance matching highest Damage type taken by Enemy"
+					text="보조 대상 스킬로 소환된 소환수가 적 적중 시 노출 유발, 적에게 받는 가장 큰 피해 유형의 원소 저항에 -10% 적용"
 				}
 			}
 		},
@@ -12069,7 +12069,7 @@ return {
 	},
 	[422]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12077,7 +12077,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mirage Archer fires {0} additional Projectiles with Supported Skills"
+					text="신기루 궁수의 보조 대상 스킬이 투사체 {0}개 추가 발사"
 				}
 			}
 		},
@@ -12087,7 +12087,7 @@ return {
 	},
 	[423]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12095,7 +12095,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Supported Skills have {0}% increased Projectile spread"
+					text="보조 대상 스킬로 발사하는 투사체의 투사체 확산 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12108,7 +12108,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles Fired by Supported Skills have {0}% reduced Projectile spread"
+					text="보조 대상 스킬로 발사하는 투사체의 투사체 확산 범위 {0}% 감소"
 				}
 			}
 		},
@@ -12118,7 +12118,7 @@ return {
 	},
 	[424]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12126,7 +12126,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Area of Effect per Repeat"
+					text="보조 대상 스킬을 반복할 때마다 해당 스킬의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12139,7 +12139,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Area of Effect per Repeat"
+					text="보조 대상 스킬을 반복할 때마다 해당 스킬의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -12149,7 +12149,7 @@ return {
 	},
 	[425]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12157,7 +12157,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="First Repeat of Supported Skills deals {0}% more Damage"
+					text="보조 대상 스킬 첫 번째 반복 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -12170,7 +12170,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="First Repeat of Supported Skills deals {0}% less Damage"
+					text="보조 대상 스킬 첫 번째 반복 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -12180,7 +12180,7 @@ return {
 	},
 	[426]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12188,7 +12188,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Second Repeat of Supported Skills deals {0}% more Damage"
+					text="보조 대상 스킬 두 번째 반복 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -12201,7 +12201,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Second Repeat of Supported Skills deals {0}% less Damage"
+					text="보조 대상 스킬 두 번째 반복 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -12211,7 +12211,7 @@ return {
 	},
 	[427]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12219,7 +12219,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Third Repeat of Supported Skills deals {0}% more Damage"
+					text="보조 대상 스킬 세 번째 반복 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -12232,7 +12232,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Third Repeat of Supported Skills deals {0}% less Damage"
+					text="보조 대상 스킬 세 번째 반복 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -12242,7 +12242,7 @@ return {
 	},
 	[428]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12250,7 +12250,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Elusive from Supported Skills also grants {0:+d}% to Critical Strike Multiplier for\nSkills Supported by Nightblade"
+					text="보조 대상 스킬로 도피 부여 시, 밤의 칼날이 보조하는 스킬에\n치명타 피해 배율 {0:+d}% 부여"
 				}
 			}
 		},
@@ -12260,7 +12260,7 @@ return {
 	},
 	[429]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12268,7 +12268,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Cost nothing"
+					text="보조 대상 스킬의 비용 소모 없음"
 				}
 			}
 		},
@@ -12278,7 +12278,7 @@ return {
 	},
 	[430]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12286,7 +12286,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Non-Curse Auras from Supported Skills have {0}% increased Effect"
+					text="보조 대상 스킬의 비-저주 오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12299,7 +12299,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Non-Curse Auras from Supported Skills have {0}% reduced Effect"
+					text="보조 대상 스킬의 비-저주 오라 효과 {0}% 감소"
 				}
 			}
 		},
@@ -12309,7 +12309,7 @@ return {
 	},
 	[431]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -12321,7 +12321,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Effect of non-Damaging Ailments on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 비-피해 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12338,7 +12338,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Effect of non-Damaging Ailments on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 비-피해 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -12348,7 +12348,7 @@ return {
 	},
 	[432]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12356,7 +12356,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills can apply an additional Curse"
+					text="보조 대상 스킬로 저주 1회 추가 적용 가능"
 				},
 				[2]={
 					limit={
@@ -12365,7 +12365,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can apply {0} additional Curses"
+					text="보조 대상 스킬로 저주 {0}회 추가 적용 가능"
 				}
 			}
 		},
@@ -12375,7 +12375,7 @@ return {
 	},
 	[433]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -12387,7 +12387,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills throw up to 1 additional Mine"
+					text="보조 대상 스킬로 지뢰 최대 1개 추가 투척"
 				},
 				[2]={
 					[1]={
@@ -12400,7 +12400,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills throw up to {0} additional Mines"
+					text="보조 대상 스킬로 지뢰 최대 {0}개 추가 투척"
 				}
 			}
 		},
@@ -12410,7 +12410,7 @@ return {
 	},
 	[434]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12418,7 +12418,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills fire an additional Projectile"
+					text="보조 대상 스킬이 투사체 1개 추가 발사"
 				},
 				[2]={
 					limit={
@@ -12427,7 +12427,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills fire {0} additional Projectiles"
+					text="보조 대상 스킬이 투사체 {0}개 추가 발사"
 				}
 			}
 		},
@@ -12437,7 +12437,7 @@ return {
 	},
 	[435]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12445,7 +12445,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills can have up to {0} additional Remote Mine placed at a time"
+					text="보조 대상 스킬로 한 번에 원격 지뢰 최대 {0}개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -12454,7 +12454,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can have up to {0} additional Remote Mines placed at a time"
+					text="보조 대상 스킬로 한 번에 원격 지뢰 최대 {0}개 추가 설치"
 				}
 			}
 		},
@@ -12464,7 +12464,7 @@ return {
 	},
 	[436]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12472,7 +12472,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills can have up to {0} additional Trap placed at a time"
+					text="보조 대상 스킬로 한 번에 덫 최대 {0}개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -12481,7 +12481,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can have up to {0} additional Traps placed at a time"
+					text="보조 대상 스킬로 한 번에 덫 최대 {0}개 추가 설치"
 				}
 			}
 		},
@@ -12491,7 +12491,7 @@ return {
 	},
 	[437]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -12507,7 +12507,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain Onslaught for {0} seconds on Killing a Shocked Enemy"
+					text="감전된 적 처치 시 보조 대상 스킬로 {0}초 동안 맹공 획득"
 				}
 			}
 		},
@@ -12517,7 +12517,7 @@ return {
 	},
 	[438]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -12529,7 +12529,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% increased Overpowered Effect"
+					text="보조 대상 스킬의 압도 효과 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12546,7 +12546,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {}% reduced Overpowered Effect"
+					text="보조 대상 스킬의 압도 효과 {}% 감소"
 				}
 			}
 		},
@@ -12556,7 +12556,7 @@ return {
 	},
 	[439]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -12568,7 +12568,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits from Supported Skills Overwhelm {0}% of Physical Damage Reduction while at maximum Fortification"
+					text="최대 방어 상승 상태에서 보조 대상 스킬 명중 시 물리 피해 감소의 {0}% 압도"
 				}
 			}
 		},
@@ -12578,7 +12578,7 @@ return {
 	},
 	[440]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12586,7 +12586,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased distance between Firing Points"
+					text="발사 지점 간의 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12599,7 +12599,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced distance between Firing Points"
+					text="발사 지점 간의 거리 {0}% 감소"
 				}
 			}
 		},
@@ -12609,7 +12609,7 @@ return {
 	},
 	[441]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12617,7 +12617,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to gain a Frenzy Charge when a Mine from Supported\nSkills is Detonated targeting an Enemy"
+					text="보조 대상 스킬로 설치된 지뢰가 적을 대상으로 폭발하면\n{0}%의 확률로 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -12626,7 +12626,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Gain a Frenzy Charge when a Mine from Supported Skills is Detonated targeting an Enemy"
+					text="보조 대상 스킬로 설치된 지뢰가 적을 대상으로 폭발하면 격분 충전 획득"
 				}
 			}
 		},
@@ -12636,7 +12636,7 @@ return {
 	},
 	[442]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12644,7 +12644,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 보조 대상 스킬이 {0}%의 확률로 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -12653,7 +12653,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Supported Skills gain a Frenzy Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 보조 대상 스킬이 격분 충전 획득"
 				}
 			}
 		},
@@ -12663,7 +12663,7 @@ return {
 	},
 	[443]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12671,7 +12671,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to gain a Power Charge when a Mine from Supported\nSkills is Detonated targeting an Enemy"
+					text="보조 대상 스킬로 설치된 지뢰가 적을 대상으로 폭발하면\n{0}%의 확률로 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -12680,7 +12680,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Gain a Power Charge when a Mine from Supported Skills is Detonated targeting an Enemy"
+					text="보조 대상 스킬로 설치된 지뢰가 적을 대상으로 폭발하면 권능 충전 획득"
 				}
 			}
 		},
@@ -12690,7 +12690,7 @@ return {
 	},
 	[444]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12698,7 +12698,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to gain a Power Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 보조 대상 스킬이 {0}%의 확률로 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -12707,7 +12707,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Supported Skills gain a Power Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 보조 대상 스킬이 권능 충전 획득"
 				}
 			}
 		},
@@ -12717,7 +12717,7 @@ return {
 	},
 	[445]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12725,7 +12725,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain {0}% of Physical Damage as Extra Chaos Damage"
+					text="보조 대상 스킬로 물리 피해의 {0}%를 추가 카오스 피해로 획득"
 				}
 			}
 		},
@@ -12735,7 +12735,7 @@ return {
 	},
 	[446]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12743,7 +12743,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain {0}% of Physical Damage as Extra Fire Damage"
+					text="보조 대상 스킬로 물리 피해의 {0}%를 추가 화염 피해로 획득"
 				}
 			}
 		},
@@ -12753,7 +12753,7 @@ return {
 	},
 	[447]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12761,7 +12761,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain {0}% of Physical Damage as Extra Lightning Damage"
+					text="보조 대상 스킬로 물리 피해의 {0}%를 추가 번개 피해로 획득"
 				}
 			}
 		},
@@ -12771,7 +12771,7 @@ return {
 	},
 	[448]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12779,7 +12779,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12792,7 +12792,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -12802,7 +12802,7 @@ return {
 	},
 	[449]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12810,7 +12810,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Cooldown Recovery Rate for throwing Traps"
+					text="덫 투척 시 보조 대상 스킬의 재사용 대기시간 회복 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12823,7 +12823,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Cooldown Recovery Rate for throwing Traps"
+					text="덫 투척 시 보조 대상 스킬의 재사용 대기시간 회복 속도 {0}% 감소"
 				}
 			}
 		},
@@ -12833,7 +12833,7 @@ return {
 	},
 	[450]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12841,7 +12841,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Projectiles Fired by Supported Skills have {0}% chance not to Pierce Enemies"
+					text="보조 대상 스킬로 발사하는 투사체가 {0}%의 확률로 적을 관통하지 않음"
 				},
 				[2]={
 					limit={
@@ -12850,7 +12850,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Supported Skills cannot Pierce Enemies"
+					text="보조 대상 스킬로 발사하는 투사체가 적을 관통하지 않음"
 				}
 			}
 		},
@@ -12860,7 +12860,7 @@ return {
 	},
 	[451]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12868,7 +12868,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12881,7 +12881,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감소"
 				}
 			}
 		},
@@ -12891,7 +12891,7 @@ return {
 	},
 	[452]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12899,7 +12899,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills that have Pierced deal {0}% increased Damage"
+					text="관통한 보조 대상 스킬 투사체가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12912,7 +12912,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles from Supported Skills that have Pierced deal {0}% reduced Damage"
+					text="관통한 보조 대상 스킬 투사체가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -12922,7 +12922,7 @@ return {
 	},
 	[453]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12930,7 +12930,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have limited Projectile Range"
+					text="보조 대상 스킬의 투사체 사거리 제한"
 				}
 			}
 		},
@@ -12940,7 +12940,7 @@ return {
 	},
 	[454]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12948,7 +12948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% increased Damage with Hits to nearby Enemies"
+					text="보조 대상 스킬의 투사체 명중 시 주변의 적에게 주는 투사체 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -12961,7 +12961,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% reduced Projectile Damage with Hits to nearby Enemies"
+					text="보조 대상 스킬의 투사체 명중 시 주변의 적에게 주는 투사체 피해 {0}% 감소"
 				}
 			}
 		},
@@ -12971,7 +12971,7 @@ return {
 	},
 	[455]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12979,7 +12979,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills Pierce all Targets within {0} units"
+					text="보조 대상 스킬의 투사체가 {0}유닛 내의 모든 대상 관통"
 				}
 			}
 		},
@@ -12989,7 +12989,7 @@ return {
 	},
 	[456]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12997,7 +12997,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ballista Totems from Supported Skills only Attack when you fire an Attack Projectile"
+					text="플레이어가 공격 투사체를 발사할 때만 보조 대상 스킬로 소환된 쇠뇌 토템이 공격함"
 				}
 			}
 		},
@@ -13007,7 +13007,7 @@ return {
 	},
 	[457]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -13019,7 +13019,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Recover {0}% of Life when you Stun an Enemy with Supported Skills"
+					text="보조 대상 스킬로 적 기절 시 생명력의 {0}% 회복"
 				}
 			}
 		},
@@ -13029,7 +13029,7 @@ return {
 	},
 	[458]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13037,7 +13037,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Recover {}% of Life when Supported Skills Cull an Enemy"
+					text="보조 대상 스킬로 적 마무리 타격 시 생명력의 {}% 회복"
 				}
 			}
 		},
@@ -13047,7 +13047,7 @@ return {
 	},
 	[459]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -13059,7 +13059,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Recover {0}% of Life when you use Supported Skills"
+					text="보조 대상 스킬 사용 시 생명력의 {0}% 회복"
 				}
 			}
 		},
@@ -13069,7 +13069,7 @@ return {
 	},
 	[460]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13077,7 +13077,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Penetrate {0}% Chaos Resistance"
+					text="보조 대상 스킬이 카오스 저항 {0}% 관통"
 				}
 			}
 		},
@@ -13087,7 +13087,7 @@ return {
 	},
 	[461]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13095,7 +13095,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have {0}% reduced chance to Dodge Hits from Supported Skills"
+					text="적이 보조 대상 스킬의 적중을 완벽회피할 확률 {0}% 감소"
 				}
 			}
 		},
@@ -13105,7 +13105,7 @@ return {
 	},
 	[462]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13113,7 +13113,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have {}% chance to refresh Bleeding Duration on Hit"
+					text="보조 대상 스킬 적중 시 {}%의 확률로 출혈 지속시간 초기화"
 				},
 				[2]={
 					limit={
@@ -13122,7 +13122,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills refresh Bleeding Duration on Hit"
+					text="보조 대상 스킬 적중 시 출혈 지속시간 초기화"
 				}
 			}
 		},
@@ -13132,7 +13132,7 @@ return {
 	},
 	[463]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13140,7 +13140,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0}% of Life over 1 second when you use Supported Skills"
+					text="보조 대상 스킬 사용 시 1초 동안 생명력의 {0}% 재생"
 				}
 			}
 		},
@@ -13150,7 +13150,7 @@ return {
 	},
 	[464]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13158,7 +13158,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills gain a Base Reservation equal to Base Mana and Life Cost"
+					text="보조 대상 스킬이 기본 마나 및 생명력 소모와 동일한 기본 점유를 얻음"
 				}
 			}
 		},
@@ -13168,7 +13168,7 @@ return {
 	},
 	[465]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13176,7 +13176,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Shock Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 감전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13189,7 +13189,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Shock Duration on Enemies"
+					text="보조 대상 스킬이 적에게 적용하는 감전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -13199,7 +13199,7 @@ return {
 	},
 	[466]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13207,7 +13207,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Shocks inflicted with Critical Strikes from Supported Skills"
+					text="보조 대상 스킬의 치명타로 유발된 감전의 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13220,7 +13220,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Shocks inflicted with Critical Strikes from Supported Skills"
+					text="보조 대상 스킬의 치명타로 유발된 감전의 효과 {0}% 감소"
 				}
 			}
 		},
@@ -13230,7 +13230,7 @@ return {
 	},
 	[467]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13238,7 +13238,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Activation frequency"
+					text="보조 대상 스킬의 활성화 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13251,7 +13251,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Activation frequency"
+					text="보조 대상 스킬의 활성화 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -13261,7 +13261,7 @@ return {
 	},
 	[468]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13269,7 +13269,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills also count as Blessing Skills\nYou can only have one Aura on you from your Blessing Skills"
+					text="보조 대상 스킬을 축복 스킬로 간주\n자신의 축복 스킬로 발생하는 오라는 1개만 보유 가능"
 				}
 			}
 		},
@@ -13279,7 +13279,7 @@ return {
 	},
 	[469]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13287,7 +13287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your Non-Blessing Skills which Reserve Mana are Disabled while you have an Aura from a Supported Skill on you"
+					text="보조 대상 스킬로 발생하는 오라를 보유 중일 때 마나를 점유하는 자신의 비-축복 스킬이 비활성화됨"
 				}
 			}
 		},
@@ -13297,7 +13297,7 @@ return {
 	},
 	[470]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13305,7 +13305,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Buff Effect"
+					text="보조 대상 스킬의 버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13318,7 +13318,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Buff Effect"
+					text="보조 대상 스킬의 버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -13328,7 +13328,7 @@ return {
 	},
 	[471]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13336,7 +13336,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum 1 Summoned Mirage Archer"
+					text="소환된 신기루 궁수 최대 1마리"
 				}
 			}
 		},
@@ -13346,7 +13346,7 @@ return {
 	},
 	[472]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13354,7 +13354,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Cold Damage Converted to Fire Damage"
+					text="보조 대상 스킬이 냉기 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -13364,7 +13364,7 @@ return {
 	},
 	[473]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13372,7 +13372,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills convert {0}% of Physical Damage to a random Element"
+					text="보조 대상 스킬이 물리 피해의 {0}%를 무작위 원소 피해로 전환"
 				}
 			}
 		},
@@ -13382,7 +13382,7 @@ return {
 	},
 	[474]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -13394,7 +13394,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Duration of Supported Skills and Damaging Ailments they inflict"
+					text="보조 대상 스킬의 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13411,7 +13411,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Duration of Supported Skills and Damaging Ailments they inflict"
+					text="보조 대상 스킬의 스킬 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -13421,7 +13421,7 @@ return {
 	},
 	[475]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13429,7 +13429,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Skill Effect Duration"
+					text="보조 대상 스킬의 스킬 효과 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13442,7 +13442,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Skill Effect Duration"
+					text="보조 대상 스킬의 스킬 효과 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -13452,7 +13452,7 @@ return {
 	},
 	[476]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13460,7 +13460,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% increased Skill Effect Duration while Dead"
+					text="죽음 상태에서 보조 대상 스킬의 스킬 효과 지속시간 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13473,7 +13473,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {}% reduced Skill Effect Duration while Dead"
+					text="죽음 상태에서 보조 대상 스킬의 스킬 효과 지속시간 {}% 감소"
 				}
 			}
 		},
@@ -13483,7 +13483,7 @@ return {
 	},
 	[477]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13491,7 +13491,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Physical Damage Converted to Chaos Damage"
+					text="보조 대상 스킬이 물리 피해의 {0}%를 카오스 피해로 전환"
 				}
 			}
 		},
@@ -13501,7 +13501,7 @@ return {
 	},
 	[478]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13513,7 +13513,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Skills have {0}% of Physical Damage Converted to Cold Damage"
+					text="보조 대상 스킬이 물리 피해의 {0}%를 냉기 피해로 전환"
 				}
 			}
 		},
@@ -13524,7 +13524,7 @@ return {
 	},
 	[479]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13532,7 +13532,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Physical Damage Converted to Fire Damage"
+					text="보조 대상 스킬이 물리 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -13542,7 +13542,7 @@ return {
 	},
 	[480]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13550,7 +13550,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% of Physical Damage Converted to Lightning Damage"
+					text="보조 대상 스킬이 {0}%의 물리 피해를 번개 피해로 전환"
 				}
 			}
 		},
@@ -13560,7 +13560,7 @@ return {
 	},
 	[481]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -13576,7 +13576,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{1}% more Damage with Ailments per Snipe Stage"
+					text="저격 단계 하나당 상태 이상 피해 {1}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -13597,7 +13597,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{1}% less Damage with Ailments per Snipe Stage"
+					text="저격 단계 하나당 상태 이상 피해 {1}% 감폭"
 				},
 				[3]={
 					[1]={
@@ -13614,7 +13614,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill's Arrows deal {1}% more Damage with Ailments per Stage"
+					text="단계 하나당 이 스킬의 화살이 주는 상태 이상 피해 {1}% 증폭"
 				},
 				[4]={
 					[1]={
@@ -13635,7 +13635,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill's Arrows deal {1}% less Damage with Ailments per Stage"
+					text="단계 하나당 이 스킬의 화살이 주는 상태 이상 피해 {1}% 감폭"
 				}
 			}
 		},
@@ -13646,7 +13646,7 @@ return {
 	},
 	[482]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13654,7 +13654,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -13667,7 +13667,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -13677,7 +13677,7 @@ return {
 	},
 	[483]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13689,7 +13689,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {1}% more Damage with Hits per Snipe Stage"
+					text="저격 단계 하나당 보조 대상 스킬이 주는 명중 피해 {1}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -13706,7 +13706,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {1}% less Damage with Hits per Snipe Stage"
+					text="저격 단계 하나당 보조 대상 스킬이 주는 명중 피해 {1}% 감폭"
 				},
 				[3]={
 					limit={
@@ -13719,7 +13719,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill's Arrows deal {1}% more Damage with Hits per Stage"
+					text="명중 시 단계 하나당 이 스킬의 화살이 주는 피해 {1}% 증폭"
 				},
 				[4]={
 					[1]={
@@ -13736,7 +13736,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill's Arrows deal {1}% less Damage with Hits per Stage"
+					text="명중 시 단계 하나당 이 스킬의 화살이 주는 피해 {1}% 감폭"
 				}
 			}
 		},
@@ -13747,7 +13747,7 @@ return {
 	},
 	[484]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13755,7 +13755,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Spell Critical Strike Chance"
+					text="보조 대상 스킬의 주문 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13768,7 +13768,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Spell Critical Strike Chance"
+					text="보조 대상 스킬의 주문 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -13778,7 +13778,7 @@ return {
 	},
 	[485]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13786,7 +13786,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13799,7 +13799,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Spell Damage"
+					text="보조 대상 스킬로 주는 주문 피해 {0}% 감소"
 				}
 			}
 		},
@@ -13809,7 +13809,7 @@ return {
 	},
 	[486]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13817,7 +13817,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Final Repeat of Supported Skills has {0}% chance to deal Double Damage"
+					text="보조 대상 스킬을 마지막 반복 시 {0}%의 확률로 2배의 피해를 줌"
 				}
 			}
 		},
@@ -13827,7 +13827,7 @@ return {
 	},
 	[487]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -13839,7 +13839,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Beams Hit Enemies every {0} second"
+					text="광선이 {0}초마다 적 적중"
 				},
 				[2]={
 					[1]={
@@ -13852,7 +13852,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Beams Hit Enemies every {0} seconds"
+					text="광선이 {0}초마다 적 적중"
 				}
 			}
 		},
@@ -13862,7 +13862,7 @@ return {
 	},
 	[488]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13870,7 +13870,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Beam frequency"
+					text="광선 빈도 {0}% 증가"
 				}
 			}
 		},
@@ -13880,7 +13880,7 @@ return {
 	},
 	[489]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13888,7 +13888,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill"
+					text="보조 대상 스킬의 화살로 적 명중 시 해당 스킬을 사용하는 신기루 궁수 한 명 소환"
 				}
 			}
 		},
@@ -13898,7 +13898,7 @@ return {
 	},
 	[490]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13906,7 +13906,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Totem Placement speed"
+					text="보조 대상 스킬의 토템 설치 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -13919,7 +13919,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Totem Placement speed"
+					text="보조 대상 스킬의 토템 설치 속도 {0}% 감소"
 				}
 			}
 		},
@@ -13929,7 +13929,7 @@ return {
 	},
 	[491]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13937,7 +13937,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Non-Instant Skills have {0:+d} Cooldown Use"
+					text="비-즉시 시전 보조 대상 스킬의 재사용 횟수 {0:+d}회"
 				},
 				[2]={
 					limit={
@@ -13946,7 +13946,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Non-Instant Skills have {0:+d} Cooldown Uses"
+					text="비-즉시 시전 보조 대상 스킬의 재사용 횟수 {0:+d}회"
 				}
 			}
 		},
@@ -13956,7 +13956,7 @@ return {
 	},
 	[492]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13964,7 +13964,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to throw an additional Trap"
+					text="보조 대상 스킬이 {0}%의 확률로 덫 1개 추가 투척"
 				}
 			}
 		},
@@ -13974,7 +13974,7 @@ return {
 	},
 	[493]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -13982,7 +13982,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -13995,7 +13995,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -14005,7 +14005,7 @@ return {
 	},
 	[494]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14013,7 +14013,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Seal gain frequency"
+					text="보조 대상 스킬의 봉인 획득 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -14026,7 +14026,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Seal gain frequency"
+					text="보조 대상 스킬의 봉인 획득 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -14036,7 +14036,7 @@ return {
 	},
 	[495]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14044,7 +14044,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Spell Damage while you have Arcane Surge"
+					text="비전 쇄도 상태에서 보조 대상 스킬로 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14057,7 +14057,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Spell Damage while you have Arcane Surge"
+					text="비전 쇄도 상태에서 보조 대상 스킬로 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14067,7 +14067,7 @@ return {
 	},
 	[496]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -14079,7 +14079,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Auras from Supported Skills have a base duration of {0} seconds"
+					text="보조 대상 스킬로 발생하는 오라의 기본 지속시간 {0}초"
 				}
 			}
 		},
@@ -14089,7 +14089,7 @@ return {
 	},
 	[497]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14097,7 +14097,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Time per Projectile"
+					text="투사체 하나당 보조 대상 스킬의 공격 시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14110,7 +14110,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Time per Projectile"
+					text="투사체 하나당 보조 대상 스킬의 공격 시간 {0}% 감폭"
 				}
 			}
 		},
@@ -14120,7 +14120,7 @@ return {
 	},
 	[498]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14128,7 +14128,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Trap and Mine Throwing Time per Projectile"
+					text="투사체 하나당 보조 대상 스킬의 덫 및 지뢰 투척 시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14141,7 +14141,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Trap and Mine Throwing Time per Projectile"
+					text="투사체 하나당 보조 대상 스킬의 덫 및 지뢰 투척 시간 {0}% 감폭"
 				}
 			}
 		},
@@ -14151,7 +14151,7 @@ return {
 	},
 	[499]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14159,7 +14159,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0}% more Damage"
+					text="보조 대상 공격으로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14172,7 +14172,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attacks deal {0}% less Damage"
+					text="보조 대상 공격으로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14182,7 +14182,7 @@ return {
 	},
 	[500]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14190,7 +14190,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have a {0}% chance to Trigger Shockwave on Melee Hit"
+					text="보조 대상 스킬로 근접 명중 시 {0}%의 확률로 충격파 발동"
 				},
 				[2]={
 					limit={
@@ -14199,7 +14199,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills will Trigger Shockwave on Melee Hit"
+					text="보조 대상 스킬로 근접 명중 시 충격파 발동"
 				}
 			}
 		},
@@ -14209,7 +14209,7 @@ return {
 	},
 	[501]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14217,7 +14217,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Cold Damage"
+					text="보조 대상 스킬로 주는 냉기 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14230,7 +14230,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Cold Damage"
+					text="보조 대상 스킬로 주는 냉기 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14240,7 +14240,7 @@ return {
 	},
 	[502]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14248,7 +14248,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14261,7 +14261,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -14271,7 +14271,7 @@ return {
 	},
 	[503]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14279,7 +14279,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14292,7 +14292,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14302,7 +14302,7 @@ return {
 	},
 	[504]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14310,7 +14310,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Burning Damage"
+					text="보조 대상 스킬로 주는 화상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14323,7 +14323,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Burning Damage"
+					text="보조 대상 스킬로 주는 화상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14333,7 +14333,7 @@ return {
 	},
 	[505]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14341,7 +14341,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14354,7 +14354,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Attack Damage"
+					text="보조 대상 스킬로 주는 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14364,7 +14364,7 @@ return {
 	},
 	[506]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -14376,7 +14376,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Triggered Spells have {0}% increased Effect of Non-Damaging Ailments"
+					text="보조 대상 발동형 주문의 비-피해 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -14393,7 +14393,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Triggered Spells have {0}% reduced Effect of Non-Damaging Ailments"
+					text="보조 대상 발동형 주문의 비-피해 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -14403,7 +14403,7 @@ return {
 	},
 	[507]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14411,7 +14411,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attacks deal {0}% more Damage with Bleeding"
+					text="보조 대상 공격으로 주는 출혈 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14424,7 +14424,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attacks deal {0}% less Damage with Bleeding"
+					text="보조 대상 공격으로 주는 출혈 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14434,7 +14434,7 @@ return {
 	},
 	[508]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14442,7 +14442,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14455,7 +14455,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14465,7 +14465,7 @@ return {
 	},
 	[509]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14473,7 +14473,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14486,7 +14486,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14496,7 +14496,7 @@ return {
 	},
 	[510]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14504,7 +14504,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14517,7 +14517,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14527,7 +14527,7 @@ return {
 	},
 	[511]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14535,7 +14535,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14548,7 +14548,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14558,7 +14558,7 @@ return {
 	},
 	[512]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14566,7 +14566,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14579,7 +14579,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14589,7 +14589,7 @@ return {
 	},
 	[513]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14597,7 +14597,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits and Ailments against Enemies on Low Life"
+					text="보조 대상 스킬이 낮은 생명력 상태의 적에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14610,7 +14610,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits and Ailments against Enemies on Low Life"
+					text="보조 대상 스킬이 낮은 생명력 상태의 적에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14620,7 +14620,7 @@ return {
 	},
 	[514]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_0dp",
@@ -14632,7 +14632,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Killing Blows from Supported Strike Skills with Melee Weapons against Rare Monsters grant one of their Modifiers for {0} seconds"
+					text="근접 무기로 보조 대상 타격 스킬을 사용해서 희귀 몬스터를 상대로 최후의 일격 시, 해당 몬스터의 속성 1개를 {0}초 동안 획득"
 				}
 			}
 		},
@@ -14642,7 +14642,7 @@ return {
 	},
 	[515]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14650,7 +14650,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to refresh Duration of granted Modifier by up to 5 seconds when you Hit a Rare or Unique Enemy with Supported Skills"
+					text="보조 대상 스킬로 희귀 또는 고유 적을 명중 시 {0}%의 확률로 획득한 속성의 지속시간 초기화, 최대 5초"
 				}
 			}
 		},
@@ -14660,7 +14660,7 @@ return {
 	},
 	[516]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14668,7 +14668,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14681,7 +14681,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -14691,7 +14691,7 @@ return {
 	},
 	[517]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14699,7 +14699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14712,7 +14712,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14722,7 +14722,7 @@ return {
 	},
 	[518]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14730,7 +14730,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Ailments caused by Melee Hits"
+					text="보조 대상 스킬의 근접 명중이 유발하는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14743,7 +14743,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Ailments caused by Melee Hits"
+					text="보조 대상 스킬의 근접 명중이 유발하는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14753,7 +14753,7 @@ return {
 	},
 	[519]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14761,7 +14761,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Melee Damage"
+					text="보조 대상 스킬로 주는 근접 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14774,7 +14774,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Melee Damage"
+					text="보조 대상 스킬로 주는 근접 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14784,7 +14784,7 @@ return {
 	},
 	[520]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -14796,7 +14796,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Phantasms last {0} seconds"
+					text="{0}초간 환영 지속"
 				}
 			}
 		},
@@ -14806,7 +14806,7 @@ return {
 	},
 	[521]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14814,7 +14814,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14827,7 +14827,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14837,7 +14837,7 @@ return {
 	},
 	[522]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14845,7 +14845,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Cold Damage Over Time"
+					text="보조 대상 스킬로 주는 지속 냉기 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14858,7 +14858,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Cold Damage Over Time"
+					text="보조 대상 스킬로 주는 지속 냉기 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14868,7 +14868,7 @@ return {
 	},
 	[523]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -14880,7 +14880,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits and Ailments against Chilled Enemies"
+					text="보조 대상 스킬의 냉각된 적에 대한 적중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14897,7 +14897,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits and Ailments against Chilled Enemies"
+					text="보조 대상 스킬의 냉각된 적에 대한 적중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14907,7 +14907,7 @@ return {
 	},
 	[524]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14915,7 +14915,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{}% chance to gain Innervation when you Shock a Unique Enemy with Supported Skills"
+					text="보조 대상 스킬로 고유 적 감전 시 {}%의 확률로 신경 자극 획득"
 				},
 				[2]={
 					limit={
@@ -14924,7 +14924,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Innervation when you Shock a Unique Enemy with Supported Skills"
+					text="보조 대상 스킬로 고유 적 감전 시 신경 자극 획득"
 				}
 			}
 		},
@@ -14934,7 +14934,7 @@ return {
 	},
 	[525]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -14950,7 +14950,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Lifetap after Spending a total of {0} Life on Upfront\nCosts and Effects of a Supported Skill"
+					text="보조 대상 스킬의 초기 비용 또는 효과로\n총 {0}의 생명력 소모 시 생명력 전환 획득"
 				}
 			}
 		},
@@ -14960,7 +14960,7 @@ return {
 	},
 	[526]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -14968,7 +14968,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage while you have Lifetap"
+					text="생명력 전환 보유 시 보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -14981,7 +14981,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage while you have Lifetap"
+					text="생명력 전환 보유 시 보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -14991,7 +14991,7 @@ return {
 	},
 	[527]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -15007,7 +15007,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Lifetap lasts {0:+d} seconds"
+					text="생명력 전환 지속시간 {0:+d}초"
 				},
 				[2]={
 					[1]={
@@ -15024,7 +15024,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Lifetap lasts {0} second"
+					text="생명력 전환 {0}초간 지속"
 				},
 				[3]={
 					[1]={
@@ -15041,7 +15041,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Lifetap lasts {0} seconds"
+					text="생명력 전환 {0}초간 지속"
 				}
 			}
 		},
@@ -15052,7 +15052,7 @@ return {
 	},
 	[528]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15060,7 +15060,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Maimed by Supported Skills take {0}% increased Physical Damage"
+					text="보조 대상 스킬로 힘줄 절단된 적이 받는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -15073,7 +15073,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Maimed by Supported Skills take {0}% reduced Physical Damage"
+					text="보조 대상 스킬로 힘줄 절단된 적이 받는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -15083,7 +15083,7 @@ return {
 	},
 	[529]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15091,7 +15091,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15104,7 +15104,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15114,7 +15114,7 @@ return {
 	},
 	[530]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15122,7 +15122,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits and Ailments per 1 Mana Cost"
+					text="마나 소모 1당 보조 대상 스킬이 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -15132,7 +15132,7 @@ return {
 	},
 	[531]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15140,7 +15140,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15153,7 +15153,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -15163,7 +15163,7 @@ return {
 	},
 	[532]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15171,7 +15171,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15184,7 +15184,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15194,7 +15194,7 @@ return {
 	},
 	[533]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15202,7 +15202,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15215,7 +15215,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -15225,7 +15225,7 @@ return {
 	},
 	[534]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15237,7 +15237,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0} to {1} added Fire Damage against Burning Enemies"
+					text="보조 대상 스킬로 화상 상태의 적에게 주는 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -15248,7 +15248,7 @@ return {
 	},
 	[535]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15256,7 +15256,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15269,7 +15269,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15279,7 +15279,7 @@ return {
 	},
 	[536]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15287,7 +15287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% more Maximum Life"
+					text="보조 대상 스킬로 소환된 소환수의 최대 생명력 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15300,7 +15300,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills have {0}% less Maximum Life"
+					text="보조 대상 스킬로 소환된 소환수의 최대 생명력 {0}% 감폭"
 				}
 			}
 		},
@@ -15310,7 +15310,7 @@ return {
 	},
 	[537]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15318,7 +15318,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Damage with Hits and Ailments to Enemies that are Near you"
+					text="보조 대상 스킬로 소환된 소환수가 플레이어 주변의 적에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15331,7 +15331,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Damage with Hits and Ailments to Enemies that are Near you"
+					text="보조 대상 스킬로 소환된 소환수가 플레이어 주변의 적에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15341,7 +15341,7 @@ return {
 	},
 	[538]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15349,7 +15349,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills take {0}% more Damage"
+					text="보조 대상 스킬로 소환된 소환수가 받는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15362,7 +15362,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills take {0}% less Damage"
+					text="보조 대상 스킬로 소환된 소환수가 받는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15372,7 +15372,7 @@ return {
 	},
 	[539]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15380,7 +15380,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0}% increased Critical Strike Chance against the Prey"
+					text="보조 대상 스킬로 소환된 소환수의 사냥감에 대한 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -15393,7 +15393,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills have {0}% reduced Critical Strike Chance against the Prey"
+					text="보조 대상 스킬로 소환된 소환수의 사냥감에 대한 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -15403,7 +15403,7 @@ return {
 	},
 	[540]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15411,7 +15411,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills have {0:+d}% to Critical Strike Multiplier against the Prey"
+					text="보조 대상 스킬로 소환된 소환수의 사냥감에 대한 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -15421,7 +15421,7 @@ return {
 	},
 	[541]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15429,7 +15429,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Damage to the Prey with Hits and Ailments"
+					text="보조 대상 스킬로 소환된 소환수가 사냥감에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15442,7 +15442,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Damage to the Prey with Hits and Ailments"
+					text="보조 대상 스킬로 소환된 소환수가 사냥감에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15452,7 +15452,7 @@ return {
 	},
 	[542]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15460,7 +15460,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Minion maximum Life"
+					text="보조 대상 스킬의 소환수 최대 생명력 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15473,7 +15473,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Minion maximum Life"
+					text="보조 대상 스킬의 소환수 최대 생명력 {0}% 감폭"
 				}
 			}
 		},
@@ -15483,7 +15483,7 @@ return {
 	},
 	[543]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15491,7 +15491,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Damage while you have Feeding Frenzy"
+					text="격분 주입 보유 시, 보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15504,7 +15504,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Damage while you have Feeding Frenzy"
+					text="격분 주입 보유 시, 보조 대상 스킬로 소환된 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15514,7 +15514,7 @@ return {
 	},
 	[544]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15522,7 +15522,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills deal {0}% more Elemental Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15535,7 +15535,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions from Supported Skills deal {0}% less Elemental Damage"
+					text="보조 대상 스킬로 소환된 소환수가 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15545,7 +15545,7 @@ return {
 	},
 	[545]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15553,7 +15553,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills always target the Prey if possible"
+					text="보조 대상 스킬로 소환된 소환수가 항상 사냥감을 대상으로 삼음"
 				}
 			}
 		},
@@ -15563,7 +15563,7 @@ return {
 	},
 	[546]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15571,7 +15571,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mirage Archer uses Supported Skill with {0}% more Attack Speed"
+					text="신기루 궁수가 {0}% 증폭된 공격 속도로 보조 대상 스킬 사용"
 				},
 				[2]={
 					[1]={
@@ -15584,7 +15584,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Mirage Archer uses Supported Skill with {0}% less Attack Speed"
+					text="신기루 궁수의 {0}% 감폭된 공격 속도로 보조 대상 스킬 사용"
 				}
 			}
 		},
@@ -15594,7 +15594,7 @@ return {
 	},
 	[547]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -15606,7 +15606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mirage Archer lasts {0} seconds"
+					text="{0}초간 신기루 궁수 지속"
 				}
 			}
 		},
@@ -15616,7 +15616,7 @@ return {
 	},
 	[548]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15624,7 +15624,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mirage Archer deals {0}% more Damage with Supported Skills"
+					text="신기루 궁수가 보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15637,7 +15637,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Mirage Archer deals {0}% less Damage with Supported Skills"
+					text="신기루 궁수가 보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15647,7 +15647,7 @@ return {
 	},
 	[549]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -15663,7 +15663,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} seconds to time between gaining Momentum while Channelling a Supported Skill"
+					text="보조 대상 스킬을 집중 유지하는 동안 기세 획득 간격 {0:+d}초"
 				},
 				[2]={
 					[1]={
@@ -15680,7 +15680,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain 1 Momentum when you Use a Supported Skill\nGain 1 Momentum every {0} seconds while Channelling a Supported Skill\nLose all Momentum if you Move"
+					text="보조 대상 스킬 사용 시 기세 1 획득\n보조 대상 스킬을 집중 유지하는 동안 {0}초마다 기세 1 획득\n이동 시 모든 기세 상실"
 				}
 			}
 		},
@@ -15691,7 +15691,7 @@ return {
 	},
 	[550]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15699,7 +15699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Attack Speed per Momentum"
+					text="기세 하나당 보조 대상 스킬의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -15712,7 +15712,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Attack Speed per Momentum"
+					text="기세 하나당 보조 대상 스킬의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -15722,7 +15722,7 @@ return {
 	},
 	[551]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -15742,7 +15742,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Swiftness lasts {0:+d} seconds"
+					text="재빠름 지속 시간 {0:+d}초"
 				},
 				[2]={
 					limit={
@@ -15759,7 +15759,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can gain up to {0:+d} Momentum before losing it to gain Swiftness"
+					text="기세를 상실해 재빠름을 획득하기 전까지 획득할 수 있는 기세 최대치 {0:+d}"
 				},
 				[3]={
 					[1]={
@@ -15780,7 +15780,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When you reach {2} Momentum, lose all Momentum and gain\nSwiftness for {0} seconds"
+					text="기세 {2} 도달 시 모든 기세를 상실하고 {0}초 동안\n재빠름 획득"
 				}
 			}
 		},
@@ -15792,7 +15792,7 @@ return {
 	},
 	[552]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15800,7 +15800,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Swiftness grants {0}% increased Movement Speed per Momentum lost"
+					text="재빠름이 상실한 기세 하나당 이동 속도 {0}% 증가 효과 부여"
 				},
 				[2]={
 					[1]={
@@ -15813,7 +15813,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Swiftness grants {0}% reduced Movement Speed per Momentum lost"
+					text="재빠름이 상실한 기세 하나당 이동 속도 {0}% 감소 효과 부여"
 				}
 			}
 		},
@@ -15823,7 +15823,7 @@ return {
 	},
 	[553]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -15839,7 +15839,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills inflict Overpowered for {0} seconds when Blocked"
+					text="보조 대상 스킬이 막혔을 시 {0}초 동안 압도 유발"
 				}
 			}
 		},
@@ -15849,7 +15849,7 @@ return {
 	},
 	[554]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15857,7 +15857,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Supported Skills also fire Projectiles from up to {0} point on each side of you"
+					text="보조 대상 스킬 또한 자신의 양옆 최대 {0}개 지점에서 투사체 발사"
 				},
 				[2]={
 					limit={
@@ -15866,7 +15866,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills also fire Projectiles from up to {0} points on each side of you"
+					text="보조 대상 스킬 또한 자신의 양옆 최대 {0}개 지점에서 투사체 발사"
 				}
 			}
 		},
@@ -15876,7 +15876,7 @@ return {
 	},
 	[555]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15884,7 +15884,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15897,7 +15897,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15907,7 +15907,7 @@ return {
 	},
 	[556]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15915,7 +15915,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Chaos Damage over Time"
+					text="보조 대상 스킬로 주는 지속 카오스 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15928,7 +15928,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Chaos Damage over Time"
+					text="보조 대상 스킬로 주는 지속 카오스 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15938,7 +15938,7 @@ return {
 	},
 	[557]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15946,7 +15946,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Damage over Time"
+					text="보조 대상 스킬로 주는 지속 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15959,7 +15959,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Physical Damage over Time"
+					text="보조 대상 스킬로 주는 지속 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -15969,7 +15969,7 @@ return {
 	},
 	[558]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -15977,7 +15977,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% more Physical Spell Damage"
+					text="보조 대상 스킬의 투사체가 주는 물리 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -15990,7 +15990,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles from Supported Skills deal {0}% less Physical Spell Damage"
+					text="보조 대상 스킬의 투사체가 주는 물리 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16000,7 +16000,7 @@ return {
 	},
 	[559]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16008,7 +16008,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Attack Skills deal {0}% more Damage with Bleeding and Poison caused by Projectile Hits"
+					text="보조 대상 공격 스킬의 투사체 명중으로 인한 출혈 및 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16021,7 +16021,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Attack Skills deal {0}% more Damage with Bleeding and Poison caused by Projectile Hits"
+					text="보조 대상 공격 스킬의 투사체 명중으로 인한 출혈 및 중독 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -16031,7 +16031,7 @@ return {
 	},
 	[560]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16039,7 +16039,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16052,7 +16052,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16062,7 +16062,7 @@ return {
 	},
 	[561]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16070,7 +16070,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage per Power Charge"
+					text="보조 대상 스킬로 주는 권능 충전 하나당 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16083,7 +16083,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage per Power Charge"
+					text="보조 대상 스킬로 주는 권능 충전 하나당 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16093,7 +16093,7 @@ return {
 	},
 	[562]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16101,7 +16101,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Projectile Attack Damage"
+					text="보조 대상 스킬로 주는 물리 투사체 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16114,7 +16114,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Physical Projectile Attack Damage"
+					text="보조 대상 스킬로 주는 물리 투사체 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16124,7 +16124,7 @@ return {
 	},
 	[563]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16132,7 +16132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Projectile Attack Speed"
+					text="보조 대상 스킬의 투사체 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16145,7 +16145,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Projectile Attack Speed"
+					text="보조 대상 스킬의 투사체 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -16155,7 +16155,7 @@ return {
 	},
 	[564]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16163,7 +16163,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16176,7 +16176,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -16186,7 +16186,7 @@ return {
 	},
 	[565]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16194,7 +16194,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16207,7 +16207,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Attack Speed"
+					text="보조 대상 스킬의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -16217,7 +16217,7 @@ return {
 	},
 	[566]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16225,7 +16225,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Melee Area Damage"
+					text="보조 대상 스킬로 주는 근접 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16238,7 +16238,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Melee Area Damage"
+					text="보조 대상 스킬로 주는 근접 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16248,7 +16248,7 @@ return {
 	},
 	[567]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16256,7 +16256,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16269,7 +16269,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16279,7 +16279,7 @@ return {
 	},
 	[568]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16287,7 +16287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Shock Enemies as though dealing {0}% more Damage"
+					text="보조 대상 스킬이 {0}% 증폭된 피해를 준 것처럼 적에게 감전 유발"
 				},
 				[2]={
 					[1]={
@@ -16300,7 +16300,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills Shock Enemies as though dealing {0}% less Damage"
+					text="보조 대상 스킬이 {0}% 감폭된 피해를 준 것처럼 적에게 감전 유발"
 				}
 			}
 		},
@@ -16310,7 +16310,7 @@ return {
 	},
 	[569]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16318,7 +16318,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16331,7 +16331,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16341,7 +16341,7 @@ return {
 	},
 	[570]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -16357,7 +16357,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills grant 1 Rage on Melee Hit, no more than once every {0} seconds"
+					text="보조 대상 스킬이 근접 명중 시 격노 1 획득, {0}초마다 최대 1번 획득"
 				}
 			}
 		},
@@ -16367,7 +16367,7 @@ return {
 	},
 	[571]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16375,7 +16375,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Activation frequency"
+					text="보조 대상 스킬의 활성화 빈도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16388,7 +16388,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Activation frequency"
+					text="보조 대상 스킬의 활성화 빈도 {0}% 감폭"
 				}
 			}
 		},
@@ -16398,7 +16398,7 @@ return {
 	},
 	[572]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16406,7 +16406,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have -{0}% chance to Block Attack or Spell Damage from Supported Skills"
+					text="적이 -{0}%의 확률로 보조 대상 스킬의 공격 또는 주문 피해를 막아냄"
 				}
 			}
 		},
@@ -16416,7 +16416,7 @@ return {
 	},
 	[573]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16424,7 +16424,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Critical Strike Chance per Inspiration Charge"
+					text="영감 충전 하나당 보조 대상 스킬의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -16437,7 +16437,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Critical Strike Chance per Inspiration Charge"
+					text="영감 충전 하나당 보조 대상 스킬의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -16447,7 +16447,7 @@ return {
 	},
 	[574]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16455,7 +16455,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Elemental Damage per Inspiration Charge"
+					text="영감 충전 하나당 보조 대상 스킬로 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16468,7 +16468,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Elemental Damage per Inspiration Charge"
+					text="영감 충전 하나당 보조 대상 스킬로 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16478,7 +16478,7 @@ return {
 	},
 	[575]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -16490,7 +16490,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Lose all Inspiration Charges after Spending a total of {0} Mana on Upfront Costs and Effects of Supported Skills"
+					text="보조 대상 스킬의 초기 비용 또는 효과로 총 {0}의 마나 소모 시 모든 영감 충전 상실"
 				}
 			}
 		},
@@ -16500,7 +16500,7 @@ return {
 	},
 	[576]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -16512,7 +16512,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have a Base Mine Detonation Time of {0} seconds"
+					text="보조 대상 스킬의 기본 지뢰 폭파 시간 {0}초"
 				}
 			}
 		},
@@ -16522,7 +16522,7 @@ return {
 	},
 	[577]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16530,7 +16530,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16543,7 +16543,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16553,7 +16553,7 @@ return {
 	},
 	[578]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16561,7 +16561,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage for each prior Mine in Detonation Sequence"
+					text="연쇄 폭발 시 보조 대상 스킬이 주는 피해가 먼저 폭발한 지뢰 1개당 {0}%만큼 증폭"
 				},
 				[2]={
 					[1]={
@@ -16574,7 +16574,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage for each prior Mine in Detonation Sequence"
+					text="연쇄 폭발 시 보조 대상 스킬이 주는 피해가 먼저 폭발한 지뢰 1개당 {0}%만큼 감폭"
 				}
 			}
 		},
@@ -16584,7 +16584,7 @@ return {
 	},
 	[579]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16592,7 +16592,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Mine Damage with Hits"
+					text="보조 대상의 스킬 명중 시 지뢰 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16605,7 +16605,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Mine Damage with Hits"
+					text="보조 대상의 스킬 명중 시 지뢰 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16615,7 +16615,7 @@ return {
 	},
 	[580]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -16627,7 +16627,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Onslaught duration"
+					text="맹공 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -16644,7 +16644,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Onslaught duration"
+					text="맹공 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -16654,7 +16654,7 @@ return {
 	},
 	[581]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -16670,7 +16670,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to grant Onslaught for 3 seconds when\nyou Hit a Unique Enemy"
+					text="플레이어가 고유 적 명중 시 보조 대상 스킬이 {0}%의 확률로 3초 동안 지속되는 맹공 획득"
 				}
 			}
 		},
@@ -16681,7 +16681,7 @@ return {
 	},
 	[582]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -16705,7 +16705,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% chance to grant Onslaught for {1} seconds on\ndealing a Killing Blow"
+					text="보조 대상 스킬로 최후의 일격 시 {0}%의 확률로\n{1}초 동안 맹공 획득"
 				}
 			}
 		},
@@ -16717,7 +16717,7 @@ return {
 	},
 	[583]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -16729,7 +16729,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Supported Skills grant Combat Rush on Hit\nCombat Rush lasts {0} second or until you use a Travel Skill"
+					text="보조 대상 스킬 명중 시 전투 돌격 획득\n전투 돌격은 {0}초 혹은 이동 전용 스킬을 쓰기 전까지 지속"
 				},
 				[2]={
 					[1]={
@@ -16742,7 +16742,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills grant Combat Rush on Hit\nCombat Rush lasts {0} seconds or until you use a Travel Skill"
+					text="보조 대상 스킬 명중 시 전투 돌격 획득\n전투 돌격은 {0}초 혹은 이동 전용 스킬을 쓰기 전까지 지속"
 				}
 			}
 		},
@@ -16752,7 +16752,7 @@ return {
 	},
 	[584]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16760,7 +16760,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Combat Rush grants {0}% more Attack Speed to Travel Skills not Supported by Close Combat"
+					text="전투 돌격이 근접 전투의 보조를 받지 않는 이동 전용 스킬의 공격 속도를 {0}% 증폭시킴"
 				},
 				[2]={
 					[1]={
@@ -16773,7 +16773,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Combat Rush grants {0}% less Attack Speed to Travel Skills not Supported by Close Combat"
+					text="전투 돌격이 근접 전투의 보조를 받지 않는 이동 전용 스킬의 공격 속도를 {0}% 감폭시킴"
 				}
 			}
 		},
@@ -16783,7 +16783,7 @@ return {
 	},
 	[585]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16791,7 +16791,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16804,7 +16804,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Projectile Damage"
+					text="보조 대상 스킬로 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16814,7 +16814,7 @@ return {
 	},
 	[586]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16826,7 +16826,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills deal {0}% more Area Damage with Hits per Intensity\nSupported Skills have {1}% more Area of Effect per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬의 명중 시 범위 피해 {0}% 증폭\n격렬함 하나당 보조 대상 스킬의 효과 범위 {1}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16843,7 +16843,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills deal {0}% less Area Damage with Hits per Intensity\nSupported Skills have {1}% more Area of Effect per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬의 명중 시 범위 피해 {0}% 감폭\n격렬함 하나당 보조 대상 스킬의 효과 범위 {1}% 증폭"
 				},
 				[3]={
 					[1]={
@@ -16860,7 +16860,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills deal {0}% more Area Damage with Hits per Intensity\nSupported Skills have {1}% less Area of Effect per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬의 명중 시 범위 피해 {0}% 증폭\n격렬함 하나당 보조 대상 스킬의 효과 범위 {1}% 감폭"
 				},
 				[4]={
 					[1]={
@@ -16881,7 +16881,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Spells gain Intensity when you Cast them, to a maximum of 3\nSupported Skills deal {0}% less Area Damage with Hits per Intensity\nSupported Skills have {1}% less Area of Effect per Intensity"
+					text="보조 대상 주문 시전 시 격렬함 획득, 최대 3 획득\n격렬함 하나당 보조 대상 스킬의 명중 시 범위 피해 {0}% 감폭\n격렬함 하나당 보조 대상 스킬의 효과 범위 {1}% 감폭"
 				}
 			}
 		},
@@ -16892,7 +16892,7 @@ return {
 	},
 	[587]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16900,7 +16900,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased delay between affected Areas"
+					text="보조 대상 스킬의 영향 범위 사이의 지연시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -16913,7 +16913,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced delay between affected Areas"
+					text="보조 대상 스킬의 영향 범위 사이의 지연시간 {0}% 감소"
 				}
 			}
 		},
@@ -16923,7 +16923,7 @@ return {
 	},
 	[588]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16931,7 +16931,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16944,7 +16944,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Area of Effect"
+					text="보조 대상 스킬의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -16954,7 +16954,7 @@ return {
 	},
 	[589]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16962,7 +16962,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -16975,7 +16975,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -16985,7 +16985,7 @@ return {
 	},
 	[590]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16997,7 +16997,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Area of Effect Skills also affect areas in front of and behind the targeted area"
+					text="보조 대상 효과 범위 스킬이 목표 지역의 앞뒤 지역에도 영향을 미침"
 				},
 				[2]={
 					limit={
@@ -17010,7 +17010,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Supported Area of Effect Skills also affect areas in front of, behind,\nand on each side of the targeted area"
+					text="보조 대상 효과 범위 스킬이 목표 지역의\n앞뒤 및 양옆 지역에도 영향을 미침"
 				}
 			}
 		},
@@ -17021,7 +17021,7 @@ return {
 	},
 	[591]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17029,7 +17029,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Final Repeat of Supported Skills deals {0}% more Damage"
+					text="보조 대상 스킬 마지막 반복 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17042,7 +17042,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Final Repeat of Supported Skills deals {0}% less Damage"
+					text="보조 대상 스킬 마지막 반복 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17052,7 +17052,7 @@ return {
 	},
 	[592]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17060,7 +17060,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Hits and Ailments"
+					text="보조 대상 스킬이 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17073,7 +17073,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Hits and Ailments"
+					text="보조 대상 스킬이 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17083,7 +17083,7 @@ return {
 	},
 	[593]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17091,7 +17091,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17104,7 +17104,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17114,7 +17114,7 @@ return {
 	},
 	[594]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -17126,7 +17126,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Infusion lasts {0} second after you finish Channelling"
+					text="집중 유지를 끝낸 후 {0}초간 주입 지속"
 				},
 				[2]={
 					[1]={
@@ -17139,7 +17139,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Infusion lasts {0} seconds after you finish Channelling"
+					text="집중 유지를 끝낸 후 {0}초간 주입 지속"
 				}
 			}
 		},
@@ -17149,7 +17149,7 @@ return {
 	},
 	[595]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -17161,7 +17161,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Gain Infusion after Channelling a Supported Skill for {0} second"
+					text="{0}초 동안 보조 대상 스킬을 집중 유지한 후 주입 획득"
 				},
 				[2]={
 					[1]={
@@ -17174,7 +17174,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Infusion after Channelling a Supported Skill for {0} seconds"
+					text="{0}초 동안 보조 대상 스킬을 집중 유지한 후 주입 획득"
 				}
 			}
 		},
@@ -17184,7 +17184,7 @@ return {
 	},
 	[596]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17192,7 +17192,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17205,7 +17205,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage"
+					text="보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17215,7 +17215,7 @@ return {
 	},
 	[597]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17223,7 +17223,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="While Channelling Supported Skills, take {0}% more Physical Damage from Hits"
+					text="보조 대상 스킬을 집중 유지하는 동안 피격 시 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17236,7 +17236,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="While Channelling Supported Skills, take {0}% less Physical Damage from Hits"
+					text="보조 대상 스킬을 집중 유지하는 동안 피격 시 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17246,7 +17246,7 @@ return {
 	},
 	[598]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17258,7 +17258,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Infusion grants {0}% more Damage of Types matching Supported Skill Gem's tags"
+					text="주입 적용 시 보조 대상 스킬 젬의 태그와 같은 유형 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17275,7 +17275,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Infusion grants {0}% less Damage of Types matching Supported Skill Gem's tags"
+					text="주입 적용 시 보조 대상 스킬 젬의 태그와 같은 유형 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17285,7 +17285,7 @@ return {
 	},
 	[599]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="negate",
@@ -17301,7 +17301,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="While Channelling a Supported Skill, take {0}% less Damage from Hits of types matching the Skill Gem's Tags"
+					text="보조 대상 스킬을 집중 유지하는 동안, 보조 대상 스킬 젬의 태그와 같은 유형 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17311,7 +17311,7 @@ return {
 	},
 	[600]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17323,7 +17323,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Duration of Supported Skills and Damaging Ailments they inflict"
+					text="보조 대상 스킬의 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17340,7 +17340,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Duration of Supported Skills and Damaging Ailments they inflict"
+					text="보조 대상 스킬의 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -17350,7 +17350,7 @@ return {
 	},
 	[601]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17358,7 +17358,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17371,7 +17371,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Mine Throwing Speed"
+					text="보조 대상 스킬의 지뢰 투척 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -17381,7 +17381,7 @@ return {
 	},
 	[602]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17389,7 +17389,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% more Trap Throwing Speed"
+					text="보조 대상 스킬의 덫 투척 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17402,7 +17402,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% less Trap Throwing Speed"
+					text="보조 대상 스킬의 덫 투척 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -17412,7 +17412,7 @@ return {
 	},
 	[603]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17420,7 +17420,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Trap Damage with Hits"
+					text="보조 대상 스킬의 명중 시 덫 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17433,7 +17433,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Trap Damage with Hits"
+					text="보조 대상 스킬의 명중 시 덫 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17443,7 +17443,7 @@ return {
 	},
 	[604]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17455,7 +17455,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17472,7 +17472,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage with Ailments"
+					text="보조 대상 스킬로 주는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17482,7 +17482,7 @@ return {
 	},
 	[605]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17490,7 +17490,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17503,7 +17503,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Physical Damage"
+					text="보조 대상 스킬로 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17513,7 +17513,7 @@ return {
 	},
 	[606]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17521,7 +17521,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -17534,7 +17534,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Chaos Damage"
+					text="보조 대상 스킬로 주는 카오스 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -17544,7 +17544,7 @@ return {
 	},
 	[607]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17552,7 +17552,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Chaos Skill Gems"
+					text="보조 대상 카오스 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17562,7 +17562,7 @@ return {
 	},
 	[608]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17570,7 +17570,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Curse Skill Gems"
+					text="보조 대상 저주 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17580,7 +17580,7 @@ return {
 	},
 	[609]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17588,7 +17588,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Elemental Skill Gems"
+					text="보조 대상 원소 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17598,7 +17598,7 @@ return {
 	},
 	[610]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17606,7 +17606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Minion Skill Gems"
+					text="보조 대상 소환수 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17616,7 +17616,7 @@ return {
 	},
 	[611]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17624,7 +17624,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Physical Skill Gems"
+					text="보조 대상 물리 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17634,7 +17634,7 @@ return {
 	},
 	[612]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17642,7 +17642,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can only be used with Axes or Swords"
+					text="도끼나 검으로만 보조 대상 스킬 사용 가능"
 				}
 			}
 		},
@@ -17652,7 +17652,7 @@ return {
 	},
 	[613]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17660,7 +17660,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can only be used with Bows"
+					text="활로만 보조 대상 스킬 사용 가능"
 				}
 			}
 		},
@@ -17670,7 +17670,7 @@ return {
 	},
 	[614]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17682,7 +17682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can only be used with Claws or Daggers"
+					text="클로나 단검으로만 보조 대상 스킬 사용 가능"
 				}
 			}
 		},
@@ -17692,7 +17692,7 @@ return {
 	},
 	[615]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17704,7 +17704,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can only be used with Maces, Sceptres or Staves"
+					text="철퇴, 셉터나 지팡이로만 보조 대상 스킬 사용 가능"
 				}
 			}
 		},
@@ -17714,7 +17714,7 @@ return {
 	},
 	[616]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17722,7 +17722,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills can only be used with Bows or Wands"
+					text="활이나 마법봉으로만 보조 대상 스킬 사용 가능"
 				}
 			}
 		},
@@ -17732,7 +17732,7 @@ return {
 	},
 	[617]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17740,7 +17740,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Level of Supported Strike Skill Gems"
+					text="보조 대상 타격 스킬 젬 레벨 {0:+d}"
 				}
 			}
 		},
@@ -17750,7 +17750,7 @@ return {
 	},
 	[618]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -17762,7 +17762,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Deals Damage every {0} second"
+					text="{0}초마다 피해 줌"
 				},
 				[2]={
 					[1]={
@@ -17775,7 +17775,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals Damage every {0} seconds"
+					text="{0}초마다 피해 줌"
 				}
 			}
 		},
@@ -17785,7 +17785,7 @@ return {
 	},
 	[619]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -17797,7 +17797,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hexes from Supported Skills Transfer to all Enemies in a range of 30 when Hexed Enemy dies"
+					text="사술에 걸린 적 사망 시 보조 대상 스킬로 건 사술이 범위 30 내의 모든 적에게 전이"
 				}
 			}
 		},
@@ -17807,7 +17807,7 @@ return {
 	},
 	[620]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17815,7 +17815,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0:+d}% to Critical Strike Multiplier per Power Charge when used by Traps"
+					text="덫 설치 시 보조 대상 스킬의 권능 충전 하나당 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -17825,7 +17825,7 @@ return {
 	},
 	[621]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17833,7 +17833,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Trap Damage"
+					text="보조 대상 스킬로 주는 덫 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -17846,7 +17846,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Trap Damage"
+					text="보조 대상 스킬로 주는 덫 피해 {0}% 감소"
 				}
 			}
 		},
@@ -17856,7 +17856,7 @@ return {
 	},
 	[622]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17864,7 +17864,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Trap Spread"
+					text="보조 대상 스킬의 덫 확산 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -17877,7 +17877,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Trap Spread"
+					text="보조 대상 스킬의 덫 확산 {0}% 감소"
 				}
 			}
 		},
@@ -17887,7 +17887,7 @@ return {
 	},
 	[623]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17895,7 +17895,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Trap Throwing Speed"
+					text="보조 대상 스킬의 덫 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -17908,7 +17908,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Trap Throwing Speed"
+					text="보조 대상 스킬의 덫 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -17918,7 +17918,7 @@ return {
 	},
 	[624]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17926,7 +17926,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Trap Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬의 덫 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -17939,7 +17939,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Trap Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 보조 대상 스킬의 덫 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -17949,7 +17949,7 @@ return {
 	},
 	[625]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17957,7 +17957,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Trap Trigger Area of Effect"
+					text="보조 대상 스킬의 덫 발동 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -17970,7 +17970,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Trap Trigger Area of Effect"
+					text="보조 대상 스킬의 덫 발동 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -17980,7 +17980,7 @@ return {
 	},
 	[626]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -17988,7 +17988,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {}% increased Trap Trigger Radius per Power Charge"
+					text="권능 충전 하나당 보조 대상 스킬의 덫 발동 반경 {}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18001,7 +18001,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {}% reduced Trap Trigger Radius per Power Charge"
+					text="권능 충전 하나당 보조 대상 스킬의 덫 발동 반경 {}% 감소"
 				}
 			}
 		},
@@ -18011,7 +18011,7 @@ return {
 	},
 	[627]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18019,7 +18019,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Deal {0}% more Damage with Hits against Branded Enemy"
+					text="보조 대상 스킬로 낙인이 부착된 적 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -18032,7 +18032,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills Deal {0}% less Damage with Hits against Branded Enemy"
+					text="보조 대상 스킬로 낙인이 부착된 적 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -18042,7 +18042,7 @@ return {
 	},
 	[628]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18050,7 +18050,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Trigger Supported Skill when you Hit a Rare or Unique Enemy with an Attack"
+					text="공격으로 희귀 또는 고유 적 명중 시 보조 대상 스킬 발동"
 				}
 			}
 		},
@@ -18060,7 +18060,7 @@ return {
 	},
 	[629]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18068,7 +18068,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells are Triggered by Intuitive Link"
+					text="보조 대상 주문이 직관의 연결에 의해 발동"
 				}
 			}
 		},
@@ -18078,7 +18078,7 @@ return {
 	},
 	[630]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18086,7 +18086,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Supported Skills have a {0}% chance to Trigger Prismatic Burst on Hit"
+					text="보조 대상 스킬로 명중 시 {0}%의 확률로 분광 격발 발동"
 				},
 				[2]={
 					limit={
@@ -18095,7 +18095,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills will Trigger Prismatic Burst on Hit"
+					text="보조 대상 스킬로 명중 시 분광 격발 발동"
 				}
 			}
 		},
@@ -18105,7 +18105,7 @@ return {
 	},
 	[631]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18113,7 +18113,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills are Triggered by Arcanist Brand, from the Brand's location"
+					text="신비학자 낙인이 낙인 위치에서 보조 대상 스킬 발동"
 				}
 			}
 		},
@@ -18123,7 +18123,7 @@ return {
 	},
 	[632]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18131,7 +18131,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells are Triggered by Attacks Exerted by Battlemage's Cry"
+					text="보조 대상 주문이 전투마법사의 함성으로 인한 전력 공격에 의해 발동"
 				}
 			}
 		},
@@ -18141,7 +18141,7 @@ return {
 	},
 	[633]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18153,7 +18153,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{1:+d}% of Mana Cost required to be Spent before Triggering"
+					text="발동될 때까지 소모해야 하는 마나의 양 {1:+d}%"
 				},
 				[2]={
 					limit={
@@ -18166,7 +18166,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills Trigger once total Mana Spent on other Bow\nAttacks exceeds {1}% of their Mana Cost"
+					text="다른 활 공격으로 소모한 마나의 총량이\n보조 대상 스킬 마나 소모량의 {1}%를 초과하면 보조 대상 스킬 발동"
 				}
 			}
 		},
@@ -18177,7 +18177,7 @@ return {
 	},
 	[634]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18185,7 +18185,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills are used by Mirage Warriors Summoned by General's Cry\nSupported Skills count as Triggered"
+					text="장군의 함성으로 소환된 신기루 전사가 보조 대상 스킬 사용\n보조 대상 스킬을 발동형으로 간주"
 				}
 			}
 		},
@@ -18195,7 +18195,7 @@ return {
 	},
 	[635]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18203,7 +18203,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Triggered Spells deal {0}% increased Damage"
+					text="보조 대상 발동형 주문으로 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18216,7 +18216,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Triggered Spells deal {0}% reduced Damage"
+					text="보조 대상 발동형 주문으로 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -18226,7 +18226,7 @@ return {
 	},
 	[636]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18234,7 +18234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Seal gain frequency while you are Channelling"
+					text="집중 유지하는 동안 보조 대상 스킬의 봉인 획득 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18247,7 +18247,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Seal gain frequency while you are Channelling"
+					text="집중 유지하는 동안 보조 대상 스킬의 봉인 획득 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -18257,7 +18257,7 @@ return {
 	},
 	[637]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18265,7 +18265,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Seal gain frequency while you are not Channelling"
+					text="집중 유지를 하지 않는 동안 보조 대상 스킬의 봉인 획득 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18278,7 +18278,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Seal gain frequency while you are not Channelling"
+					text="집중 유지를 하지 않는 동안 보조 대상 스킬의 봉인 획득 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -18288,7 +18288,7 @@ return {
 	},
 	[638]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18296,7 +18296,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have {0}% increased Warcry Speed"
+					text="보조 대상 스킬의 함성 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18309,7 +18309,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills have {0}% reduced Warcry Speed"
+					text="보조 대상 스킬의 함성 속도 {0}% 감소"
 				}
 			}
 		},
@@ -18319,7 +18319,7 @@ return {
 	},
 	[639]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18327,7 +18327,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% increased Elemental Damage with Weapons"
+					text="무기 사용 시 보조 대상 스킬로 주는 원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18340,7 +18340,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% reduced Elemental Damage with Weapons"
+					text="무기 사용 시 보조 대상 스킬로 주는 원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -18350,7 +18350,7 @@ return {
 	},
 	[640]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18358,7 +18358,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have a {0}% chance to apply an additional Withered Debuff when inflicting Withered"
+					text="위축 유발 시 보조 대상 스킬이 {0}%의 확률로 위축 디버프 1회 추가 적용"
 				}
 			}
 		},
@@ -18368,7 +18368,7 @@ return {
 	},
 	[641]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18376,7 +18376,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and Enemies have {0}% increased Movement Speed while inflicted with an Ailment from Supported Skills"
+					text="보조 대상 스킬의 상태 이상 효과를 받는 동안 자신 및 적의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -18389,7 +18389,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and Enemies have {0}% reduced Movement Speed while inflicted with an Ailment from Supported Skills"
+					text="보조 대상 스킬의 상태 이상 효과를 받는 동안 자신 및 적의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -18399,7 +18399,7 @@ return {
 	},
 	[642]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -18427,7 +18427,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Spells gain a Seal every {0} seconds, to a maximum of {2} Seals\nSupported Spells are Unsealed when cast, and their effects Reoccur for each Seal lost"
+					text="보조 대상 주문이 {0}초마다 최대 봉인 {2}개 획득\n보조 대상 주문 시전 시 봉인이 해제되고, 해제되는 봉인 하나당 주문 효과 발생"
 				}
 			}
 		},
@@ -18440,7 +18440,7 @@ return {
 	},
 	[643]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18448,7 +18448,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills deal {0}% more Damage when Reoccurring"
+					text="재발생 시 보조 대상 스킬로 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -18461,7 +18461,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Supported Skills deal {0}% less Damage when Reoccurring"
+					text="재발생 시 보조 대상 스킬로 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -18471,7 +18471,7 @@ return {
 	},
 	[644]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -18479,7 +18479,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Each Mine from Supported Skills applies {0}% chance to deal Double Damage to Hits against Enemies near it, up to a maximum of 100%"
+					text="주변의 적 명중 시 보조 대상 스킬로 생성된 지뢰 하나당 {0}%의 확률로 2배의 피해를 줌, 최대 100%"
 				}
 			}
 		},
@@ -18489,7 +18489,7 @@ return {
 	},
 	[645]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -18501,7 +18501,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills are Aggressive"
+					text="보조 대상 스킬로 소환된 소환수가 공격적으로 행동"
 				}
 			}
 		},
@@ -18511,7 +18511,7 @@ return {
 	},
 	[646]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -18523,7 +18523,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions from Supported Skills are Defensive"
+					text="보조 대상 스킬로 소환된 소환수가 방어적으로 행동"
 				}
 			}
 		},

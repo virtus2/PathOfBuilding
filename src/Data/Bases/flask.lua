@@ -2,7 +2,7 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Small Life Flask"] = {
+itemBases["소형 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -10,7 +10,7 @@ itemBases["Small Life Flask"] = {
 	flask = { life = 70, duration = 3, chargesUsed = 7, chargesMax = 21, },
 	req = { },
 }
-itemBases["Medium Life Flask"] = {
+itemBases["중형 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -18,7 +18,7 @@ itemBases["Medium Life Flask"] = {
 	flask = { life = 150, duration = 3.5, chargesUsed = 8, chargesMax = 28, },
 	req = { level = 3, },
 }
-itemBases["Large Life Flask"] = {
+itemBases["대형 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -26,7 +26,7 @@ itemBases["Large Life Flask"] = {
 	flask = { life = 250, duration = 3.5, chargesUsed = 9, chargesMax = 30, },
 	req = { level = 6, },
 }
-itemBases["Greater Life Flask"] = {
+itemBases["대용량 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -34,7 +34,7 @@ itemBases["Greater Life Flask"] = {
 	flask = { life = 360, duration = 3.5, chargesUsed = 10, chargesMax = 32, },
 	req = { level = 12, },
 }
-itemBases["Grand Life Flask"] = {
+itemBases["거대 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -42,7 +42,7 @@ itemBases["Grand Life Flask"] = {
 	flask = { life = 640, duration = 3, chargesUsed = 10, chargesMax = 25, },
 	req = { level = 18, },
 }
-itemBases["Giant Life Flask"] = {
+itemBases["초거대 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -50,7 +50,7 @@ itemBases["Giant Life Flask"] = {
 	flask = { life = 830, duration = 4, chargesUsed = 10, chargesMax = 30, },
 	req = { level = 24, },
 }
-itemBases["Colossal Life Flask"] = {
+itemBases["초대형 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -58,7 +58,7 @@ itemBases["Colossal Life Flask"] = {
 	flask = { life = 1000, duration = 3.5, chargesUsed = 10, chargesMax = 32, },
 	req = { level = 30, },
 }
-itemBases["Sacred Life Flask"] = {
+itemBases["성스러운 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -66,7 +66,7 @@ itemBases["Sacred Life Flask"] = {
 	flask = { life = 1200, duration = 3, chargesUsed = 10, chargesMax = 25, },
 	req = { level = 36, },
 }
-itemBases["Hallowed Life Flask"] = {
+itemBases["거룩한 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -74,7 +74,7 @@ itemBases["Hallowed Life Flask"] = {
 	flask = { life = 1990, duration = 4, chargesUsed = 10, chargesMax = 30, },
 	req = { level = 42, },
 }
-itemBases["Sanctified Life Flask"] = {
+itemBases["축성된 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, life_flask = true, default = true, },
@@ -82,7 +82,7 @@ itemBases["Sanctified Life Flask"] = {
 	flask = { life = 1460, duration = 1.5, chargesUsed = 15, chargesMax = 30, },
 	req = { level = 50, },
 }
-itemBases["Divine Life Flask"] = {
+itemBases["신성한 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, not_for_sale = true, life_flask = true, default = true, },
@@ -90,7 +90,7 @@ itemBases["Divine Life Flask"] = {
 	flask = { life = 2400, duration = 3.5, chargesUsed = 15, chargesMax = 45, },
 	req = { level = 60, },
 }
-itemBases["Eternal Life Flask"] = {
+itemBases["영원의 생명력 플라스크"] = {
 	type = "Flask",
 	subType = "Life",
 	tags = { flask = true, not_for_sale = true, life_flask = true, default = true, },
@@ -99,7 +99,7 @@ itemBases["Eternal Life Flask"] = {
 	req = { level = 65, },
 }
 
-itemBases["Small Mana Flask"] = {
+itemBases["소형 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -107,7 +107,7 @@ itemBases["Small Mana Flask"] = {
 	flask = { mana = 50, duration = 3, chargesUsed = 6, chargesMax = 24, },
 	req = { },
 }
-itemBases["Medium Mana Flask"] = {
+itemBases["중형 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -115,7 +115,7 @@ itemBases["Medium Mana Flask"] = {
 	flask = { mana = 70, duration = 3.5, chargesUsed = 7, chargesMax = 30, },
 	req = { level = 3, },
 }
-itemBases["Large Mana Flask"] = {
+itemBases["대형 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -123,7 +123,7 @@ itemBases["Large Mana Flask"] = {
 	flask = { mana = 90, duration = 4, chargesUsed = 8, chargesMax = 35, },
 	req = { level = 6, },
 }
-itemBases["Greater Mana Flask"] = {
+itemBases["대용량 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -131,7 +131,7 @@ itemBases["Greater Mana Flask"] = {
 	flask = { mana = 120, duration = 4, chargesUsed = 9, chargesMax = 36, },
 	req = { level = 12, },
 }
-itemBases["Grand Mana Flask"] = {
+itemBases["거대 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -139,7 +139,7 @@ itemBases["Grand Mana Flask"] = {
 	flask = { mana = 170, duration = 4.5, chargesUsed = 7, chargesMax = 30, },
 	req = { level = 18, },
 }
-itemBases["Giant Mana Flask"] = {
+itemBases["초거대 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -147,7 +147,7 @@ itemBases["Giant Mana Flask"] = {
 	flask = { mana = 250, duration = 5, chargesUsed = 8, chargesMax = 36, },
 	req = { level = 24, },
 }
-itemBases["Colossal Mana Flask"] = {
+itemBases["초대형 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -155,7 +155,7 @@ itemBases["Colossal Mana Flask"] = {
 	flask = { mana = 350, duration = 5, chargesUsed = 8, chargesMax = 38, },
 	req = { level = 30, },
 }
-itemBases["Sacred Mana Flask"] = {
+itemBases["성스러운 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -163,7 +163,7 @@ itemBases["Sacred Mana Flask"] = {
 	flask = { mana = 480, duration = 5.5, chargesUsed = 7, chargesMax = 35, },
 	req = { level = 36, },
 }
-itemBases["Hallowed Mana Flask"] = {
+itemBases["거룩한 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -171,7 +171,7 @@ itemBases["Hallowed Mana Flask"] = {
 	flask = { mana = 700, duration = 6, chargesUsed = 6, chargesMax = 30, },
 	req = { level = 42, },
 }
-itemBases["Sanctified Mana Flask"] = {
+itemBases["축성된 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, mana_flask = true, default = true, },
@@ -179,7 +179,7 @@ itemBases["Sanctified Mana Flask"] = {
 	flask = { mana = 1100, duration = 6.5, chargesUsed = 7, chargesMax = 35, },
 	req = { level = 50, },
 }
-itemBases["Divine Mana Flask"] = {
+itemBases["신성한 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, not_for_sale = true, mana_flask = true, default = true, },
@@ -187,7 +187,7 @@ itemBases["Divine Mana Flask"] = {
 	flask = { mana = 1400, duration = 5, chargesUsed = 8, chargesMax = 42, },
 	req = { level = 60, },
 }
-itemBases["Eternal Mana Flask"] = {
+itemBases["영원의 마나 플라스크"] = {
 	type = "Flask",
 	subType = "Mana",
 	tags = { flask = true, not_for_sale = true, mana_flask = true, default = true, },
@@ -196,7 +196,7 @@ itemBases["Eternal Mana Flask"] = {
 	req = { level = 65, },
 }
 
-itemBases["Small Hybrid Flask"] = {
+itemBases["소형 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, default = true, },
@@ -204,7 +204,7 @@ itemBases["Small Hybrid Flask"] = {
 	flask = { life = 100, mana = 70, duration = 5, chargesUsed = 20, chargesMax = 40, },
 	req = { level = 10, },
 }
-itemBases["Medium Hybrid Flask"] = {
+itemBases["중형 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, default = true, },
@@ -212,7 +212,7 @@ itemBases["Medium Hybrid Flask"] = {
 	flask = { life = 230, mana = 100, duration = 5, chargesUsed = 20, chargesMax = 40, },
 	req = { level = 20, },
 }
-itemBases["Large Hybrid Flask"] = {
+itemBases["대형 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, default = true, },
@@ -220,7 +220,7 @@ itemBases["Large Hybrid Flask"] = {
 	flask = { life = 510, mana = 140, duration = 5, chargesUsed = 20, chargesMax = 40, },
 	req = { level = 30, },
 }
-itemBases["Colossal Hybrid Flask"] = {
+itemBases["초대형 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, default = true, },
@@ -228,7 +228,7 @@ itemBases["Colossal Hybrid Flask"] = {
 	flask = { life = 690, mana = 200, duration = 5, chargesUsed = 20, chargesMax = 40, },
 	req = { level = 40, },
 }
-itemBases["Sacred Hybrid Flask"] = {
+itemBases["성스러운 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, default = true, },
@@ -236,7 +236,7 @@ itemBases["Sacred Hybrid Flask"] = {
 	flask = { life = 1440, mana = 400, duration = 5, chargesUsed = 20, chargesMax = 40, },
 	req = { level = 50, },
 }
-itemBases["Hallowed Hybrid Flask"] = {
+itemBases["거룩한 하이브리드 플라스크"] = {
 	type = "Flask",
 	subType = "Hybrid",
 	tags = { flask = true, hybrid_flask = true, not_for_sale = true, default = true, },
@@ -245,152 +245,152 @@ itemBases["Hallowed Hybrid Flask"] = {
 	req = { level = 60, },
 }
 
-itemBases["Diamond Flask"] = {
+itemBases["다이아몬드 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 20, chargesMax = 40, buff = { "100% increased Global Critical Strike Chance" }, },
+	flask = { duration = 6, chargesUsed = 20, chargesMax = 40, buff = { "일반 치명타 확률 100% 증가" }, },
 	req = { level = 27, },
 }
-itemBases["Ruby Flask"] = {
+itemBases["루비 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "+50% to Fire Resistance", "20% less Fire Damage taken" }, },
+	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "화염 저항 +50%", "받는 화염 피해 20% 감폭" }, },
 	req = { level = 18, },
 }
-itemBases["Sapphire Flask"] = {
+itemBases["사파이어 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "+50% to Cold Resistance", "20% less Cold Damage taken" }, },
+	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "냉기 저항 +50%", "받는 냉기 피해 20% 감폭" }, },
 	req = { level = 18, },
 }
-itemBases["Topaz Flask"] = {
+itemBases["토파즈 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "+50% to Lightning Resistance", "20% less Lightning Damage taken" }, },
+	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "번개 저항 +50%", "받는 번개 피해 20% 감폭" }, },
 	req = { level = 18, },
 }
-itemBases["Granite Flask"] = {
+itemBases["화강암 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "+1500 to Armour" }, },
+	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "방어도 +1500" }, },
 	req = { level = 27, },
 }
-itemBases["Quicksilver Flask"] = {
+itemBases["수은 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "40% increased Movement Speed" }, },
+	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "이동 속도 40% 증가" }, },
 	req = { level = 4, },
 }
-itemBases["Amethyst Flask"] = {
+itemBases["자수정 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6.5, chargesUsed = 35, chargesMax = 65, buff = { "+35% to Chaos Resistance" }, },
+	flask = { duration = 6.5, chargesUsed = 35, chargesMax = 65, buff = { "카오스 저항 +35%" }, },
 	req = { level = 18, },
 }
-itemBases["Quartz Flask"] = {
+itemBases["석영 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "+10% chance to Suppress Spell Damage", "Phasing" }, },
+	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "주문 피해 억제 확률 +10%", "차원 능력" }, },
 	req = { level = 27, },
 }
-itemBases["Jade Flask"] = {
+itemBases["비취 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "+1500 to Evasion Rating" }, },
+	flask = { duration = 6, chargesUsed = 30, chargesMax = 60, buff = { "회피 +1500" }, },
 	req = { level = 27, },
 }
-itemBases["Basalt Flask"] = {
+itemBases["현무암 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
-	implicit = "Taunts nearby Enemies on use",
+	implicit = "사용 시 주변의 적 도발",
 	implicitModTypes = { { "flask" }, },
-	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "20% more Armour" }, },
+	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "방어도 20% 증폭" }, },
 	req = { level = 27, },
 }
-itemBases["Aquamarine Flask"] = {
+itemBases["아쿠아마린 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
-	implicit = "Creates Chilled Ground on Use",
+	implicit = "사용 시 얼음 지대 생성",
 	implicitModTypes = { { "flask" }, },
-	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "60% reduced Effect of Freeze on you" }, },
+	flask = { duration = 8, chargesUsed = 20, chargesMax = 50, buff = { "플레이어에게 적용되는 동결 효과 60% 감소" }, },
 	req = { level = 27, },
 }
-itemBases["Stibnite Flask"] = {
+itemBases["휘안석 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
-	implicit = "Creates a Smoke Cloud on Use",
+	implicit = "사용 시 연막 생성",
 	implicitModTypes = { { "flask" }, },
-	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "20% more Evasion Rating" }, },
+	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "회피 20% 증폭" }, },
 	req = { level = 27, },
 }
-itemBases["Sulphur Flask"] = {
+itemBases["유황 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
-	implicit = "Creates Consecrated Ground on Use",
+	implicit = "사용 시 신성화 지대 생성",
 	implicitModTypes = { { "flask" }, },
-	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "40% increased Damage" }, },
+	flask = { duration = 8, chargesUsed = 40, chargesMax = 60, buff = { "피해 40% 증가" }, },
 	req = { level = 27, },
 }
-itemBases["Silver Flask"] = {
+itemBases["은 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 6, chargesUsed = 40, chargesMax = 60, buff = { "Onslaught" }, },
+	flask = { duration = 6, chargesUsed = 40, chargesMax = 60, buff = { "맹공" }, },
 	req = { level = 27, },
 }
-itemBases["Bismuth Flask"] = {
+itemBases["비스무트 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 8.5, chargesUsed = 15, chargesMax = 40, buff = { "+35% to all Elemental Resistances" }, },
+	flask = { duration = 8.5, chargesUsed = 15, chargesMax = 40, buff = { "모든 원소 저항 +35%" }, },
 	req = { level = 8, },
 }
-itemBases["Gold Flask"] = {
+itemBases["황금 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 5, chargesUsed = 60, chargesMax = 80, buff = { "30% increased Rarity of Items found" }, },
+	flask = { duration = 5, chargesUsed = 60, chargesMax = 80, buff = { "발견하는 아이템 희귀도 30% 증가" }, },
 	req = { level = 27, },
 }
-itemBases["Corundum Flask"] = {
+itemBases["강옥 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, default = true, },
 	implicitModTypes = { },
-	flask = { duration = 7.5, chargesUsed = 20, chargesMax = 50, buff = { "30% increased Stun Threshold", "Cannot be Stunned if you've been Stunned during Effect" }, },
+	flask = { duration = 7.5, chargesUsed = 20, chargesMax = 50, buff = { "기절 한계치 30% 증가", "효과를 받는 동안 기절하는 경우 기절할 수 없음" }, },
 	req = { level = 27, },
 }
-itemBases["Iron Flask"] = {
+itemBases["철 플라스크"] = {
 	type = "Flask",
 	subType = "Utility",
 	tags = { flask = true, utility_flask = true, not_for_sale = true, expedition_flask = true, default = true, },
-	implicit = "Restores Ward on use",
+	implicit = "사용 시 수호 회복",
 	implicitModTypes = { { "flask" }, },
-	flask = { duration = 5, chargesUsed = 40, chargesMax = 60, buff = { "+200 to Ward" }, },
+	flask = { duration = 5, chargesUsed = 40, chargesMax = 60, buff = { "수호 +200" }, },
 	req = { level = 27, },
 }

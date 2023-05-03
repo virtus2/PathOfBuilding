@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Armour and Evasion Rating"
+					text="자신 및 주변 동료들의 방어도 및 회피 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -25,7 +25,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Armour and Evasion Rating"
+					text="자신 및 주변 동료들의 방어도 및 회피 {0}% 감소"
 				}
 			}
 		},
@@ -36,7 +36,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -44,7 +44,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies have {0}% increased Critical Strike Chance"
+					text="주변의 적의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -57,7 +57,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Nearby Enemies have {0}% reduced Critical Strike Chance"
+					text="주변의 적의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -68,7 +68,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -76,7 +76,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies have {0}% more Accuracy Rating"
+					text="주변의 적의 정확도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -89,7 +89,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Nearby Enemies have {0}% less Accuracy Rating"
+					text="주변의 적의 정확도 {0}% 감폭"
 				}
 			}
 		},
@@ -100,7 +100,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -108,7 +108,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies deal {0}% more Damage"
+					text="주변의 적이 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -121,7 +121,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Nearby Enemies deal {0}% less Damage"
+					text="주변의 적이 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -132,7 +132,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -140,7 +140,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain 1 Stage when you Impale an Enemy while carrying the Banner, up to 5 per second"
+					text="깃발을 들고 있는 동안 적을 꿰뚫으면 1단계 획득, 1초마다 최대 5단계 획득"
 				}
 			}
 		},
@@ -151,7 +151,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -163,7 +163,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Gain 1 Stage every {0} second while an Enemy is Nearby"
+					text="주변에 적이 있는 동안 {0}초마다 1단계 획득"
 				},
 				[2]={
 					[1]={
@@ -176,7 +176,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain 1 Stage every {0} seconds while an Enemy is Nearby"
+					text="주변에 적이 있는 동안 {0}초마다 1단계 획득"
 				}
 			}
 		},
@@ -187,7 +187,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -195,7 +195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain 1 Stage when you Kill an Enemy while carrying the Banner"
+					text="깃발을 들고 있는 동안 적 처치 시 1단계 획득"
 				}
 			}
 		},
@@ -206,7 +206,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -222,7 +222,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Gain Adrenaline for {0} second per Stage on Placing the Banner"
+					text="깃발 배치 중 단계 하나당 {0}초 동안 아드레날린 획득"
 				},
 				[2]={
 					[1]={
@@ -239,7 +239,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain Adrenaline for {0} seconds per Stage on Placing the Banner"
+					text="깃발 배치 중 단계 하나당 {0}초 동안 아드레날린 획득"
 				}
 			}
 		},
@@ -250,7 +250,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -262,7 +262,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Gain +10 to maximum Fortification for {0} second per Stage on Placing the Banner"
+					text="깃발 배치 중 단계 하나당 {0}초 동안 최대 방어 상승 +10 획득"
 				},
 				[2]={
 					[1]={
@@ -275,7 +275,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain +10 to maximum Fortification for {0} seconds per Stage on Placing the Banner"
+					text="깃발 배치 중 단계 하나당 {0}초 동안 최대 방어 상승 +10 획득"
 				}
 			}
 		},
@@ -286,7 +286,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -302,7 +302,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Taunt nearby Enemies for {0} second per Stage on Placing the Banner"
+					text="깃발 배치 시 단계 하나당 {0}초 동안 주변의 적 도발"
 				},
 				[2]={
 					[1]={
@@ -319,7 +319,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Taunt nearby Enemies for {0} seconds per Stage on Placing the Banner"
+					text="깃발 배치 시 단계 하나당 {0}초 동안 주변의 적 도발"
 				},
 				[3]={
 					[1]={
@@ -340,7 +340,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Taunt nearby Enemies for {0} second per Stage on Placing the Banner\nEnemies Taunted this way deal {1}% less Damage"
+					text="깃발 배치 시 단계 하나당 {0}초 동안 주변의 적 도발\n이 효과로 도발된 적이 주는 피해 {1}% 감폭"
 				},
 				[4]={
 					[1]={
@@ -361,7 +361,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Taunt nearby Enemies for {0} seconds per Stage on Placing the Banner\nEnemies Taunted this way deal {1}% less Damage"
+					text="깃발 배치 시 단계 하나당 {0}초 동안 주변의 적 도발\n이 효과로 도발된 적이 주는 피해 {1}% 감폭"
 				}
 			}
 		},
@@ -373,7 +373,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -389,7 +389,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Base Duration of {0} seconds after being Placed"
+					text="배치 후 기본 지속시간 {0}초"
 				}
 			}
 		},
@@ -401,7 +401,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -413,7 +413,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Banner lasts {0} seconds after being placed"
+					text="깃발 설치 후 {0}초간 지속"
 				}
 			}
 		},
@@ -424,7 +424,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -436,7 +436,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="{0:+d} second to Base Placed Banner Duration per Stage"
+					text="단계 하나당 깃발 배치 지속시간 {0:+d}초"
 				},
 				[2]={
 					[1]={
@@ -449,7 +449,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} seconds to Base Placed Banner Duration per Stage"
+					text="단계 하나당 깃발 배치 지속시간 {0:+d}초"
 				}
 			}
 		},
@@ -460,7 +460,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -468,7 +468,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When placed, {0}% increased Area of Effect per Stage"
+					text="배치 시 단계 하나당 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -481,7 +481,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="When placed, {0}% reduced Area of Effect per Stage"
+					text="배치 시 단계 하나당 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -492,7 +492,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -500,7 +500,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When placed, {0}% increased Aura effect per Stage"
+					text="배치 시 단계 하나당 오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -513,7 +513,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="When placed, {0}% reduced Aura effect per Stage"
+					text="배치 시 단계 하나당 오라 효과 {0}% 감소"
 				}
 			}
 		},

@@ -3,7 +3,7 @@
 local itemBases = ...
 
 
-itemBases["Iron Greaves"] = {
+itemBases["철제 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -13,7 +13,7 @@ itemBases["Iron Greaves"] = {
 	armour = { ArmourBaseMin = 6, ArmourBaseMax = 9, },
 	req = { str = 8, },
 }
-itemBases["Steel Greaves"] = {
+itemBases["강철 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -23,7 +23,7 @@ itemBases["Steel Greaves"] = {
 	armour = { ArmourBaseMin = 32, ArmourBaseMax = 42, },
 	req = { level = 9, str = 21, },
 }
-itemBases["Plated Greaves"] = {
+itemBases["판금 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -33,7 +33,7 @@ itemBases["Plated Greaves"] = {
 	armour = { ArmourBaseMin = 77, ArmourBaseMax = 96, },
 	req = { level = 23, str = 44, },
 }
-itemBases["Reinforced Greaves"] = {
+itemBases["강화 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -43,7 +43,7 @@ itemBases["Reinforced Greaves"] = {
 	armour = { ArmourBaseMin = 109, ArmourBaseMax = 120, },
 	req = { level = 33, str = 61, },
 }
-itemBases["Antique Greaves"] = {
+itemBases["앤티크 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -53,7 +53,7 @@ itemBases["Antique Greaves"] = {
 	armour = { ArmourBaseMin = 122, ArmourBaseMax = 144, },
 	req = { level = 37, str = 67, },
 }
-itemBases["Ancient Greaves"] = {
+itemBases["고대 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -63,7 +63,7 @@ itemBases["Ancient Greaves"] = {
 	armour = { ArmourBaseMin = 151, ArmourBaseMax = 174, },
 	req = { level = 46, str = 82, },
 }
-itemBases["Goliath Greaves"] = {
+itemBases["거인 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -73,7 +73,7 @@ itemBases["Goliath Greaves"] = {
 	armour = { ArmourBaseMin = 177, ArmourBaseMax = 209, },
 	req = { level = 54, str = 95, },
 }
-itemBases["Vaal Greaves"] = {
+itemBases["바알 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -83,7 +83,7 @@ itemBases["Vaal Greaves"] = {
 	armour = { ArmourBaseMin = 220, ArmourBaseMax = 253, },
 	req = { level = 62, str = 117, },
 }
-itemBases["Titan Greaves"] = {
+itemBases["거신 각반"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
@@ -93,41 +93,41 @@ itemBases["Titan Greaves"] = {
 	armour = { ArmourBaseMin = 241, ArmourBaseMax = 278, },
 	req = { level = 68, str = 120, },
 }
-itemBases["Basemetal Treads"] = {
+itemBases["일반 금속 발 보호대"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { boots = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(4-5)% Chance to Block Attack Damage\nYou take 20% of Damage from Blocked Hits",
+	implicit = "공격 피해를 막아낼 확률 +(4-5)%\n피격을 막아낼 시 피해의 20%를 받음",
 	implicitModTypes = { { "block" }, { "block" }, },
 	armour = { ArmourBaseMin = 68, ArmourBaseMax = 78, },
 	req = { level = 20, str = 39, },
 }
-itemBases["Darksteel Treads"] = {
+itemBases["검은 강철 발 보호대"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { boots = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(4-5)% Chance to Block Attack Damage\nYou take 20% of Damage from Blocked Hits",
+	implicit = "공격 피해를 막아낼 확률 +(4-5)%\n피격을 막아낼 시 피해의 20%를 받음",
 	implicitModTypes = { { "block" }, { "block" }, },
 	armour = { ArmourBaseMin = 164, ArmourBaseMax = 189, },
 	req = { level = 50, str = 89, },
 }
-itemBases["Brimstone Treads"] = {
+itemBases["유황 발 보호대"] = {
 	type = "Boots",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { boots = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(4-5)% Chance to Block Attack Damage\nYou take 20% of Damage from Blocked Hits",
+	implicit = "공격 피해를 막아낼 확률 +(4-5)%\n피격을 막아낼 시 피해의 20%를 받음",
 	implicitModTypes = { { "block" }, { "block" }, },
 	armour = { ArmourBaseMin = 236, ArmourBaseMax = 271, },
 	req = { level = 80, str = 124, },
 }
 
-itemBases["Rawhide Boots"] = {
+itemBases["생가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -137,7 +137,7 @@ itemBases["Rawhide Boots"] = {
 	armour = { EvasionBaseMin = 13, EvasionBaseMax = 18, },
 	req = { dex = 11, },
 }
-itemBases["Goathide Boots"] = {
+itemBases["염소가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -147,7 +147,7 @@ itemBases["Goathide Boots"] = {
 	armour = { EvasionBaseMin = 42, EvasionBaseMax = 54, },
 	req = { level = 12, dex = 26, },
 }
-itemBases["Deerskin Boots"] = {
+itemBases["사슴가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -157,7 +157,7 @@ itemBases["Deerskin Boots"] = {
 	armour = { EvasionBaseMin = 74, EvasionBaseMax = 92, },
 	req = { level = 22, dex = 42, },
 }
-itemBases["Nubuck Boots"] = {
+itemBases["소가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -167,7 +167,7 @@ itemBases["Nubuck Boots"] = {
 	armour = { EvasionBaseMin = 113, EvasionBaseMax = 126, },
 	req = { level = 34, dex = 62, },
 }
-itemBases["Eelskin Boots"] = {
+itemBases["장어가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -177,7 +177,7 @@ itemBases["Eelskin Boots"] = {
 	armour = { EvasionBaseMin = 129, EvasionBaseMax = 148, },
 	req = { level = 39, dex = 70, },
 }
-itemBases["Sharkskin Boots"] = {
+itemBases["상어가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -187,7 +187,7 @@ itemBases["Sharkskin Boots"] = {
 	armour = { EvasionBaseMin = 145, EvasionBaseMax = 171, },
 	req = { level = 44, dex = 79, },
 }
-itemBases["Shagreen Boots"] = {
+itemBases["거친 생가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -197,7 +197,7 @@ itemBases["Shagreen Boots"] = {
 	armour = { EvasionBaseMin = 180, EvasionBaseMax = 216, },
 	req = { level = 55, dex = 97, },
 }
-itemBases["Stealth Boots"] = {
+itemBases["은신 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -207,7 +207,7 @@ itemBases["Stealth Boots"] = {
 	armour = { EvasionBaseMin = 220, EvasionBaseMax = 253, },
 	req = { level = 62, dex = 117, },
 }
-itemBases["Slink Boots"] = {
+itemBases["송아지 가죽 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -217,41 +217,41 @@ itemBases["Slink Boots"] = {
 	armour = { EvasionBaseMin = 246, EvasionBaseMax = 283, },
 	req = { level = 69, dex = 120, },
 }
-itemBases["Cloudwhisper Boots"] = {
+itemBases["구름속삭임 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { boots = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating\n25% less Accuracy Rating",
+	implicit = "정확도 200당 공격 번개 피해 1~(5-6) 추가\n정확도 25% 감폭",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 68, EvasionBaseMax = 78, },
 	req = { level = 20, dex = 39, },
 }
-itemBases["Windbreak Boots"] = {
+itemBases["바람가름 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { boots = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating\n25% less Accuracy Rating",
+	implicit = "정확도 200당 공격 번개 피해 1~(5-6) 추가\n정확도 25% 감폭",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 164, EvasionBaseMax = 189, },
 	req = { level = 50, dex = 89, },
 }
-itemBases["Stormrider Boots"] = {
+itemBases["태풍의 기수 장화"] = {
 	type = "Boots",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { boots = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "1 to (5-6) Added Attack Lightning Damage per 200 Accuracy Rating\n25% less Accuracy Rating",
+	implicit = "정확도 200당 공격 번개 피해 1~(5-6) 추가\n정확도 25% 감폭",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 236, EvasionBaseMax = 271, },
 	req = { level = 80, dex = 124, },
 }
 
-itemBases["Wool Shoes"] = {
+itemBases["양모 신발"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -261,7 +261,7 @@ itemBases["Wool Shoes"] = {
 	armour = { EnergyShieldBaseMin = 5, EnergyShieldBaseMax = 7, },
 	req = { int = 11, },
 }
-itemBases["Velvet Slippers"] = {
+itemBases["벨벳 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -271,7 +271,7 @@ itemBases["Velvet Slippers"] = {
 	armour = { EnergyShieldBaseMin = 8, EnergyShieldBaseMax = 11, },
 	req = { level = 9, int = 21, },
 }
-itemBases["Silk Slippers"] = {
+itemBases["실크 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -281,7 +281,7 @@ itemBases["Silk Slippers"] = {
 	armour = { EnergyShieldBaseMin = 17, EnergyShieldBaseMax = 21, },
 	req = { level = 22, int = 42, },
 }
-itemBases["Scholar Boots"] = {
+itemBases["학자 장화"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -291,7 +291,7 @@ itemBases["Scholar Boots"] = {
 	armour = { EnergyShieldBaseMin = 23, EnergyShieldBaseMax = 25, },
 	req = { level = 32, int = 59, },
 }
-itemBases["Satin Slippers"] = {
+itemBases["새틴 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -301,7 +301,7 @@ itemBases["Satin Slippers"] = {
 	armour = { EnergyShieldBaseMin = 26, EnergyShieldBaseMax = 30, },
 	req = { level = 38, int = 69, },
 }
-itemBases["Samite Slippers"] = {
+itemBases["금실 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -311,7 +311,7 @@ itemBases["Samite Slippers"] = {
 	armour = { EnergyShieldBaseMin = 30, EnergyShieldBaseMax = 35, },
 	req = { level = 44, int = 79, },
 }
-itemBases["Conjurer Boots"] = {
+itemBases["요술사 장화"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -321,7 +321,7 @@ itemBases["Conjurer Boots"] = {
 	armour = { EnergyShieldBaseMin = 36, EnergyShieldBaseMax = 42, },
 	req = { level = 53, int = 94, },
 }
-itemBases["Arcanist Slippers"] = {
+itemBases["신비학자의 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -331,7 +331,7 @@ itemBases["Arcanist Slippers"] = {
 	armour = { EnergyShieldBaseMin = 47, EnergyShieldBaseMax = 55, },
 	req = { level = 61, int = 119, },
 }
-itemBases["Sorcerer Boots"] = {
+itemBases["악령술사 장화"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -341,41 +341,41 @@ itemBases["Sorcerer Boots"] = {
 	armour = { EnergyShieldBaseMin = 51, EnergyShieldBaseMax = 59, },
 	req = { level = 67, int = 123, },
 }
-itemBases["Duskwalk Slippers"] = {
+itemBases["황혼걸음 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { boots = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "10% reduced Movement Speed\n(30-40)% increased Cooldown Recovery Rate of Movement Skills",
+	implicit = "이동 속도 10% 감소\n이동 스킬의 재사용 대기시간 회복 속도 (30-40)% 증가",
 	implicitModTypes = { { "speed" }, { "speed" }, },
 	armour = { EnergyShieldBaseMin = 15, EnergyShieldBaseMax = 18, },
 	req = { level = 20, int = 39, },
 }
-itemBases["Nightwind Slippers"] = {
+itemBases["밤바람 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { boots = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "10% reduced Movement Speed\n(30-40)% increased Cooldown Recovery Rate of Movement Skills",
+	implicit = "이동 속도 10% 감소\n이동 스킬의 재사용 대기시간 회복 속도 (30-40)% 증가",
 	implicitModTypes = { { "speed" }, { "speed" }, },
 	armour = { EnergyShieldBaseMin = 34, EnergyShieldBaseMax = 39, },
 	req = { level = 50, int = 89, },
 }
-itemBases["Dreamquest Slippers"] = {
+itemBases["꿈의 정벌 슬리퍼"] = {
 	type = "Boots",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { boots = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "10% reduced Movement Speed\n(30-40)% increased Cooldown Recovery Rate of Movement Skills",
+	implicit = "이동 속도 10% 감소\n이동 스킬의 재사용 대기시간 회복 속도 (30-40)% 증가",
 	implicitModTypes = { { "speed" }, { "speed" }, },
 	armour = { EnergyShieldBaseMin = 50, EnergyShieldBaseMax = 57, },
 	req = { level = 80, int = 124, },
 }
 
-itemBases["Leatherscale Boots"] = {
+itemBases["가죽 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -385,7 +385,7 @@ itemBases["Leatherscale Boots"] = {
 	armour = { ArmourBaseMin = 12, ArmourBaseMax = 17, EvasionBaseMin = 12, EvasionBaseMax = 17, },
 	req = { level = 6, str = 9, dex = 9, },
 }
-itemBases["Ironscale Boots"] = {
+itemBases["철제 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -395,7 +395,7 @@ itemBases["Ironscale Boots"] = {
 	armour = { ArmourBaseMin = 34, ArmourBaseMax = 44, EvasionBaseMin = 34, EvasionBaseMax = 44, },
 	req = { level = 18, str = 19, dex = 19, },
 }
-itemBases["Bronzescale Boots"] = {
+itemBases["청동 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -405,7 +405,7 @@ itemBases["Bronzescale Boots"] = {
 	armour = { ArmourBaseMin = 55, ArmourBaseMax = 63, EvasionBaseMin = 55, EvasionBaseMax = 63, },
 	req = { level = 30, str = 30, dex = 30, },
 }
-itemBases["Steelscale Boots"] = {
+itemBases["강철 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -415,7 +415,7 @@ itemBases["Steelscale Boots"] = {
 	armour = { ArmourBaseMin = 65, ArmourBaseMax = 75, EvasionBaseMin = 65, EvasionBaseMax = 75, },
 	req = { level = 36, str = 35, dex = 35, },
 }
-itemBases["Serpentscale Boots"] = {
+itemBases["뱀 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -425,7 +425,7 @@ itemBases["Serpentscale Boots"] = {
 	armour = { ArmourBaseMin = 76, ArmourBaseMax = 90, EvasionBaseMin = 76, EvasionBaseMax = 90, },
 	req = { level = 42, str = 40, dex = 40, },
 }
-itemBases["Wyrmscale Boots"] = {
+itemBases["아룡 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -435,7 +435,7 @@ itemBases["Wyrmscale Boots"] = {
 	armour = { ArmourBaseMin = 92, ArmourBaseMax = 103, EvasionBaseMin = 92, EvasionBaseMax = 103, },
 	req = { level = 51, str = 48, dex = 48, },
 }
-itemBases["Hydrascale Boots"] = {
+itemBases["히드라 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -445,7 +445,7 @@ itemBases["Hydrascale Boots"] = {
 	armour = { ArmourBaseMin = 106, ArmourBaseMax = 122, EvasionBaseMin = 106, EvasionBaseMax = 122, },
 	req = { level = 59, str = 56, dex = 56, },
 }
-itemBases["Dragonscale Boots"] = {
+itemBases["용 비늘 장화"] = {
 	type = "Boots",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -461,13 +461,13 @@ itemBases["Two-Toned Boots (Armour/Evasion)"] = {
 	socketLimit = 4,
 	tags = { boots = true, str_dex_armour = true, not_for_sale = true, atlas_base_type = true, armour = true, bootsatlas2 = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(8-12)% to Fire and Cold Resistances",
+	implicit = "화염 및 냉기 저항 +(8-12)%",
 	implicitModTypes = { { "elemental", "fire", "cold", "resistance" }, },
 	armour = { ArmourBaseMin = 126, ArmourBaseMax = 145, EvasionBaseMin = 126, EvasionBaseMax = 145, },
 	req = { level = 70, str = 62, dex = 62, },
 }
 
-itemBases["Chain Boots"] = {
+itemBases["사슬 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -477,7 +477,7 @@ itemBases["Chain Boots"] = {
 	armour = { ArmourBaseMin = 11, ArmourBaseMax = 15, EnergyShieldBaseMin = 3, EnergyShieldBaseMax = 5, },
 	req = { level = 5, str = 8, int = 8, },
 }
-itemBases["Ringmail Boots"] = {
+itemBases["고리 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -487,7 +487,7 @@ itemBases["Ringmail Boots"] = {
 	armour = { ArmourBaseMin = 25, ArmourBaseMax = 32, EnergyShieldBaseMin = 6, EnergyShieldBaseMax = 8, },
 	req = { level = 13, str = 15, int = 15, },
 }
-itemBases["Mesh Boots"] = {
+itemBases["망사 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -497,7 +497,7 @@ itemBases["Mesh Boots"] = {
 	armour = { ArmourBaseMin = 51, ArmourBaseMax = 64, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 14, },
 	req = { level = 28, str = 28, int = 28, },
 }
-itemBases["Riveted Boots"] = {
+itemBases["고정못 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -507,7 +507,7 @@ itemBases["Riveted Boots"] = {
 	armour = { ArmourBaseMin = 65, ArmourBaseMax = 71, EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 15, },
 	req = { level = 36, str = 35, int = 35, },
 }
-itemBases["Zealot Boots"] = {
+itemBases["맹신자 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -517,7 +517,7 @@ itemBases["Zealot Boots"] = {
 	armour = { ArmourBaseMin = 73, ArmourBaseMax = 87, EnergyShieldBaseMin = 15, EnergyShieldBaseMax = 18, },
 	req = { level = 40, str = 39, int = 39, },
 }
-itemBases["Soldier Boots"] = {
+itemBases["병사 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -527,7 +527,7 @@ itemBases["Soldier Boots"] = {
 	armour = { ArmourBaseMin = 88, ArmourBaseMax = 99, EnergyShieldBaseMin = 18, EnergyShieldBaseMax = 20, },
 	req = { level = 49, str = 47, int = 47, },
 }
-itemBases["Legion Boots"] = {
+itemBases["군단 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -537,7 +537,7 @@ itemBases["Legion Boots"] = {
 	armour = { ArmourBaseMin = 104, ArmourBaseMax = 120, EnergyShieldBaseMin = 21, EnergyShieldBaseMax = 25, },
 	req = { level = 58, str = 54, int = 54, },
 }
-itemBases["Crusader Boots"] = {
+itemBases["십자군 장화"] = {
 	type = "Boots",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -553,13 +553,13 @@ itemBases["Two-Toned Boots (Armour/Energy Shield)"] = {
 	socketLimit = 4,
 	tags = { bootsatlas3 = true, boots = true, not_for_sale = true, atlas_base_type = true, armour = true, str_int_armour = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(8-12)% to Fire and Lightning Resistances",
+	implicit = "화염 및 번개 저항 +(8-12)%",
 	implicitModTypes = { { "elemental", "fire", "lightning", "resistance" }, },
 	armour = { ArmourBaseMin = 126, ArmourBaseMax = 145, EnergyShieldBaseMin = 26, EnergyShieldBaseMax = 30, },
 	req = { level = 70, str = 62, int = 62, },
 }
 
-itemBases["Wrapped Boots"] = {
+itemBases["스트랩형 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -569,7 +569,7 @@ itemBases["Wrapped Boots"] = {
 	armour = { EvasionBaseMin = 12, EvasionBaseMax = 17, EnergyShieldBaseMin = 4, EnergyShieldBaseMax = 5, },
 	req = { level = 6, dex = 9, int = 9, },
 }
-itemBases["Strapped Boots"] = {
+itemBases["끈 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -579,7 +579,7 @@ itemBases["Strapped Boots"] = {
 	armour = { EvasionBaseMin = 30, EvasionBaseMax = 39, EnergyShieldBaseMin = 7, EnergyShieldBaseMax = 9, },
 	req = { level = 16, dex = 18, int = 18, },
 }
-itemBases["Clasped Boots"] = {
+itemBases["버클 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -589,7 +589,7 @@ itemBases["Clasped Boots"] = {
 	armour = { EvasionBaseMin = 50, EvasionBaseMax = 57, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 12, },
 	req = { level = 27, dex = 27, int = 27, },
 }
-itemBases["Shackled Boots"] = {
+itemBases["섀클 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -599,7 +599,7 @@ itemBases["Shackled Boots"] = {
 	armour = { EvasionBaseMin = 62, EvasionBaseMax = 71, EnergyShieldBaseMin = 13, EnergyShieldBaseMax = 15, },
 	req = { level = 34, dex = 34, int = 34, },
 }
-itemBases["Trapper Boots"] = {
+itemBases["덫사냥꾼 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -609,7 +609,7 @@ itemBases["Trapper Boots"] = {
 	armour = { EvasionBaseMin = 74, EvasionBaseMax = 85, EnergyShieldBaseMin = 16, EnergyShieldBaseMax = 18, },
 	req = { level = 41, dex = 40, int = 40, },
 }
-itemBases["Ambush Boots"] = {
+itemBases["매복 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -619,7 +619,7 @@ itemBases["Ambush Boots"] = {
 	armour = { EvasionBaseMin = 85, EvasionBaseMax = 95, EnergyShieldBaseMin = 18, EnergyShieldBaseMax = 20, },
 	req = { level = 47, dex = 45, int = 45, },
 }
-itemBases["Carnal Boots"] = {
+itemBases["육욕의 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -629,7 +629,7 @@ itemBases["Carnal Boots"] = {
 	armour = { EvasionBaseMin = 99, EvasionBaseMax = 117, EnergyShieldBaseMin = 20, EnergyShieldBaseMax = 24, },
 	req = { level = 55, dex = 52, int = 52, },
 }
-itemBases["Assassin's Boots"] = {
+itemBases["암살자의 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -639,7 +639,7 @@ itemBases["Assassin's Boots"] = {
 	armour = { EvasionBaseMin = 121, EvasionBaseMax = 139, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 28, },
 	req = { level = 63, dex = 62, int = 62, },
 }
-itemBases["Murder Boots"] = {
+itemBases["살인자의 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -649,13 +649,13 @@ itemBases["Murder Boots"] = {
 	armour = { EvasionBaseMin = 185, EvasionBaseMax = 213, EnergyShieldBaseMin = 18, EnergyShieldBaseMax = 21, },
 	req = { level = 69, dex = 82, int = 42, },
 }
-itemBases["Fugitive Boots"] = {
+itemBases["도망자 장화"] = {
 	type = "Boots",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
 	tags = { boots = true, bootsatlasdexint = true, not_for_sale = true, atlas_base_type = true, armour = true, dex_int_armour = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(13-17)% to Chaos Resistance",
+	implicit = "카오스 저항 +(13-17)%",
 	implicitModTypes = { { "chaos", "resistance" }, },
 	armour = { EvasionBaseMin = 112, EvasionBaseMax = 129, EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 37, },
 	req = { level = 70, dex = 56, int = 76, },
@@ -666,13 +666,13 @@ itemBases["Two-Toned Boots (Evasion/Energy Shield)"] = {
 	socketLimit = 4,
 	tags = { boots = true, dex_int_armour = true, not_for_sale = true, atlas_base_type = true, armour = true, bootsatlas1 = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(8-12)% to Cold and Lightning Resistances",
+	implicit = "냉기 및 번개 저항 +(8-12)%",
 	implicitModTypes = { { "elemental", "cold", "lightning", "resistance" }, },
 	armour = { EvasionBaseMin = 126, EvasionBaseMax = 145, EnergyShieldBaseMin = 26, EnergyShieldBaseMax = 30, },
 	req = { level = 70, dex = 62, int = 62, },
 }
 
-itemBases["Runic Greaves"] = {
+itemBases["룬 각반"] = {
 	type = "Boots",
 	subType = "Ward",
 	socketLimit = 4,
@@ -682,7 +682,7 @@ itemBases["Runic Greaves"] = {
 	armour = { WardBaseMin = 24, WardBaseMax = 28, },
 	req = { level = 24, str = 20, dex = 20, int = 20, },
 }
-itemBases["Runic Sollerets"] = {
+itemBases["룬 쇠구두"] = {
 	type = "Boots",
 	subType = "Ward",
 	socketLimit = 4,
@@ -692,7 +692,7 @@ itemBases["Runic Sollerets"] = {
 	armour = { WardBaseMin = 62, WardBaseMax = 71, },
 	req = { level = 48, str = 37, dex = 37, int = 37, },
 }
-itemBases["Runic Sabatons"] = {
+itemBases["룬 발 덮개"] = {
 	type = "Boots",
 	subType = "Ward",
 	socketLimit = 4,
@@ -703,12 +703,12 @@ itemBases["Runic Sabatons"] = {
 	req = { level = 69, str = 46, dex = 46, int = 46, },
 }
 
-itemBases["Golden Caligae"] = {
+itemBases["황금 칼리가"] = {
 	type = "Boots",
 	socketLimit = 4,
 	tags = { boots = true, not_for_sale = true, armour = true, demigods = true, default = true, },
 	influenceTags = { shaper = "boots_shaper", elder = "boots_elder", adjudicator = "boots_adjudicator", basilisk = "boots_basilisk", crusader = "boots_crusader", eyrie = "boots_eyrie", cleansing = "boots_cleansing", tangle = "boots_tangle" },
-	implicit = "+(8-16)% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +(8-16)%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { },
 	req = { level = 12, },

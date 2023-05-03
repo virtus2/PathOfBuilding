@@ -2,53 +2,53 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Crimson Jewel"] = {
+itemBases["진홍색 주얼"] = {
 	type = "Jewel",
 	tags = { strjewel = true, not_dex = true, not_for_sale = true, not_int = true, jewel = true, default = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Viridian Jewel"] = {
+itemBases["진청록색 주얼"] = {
 	type = "Jewel",
 	tags = { dexjewel = true, not_for_sale = true, jewel = true, not_int = true, not_str = true, default = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Cobalt Jewel"] = {
+itemBases["코발트색 주얼"] = {
 	type = "Jewel",
 	tags = { not_dex = true, not_for_sale = true, intjewel = true, not_str = true, jewel = true, default = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Prismatic Jewel"] = {
+itemBases["분광 주얼"] = {
 	type = "Jewel",
 	tags = { dexjewel = true, not_for_sale = true, strjewel = true, jewel = true, default = true, intjewel = true, },
 	implicitModTypes = { },
 	req = { },
 }
 
-itemBases["Ghastly Eye Jewel"] = {
+itemBases["무시무시한 눈 주얼"] = {
 	type = "Jewel",
 	subType = "Abyss",
 	tags = { abyss_jewel = true, default = true, abyss_jewel_summoner = true, not_for_sale = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Hypnotic Eye Jewel"] = {
+itemBases["최면 거는 눈 주얼"] = {
 	type = "Jewel",
 	subType = "Abyss",
 	tags = { abyss_jewel = true, abyss_jewel_caster = true, default = true, not_for_sale = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Murderous Eye Jewel"] = {
+itemBases["살인적인 눈 주얼"] = {
 	type = "Jewel",
 	subType = "Abyss",
 	tags = { abyss_jewel = true, abyss_jewel_melee = true, default = true, not_for_sale = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Searching Eye Jewel"] = {
+itemBases["탐색하는 눈 주얼"] = {
 	type = "Jewel",
 	subType = "Abyss",
 	tags = { abyss_jewel = true, abyss_jewel_ranged = true, default = true, not_for_sale = true, },
@@ -56,21 +56,21 @@ itemBases["Searching Eye Jewel"] = {
 	req = { },
 }
 
-itemBases["Large Cluster Jewel"] = {
+itemBases["대형 스킬 군 주얼"] = {
 	type = "Jewel",
 	subType = "Cluster",
 	tags = { not_for_sale = true, jewel = true, expansion_jewel_large = true, default = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Medium Cluster Jewel"] = {
+itemBases["중형 스킬 군 주얼"] = {
 	type = "Jewel",
 	subType = "Cluster",
 	tags = { expansion_jewel_medium = true, jewel = true, not_for_sale = true, default = true, },
 	implicitModTypes = { },
 	req = { },
 }
-itemBases["Small Cluster Jewel"] = {
+itemBases["소형 스킬 군 주얼"] = {
 	type = "Jewel",
 	subType = "Cluster",
 	tags = { not_for_sale = true, jewel = true, expansion_jewel_small = true, default = true, },
@@ -78,7 +78,7 @@ itemBases["Small Cluster Jewel"] = {
 	req = { },
 }
 
-itemBases["Timeless Jewel"] = {
+itemBases["무궁한 주얼"] = {
 	type = "Jewel",
 	subType = "Timeless",
 	tags = { dexjewel = true, not_for_sale = true, strjewel = true, jewel = true, default = true, intjewel = true, },

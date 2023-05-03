@@ -2,255 +2,255 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Driftwood Wand"] = {
+itemBases["표류목 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(8-12)% increased Spell Damage",
+	implicit = "주문 피해 (8-12)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 5, PhysicalMax = 9, CritChanceBase = 7, AttackRateBase = 1.4, Range = 120, },
 	req = { int = 14, },
 }
-itemBases["Goat's Horn"] = {
+itemBases["염소의 뿔"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (1-2) to (3-4) Fire Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 화염 피해 (1-2)~(3-4) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "fire", "attack", "caster" }, },
 	weapon = { PhysicalMin = 9, PhysicalMax = 16, CritChanceBase = 7, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 6, int = 29, },
 }
-itemBases["Carved Wand"] = {
+itemBases["조각된 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(11-15)% increased Spell Damage",
+	implicit = "주문 피해 (11-15)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 9, PhysicalMax = 17, CritChanceBase = 7, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 12, int = 47, },
 }
-itemBases["Quartz Wand"] = {
+itemBases["석영 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (2-3) to (4-7) Cold Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 냉기 피해 (2-3)~(4-7) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "cold", "attack", "caster" }, },
 	weapon = { PhysicalMin = 14, PhysicalMax = 27, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 18, int = 65, },
 }
-itemBases["Spiraled Wand"] = {
+itemBases["나선형 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (1-2) to (9-11) Lightning Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 번개 피해 (1-2)~(9-11) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "lightning", "attack", "caster" }, },
 	weapon = { PhysicalMin = 12, PhysicalMax = 37, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 24, int = 83, },
 }
-itemBases["Sage Wand"] = {
+itemBases["현자 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(17-21)% increased Spell Damage",
+	implicit = "주문 피해 (17-21)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 23, PhysicalMax = 42, CritChanceBase = 8, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 30, int = 119, },
 }
-itemBases["Pagan Wand"] = {
+itemBases["이교도 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { maraketh = true, not_for_sale = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "10% increased Cast Speed",
+	implicit = "시전 속도 10% 증가",
 	implicitModTypes = { { "caster", "speed" }, },
 	weapon = { PhysicalMin = 22, PhysicalMax = 40, CritChanceBase = 7, AttackRateBase = 1.35, Range = 120, },
 	req = { level = 34, int = 118, },
 }
-itemBases["Faun's Horn"] = {
+itemBases["판의 뿔"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (5-10) to (11-13) Fire Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 화염 피해 (5-10)~(11-13) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "fire", "attack", "caster" }, },
 	weapon = { PhysicalMin = 26, PhysicalMax = 48, CritChanceBase = 7, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 35, int = 116, },
 }
-itemBases["Engraved Wand"] = {
+itemBases["아로새긴 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(22-26)% increased Spell Damage",
+	implicit = "주문 피해 (22-26)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 21, PhysicalMax = 38, CritChanceBase = 7, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 40, int = 131, },
 }
-itemBases["Crystal Wand"] = {
+itemBases["수정 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (4-8) to (10-12) Cold Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 냉기 피해 (4-8)~(10-12) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "cold", "attack", "caster" }, },
 	weapon = { PhysicalMin = 28, PhysicalMax = 52, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 45, int = 146, },
 }
-itemBases["Coiled Wand"] = {
+itemBases["똬리 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (1-2) to (22-24) Lightning Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 번개 피해 (1-2)~(22-24) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "lightning", "attack", "caster" }, },
 	weapon = { PhysicalMin = 21, PhysicalMax = 64, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 49, int = 158, },
 }
-itemBases["Omen Wand"] = {
+itemBases["전조의 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(27-31)% increased Spell Damage",
+	implicit = "주문 피해 (27-31)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 33, PhysicalMax = 61, CritChanceBase = 8, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 53, int = 200, },
 }
-itemBases["Heathen Wand"] = {
+itemBases["이방인 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { maraketh = true, not_for_sale = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "10% increased Cast Speed",
+	implicit = "시전 속도 10% 증가",
 	implicitModTypes = { { "caster", "speed" }, },
 	weapon = { PhysicalMin = 31, PhysicalMax = 57, CritChanceBase = 7, AttackRateBase = 1.35, Range = 120, },
 	req = { level = 55, int = 184, },
 }
-itemBases["Demon's Horn"] = {
+itemBases["악마의 뿔"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (18-36) to (53-59) Fire Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 화염 피해 (18-36)~(53-59) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "fire", "attack", "caster" }, },
 	weapon = { PhysicalMin = 38, PhysicalMax = 71, CritChanceBase = 7, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 56, int = 179, },
 }
-itemBases["Imbued Wand"] = {
+itemBases["부여된 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(33-37)% increased Spell Damage",
+	implicit = "주문 피해 (33-37)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 29, PhysicalMax = 53, CritChanceBase = 7, AttackRateBase = 1.5, Range = 120, },
 	req = { level = 59, int = 188, },
 }
-itemBases["Opal Wand"] = {
+itemBases["오팔 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { top_tier_base_item_type = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (14-29) to (42-47) Cold Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 냉기 피해 (14-29)~(42-47) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "cold", "attack", "caster" }, },
 	weapon = { PhysicalMin = 35, PhysicalMax = 65, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 62, int = 212, },
 }
-itemBases["Tornado Wand"] = {
+itemBases["회오리 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { top_tier_base_item_type = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Adds (3-5) to (70-82) Lightning Damage to Spells and Attacks",
+	implicit = "주문 및 공격 시 번개 피해 (3-5)~(70-82) 추가",
 	implicitModTypes = { { "elemental_damage", "caster_damage", "damage", "elemental", "lightning", "attack", "caster" }, },
 	weapon = { PhysicalMin = 25, PhysicalMax = 75, CritChanceBase = 7, AttackRateBase = 1.3, Range = 120, },
 	req = { level = 65, int = 212, },
 }
-itemBases["Prophecy Wand"] = {
+itemBases["예언 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { top_tier_base_item_type = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "(36-40)% increased Spell Damage",
+	implicit = "주문 피해 (36-40)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	weapon = { PhysicalMin = 35, PhysicalMax = 64, CritChanceBase = 8, AttackRateBase = 1.2, Range = 120, },
 	req = { level = 68, int = 245, },
 }
-itemBases["Profane Wand"] = {
+itemBases["부정한 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { maraketh = true, not_for_sale = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "14% increased Cast Speed",
+	implicit = "시전 속도 14% 증가",
 	implicitModTypes = { { "caster", "speed" }, },
 	weapon = { PhysicalMin = 33, PhysicalMax = 61, CritChanceBase = 7, AttackRateBase = 1.35, Range = 120, },
 	req = { level = 70, int = 237, },
 }
-itemBases["Assembler Wand"] = {
+itemBases["조립 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { ranged = true, not_for_sale = true, onehand = true, wand = true, weapon = true, experimental_base = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+	implicit = "6초마다 인내, 격분 또는 권능 충전 획득",
 	implicitModTypes = { {  }, },
 	weapon = { PhysicalMin = 16, PhysicalMax = 30, CritChanceBase = 7.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 30, int = 101, },
 }
-itemBases["Congregator Wand"] = {
+itemBases["군집 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { ranged = true, not_for_sale = true, onehand = true, wand = true, weapon = true, experimental_base = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+	implicit = "6초마다 인내, 격분 또는 권능 충전 획득",
 	implicitModTypes = { {  }, },
 	weapon = { PhysicalMin = 25, PhysicalMax = 46, CritChanceBase = 7.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 50, int = 168, },
 }
-itemBases["Accumulator Wand"] = {
+itemBases["축적 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { ranged = true, not_for_sale = true, onehand = true, wand = true, weapon = true, experimental_base = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Gain an Endurance, Frenzy or Power Charge every 6 seconds",
+	implicit = "6초마다 인내, 격분 또는 권능 충전 획득",
 	implicitModTypes = { {  }, },
 	weapon = { PhysicalMin = 29, PhysicalMax = 54, CritChanceBase = 7.5, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 70, int = 237, },
 }
 
-itemBases["Convoking Wand"] = {
+itemBases["소집의 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { onehand = true, ranged = true, wandatlas1 = true, weapon_can_roll_minion_modifiers = true, top_tier_base_item_type = true, wand = true, atlas_base_type = true, default = true, one_hand_weapon = true, weapon = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Minions deal (26-30)% increased Damage",
+	implicit = "소환수가 주는 피해 (26-30)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	weapon = { PhysicalMin = 30, PhysicalMax = 55, CritChanceBase = 7, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 72, int = 242, },
 }
 
-itemBases["Calling Wand"] = {
+itemBases["부름의 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { weapon_can_roll_minion_modifiers = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Minions deal (12-16)% increased Damage",
+	implicit = "소환수가 주는 피해 (12-16)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	weapon = { PhysicalMin = 13, PhysicalMax = 25, CritChanceBase = 7, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 20, int = 81, },
 }
 
-itemBases["Convening Wand"] = {
+itemBases["회합의 마법봉"] = {
 	type = "Wand",
 	socketLimit = 3,
 	tags = { weapon_can_roll_minion_modifiers = true, onehand = true, wand = true, weapon = true, ranged = true, one_hand_weapon = true, default = true, },
 	influenceTags = { shaper = "wand_shaper", elder = "wand_elder", adjudicator = "wand_adjudicator", basilisk = "wand_basilisk", crusader = "wand_crusader", eyrie = "wand_eyrie", cleansing = "wand_cleansing", tangle = "wand_tangle" },
-	implicit = "Minions deal (20-24)% increased Damage",
+	implicit = "소환수가 주는 피해 (20-24)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	weapon = { PhysicalMin = 27, PhysicalMax = 50, CritChanceBase = 7, AttackRateBase = 1.4, Range = 120, },
 	req = { level = 50, int = 183, },

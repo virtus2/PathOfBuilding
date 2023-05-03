@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Duration"
+					text="지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -25,7 +25,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Duration"
+					text="지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -36,7 +36,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -48,7 +48,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Duration of this Skill and Damaging Ailments"
+					text="이 스킬 및 피해를 주는 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -65,7 +65,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Duration of this Skill and Damaging Ailments"
+					text="이 스킬 및 피해를 주는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -76,7 +76,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -84,7 +84,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Duration"
+					text="지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -97,7 +97,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Duration"
+					text="지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -108,7 +108,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -116,7 +116,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Duration"
+					text="지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -129,7 +129,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Duration"
+					text="지속시간 {0}% 감폭"
 				}
 			}
 		},

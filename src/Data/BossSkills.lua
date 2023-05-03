@@ -60,7 +60,7 @@ return {
 		tooltip = "Earlier ones with less walls do less damage. Allocating The Perfect Storm increases Damage by a further 50% (Applied on Uber)"
 	},
 	["Exarch Ball"] = {
-		DamageType = "SpellProjectile",
+		DamageType = "Projectile",
 		DamageMultipliers = {
 			Fire = { 14.924946784635, 0.074624733923175 }
 		},
@@ -69,7 +69,7 @@ return {
 		tooltip = "Spawns 8-18 waves of balls depending on which fight and which ball phase"
 	},
 	["Eater Beam"] = {
-		DamageType = "Spell",
+		DamageType = "Melee",
 		DamageMultipliers = {
 			Lightning = { 12.164923902598, 0.24329847805197 }
 		},

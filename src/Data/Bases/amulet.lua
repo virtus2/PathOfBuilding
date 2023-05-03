@@ -3,459 +3,459 @@
 local itemBases = ...
 
 
-itemBases["Paua Amulet"] = {
+itemBases["파우아 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Mana Regeneration Rate",
+	implicit = "마나 재생 속도 (20-30)% 증가",
 	implicitModTypes = { { "resource", "mana" }, },
 	req = { },
 }
-itemBases["Coral Amulet"] = {
+itemBases["산호 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Regenerate (2-4) Life per second",
+	implicit = "1초마다 생명력 (2-4) 재생",
 	implicitModTypes = { { "flat_life_regen", "resource", "life" }, },
 	req = { },
 }
-itemBases["Amber Amulet"] = {
+itemBases["호박 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(20-30) to Strength",
+	implicit = "힘 +(20-30)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 5, },
 }
-itemBases["Jade Amulet"] = {
+itemBases["비취 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(20-30) to Dexterity",
+	implicit = "민첩 +(20-30)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 5, },
 }
-itemBases["Lapis Amulet"] = {
+itemBases["청금석 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(20-30) to Intelligence",
+	implicit = "지능 +(20-30)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 5, },
 }
-itemBases["Gold Amulet"] = {
+itemBases["황금 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(12-20)% increased Rarity of Items found",
+	implicit = "발견하는 아이템 희귀도 (12-20)% 증가",
 	implicitModTypes = { {  }, },
 	req = { level = 8, },
 }
-itemBases["Onyx Amulet"] = {
+itemBases["오닉스 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(10-16) to all Attributes",
+	implicit = "모든 능력치 +(10-16)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 20, },
 }
-itemBases["Turquoise Amulet"] = {
+itemBases["터키석 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(16-24) to Dexterity and Intelligence",
+	implicit = "민첩 및 지능 +(16-24)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 16, },
 }
-itemBases["Agate Amulet"] = {
+itemBases["마노 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(16-24) to Strength and Intelligence",
+	implicit = "힘 및 지능 +(16-24)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 16, },
 }
-itemBases["Citrine Amulet"] = {
+itemBases["황수정 목걸이"] = {
 	type = "Amulet",
 	tags = { amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(16-24) to Strength and Dexterity",
+	implicit = "힘 및 민첩 +(16-24)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 16, },
 }
-itemBases["Ruby Amulet"] = {
+itemBases["루비 목걸이"] = {
 	type = "Amulet",
 	tags = { not_for_sale = true, default = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(20-30)% to Fire Resistance",
+	implicit = "화염 저항 +(20-30)%",
 	implicitModTypes = { { "elemental", "fire", "resistance" }, },
 	req = { },
 }
-itemBases["Unset Amulet"] = {
+itemBases["무보석 목걸이"] = {
 	type = "Amulet",
 	tags = { not_for_sale = true, default = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Has 1 Socket",
+	implicit = "홈 1개",
 	implicitModTypes = { {  }, },
 	req = { level = 5, },
 }
-itemBases["Blue Pearl Amulet"] = {
+itemBases["파란 진주 목걸이"] = {
 	type = "Amulet",
 	tags = { amuletatlas1 = true, not_for_sale = true, atlas_base_type = true, amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(48-56)% increased Mana Regeneration Rate",
+	implicit = "마나 재생 속도 (48-56)% 증가",
 	implicitModTypes = { { "resource", "mana" }, },
 	req = { level = 77, },
 }
-itemBases["Marble Amulet"] = {
+itemBases["대리석 목걸이"] = {
 	type = "Amulet",
 	tags = { amuletatlas2 = true, not_for_sale = true, atlas_base_type = true, amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Regenerate (1.2-1.6)% of Life per second",
+	implicit = "1초마다 생명력의 (1.2-1.6)% 재생",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { level = 74, },
 }
-itemBases["Seaglass Amulet"] = {
+itemBases["바다유리 목걸이"] = {
 	type = "Amulet",
 	tags = { not_for_sale = true, atlas_base_type = true, amuletatlas3 = true, amulet = true, default = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(10-15)% faster start of Energy Shield Recharge",
+	implicit = "에너지 보호막 재충전 시작 속도 (10-15)% 가속",
 	implicitModTypes = { { "energy_shield", "defences" }, },
 	req = { level = 74, },
 }
-itemBases["Astrolabe Amulet"] = {
+itemBases["관측기 목걸이"] = {
 	type = "Amulet",
 	tags = { not_for_sale = true, experimental_base = true, default = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Implicit Modifiers Cannot Be Changed\nHas Elder, Shaper and all Conqueror Influences",
+	implicit = "고정 속성 변경 불가\n엘더, 쉐이퍼, 모든 정복자 영향력 보유",
 	implicitModTypes = { {  }, {  }, },
 	req = { level = 69, },
 }
-itemBases["Simplex Amulet"] = {
+itemBases["평범한 목걸이"] = {
 	type = "Amulet",
 	tags = { not_for_sale = true, experimental_base = true, default = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "-1 Prefix Modifier allowed\n-1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed\n25% increased Explicit Modifier magnitudes",
+	implicit = "접두어 속성 부여의 최대 개수 -1개\n접미어 속성 부여의 최대 개수 -1개\n고정 속성 변경 불가\n무작위 속성 부여 규모 25% 증가",
 	implicitModTypes = { {  }, {  }, {  }, {  }, },
 	req = { level = 24, },
 }
-itemBases["Jet Amulet"] = {
+itemBases["흑옥 목걸이"] = {
 	type = "Amulet",
 	hidden = true,
 	tags = { demigods = true, not_for_sale = true, default = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(8-12)% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +(8-12)%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	req = { level = 12, },
 }
 
-itemBases["Black Maw Talisman"] = {
+itemBases["검은 턱 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Has 1 Socket",
+	implicit = "홈 1개",
 	implicitModTypes = { {  }, },
 	req = { },
 }
-itemBases["Bonespire Talisman"] = {
+itemBases["뼈 첨탑 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased maximum Mana",
+	implicit = "최대 마나 (20-30)% 증가",
 	implicitModTypes = { { "resource", "mana" }, },
 	req = { },
 }
-itemBases["Ashscale Talisman"] = {
+itemBases["재비늘 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Fire Damage",
+	implicit = "화염 피해 (20-30)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire" }, },
 	req = { },
 }
-itemBases["Lone Antler Talisman"] = {
+itemBases["외가지뿔 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Lightning Damage",
+	implicit = "번개 피해 (20-30)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "lightning" }, },
 	req = { },
 }
-itemBases["Deep One Talisman"] = {
+itemBases["심해의 존재 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Cold Damage",
+	implicit = "냉기 피해 (20-30)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "cold" }, },
 	req = { },
 }
-itemBases["Breakrib Talisman"] = {
+itemBases["골절늑골 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Global Physical Damage",
+	implicit = "일반 물리 피해 (20-30)% 증가",
 	implicitModTypes = { { "physical_damage", "damage", "physical" }, },
 	req = { },
 }
-itemBases["Deadhand Talisman"] = {
+itemBases["죽은 손 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(19-31)% increased Chaos Damage",
+	implicit = "카오스 피해 (19-31)% 증가",
 	implicitModTypes = { { "chaos_damage", "damage", "chaos" }, },
 	req = { },
 }
-itemBases["Undying Flesh Talisman"] = {
+itemBases["산 송장 살점 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+1 to maximum number of Raised Zombies",
+	implicit = "소환 가능한 좀비 최대치 +1",
 	implicitModTypes = { { "minion" }, },
 	req = { },
 }
-itemBases["Rot Head Talisman"] = {
+itemBases["썩은 머리 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(30-40)% increased Fish Bite Sensitivity",
+	implicit = "물고기 이빨 민감도 (30-40)% 증가",
 	implicitModTypes = { { "green_herring" }, },
 	req = { },
 }
-itemBases["Mandible Talisman"] = {
+itemBases["아래턱 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(6-10)% increased Attack and Cast Speed",
+	implicit = "공격 및 시전 속도 (6-10)% 증가",
 	implicitModTypes = { { "attack", "caster", "speed" }, },
 	req = { },
 }
-itemBases["Chrysalis Talisman"] = {
+itemBases["번데기 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Spell Damage",
+	implicit = "주문 피해 (20-30)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	req = { },
 }
-itemBases["Writhing Talisman"] = {
+itemBases["꿈틀거리는 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(20-30)% increased Attack Damage",
+	implicit = "공격 피해 (20-30)% 증가",
 	implicitModTypes = { { "damage", "attack" }, },
 	req = { },
 }
-itemBases["Hexclaw Talisman"] = {
+itemBases["사술발톱 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(40-50)% increased Global Critical Strike Chance",
+	implicit = "일반 치명타 확률 (40-50)% 증가",
 	implicitModTypes = { { "critical" }, },
 	req = { },
 }
-itemBases["Primal Skull Talisman"] = {
+itemBases["원시 해골 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Regenerate 2% of Life per second",
+	implicit = "1초마다 생명력의 2% 재생",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { },
 }
-itemBases["Wereclaw Talisman"] = {
+itemBases["변신자발톱 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "+(24-36)% to Global Critical Strike Multiplier",
+	implicit = "일반 치명타 피해 배율 +(24-36)%",
 	implicitModTypes = { { "damage", "critical" }, },
 	req = { },
 }
-itemBases["Splitnewt Talisman"] = {
+itemBases["분할도롱뇽 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(4-6)% chance to Freeze, Shock and Ignite",
+	implicit = "(4-6)%의 확률로 동결, 감전 및 점화 유발",
 	implicitModTypes = { { "elemental", "fire", "cold", "lightning", "ailment" }, },
 	req = { },
 }
-itemBases["Clutching Talisman"] = {
+itemBases["움켜잡는 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(15-25)% increased Global Defences",
+	implicit = "일반 방어력 (15-25)% 증가",
 	implicitModTypes = { { "defences" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Fire Damage from Hits taken as Cold Damage",
+	implicit = "피격 시 화염 피해의 50%를 냉기 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "cold" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Fire Damage from Hits taken as Lightning Damage",
+	implicit = "피격 시 화염 피해의 50%를 번개 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "lightning" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Cold Damage from Hits taken as Fire Damage",
+	implicit = "피격 시 냉기 피해의 50%를 화염 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "cold" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Cold Damage from Hits taken as Lightning Damage",
+	implicit = "피격 시 냉기 피해의 50%를 번개 피해로 받음",
 	implicitModTypes = { { "elemental", "cold", "lightning" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Lightning Damage from Hits taken as Cold Damage",
+	implicit = "피격 시 번개 피해의 50%를 냉기 피해로 받음",
 	implicitModTypes = { { "elemental", "cold", "lightning" }, },
 	req = { },
 }
-itemBases["Avian Twins Talisman"] = {
+itemBases["쌍둥이 새 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Lightning Damage from Hits taken as Fire Damage",
+	implicit = "피격 시 번개 피해의 50%를 화염 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "lightning" }, },
 	req = { },
 }
-itemBases["Fangjaw Talisman"] = {
+itemBases["송곳니턱 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(8-12)% increased maximum Life",
+	implicit = "최대 생명력 (8-12)% 증가",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { },
 }
-itemBases["Horned Talisman"] = {
+itemBases["뿔 달린 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Projectiles Pierce 2 additional Targets",
+	implicit = "투사체가 대상 2개를 추가 관통",
 	implicitModTypes = { {  }, },
 	req = { },
 }
-itemBases["Spinefuse Talisman"] = {
+itemBases["척추융합 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(6-10)% increased Quantity of Items found",
+	implicit = "발견하는 아이템 수량 (6-10)% 증가",
 	implicitModTypes = { {  }, },
 	req = { },
 }
-itemBases["Three Rat Talisman"] = {
+itemBases["세 마리 쥐 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(12-16)% increased Attributes",
+	implicit = "능력치 (12-16)% 증가",
 	implicitModTypes = { { "attribute" }, },
 	req = { },
 }
-itemBases["Monkey Twins Talisman"] = {
+itemBases["쌍둥이 원숭이 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(5-8)% increased Area of Effect",
+	implicit = "효과 범위 (5-8)% 증가",
 	implicitModTypes = { {  }, },
 	req = { },
 }
-itemBases["Longtooth Talisman"] = {
+itemBases["긴 이빨 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(4-6)% additional Physical Damage Reduction",
+	implicit = "받는 물리 피해 (4-6)% 추가 감소",
 	implicitModTypes = { { "physical" }, },
 	req = { },
 }
-itemBases["Rotfeather Talisman"] = {
+itemBases["썩은 깃털 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "(25-35)% increased Damage",
+	implicit = "피해 (25-35)% 증가",
 	implicitModTypes = { { "damage" }, },
 	req = { },
 }
-itemBases["Monkey Paw Talisman"] = {
+itemBases["원숭이 발 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "10% chance to gain a Power Charge on Kill",
+	implicit = "처치 시 10%의 확률로 권능 충전 획득",
 	implicitModTypes = { { "power_charge" }, },
 	req = { },
 }
-itemBases["Monkey Paw Talisman"] = {
+itemBases["원숭이 발 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "10% chance to gain a Frenzy Charge on Kill",
+	implicit = "처치 시 10%의 확률로 격분 충전 획득",
 	implicitModTypes = { { "frenzy_charge" }, },
 	req = { },
 }
-itemBases["Monkey Paw Talisman"] = {
+itemBases["원숭이 발 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "10% chance to gain an Endurance Charge on Kill",
+	implicit = "처치 시 10%의 확률로 인내 충전 획득",
 	implicitModTypes = { { "endurance_charge" }, },
 	req = { },
 }
-itemBases["Three Hands Talisman"] = {
+itemBases["세 개의 손 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "Gain (6-12)% of Physical Damage as Extra Damage of a random Element",
+	implicit = "물리 피해의 (6-12)%를 무작위 원소 피해로 추가",
 	implicitModTypes = { { "physical_damage", "elemental_damage", "damage", "physical", "elemental" }, },
 	req = { },
 }
-itemBases["Greatwolf Talisman"] = {
+itemBases["위대한 늑대 부적"] = {
 	type = "Amulet",
 	subType = "Talisman",
 	tags = { amulet = true, default = true, },
@@ -468,7 +468,7 @@ itemBases["Avian Twins Talisman (Fire-To-Cold)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Fire Damage from Hits taken as Cold Damage",
+	implicit = "피격 시 화염 피해의 50%를 냉기 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "cold" }, },
 	req = { },
 }
@@ -477,7 +477,7 @@ itemBases["Avian Twins Talisman (Fire-To-Lightning)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Fire Damage from Hits taken as Lightning Damage",
+	implicit = "피격 시 화염 피해의 50%를 번개 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "lightning" }, },
 	req = { },
 }
@@ -486,7 +486,7 @@ itemBases["Avian Twins Talisman (Cold-To-Lightning)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Cold Damage from Hits taken as Fire Damage",
+	implicit = "피격 시 냉기 피해의 50%를 화염 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "cold" }, },
 	req = { },
 }
@@ -495,7 +495,7 @@ itemBases["Avian Twins Talisman (Cold-To-Fire)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Cold Damage from Hits taken as Lightning Damage",
+	implicit = "피격 시 냉기 피해의 50%를 번개 피해로 받음",
 	implicitModTypes = { { "elemental", "cold", "lightning" }, },
 	req = { },
 }
@@ -504,7 +504,7 @@ itemBases["Avian Twins Talisman (Lightning-To-Cold)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "50% of Lightning Damage from Hits taken as Cold Damage",
+	implicit = "피격 시 번개 피해의 50%를 냉기 피해로 받음",
 	implicitModTypes = { { "elemental", "cold", "lightning" }, },
 	req = { },
 }
@@ -513,7 +513,7 @@ itemBases["Monkey Paw Talisman (Power)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "10% chance to gain a Power Charge on Kill",
+	implicit = "처치 시 10%의 확률로 권능 충전 획득",
 	implicitModTypes = { { "power_charge" }, },
 	req = { },
 }
@@ -522,7 +522,7 @@ itemBases["Monkey Paw Talisman (Frenzy)"] = {
 	subType = "Talisman",
 	tags = { default = true, talisman = true, amulet = true, },
 	influenceTags = { shaper = "amulet_shaper", elder = "amulet_elder", adjudicator = "amulet_adjudicator", basilisk = "amulet_basilisk", crusader = "amulet_crusader", eyrie = "amulet_eyrie", cleansing = "amulet_cleansing", tangle = "amulet_tangle" },
-	implicit = "10% chance to gain a Frenzy Charge on Kill",
+	implicit = "처치 시 10%의 확률로 격분 충전 획득",
 	implicitModTypes = { { "frenzy_charge" }, },
 	req = { },
 }

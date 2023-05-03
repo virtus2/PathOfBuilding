@@ -7,8 +7,8 @@
 local skills, mod, flag, skill = ...
 
 skills["SupportAddedChaosDamage"] = {
-	name = "Added Chaos Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "카오스 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0.47119998931885,
 	incrementalEffectiveness = 0.039200000464916,
@@ -76,8 +76,8 @@ skills["SupportAddedChaosDamage"] = {
 	},
 }
 skills["SupportAddedChaosDamagePlus"] = {
-	name = "Awakened Added Chaos Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "각성한 카오스 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 5.4256000518799,
 	incrementalEffectiveness = 0.003800000064075,
@@ -121,8 +121,8 @@ skills["SupportAddedChaosDamagePlus"] = {
 	},
 }
 skills["SupportAddedLightningDamage"] = {
-	name = "Added Lightning Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "번개 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0.52710002660751,
 	incrementalEffectiveness = 0.037200000137091,
@@ -190,8 +190,8 @@ skills["SupportAddedLightningDamage"] = {
 	},
 }
 skills["SupportAddedLightningDamagePlus"] = {
-	name = "Awakened Added Lightning Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "각성한 번개 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 4.667200088501,
 	incrementalEffectiveness = 0.0057000000961125,
@@ -235,8 +235,8 @@ skills["SupportAddedLightningDamagePlus"] = {
 	},
 }
 skills["SupportArcaneSurge"] = {
-	name = "Arcane Surge",
-	description = "Each supported spell will track how much mana you spend on it, granting a buff when the total mana spent reaches a threshold. Cannot support skills used by totems, traps, mines or skills with a reservation.",
+	name = "비전 쇄도 보조",
+	description = "플레이어가 각각의 보조 대상 주문에 사용한 마나의 총계가 일정량을 초과하면 버프를 부여합니다. 토템, 덫, 지뢰 스킬이나 점유가 있는 스킬에는 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, },
@@ -318,8 +318,8 @@ skills["SupportArcaneSurge"] = {
 	},
 }
 skills["SupportArchmage"] = {
-	name = "Archmage",
-	description = "Supports spell skills that deal damage with hits and have no reservation. Cannot support arcane skills, Vaal skills, or skills used by totems, traps or mines. Cannot modify the skills of minions.",
+	name = "대마법사 보조",
+	description = "명중 시 피해를 주고 점유가 없는 주문 스킬에 적용됩니다. 비전 스킬 및 바알 스킬이나 토템, 덫, 지뢰 스킬에는 적용되지 않습니다. 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	baseEffectiveness = 0.17499999701977,
 	incrementalEffectiveness = 0.039000000804663,
@@ -408,8 +408,8 @@ skills["SupportArchmage"] = {
 	},
 }
 skills["SupportBlasphemy"] = {
-	name = "Blasphemy",
-	description = "Supports hex curse skills, turning them into auras that will apply their effect to all enemies in an area around you.",
+	name = "신성 모독 보조",
+	description = "사술 저주 스킬에 적용됩니다. 저주 스킬을 오라로 바꾸어 플레이어 주변의 모든 적에게 영향을 줍니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.AppliesCurse, SkillType.Hex, SkillType.AND, },
@@ -488,8 +488,8 @@ skills["SupportBlasphemy"] = {
 	},
 }
 skills["SupportBlasphemyPlus"] = {
-	name = "Awakened Blasphemy",
-	description = "Supports hex curse skills, turning them into auras that will apply their effect to all enemies in an area around you.",
+	name = "각성한 신성 모독 보조",
+	description = "사술 저주 스킬에 적용됩니다. 저주 스킬을 오라로 바꾸어 플레이어 주변의 모든 적에게 영향을 줍니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.AppliesCurse, SkillType.Hex, SkillType.AND, },
@@ -543,8 +543,8 @@ skills["SupportBlasphemyPlus"] = {
 	},
 }
 skills["SupportBonechill"] = {
-	name = "Bonechill",
-	description = "Supports any skill that can chill enemies or create chilling areas.",
+	name = "사무치는 한기 보조",
+	description = "적을 냉각시키거나 냉각 지역을 생성하는 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.Damage, SkillType.NonHitChill, SkillType.ChillingArea, },
@@ -624,8 +624,8 @@ skills["SupportBonechill"] = {
 	},
 }
 skills["SupportCastOnStunned"] = {
-	name = "Cast when Stunned",
-	description = "Each supported spell skill will have a chance to be triggered when you are stunned. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "기절 시 시전 보조",
+	description = "플레이어가 기절하면 일정 확률로 보조 대상 주문이 발동됩니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬에는 발동되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -692,8 +692,8 @@ skills["SupportCastOnStunned"] = {
 	},
 }
 skills["SupportCastWhileChannelling"] = {
-	name = "Cast while Channelling",
-	description = "Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
+	name = "집중 유지 중 시전 보조",
+	description = "집중 유지 스킬과 비-집중 유지 주문 스킬이 함께 연결되어 있어야 작동합니다. 집중 유지 스킬이 주기적으로 주문을 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬과 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Channel, },
@@ -766,8 +766,8 @@ skills["SupportCastWhileChannelling"] = {
 	},
 }
 skills["SupportCastWhileChannellingTriggered"] = {
-	name = "Cast while Channelling",
-	description = "Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
+	name = "집중 유지 중 시전 보조",
+	description = "집중 유지 스킬과 비-집중 유지 주문 스킬이 함께 연결되어 있어야 작동합니다. 집중 유지 스킬이 주기적으로 주문을 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬과 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -849,8 +849,8 @@ skills["SupportCastWhileChannellingTriggered"] = {
 	},
 }
 skills["SupportCastWhileChannellingPlus"] = {
-	name = "Awakened Cast While Channelling",
-	description = "Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
+	name = "각성한 집중 유지 중 시전 보조",
+	description = "집중 유지 스킬과 비-집중 유지 주문 스킬이 함께 연결되어 있어야 작동합니다. 집중 유지 스킬이 주기적으로 주문을 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬과 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Channel, },
@@ -899,8 +899,8 @@ skills["SupportCastWhileChannellingPlus"] = {
 	},
 }
 skills["SupportCastWhileChannellingTriggeredPlus"] = {
-	name = "Awakened Cast While Channelling",
-	description = "Must support both a channelling skill and a non-channelling spell skill to work. The channelling skill will trigger a spell periodically while channelling. Cannot support skills used by totems, traps, or mines. Vaal skills and skills with a reservation cannot be triggered.",
+	name = "각성한 집중 유지 중 시전 보조",
+	description = "집중 유지 스킬과 비-집중 유지 주문 스킬이 함께 연결되어 있어야 작동합니다. 집중 유지 스킬이 주기적으로 주문을 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬과 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -949,8 +949,8 @@ skills["SupportCastWhileChannellingTriggeredPlus"] = {
 	},
 }
 skills["SupportChanceToIgnite"] = {
-	name = "Combustion",
-	description = "Supports any skill that hits enemies.",
+	name = "연소 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -1029,8 +1029,8 @@ skills["SupportChanceToIgnite"] = {
 	},
 }
 skills["SupportChargedMines"] = {
-	name = "Charged Mines",
-	description = "Supports skills which throw mines.",
+	name = "충전된 지뢰 보조",
+	description = "지뢰를 던지는 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.RemoteMined, },
@@ -1112,8 +1112,8 @@ skills["SupportChargedMines"] = {
 	},
 }
 skills["SupportConcentratedEffect"] = {
-	name = "Concentrated Effect",
-	description = "Supports any skill with an area of effect, regardless of whether that skill deals damage.",
+	name = "효과 집중 보조",
+	description = "피해를 주는 여부와 관련 없이 범위 효과를 주는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -1190,8 +1190,8 @@ skills["SupportConcentratedEffect"] = {
 	},
 }
 skills["SupportControlledDestruction"] = {
-	name = "Controlled Destruction",
-	description = "Supports attack skills, or spell skills that deal damage.",
+	name = "제어된 파괴 보조",
+	description = "공격 스킬 또는 피해를 주는 주문 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DegenOnlySpellDamage, },
@@ -1268,8 +1268,8 @@ skills["SupportControlledDestruction"] = {
 	},
 }
 skills["SupportControlledDestructionPlus"] = {
-	name = "Awakened Controlled Destruction",
-	description = "Supports attack skills, or spell skills that deal damage.",
+	name = "각성한 제어된 파괴 보조",
+	description = "공격 스킬 또는 피해를 주는 주문 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DegenOnlySpellDamage, },
@@ -1321,8 +1321,8 @@ skills["SupportControlledDestructionPlus"] = {
 	},
 }
 skills["SupportCursedGround"] = {
-	name = "Cursed Ground",
-	description = "Supports non-aura hex curse skills.",
+	name = "저주받은 지대 보조",
+	description = "비-오라 사술 저주 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Hex, SkillType.AppliesCurse, SkillType.AND, },
@@ -1387,8 +1387,8 @@ skills["SupportCursedGround"] = {
 	},
 }
 skills["SupportCurseOnHit"] = {
-	name = "Hextouch",
-	description = "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+	name = "사술 손길 보조",
+	description = "적을 적중하는 스킬과 사술 저주 스킬이 함께 연결되어 있어야 작동합니다. 사술이 적용되려면 연결된 다른 스킬이 적을 적중해야 합니다. 토템, 덫, 지뢰 스킬에는 사용할 수 없습니다. 또한 소환수도 이 방법으로 사술을 적용할 수 없습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.Damage, },
@@ -1463,8 +1463,8 @@ skills["SupportCurseOnHit"] = {
 	},
 }
 skills["SupportCurseOnHitCurse"] = {
-	name = "Hextouch",
-	description = "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+	name = "사술 손길 보조",
+	description = "적을 적중하는 스킬과 사술 저주 스킬이 함께 연결되어 있어야 작동합니다. 사술이 적용되려면 연결된 다른 스킬이 적을 적중해야 합니다. 토템, 덫, 지뢰 스킬에는 사용할 수 없습니다. 또한 소환수도 이 방법으로 사술을 적용할 수 없습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.AppliesCurse, SkillType.Hex, SkillType.AND, SkillType.Triggerable, SkillType.AND, },
@@ -1541,8 +1541,8 @@ skills["SupportCurseOnHitCurse"] = {
 	},
 }
 skills["SupportCurseOnHitPlus"] = {
-	name = "Awakened Hextouch",
-	description = "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+	name = "각성한 사술 손길 보조",
+	description = "적을 적중하는 스킬과 사술 저주 스킬이 함께 연결되어 있어야 작동합니다. 사술이 적용되려면 연결된 다른 스킬이 적을 적중해야 합니다. 토템, 덫, 지뢰 스킬에는 사용할 수 없습니다. 또한 소환수도 이 방법으로 사술을 적용할 수 없습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.Damage, },
@@ -1584,8 +1584,8 @@ skills["SupportCurseOnHitPlus"] = {
 	},
 }
 skills["SupportCurseOnHitCursePlus"] = {
-	name = "Awakened Hextouch",
-	description = "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+	name = "각성한 사술 손길 보조",
+	description = "적을 적중하는 스킬과 사술 저주 스킬이 함께 연결되어 있어야 작동합니다. 사술이 적용되려면 연결된 다른 스킬이 적을 적중해야 합니다. 토템, 덫, 지뢰 스킬에는 사용할 수 없습니다. 또한 소환수도 이 방법으로 사술을 적용할 수 없습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.AppliesCurse, SkillType.Hex, SkillType.AND, SkillType.Triggerable, SkillType.AND, },
@@ -1638,8 +1638,8 @@ skills["SupportCurseOnHitCursePlus"] = {
 	},
 }
 skills["SupportMinionFocusFire"] = {
-	name = "Predator",
-	description = "Supports skills which create Minions.",
+	name = "포식자 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CreatesMinion, },
@@ -1721,9 +1721,9 @@ skills["SupportMinionFocusFire"] = {
 	},
 }
 skills["MinionFocusFire"] = {
-	name = "Signal Prey",
+	name = "사냥감 신호",
 	color = 3,
-	description = "Applies a debuff to a specific enemy which signals your minions to consider that enemy to be the Prey. All minions from skills supported by any Predator Support will target that enemy. Only one enemy can be the Prey at a time. This skill cannot be used by Totems, Traps, or Mines.",
+	description = "특정 적에게 디버프를 적용하여 소환수가 해당 적을 사냥감으로 인식하게 합니다. 포식자 보조 젬의 보조 대상 스킬로 소환되는 모든 소환수가 해당 적을 표적으로 삼습니다. 한 번에 하나의 적만 사냥감으로 지정할 수 있습니다. 해당 스킬은 토템이나 덫, 지뢰를 통해 사용할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Instant] = true, [SkillType.Minion] = true, [SkillType.Triggerable] = true, [SkillType.Duration] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, [SkillType.SkillGrantedBySupport] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0,
@@ -1796,8 +1796,8 @@ skills["MinionFocusFire"] = {
 	},
 }
 skills["SupportDecay"] = {
-	name = "Decay",
-	description = "Supports any skill that hits enemies.",
+	name = "부패 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 1.335000038147,
 	incrementalEffectiveness = 0.045800000429153,
@@ -1864,8 +1864,8 @@ skills["SupportDecay"] = {
 	},
 }
 skills["SupportEfficacy"] = {
-	name = "Efficacy",
-	description = "Supports any skill that deals damage or has a duration.",
+	name = "효력 보조",
+	description = "피해를 주거나 지속시간이 있는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DegenOnlySpellDamage, SkillType.Duration, SkillType.ThresholdJewelDuration, SkillType.DamageOverTime, },
@@ -1940,8 +1940,8 @@ skills["SupportEfficacy"] = {
 	},
 }
 skills["SupportElementalFocus"] = {
-	name = "Elemental Focus",
-	description = "Supports any skill that hits or burns enemies, or inflicts elemental ailments.",
+	name = "원소 집중 보조",
+	description = "적을 공격하거나 화상, 또는 원소 상태 이상을 유발하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.CausesBurning, SkillType.NonHitChill, },
@@ -2012,8 +2012,8 @@ skills["SupportElementalFocus"] = {
 	},
 }
 skills["SupportElementalFocusPlus"] = {
-	name = "Awakened Elemental Focus",
-	description = "Supports any skill that hits or burns enemies, or inflicts elemental ailments.",
+	name = "각성한 원소 집중 보조",
+	description = "적을 공격하거나 화상 또는 원소 상태 이상을 유발하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.CausesBurning, SkillType.NonHitChill, },
@@ -2060,8 +2060,8 @@ skills["SupportElementalFocusPlus"] = {
 	},
 }
 skills["SupportElementalProliferation"] = {
-	name = "Elemental Proliferation",
-	description = "Supports any skill that hits enemies, or could otherwise apply elemental ailments.",
+	name = "원소 확산 보조",
+	description = "적을 명중하거나 원소 상태 이상을 유발하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.ElementalStatus, },
@@ -2138,8 +2138,8 @@ skills["SupportElementalProliferation"] = {
 	},
 }
 skills["SupportEnergyShieldLeech"] = {
-	name = "Energy Leech",
-	description = "Supports any skill that hits enemies, causing those hits to leech energy shield based on damage dealt.",
+	name = "에너지 흡수 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적중 시, 주는 피해에 비례하여 에너지 보호막을 회복합니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -2218,8 +2218,8 @@ skills["SupportEnergyShieldLeech"] = {
 	},
 }
 skills["SupportAdditionalXP"] = {
-	name = "Enlighten",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will apply a cost & reservation multiplier to supported gems. Cannot support skills that don't come from gems.",
+	name = "계몽 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬에 소모 및 점유 배율이 적용됩니다. 젬과 관련되지 않은 스킬은 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { },
@@ -2251,8 +2251,8 @@ skills["SupportAdditionalXP"] = {
 	},
 }
 skills["SupportAdditionalXPPlus"] = {
-	name = "Awakened Enlighten",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will apply a cost & reservation multiplier to supported gems. Cannot support skills that don't come from gems.",
+	name = "각성한 계몽 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬에 소모 및 점유 배율이 적용됩니다. 젬과 관련되지 않은 스킬은 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { },
@@ -2292,8 +2292,8 @@ skills["SupportAdditionalXPPlus"] = {
 	},
 }
 skills["SupportFasterCast"] = {
-	name = "Faster Casting",
-	description = "Supports non-instant spell skills.",
+	name = "시전 속도 증가 보조",
+	description = "비-즉시 시전 주문 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -2359,8 +2359,8 @@ skills["SupportFasterCast"] = {
 	},
 }
 skills["SupportMinionOffensiveStance"] = {
-	name = "Feeding Frenzy",
-	description = "Supports skills which create Minions.",
+	name = "격분 주입 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CreatesMinion, },
@@ -2432,8 +2432,8 @@ skills["SupportMinionOffensiveStance"] = {
 	},
 }
 skills["SupportHexBloom"] = {
-	name = "Hex Bloom",
-	description = "Supports hex curse skills. Hexes from auras or cursed ground cannot transfer.",
+	name = "사술의 꽃 보조",
+	description = "사술 저주 스킬에 적용됩니다. 오라 또는 저주받은 지대로 건 사술은 전이되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Hex, SkillType.AppliesCurse, SkillType.AND, },
@@ -2501,8 +2501,8 @@ skills["SupportHexBloom"] = {
 	},
 }
 skills["SupportRemoteMine2"] = {
-	name = "High-Impact Mine",
-	description = "Supports spells, or attacks that use bows or wands. Instead of using that skill, you will throw a mine that will use the skill for you when you detonate it. Mines cannot use channelling skills.",
+	name = "고충격 지뢰 보조",
+	description = "주문 스킬 또는 활이나 마법봉을 사용하는 스킬에 적용됩니다. 스킬 사용 시 지뢰가 투척되며, 시전자가 지뢰를 기폭하면 지뢰에서 스킬이 시전됩니다. 집중 유지 스킬에는 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Mineable, },
@@ -2590,8 +2590,8 @@ skills["SupportRemoteMine2"] = {
 	},
 }
 skills["SupportIgniteProliferation"] = {
-	name = "Ignite Proliferation",
-	description = "Supports any skill that hits enemies.",
+	name = "점화 확산 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -2662,8 +2662,8 @@ skills["SupportIgniteProliferation"] = {
 	},
 }
 skills["SupportImmolation"] = {
-	name = "Immolate",
-	description = "Supports any skill that hits enemies.",
+	name = "번제 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0.88889998197556,
 	incrementalEffectiveness = 0.034000001847744,
@@ -2731,8 +2731,8 @@ skills["SupportImmolation"] = {
 	},
 }
 skills["ViciousHexSupport"] = {
-	name = "Impending Doom",
-	description = "Supports hex curse skills, causing them to trigger Doom Blast when the hex ends. Cannot support curse skills which are triggered or applied as an aura.",
+	name = "임박한 멸망 보조",
+	description = "사술 저주 스킬에 적용됩니다. 사술이 만료될 때 멸망 폭발을 일으킵니다. 오라의 형태로 발동되거나 적용되는 저주 스킬에는 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Hex, SkillType.AppliesCurse, SkillType.AND, },
@@ -2797,11 +2797,11 @@ skills["ViciousHexSupport"] = {
 	},
 }
 skills["ViciousHexExplosion"] = {
-	name = "Doom Blast",
+	name = "멸망 폭발",
 	color = 3,
 	baseEffectiveness = 1.7200000286102,
 	incrementalEffectiveness = 0.055599998682737,
-	description = "Deals chaos damage in an area.",
+	description = "범위 내에 카오스 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Chaos] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, [SkillType.SkillGrantedBySupport] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -2883,8 +2883,8 @@ skills["ViciousHexExplosion"] = {
 	},
 }
 skills["SupportIncreasedAreaOfEffect"] = {
-	name = "Increased Area of Effect",
-	description = "Supports any skill with an area of effect.",
+	name = "효과 범위 증가 보조",
+	description = "효과 범위에 해당하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -2951,8 +2951,8 @@ skills["SupportIncreasedAreaOfEffect"] = {
 	},
 }
 skills["SupportIncreasedAreaOfEffectPlus"] = {
-	name = "Awakened Increased Area of Effect",
-	description = "Supports any skill with an area of effect.",
+	name = "각성한 효과 범위 증가 보조",
+	description = "효과 범위를 갖는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Area, SkillType.MinionsCanExplode, SkillType.ThresholdJewelArea, },
@@ -2998,8 +2998,8 @@ skills["SupportIncreasedAreaOfEffectPlus"] = {
 	},
 }
 skills["SupportIncreasedCriticalDamage"] = {
-	name = "Increased Critical Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "치명타 피해 증가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -3065,8 +3065,8 @@ skills["SupportIncreasedCriticalDamage"] = {
 	},
 }
 skills["SupportIncreasedCriticalStrikes"] = {
-	name = "Increased Critical Strikes",
-	description = "Supports any skill that hits enemies.",
+	name = "치명타 증가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -3135,8 +3135,8 @@ skills["SupportIncreasedCriticalStrikes"] = {
 	},
 }
 skills["SupportBurningMinions"] = {
-	name = "Infernal Legion",
-	description = "Supports skills which create Minions.",
+	name = "지옥불 군단 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 5.9082999229431,
 	incrementalEffectiveness = 0.056499999016523,
@@ -3224,8 +3224,8 @@ skills["SupportBurningMinions"] = {
 	},
 }
 skills["SupportStormBarrier"] = {
-	name = "Infused Channelling",
-	description = "Supports any channelling skill, protecting you from damage while you channel it.  Cannot support skills used by totems. Cannot modify the skills of minions.",
+	name = "깊어지는 집중 유지 보조",
+	description = "모든 집중 유지 스킬에 적용됩니다. 시전자가 집중 유지하는 동안 피해에서 보호하며 토템 스킬에는 적용되지 않습니다. 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Channel, },
@@ -3334,8 +3334,8 @@ skills["SupportStormBarrier"] = {
 	},
 }
 skills["SupportOnslaughtOnSlayingShockedEnemy"] = {
-	name = "Innervate",
-	description = "Supports any skill you use to hit enemies yourself. Cannot support skills used by totems, traps, or mines.",
+	name = "자극 보조",
+	description = "직접 사용해 적을 명중하는 모든 스킬에 적용됩니다. 토템, 덫, 지뢰 스킬에는 적용되지 않습니다.",
 	color = 3,
 	baseEffectiveness = 0.23749999701977,
 	incrementalEffectiveness = 0.039000000804663,
@@ -3418,8 +3418,8 @@ skills["SupportOnslaughtOnSlayingShockedEnemy"] = {
 	},
 }
 skills["SupportHandcastSpellBoost"] = {
-	name = "Intensify",
-	description = "Supports spell skills that you cast yourself. Cannot support triggered skills, Vaal skills, instant skills, channelling skills, skills with a reservation or which create minions, or skills used by totems, traps, or mines.",
+	name = "격화 보조",
+	description = "직접 시전하는 주문 스킬에 적용됩니다. 발동형 스킬, 바알 스킬, 즉시 시전 스킬, 집중 유지 스킬, 점유가 있는 스킬이나 소환수 생성 스킬에는 적용되지 않습니다. 또한 토템, 덫, 지뢰 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.AreaSpell, },
@@ -3500,8 +3500,8 @@ skills["SupportHandcastSpellBoost"] = {
 	},
 }
 skills["SupportItemRarity"] = {
-	name = "Item Rarity",
-	description = "Supports any skill that can kill enemies.",
+	name = "아이템 희귀도 보조",
+	description = "적을 처치하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -3564,8 +3564,8 @@ skills["SupportItemRarity"] = {
 	},
 }
 skills["SupportLightningPenetration"] = {
-	name = "Lightning Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy lightning resistance.",
+	name = "번개 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 번개 저항을 관통합니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -3630,8 +3630,8 @@ skills["SupportLightningPenetration"] = {
 	},
 }
 skills["SupportLightningPenetrationPlus"] = {
-	name = "Awakened Lightning Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy lightning resistance.",
+	name = "각성한 번개 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 번개 저항을 관통합니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -3672,8 +3672,8 @@ skills["SupportLightningPenetrationPlus"] = {
 	},
 }
 skills["SupportMinionDefensiveStance"] = {
-	name = "Meat Shield",
-	description = "Supports skills which create Minions.",
+	name = "육탄 방어 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CreatesMinion, },
@@ -3755,8 +3755,8 @@ skills["SupportMinionDefensiveStance"] = {
 	},
 }
 skills["SupportMinefield"] = {
-	name = "Minefield",
-	description = "Supports skills which throw mines.",
+	name = "지뢰밭 보조",
+	description = "지뢰를 던지는 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.RemoteMined, },
@@ -3831,8 +3831,8 @@ skills["SupportMinefield"] = {
 	},
 }
 skills["SupportMinionDamage"] = {
-	name = "Minion Damage",
-	description = "Supports skills which create Minions.",
+	name = "소환수 피해 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -3912,8 +3912,8 @@ skills["SupportMinionDamage"] = {
 	},
 }
 skills["SupportMinionDamagePlus"] = {
-	name = "Awakened Minion Damage",
-	description = "Supports skills which create Minions.",
+	name = "각성한 소환수 피해 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CreatesMinion, },
@@ -3962,8 +3962,8 @@ skills["SupportMinionDamagePlus"] = {
 	},
 }
 skills["SupportMinionLife"] = {
-	name = "Minion Life",
-	description = "Supports skills which create Minions.",
+	name = "소환수 생명력 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -4041,8 +4041,8 @@ skills["SupportMinionLife"] = {
 	},
 }
 skills["SupportMinionSpeed"] = {
-	name = "Minion Speed",
-	description = "Supports skills which create Minions.",
+	name = "소환수 속도 보조",
+	description = "소환수 생성 스킬에 적용됩니다.",
 	color = 3,
 	baseEffectiveness = 0,
 	support = true,
@@ -4110,8 +4110,8 @@ skills["SupportMinionSpeed"] = {
 	},
 }
 skills["SupportSummonElementalResistances"] = {
-	name = "Elemental Army",
-	description = "Supports skills which create Minions.",
+	name = "원소의 군단 보조",
+	description = "소환수를 생성하는 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CreatesMinion, },
@@ -4194,8 +4194,8 @@ skills["SupportSummonElementalResistances"] = {
 	},
 }
 skills["SupportOvercharge"] = {
-	name = "Overcharge",
-	description = "Supports any skill that hits enemies.",
+	name = "과충전 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -4275,8 +4275,8 @@ skills["SupportOvercharge"] = {
 	},
 }
 skills["SupportPhysicalToLightning"] = {
-	name = "Physical to Lightning",
-	description = "Supports any skill that hits enemies.",
+	name = "물리 번개 전환 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -4350,8 +4350,8 @@ skills["SupportPhysicalToLightning"] = {
 	},
 }
 skills["SupportPrismaticBurst"] = {
-	name = "Prismatic Burst",
-	description = "Supports attacks, causing them to trigger the Prismatic Burst spell. Cannot support triggered attacks or attacks used by things other than you. Cannot modify the skills of minions.",
+	name = "분광 격발 보조",
+	description = "공격에 적용됩니다. 보조 대상 스킬이 분광 격발 주문을 발동합니다. 발동형 공격이나 플레이어가 아닌 다른 개체가 사용한 공격, 소환수가 사용하는 스킬에는 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -4426,11 +4426,11 @@ skills["SupportPrismaticBurst"] = {
 	},
 }
 skills["PrismaticBurst"] = {
-	name = "Prismatic Burst",
+	name = "분광 격발",
 	color = 3,
 	baseEffectiveness = 0.99330002069473,
 	incrementalEffectiveness = 0.059399999678135,
-	description = "Chooses an element at random and deals damage of that type in an area. Having higher strength makes it more likely to choose fire, higher dexterity makes it more likely to choose cold, and higher intelligence makes it more likely to choose lightning.",
+	description = "원소 하나를 무작위로 선택하여 일정 범위에 해당 유형의 피해를 줍니다. 힘이 높을수록 화염이, 민첩이 높을수록 냉기가, 지능이 높을수록 번개가 선택될 확률이 높아집니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Cold] = true, [SkillType.Lightning] = true, [SkillType.RandomElement] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Cooldown] = true, [SkillType.SkillGrantedBySupport] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -4543,8 +4543,8 @@ skills["PrismaticBurst"] = {
 	},
 }
 skills["SupportProjectileIntensity"] = {
-	name = "Pinpoint",
-	description = "Supports projectile spells you cast yourself. Cannot support triggered skills, Vaal skills, instant skills, channelling skills, skills with a reservation or which create minions, or skills used by totems, traps, or mines.",
+	name = "핵심 조준 보조",
+	description = "직접 시전하는 투사체 주문에 적용됩니다. 발동형 스킬, 바알 스킬, 즉시 시전 스킬, 집중 유지 스킬, 마나 점유 또는 소환수 생성 스킬에는 적용되지 않습니다. 또한 토템, 덫, 지뢰 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Projectile, SkillType.Spell, SkillType.AND, },
@@ -4627,8 +4627,8 @@ skills["SupportProjectileIntensity"] = {
 	},
 }
 skills["SupportPowerChargeOnCrit"] = {
-	name = "Power Charge On Critical",
-	description = "Supports any skill that hits enemies.",
+	name = "치명타 시 권능 충전 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -4701,8 +4701,8 @@ skills["SupportPowerChargeOnCrit"] = {
 	},
 }
 skills["SupportRemoteMine"] = {
-	name = "Blastchain Mine",
-	description = "Supports spells, or attacks that use bows or wands. Instead of using that skill, you will throw a mine that will use the skill for you when you detonate it. Mines cannot use channelling skills.",
+	name = "연쇄 폭발 지뢰 보조",
+	description = "주문 스킬 또는 활이나 마법봉을 사용하는 공격 스킬에 적용됩니다. 스킬 사용 시 지뢰가 투척되며, 플레이어가 지뢰를 기폭하면 지뢰에서 스킬이 시전됩니다. 집중 유지 스킬에는 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Mineable, },
@@ -4790,8 +4790,8 @@ skills["SupportRemoteMine"] = {
 	},
 }
 skills["SupportSpellCascade"] = {
-	name = "Spell Cascade",
-	description = "Supports spell skills that apply an effect to an area around a targeted location. Cannot support Vaal skills or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+	name = "연속 주문 보조",
+	description = "대상 지점 주변의 범위 내에 영향을 주는 주문 스킬에 적용됩니다. 바알 스킬 또는 토템, 덫, 지뢰 스킬에는 적용되지 않습니다. 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Cascadable, },
@@ -4870,8 +4870,8 @@ skills["SupportSpellCascade"] = {
 	},
 }
 skills["SupportSpellCascadePlus"] = {
-	name = "Awakened Spell Cascade",
-	description = "Supports spell skills that apply an effect to an area around a targeted location. Cannot support Vaal skills or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+	name = "각성한 연속 주문 보조",
+	description = "대상 지점 주변의 범위 내에 영향을 주는 주문 스킬에 적용됩니다. 바알 스킬 또는 토템, 덫, 지뢰 스킬에는 적용되지 않습니다. 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Cascadable, },
@@ -4925,8 +4925,8 @@ skills["SupportSpellCascadePlus"] = {
 	},
 }
 skills["SupportMulticast"] = {
-	name = "Spell Echo",
-	description = "Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, or skills with a reservation.",
+	name = "주문 메아리 보조",
+	description = "주문 스킬에 적용되며, 시전 시 스킬이 반복됩니다. 바알 스킬, 토템 스킬, 집중 유지 스킬, 발동형 스킬, 즉시 시전 스킬, 점유가 있는 스킬에는 적용되지 않습니다",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Multicastable, },
@@ -5010,8 +5010,8 @@ skills["SupportMulticast"] = {
 	},
 }
 skills["SupportSpellEchoPlus"] = {
-	name = "Awakened Spell Echo",
-	description = "Supports spell skills, making them repeat when cast. Cannot support Vaal skills, totem skills, channelling skills, triggered skills, instant skills, or skills with a reservation.",
+	name = "각성한 주문 메아리 보조",
+	description = "주문 스킬에 적용되며, 시전 시 스킬이 반복됩니다. 바알 스킬, 토템 스킬, 집중 유지 스킬, 발동형 스킬, 즉시 시전 스킬, 점유가 있는 스킬에는 적용되지 않습니다",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Multicastable, },
@@ -5070,8 +5070,8 @@ skills["SupportSpellEchoPlus"] = {
 	},
 }
 skills["SupportSummonGhostOnKill"] = {
-	name = "Summon Phantasm",
-	description = "Supports skills that can hit enemies, or create minions. When those skills or minions kill enemies, or hit rare or unique enemies they will have a chance to summon a Phantasm minion, which uses a piercing projectile spell that deals physical damage.",
+	name = "환영 소환 보조",
+	description = "공격 스킬과 소환수를 생성하는 스킬에 적용됩니다. 공격 스킬 또는 소환수가 적을 처치하거나 희귀/고유 적을 적중할 경우, 일정 확률로 환영을 불러냅니다. 환영은 물리 피해를 주는 관통형 투사체 주문을 시전합니다",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.Damage, SkillType.CreatesMinion, },
@@ -5164,8 +5164,8 @@ skills["SupportSummonGhostOnKill"] = {
 	},
 }
 skills["SupportRapidActivation"] = {
-	name = "Swiftbrand",
-	description = "Supports skills which create brands.",
+	name = "재빠른 낙인 보조",
+	description = "낙인 생성 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Brand, },
@@ -5250,8 +5250,8 @@ skills["SupportRapidActivation"] = {
 	},
 }
 skills["SupportTrinity"] = {
-	name = "Trinity",
-	description = "Supports skills that hit enemies, causing them to gain bonuses while you have resonance of all three elements, and to grant resonance of elements other than the highest one in a hit. There is a maximum of 50 Resonance for each Element. Cannot support triggered skills, instant skills, orb skills, brands, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+	name = "삼위일체 보조",
+	description = "적을 적중시키는 스킬에 적용되어, 세 원소의 공명이 모두 있는 동안 보너스를 부여하고, 명중 시에 가장 높은 원소를 제외한 다른 원소들에 공명을 부여합니다. 각 원소의 공명의 한도는 50입니다. 발동형 스킬, 즉시 시전 스킬, 보주 스킬, 낙인 스킬, 점유가 있는 스킬에는 적용되지 않습니다. 또한 토템, 덫, 지뢰 스킬이나 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -5329,8 +5329,8 @@ skills["SupportTrinity"] = {
 	},
 }
 skills["SupportAilments"] = {
-	name = "Unbound Ailments",
-	description = "Supports any skill that hits enemies or inflicts ailments",
+	name = "벌어지는 상처 보조",
+	description = "적을 명중하거나 상태 이상을 유발하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.ElementalStatus, },
@@ -5405,8 +5405,8 @@ skills["SupportAilments"] = {
 	},
 }
 skills["SupportUnboundAilmentsPlus"] = {
-	name = "Awakened Unbound Ailments",
-	description = "Supports any skill that hits enemies or inflicts ailments",
+	name = "각성한 벌어지는 상처 보조",
+	description = "적을 명중하거나 상태 이상을 유발하는 모든 스킬에 적용됩니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.ElementalStatus, },
@@ -5453,8 +5453,8 @@ skills["SupportUnboundAilmentsPlus"] = {
 	},
 }
 skills["SupportHandcastAnticipation"] = {
-	name = "Unleash",
-	description = "Supports spell skills, making their effect reoccur when cast. Cannot support skills with cooldowns, triggered skills, Brand skills, Vaal skills, channelling skills, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+	name = "촉발 보조",
+	description = "주문 스킬에 적용됩니다. 시전 시 스킬 효과가 반복됩니다. 재사용 대기시간이 있는 스킬, 발동형 스킬, 낙인 스킬, 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬에는 적용되지 않습니다. 또한 토템, 덫, 지뢰 스킬이나 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CanRapidFire, },
@@ -5540,8 +5540,8 @@ skills["SupportHandcastAnticipation"] = {
 	},
 }
 skills["SupportUnleashPlus"] = {
-	name = "Awakened Unleash",
-	description = "Supports spell skills, making their effect reoccur when cast. Cannot support skills with cooldowns, triggered skills, Brand skills, Vaal skills, channelling skills, skills with a reservation, or skills used by totems, traps, or mines. Cannot modify the skills of minions.",
+	name = "각성한 촉발 보조",
+	description = "주문 스킬에 적용됩니다. 시전 시 스킬 효과가 반복됩니다. 재사용 대기시간이 있는 스킬, 발동형 스킬, 낙인 스킬, 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬에는 적용되지 않습니다. 또한 토템, 덫, 지뢰 스킬이나 소환수가 사용하는 스킬에도 적용되지 않습니다.",
 	color = 3,
 	support = true,
 	requireSkillTypes = { SkillType.CanRapidFire, },

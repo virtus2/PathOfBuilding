@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Sacrifices {0}% of your Life\nMinions Regenerate {1}% of Sacrificed Life per second"
+					text="생명력의 {0}% 희생\n소환수가 1초마다 희생된 생명력의 {1}% 재생"
 				}
 			}
 		},
@@ -28,7 +28,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -36,7 +36,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Life Regeneration granted to Minions per corpse Consumed"
+					text="소모한 시신 하나당 소환수가 획득하는 생명력 재생 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -49,7 +49,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Life Regeneration granted to Minions per corpse Consumed"
+					text="소모한 시신 하나당 소환수가 획득하는 생명력 재생 {0}% 감폭"
 				}
 			}
 		},
@@ -60,7 +60,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -68,7 +68,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% increased Attack Speed"
+					text="소환수의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -81,7 +81,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Grants Minions {0}% reduced Attack Speed"
+					text="소환수의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -92,7 +92,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -100,7 +100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% increased Damage"
+					text="소환수의 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -113,7 +113,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Grants Minions {0}% reduced Damage"
+					text="소환수의 피해{0}% 감소"
 				}
 			}
 		},
@@ -124,7 +124,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -132,7 +132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% increased Cast Speed"
+					text="소환수의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -145,7 +145,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Grants Minions {0}% reduced Cast Speed"
+					text="소환수의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -156,7 +156,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -164,7 +164,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% increased Movement Speed"
+					text="소환수의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -177,7 +177,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Grants Minions {0}% reduced Movement Speed"
+					text="소환수의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -188,7 +188,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -196,7 +196,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0:+d}% Chance to Block Attack Damage"
+					text="소환수의 공격 피해 막기 확률 {0:+d}%"
 				}
 			}
 		},
@@ -207,7 +207,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -215,7 +215,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0:+d}% Chance to Block Spell Damage"
+					text="소환수의 주문 피해 막기 확률 {0:+d}%"
 				}
 			}
 		},
@@ -226,7 +226,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -234,7 +234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions recover {0} Life when they Block"
+					text="소환수가 막아낼 시 소환수의 생명력 {0} 회복"
 				}
 			}
 		},
@@ -245,7 +245,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -253,7 +253,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain {0}% of their Physical Damage as Extra Chaos Damage"
+					text="소환수가 물리 피해의 {0}%를 추가 카오스 피해로 획득"
 				}
 			}
 		},
@@ -264,7 +264,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -272,7 +272,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain {0}% of their Maximum Life as\nExtra Maximum Energy Shield for each corpse Consumed"
+					text="소환수가 소모한 시신 하나당 최대 생명력의 {0}%를\n추가 에너지 보호막 최대치로 획득"
 				}
 			}
 		},
@@ -283,7 +283,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -291,7 +291,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions +{0}% to Chaos Resistance"
+					text="소환수의 카오스 저항 +{0}%"
 				}
 			}
 		},
@@ -302,7 +302,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -310,7 +310,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain {0:+d}% to all Elemental Resistances"
+					text="소환수가 모든 원소 저항 {0:+d}% 획득"
 				}
 			}
 		},
@@ -321,7 +321,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -337,7 +337,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% of Damage Leeched as Life"
+					text="소환수가 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -348,7 +348,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -364,7 +364,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Minions {0}% of Life Regenerated per Second if they have Blocked recently"
+					text="소환수가 최근 4초 이내 막아낸 경우 1초당 생명력의 {0}% 재생"
 				}
 			}
 		},

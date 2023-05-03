@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Debuff Lasts {0} seconds"
+					text="{0}초간 디버프 지속"
 				}
 			}
 		},
@@ -27,7 +27,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -35,7 +35,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Critical Strike Chance"
+					text="이 주문 및 소환수의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -48,7 +48,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Critical Strike Chance"
+					text="이 주문 및 소환수의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -59,7 +59,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -67,7 +67,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% more Critical Strike Chance"
+					text="이 주문 및 소환수의 치명타 확률 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -80,7 +80,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% less Critical Strike Chance"
+					text="이 주문 및 소환수의 치명타 확률 {0}% 감폭"
 				}
 			}
 		},
@@ -91,7 +91,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -99,7 +99,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0:+d}% to Critical Strike Multiplier"
+					text="이 주문 및 소환수의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -110,7 +110,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -126,7 +126,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Leech {0}% of Damage as Life"
+					text="이 주문 및 소환수가 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -137,7 +137,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -153,7 +153,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Leech {0}% of Damage as Energy Shield"
+					text="이 주문 및 소환수가 피해의 {0}%를 에너지 보호막으로 흡수"
 				}
 			}
 		},
@@ -164,7 +164,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -176,7 +176,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have an additional {0}% chance to Knock Enemies Back on Hit"
+					text="이 주문 및 소환수가 명중 시 적을 밀어낼 확률 {0}% 추가"
 				},
 				[2]={
 					[1]={
@@ -189,7 +189,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions knock Enemies Back on Hit"
+					text="이 주문 및 소환수가 명중 시 적을 밀어냄"
 				}
 			}
 		},
@@ -200,7 +200,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -208,7 +208,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Knockback Distance"
+					text="이 주문 및 소환수의 밀어내기 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -221,7 +221,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Knockback Distance"
+					text="이 주문 및 소환수의 밀어내기 거리 {0}% 감소"
 				}
 			}
 		},
@@ -232,7 +232,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -244,7 +244,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Enemy Stun Threshold"
+					text="이 주문 및 소환수의 적 기절 한계치 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -261,7 +261,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% increased Enemy Stun Threshold"
+					text="이 주문 및 소환수의 적 기절 한계치 {0}% 증가"
 				}
 			}
 		},
@@ -272,7 +272,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -280,7 +280,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Rarity of Items Dropped by enemies Slain by this Spell or Minions"
+					text="이 주문 또는 소환수가 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -293,7 +293,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Rarity of Items Dropped by enemies Slain by this Spell or Minions"
+					text="이 주문 또는 소환수가 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 감소"
 				}
 			}
 		},
@@ -304,7 +304,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -312,7 +312,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Quantity of Items Dropped by enemies Slain by this Spell or Minions"
+					text="이 주문 또는 소환수가 처치한 적이 떨어뜨리는 아이템 수량 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -325,7 +325,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Quantity of Items Dropped by enemies Slain by this Spell or Minions"
+					text="이 주문 또는 소환수가 처치한 적이 떨어뜨리는 아이템 수량 {0}% 감소"
 				}
 			}
 		},
@@ -336,7 +336,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -352,7 +352,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions always Freeze Enemies"
+					text="이 주문 및 소환수가 항상 동결 유발"
 				},
 				[2]={
 					[1]={
@@ -369,7 +369,7 @@ return {
 							[2]=0
 						}
 					},
-					text="This Spell and Minions always Freeze Enemies"
+					text="이 주문 및 소환수가 항상 동결 유발"
 				},
 				[3]={
 					[1]={
@@ -386,7 +386,7 @@ return {
 							[2]=0
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Freeze enemies"
+					text="이 주문 및 소환수가 {0}%의 확률로 적 동결 유발"
 				}
 			}
 		},
@@ -398,7 +398,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -410,7 +410,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Shock enemies"
+					text="이 주문 및 소환수가 {0}%의 확률로 적 감전 유발"
 				}
 			}
 		},
@@ -421,7 +421,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -433,7 +433,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Ignite enemies"
+					text="이 주문 및 소환수가 {0}%의 확률로 적 점화 유발"
 				}
 			}
 		},
@@ -444,7 +444,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -452,7 +452,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to cause Monsters to Flee on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 몬스터를 도망치게 함"
 				}
 			}
 		},
@@ -463,7 +463,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -471,7 +471,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Area of Effect"
+					text="이 주문 및 소환수의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -484,7 +484,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Area of Effect"
+					text="이 주문 및 소환수의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -495,7 +495,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -503,7 +503,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% more Area of Effect"
+					text="이 주문 및 소환수의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -516,7 +516,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% less Area of Effect"
+					text="이 주문 및 소환수의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -527,7 +527,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -535,7 +535,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Stun Duration on enemies"
+					text="이 주문 및 소환수가 적에게 적용하는 기절 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -548,7 +548,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Stun Duration on enemies"
+					text="이 주문 및 소환수가 적에게 적용하는 기절 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -559,7 +559,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -567,7 +567,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Chill Effect"
+					text="이 주문 및 소환수의 냉각 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -580,7 +580,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Chill Effect"
+					text="이 주문 및 소환수의 냉각 효과 {0}% 감소"
 				}
 			}
 		},
@@ -591,7 +591,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -599,7 +599,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Shock Effect"
+					text="이 주문 및 소환수의 감전 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -612,7 +612,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Shock Effect"
+					text="이 주문 및 소환수의 감전 효과 {0}% 감소"
 				}
 			}
 		},
@@ -623,7 +623,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -631,7 +631,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Ignite Duration"
+					text="이 주문 및 소환수의 점화 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -644,7 +644,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Ignite Duration"
+					text="이 주문 및 소환수의 점화 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -655,7 +655,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -663,7 +663,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Chill Duration"
+					text="이 주문 및 소환수의 냉각 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -676,7 +676,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Chill Duration"
+					text="이 주문 및 소환수의 냉각 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -687,7 +687,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -695,7 +695,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Freeze Duration"
+					text="이 주문 및 소환수의 동결 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -708,7 +708,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Freeze Duration"
+					text="이 주문 및 소환수의 동결 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -719,7 +719,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -727,7 +727,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Shock Duration"
+					text="이 주문 및 소환수의 감전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -740,7 +740,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Shock Duration"
+					text="이 주문 및 소환수의 감전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -751,7 +751,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -763,7 +763,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Elemental Ailments caused by this Spell or Minions also spread to nearby enemies"
+					text="이 주문 또는 소환수에 의해 발생하는 원소 상태 이상이 주변의 적에게도 확산"
 				}
 			}
 		},
@@ -774,7 +774,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -782,7 +782,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignites caused by this Spell or Minions spread to other nearby Enemies"
+					text="이 주문 또는 소환수로 인해 발생하는 점화가 주변의 다른 적에게 확산"
 				}
 			}
 		},
@@ -793,7 +793,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -801,7 +801,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Convert {0}% of Physical Damage to Lightning Damage"
+					text="이 주문 및 소환수가 물리 피해의 {0}%를 번개 피해로 전환"
 				}
 			}
 		},
@@ -812,7 +812,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -824,7 +824,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Blind on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 실명 유발"
 				}
 			}
 		},
@@ -835,7 +835,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -843,7 +843,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Blinding duration"
+					text="이 주문 및 소환수의 실명 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -856,7 +856,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Blinding duration"
+					text="이 주문 및 소환수의 실명 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -867,7 +867,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -875,7 +875,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Penetrate {0}% Fire Resistance"
+					text="이 주문 및 소환수가 화염 저항 {0}% 관통"
 				}
 			}
 		},
@@ -886,7 +886,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -894,7 +894,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Penetrate {0}% Cold Resistance"
+					text="이 주문 및 소환수가 냉기 저항 {0}% 관통"
 				}
 			}
 		},
@@ -905,7 +905,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -913,7 +913,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Penetrate {0}% Elemental Resistances"
+					text="이 주문 및 소환수가 {0}%의 원소 저항 관통"
 				}
 			}
 		},
@@ -924,7 +924,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -932,7 +932,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Penetrate {0}% Lightning Resistance"
+					text="이 주문 및 소환수가 번개 저항 {0}% 관통"
 				}
 			}
 		},
@@ -943,7 +943,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -951,7 +951,7 @@ return {
 							[2]=1
 						}
 					},
-					text="This Spell and Minion's Spells Repeat an additional time"
+					text="이 주문 및 소환수의 주문 1회 추가 반복"
 				},
 				[2]={
 					limit={
@@ -960,7 +960,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minion's Spells Repeat an additional {0} times"
+					text="이 주문 및 소환수의 주문 {0}회 추가 반복"
 				}
 			}
 		},
@@ -971,7 +971,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -979,7 +979,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Duration of Cruelty"
+					text="이 주문 및 소환수의 잔혹 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -992,7 +992,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Duration of Cruelty"
+					text="이 주문 및 소환수의 잔혹 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1003,7 +1003,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1011,7 +1011,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to gain a Power Charge on Critical Strike"
+					text="이 주문 및 소환수가 치명타 명중 시 {0}%의 확률로 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -1020,7 +1020,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions gain a Power Charge on Critical Strike"
+					text="이 주문 및 소환수가 치명타 명중 시 권능 충전 획득"
 				}
 			}
 		},
@@ -1031,7 +1031,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1043,7 +1043,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0:d}% chance to Freeze Enemies which are Chilled"
+					text="이 주문 및 소환수가 {0:d}%의 확률로 냉각된 적 동결 유발"
 				}
 			}
 		},
@@ -1054,7 +1054,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1066,7 +1066,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% more Damage with Hits and Ailments against Chilled Enemies"
+					text="이 주문 및 소환수가 냉각된 적에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1083,7 +1083,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% less Damage with Hits and Ailments against Chilled Enemies"
+					text="이 주문 및 소환수가 냉각된 적에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1094,7 +1094,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1106,7 +1106,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions cannot inflict Elemental Ailments"
+					text="이 주문 및 소환수가 원소 상태 이상 유발 불가"
 				}
 			}
 		},
@@ -1117,7 +1117,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1129,7 +1129,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Poison Enemies on Hit"
+					text="이 주문 및 소환수가 명중 시 적 중독 유발"
 				}
 			}
 		},
@@ -1140,7 +1140,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1148,7 +1148,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Poison Duration"
+					text="이 주문 및 소환수의 중독 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1161,7 +1161,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Poison Duration"
+					text="이 주문 및 소환수의 중독 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1172,7 +1172,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1184,7 +1184,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Duration of Ailments"
+					text="이 주문 및 소환수의 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1201,7 +1201,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Duration of Ailments"
+					text="이 주문 및 소환수의 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1212,7 +1212,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1224,7 +1224,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Poison on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 적 중독 유발"
 				},
 				[2]={
 					[1]={
@@ -1237,7 +1237,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions always Poison on Hit"
+					text="이 주문 및 소환수가 명중 시 항상 중독 유발"
 				}
 			}
 		},
@@ -1248,7 +1248,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1260,7 +1260,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to inflict Cold Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 냉기 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -1273,7 +1273,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Cold Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 냉기 노출 유발"
 				}
 			}
 		},
@@ -1284,7 +1284,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1296,7 +1296,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to inflict Fire Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 화염 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -1309,7 +1309,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Fire Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 화염 노출 유발"
 				}
 			}
 		},
@@ -1320,7 +1320,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1332,7 +1332,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to inflict Lightning Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 번개 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -1345,7 +1345,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Lightning Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 번개 노출 유발"
 				}
 			}
 		},
@@ -1356,7 +1356,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -1372,7 +1372,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% of Chaos Damage Leeched as Life"
+					text="이 주문 및 소환수가 카오스 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -1383,7 +1383,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1395,7 +1395,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Have {0}% increased Effect of Cold Ailments"
+					text="이 주문 및 소환수의 냉기 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1412,7 +1412,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions Have {0}% reduced Effect of Cold Ailments"
+					text="이 주문 및 소환수의 냉기 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1423,7 +1423,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1431,7 +1431,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Critical Strike Chance against Blinded Enemies"
+					text="이 주문 및 소환수의 실명된 적에 대한 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1444,7 +1444,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Critical Strike Chance against Blinded Enemies"
+					text="이 주문 및 소환수의 실명된 적에 대한 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -1455,7 +1455,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1463,7 +1463,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Cruelty gained by this Spell or Minions"
+					text="이 주문 또는 소환수가 부여하는 잔혹 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1476,7 +1476,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Cruelty gained by this Spell or Minions"
+					text="이 주문 또는 소환수가 부여하는 잔혹 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1487,7 +1487,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1499,7 +1499,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage with Hits and Ailments per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 이 주문 및 소환수가 주는 명중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1516,7 +1516,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% reduced Damage with Hits and Ailments  per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 이 주문 및 소환수가 주는 명중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1527,7 +1527,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1535,7 +1535,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1548,7 +1548,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% reduced Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1559,7 +1559,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1567,7 +1567,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1580,7 +1580,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% reduced Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1591,7 +1591,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1599,7 +1599,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1612,7 +1612,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% reduced Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1623,7 +1623,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1635,7 +1635,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 이 주문 및 소환수가 주는 명중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1652,7 +1652,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% reduced Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 이 주문 및 소환수가 주는 명중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1663,7 +1663,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1671,7 +1671,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% increased Damage with Hits against Enemies that are on Low Life"
+					text="이 주문 및 소환수가 낮은 생명력 상태의 적 명중 시 주는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -1682,7 +1682,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1694,7 +1694,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Damaging Ailments inflicted by this Spell or Minions deal damage {0}% faster"
+					text="이 주문 또는 소환수가 유발하는 상태 이상 피해 {0}%만큼 가속"
 				}
 			}
 		},
@@ -1705,7 +1705,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1713,7 +1713,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Decay on Hit, dealing {0} Chaos Damage per second for 8 seconds"
+					text="이 주문 및 소환수가 명중 시 부패를 유발하여, 8초 동안 1초마다 {0} 카오스 피해를 줌"
 				}
 			}
 		},
@@ -1724,7 +1724,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1732,7 +1732,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Shocked by this Spell or Minions have {0}% increased Movement Speed"
+					text="이 주문 또는 소환수가 감전시킨 적의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1745,7 +1745,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Shocked by this Spell or Minions have {0}% reduced Movement Speed"
+					text="이 주문 또는 소환수가 감전시킨 적의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1756,7 +1756,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1764,7 +1764,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to gain a Power Charge on Killing Blow"
+					text="이 주문 및 소환수가 최후의 일격 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -1775,7 +1775,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1787,7 +1787,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions gain Cruelty on Hit"
+					text="이 주문 및 소환수가 명중 시 잔혹 획득"
 				}
 			}
 		},
@@ -1798,7 +1798,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1806,7 +1806,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Ignited by this Spell or Minions have {0:+d}% to Fire Resistance"
+					text="이 주문 또는 소환수에 의해 점화된 적의 화염 저항 {0:+d}%"
 				}
 			}
 		},
@@ -1817,7 +1817,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1825,7 +1825,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0:+d} to Radius of their Burning Effect"
+					text="이 주문 및 소환수의 화상 효과 범위 {0:+d} 적용"
 				}
 			}
 		},
@@ -1836,7 +1836,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1848,7 +1848,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Fire, Cold, and Lightning Exposure on Hit"
+					text="이 주문 및 소환수가 명중 시 화염, 냉기, 번개 노출 유발"
 				}
 			}
 		},
@@ -1859,7 +1859,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1867,7 +1867,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% chance to Knock Enemies Back with Hits at Close Range"
+					text="이 주문 및 소환수가 근거리에서 명중 시 {0}%의 확률로 적을 밀어냄"
 				}
 			}
 		},
@@ -1878,7 +1878,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1890,7 +1890,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Effect of Lightning Ailments"
+					text="이 주문 및 소환수의 번개 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1907,7 +1907,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Effect of Lightning Ailments"
+					text="이 주문 및 소환수의 번개 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1918,7 +1918,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1930,7 +1930,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Effect of non-Damaging Ailments"
+					text="이 주문 및 소환수의 비-피해 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1947,7 +1947,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Effect of non-Damaging Ailments"
+					text="이 주문 및 소환수의 비-피해 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1958,7 +1958,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1966,7 +1966,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Penetrate {0}% Chaos Resistance"
+					text="이 주문 및 소환수가 카오스 저항 {0}% 관통"
 				}
 			}
 		},
@@ -1977,7 +1977,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1985,7 +1985,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Shocks this Spell or Minions inflict with Critical Strikes"
+					text="이 주문 또는 소환수의 치명타로 유발한 감전의 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1998,7 +1998,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Shocks this Spell or Minions inflict with Critical Strikes"
+					text="이 주문 또는 소환수의 치명타로 유발한 감전의 효과 {0}% 감소"
 				}
 			}
 		},
@@ -2009,7 +2009,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2021,7 +2021,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Duration of Damaging Ailments\nMinions have {0}% increased Duration of Skills and Damaging Ailments"
+					text="피해를 주는 상태 이상 지속시간 {0}% 증가\n소환수의 스킬 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2038,7 +2038,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Duration of Damaging Ailments\nMinions have {0}% reduced Duration of Skills and Damaging Ailments"
+					text="피해를 주는 상태 이상 지속시간 {0}% 감소\n소환수의 스킬 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -2049,7 +2049,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2057,7 +2057,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by this Spell or Minions take {0}% increased Cold Damage over Time"
+					text="이 주문 또는 소환수에 의해 냉각된 적이 받는 지속 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2070,7 +2070,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Chilled by this Spell or Minions take {0}% reduced Cold Damage over Time"
+					text="이 주문 또는 소환수에 의해 냉각된 된 적이 받는 지속 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2081,7 +2081,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2089,7 +2089,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by this Spell or Minions have Cold Damage taken increased by Chill Effect"
+					text="이 주문 또는 소환수에 의해 냉각된 적이 냉각 효과로 받는 냉기 피해 증가"
 				}
 			}
 		},
@@ -2100,7 +2100,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2108,7 +2108,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% more Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 이 주문 및 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2121,7 +2121,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% less Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 이 주문 및 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2132,7 +2132,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2140,7 +2140,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% more Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2153,7 +2153,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% less Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 이 주문 및 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2164,7 +2164,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2176,7 +2176,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0} to {1} added Fire Damage against Burning Enemies"
+					text="이 주문 및 소환수가 화상 상태의 적에게 주는 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -2188,7 +2188,7 @@ return {
 	},
 	[76]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2196,7 +2196,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% more Damage"
+					text="이 주문 및 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2209,7 +2209,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% less Damage"
+					text="이 주문 및 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2220,7 +2220,7 @@ return {
 	},
 	[77]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2228,7 +2228,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions Shock Enemies as though dealing {0}% more Damage"
+					text="이 주문 및 소환수가 {0}% 증폭된 피해를 준 것처럼 적에게 감전 유발"
 				},
 				[2]={
 					[1]={
@@ -2241,7 +2241,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions Shock Enemies as though dealing {0}% less Damage"
+					text="이 주문 및 소환수가 {0}% 감폭된 피해를 준 것처럼 적에게 감전 유발"
 				}
 			}
 		},
@@ -2252,7 +2252,7 @@ return {
 	},
 	[78]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2260,7 +2260,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Final Repeat of this Spell or Minion's Spells deals {0}% more Damage"
+					text="이 주문 또는 소환수의 주문 마지막 반복이 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2273,7 +2273,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Final Repeat of this Spell or Minion's Spells deals {0}% less Damage"
+					text="이 주문 또는 소환수의 주문 마지막 반복이 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2284,7 +2284,7 @@ return {
 	},
 	[79]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2296,7 +2296,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions deal {0}% more Damage with Ailments"
+					text="이 주문 및 소환수가 주는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2313,7 +2313,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions deal {0}% less Damage with Ailments"
+					text="이 주문 및 소환수가 주는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2324,7 +2324,7 @@ return {
 	},
 	[80]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -2336,7 +2336,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Withered inflicted by this Spell or Minions has a base duration of {0} second"
+					text="이 주문 또는 소환수가 유발한 위축의 기본 지속시간 {0}초"
 				},
 				[2]={
 					[1]={
@@ -2349,7 +2349,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Withered inflicted by this Spell or Minions has a base duration of {0} seconds"
+					text="이 주문 또는 소환수가 유발한 위축의 기본 지속시간 {0}초"
 				}
 			}
 		},
@@ -2360,7 +2360,7 @@ return {
 	},
 	[81]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2372,7 +2372,7 @@ return {
 							[2]=99
 						}
 					},
-					text="This Spell and Minions have {0}% chance to inflict Withered on Hit"
+					text="이 주문 및 소환수가 명중 시 {0}%의 확률로 위축 유발"
 				},
 				[2]={
 					[1]={
@@ -2385,7 +2385,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions inflict Withered on Hit"
+					text="이 주문 및 소환수가 명중 시 위축 유발"
 				}
 			}
 		},

@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Beams Split towards {0} additional target"
+					text="광선이 추가 대상 {0}개를 향해 분할"
 				},
 				[2]={
 					limit={
@@ -21,7 +21,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Beams Split towards {0} additional targets"
+					text="광선이 추가 대상 {0}개를 향해 분할"
 				}
 			}
 		},

@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Modifiers to Debuff Duration also apply to this Skill's Soul Gain Prevention"
+					text="디버프 지속시간 속성 부여 수치를 이 스킬의 영혼 획득 방지에도 적용"
 				}
 			}
 		},
@@ -23,7 +23,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -35,7 +35,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Debuff Lasts {0} seconds"
+					text="{0}초간 디버프 지속"
 				}
 			}
 		},
@@ -46,7 +46,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -58,7 +58,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Secondary Debuff Lasts {0} seconds"
+					text="{0}초간 2차 디버프 지속"
 				}
 			}
 		},
@@ -69,7 +69,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -77,7 +77,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Applies beams to the closest {0} Enemies"
+					text="가장 가까운 적 {0}명에게 광선 적용"
 				}
 			}
 		},
@@ -88,7 +88,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -96,7 +96,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Applies beams to the closest {0} nearby Bleeding Enemies"
+					text="가장 가까운 출혈 중인 적 {0}명에게 광선 적용"
 				}
 			}
 		},
@@ -107,7 +107,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -119,7 +119,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0} Life per second while any Enemy is affected"
+					text="적이 하나라도 영향을 받는 동안 1초마다 생명력 {0} 재생"
 				}
 			}
 		},
@@ -130,7 +130,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -142,7 +142,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0} Mana per second while any Enemy is affected"
+					text="적이 하나라도 영향을 받는 동안 1초마다 마나 {0} 재생"
 				}
 			}
 		},
@@ -153,7 +153,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -165,7 +165,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0} Life per second for each affected Enemy"
+					text="영향을 받는 적 하나당 1초마다 생명력 {0} 재생"
 				}
 			}
 		},
@@ -176,7 +176,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -188,7 +188,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0} Mana per second for each affected Enemy"
+					text="영향을 받는 적 하나당 1초마다 마나 {0} 재생"
 				}
 			}
 		},
@@ -199,7 +199,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -207,7 +207,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants {0}% increased Damage Taken for each affected Enemy"
+					text="영향을 받는 적 하나당 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -220,7 +220,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Grants {0}% reduced Damage Taken for each affected Enemy"
+					text="영향을 받는 적 하나당 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -231,7 +231,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -239,7 +239,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Burning Damage"
+					text="화상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -252,7 +252,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Burning Damage"
+					text="화상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -263,7 +263,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -271,7 +271,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% of your Physical Damage as Extra Fire Damage"
+					text="버프 시 물리 피해의 {0}%를 추가 화염 피해로 획득"
 				}
 			}
 		},
@@ -282,7 +282,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -290,7 +290,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Fire Damage"
+					text="버프 시 화염 피해 {0}% 증가"
 				}
 			}
 		},
@@ -301,7 +301,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -309,7 +309,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% more Spell Fire Damage"
+					text="버프 시 주문 화염 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -322,7 +322,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% less Spell Fire Damage"
+					text="버프 시 주문 화염 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -333,7 +333,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -341,7 +341,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Debuff Effect"
+					text="디버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -354,7 +354,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Debuff Effect"
+					text="디버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -365,7 +365,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -373,7 +373,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have {0}% reduced Action Speed"
+					text="적의 동작 속도가 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -386,7 +386,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies have {0}% increased Action Speed"
+					text="적의 동작 속도가 {0}% 증가"
 				}
 			}
 		},
@@ -397,7 +397,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -405,7 +405,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have {0}% chance to Explode on Death, dealing a quarter of their maximum Life as Chaos Damage"
+					text="적이 사망 시 {0}%의 확률로 폭발하여, 해당 적의 생명력 최대치의 1/4만큼을 카오스 피해로 줌"
 				}
 			}
 		},
@@ -416,7 +416,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -424,7 +424,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies get {0:+d}% to Chaos Resistance"
+					text="적이 카오스 저항 {0:+d}% 획득"
 				}
 			}
 		},
@@ -435,7 +435,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -443,7 +443,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cold Exposure applies {0:+d}% to Cold Resistance"
+					text="냉기 노출에 냉기 저항 {0:+d}% 적용"
 				}
 			}
 		},
@@ -454,7 +454,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -462,7 +462,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fire Exposure applies {0:+d}% to Fire Resistance"
+					text="화염 노출에 화염 저항 {0:+d}% 적용"
 				}
 			}
 		},
@@ -473,7 +473,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -481,7 +481,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Lightning Exposure applies {0:+d}% to Lightning Resistance"
+					text="번개 노출에 번개 저항 {0:+d}% 적용"
 				}
 			}
 		},
@@ -492,7 +492,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -500,7 +500,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies take {0}% increased Damage from Trap or Mine Hits"
+					text="적이 덫 또는 지뢰 명중으로 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -513,7 +513,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies take {0}% reduced Damage from Trap or Mine Hits"
+					text="적이 덫 또는 지뢰 명중으로 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -524,7 +524,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -532,7 +532,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have {0}% more Movement Speed when the Debuff starts"
+					text="디버프 시작 시 적의 이동 속도가 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -545,7 +545,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies have {0}% less Movement Speed when the Debuff starts"
+					text="디버프 시작 시 적의 이동 속도가 {0}% 감폭"
 				}
 			}
 		},
@@ -556,7 +556,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -568,7 +568,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles which pass through the wall deal {0} to {1} Added Fire Damage"
+					text="벽을 통과하는 투사체가 주는 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -580,7 +580,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="negate",
@@ -600,7 +600,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Each Spore Pod applies {0}% less Movement Speed to nearby Enemies, to a maximum of {1}%"
+					text="각 포자 주머니로 주변의 적의 이동 속도 {0}% 감폭, 최대 {1}%"
 				}
 			}
 		},
@@ -612,7 +612,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -620,7 +620,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Debuff applies {0:+d}% to all Resistances"
+					text="디버프 시 모든 저항 {0:+d}%"
 				}
 			}
 		},
@@ -631,7 +631,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -643,7 +643,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0}% of Energy Shield per second for each affected Enemy"
+					text="영향을 받는 적 하나당 1초마다 에너지 보호막 {0}% 재생"
 				}
 			}
 		},

@@ -7,8 +7,8 @@
 local skills, mod, flag, skill = ...
 
 skills["SupportAddedFireDamage"] = {
-	name = "Added Fire Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "화염 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -75,8 +75,8 @@ skills["SupportAddedFireDamage"] = {
 	},
 }
 skills["SupportAddedFireDamagePlus"] = {
-	name = "Awakened Added Fire Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "각성한 화염 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -117,8 +117,8 @@ skills["SupportAddedFireDamagePlus"] = {
 	},
 }
 skills["SupportSpiritStrike"] = {
-	name = "Ancestral Call",
-	description = "Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
+	name = "선대의 부름 보조",
+	description = "근접 타격 스킬에 적용됩니다. 더 많은 적을 동시에 공격하게 하며, 이때 적 대상은 시전자와 근접한 거리에 있어야 합니다. 소환수 공격 스킬의 경우, 소환수가 사용하는 스킬에는 적용할 수 없으며 바알 스킬 또는 발동형 스킬에도 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, },
@@ -192,8 +192,8 @@ skills["SupportSpiritStrike"] = {
 	},
 }
 skills["SupportAncestralCallPlus"] = {
-	name = "Awakened Ancestral Call",
-	description = "Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.",
+	name = "각성한 선대의 부름 보조",
+	description = "근접 타격 스킬에 적용됩니다. 더 많은 적을 동시에 공격하게 하며, 이때 적 대상은 시전자와 근접한 거리에 있어야 합니다. 소환수 공격 스킬의 경우, 소환수가 사용하는 스킬에는 적용할 수 없으며 바알 스킬 또는 발동형 스킬에도 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, },
@@ -242,8 +242,8 @@ skills["SupportAncestralCallPlus"] = {
 	},
 }
 skills["SupportBehead"] = {
-	name = "Behead",
-	description = "Supports strike skills.",
+	name = "참수 보조",
+	description = "타격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, },
@@ -318,8 +318,8 @@ skills["SupportBehead"] = {
 	},
 }
 skills["SupportBloodMagic"] = {
-	name = "Arrogance",
-	description = "Supports any non-blessing skill with a reservation.",
+	name = "오만 보조",
+	description = "점유가 있는 모든 비-축복 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.HasReservation, },
@@ -385,8 +385,8 @@ skills["SupportBloodMagic"] = {
 	},
 }
 skills["SupportBloodthirst"] = {
-	name = "Bloodthirst",
-	description = "Supports attack skills. Cannot support triggered skills, skills which create minions, or skills used by totems, traps or mines.",
+	name = "피의 갈증 보조",
+	description = "공격 스킬에 적용됩니다. 발동형 스킬, 소환수 생성 스킬이나 토템, 덫, 지뢰 스킬에는 적용되지 않습니다.",
 	color = 1,
 	baseEffectiveness = 0.11999999731779,
 	incrementalEffectiveness = 0.028000000864267,
@@ -466,8 +466,8 @@ skills["SupportBloodthirst"] = {
 	},
 }
 skills["SupportBloodlust"] = {
-	name = "Bloodlust",
-	description = "Supports melee attack skills, causing them to deal more damage against bleeding enemies, but preventing those skills from inflicting bleeding on enemies in any way.",
+	name = "유혈 충동 보조",
+	description = "근접 공격 스킬에 적용됩니다. 출혈 상태의 적에게 주는 피해를 증폭하지만, 보조 대상 스킬이 출혈을 유발하지는 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -538,8 +538,8 @@ skills["SupportBloodlust"] = {
 	},
 }
 skills["SupportBrutality"] = {
-	name = "Brutality",
-	description = "Supports any skill that deals damage.",
+	name = "포악함 보조",
+	description = "피해를 주는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DamageOverTime, },
@@ -611,8 +611,8 @@ skills["SupportBrutality"] = {
 	},
 }
 skills["SupportBrutalityPlus"] = {
-	name = "Awakened Brutality",
-	description = "Supports any skill that deals damage.",
+	name = "각성한 포악함 보조",
+	description = "피해를 주는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DamageOverTime, },
@@ -660,8 +660,8 @@ skills["SupportBrutalityPlus"] = {
 	},
 }
 skills["SupportIncreasedBurningDamage"] = {
-	name = "Burning Damage",
-	description = "Supports any skill that hits enemies, or can deal burning damage directly.",
+	name = "화상 피해 보조",
+	description = "적을 명중하거나 직접 화상 피해를 주는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.CausesBurning, },
@@ -731,8 +731,8 @@ skills["SupportIncreasedBurningDamage"] = {
 	},
 }
 skills["SupportBurningDamagePlus"] = {
-	name = "Awakened Burning Damage",
-	description = "Supports any skill that hits enemies, or can deal burning damage directly.",
+	name = "각성한 화상 피해 보조",
+	description = "적을 명중하거나 직접 화상 피해를 주는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.CausesBurning, },
@@ -778,8 +778,8 @@ skills["SupportBurningDamagePlus"] = {
 	},
 }
 skills["SupportCastOnMeleeKill"] = {
-	name = "Cast on Melee Kill",
-	description = "Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "근접 처치 시 시전 보조",
+	description = "근접 공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬로 적을 처치하면 주문이 발동됩니다. 토템, 덫, 지뢰 스킬에 적용할 수 없으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -851,8 +851,8 @@ skills["SupportCastOnMeleeKill"] = {
 	},
 }
 skills["SupportCastOnMeleeKillTriggered"] = {
-	name = "Cast on Melee Kill",
-	description = "Must support both a melee attack skill and a spell skill to work. The attack skill will trigger a spell when it kills an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "근접 처치 시 시전 보조",
+	description = "근접 공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬로 적을 처치하면 주문이 발동됩니다. 토템, 덫, 지뢰 스킬에 적용할 수 없으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -926,8 +926,8 @@ skills["SupportCastOnMeleeKillTriggered"] = {
 	},
 }
 skills["SupportCastOnDamageTaken"] = {
-	name = "Cast when Damage Taken",
-	description = "Each supported spell skill will track damage you take, and be triggered when the total damage taken reaches a threshold. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "피격 시 시전 보조",
+	description = "플레이어가 받은 누적 피해가 일정량을 초과하면 보조 대상 주문 스킬이 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -1004,8 +1004,8 @@ skills["SupportCastOnDamageTaken"] = {
 	},
 }
 skills["SupportChanceToBleed"] = {
-	name = "Chance to Bleed",
-	description = "Supports attack skills. Cannot support skills that create minions.",
+	name = "출혈 확률 보조",
+	description = "공격 스킬에 적용됩니다. 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 1,
 	baseEffectiveness = 0.27500000596046,
 	incrementalEffectiveness = 0.028500000014901,
@@ -1082,8 +1082,8 @@ skills["SupportChanceToBleed"] = {
 	},
 }
 skills["SupportColdToFire"] = {
-	name = "Cold to Fire",
-	description = "Supports any skill that hits enemies.",
+	name = "냉기 화염 전환 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -1153,8 +1153,8 @@ skills["SupportColdToFire"] = {
 	},
 }
 skills["SupportCruelty"] = {
-	name = "Cruelty",
-	description = "Supports any skill that hits enemies. Minions cannot gain Cruelty.",
+	name = "잔혹 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 소환수는 잔혹을 획득할 수 없습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1237,8 +1237,8 @@ skills["SupportCruelty"] = {
 	},
 }
 skills["SupportMeleeDamageOnFullLife"] = {
-	name = "Damage on Full Life",
-	description = "Supports attack skills, providing a bonus to all damage dealt by those skills while your life is full.",
+	name = "최대 생명력 시 피해 보조",
+	description = "공격 스킬에 적용됩니다. 생명력이 최대일 때 보조 대상 스킬로 공격하면 보너스 피해가 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -1308,8 +1308,8 @@ skills["SupportMeleeDamageOnFullLife"] = {
 	},
 }
 skills["SupportAuraDuration"] = {
-	name = "Divine Blessing",
-	description = "Supports aura skills that create permanent auras around you, changing their reservation to a cost and making them temporary. Cannot support banner or stance skills.",
+	name = "신성한 축복 보조",
+	description = "플레이어 주변에 영구적인 오라를 생성하는 오라 스킬에 적용됩니다. 오라의 점유가 소모로 바뀌며 일시적 오라로 변경됩니다. 깃발 또는 태세 스킬에는 적용되지 않습니다",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.CanHaveBlessing, },
@@ -1386,8 +1386,8 @@ skills["SupportAuraDuration"] = {
 	},
 }
 skills["SupportEarthbreaker"] = {
-	name = "Earthbreaker",
-	description = "Supports slam skills, causing them to summon an ancestor totem that uses the skill for you while you're near it. Being near it grants you increased area of effect for melee skills.",
+	name = "대지 분쇄자 보조",
+	description = "강타 스킬에 적용되어 선대의 토템을 소환하게 합니다. 이 토템은 플레이어가 주변에 있는 동안 플레이어를 위해 스킬을 사용하고 플레이어의 근접 스킬 효과 범위를 증가시켜줍니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Slam, SkillType.Totemable, SkillType.AND, },
@@ -1481,8 +1481,8 @@ skills["SupportEarthbreaker"] = {
 	},
 }
 skills["SupportWeaponElementalDamage"] = {
-	name = "Elemental Damage with Attacks",
-	description = "Supports attack skills.",
+	name = "공격 시 원소 피해 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -1553,8 +1553,8 @@ skills["SupportWeaponElementalDamage"] = {
 	},
 }
 skills["SupportWeaponElementalDamagePlus"] = {
-	name = "Awakened Elemental Damage with Attacks",
-	description = "Supports attack skills.",
+	name = "각성한 공격 시 원소 피해 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.ThresholdJewelRangedAttack, },
@@ -1600,8 +1600,8 @@ skills["SupportWeaponElementalDamagePlus"] = {
 	},
 }
 skills["SupportAdditionalLevel"] = {
-	name = "Empower",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
+	name = "강화 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬의 레벨을 올려줍니다. 젬과 관련되지 않은 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { },
@@ -1634,8 +1634,8 @@ skills["SupportAdditionalLevel"] = {
 	},
 }
 skills["SupportAdditionalLevelPlus"] = {
-	name = "Awakened Empower",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
+	name = "각성한 강화 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬의 레벨을 올려줍니다. 젬과 관련되지 않은 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { },
@@ -1676,8 +1676,8 @@ skills["SupportAdditionalLevelPlus"] = {
 	},
 }
 skills["EnduranceChargeOnMeleeStun"] = {
-	name = "Endurance Charge on Melee Stun",
-	description = "Supports melee attack skills.",
+	name = "기절 시 인내 충전 보조",
+	description = "근접 공격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -1754,8 +1754,8 @@ skills["EnduranceChargeOnMeleeStun"] = {
 	},
 }
 skills["SupportMortalConviction"] = {
-	name = "Eternal Blessing",
-	description = "Supports aura skills that reserve life or mana to create auras around you.",
+	name = "영원한 축복 보조",
+	description = "플레이어 주변에 오라를 생성하기 위해 생명력 또는 마나를 점유하는 오라 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Aura, SkillType.HasReservation, SkillType.AND, },
@@ -1834,8 +1834,8 @@ skills["SupportMortalConviction"] = {
 	},
 }
 skills["SupportFirePenetration"] = {
-	name = "Fire Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy fire resistance.",
+	name = "화염 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 화염 저항을 관통합니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1900,8 +1900,8 @@ skills["SupportFirePenetration"] = {
 	},
 }
 skills["SupportFirePenetrationPlus"] = {
-	name = "Awakened Fire Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy fire resistance.",
+	name = "각성한 화염 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 화염 저항을 관통합니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1942,8 +1942,8 @@ skills["SupportFirePenetrationPlus"] = {
 	},
 }
 skills["AncestralSlamSupport"] = {
-	name = "Fist of War",
-	description = "Supports slam skills, providing a powerful boost when they're used, with a delay before they can be boosted again. Cannot support Vaal skills or triggered skills. Cannot modify the skills of minions. Only skills you use yourself can receive the boost.",
+	name = "전쟁의 주먹 보조",
+	description = "강타 스킬에 적용됩니다. 강타 스킬을 사용할 때 위력을 증폭하며, 다시 증폭되기 전에 지연시간이 있습니다. 바알 스킬 또는 발동형 스킬에는 적용되지 않습니다. 소환수가 사용하는 스킬도 적용되지 않습니다. 직접 사용하는 스킬만 증폭을 받습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Slam, },
@@ -2032,8 +2032,8 @@ skills["AncestralSlamSupport"] = {
 	},
 }
 skills["SupportFortify"] = {
-	name = "Fortify",
-	description = "Supports melee attack skills that are not triggered.",
+	name = "방어 상승 보조",
+	description = "비 발동형 근접 공격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -2117,8 +2117,8 @@ skills["SupportFortify"] = {
 	},
 }
 skills["SupportGenerosity"] = {
-	name = "Generosity",
-	description = "Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems.",
+	name = "관대함 보조",
+	description = "시전자와 동료에게 영향을 주는 모든 오라 스킬에 적용됩니다. 동료가 받는 오라 효과는 증가하지만 시전자는 아무 효과도 받지 않습니다. 저주 오라 또는 적에게만 영향을 주는 오라에는 적용되지 않으며, 토템 스킬에도 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Aura, },
@@ -2190,8 +2190,8 @@ skills["SupportGenerosity"] = {
 	},
 }
 skills["SupportGenerosityPlus"] = {
-	name = "Awakened Generosity",
-	description = "Supports aura skills that affect you and allies, increasing the aura's effect on allies, but preventing it from affecting you at all. Cannot support curse auras, or other auras that only affect enemies. Cannot support skills used by totems.",
+	name = "각성한 관대함 보조",
+	description = "시전자와 동료들에게 영향을 주는 오라 스킬에 적용됩니다. 동료들에 대한 오라 효과가 증가하지만 시전자는 오라 효과를 받지 않습니다. 저주 오라 또는 적에게만 적용되는 오라 스킬, 토템에 의해 사용되는 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Aura, },
@@ -2238,8 +2238,8 @@ skills["SupportGenerosityPlus"] = {
 	},
 }
 skills["SupportIncreasedDuration"] = {
-	name = "Increased Duration",
-	description = "Supports any skill with a duration.",
+	name = "지속시간 증가 보조",
+	description = "지속시간이 있는 모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -2307,8 +2307,8 @@ skills["SupportIncreasedDuration"] = {
 	},
 }
 skills["SupportIronGrip"] = {
-	name = "Iron Grip",
-	description = "Supports attack skills that fire projectiles, making the increase to physical melee damage from strength also increase their physical projectile damage.",
+	name = "강철 손아귀 보조",
+	description = "투사체 공격 스킬에 적용됩니다. 투사체 피해에 물리 피해에 대한 힘 보너스가 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.RangedAttack, SkillType.ThresholdJewelRangedAttack, },
@@ -2375,8 +2375,8 @@ skills["SupportIronGrip"] = {
 	},
 }
 skills["SupportIronWill"] = {
-	name = "Iron Will",
-	description = "Supports spell skills, making the increase to physical melee damage from strength also increase their spell damage.",
+	name = "강철의 의지 보조",
+	description = "주문 사용 시 힘으로 인한 물리 근접 피해가 증가하고 주문 피해도 증가합니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.DegenOnlySpellDamage, SkillType.ThresholdJewelSpellDamage, },
@@ -2443,8 +2443,8 @@ skills["SupportIronWill"] = {
 	},
 }
 skills["SupportItemQuantity"] = {
-	name = "Item Quantity",
-	description = "Supports any skill that can kill enemies.",
+	name = "아이템 수량 증가 보조",
+	description = "적을 처치하는 모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -2504,8 +2504,8 @@ skills["SupportItemQuantity"] = {
 	},
 }
 skills["SupportKnockback"] = {
-	name = "Knockback",
-	description = "Supports any skill that hits enemies.",
+	name = "밀어내기 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -2574,8 +2574,8 @@ skills["SupportKnockback"] = {
 	},
 }
 skills["SupportReducedDuration"] = {
-	name = "Less Duration",
-	description = "Supports any skill that has a duration.",
+	name = "지속시간 감소 보조",
+	description = "지속시간이 있는 모든 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Duration, SkillType.ThresholdJewelDuration, },
@@ -2649,8 +2649,8 @@ skills["SupportReducedDuration"] = {
 	},
 }
 skills["SupportLifeGainOnHit"] = {
-	name = "Life Gain on Hit",
-	description = "Supports attack skills.",
+	name = "명중 시 생명력 획득 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -2716,8 +2716,8 @@ skills["SupportLifeGainOnHit"] = {
 	},
 }
 skills["SupportLifeLeech"] = {
-	name = "Life Leech",
-	description = "Supports any skill that hits enemies, causing those hits to leech life based on damage dealt.",
+	name = "생명력 흡수 보조",
+	description = "적을 명중하는 모든 스킬에 적용되며 명중 시 적에게 준 피해에 비례하여 생명력을 흡수합니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -2788,8 +2788,8 @@ skills["SupportLifeLeech"] = {
 	},
 }
 skills["SupportLifetap"] = {
-	name = "Lifetap",
-	description = "Supports any non-blessing skill. Minions cannot gain the Lifetap buff.",
+	name = "생명력 전환 보조",
+	description = "모든 비-축복 스킬에 적용됩니다. 소환수는 생명력 전환 버프를 획득할 수 없습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { },
@@ -2865,8 +2865,8 @@ skills["SupportLifetap"] = {
 	},
 }
 skills["SupportMaim"] = {
-	name = "Maim",
-	description = "Supports attack skills, or other skills that can maim enemies.",
+	name = "힘줄 절단 보조",
+	description = "공격 스킬 또는 힘줄 절단 상태를 유발하는 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.AppliesMaim, },
@@ -2946,8 +2946,8 @@ skills["SupportMaim"] = {
 	},
 }
 skills["SupportMeleePhysicalDamage"] = {
-	name = "Melee Physical Damage",
-	description = "Supports melee attack skills.",
+	name = "근접 물리 피해 보조",
+	description = "근접 공격 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -3028,8 +3028,8 @@ skills["SupportMeleePhysicalDamage"] = {
 	},
 }
 skills["SupportMeleePhysicalDamagePlus"] = {
-	name = "Awakened Melee Physical Damage",
-	description = "Supports melee attack skills.",
+	name = "각성한 근접 물리 피해 보조",
+	description = "근접 공격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -3085,8 +3085,8 @@ skills["SupportMeleePhysicalDamagePlus"] = {
 	},
 }
 skills["SupportMeleeSplash"] = {
-	name = "Melee Splash",
-	description = "Supports melee strike skills, causing their melee strike to deal splash damage around each target hit.",
+	name = "근접 범위 피해 보조",
+	description = "근접 타격 스킬에 적용됩니다. 근접 타격이 대상에 명중할 때마다 주변에 광역 피해를 줍니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, },
@@ -3156,8 +3156,8 @@ skills["SupportMeleeSplash"] = {
 	},
 }
 skills["SupportMeleeSplashPlus"] = {
-	name = "Awakened Melee Splash",
-	description = "Supports melee strike skills, causing their melee strike to deal splash damage around each target hit.",
+	name = "각성한 근접 범위 피해 보조",
+	description = "근접 타격 스킬에 적용됩니다. 근접 타격이 대상에 명중할 때마다 주변의 적에게 범위 피해를 줍니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, },
@@ -3201,8 +3201,8 @@ skills["SupportMeleeSplashPlus"] = {
 	},
 }
 skills["SupportMultistrike"] = {
-	name = "Multistrike",
-	description = "Supports melee attack skills, making them repeat twice when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills or triggered skills.",
+	name = "연속타격 보조",
+	description = "근접 공격 스킬에 적용됩니다. 스킬이 2번 반복되며 매번 무작위 적을 대상으로 삼습니다. 바알 스킬, 집중 유지 스킬, 발동형 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Multistrikeable, },
@@ -3298,8 +3298,8 @@ skills["SupportMultistrike"] = {
 	},
 }
 skills["SupportMultistrikePlus"] = {
-	name = "Awakened Multistrike",
-	description = "Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills or triggered skills.",
+	name = "각성한 연속타격 보조",
+	description = "근접 공격 스킬에 적용됩니다. 스킬이 3번 반복되며 매번 무작위 적을 대상으로 삼습니다. 바알 스킬, 집중 유지 스킬, 발동형 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Multistrikeable, },
@@ -3368,8 +3368,8 @@ skills["SupportMultistrikePlus"] = {
 	},
 }
 skills["SupportMultiTotem"] = {
-	name = "Multiple Totems",
-	description = "Supports skills which summon totems.",
+	name = "다중 토템 보조",
+	description = "토템을 소환하는 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.SummonsTotem, },
@@ -3443,8 +3443,8 @@ skills["SupportMultiTotem"] = {
 	},
 }
 skills["SupportPulverise"] = {
-	name = "Pulverise",
-	description = "Supports melee attack skills.",
+	name = "분쇄 보조",
+	description = "근접 공격 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -3522,8 +3522,8 @@ skills["SupportPulverise"] = {
 	},
 }
 skills["SupportRage"] = {
-	name = "Rage",
-	description = "Supports melee attack skills. Minions cannot gain rage.",
+	name = "격노 보조",
+	description = "근접 공격 스킬에 적용됩니다. 소환수 스킬에는 적용되지 않습니다.",
 	color = 1,
 	baseEffectiveness = 0.18000000715256,
 	incrementalEffectiveness = 0.035000000149012,
@@ -3617,8 +3617,8 @@ skills["SupportRage"] = {
 	},
 }
 skills["SupportRangedAttackTotem"] = {
-	name = "Ballista Totem",
-	description = "Supports any bow or wand attack skill, causing it to summon a ballista totem that uses the skill for you.",
+	name = "쇠뇌 토템 보조",
+	description = "활 또는 마법봉 공격 스킬에 적용되어 해당 스킬을 사용하는 쇠뇌 토템을 소환합니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.RangedAttack, SkillType.Totemable, SkillType.AND, },
@@ -3711,8 +3711,8 @@ skills["SupportRangedAttackTotem"] = {
 	},
 }
 skills["SupportReducedMana"] = {
-	name = "Inspiration",
-	description = "Supports any skill. Minions, Totems, Traps and Mines cannot gain Inspiration Charges.",
+	name = "영감 보조",
+	description = "모든 스킬에 적용됩니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -3792,8 +3792,8 @@ skills["SupportReducedMana"] = {
 	},
 }
 skills["SupportRuthless"] = {
-	name = "Ruthless",
-	description = "Supports melee strike or slam skills. Every third time you use a supported attack, that use of the skill will be more powerful.",
+	name = "무자비 보조",
+	description = "근접 타격 또는 강타 스킬에 적용됩니다. 보조 대상 스킬을 3회 사용할 때마다 스킬 효과가 강력해집니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.MeleeSingleTarget, SkillType.Slam, },
@@ -3879,8 +3879,8 @@ skills["SupportRuthless"] = {
 	},
 }
 skills["SupportBluntWeapon"] = {
-	name = "Shockwave",
-	description = "Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.",
+	name = "충격파 보조",
+	description = "근접 공격 스킬에 적용됩니다. 발동형 공격이나 플레이어가 아닌 다른 개체가 사용한 공격, 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -3961,9 +3961,9 @@ skills["SupportBluntWeapon"] = {
 	},
 }
 skills["SupportBluntWeaponShockwave"] = {
-	name = "Shockwave",
+	name = "충격파",
 	color = 1,
-	description = "Deals attack damage in an area.",
+	description = "범위 내에 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Melee] = true, [SkillType.SkillGrantedBySupport] = true, },
 	weaponTypes = {
 		["Two Handed Mace"] = true,
@@ -4042,8 +4042,8 @@ skills["SupportBluntWeaponShockwave"] = {
 	},
 }
 skills["SupportSpellTotem"] = {
-	name = "Spell Totem",
-	description = "Supports spell skills that are not triggered. Instead of casting that spell, you will summon a totem that casts the spell for you.",
+	name = "주문 토템 보조",
+	description = "비-발동형 주문 스킬에 적용됩니다. 토템을 소환하여 시전자 대신 주문을 시전하게 합니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Totemable, SkillType.AND, },
@@ -4128,8 +4128,8 @@ skills["SupportSpellTotem"] = {
 	},
 }
 skills["SupportStun"] = {
-	name = "Stun",
-	description = "Supports any skill that hits enemies, making it easier to stun enemies with those skills.",
+	name = "기절 보조",
+	description = "적을 명중하는 모든 스킬에 적용되어 적을 더 쉽게 기절시킬 수 있습니다.",
 	color = 1,
 	baseEffectiveness = 0,
 	support = true,
@@ -4195,8 +4195,8 @@ skills["SupportStun"] = {
 	},
 }
 skills["SupportUrgentOrders"] = {
-	name = "Urgent Orders",
-	description = "Supports warcry skills.",
+	name = "긴급 명령 보조",
+	description = "함성 스킬에 적용됩니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Warcry, },

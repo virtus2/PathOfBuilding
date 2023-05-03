@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Fire Damage to Attacks"
+					text="공격 시 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -28,7 +28,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -40,7 +40,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Attack Cold Damage"
+					text="버프 시 공격 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -52,7 +52,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -64,7 +64,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Spell Cold Damage"
+					text="버프 시 주문 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -76,7 +76,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -88,7 +88,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Attack Lightning Damage"
+					text="버프 시 공격 번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -100,7 +100,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -112,7 +112,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Spell Lightning Damage"
+					text="버프 시 주문 번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -124,7 +124,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -132,7 +132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Critical Strike Chance"
+					text="버프 시 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -145,7 +145,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants have {0}% reduced Critical Strike Chance"
+					text="버프 시 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -156,7 +156,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -164,7 +164,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Cold Damage"
+					text="버프 시 냉기 피해 {0}% 증가"
 				}
 			}
 		},
@@ -175,7 +175,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -183,7 +183,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Lightning Damage"
+					text="버프 시 번개 피해 {0}% 증가"
 				}
 			}
 		},
@@ -194,7 +194,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -202,7 +202,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Stealth"
+					text="버프 시 은신 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -215,7 +215,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Stealth"
+					text="버프 시 은신 {0}% 감소"
 				}
 			}
 		},
@@ -226,7 +226,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -238,7 +238,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} Mana Regeneration per second"
+					text="버프 시 1초당 마나 {0} 재생"
 				}
 			}
 		},
@@ -249,7 +249,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -261,7 +261,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} Energy Shield Regeneration per second"
+					text="버프 시 1초당 에너지 보호막 {0} 재생"
 				}
 			}
 		},
@@ -272,7 +272,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -280,7 +280,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0:+d}% Chance to Block Spell Damage while holding a Shield"
+					text="버프 시 방패를 들고 있는 동안 주문 피해를 막아낼 확률 {0:+d}% 부여"
 				}
 			}
 		},
@@ -291,7 +291,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -303,7 +303,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants Phasing"
+					text="버프가 차원 능력 부여"
 				}
 			}
 		},
@@ -314,7 +314,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -326,7 +326,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff Grants {0}% chance to Shock enemies"
+					text="버프 시 {0}%의 확률로 적을 감전"
 				}
 			}
 		},
@@ -337,7 +337,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -345,7 +345,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Damage taken"
+					text="버프 시 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -358,7 +358,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Damage taken"
+					text="버프 시 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -369,7 +369,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -377,7 +377,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants Immunity to Freeze"
+					text="버프 시 동결에 면역"
 				}
 			}
 		},
@@ -388,7 +388,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -396,7 +396,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Movement Speed"
+					text="버프 시 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -409,7 +409,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Movement Speed"
+					text="버프 시 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -420,7 +420,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -428,7 +428,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0:+d} to Armour"
+					text="버프 시 방어도 {0:+d} 부여"
 				}
 			}
 		},
@@ -439,7 +439,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -447,7 +447,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% more Spell Damage"
+					text="버프 시 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -460,7 +460,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% less Spell Damage"
+					text="버프 시 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -471,7 +471,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -483,7 +483,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Spell Physical Damage per 1% Shield Quality"
+					text="버프 시 방패 퀄리티 1%당 주문 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -495,7 +495,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -503,7 +503,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target Recovers {0} Life when they Block"
+					text="연결된 대상이 막아낼 시 생명력 {0} 회복"
 				}
 			}
 		},
@@ -514,7 +514,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -522,7 +522,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target has {0}% increased Stun Threshold"
+					text="연결된 대상의 기절 한계치 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -535,7 +535,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Linked target has {0}% reduced Stun Threshold"
+					text="연결된 대상의 기절 한계치 {0}% 감소"
 				}
 			}
 		},
@@ -546,7 +546,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -554,7 +554,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target has {0}% increased Accuracy Rating"
+					text="연결된 대상의 정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -567,7 +567,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Linked target has {0}% reduced Accuracy Rating"
+					text="연결된 대상의 정확도 {0}% 감소"
 				}
 			}
 		},
@@ -578,7 +578,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -586,7 +586,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target has {0:+d}% to Critical Strike Multiplier"
+					text="연결된 대상의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -597,7 +597,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -609,7 +609,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Damage taken Recouped as Mana"
+					text="받은 피해의 {0}%를 마나로 회생"
 				}
 			}
 		},
@@ -620,7 +620,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -628,7 +628,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target's Chance to Block Attack Damage is equal to yours\nLinked target's Maximum Chance to Block Attack Damage is equal to yours"
+					text="연결된 대상이 공격 피해를 막아낼 확률이 자신과 동일하게 적용\n연결된 대상이 공격 피해를 막아낼 확률의 최대치가 자신과 동일하게 적용"
 				}
 			}
 		},
@@ -639,7 +639,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -647,7 +647,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target's Main Hand Critical Strike Chance is equal to yours"
+					text="연결된 대상이 플레이어와 동일한 주 무기 치명타 확률 획득"
 				}
 			}
 		},
@@ -658,7 +658,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -666,7 +666,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants Immunity to Bleeding"
+					text="버프 시 출혈에 면역"
 				}
 			}
 		},
@@ -677,7 +677,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -689,7 +689,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You lose {0} Energy Shield per second"
+					text="1초마다 에너지 보호막 {0} 상실"
 				}
 			}
 		},
@@ -700,7 +700,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -712,7 +712,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target has {0}% chance to Ignite"
+					text="연결된 대상이 {0}%의 확률로 점화 유발"
 				}
 			}
 		},
@@ -723,7 +723,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -739,7 +739,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Life Recovery other than Flasks cannot Recover Life to above Low Life\nWhen taking Damage from Hits, {0}% of Life loss below half Life is Prevented, then {1}% of Life loss prevented this way is lost over 4 seconds"
+					text="플라스크를 제외한 다른 방법으로는 낮은 생명력 상태 그 이상으로 생명력을 회복할 수 없음\n피격으로 피해를 받을 때, 생명력 50% 이하 구간에서 상실되는 생명력의 {0}%가 예방되고 이 방식으로 예방된 생명력 상실량의 {1}%가 4초에 걸쳐 상실됨"
 				},
 				[2]={
 					limit={
@@ -756,7 +756,7 @@ return {
 							[2]=0
 						}
 					},
-					text="When taking Damage from Hits, {0:+d}% of Life loss below half Life is Prevented\n{1:+d}% of Life loss prevented this way is lost over 4 seconds"
+					text="피격으로 피해를 받을 때, 생명력 50% 이하 구간에서 상실되는 생명력의 {0:+d}%가 예방\n이 방식으로 예방된 생명력 상실량의 {1:+d}%가 4초에 걸쳐 상실됨"
 				},
 				[3]={
 					limit={
@@ -773,7 +773,7 @@ return {
 							[2]=0
 						}
 					},
-					text="When taking Damage from Hits, {0:+d}% of Life loss below half Life is Prevented"
+					text="피격으로 피해를 받을 때, 생명력 50% 이하 구간에서 상실되는 생명력의 {0:+d}% 예방"
 				},
 				[4]={
 					limit={
@@ -790,7 +790,7 @@ return {
 							[2]=0
 						}
 					},
-					text="{1:+d}% of Life loss prevented is lost over 4 seconds"
+					text="예방된 생명력 상실량의 {1:+d}%가 4초에 걸쳐 상실됨"
 				}
 			}
 		},
@@ -803,7 +803,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -811,7 +811,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% additional Physical Damage Reduction per Endurance Charge"
+					text="버프 시 인내 충전 하나당 받는 물리 피해 {0}% 추가 감소"
 				}
 			}
 		},
@@ -822,7 +822,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -830,7 +830,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Armour"
+					text="버프 시 방어도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -843,7 +843,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Armour"
+					text="버프 시 방어도 {0}% 감소"
 				}
 			}
 		},
@@ -854,7 +854,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -862,7 +862,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Life Leech effects are not removed at Full Life\nLife Leech effects apply Recovery Linked Target instead of you\nLinked target's Maximum total Life Recovery per second from Leech is equal to yours"
+					text="최대 생명력일 때 생명력 흡수 효과가 제거되지 않음\n생명력 흡수 효과가 플레이어가 아닌 연결된 대상 회복\n연결된 대상이 플레이어와 동일한 흡수 시 1초당 총 생명력 회복량 최대치 획득"
 				}
 			}
 		},
@@ -873,7 +873,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -881,7 +881,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target deals {0}% increased Damage when on Full Life"
+					text="연결된 대상이 생명력이 최대일 때 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -894,7 +894,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Linked target deals {0}% reduced Damage when on Full Life"
+					text="연결된 대상이 생명력이 최대일 때 피해 {0}% 감소"
 				}
 			}
 		},
@@ -905,7 +905,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -917,7 +917,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0:+d}% to Maximum total Life Recovery per second from Leech"
+					text="버프 시 흡수 시 1초당 총 생명력 회복량 최대치 {0:+d}% 부여"
 				}
 			}
 		},
@@ -928,7 +928,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -936,7 +936,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0:+d}% to all Elemental Resistances per Endurance Charge"
+					text="버프 시 인내 충전 하나당 모든 원소 저항 {0:+d}%"
 				}
 			}
 		},
@@ -947,7 +947,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -955,7 +955,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0:+d}% to all Resistances"
+					text="버프 시 모든 저항 {0:+d}%"
 				}
 			}
 		},
@@ -966,7 +966,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -974,7 +974,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Buff Effect"
+					text="버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -987,7 +987,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Buff Effect"
+					text="버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -998,7 +998,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1006,7 +1006,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Attack and Cast Speed"
+					text="버프 시 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1019,7 +1019,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Attack and Cast Speed"
+					text="버프 시 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1030,7 +1030,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1038,7 +1038,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% chance to Freeze"
+					text="버프 시 {0}%의 확률로 동결 유발"
 				}
 			}
 		},
@@ -1049,7 +1049,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1057,7 +1057,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Damage"
+					text="버프 시 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1070,7 +1070,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Damage"
+					text="버프 시 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1081,7 +1081,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1089,7 +1089,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Shock Duration"
+					text="버프 시 감전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1102,7 +1102,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Shock Duration"
+					text="버프 시 감전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1113,7 +1113,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1121,7 +1121,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants Immunity to Shock"
+					text="버프 시 감전 면역"
 				}
 			}
 		},
@@ -1132,7 +1132,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1144,7 +1144,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Skills gain a Base Life Cost equal to {0}% of Base Mana Cost while not on Low Life"
+					text="낮은 생명력 상태가 아닐 때 스킬이 기본 마나 소모의 {0}%와 동일한 기본 생명력 소모를 얻음"
 				}
 			}
 		},
@@ -1155,7 +1155,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1163,7 +1163,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target takes {0}% more Damage"
+					text="연결된 대상이 받는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1176,7 +1176,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Linked target takes {0}% less Damage"
+					text="연결된 대상이 받는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1187,7 +1187,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1195,7 +1195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target has {0}% increased Mana Regeneration Rate"
+					text="연결된 대상의 마나 재생 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1208,7 +1208,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Linked target has {0}% reduced Mana Regeneration Rate"
+					text="연결된 대상의 마나 재생 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1219,7 +1219,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1227,7 +1227,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Damage from Hits against target is taken from your Energy Shield before them"
+					text="대상이 피격 시 받는 피해의 {0}%가 대상보다 자신의 에너지 보호막에 먼저 적용"
 				}
 			}
 		},
@@ -1238,7 +1238,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1246,7 +1246,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff Grants {0}% increased Spell Damage"
+					text="버프 시 주문 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1259,7 +1259,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff Grants {0}% reduced Spell Damage"
+					text="버프 시 주문 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1270,7 +1270,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1278,7 +1278,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% more Maximum Energy Shield"
+					text="버프 시 에너지 보호막 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1291,7 +1291,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% less Maximum Energy Shield"
+					text="버프 시 에너지 보호막 {0}% 감폭"
 				}
 			}
 		},
@@ -1302,7 +1302,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1314,7 +1314,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff makes you Unaffected by Temporal Chains"
+					text="버프 시 시간의 사슬의 영향을 받지 않음"
 				}
 			}
 		},
@@ -1325,7 +1325,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1333,7 +1333,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% more Armour"
+					text="버프 시 방어도 {0}% 증폭"
 				}
 			}
 		},
@@ -1344,7 +1344,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1356,7 +1356,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target gains {0} to {1} Added Fire Damage"
+					text="연결된 대상이 화염 피해 {0}~{1} 추가 획득"
 				}
 			}
 		},
@@ -1368,7 +1368,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1380,7 +1380,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Energy Blades have {0} to {1} Lightning Damage"
+					text="에너지 칼날이 번개 피해 {0}~{1} 획득"
 				}
 			}
 		},
@@ -1392,7 +1392,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1404,7 +1404,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Link breaks if target leaves range or line of sight for 4 seconds\nMaximum 1 Link from any source per target\nYou die if Linked target dies"
+					text="대상이 4초 동안 범위 또는 시야를 벗어나면 연결이 끊어짐\n대상 하나당 연결 최대 1개(출처 무관)\n연결된 대상이 죽으면 자신이 죽음"
 				},
 				[2]={
 					limit={
@@ -1417,7 +1417,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Link breaks if target leaves range or line of sight for 8 seconds\nMaximum 1 Link from any source per target\nYou die if Linked target dies"
+					text="대상이 8초 동안 범위 또는 시야를 벗어나면 연결이 끊어짐\n대상 하나당 연결 최대 1개(출처 무관)\n연결된 대상이 죽으면 자신이 죽음"
 				}
 			}
 		},

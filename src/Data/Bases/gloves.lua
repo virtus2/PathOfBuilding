@@ -3,7 +3,7 @@
 local itemBases = ...
 
 
-itemBases["Iron Gauntlets"] = {
+itemBases["철제 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -13,7 +13,7 @@ itemBases["Iron Gauntlets"] = {
 	armour = { ArmourBaseMin = 6, ArmourBaseMax = 9, },
 	req = { str = 6, },
 }
-itemBases["Plated Gauntlets"] = {
+itemBases["판금 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -23,7 +23,7 @@ itemBases["Plated Gauntlets"] = {
 	armour = { ArmourBaseMin = 39, ArmourBaseMax = 50, },
 	req = { level = 11, str = 20, },
 }
-itemBases["Bronze Gauntlets"] = {
+itemBases["청동 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -33,7 +33,7 @@ itemBases["Bronze Gauntlets"] = {
 	armour = { ArmourBaseMin = 77, ArmourBaseMax = 96, },
 	req = { level = 23, str = 36, },
 }
-itemBases["Steel Gauntlets"] = {
+itemBases["강철 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -43,7 +43,7 @@ itemBases["Steel Gauntlets"] = {
 	armour = { ArmourBaseMin = 116, ArmourBaseMax = 127, },
 	req = { level = 35, str = 52, },
 }
-itemBases["Antique Gauntlets"] = {
+itemBases["앤티크 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -53,7 +53,7 @@ itemBases["Antique Gauntlets"] = {
 	armour = { ArmourBaseMin = 129, ArmourBaseMax = 154, },
 	req = { level = 39, str = 58, },
 }
-itemBases["Ancient Gauntlets"] = {
+itemBases["고대의 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -63,7 +63,7 @@ itemBases["Ancient Gauntlets"] = {
 	armour = { ArmourBaseMin = 154, ArmourBaseMax = 173, },
 	req = { level = 47, str = 68, },
 }
-itemBases["Goliath Gauntlets"] = {
+itemBases["거인 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -73,7 +73,7 @@ itemBases["Goliath Gauntlets"] = {
 	armour = { ArmourBaseMin = 174, ArmourBaseMax = 200, },
 	req = { level = 53, str = 77, },
 }
-itemBases["Vaal Gauntlets"] = {
+itemBases["바알 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -83,7 +83,7 @@ itemBases["Vaal Gauntlets"] = {
 	armour = { ArmourBaseMin = 232, ArmourBaseMax = 266, },
 	req = { level = 63, str = 100, },
 }
-itemBases["Titan Gauntlets"] = {
+itemBases["거신 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
@@ -93,52 +93,52 @@ itemBases["Titan Gauntlets"] = {
 	armour = { ArmourBaseMin = 242, ArmourBaseMax = 278, },
 	req = { level = 69, str = 98, },
 }
-itemBases["Taxing Gauntlets"] = {
+itemBases["고된 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { gloves = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "Exerted Attacks deal (25-30)% increased Damage\nWarcry Skills have +2 seconds to Cooldown",
+	implicit = "전력 공격이 주는 피해 (25-30)% 증가\n함성 스킬의 재사용 대기시간 +2초",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { ArmourBaseMin = 35, ArmourBaseMax = 41, },
 	req = { level = 10, str = 18, },
 }
-itemBases["Gruelling Gauntlets"] = {
+itemBases["가혹한 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { gloves = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "Exerted Attacks deal (30-40)% increased Damage\nWarcry Skills have +2 seconds to Cooldown",
+	implicit = "전력 공격이 주는 피해 (30-40)% 증가\n함성 스킬의 재사용 대기시간 +2초",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { ArmourBaseMin = 132, ArmourBaseMax = 152, },
 	req = { level = 40, str = 59, },
 }
-itemBases["Debilitation Gauntlets"] = {
+itemBases["쇠약 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { gloves = true, str_armour = true, not_for_sale = true, armour = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "Exerted Attacks deal (40-50)% increased Damage\nWarcry Skills have +2 seconds to Cooldown",
+	implicit = "전력 공격이 주는 피해 (40-50)% 증가\n함성 스킬의 재사용 대기시간 +2초",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { ArmourBaseMin = 236, ArmourBaseMax = 271, },
 	req = { level = 70, str = 101, },
 }
-itemBases["Spiked Gloves"] = {
+itemBases["가시 장갑"] = {
 	type = "Gloves",
 	subType = "Armour",
 	socketLimit = 4,
 	tags = { gloves = true, str_armour = true, not_for_sale = true, atlas_base_type = true, armour = true, glovesatlasstr = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "(16-20)% increased Melee Damage",
+	implicit = "근접 피해 (16-20)% 증가",
 	implicitModTypes = { { "damage", "attack" }, },
 	armour = { ArmourBaseMin = 220, ArmourBaseMax = 253, },
 	req = { level = 70, str = 95, },
 }
 
-itemBases["Rawhide Gloves"] = {
+itemBases["생가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -148,7 +148,7 @@ itemBases["Rawhide Gloves"] = {
 	armour = { EvasionBaseMin = 13, EvasionBaseMax = 18, },
 	req = { dex = 9, },
 }
-itemBases["Goathide Gloves"] = {
+itemBases["염소가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -158,7 +158,7 @@ itemBases["Goathide Gloves"] = {
 	armour = { EvasionBaseMin = 32, EvasionBaseMax = 42, },
 	req = { level = 9, dex = 17, },
 }
-itemBases["Deerskin Gloves"] = {
+itemBases["사슴가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -168,7 +168,7 @@ itemBases["Deerskin Gloves"] = {
 	armour = { EvasionBaseMin = 71, EvasionBaseMax = 88, },
 	req = { level = 21, dex = 33, },
 }
-itemBases["Nubuck Gloves"] = {
+itemBases["소가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -178,7 +178,7 @@ itemBases["Nubuck Gloves"] = {
 	armour = { EvasionBaseMin = 109, EvasionBaseMax = 122, },
 	req = { level = 33, dex = 50, },
 }
-itemBases["Eelskin Gloves"] = {
+itemBases["장어가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -188,7 +188,7 @@ itemBases["Eelskin Gloves"] = {
 	armour = { EvasionBaseMin = 125, EvasionBaseMax = 148, },
 	req = { level = 38, dex = 56, },
 }
-itemBases["Sharkskin Gloves"] = {
+itemBases["상어가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -198,7 +198,7 @@ itemBases["Sharkskin Gloves"] = {
 	armour = { EvasionBaseMin = 148, EvasionBaseMax = 163, },
 	req = { level = 45, dex = 66, },
 }
-itemBases["Shagreen Gloves"] = {
+itemBases["거친 생가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -208,7 +208,7 @@ itemBases["Shagreen Gloves"] = {
 	armour = { EvasionBaseMin = 177, EvasionBaseMax = 212, },
 	req = { level = 54, dex = 78, },
 }
-itemBases["Stealth Gloves"] = {
+itemBases["은신 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -218,7 +218,7 @@ itemBases["Stealth Gloves"] = {
 	armour = { EvasionBaseMin = 231, EvasionBaseMax = 265, },
 	req = { level = 62, dex = 97, },
 }
-itemBases["Slink Gloves"] = {
+itemBases["송아지 가죽 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -228,52 +228,52 @@ itemBases["Slink Gloves"] = {
 	armour = { EvasionBaseMin = 242, EvasionBaseMax = 278, },
 	req = { level = 70, dex = 95, },
 }
-itemBases["Gauche Gloves"] = {
+itemBases["서툰 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { gloves = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "25% reduced Attack Damage with Main Hand\n(40-50)% increased Attack Damage with Off Hand",
+	implicit = "주 무기 사용 시 공격 피해 25% 감소\n보조 장비 사용 시 공격 피해 (40-50)% 증가",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 35, EvasionBaseMax = 41, },
 	req = { level = 10, dex = 18, },
 }
-itemBases["Southswing Gloves"] = {
+itemBases["남향 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { gloves = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "25% reduced Attack Damage with Main Hand\n(40-50)% increased Attack Damage with Off Hand",
+	implicit = "주 무기 사용 시 공격 피해 25% 감소\n보조 장비 사용 시 공격 피해 (40-50)% 증가",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 132, EvasionBaseMax = 152, },
 	req = { level = 40, dex = 59, },
 }
-itemBases["Sinistral Gloves"] = {
+itemBases["왼편 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { gloves = true, dex_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "25% reduced Attack Damage with Main Hand\n(40-50)% increased Attack Damage with Off Hand",
+	implicit = "주 무기 사용 시 공격 피해 25% 감소\n보조 장비 사용 시 공격 피해 (40-50)% 증가",
 	implicitModTypes = { { "attack" }, { "attack" }, },
 	armour = { EvasionBaseMin = 236, EvasionBaseMax = 271, },
 	req = { level = 70, dex = 101, },
 }
-itemBases["Gripped Gloves"] = {
+itemBases["움켜쥔 장갑"] = {
 	type = "Gloves",
 	subType = "Evasion",
 	socketLimit = 4,
 	tags = { glovesatlasdex = true, gloves = true, not_for_sale = true, atlas_base_type = true, armour = true, dex_armour = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "(14-18)% increased Projectile Attack Damage",
+	implicit = "투사체 공격 피해 (14-18)% 증가",
 	implicitModTypes = { { "damage", "attack" }, },
 	armour = { EvasionBaseMin = 220, EvasionBaseMax = 253, },
 	req = { level = 70, dex = 95, },
 }
 
-itemBases["Wool Gloves"] = {
+itemBases["양모 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -283,7 +283,7 @@ itemBases["Wool Gloves"] = {
 	armour = { EnergyShieldBaseMin = 5, EnergyShieldBaseMax = 7, },
 	req = { int = 9, },
 }
-itemBases["Velvet Gloves"] = {
+itemBases["벨벳 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -293,7 +293,7 @@ itemBases["Velvet Gloves"] = {
 	armour = { EnergyShieldBaseMin = 10, EnergyShieldBaseMax = 13, },
 	req = { level = 12, int = 21, },
 }
-itemBases["Silk Gloves"] = {
+itemBases["실크 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -303,7 +303,7 @@ itemBases["Silk Gloves"] = {
 	armour = { EnergyShieldBaseMin = 18, EnergyShieldBaseMax = 23, },
 	req = { level = 25, int = 39, },
 }
-itemBases["Embroidered Gloves"] = {
+itemBases["수놓은 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -313,7 +313,7 @@ itemBases["Embroidered Gloves"] = {
 	armour = { EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 28, },
 	req = { level = 36, int = 54, },
 }
-itemBases["Satin Gloves"] = {
+itemBases["새틴 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -323,7 +323,7 @@ itemBases["Satin Gloves"] = {
 	armour = { EnergyShieldBaseMin = 28, EnergyShieldBaseMax = 33, },
 	req = { level = 41, int = 60, },
 }
-itemBases["Samite Gloves"] = {
+itemBases["금실 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -333,7 +333,7 @@ itemBases["Samite Gloves"] = {
 	armour = { EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 37, },
 	req = { level = 47, int = 68, },
 }
-itemBases["Conjurer Gloves"] = {
+itemBases["요술사 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -343,7 +343,7 @@ itemBases["Conjurer Gloves"] = {
 	armour = { EnergyShieldBaseMin = 37, EnergyShieldBaseMax = 44, },
 	req = { level = 55, int = 79, },
 }
-itemBases["Arcanist Gloves"] = {
+itemBases["신비학자의 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -353,7 +353,7 @@ itemBases["Arcanist Gloves"] = {
 	armour = { EnergyShieldBaseMin = 45, EnergyShieldBaseMax = 52, },
 	req = { level = 60, int = 95, },
 }
-itemBases["Sorcerer Gloves"] = {
+itemBases["악령술사 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -363,52 +363,52 @@ itemBases["Sorcerer Gloves"] = {
 	armour = { EnergyShieldBaseMin = 49, EnergyShieldBaseMax = 57, },
 	req = { level = 69, int = 97, },
 }
-itemBases["Leyline Gloves"] = {
+itemBases["지맥 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { gloves = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "30% reduced maximum Mana\n(25-30)% chance when you pay a Skill's Cost to gain that much Mana",
+	implicit = "최대 마나 30% 감소\n스킬이 비용 소모 시 (25-30)% 확률로 동일한 양의 마나 획득",
 	implicitModTypes = { { "resource", "mana" }, { "resource", "mana" }, },
 	armour = { EnergyShieldBaseMin = 9, EnergyShieldBaseMax = 10, },
 	req = { level = 10, int = 18, },
 }
-itemBases["Aetherwind Gloves"] = {
+itemBases["에테르 바람 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { gloves = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "30% reduced maximum Mana\n(25-30)% chance when you pay a Skill's Cost to gain that much Mana",
+	implicit = "최대 마나 30% 감소\n스킬이 비용 소모 시 (25-30)% 확률로 동일한 양의 마나 획득",
 	implicitModTypes = { { "resource", "mana" }, { "resource", "mana" }, },
 	armour = { EnergyShieldBaseMin = 28, EnergyShieldBaseMax = 32, },
 	req = { level = 40, int = 59, },
 }
-itemBases["Nexus Gloves"] = {
+itemBases["연결부 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { gloves = true, int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "30% reduced maximum Mana\n(25-30)% chance when you pay a Skill's Cost to gain that much Mana",
+	implicit = "최대 마나 30% 감소\n스킬이 비용 소모 시 (25-30)% 확률로 동일한 양의 마나 획득",
 	implicitModTypes = { { "resource", "mana" }, { "resource", "mana" }, },
 	armour = { EnergyShieldBaseMin = 47, EnergyShieldBaseMax = 54, },
 	req = { level = 70, int = 101, },
 }
-itemBases["Fingerless Silk Gloves"] = {
+itemBases["손가락 없는 실크 장갑"] = {
 	type = "Gloves",
 	subType = "Energy Shield",
 	socketLimit = 4,
 	tags = { gloves = true, int_armour = true, not_for_sale = true, atlas_base_type = true, armour = true, glovesatlasint = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "(12-16)% increased Spell Damage",
+	implicit = "주문 피해 (12-16)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { EnergyShieldBaseMin = 45, EnergyShieldBaseMax = 52, },
 	req = { level = 70, int = 95, },
 }
 
-itemBases["Fishscale Gauntlets"] = {
+itemBases["생선 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -418,7 +418,7 @@ itemBases["Fishscale Gauntlets"] = {
 	armour = { ArmourBaseMin = 9, ArmourBaseMax = 12, EvasionBaseMin = 9, EvasionBaseMax = 12, },
 	req = { str = 5, dex = 5, },
 }
-itemBases["Ironscale Gauntlets"] = {
+itemBases["철제 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -428,7 +428,7 @@ itemBases["Ironscale Gauntlets"] = {
 	armour = { ArmourBaseMin = 28, ArmourBaseMax = 37, EvasionBaseMin = 28, EvasionBaseMax = 37, },
 	req = { level = 15, str = 14, dex = 14, },
 }
-itemBases["Bronzescale Gauntlets"] = {
+itemBases["청동 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -438,7 +438,7 @@ itemBases["Bronzescale Gauntlets"] = {
 	armour = { ArmourBaseMin = 50, ArmourBaseMax = 62, EvasionBaseMin = 50, EvasionBaseMax = 62, },
 	req = { level = 27, str = 22, dex = 22, },
 }
-itemBases["Steelscale Gauntlets"] = {
+itemBases["강철 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -448,7 +448,7 @@ itemBases["Steelscale Gauntlets"] = {
 	armour = { ArmourBaseMin = 65, ArmourBaseMax = 75, EvasionBaseMin = 65, EvasionBaseMax = 75, },
 	req = { level = 36, str = 29, dex = 29, },
 }
-itemBases["Serpentscale Gauntlets"] = {
+itemBases["뱀 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -458,7 +458,7 @@ itemBases["Serpentscale Gauntlets"] = {
 	armour = { ArmourBaseMin = 78, ArmourBaseMax = 87, EvasionBaseMin = 78, EvasionBaseMax = 87, },
 	req = { level = 43, str = 34, dex = 34, },
 }
-itemBases["Wyrmscale Gauntlets"] = {
+itemBases["아룡 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -468,7 +468,7 @@ itemBases["Wyrmscale Gauntlets"] = {
 	armour = { ArmourBaseMin = 88, ArmourBaseMax = 104, EvasionBaseMin = 88, EvasionBaseMax = 104, },
 	req = { level = 49, str = 38, dex = 38, },
 }
-itemBases["Hydrascale Gauntlets"] = {
+itemBases["히드라 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -478,7 +478,7 @@ itemBases["Hydrascale Gauntlets"] = {
 	armour = { ArmourBaseMin = 106, ArmourBaseMax = 122, EvasionBaseMin = 106, EvasionBaseMax = 122, },
 	req = { level = 59, str = 45, dex = 45, },
 }
-itemBases["Dragonscale Gauntlets"] = {
+itemBases["용 비늘 건틀릿"] = {
 	type = "Gloves",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -489,7 +489,7 @@ itemBases["Dragonscale Gauntlets"] = {
 	req = { level = 67, str = 51, dex = 51, },
 }
 
-itemBases["Chain Gloves"] = {
+itemBases["사슬 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -499,7 +499,7 @@ itemBases["Chain Gloves"] = {
 	armour = { ArmourBaseMin = 14, ArmourBaseMax = 20, EnergyShieldBaseMin = 4, EnergyShieldBaseMax = 6, },
 	req = { level = 7, str = 8, int = 8, },
 }
-itemBases["Ringmail Gloves"] = {
+itemBases["고리 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -509,7 +509,7 @@ itemBases["Ringmail Gloves"] = {
 	armour = { ArmourBaseMin = 35, ArmourBaseMax = 46, EnergyShieldBaseMin = 8, EnergyShieldBaseMax = 10, },
 	req = { level = 19, str = 16, int = 16, },
 }
-itemBases["Mesh Gloves"] = {
+itemBases["망사 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -519,7 +519,7 @@ itemBases["Mesh Gloves"] = {
 	armour = { ArmourBaseMin = 58, ArmourBaseMax = 67, EnergyShieldBaseMin = 12, EnergyShieldBaseMax = 14, },
 	req = { level = 32, str = 26, int = 26, },
 }
-itemBases["Riveted Gloves"] = {
+itemBases["고정못 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -529,7 +529,7 @@ itemBases["Riveted Gloves"] = {
 	armour = { ArmourBaseMin = 67, ArmourBaseMax = 77, EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 16, },
 	req = { level = 37, str = 29, int = 29, },
 }
-itemBases["Zealot Gloves"] = {
+itemBases["맹신자 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -539,7 +539,7 @@ itemBases["Zealot Gloves"] = {
 	armour = { ArmourBaseMin = 78, ArmourBaseMax = 92, EnergyShieldBaseMin = 16, EnergyShieldBaseMax = 19, },
 	req = { level = 43, str = 34, int = 34, },
 }
-itemBases["Soldier Gloves"] = {
+itemBases["병사 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -549,7 +549,7 @@ itemBases["Soldier Gloves"] = {
 	armour = { ArmourBaseMin = 92, ArmourBaseMax = 103, EnergyShieldBaseMin = 19, EnergyShieldBaseMax = 21, },
 	req = { level = 51, str = 40, int = 40, },
 }
-itemBases["Legion Gloves"] = {
+itemBases["군단 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -559,7 +559,7 @@ itemBases["Legion Gloves"] = {
 	armour = { ArmourBaseMin = 103, ArmourBaseMax = 121, EnergyShieldBaseMin = 21, EnergyShieldBaseMax = 25, },
 	req = { level = 57, str = 44, int = 44, },
 }
-itemBases["Crusader Gloves"] = {
+itemBases["십자군 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -569,19 +569,19 @@ itemBases["Crusader Gloves"] = {
 	armour = { ArmourBaseMin = 121, ArmourBaseMax = 139, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 28, },
 	req = { level = 66, str = 51, int = 51, },
 }
-itemBases["Apothecary's Gloves"] = {
+itemBases["약제상의 장갑"] = {
 	type = "Gloves",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
 	tags = { gloves = true, str_int_armour = true, not_for_sale = true, atlas_base_type = true, armour = true, glovesatlasstrint = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "(14-18)% increased Damage over Time",
+	implicit = "지속 피해 (14-18)% 증가",
 	implicitModTypes = { { "damage" }, },
 	armour = { ArmourBaseMin = 108, ArmourBaseMax = 124, EnergyShieldBaseMin = 29, EnergyShieldBaseMax = 33, },
 	req = { level = 70, str = 46, int = 59, },
 }
 
-itemBases["Wrapped Mitts"] = {
+itemBases["스트랩형 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -591,7 +591,7 @@ itemBases["Wrapped Mitts"] = {
 	armour = { EvasionBaseMin = 11, EvasionBaseMax = 15, EnergyShieldBaseMin = 3, EnergyShieldBaseMax = 5, },
 	req = { level = 5, dex = 6, int = 6, },
 }
-itemBases["Strapped Mitts"] = {
+itemBases["끈 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -601,7 +601,7 @@ itemBases["Strapped Mitts"] = {
 	armour = { EvasionBaseMin = 30, EvasionBaseMax = 39, EnergyShieldBaseMin = 7, EnergyShieldBaseMax = 9, },
 	req = { level = 16, dex = 14, int = 14, },
 }
-itemBases["Clasped Mitts"] = {
+itemBases["버클 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -611,7 +611,7 @@ itemBases["Clasped Mitts"] = {
 	armour = { EvasionBaseMin = 57, EvasionBaseMax = 65, EnergyShieldBaseMin = 12, EnergyShieldBaseMax = 14, },
 	req = { level = 31, dex = 25, int = 25, },
 }
-itemBases["Trapper Mitts"] = {
+itemBases["덫사냥꾼 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -621,7 +621,7 @@ itemBases["Trapper Mitts"] = {
 	armour = { EvasionBaseMin = 65, EvasionBaseMax = 77, EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 16, },
 	req = { level = 36, dex = 29, int = 29, },
 }
-itemBases["Ambush Mitts"] = {
+itemBases["매복 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -631,7 +631,7 @@ itemBases["Ambush Mitts"] = {
 	armour = { EvasionBaseMin = 81, EvasionBaseMax = 91, EnergyShieldBaseMin = 17, EnergyShieldBaseMax = 19, },
 	req = { level = 45, dex = 35, int = 35, },
 }
-itemBases["Carnal Mitts"] = {
+itemBases["육욕의 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -641,7 +641,7 @@ itemBases["Carnal Mitts"] = {
 	armour = { EvasionBaseMin = 90, EvasionBaseMax = 101, EnergyShieldBaseMin = 19, EnergyShieldBaseMax = 21, },
 	req = { level = 50, dex = 39, int = 39, },
 }
-itemBases["Assassin's Mitts"] = {
+itemBases["암살자의 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -651,7 +651,7 @@ itemBases["Assassin's Mitts"] = {
 	armour = { EvasionBaseMin = 104, EvasionBaseMax = 123, EnergyShieldBaseMin = 21, EnergyShieldBaseMax = 25, },
 	req = { level = 58, dex = 45, int = 45, },
 }
-itemBases["Murder Mitts"] = {
+itemBases["살인자의 미트"] = {
 	type = "Gloves",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -662,7 +662,7 @@ itemBases["Murder Mitts"] = {
 	req = { level = 67, dex = 51, int = 51, },
 }
 
-itemBases["Runic Gloves"] = {
+itemBases["룬 장갑"] = {
 	type = "Gloves",
 	subType = "Ward",
 	socketLimit = 4,
@@ -672,7 +672,7 @@ itemBases["Runic Gloves"] = {
 	armour = { WardBaseMin = 24, WardBaseMax = 28, },
 	req = { level = 24, str = 16, dex = 16, int = 16, },
 }
-itemBases["Runic Gages"] = {
+itemBases["룬 손 보호대"] = {
 	type = "Gloves",
 	subType = "Ward",
 	socketLimit = 4,
@@ -682,7 +682,7 @@ itemBases["Runic Gages"] = {
 	armour = { WardBaseMin = 62, WardBaseMax = 71, },
 	req = { level = 48, str = 31, dex = 31, int = 31, },
 }
-itemBases["Runic Gauntlets"] = {
+itemBases["룬 건틀릿"] = {
 	type = "Gloves",
 	subType = "Ward",
 	socketLimit = 4,
@@ -693,12 +693,12 @@ itemBases["Runic Gauntlets"] = {
 	req = { level = 69, str = 38, dex = 38, int = 38, },
 }
 
-itemBases["Golden Bracers"] = {
+itemBases["황금 팔보호구"] = {
 	type = "Gloves",
 	socketLimit = 4,
 	tags = { gloves = true, not_for_sale = true, armour = true, demigods = true, default = true, },
 	influenceTags = { shaper = "gloves_shaper", elder = "gloves_elder", adjudicator = "gloves_adjudicator", basilisk = "gloves_basilisk", crusader = "gloves_crusader", eyrie = "gloves_eyrie", cleansing = "gloves_cleansing", tangle = "gloves_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { },
 	req = { level = 12, },

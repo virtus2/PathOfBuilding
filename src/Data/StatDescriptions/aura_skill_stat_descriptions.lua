@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Physical Damage"
+					text="자신 및 주변 동료들의 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -25,7 +25,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Physical Damage"
+					text="자신 및 주변 동료들의 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -36,7 +36,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -44,7 +44,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Movement Speed"
+					text="자신 및 주변 동료들의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -57,7 +57,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Movement Speed"
+					text="자신 및 주변 동료들의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -68,7 +68,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -76,7 +76,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Attack Speed"
+					text="자신 및 주변 동료들의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -89,7 +89,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Attack Speed"
+					text="자신 및 주변 동료들의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -100,7 +100,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -108,7 +108,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Cast Speed"
+					text="자신 및 주변 동료들의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -121,7 +121,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Cast Speed"
+					text="자신 및 주변 동료들의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -132,7 +132,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -140,7 +140,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0:+d}% to all Elemental Resistances"
+					text="자신 및 주변 동료들의 모든 원소 저항 {0:+d}% 증가"
 				}
 			}
 		},
@@ -151,7 +151,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second_2dp",
@@ -163,7 +163,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Regenerate {0}% of Life per second"
+					text="자신 및 주변 동료들이 1초마다 생명력의 {0}% 재생"
 				}
 			}
 		},
@@ -174,7 +174,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -186,7 +186,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Regenerate {0} Life per second"
+					text="자신 및 주변 동료들이 1초마다 생명력 {0} 재생"
 				}
 			}
 		},
@@ -197,7 +197,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -205,7 +205,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Accuracy Rating"
+					text="자신 및 주변 동료들의 정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -218,7 +218,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Accuracy Rating"
+					text="자신 및 주변 동료들의 정확도 {0}% 감소"
 				}
 			}
 		},
@@ -229,7 +229,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -237,7 +237,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% increased Critical Strike Chance"
+					text="자신 및 주변 동료들의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -250,7 +250,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies gain {0}% reduced Critical Strike Chance"
+					text="자신 및 주변 동료들의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -261,7 +261,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -269,7 +269,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0} additional Evasion Rating"
+					text="자신 및 주변 동료들이 추가 회피 {0} 획득"
 				}
 			}
 		},
@@ -280,7 +280,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -288,7 +288,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% more Evasion rating"
+					text="자신 및 주변 동료들이 {0}% 증폭된 회피 획득"
 				}
 			}
 		},
@@ -299,7 +299,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -307,7 +307,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0} additional Armour"
+					text="자신 및 주변 동료들이 {0} 방어도 추가 획득"
 				}
 			}
 		},
@@ -318,7 +318,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -326,7 +326,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% more Armour"
+					text="자신 및 주변 동료들이 {0}% 증폭된 방어도 획득"
 				}
 			}
 		},
@@ -337,7 +337,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -345,7 +345,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0} additional Energy Shield"
+					text="자신 및 주변 동료들이 {0} 추가 에너지 보호막 획득"
 				}
 			}
 		},
@@ -356,7 +356,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -364,7 +364,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional Lightning Resistance"
+					text="자신 및 주변 동료들이 {0}% 추가 번개 저항 획득"
 				}
 			}
 		},
@@ -375,7 +375,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -383,7 +383,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional Fire Resistance"
+					text="자신 및 주변 동료들이 {0}% 추가 화염 저항 획득"
 				}
 			}
 		},
@@ -394,7 +394,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -402,7 +402,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional Cold Resistance"
+					text="자신 및 주변 동료들이 {0}% 추가 냉기 저항 획득"
 				}
 			}
 		},
@@ -413,7 +413,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -425,7 +425,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional maximum Fire Resistance"
+					text="자신 및 주변 동료들이 화염 저항 최대치 {0}% 추가 획득"
 				}
 			}
 		},
@@ -436,7 +436,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -448,7 +448,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional maximum Cold Resistance"
+					text="자신 및 주변 동료들이 냉기 저항 최대치 {0}% 추가 획득"
 				}
 			}
 		},
@@ -459,7 +459,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -471,7 +471,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% additional maximum Lightning Resistance"
+					text="자신 및 주변 동료들이 번개 저항 최대치 {0}% 추가 획득"
 				}
 			}
 		},
@@ -482,7 +482,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -494,7 +494,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0} to {1} additional Fire Damage with Attacks"
+					text="자신 및 주변 동료들이 공격 시 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -506,7 +506,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -518,7 +518,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0} to {1} additional Lightning Damage with Attacks"
+					text="자신 및 주변 동료들이 공격 시 번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -530,7 +530,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -538,7 +538,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0}% of Physical Damage as Extra Cold Damage"
+					text="자신 및 주변 동료들이 물리 피해의 {0}%를 추가 냉기 피해로 획득"
 				}
 			}
 		},
@@ -549,7 +549,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -561,7 +561,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Regenerate {0} Mana per second"
+					text="자신 및 주변 동료들이 1초마다 마나 {0} 재생"
 				}
 			}
 		},
@@ -572,7 +572,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -580,7 +580,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby allies' Energy Shield Recharges are not delayed by Damage"
+					text="피해를 받았을 때 자신 및 주변 동료들의 에너지 보호막 재충전이 지연되지 않음"
 				}
 			}
 		},
@@ -591,7 +591,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -599,7 +599,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby allies' Skills Cost no Mana"
+					text="자신 및 주변 동료들이 스킬을 사용하는 데 마나가 소모되지 않음"
 				}
 			}
 		},
@@ -610,7 +610,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -618,7 +618,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies have {0:+d}% chance to Evade Attack Hits"
+					text="자신 및 주변 동료들의 공격 명중 회피 확률 {0:+d}%"
 				}
 			}
 		},
@@ -629,7 +629,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -637,7 +637,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Taking Elemental Damage instead heals you and Nearby Allies\nYou and Nearby Allies cannot gain Vaal Souls"
+					text="원소 피해를 받으면 자신 및 주변 동료들의 치료 효과로 전환됨\n자신 및 주변 동료들이 바알 영혼을 획득할 수 없음"
 				}
 			}
 		},
@@ -648,7 +648,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -660,7 +660,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0} to {1} additional Fire Damage with Spells"
+					text="자신 및 주변 동료들이 주문 사용 시 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -672,7 +672,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -680,7 +680,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0}% more Spell Lightning Damage"
+					text="자신 및 주변 동료들이 주는 주문 번개 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -693,7 +693,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies deal {0}% less Spell Lightning Damage with Spells"
+					text="주문 사용 시 자신 및 주변 동료들이 주는 번개 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -704,7 +704,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -712,7 +712,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies gain {0:+d} to Accuracy Rating"
+					text="자신 및 주변 동료들의 정확도 {0:+d}"
 				}
 			}
 		},
@@ -723,7 +723,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -735,7 +735,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0} to {1} additional Chaos Damage with Attacks"
+					text="자신 및 주변 동료들이 공격 시 카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -747,7 +747,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -759,7 +759,7 @@ return {
 							[2]=99
 						}
 					},
-					text="You and nearby Allies have {0}% chance to Impale Enemies on Hit with Attacks"
+					text="자신 및 주변 동료들의 공격이 명중 시 {0}%의 확률로 적을 꿰뚫음"
 				},
 				[2]={
 					[1]={
@@ -772,7 +772,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Impale Enemies on Hit with Attacks"
+					text="자신 및 주변 동료들의 공격이 명중 시 적을 꿰뚫음"
 				}
 			}
 		},
@@ -783,7 +783,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -791,7 +791,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies deal {0}% increased Damage"
+					text="자신 및 주변 동료들이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -804,7 +804,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies deal {0}% reduced Damage"
+					text="자신 및 주변 동료들이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -815,7 +815,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -823,7 +823,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% chance to avoid Elemental Ailments"
+					text="자신 및 주변 동료들이 {0}%의 확률로 원소 상태 이상 긴급회피"
 				}
 			}
 		},
@@ -834,7 +834,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -846,7 +846,7 @@ return {
 							[2]=99
 						}
 					},
-					text="You and nearby Allies have {0}% chance to Avoid Chaos Damage from Hits"
+					text="자신 및 주변 동료들이 피격 시 {0}%의 확률로 카오스 피해 긴급회피"
 				},
 				[2]={
 					[1]={
@@ -859,7 +859,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Avoid Chaos Damage from Hits"
+					text="자신 및 주변 동료들이 피격 시 카오스 피해 긴급회피"
 				}
 			}
 		},
@@ -870,7 +870,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -878,7 +878,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies have {0}% to Physical Damage Reduction"
+					text="주변의 적이 받는 물리 피해 감소 {0}%"
 				}
 			}
 		},
@@ -889,7 +889,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -897,7 +897,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies deal {0}% increased Damage with Ailments"
+					text="자신 및 주변 동료들이 주는 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -910,7 +910,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies deal {0}% reduced Damage with Ailments"
+					text="자신 및 주변 동료들이 주는 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -921,7 +921,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -929,7 +929,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% chance to avoid being Frozen"
+					text="자신 및 주변 동료들이 {0}%의 확률로 동결 회피"
 				}
 			}
 		},
@@ -940,7 +940,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -948,7 +948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% chance to avoid being Ignited"
+					text="자신 및 주변 동료들이 {0}%의 확률로 점화 회피"
 				}
 			}
 		},
@@ -959,7 +959,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -967,7 +967,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% chance to avoid being Shocked"
+					text="자신 및 주변 동료들이 {0}%의 확률로 감전 회피"
 				}
 			}
 		},
@@ -978,7 +978,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -986,7 +986,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% chance to Avoid being Stunned"
+					text="자신 및 주변 동료들이 {0}%의 확률로 기절 긴급회피"
 				}
 			}
 		},
@@ -997,7 +997,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1005,7 +1005,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0:+d}% to Critical Strike Multiplier"
+					text="자신 및 주변 동료들의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -1016,7 +1016,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1024,7 +1024,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to Chill"
+					text="자신 및 주변 동료들이 냉각에 면역"
 				}
 			}
 		},
@@ -1035,7 +1035,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1043,7 +1043,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to Freeze"
+					text="자신 및 주변 동료들이 동결에 면역"
 				}
 			}
 		},
@@ -1054,7 +1054,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1062,7 +1062,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to Ignite"
+					text="자신 및 주변 동료들이 점화에 면역"
 				}
 			}
 		},
@@ -1073,7 +1073,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1081,7 +1081,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to Shock"
+					text="자신 및 주변 동료들이 감전에 면역"
 				}
 			}
 		},
@@ -1092,7 +1092,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1100,7 +1100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Projectile Speed"
+					text="자신 및 주변 동료들의 투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1113,7 +1113,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Projectile Speed"
+					text="자신 및 주변 동료들의 투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1124,7 +1124,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1132,7 +1132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby Allies' Damage Penetrates {0}% Cold Resistance"
+					text="자신 및 주변 동료들이 주는 피해가 냉기 저항 {0}% 관통"
 				}
 			}
 		},
@@ -1143,7 +1143,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1151,7 +1151,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby Allies' Damage Penetrates {0}% Fire Resistance"
+					text="자신 및 주변 동료들이 주는 피해가 화염 저항 {0}% 관통"
 				}
 			}
 		},
@@ -1162,7 +1162,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1170,7 +1170,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby Allies' Damage Penetrates {0}% Lightning Resistance"
+					text="자신 및 주변 동료들이 주는 피해가 번개 저항 {0}% 관통"
 				}
 			}
 		},
@@ -1181,7 +1181,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1189,7 +1189,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buffs on You and nearby Allies expire {0}% faster"
+					text="자신 및 주변 동료들의 버프가 {0}% 빠르게 만료"
 				},
 				[2]={
 					[1]={
@@ -1202,7 +1202,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buffs on You and nearby Allies expire {0}% slower"
+					text="자신 및 주변 동료들의 버프가 {0}% 느리게 만료"
 				}
 			}
 		},
@@ -1213,7 +1213,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1221,7 +1221,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies deal {0}% increased Burning Damage"
+					text="자신 및 주변 동료들이 주는 화상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1234,7 +1234,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies deal {0}% reduced Burning Damage"
+					text="자신 및 주변 동료들이 주는 화상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1245,7 +1245,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1253,7 +1253,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Chill and Freeze Duration"
+					text="자신 및 주변 동료들의 냉각 및 동결 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1266,7 +1266,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Chill and Freeze Duration"
+					text="자신 및 주변 동료들의 냉각 및 동결 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1277,7 +1277,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1285,7 +1285,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cold Damage taken"
+					text="받는 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1298,7 +1298,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Cold Damage taken"
+					text="받는 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1309,7 +1309,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1321,7 +1321,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Non-Minion Allies have a {0}% chance to create Consecrated Ground on Hitting a Rare or Unique Enemy, lasting 8 seconds"
+					text="자신 및 주변의 비-소환수 동료가 희귀 또는 고유 적 명중 시 {0}%의 확률로 8초 동안 지속되는 신성화 지대 생성"
 				}
 			}
 		},
@@ -1332,7 +1332,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1340,7 +1340,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0}% increased Damage if you've changed Stance recently"
+					text="최근 4초 이내 태세를 바꾼 경우 버프가 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1353,7 +1353,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Buff grants {0}% reduced Damage if you've changed Stance recently"
+					text="최근 4초 이내 태세를 바꾼 경우 버프가 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1364,7 +1364,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1372,7 +1372,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Damage while on Full Mana"
+					text="마나가 최대일 때 자신 및 주변 동료들이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1385,7 +1385,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Damage while on Full Mana"
+					text="마나가 최대일 때 자신 및 주변 동료들이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1396,7 +1396,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1404,7 +1404,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 자신 및 주변 동료들이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1417,7 +1417,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 자신 및 주변 동료들이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1428,7 +1428,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1436,7 +1436,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies deal {0}% increased Damage while on Full Life"
+					text="생명력이 최대일 때 자신 및 주변 동료들이 주는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -1447,7 +1447,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1459,7 +1459,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Suppressed Spell Damage dealt to you is Unlucky"
+					text="플레이어가 받는 억제된 주문 피해에 불운 적용"
 				}
 			}
 		},
@@ -1470,7 +1470,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1478,7 +1478,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0}% more Damage over Time"
+					text="자신 및 주변 동료들이 주는 지속 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1491,7 +1491,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies deal {0}% less Damage over Time"
+					text="자신 및 주변 동료들이 주는 지속 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1502,7 +1502,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1510,7 +1510,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies have {0}% increased Skill Effect Duration"
+					text="자신 및 주변 동료들의 스킬 효과 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1523,7 +1523,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies {0}% reduced Skill Effect Duration"
+					text="자신 및 주변 동료들의 스킬 효과 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1534,7 +1534,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1542,7 +1542,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% faster start of Energy Shield Recharge"
+					text="자신 및 주변 동료들의 에너지 보호막 재충전 시작 속도 {0}% 가속"
 				},
 				[2]={
 					[1]={
@@ -1555,7 +1555,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% slower start of Energy Shield Recharge"
+					text="자신 및 주변 동료들의 에너지 보호막 재충전 시작 속도 {0}% 감속"
 				}
 			}
 		},
@@ -1566,7 +1566,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1574,7 +1574,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies gain {0}% increased Energy Shield Recharge Rate"
+					text="자신 및 주변 동료들의 에너지 보호막 재충전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1587,7 +1587,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies gain {0}% reduced Energy Shield Recharge Rate"
+					text="자신 및 주변 동료들의 에너지 보호막 재충전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1598,7 +1598,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1606,7 +1606,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies gain {0}% of Evasion Rating as Extra Armour"
+					text="자신 및 주변 동료들이 회피의 {0}%를 추가 방어도로 획득"
 				}
 			}
 		},
@@ -1617,7 +1617,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1625,7 +1625,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Fire Damage taken"
+					text="받는 화염 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1638,7 +1638,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Fire Damage taken"
+					text="받는 화염 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1649,7 +1649,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1657,7 +1657,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Mana Recovery from Flasks"
+					text="자신 및 주변 동료들이 플라스크로 얻는 마나 회복 {0}% 증가"
 				}
 			}
 		},
@@ -1668,7 +1668,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1676,7 +1676,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0}% more Cold Damage"
+					text="자신 및 주변 동료들이 주는 냉기 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1689,7 +1689,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies deal {0}% less Cold Damage"
+					text="자신 및 주변 동료들이 주는 냉기 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1700,7 +1700,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1708,7 +1708,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies' Cold Resistance is Ignored by Hits"
+					text="명중 시 주변의 적의 냉기 저항 무시"
 				}
 			}
 		},
@@ -1719,7 +1719,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1727,7 +1727,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies' Fire Resistance is Ignored by Hits"
+					text="명중 시 주변의 적의 화염 저항 무시"
 				}
 			}
 		},
@@ -1738,7 +1738,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1746,7 +1746,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies' Lightning Resistance is Ignored by Hits"
+					text="명중 시 주변의 적의 번개 저항 무시"
 				}
 			}
 		},
@@ -1757,7 +1757,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1765,7 +1765,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to Curses"
+					text="자신 및 주변 동료들이 저주에 면역"
 				}
 			}
 		},
@@ -1776,7 +1776,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1788,7 +1788,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies are Immune to all Elemental Ailments"
+					text="자신 및 주변 동료들이 모든 원소 상태 이상에 면역"
 				}
 			}
 		},
@@ -1799,7 +1799,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1807,7 +1807,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Impale Effect"
+					text="자신 및 주변 동료들의 꿰뚫기 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1820,7 +1820,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Impale Effect"
+					text="자신 및 주변 동료들의 꿰뚫기 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1831,7 +1831,7 @@ return {
 	},
 	[76]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -1847,7 +1847,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies Leech {0}% of Physical Attack Damage as Life"
+					text="자신 및 주변 동료들이 물리 공격 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -1858,7 +1858,7 @@ return {
 	},
 	[77]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1866,7 +1866,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Lightning Damage taken"
+					text="받는 번개 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1879,7 +1879,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Lightning Damage taken"
+					text="받는 번개 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1890,7 +1890,7 @@ return {
 	},
 	[78]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1898,7 +1898,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Movement Speed while on Chilled Ground"
+					text="얼음 지대에 있는 동안 자신 및 주변 동료들의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1911,7 +1911,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Movement Speed while on Chilled Ground"
+					text="얼음 지대에 있는 동안 자신 및 주변 동료들의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1922,7 +1922,7 @@ return {
 	},
 	[79]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1934,7 +1934,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies take at least {0}% more Physical Damage,\n raising up to {1}% as they stay in the Aura for 4 seconds"
+					text="주변의 적이 최소 {0}%의 추가 물리 피해를 받으며,\n 오라 속에 있는 4초 동안 적이 받는 피해가 {1}%까지 상승"
 				}
 			}
 		},
@@ -1946,7 +1946,7 @@ return {
 	},
 	[80]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1954,7 +1954,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Nearby Enemies take {0}% increased Physical Damage"
+					text="주변의 적이 받는 물리 피해 {0}% 증가"
 				}
 			}
 		},
@@ -1965,7 +1965,7 @@ return {
 	},
 	[81]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1973,7 +1973,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% more Area of Effect"
+					text="자신 및 주변 동료들의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1986,7 +1986,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% less Area of Effect"
+					text="자신 및 주변 동료들의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -1997,7 +1997,7 @@ return {
 	},
 	[82]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2005,7 +2005,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Attack Hits against nearby Enemies have {0}% chance to inflict Bleeding"
+					text="주변의 적에게 공격 적중 시 {0}%의 확률로 출혈 유발"
 				}
 			}
 		},
@@ -2016,7 +2016,7 @@ return {
 	},
 	[83]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2024,7 +2024,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby Allies' Damage Penetrates {0}% Chaos Resistance"
+					text="자신 및 주변 동료들의 피해가 카오스 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2035,7 +2035,7 @@ return {
 	},
 	[84]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2043,7 +2043,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Your and nearby Allies' Damage Penetrates {0}% Elemental Resistances"
+					text="자신 및 주변 동료들의 피해가 {0}%의 원소 저항 관통"
 				}
 			}
 		},
@@ -2054,7 +2054,7 @@ return {
 	},
 	[85]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2062,7 +2062,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Disables your Non-Blessing Skills which Reserve Mana"
+					text="마나를 점유하는 자신의 비-축복 스킬 비활성화"
 				}
 			}
 		},
@@ -2073,7 +2073,7 @@ return {
 	},
 	[86]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2081,7 +2081,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0:+d}% to Critical Strike Multiplier"
+					text="자신 및 주변 동료들의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -2092,7 +2092,7 @@ return {
 	},
 	[87]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2100,7 +2100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies have {0}% increased Spell Critical Strike Chance"
+					text="자신 및 주변 동료들의 주문 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2113,7 +2113,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies have {0}% reduced Spell Critical Strike Chance"
+					text="자신 및 주변 동료들의 주문 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -2124,7 +2124,7 @@ return {
 	},
 	[88]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2132,7 +2132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0}% more Spell Damage"
+					text="자신 및 주변 동료들이 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2145,7 +2145,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby allies deal {0}% less Spell Damage with Spells"
+					text="자신 및 주변 동료들이 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2156,7 +2156,7 @@ return {
 	},
 	[89]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2168,7 +2168,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby allies deal {0} to {1} additional Chaos Damage with Spells"
+					text="자신 및 주변 동료들이 주문 사용 시 카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -2180,7 +2180,7 @@ return {
 	},
 	[90]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2188,7 +2188,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% increased Totem Placement speed"
+					text="자신 및 주변 동료들의 토템 설치 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2201,7 +2201,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% reduced Totem Placement speed"
+					text="자신 및 주변 동료들의 토템 설치 속도 {0}% 감소"
 				}
 			}
 		},

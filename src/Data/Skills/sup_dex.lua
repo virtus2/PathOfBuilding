@@ -7,8 +7,8 @@
 local skills, mod, flag, skill = ...
 
 skills["SupportAddedColdDamage"] = {
-	name = "Added Cold Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "냉기 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0.58050000667572,
 	incrementalEffectiveness = 0.035900000482798,
@@ -76,8 +76,8 @@ skills["SupportAddedColdDamage"] = {
 	},
 }
 skills["SupportAddedColdDamagePlus"] = {
-	name = "Awakened Added Cold Damage",
-	description = "Supports any skill that hits enemies.",
+	name = "각성한 냉기 피해 추가 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 5.1399998664856,
 	incrementalEffectiveness = 0.0043999999761581,
@@ -121,8 +121,8 @@ skills["SupportAddedColdDamagePlus"] = {
 	},
 }
 skills["SupportAdditionalAccuracy"] = {
-	name = "Additional Accuracy",
-	description = "Supports attack skills.",
+	name = "정확도 추가 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -193,8 +193,8 @@ skills["SupportAdditionalAccuracy"] = {
 	},
 }
 skills["SupportArrowNova"] = {
-	name = "Arrow Nova",
-	description = "Supports bow attack skills that fire arrows forwards as projectiles. These skills will instead fire a payload arrow into the air to land at a targeted location. The supported skills' arrows will then fire out in a circle from where it lands. Cannot support skills that already fire arrows into the air, channelled skills, or skills that create Minions.",
+	name = "화살 산개 보조",
+	description = "전방으로 화살 투사체를 발사하는 활 공격 스킬에 적용됩니다. 기존 투사체 대신 탄두 화살을 허공으로 발사한 뒤 목표 지점에 떨어뜨리는 스킬입니다. 지면에 떨어지면 해당 지점에서 원형으로 보조 대상 스킬의 화살이 발사됩니다. 허공으로 화살을 발사해버리는 스킬이나 집중 유지 스킬, 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -277,8 +277,8 @@ skills["SupportArrowNova"] = {
 	},
 }
 skills["SupportArrowNovaPlus"] = {
-	name = "Awakened Arrow Nova",
-	description = "Supports bow attack skills that fire arrows forwards as projectiles. These skills will instead fire a payload arrow into the air to land at a targeted location. The supported skills' arrows will then fire out in a circle from where it lands. Cannot support skills that already fire arrows into the air, channelled skills, or skills that create Minions.",
+	name = "각성한 화살 산개 보조",
+	description = "전방으로 화살 투사체를 발사하는 활 공격 스킬에 적용됩니다. 기존 투사체 대신 탄두 화살을 허공으로 발사한 뒤 목표 지점에 떨어뜨리는 스킬입니다. 지면에 떨어지면 해당 지점에서 원형으로 보조 대상 스킬의 화살이 발사됩니다. 허공으로 화살을 발사해버리는 스킬이나 집중 유지 스킬, 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -335,8 +335,8 @@ skills["SupportArrowNovaPlus"] = {
 	},
 }
 skills["SupportBarrage"] = {
-	name = "Barrage Support",
-	description = "Supports projectile attack skills that use bows or wands. Cannot support triggered skills, channelled skills, or skills that create Minions.",
+	name = "연발 사격 보조",
+	description = "활이나 마법봉을 사용하는 투사체 공격 스킬에 적용됩니다. 발동형 스킬이나 집중 유지 스킬, 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -427,8 +427,8 @@ skills["SupportBarrage"] = {
 	},
 }
 skills["SupportBlind"] = {
-	name = "Blind",
-	description = "Supports any skill that hits enemies.",
+	name = "실명 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -496,8 +496,8 @@ skills["SupportBlind"] = {
 	},
 }
 skills["SupportBlockReduction"] = {
-	name = "Block Chance Reduction",
-	description = "Supports any skill that hits enemies.",
+	name = "막기 확률 감소 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -571,8 +571,8 @@ skills["SupportBlockReduction"] = {
 	},
 }
 skills["SupportCastOnCrit"] = {
-	name = "Cast On Critical Strike",
-	description = "Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "치명타 시 시전 보조",
+	description = "공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬이 치명타로 명중하면 연결된 주문 스킬이 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -647,8 +647,8 @@ skills["SupportCastOnCrit"] = {
 	},
 }
 skills["SupportCastOnCritTriggered"] = {
-	name = "Cast On Critical Strike",
-	description = "Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "치명타 시 시전 보조",
+	description = "공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬이 치명타로 명중하면 연결된 주문 스킬이 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -722,8 +722,8 @@ skills["SupportCastOnCritTriggered"] = {
 	},
 }
 skills["SupportCastOnCritPlus"] = {
-	name = "Awakened Cast On Critical Strike",
-	description = "Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "각성한 치명타 시 시전 보조",
+	description = "공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬이 치명타로 명중하면 연결된 주문 스킬이 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -770,8 +770,8 @@ skills["SupportCastOnCritPlus"] = {
 	},
 }
 skills["SupportCastOnCritTriggeredPlus"] = {
-	name = "Awakened Cast On Critical Strike",
-	description = "Must support both an attack skill and a spell skill to work. The attack skill will trigger a spell when it critically strikes an enemy. Cannot support totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "각성한 치명타 시 시전 보조",
+	description = "공격 스킬과 주문 스킬이 함께 연결되어 있어야 작동합니다. 공격 스킬이 치명타로 명중하면 연결된 주문 스킬이 발동합니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -821,8 +821,8 @@ skills["SupportCastOnCritTriggeredPlus"] = {
 	},
 }
 skills["SupportCastOnDeath"] = {
-	name = "Cast on Death",
-	description = "Each supported spell skill will be triggered when you die. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "사망 시 시전 보조",
+	description = "플레이어가 사망하면 보조 대상 주문 스킬이 발동됩니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -914,8 +914,8 @@ skills["SupportCastOnDeath"] = {
 	},
 }
 skills["SupportChain"] = {
-	name = "Chain",
-	description = "Supports projectile skills, and any other skills that chain.",
+	name = "연쇄 보조",
+	description = "투사체 스킬과 모든 연쇄 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Chains, SkillType.Projectile, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, SkillType.ThresholdJewelChaining, },
@@ -989,8 +989,8 @@ skills["SupportChain"] = {
 	},
 }
 skills["SupportChainPlus"] = {
-	name = "Awakened Chain",
-	description = "Supports projectile skills, and any other skills that chain.",
+	name = "각성한 연쇄 보조",
+	description = "투사체 스킬과 모든 연쇄 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Chains, SkillType.Projectile, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, SkillType.ThresholdJewelChaining, },
@@ -1039,8 +1039,8 @@ skills["SupportChainPlus"] = {
 	},
 }
 skills["SupportChanceToFlee"] = {
-	name = "Chance to Flee",
-	description = "Supports any skill that hits enemies.",
+	name = "도망칠 확률 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, SkillType.Damage, },
@@ -1102,8 +1102,8 @@ skills["SupportChanceToFlee"] = {
 	},
 }
 skills["SupportGemFrenzyPowerOnTrapTrigger"] = {
-	name = "Charged Traps",
-	description = "Supports skills which throw traps.",
+	name = "충전된 덫 보조",
+	description = "덫을 던지는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, },
@@ -1179,8 +1179,8 @@ skills["SupportGemFrenzyPowerOnTrapTrigger"] = {
 	},
 }
 skills["SupportSlashingWeapon"] = {
-	name = "Close Combat",
-	description = "Supports melee attack skills. Cannot support skills which create minions.",
+	name = "근접 전투 보조",
+	description = "근접 공격 스킬에 적용됩니다. 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, },
@@ -1278,8 +1278,8 @@ skills["SupportSlashingWeapon"] = {
 	},
 }
 skills["SupportClusterTrap"] = {
-	name = "Cluster Traps",
-	description = "Supports traps skills, making them throw extra traps randomly around the targeted location.",
+	name = "무리 덫 보조",
+	description = "덫 스킬에 적용됩니다. 대상 위치 주변에 무작위로 추가 덫을 던집니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, },
@@ -1355,8 +1355,8 @@ skills["SupportClusterTrap"] = {
 	},
 }
 skills["SupportColdPenetration"] = {
-	name = "Cold Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy cold resistance.",
+	name = "냉기 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 냉기 저항을 관통합니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1421,8 +1421,8 @@ skills["SupportColdPenetration"] = {
 	},
 }
 skills["SupportColdPenetrationPlus"] = {
-	name = "Awakened Cold Penetration",
-	description = "Supports any skill that hits enemies, making those hits penetrate enemy cold resistance.",
+	name = "각성한 냉기 관통 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 적의 냉기 저항을 관통합니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1463,8 +1463,8 @@ skills["SupportColdPenetrationPlus"] = {
 	},
 }
 skills["SupportCullingStrike"] = {
-	name = "Culling Strike",
-	description = "Supports any skill that hits enemies. If enemies are left below 10% of maximum life after being hit by these skills, they will be killed.",
+	name = "마무리 타격 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다. 보조 대상 스킬로 생명력이 최대 생명력의 10% 이하인 적을 명중하면 해당 적이 즉사합니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1530,8 +1530,8 @@ skills["SupportCullingStrike"] = {
 	},
 }
 skills["SupportDeadlyAilments"] = {
-	name = "Deadly Ailments",
-	description = "Supports any skill that hits enemies.",
+	name = "치명적인 상태 이상 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1607,8 +1607,8 @@ skills["SupportDeadlyAilments"] = {
 	},
 }
 skills["SupportDeadlyAilmentsPlus"] = {
-	name = "Awakened Deadly Ailments",
-	description = "Supports any skill that hits enemies.",
+	name = "각성한 치명적인 상태 이상 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -1659,8 +1659,8 @@ skills["SupportDeadlyAilmentsPlus"] = {
 	},
 }
 skills["SupportAdditionalQuality"] = {
-	name = "Enhance",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.",
+	name = "향상 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬의 퀄리티를 올려줍니다. 젬과 관련되지 않은 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { },
@@ -1698,8 +1698,8 @@ skills["SupportAdditionalQuality"] = {
 	},
 }
 skills["SupportAdditionalQualityPlus"] = {
-	name = "Awakened Enhance",
-	description = "Supports any skill gem. Once this gem reaches level 2 or above, will raise the quality of supported gems. Cannot support skills that don't come from gems.",
+	name = "각성한 향상 보조",
+	description = "모든 스킬 젬에 적용됩니다. 이 젬이 2레벨 이상이면 보조 대상 스킬 젬의 퀄리티를 올려줍니다. 젬과 관련되지 않은 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { },
@@ -1745,8 +1745,8 @@ skills["SupportAdditionalQualityPlus"] = {
 	},
 }
 skills["SupportFasterAttack"] = {
-	name = "Faster Attacks",
-	description = "Supports attack skills.",
+	name = "공격 속도 증가 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -1812,8 +1812,8 @@ skills["SupportFasterAttack"] = {
 	},
 }
 skills["SupportFasterProjectiles"] = {
-	name = "Faster Projectiles",
-	description = "Supports projectile skills.",
+	name = "투사체 속도 증가 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -1880,8 +1880,8 @@ skills["SupportFasterProjectiles"] = {
 	},
 }
 skills["SupportFocusedBallista"] = {
-	name = "Focused Ballista",
-	description = "Supports skills that summon ballista totems. Cannot modify the skills of minions.",
+	name = "쇠뇌 집중 사격 보조",
+	description = "쇠뇌 토템을 소환하는 스킬에 적용됩니다. 소환수가 사용하는 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.TotemsAreBallistae, SkillType.SummonsTotem, SkillType.AND, },
@@ -1958,8 +1958,8 @@ skills["SupportFocusedBallista"] = {
 	},
 }
 skills["SupportFork"] = {
-	name = "Fork",
-	description = "Supports projectile skills, making their projectiles fork into two projectiles the first time they hit an enemy and don't pierce it.",
+	name = "갈래 보조",
+	description = "투사체 스킬에 적용됩니다. 처음 명중한 투사체가 적을 관통하지 않으면 2개로 갈라집니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Projectile, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, },
@@ -2033,8 +2033,8 @@ skills["SupportFork"] = {
 	},
 }
 skills["SupportForkPlus"] = {
-	name = "Awakened Fork",
-	description = "Supports projectile skills, making their projectiles fork into two projectiles the first two times they hit an enemy and don't pierce it.",
+	name = "각성한 갈래 보조",
+	description = "투사체 스킬에 적용됩니다. 처음 두 개의 투사체가 대상을 명중 후 관통하지 않을 경우 투사체가 둘로 갈라집니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Projectile, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, },
@@ -2084,8 +2084,8 @@ skills["SupportForkPlus"] = {
 	},
 }
 skills["SupportGreaterMultipleProjectiles"] = {
-	name = "Greater Multiple Projectiles",
-	description = "Supports projectile skills.",
+	name = "상위 다중 투사체 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -2162,8 +2162,8 @@ skills["SupportGreaterMultipleProjectiles"] = {
 	},
 }
 skills["SupportGreaterMultipleProjectilesPlus"] = {
-	name = "Awakened Greater Multiple Projectiles",
-	description = "Supports projectile skills.",
+	name = "각성한 상위 다중 투사체 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Projectile, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, SkillType.ProjectileNumber, },
@@ -2212,8 +2212,8 @@ skills["SupportGreaterMultipleProjectilesPlus"] = {
 	},
 }
 skills["SupportGreaterVolley"] = {
-	name = "Greater Volley",
-	description = "Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects.",
+	name = "상위 사격 공세 보조",
+	description = "플레이어가 발사하는 투사체 스킬에 적용됩니다. 부가적인 효과로 다른 곳에서 발사되는 투사체에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.ProjectilesFromUser, },
@@ -2288,8 +2288,8 @@ skills["SupportGreaterVolley"] = {
 	},
 }
 skills["SupportDamageAgainstChilled"] = {
-	name = "Hypothermia",
-	description = "Supports any skill that deals damage.",
+	name = "체온저하 보조",
+	description = "피해를 주는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DamageOverTime, },
@@ -2369,8 +2369,8 @@ skills["SupportDamageAgainstChilled"] = {
 	},
 }
 skills["SupportImpale"] = {
-	name = "Impale",
-	description = "Supports attack skills.",
+	name = "꿰뚫기 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -2447,8 +2447,8 @@ skills["SupportImpale"] = {
 	},
 }
 skills["SupportFrenzyChargeOnSlayingFrozenEnemy"] = {
-	name = "Ice Bite",
-	description = "Supports any skill you use to hit enemies yourself. Cannot support skills used by totems, traps, or mines.",
+	name = "얼음 쐐기 보조",
+	description = "직접 사용해 적을 명중하는 모든 스킬에 적용됩니다. 토템, 덫, 지뢰 스킬에는 적용되지 않습니다.",
 	color = 2,
 	baseEffectiveness = 0.51819998025894,
 	incrementalEffectiveness = 0.03770000115037,
@@ -2522,8 +2522,8 @@ skills["SupportFrenzyChargeOnSlayingFrozenEnemy"] = {
 	},
 }
 skills["SupportLesserMultipleProjectiles"] = {
-	name = "Lesser Multiple Projectiles",
-	description = "Supports projectile skills.",
+	name = "하위 다중 투사체 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -2600,8 +2600,8 @@ skills["SupportLesserMultipleProjectiles"] = {
 	},
 }
 skills["SupportChanceToPoison"] = {
-	name = "Chance to Poison",
-	description = "Supports any skill that hits enemies.",
+	name = "중독 확률 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0.2732999920845,
 	incrementalEffectiveness = 0.03999999910593,
@@ -2672,8 +2672,8 @@ skills["SupportChanceToPoison"] = {
 	},
 }
 skills["SupportManaLeech"] = {
-	name = "Mana Leech",
-	description = "Supports attack skills that hit enemies, causing those hits to leech mana based on damage dealt.",
+	name = "마나 흡수 보조",
+	description = "적을 명중하는 모든 공격 스킬에 적용되며 명중 시 적에게 준 피해에 비례하여 마나를 흡수합니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -2744,8 +2744,8 @@ skills["SupportManaLeech"] = {
 	},
 }
 skills["SupportMarkOnHit"] = {
-	name = "Mark On Hit",
-	description = "Supports mark curse skills.",
+	name = "명중 시 징표 보조",
+	description = "징표 저주 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.AppliesCurse, SkillType.Mark, SkillType.AND, SkillType.Triggerable, SkillType.AND, },
@@ -2819,8 +2819,8 @@ skills["SupportMarkOnHit"] = {
 	},
 }
 skills["SupportGemMirageArcher"] = {
-	name = "Mirage Archer",
-	description = "Supports attack skills that can be used with bows. Supported skills can only be used with bows. Cannot support Vaal skills, minion skills, movement skills, or skills used by totems, traps, or mines.",
+	name = "신기루 궁수 보조",
+	description = "활 공격 스킬에 적용됩니다. 보조 대상 스킬은 활 장착 시에만 사용할 수 있습니다. 바알 스킬, 소환수 스킬, 이동 스킬, 또는 토템, 덫, 지뢰 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.MirageArcherCanUse, },
@@ -2913,8 +2913,8 @@ skills["SupportGemMirageArcher"] = {
 	},
 }
 skills["SupportMultiTrap"] = {
-	name = "Multiple Traps",
-	description = "Supports traps skills, making them throw extra traps in a line.",
+	name = "다중 덫 보조",
+	description = "덫 스킬에 적용됩니다. 덫을 추가로 연달아 던지게 합니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, },
@@ -2989,8 +2989,8 @@ skills["SupportMultiTrap"] = {
 	},
 }
 skills["SupportPuncturingWeapon"] = {
-	name = "Nightblade",
-	description = "Supports attack skills. Cannot support skills which create minions.",
+	name = "밤의 칼날 보조",
+	description = "공격 스킬에 적용됩니다. 소환수 생성 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -3075,8 +3075,8 @@ skills["SupportPuncturingWeapon"] = {
 	},
 }
 skills["SupportPierce"] = {
-	name = "Pierce",
-	description = "Supports projectile skills.",
+	name = "관통 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -3151,8 +3151,8 @@ skills["SupportPierce"] = {
 	},
 }
 skills["SupportPointBlank"] = {
-	name = "Point Blank",
-	description = "Supports projectile skills.",
+	name = "근접 사격 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.RangedAttack, SkillType.ThresholdJewelRangedAttack, },
@@ -3226,8 +3226,8 @@ skills["SupportPointBlank"] = {
 	},
 }
 skills["SupportCriticalStrikeAffliction"] = {
-	name = "Critical Strike Affliction",
-	description = "Supports any skill that hits enemies.",
+	name = "치명타 고통 격화 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -3292,8 +3292,8 @@ skills["SupportCriticalStrikeAffliction"] = {
 	},
 }
 skills["SupportAdditionalCooldown"] = {
-	name = "Second Wind",
-	description = "Supports skills with cooldowns.\nCannot support triggered skills.",
+	name = "새로운 활력 보조",
+	description = "재사용 대기시간을 가진 스킬에 적용됩니다.\n발동형 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Cooldown, },
@@ -3362,8 +3362,8 @@ skills["SupportAdditionalCooldown"] = {
 	},
 }
 skills["SupportSlowerProjectiles"] = {
-	name = "Slower Projectiles",
-	description = "Supports projectile skills.",
+	name = "투사체 속도 감소 보조",
+	description = "투사체 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Projectile, SkillType.ProjectileSpeed, SkillType.ThresholdJewelProjectile, SkillType.ThresholdJewelRangedAttack, },
@@ -3440,8 +3440,8 @@ skills["SupportSlowerProjectiles"] = {
 	},
 }
 skills["SupportRapidDecay"] = {
-	name = "Swift Affliction",
-	description = "Supports any skill that has a duration, or can hit enemies to inflict ailments on them.",
+	name = "고통 격화 보조",
+	description = "지속시간이 적용되는 스킬 또는 적중 시 상태 이상을 유발하는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Duration, SkillType.ThresholdJewelDuration, SkillType.Damage, SkillType.Attack, },
@@ -3514,8 +3514,8 @@ skills["SupportRapidDecay"] = {
 	},
 }
 skills["SupportSwiftAfflictionPlus"] = {
-	name = "Awakened Swift Affliction",
-	description = "Supports any skill that has a duration, or can hit enemies to inflict ailments on them.",
+	name = "각성한 고통 격화 보조",
+	description = "지속시간이 있는 스킬 또는 명중 시 상태 이상을 유발하는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Duration, SkillType.ThresholdJewelDuration, SkillType.Damage, SkillType.Attack, },
@@ -3563,8 +3563,8 @@ skills["SupportSwiftAfflictionPlus"] = {
 	},
 }
 skills["SupportAdditionalTrapMine"] = {
-	name = "Swift Assembly",
-	description = "Supports skills which throw Traps or Mines.",
+	name = "재빠른 조립 보조",
+	description = "덫이나 지뢰를 던지는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, SkillType.RemoteMined, },
@@ -3637,8 +3637,8 @@ skills["SupportAdditionalTrapMine"] = {
 	},
 }
 skills["SupportTrap"] = {
-	name = "Trap",
-	description = "Supports spells, or attacks that use bows or wands. Instead of using that skill, you will throw a trap that will use the skill for you when an enemy walks near it. Traps cannot use channelling skills.",
+	name = "덫 보조",
+	description = "주문 또는 활이나 마법봉을 사용하는 스킬에 적용됩니다. 스킬 사용 시 덫이 투척되며 이 덫은 주변에 적이 지나가면 스스로 스킬을 사용합니다. 단, 집중 유지 스킬은 사용할 수 없습니다.",
 	color = 2,
 	baseEffectiveness = 0,
 	support = true,
@@ -3721,8 +3721,8 @@ skills["SupportTrap"] = {
 	},
 }
 skills["SupportTrapCooldown"] = {
-	name = "Advanced Traps",
-	description = "Supports skills which throw traps.",
+	name = "향상된 덫 보조",
+	description = "덫을 던지는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, },
@@ -3791,8 +3791,8 @@ skills["SupportTrapCooldown"] = {
 	},
 }
 skills["SupportTrapAndMineDamage"] = {
-	name = "Trap and Mine Damage",
-	description = "Supports skills which throw Traps or Mines.",
+	name = "덫 및 지뢰 피해 보조",
+	description = "덫 또는 지뢰를 투척하는 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Trapped, SkillType.RemoteMined, },
@@ -3874,8 +3874,8 @@ skills["SupportTrapAndMineDamage"] = {
 	},
 }
 skills["SupportPhysicalProjectileAttackDamage"] = {
-	name = "Vicious Projectiles",
-	description = "Supports projectile attack skills.",
+	name = "포악한 투사체 보조",
+	description = "투사체 공격 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.RangedAttack, SkillType.ThresholdJewelRangedAttack, },
@@ -3960,8 +3960,8 @@ skills["SupportPhysicalProjectileAttackDamage"] = {
 	},
 }
 skills["SupportViciousProjectilesPlus"] = {
-	name = "Awakened Vicious Projectiles",
-	description = "Supports projectile attack skills.",
+	name = "각성한 포악한 투사체 보조",
+	description = "투사체 공격 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.RangedAttack, SkillType.ThresholdJewelRangedAttack, },
@@ -4020,8 +4020,8 @@ skills["SupportViciousProjectilesPlus"] = {
 	},
 }
 skills["SupportDebilitate"] = {
-	name = "Vile Toxins",
-	description = "Supports any skill that hits enemies.",
+	name = "끔찍한 독소 보조",
+	description = "적을 명중하는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, },
@@ -4101,8 +4101,8 @@ skills["SupportDebilitate"] = {
 	},
 }
 skills["SupportVoidManipulation"] = {
-	name = "Void Manipulation",
-	description = "Supports any skill that deals damage.",
+	name = "공허 조작 보조",
+	description = "피해를 주는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DamageOverTime, },
@@ -4173,8 +4173,8 @@ skills["SupportVoidManipulation"] = {
 	},
 }
 skills["SupportVoidManipulationPlus"] = {
-	name = "Awakened Void Manipulation",
-	description = "Supports any skill that deals damage.",
+	name = "각성한 공허 조작 보조",
+	description = "피해를 주는 모든 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Damage, SkillType.Attack, SkillType.DamageOverTime, },
@@ -4221,8 +4221,8 @@ skills["SupportVoidManipulationPlus"] = {
 	},
 }
 skills["SupportParallelProjectiles"] = {
-	name = "Volley",
-	description = "Supports skills that fire projectiles from the user. Does not affect projectiles fired from other locations as secondary effects.",
+	name = "사격 공세 보조",
+	description = "플레이어가 발사하는 투사체 스킬에 적용됩니다. 부가적인 효과로 다른 곳에서 발사되는 투사체에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.ProjectilesFromUser, },
@@ -4297,8 +4297,8 @@ skills["SupportParallelProjectiles"] = {
 	},
 }
 skills["SupportChaosAttacks"] = {
-	name = "Withering Touch",
-	description = "Supports attack skills.",
+	name = "위축의 손길 보조",
+	description = "공격 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },
@@ -4367,8 +4367,8 @@ skills["SupportChaosAttacks"] = {
 	},
 }
 skills["SupportManaforgedArrows"] = {
-	name = "Manaforged Arrows",
-	description = "Supports bow attack skills, causing them to trigger when you've spent enough mana in total on other bow attacks. Cannot modify the skills of minions. Cannot support totems, traps, mines, Vaal skills, or channelling skills",
+	name = "마나벼림 화살 보조",
+	description = "활 공격 스킬에 적용됩니다. 다른 활 공격으로 사용한 마나의 총량이 일정 수준 이상이 되면 보조 대상 스킬이 발동됩니다. 소환수가 사용하는 스킬에는 적용되지 않습니다. 토템, 덫, 지뢰, 바알 스킬, 집중 유지 스킬에는 적용되지 않습니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Triggerable, SkillType.Attack, SkillType.AND, },
@@ -4455,8 +4455,8 @@ skills["SupportManaforgedArrows"] = {
 	},
 }
 skills["SupportMomentum"] = {
-	name = "Momentum",
-	description = "Supports attack skills that aren't triggered.",
+	name = "기세 보조",
+	description = "발동형이 아닌 공격 스킬에 적용됩니다.",
 	color = 2,
 	support = true,
 	requireSkillTypes = { SkillType.Attack, },

@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Curse Immune"
+					text="저주 면역"
 				}
 			}
 		},
@@ -22,7 +22,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -30,7 +30,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hexproof"
+					text="사술 방지"
 				}
 			}
 		},
@@ -40,7 +40,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -48,7 +48,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Burns Ground on Death"
+					text="사망 시 용암 지대 생성"
 				}
 			}
 		},
@@ -58,7 +58,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -66,7 +66,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Chills Ground on Death"
+					text="사망 시 얼음 지대 생성"
 				}
 			}
 		},
@@ -76,7 +76,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -84,7 +84,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spreads Tar on Death"
+					text="사망 시 타르 확산"
 				}
 			}
 		},
@@ -94,7 +94,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -102,7 +102,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spreads Caustic Ground on Death"
+					text="사망 시 부식성 지대 확산"
 				}
 			}
 		},
@@ -112,7 +112,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -120,7 +120,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can raise Magic monsters"
+					text="마법 몬스터 소환 가능"
 				},
 				[2]={
 					limit={
@@ -129,7 +129,7 @@ return {
 							[2]=2
 						}
 					},
-					text="Can raise Rare or Magic monsters"
+					text="희귀 또는 마법 몬스터 소환 가능"
 				},
 				[3]={
 					limit={
@@ -138,7 +138,7 @@ return {
 							[2]=3
 						}
 					},
-					text="Can raise Unique, Rare or Magic monsters"
+					text="고유, 희귀 또는 마법 몬스터 소환 가능"
 				}
 			}
 		},
@@ -148,7 +148,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -156,7 +156,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Avoids Frozen"
+					text="동결 회피"
 				},
 				[2]={
 					limit={
@@ -165,7 +165,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Frozen"
+					text="동결 면역"
 				}
 			}
 		},
@@ -175,7 +175,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -183,7 +183,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Avoids Chilled"
+					text="냉각 회피"
 				},
 				[2]={
 					limit={
@@ -192,7 +192,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Chilled"
+					text="냉각 면역"
 				}
 			}
 		},
@@ -202,7 +202,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -210,7 +210,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Avoids Ignited"
+					text="점화 회피"
 				},
 				[2]={
 					limit={
@@ -219,7 +219,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Ignited"
+					text="점화 면역"
 				}
 			}
 		},
@@ -229,7 +229,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -237,7 +237,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Avoids Shocked"
+					text="감전 회피"
 				},
 				[2]={
 					limit={
@@ -246,7 +246,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Shocked"
+					text="감전 면역"
 				}
 			}
 		},
@@ -256,7 +256,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -264,7 +264,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spikes on Death"
+					text="사망 시 가시"
 				}
 			}
 		},
@@ -274,7 +274,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -282,7 +282,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ice Spears on Death"
+					text="사망 시 얼음 창"
 				}
 			}
 		},
@@ -292,7 +292,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -300,7 +300,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Casts Lightning Nova"
+					text="번개 폭발 시전"
 				}
 			}
 		},
@@ -310,7 +310,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -318,7 +318,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Casts Fire Nova"
+					text="화염 폭발 시전"
 				}
 			}
 		},
@@ -328,7 +328,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -336,7 +336,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Removes Flask Charges"
+					text="플라스크 충전 제거"
 				}
 			}
 		},
@@ -346,7 +346,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -354,7 +354,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Causes Bleeding"
+					text="출혈 유발"
 				}
 			}
 		},
@@ -364,7 +364,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -372,7 +372,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies take increased Damage"
+					text="적이 받는 피해 증가"
 				}
 			}
 		},
@@ -382,7 +382,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -390,7 +390,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies are affected by Temporal Chains"
+					text="적이 시간의 사슬에 영향을 받음"
 				}
 			}
 		},
@@ -400,7 +400,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -408,7 +408,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies take Damage when using Movement skills"
+					text="이동 스킬 사용 시 적이 피해를 받음"
 				}
 			}
 		},
@@ -418,7 +418,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -426,7 +426,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enrages on Low Life"
+					text="낮은 생명력 상태일 때 격앙"
 				}
 			}
 		},
@@ -436,7 +436,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -444,7 +444,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Slowed"
+					text="느려짐 면역"
 				}
 			}
 		},
@@ -454,7 +454,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -462,7 +462,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be fully Slowed"
+					text="완전히 느려지지 않음"
 				}
 			}
 		},
@@ -472,7 +472,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -480,7 +480,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Cannot be Life-Leeched"
+					text="생명력 흡수 면역"
 				}
 			}
 		},
@@ -490,7 +490,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -498,7 +498,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignores Summoning Towers"
+					text="소환의 탑 무시함"
 				}
 			}
 		},
@@ -508,7 +508,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -516,7 +516,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Resilient to Cold Towers"
+					text="냉기 탑에 내성"
 				}
 			}
 		},
@@ -526,7 +526,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -534,7 +534,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Resilient to Fire Towers"
+					text="화염 탑에 내성"
 				}
 			}
 		},
@@ -544,7 +544,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -552,7 +552,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Resilient to Lightning Towers"
+					text="번개 탑에 내성"
 				}
 			}
 		},
@@ -562,7 +562,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -570,7 +570,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Resilient to Physical Towers"
+					text="물리 탑에 내성"
 				}
 			}
 		},
@@ -580,7 +580,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -588,7 +588,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Blocks Projectiles while charging"
+					text="돌진하는 동안 투사체 막아냄"
 				}
 			}
 		},

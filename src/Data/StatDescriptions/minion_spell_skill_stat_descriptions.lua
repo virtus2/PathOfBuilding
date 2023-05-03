@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -25,7 +25,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -36,7 +36,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -48,7 +48,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% increased Cast Speed when on Low Life"
+					text="낮은 생명력 상태일 때 이 주문 및 소환수의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -65,7 +65,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% reduced Cast Speed when on Low Life"
+					text="낮은 생명력 상태일 때 이 주문 및 소환수의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -76,7 +76,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -84,7 +84,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% more Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -97,7 +97,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% less Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -108,7 +108,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -116,7 +116,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell and Minions have {0}% more Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -129,7 +129,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Spell and Minions have {0}% less Cast Speed"
+					text="이 주문 및 소환수의 시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -140,7 +140,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -148,7 +148,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Strike Skills deal Fire-only Splash Damage to Surrounding Targets"
+					text="소환수의 근접 타격 스킬이 주변 대상에게 화염으로만 범위 피해를 줌"
 				}
 			}
 		},
@@ -159,7 +159,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -171,7 +171,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to throw up to 1 additional Trap or Mine"
+					text="해당 스킬 및 소환수가 {0}% 확률로 덫 또는 지뢰 최대 1개 추가 투척"
 				}
 			}
 		},
@@ -182,7 +182,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -194,7 +194,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to throw up to 2 additional Traps or Mines"
+					text="해당 스킬 및 소환수가 {0}%의 확률로 덫 또는 지뢰 최대 2개 추가 투척"
 				}
 			}
 		},
@@ -205,7 +205,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -217,7 +217,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to throw up to 3 additional Traps or Mines"
+					text="해당 스킬 및 소환수가 {0}%의 확률로 덫 또는 지뢰 최대 3개 추가 투척"
 				}
 			}
 		},

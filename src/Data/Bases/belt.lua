@@ -2,100 +2,100 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Rustic Sash"] = {
+itemBases["소박한 띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "(12-24)% increased Global Physical Damage",
+	implicit = "일반 물리 피해 (12-24)% 증가",
 	implicitModTypes = { { "physical_damage", "damage", "physical" }, },
 	req = { },
 }
-itemBases["Chain Belt"] = {
+itemBases["사슬 허리띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "+(9-20) to maximum Energy Shield",
+	implicit = "에너지 보호막 최대치 +(9-20)",
 	implicitModTypes = { { "energy_shield", "defences" }, },
 	req = { },
 }
-itemBases["Leather Belt"] = {
+itemBases["가죽 허리띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "+(25-40) to maximum Life",
+	implicit = "생명력 최대치 +(25-40)",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { level = 8, },
 }
-itemBases["Heavy Belt"] = {
+itemBases["무거운 허리띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "+(25-35) to Strength",
+	implicit = "힘 +(25-35)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 8, },
 }
-itemBases["Cloth Belt"] = {
+itemBases["헝겊 허리띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "(15-25)% increased Stun and Block Recovery",
+	implicit = "기절 및 막기 회복 (15-25)% 증가",
 	implicitModTypes = { {  }, },
 	req = { level = 16, },
 }
-itemBases["Studded Belt"] = {
+itemBases["징 박힌 허리띠"] = {
 	type = "Belt",
 	tags = { belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "(20-30)% increased Stun Duration on Enemies",
+	implicit = "적에게 적용되는 기절 지속시간 (20-30)% 증가",
 	implicitModTypes = { {  }, },
 	req = { level = 16, },
 }
-itemBases["Micro-Distillery Belt"] = {
+itemBases["섬세한 주조자 허리띠"] = {
 	type = "Belt",
 	tags = { experimental_base = true, default = true, belt = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "Flasks applied to you have 20% increased Effect\nCan't use Flask in Fifth Slot",
+	implicit = "자신에게 적용된 플라스크의 효과 20% 증가\n5번째 슬롯의 플라스크 사용 불가",
 	implicitModTypes = { {  }, {  }, },
 	req = { level = 24, },
 }
-itemBases["Mechalarm Belt"] = {
+itemBases["기계 경보 허리띠"] = {
 	type = "Belt",
 	tags = { experimental_base = true, default = true, belt = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "Trigger Level 20 Summon Taunting Contraption when you use a Flask",
+	implicit = "플라스크 사용 시 20레벨 도발 장치 소환 발동",
 	implicitModTypes = { {  }, },
 	req = { level = 56, },
 }
-itemBases["Vanguard Belt"] = {
+itemBases["선봉대 허리띠"] = {
 	type = "Belt",
 	tags = { not_for_sale = true, atlas_base_type = true, beltatlas1 = true, belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "+(260-320) to Armour and Evasion Rating",
+	implicit = "방어도 및 회피 +(260-320)",
 	implicitModTypes = { { "armour", "evasion", "defences" }, },
 	req = { level = 78, },
 }
-itemBases["Crystal Belt"] = {
+itemBases["수정 허리띠"] = {
 	type = "Belt",
 	tags = { beltatlas2 = true, not_for_sale = true, atlas_base_type = true, belt = true, default = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "+(60-80) to maximum Energy Shield",
+	implicit = "에너지 보호막 최대치 +(60-80)",
 	implicitModTypes = { { "energy_shield", "defences" }, },
 	req = { level = 79, },
 }
-itemBases["Stygian Vise"] = {
+itemBases["명계의 조임쇠"] = {
 	type = "Belt",
 	tags = { not_for_sale = true, default = true, belt = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "Has 1 Abyssal Socket",
+	implicit = "심연 홈 1개",
 	implicitModTypes = { {  }, },
 	req = { },
 }
 
-itemBases["Golden Obi"] = {
+itemBases["황금 오비"] = {
 	type = "Belt",
 	tags = { demigods = true, not_for_sale = true, default = true, belt = true, },
 	influenceTags = { shaper = "belt_shaper", elder = "belt_elder", adjudicator = "belt_adjudicator", basilisk = "belt_basilisk", crusader = "belt_crusader", eyrie = "belt_eyrie", cleansing = "belt_cleansing", tangle = "belt_tangle" },
-	implicit = "(20-30)% increased Rarity of Items found",
+	implicit = "발견하는 아이템 희귀도 (20-30)% 증가",
 	implicitModTypes = { {  }, },
 	req = { },
 }

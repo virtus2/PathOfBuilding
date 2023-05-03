@@ -7,7 +7,7 @@
 local minions, mod = ...
 
 minions["RaisedZombie"] = {
-	name = "Raised Zombie",
+	name = "소환한 좀비",
 	life = 3.75,
 	armour = 0.7,
 	fireResist = 40,
@@ -31,7 +31,7 @@ minions["RaisedZombie"] = {
 }
 
 minions["SummonedChaosGolem"] = {
-	name = "Chaos Golem",
+	name = "카오스 골렘",
 	life = 5.76,
 	energyShield = 0.2,
 	fireResist = 40,
@@ -56,7 +56,7 @@ minions["SummonedChaosGolem"] = {
 }
 
 minions["SummonedFlameGolem"] = {
-	name = "Flame Golem",
+	name = "화염 골렘",
 	life = 4.86,
 	energyShield = 0.4,
 	fireResist = 70,
@@ -83,7 +83,7 @@ minions["SummonedFlameGolem"] = {
 }
 
 minions["SummonedIceGolem"] = {
-	name = "Ice Golem",
+	name = "얼음 골렘",
 	life = 4.86,
 	energyShield = 0.4,
 	fireResist = 40,
@@ -108,7 +108,7 @@ minions["SummonedIceGolem"] = {
 }
 
 minions["SummonedLightningGolem"] = {
-	name = "Lightning Golem",
+	name = "번개 골렘",
 	life = 4.86,
 	energyShield = 0.2,
 	fireResist = 40,
@@ -135,7 +135,7 @@ minions["SummonedLightningGolem"] = {
 }
 
 minions["SummonedStoneGolem"] = {
-	name = "Stone Golem",
+	name = "돌 골렘",
 	life = 6.3,
 	armour = 0.6,
 	fireResist = 40,
@@ -160,7 +160,7 @@ minions["SummonedStoneGolem"] = {
 }
 
 minions["SummonedRagingSpirit"] = {
-	name = "Raging Spirit",
+	name = "격노의 유령",
 	life = 2.16,
 	fireResist = 40,
 	coldResist = 40,
@@ -185,7 +185,7 @@ minions["SummonedRagingSpirit"] = {
 }
 
 minions["SummonedEssenceSpirit"] = {
-	name = "Essence Spirit",
+	name = "정수의 혼백",
 	life = 2.25,
 	fireResist = 40,
 	coldResist = 40,
@@ -207,7 +207,7 @@ minions["SummonedEssenceSpirit"] = {
 }
 
 minions["SummonedSpectralWolf"] = {
-	name = "Spectral Wolf Companion",
+	name = "영체 늑대 동료",
 	life = 4.5,
 	fireResist = 40,
 	coldResist = 40,
@@ -228,7 +228,7 @@ minions["SummonedSpectralWolf"] = {
 }
 
 minions["RaisedSkeleton"] = {
-	name = "Summoned Skeleton",
+	name = "소환된 해골",
 	life = 1.05,
 	fireResist = 40,
 	coldResist = 40,
@@ -254,7 +254,7 @@ minions["RaisedSkeleton"] = {
 }
 
 minions["RaisedSkeletonCaster"] = {
-	name = "Summoned Skeleton Caster",
+	name = "소환된 해골 시전자",
 	life = 1.05,
 	energyShield = 0.4,
 	fireResist = 40,
@@ -278,7 +278,7 @@ minions["RaisedSkeletonCaster"] = {
 }
 
 minions["RaisedSkeletonArcher"] = {
-	name = "Summoned Skeleton Archer",
+	name = "소환된 해골 궁수",
 	life = 1.05,
 	fireResist = 40,
 	coldResist = 40,
@@ -299,7 +299,7 @@ minions["RaisedSkeletonArcher"] = {
 }
 
 minions["Clone"] = {
-	name = "Clone",
+	name = "분신",
 	life = 1,
 	fireResist = 40,
 	coldResist = 40,
@@ -319,7 +319,7 @@ minions["Clone"] = {
 }
 
 minions["SpiderMinion"] = {
-	name = "Spider Minion",
+	name = "거미 소환수",
 	life = 1.8,
 	fireResist = 40,
 	coldResist = 40,
@@ -342,7 +342,7 @@ minions["SpiderMinion"] = {
 }
 
 minions["AnimatedWeapon"] = {
-	name = "Animated Weapon",
+	name = "기동된 무기",
 	life = 4,
 	fireResist = 40,
 	coldResist = 40,
@@ -362,7 +362,7 @@ minions["AnimatedWeapon"] = {
 }
 
 minions["AnimatedArmour"] = {
-	name = "Animated Guardian",
+	name = "기동된 수호자",
 	life = 4.5,
 	armour = 0.5,
 	fireResist = 40,
@@ -385,7 +385,7 @@ minions["AnimatedArmour"] = {
 }
 
 minions["IcyRagingSpirit"] = {
-	name = "Grave Spirit",
+	name = "무덤 혼백",
 	life = 3.75,
 	fireResist = 40,
 	coldResist = 40,
@@ -407,7 +407,7 @@ minions["IcyRagingSpirit"] = {
 }
 
 minions["UniqueAnimatedWeapon"] = {
-	name = "Dancing Dervish",
+	name = "춤추는 수도승",
 	life = 5,
 	fireResist = 40,
 	coldResist = 40,
@@ -427,7 +427,7 @@ minions["UniqueAnimatedWeapon"] = {
 }
 
 minions["SummonedPhantasm"] = {
-	name = "Summoned Phantasm",
+	name = "소환된 환영",
 	life = 1.58,
 	energyShield = 0.2,
 	fireResist = 40,
@@ -450,7 +450,7 @@ minions["SummonedPhantasm"] = {
 }
 
 minions["HeraldOfAgonySpiderPlated"] = {
-	name = "Agony Crawler",
+	name = "고통의 벌레",
 	life = 1.5,
 	fireResist = 0,
 	coldResist = 0,
@@ -476,7 +476,7 @@ minions["HeraldOfAgonySpiderPlated"] = {
 }
 
 minions["AxisEliteSoldierHeraldOfLight"] = {
-	name = "Sentinel of Purity",
+	name = "정화의 파수꾼",
 	life = 3.4,
 	armour = 0.5,
 	fireResist = 40,
@@ -501,7 +501,7 @@ minions["AxisEliteSoldierHeraldOfLight"] = {
 }
 
 minions["HolyLivingRelic"] = {
-	name = "Holy Relic",
+	name = "신성한 유물",
 	life = 6,
 	energyShield = 0.6,
 	fireResist = 40,
@@ -524,7 +524,7 @@ minions["HolyLivingRelic"] = {
 }
 
 minions["AxisEliteSoldierDominatingBlow"] = {
-	name = "Sentinel of Dominance",
+	name = "지배의 파수꾼",
 	life = 4,
 	armour = 0.5,
 	fireResist = 40,
@@ -551,7 +551,7 @@ minions["AxisEliteSoldierDominatingBlow"] = {
 }
 
 minions["AbsolutionTemplarJudge"] = {
-	name = "Sentinel of Absolution",
+	name = "면죄의 파수꾼",
 	life = 4,
 	energyShield = 0.2,
 	armour = 0.5,
@@ -575,7 +575,7 @@ minions["AbsolutionTemplarJudge"] = {
 }
 
 minions["RhoaUniqueSummoned"] = {
-	name = "Summoned Rhoa",
+	name = "소환된 로아",
 	life = 9,
 	armour = 0.2,
 	fireResist = 40,
@@ -600,7 +600,7 @@ minions["RhoaUniqueSummoned"] = {
 }
 
 minions["SnakeSpitUniqueSummoned"] = {
-	name = "Summoned Cobra",
+	name = "소환된 코브라",
 	life = 9,
 	armour = 0.15,
 	fireResist = 40,
@@ -623,7 +623,7 @@ minions["SnakeSpitUniqueSummoned"] = {
 }
 
 minions["DropBearUniqueSummoned"] = {
-	name = "Summoned Ursa",
+	name = "소환된 곰",
 	life = 9,
 	armour = 0.5,
 	fireResist = 40,
@@ -648,7 +648,7 @@ minions["DropBearUniqueSummoned"] = {
 }
 
 minions["SummonedCarrionGolem"] = {
-	name = "Carrion Golem",
+	name = "부패 골렘",
 	life = 4.86,
 	energyShield = 0.4,
 	fireResist = 40,
@@ -673,7 +673,7 @@ minions["SummonedCarrionGolem"] = {
 }
 
 minions["SkitterbotCold"] = {
-	name = "Chilling Skitterbot",
+	name = "냉각 원격 기폭 장치",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -694,7 +694,7 @@ minions["SkitterbotCold"] = {
 }
 
 minions["SkitterbotLightning"] = {
-	name = "Shocking Skitterbot",
+	name = "감전 원격 기폭 장치",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -715,7 +715,7 @@ minions["SkitterbotLightning"] = {
 }
 
 minions["SummonedReaper"] = {
-	name = "Reaper",
+	name = "수확자",
 	life = 3,
 	armour = 1,
 	fireResist = 40,
@@ -750,7 +750,7 @@ minions["SummonedReaper"] = {
 }
 
 minions["SummonedArbalists"] = {
-	name = "Summoned Arbalist",
+	name = "소환된 석궁병",
 	life = 7.41,
 	fireResist = 40,
 	coldResist = 40,

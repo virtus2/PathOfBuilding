@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -12,7 +12,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions throw up to 1 additional Trap"
+					text="소환수가 덫 최대 1개 추가 투척"
 				},
 				[2]={
 					limit={
@@ -21,7 +21,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions throw up to {0} additional Traps"
+					text="소환수가 덫 최대 {0}개 추가 투척"
 				}
 			}
 		},
@@ -32,7 +32,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -44,7 +44,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions throw up to 1 additional Mine"
+					text="소환수가 지뢰 최대 1개 추가 투척"
 				},
 				[2]={
 					[1]={
@@ -57,7 +57,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions throw up to {0} additional Mines"
+					text="소환수가 지뢰 최대 {0}개 추가 투척"
 				}
 			}
 		},
@@ -68,7 +68,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -76,7 +76,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions can have an additional Trap placed at a time"
+					text="소환수가 한 번에 덫 1개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -85,7 +85,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions can have {0} additional Traps placed at a time"
+					text="소환수가 한 번에 덫 {0}개 추가 설치"
 				}
 			}
 		},
@@ -96,7 +96,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -104,7 +104,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions can have an additional Mine placed at a time"
+					text="소환수가 한 번에 지뢰 1개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -113,7 +113,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions can have {0} additional Mines placed at a time"
+					text="소환수가 한 번에 지뢰 {0}개 추가 설치"
 				}
 			}
 		},
@@ -124,7 +124,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -132,7 +132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Traps are thrown randomly"
+					text="덫이 무작위로 투척됨"
 				}
 			}
 		},
@@ -143,7 +143,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -151,7 +151,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Cast Speed"
+					text="소환수의 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -164,7 +164,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Cast Speed"
+					text="소환수의 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -175,7 +175,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -183,7 +183,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Cast Speed"
+					text="소환수의 시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -196,7 +196,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Cast Speed"
+					text="소환수의 시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -207,7 +207,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -215,7 +215,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Attack Speed"
+					text="소환수의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -228,7 +228,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Attack Speed"
+					text="소환수의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -239,7 +239,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -247,7 +247,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0} additional Accuracy Rating"
+					text="소환수의 정확도 {0} 추가"
 				},
 				[2]={
 					[1]={
@@ -260,7 +260,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions lose {0} Accuracy Rating"
+					text="소환수의 정확도 {0} 상실"
 				}
 			}
 		},
@@ -271,7 +271,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -279,7 +279,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Accuracy Rating"
+					text="소환수의 정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -292,7 +292,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Accuracy Rating"
+					text="소환수의 정확도 {0}% 감소"
 				}
 			}
 		},
@@ -303,7 +303,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -311,7 +311,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Critical Strike Chance"
+					text="소환수의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -324,7 +324,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Critical Strike Chance"
+					text="소환수의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -335,7 +335,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -343,7 +343,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Critical Strike Chance"
+					text="소환수의 치명타 확률 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -356,7 +356,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Critical Strike Chance"
+					text="소환수의 치명타 확률 {0}% 감폭"
 				}
 			}
 		},
@@ -367,7 +367,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -375,7 +375,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0:+d}% to Critical Strike Multiplier"
+					text="소환수의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -386,7 +386,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -394,7 +394,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain {0} Life per Enemy they Hit"
+					text="소환수가 명중한 적 하나당 소환수가 생명력 {0} 획득"
 				},
 				[2]={
 					[1]={
@@ -407,7 +407,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions lose {0} Life per Enemy they Hit"
+					text="소환수가 명중한 적 하나당 소환수가 생명력 {0} 상실"
 				}
 			}
 		},
@@ -418,7 +418,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -434,7 +434,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Leech {0}% of Damage as Life"
+					text="소환수가 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -445,7 +445,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -461,7 +461,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Leech {0}% of Damage as Energy Shield"
+					text="소환수가 피해의 {0}%를 에너지 보호막으로 흡수"
 				}
 			}
 		},
@@ -472,7 +472,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -484,7 +484,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have an additional {0}% chance to Knock Enemies Back on Hit"
+					text="명중 시 소환수가 적을 밀어낼 확률 {0}% 추가"
 				},
 				[2]={
 					[1]={
@@ -497,7 +497,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions knock Enemies Back on Hit"
+					text="명중 시 소환수가 적을 밀어냄"
 				}
 			}
 		},
@@ -508,7 +508,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -516,7 +516,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Knockback Distance"
+					text="소환수의 밀어내기 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -529,7 +529,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Knockback Distance"
+					text="소환수의 밀어내기 거리 {0}% 감소"
 				}
 			}
 		},
@@ -540,7 +540,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -552,7 +552,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% reduced Enemy Stun Threshold"
+					text="소환수의 적 기절 한계치 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -569,7 +569,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% increased Enemy Stun Threshold"
+					text="소환수의 적 기절 한계치 {0}% 증가"
 				}
 			}
 		},
@@ -580,7 +580,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -588,7 +588,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Rarity of Items Dropped by enemies Slain by Minions"
+					text="소환수가 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -601,7 +601,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Rarity of Items Dropped by enemies Slain by Minions"
+					text="소환수가 처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 감소"
 				}
 			}
 		},
@@ -612,7 +612,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -620,7 +620,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Quantity of Items Dropped by enemies Slain by Minions"
+					text="소환수가 처치한 적이 떨어뜨리는 아이템 수량 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -633,7 +633,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Quantity of Items Dropped by enemies Slain by Minions"
+					text="소환수가 처치한 적이 떨어뜨리는 아이템 수량 {0}% 감소"
 				}
 			}
 		},
@@ -644,7 +644,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -660,7 +660,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions always Freeze Enemies"
+					text="소환수가 항상 동결 유발"
 				},
 				[2]={
 					[1]={
@@ -677,7 +677,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions always Freeze Enemies"
+					text="소환수가 항상 동결 유발"
 				},
 				[3]={
 					[1]={
@@ -694,7 +694,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions have {0}% chance to Freeze enemies"
+					text="소환수가 {0}%의 확률로 적 동결 유발"
 				}
 			}
 		},
@@ -706,7 +706,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -718,7 +718,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to Shock enemies"
+					text="소환수가 {0}%의 확률로 적 감전 유발"
 				}
 			}
 		},
@@ -729,7 +729,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -741,7 +741,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to Ignite enemies"
+					text="소환수가 {0}%의 확률로 적 점화 유발"
 				}
 			}
 		},
@@ -752,7 +752,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -760,7 +760,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to cause Monsters to Flee when Hit"
+					text="소환수는 피격 시 {0}%의 확률로 몬스터를 도망치게 함"
 				}
 			}
 		},
@@ -771,7 +771,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -779,7 +779,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Area of Effect"
+					text="소환수의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -792,7 +792,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Area of Effect"
+					text="소환수의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -803,7 +803,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -811,7 +811,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Area of Effect"
+					text="소환수의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -824,7 +824,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Area of Effect"
+					text="소환수의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -835,7 +835,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -843,7 +843,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Aura Area of Effect"
+					text="소환수의 오라 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -856,7 +856,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Aura Area of Effect"
+					text="소환수의 오라 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -867,7 +867,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -875,7 +875,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased effect of their Auras"
+					text="소환수의 오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -888,7 +888,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced effect of their Auras"
+					text="소환수의 오라 효과 {0}% 감소"
 				}
 			}
 		},
@@ -899,7 +899,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -907,7 +907,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Projectile Speed"
+					text="소환수의 투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -920,7 +920,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Projectile Speed"
+					text="소환수의 투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -931,7 +931,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -939,7 +939,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions fire {0} additional Projectile"
+					text="소환수가 추가 투사체 {0}개 발사"
 				},
 				[2]={
 					limit={
@@ -948,7 +948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions fire {0} additional Projectiles"
+					text="소환수가 추가 투사체 {0}개 발사"
 				}
 			}
 		},
@@ -959,7 +959,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -967,7 +967,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Stun Duration on enemies"
+					text="소환수가 적에게 적용하는 기절 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -980,7 +980,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Stun Duration on enemies"
+					text="소환수가 적에게 적용하는 기절 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -991,7 +991,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -999,7 +999,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Chill Effect"
+					text="소환수의 냉각 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1012,7 +1012,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Chill Effect"
+					text="소환수의 냉각 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1023,7 +1023,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1031,7 +1031,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Shock Effect"
+					text="소환수의 감전 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1044,7 +1044,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Shock Effect"
+					text="소환수의 감전 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1055,7 +1055,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1063,7 +1063,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Ignite Duration on enemies"
+					text="소환수가 적에게 적용하는 점화 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1076,7 +1076,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Ignite Duration on enemies"
+					text="소환수가 적에게 적용하는 점화 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1087,7 +1087,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1095,7 +1095,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Chill Duration on enemies"
+					text="소환수가 적에게 적용하는 냉각 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1108,7 +1108,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Chill Duration on enemies"
+					text="소환수가 적에게 적용하는 냉각 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1119,7 +1119,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1127,7 +1127,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Freeze Duration on enemies"
+					text="소환수가 적에게 적용하는 동결 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1140,7 +1140,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Freeze Duration on enemies"
+					text="소환수가 적에게 적용하는 동결 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1151,7 +1151,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1159,7 +1159,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Shock Duration on enemies"
+					text="소환수가 적에게 적용하는 감전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1172,7 +1172,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Shock Duration on enemies"
+					text="소환수가 적에게 적용하는 감전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -1183,7 +1183,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1195,7 +1195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Elemental Ailments caused by Minions also spread to nearby enemies"
+					text="소환수에 의해 발생하는 원소 상태 이상이 주변의 적에게도 확산"
 				}
 			}
 		},
@@ -1206,7 +1206,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1214,7 +1214,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignites caused by Minions spread to other nearby Enemies"
+					text="소환수에 의해 발생하는 점화가 주변의 다른 적에게도 확산"
 				}
 			}
 		},
@@ -1225,7 +1225,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1245,7 +1245,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions' Attacks have {0}% chance to cause Bleeding"
+					text="소환수의 공격이 {0}% 확률로 출혈 유발"
 				},
 				[2]={
 					[1]={
@@ -1266,7 +1266,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions' Attacks cause Bleeding"
+					text="소환수의 공격 시 출혈 유발"
 				},
 				[3]={
 					[1]={
@@ -1287,7 +1287,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions' Attacks cause Bleeding"
+					text="소환수의 공격 시 출혈 유발"
 				},
 				[4]={
 					limit={
@@ -1304,7 +1304,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions cannot cause Bleeding"
+					text="소환수는 출혈 유발 불가"
 				}
 			}
 		},
@@ -1317,7 +1317,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1325,7 +1325,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Melee Physical Damage"
+					text="소환수가 주는 근접 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1338,7 +1338,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Melee Physical Damage"
+					text="소환수가 주는 근접 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1349,7 +1349,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1357,7 +1357,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Bleeding and Poison caused by Melee Hits"
+					text="소환수가 주는 근접 명중에 의한 출혈 및 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1370,7 +1370,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Bleeding and Poison caused by Melee Hits"
+					text="소환수가 주는 근접 명중에 의한 출혈 및 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1381,7 +1381,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1389,7 +1389,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1402,7 +1402,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1413,7 +1413,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1425,7 +1425,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage while they are on Low Life"
+					text="소환수가 낮은 생명력 상태일 때 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1442,7 +1442,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage while they are on Low Life"
+					text="소환수가 낮은 생명력 상태일 때 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1453,7 +1453,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1461,7 +1461,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Attack Skills while on Full Life"
+					text="생명력이 최대일 때 소환수가 주는 공격 스킬의 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1474,7 +1474,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Attack Skills while on Full Life"
+					text="생명력이 최대일 때 소환수가 주는 공격 스킬의 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1485,7 +1485,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1493,7 +1493,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Attack Damage"
+					text="소환수가 주는 공격 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1506,7 +1506,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Attack Damage"
+					text="소환수가 주는 공격 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1517,7 +1517,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1525,7 +1525,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1538,7 +1538,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1549,7 +1549,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1557,7 +1557,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1570,7 +1570,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1581,7 +1581,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1589,7 +1589,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1602,7 +1602,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1613,7 +1613,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1621,7 +1621,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1634,7 +1634,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1645,7 +1645,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1653,7 +1653,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1666,7 +1666,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1677,7 +1677,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1685,7 +1685,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1698,7 +1698,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1709,7 +1709,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1721,7 +1721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Attacks deal {0} to {1} additional Physical Damage"
+					text="소환수의 공격으로 주는 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1733,7 +1733,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1749,7 +1749,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Animated Lingering Blades deal {0} to {1} Added Attack Physical Damage"
+					text="기동된 지속되는 칼날이 주는 공격 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1761,7 +1761,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1773,7 +1773,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0} to {1} additional Cold Damage"
+					text="소환수가 주는 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1785,7 +1785,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1797,7 +1797,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0} to {1} additional Lightning Damage"
+					text="소환수가 주는 번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1809,7 +1809,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1821,7 +1821,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0} to {1} additional Chaos Damage"
+					text="소환수가 주는 카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1833,7 +1833,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1841,7 +1841,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Physical Damage with Melee Attacks"
+					text="소환수가 주는 근접 공격 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1854,7 +1854,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Physical Damage with Melee Attacks"
+					text="소환수가 주는 근접 공격 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1865,7 +1865,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1873,7 +1873,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% of their Physical Damage as Extra Fire Damage"
+					text="소환수가 물리 피해의 {0}%를 추가 화염 피해로 줌"
 				}
 			}
 		},
@@ -1884,7 +1884,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1892,7 +1892,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Minion Cold Damage Converted to Fire Damage"
+					text="소환수 냉기 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -1903,7 +1903,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1911,7 +1911,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% of their Physical Damage as Extra Chaos Damage"
+					text="소환수가 물리 피해의 {0}%를 추가 카오스 피해로 줌"
 				}
 			}
 		},
@@ -1922,7 +1922,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1930,7 +1930,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% of Physical Damage as Extra Lightning Damage"
+					text="소환수가 물리 피해의 {0}%를 추가 번개 피해로 줌"
 				}
 			}
 		},
@@ -1941,7 +1941,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1949,7 +1949,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Convert {0}% of Physical Damage to Lightning Damage"
+					text="소환수 물리 피해의 {0}%를 번개 피해로 전환"
 				}
 			}
 		},
@@ -1960,7 +1960,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1968,7 +1968,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage"
+					text="소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1981,7 +1981,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage"
+					text="소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1992,7 +1992,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2000,7 +2000,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Fire Damage"
+					text="소환수가 주는 화염 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2013,7 +2013,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Fire Damage"
+					text="소환수가 주는 화염 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2024,7 +2024,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2032,7 +2032,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Cold Damage"
+					text="소환수가 주는 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2045,7 +2045,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Cold Damage"
+					text="소환수가 주는 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2056,7 +2056,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2064,7 +2064,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Lightning Damage"
+					text="소환수가 주는 번개 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2077,7 +2077,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Lightning Damage"
+					text="소환수가 주는 번개 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2088,7 +2088,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2096,7 +2096,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Chaos Damage"
+					text="소환수가 주는 카오스 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2109,7 +2109,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Chaos Damage"
+					text="소환수가 주는 카오스 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2120,7 +2120,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2128,7 +2128,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Elemental Damage with Attack Skills"
+					text="소환수가 주는 공격 스킬의 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2141,7 +2141,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Elemental Damage with Attack Skills"
+					text="소환수가 주는 공격 스킬의 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2152,7 +2152,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2160,7 +2160,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Elemental Damage with Weapons"
+					text="소환수가 주는 무기 사용 시 원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2173,7 +2173,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Elemental Damage with Weapons"
+					text="소환수가 주는 무기 사용 시 원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2184,7 +2184,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2192,7 +2192,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2205,7 +2205,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2216,7 +2216,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2224,7 +2224,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2237,7 +2237,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2248,7 +2248,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2256,7 +2256,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2269,7 +2269,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2280,7 +2280,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2288,7 +2288,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2301,7 +2301,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2312,7 +2312,7 @@ return {
 	},
 	[76]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2320,7 +2320,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2333,7 +2333,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Spell Damage"
+					text="소환수가 주는 주문 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2344,7 +2344,7 @@ return {
 	},
 	[77]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2356,7 +2356,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Ailments"
+					text="소환수가 주는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2373,7 +2373,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Ailments"
+					text="소환수가 주는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2384,7 +2384,7 @@ return {
 	},
 	[78]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2392,7 +2392,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2405,7 +2405,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2416,7 +2416,7 @@ return {
 	},
 	[79]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2424,7 +2424,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Fire Damage"
+					text="소환수가 주는 화염 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2437,7 +2437,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Fire Damage"
+					text="소환수가 주는 화염 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2448,7 +2448,7 @@ return {
 	},
 	[80]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2456,7 +2456,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2469,7 +2469,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2480,7 +2480,7 @@ return {
 	},
 	[81]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2488,7 +2488,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Ignite"
+					text="소환수가 주는 점화 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2501,7 +2501,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Ignite"
+					text="소환수가 주는 점화 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2512,7 +2512,7 @@ return {
 	},
 	[82]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2520,7 +2520,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2533,7 +2533,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2544,7 +2544,7 @@ return {
 	},
 	[83]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2552,7 +2552,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2565,7 +2565,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2576,7 +2576,7 @@ return {
 	},
 	[84]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2588,7 +2588,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits for each Poison on the Enemy, up to {1}"
+					text="소환수가 중독된 적 하나당 명중 시 피해 {0}% 증폭, 최대 {1}"
 				},
 				[2]={
 					[1]={
@@ -2605,7 +2605,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits for each Poison on the Enemy, up to {1}"
+					text="소환수가 중독된 적 하나당 명중 시 피해 {0}% 감폭, 최대 {1}"
 				}
 			}
 		},
@@ -2617,7 +2617,7 @@ return {
 	},
 	[85]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2625,7 +2625,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Poison"
+					text="소환수가 주는 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2638,7 +2638,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Poison"
+					text="소환수가 주는 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2649,7 +2649,7 @@ return {
 	},
 	[86]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2657,7 +2657,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Poison"
+					text="소환수가 주는 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2670,7 +2670,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Poison"
+					text="소환수가 주는 중독 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2681,7 +2681,7 @@ return {
 	},
 	[87]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2689,7 +2689,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2702,7 +2702,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage over Time"
+					text="소환수가 주는 지속 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2713,7 +2713,7 @@ return {
 	},
 	[88]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2721,7 +2721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2734,7 +2734,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2745,7 +2745,7 @@ return {
 	},
 	[89]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2753,7 +2753,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -2766,7 +2766,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -2777,7 +2777,7 @@ return {
 	},
 	[90]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2785,7 +2785,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Raised Zombie"
+					text="소환한 좀비 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -2794,7 +2794,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Raised Zombies"
+					text="소환한 좀비 최대 {0}마리"
 				}
 			}
 		},
@@ -2805,7 +2805,7 @@ return {
 	},
 	[91]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2813,7 +2813,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Raised Spectre"
+					text="소환한 망령 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -2822,7 +2822,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Raised Spectres"
+					text="소환한 망령 최대 {0}마리"
 				}
 			}
 		},
@@ -2833,7 +2833,7 @@ return {
 	},
 	[92]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2841,7 +2841,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Raging Spirit"
+					text="소환된 격노의 유령 최대치 {0}"
 				},
 				[2]={
 					limit={
@@ -2850,7 +2850,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Raging Spirits"
+					text="소환된 격노의 유령 최대치 {0}"
 				}
 			}
 		},
@@ -2861,7 +2861,7 @@ return {
 	},
 	[93]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2869,7 +2869,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Animated Weapon"
+					text="기동된 무기 최대 {0}개"
 				},
 				[2]={
 					limit={
@@ -2878,7 +2878,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Animated Weapons"
+					text="기동된 무기 최대 {0}개"
 				}
 			}
 		},
@@ -2889,7 +2889,7 @@ return {
 	},
 	[94]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2897,7 +2897,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Bestial Minion"
+					text="소환된 흉포한 소환수 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -2906,7 +2906,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Bestial Minion"
+					text="소환된 흉포한 소환수 최대 {0}마리"
 				}
 			}
 		},
@@ -2917,7 +2917,7 @@ return {
 	},
 	[95]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2925,7 +2925,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum 1 Summoned Harbinger"
+					text="소환된 선구자 최대 1마리"
 				}
 			}
 		},
@@ -2936,7 +2936,7 @@ return {
 	},
 	[96]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2944,7 +2944,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Golem"
+					text="소환된 골렘 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -2953,7 +2953,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Golems"
+					text="소환된 골렘 최대 {0}마리"
 				}
 			}
 		},
@@ -2964,7 +2964,7 @@ return {
 	},
 	[97]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2972,7 +2972,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Spectral Wolf"
+					text="소환된 영체 늑대 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -2981,7 +2981,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Spectral Wolves"
+					text="소환된 영체 늑대 최대 {0}마리"
 				}
 			}
 		},
@@ -2992,7 +2992,7 @@ return {
 	},
 	[98]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3000,7 +3000,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0} maximum Life"
+					text="소환수의 최대 생명력 {0}"
 				}
 			}
 		},
@@ -3011,7 +3011,7 @@ return {
 	},
 	[99]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3019,7 +3019,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Skeleton"
+					text="소환된 해골 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -3028,7 +3028,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Skeleton"
+					text="소환된 해골 최대 {0}마리"
 				}
 			}
 		},
@@ -3039,7 +3039,7 @@ return {
 	},
 	[100]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3047,7 +3047,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Raised Spiders"
+					text="소생한 거미 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -3056,7 +3056,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Raised Spiders"
+					text="소생한 거미 최대 {0}마리"
 				}
 			}
 		},
@@ -3067,7 +3067,7 @@ return {
 	},
 	[101]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3079,7 +3079,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Skeleton Warrior"
+					text="해골 전사 {0}마리 소환"
 				},
 				[2]={
 					limit={
@@ -3092,7 +3092,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Skeleton Warriors"
+					text="해골 전사 {0}마리 소환"
 				},
 				[3]={
 					limit={
@@ -3105,7 +3105,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Skeleton Soldiers"
+					text="해골 병사 {0}마리 소환"
 				},
 				[4]={
 					limit={
@@ -3118,7 +3118,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Skeleton Soldiers"
+					text="해골 병사 {0}마리 소환"
 				}
 			}
 		},
@@ -3130,7 +3130,7 @@ return {
 	},
 	[102]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3138,7 +3138,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Summons {0} Skeleton Archer"
+					text="해골 궁수 {0}마리 소환"
 				},
 				[2]={
 					limit={
@@ -3147,7 +3147,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summons {0} Skeleton Archers"
+					text="해골 궁수 {0}마리 소환"
 				}
 			}
 		},
@@ -3158,7 +3158,7 @@ return {
 	},
 	[103]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3166,7 +3166,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Summons {0} Skeleton Mage"
+					text="해골 마법사 {0}마리 소환"
 				},
 				[2]={
 					limit={
@@ -3175,7 +3175,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summons {0} Skeleton Mages"
+					text="해골 마법사 {0}마리 소환"
 				}
 			}
 		},
@@ -3186,7 +3186,7 @@ return {
 	},
 	[104]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3194,7 +3194,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Summons {0} Skeleton General"
+					text="해골 장군 {0}마리 소환"
 				},
 				[2]={
 					limit={
@@ -3203,7 +3203,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summons {0} Skeleton Generals"
+					text="해골 장군 {0}마리 소환"
 				}
 			}
 		},
@@ -3214,7 +3214,7 @@ return {
 	},
 	[105]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3226,7 +3226,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have Culling Strike"
+					text="소환수가 마무리 타격 가능"
 				}
 			}
 		},
@@ -3237,7 +3237,7 @@ return {
 	},
 	[106]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3245,7 +3245,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have Point Blank"
+					text="소환수가 근접 사격"
 				}
 			}
 		},
@@ -3256,7 +3256,7 @@ return {
 	},
 	[107]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3268,7 +3268,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to Blind enemies on hit"
+					text="소환수가 명중 시 {0}%의 확률로 적 실명 유발"
 				}
 			}
 		},
@@ -3279,7 +3279,7 @@ return {
 	},
 	[108]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3287,7 +3287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Blinding duration"
+					text="소환수의 실명 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3300,7 +3300,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Blinding duration"
+					text="소환수의 실명 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -3311,7 +3311,7 @@ return {
 	},
 	[109]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3319,7 +3319,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Penetrate {0}% Fire Resistance"
+					text="소환수가 화염 저항 {0}% 관통"
 				}
 			}
 		},
@@ -3330,7 +3330,7 @@ return {
 	},
 	[110]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3338,7 +3338,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Penetrate {0}% Cold Resistance"
+					text="소환수가 냉기 저항 {0}% 관통"
 				}
 			}
 		},
@@ -3349,7 +3349,7 @@ return {
 	},
 	[111]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3357,7 +3357,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Penetrate {0}% Elemental Resistances"
+					text="소환수가 {0}%의 원소 저항 관통"
 				}
 			}
 		},
@@ -3368,7 +3368,7 @@ return {
 	},
 	[112]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3376,7 +3376,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Penetrate {0}% Lightning Resistance"
+					text="소환수가 번개 저항 {0}% 관통"
 				}
 			}
 		},
@@ -3387,7 +3387,7 @@ return {
 	},
 	[113]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3395,7 +3395,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Skills Chain {0:+d} Times"
+					text="소환수의 스킬 연쇄 {0:+d}회"
 				}
 			}
 		},
@@ -3406,7 +3406,7 @@ return {
 	},
 	[114]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3414,7 +3414,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Projectiles Split towards {0} additional targets"
+					text="소환수의 투사체가 추가 대상 {0}개를 향해 분할"
 				}
 			}
 		},
@@ -3425,7 +3425,7 @@ return {
 	},
 	[115]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3433,7 +3433,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minion's Projectiles Fork"
+					text="소환수의 투사체가 갈라짐"
 				},
 				[2]={
 					limit={
@@ -3442,7 +3442,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Projectiles Fork {0} additional times"
+					text="소환수의 투사체가 {0}회 추가로 갈라짐"
 				}
 			}
 		},
@@ -3453,7 +3453,7 @@ return {
 	},
 	[116]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3465,7 +3465,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minion's Projectiles have {1}% chance to Return to them"
+					text="소환수의 투사체가 {1}%의 확률로 소환수에게 돌아옴"
 				},
 				[2]={
 					limit={
@@ -3478,7 +3478,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Projectiles Return to them"
+					text="소환수의 투사체가 소환수에게 돌아옴"
 				},
 				[3]={
 					limit={
@@ -3491,7 +3491,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Projectiles Return to them"
+					text="소환수의 투사체가 소환수에게 돌아옴"
 				}
 			}
 		},
@@ -3503,7 +3503,7 @@ return {
 	},
 	[117]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3511,7 +3511,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Strike Skills deal Splash Damage to Surrounding Targets"
+					text="소환수의 근접 타격 스킬이 주변 대상에게 범위 피해를 줌"
 				}
 			}
 		},
@@ -3522,7 +3522,7 @@ return {
 	},
 	[118]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3530,7 +3530,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Attacks repeat {0} additional times"
+					text="소환수의 근접 공격 {0}회 추가 반복"
 				}
 			}
 		},
@@ -3541,7 +3541,7 @@ return {
 	},
 	[119]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3549,7 +3549,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minion's Spells Repeat an additional time"
+					text="소환수의 주문 1회 추가 반복"
 				},
 				[2]={
 					limit={
@@ -3558,7 +3558,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Spells Repeat an additional {0} times"
+					text="소환수의 주문 {0}회 추가 반복"
 				}
 			}
 		},
@@ -3569,7 +3569,7 @@ return {
 	},
 	[120]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3577,7 +3577,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Duration of Cruelty"
+					text="소환수의 잔혹 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3590,7 +3590,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Duration of Cruelty"
+					text="소환수의 잔혹 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -3601,7 +3601,7 @@ return {
 	},
 	[121]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3609,7 +3609,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to gain a Power Charge on Critical Strike"
+					text="소환수가 치명타 명중 시 {0}%의 확률로 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -3618,7 +3618,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain a Power Charge on Critical Strike"
+					text="소환수가 치명타 명중 시 권능 충전 획득"
 				}
 			}
 		},
@@ -3629,7 +3629,7 @@ return {
 	},
 	[122]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3637,7 +3637,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Melee Attack Speed"
+					text="소환수의 근접 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3650,7 +3650,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Melee Attack Speed"
+					text="소환수의 근접 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -3661,7 +3661,7 @@ return {
 	},
 	[123]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3669,7 +3669,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Attack Damage"
+					text="소환수가 주는 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3682,7 +3682,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Attack Damage"
+					text="소환수가 주는 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3693,7 +3693,7 @@ return {
 	},
 	[124]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3701,7 +3701,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Burning Damage"
+					text="소환수의 화상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3714,7 +3714,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Burning Damage"
+					text="소환수의 화상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3725,7 +3725,7 @@ return {
 	},
 	[125]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3733,7 +3733,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3746,7 +3746,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3757,7 +3757,7 @@ return {
 	},
 	[126]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3765,7 +3765,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3778,7 +3778,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3789,7 +3789,7 @@ return {
 	},
 	[127]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3797,7 +3797,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3810,7 +3810,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3821,7 +3821,7 @@ return {
 	},
 	[128]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3829,7 +3829,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3842,7 +3842,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3853,7 +3853,7 @@ return {
 	},
 	[129]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3861,7 +3861,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3874,7 +3874,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3885,7 +3885,7 @@ return {
 	},
 	[130]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3893,7 +3893,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3906,7 +3906,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3917,7 +3917,7 @@ return {
 	},
 	[131]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3925,7 +3925,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3938,7 +3938,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits"
+					text="소환수가 적 명중 시 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3949,7 +3949,7 @@ return {
 	},
 	[132]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3957,7 +3957,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3970,7 +3970,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3981,7 +3981,7 @@ return {
 	},
 	[133]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3989,7 +3989,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4002,7 +4002,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4013,7 +4013,7 @@ return {
 	},
 	[134]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4025,7 +4025,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {1}% chance to gain an Endurance Charge when they Stun an Enemy with a Melee Hit"
+					text="소환수가 근접 명중으로 적을 기절시킬 경우 {1}%의 확률로 인내 충전 획득"
 				},
 				[2]={
 					limit={
@@ -4038,7 +4038,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain an Endurance Charge when they Stun an Enemy with a Melee Hit"
+					text="소환수가 근접 명중으로 적을 기절시킬 경우 인내 충전 획득"
 				},
 				[3]={
 					limit={
@@ -4051,7 +4051,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain an Endurance Charge when they Stun an Enemy with a Melee Hit"
+					text="소환수가 근접 명중으로 적을 기절시킬 경우 인내 충전 획득"
 				}
 			}
 		},
@@ -4063,7 +4063,7 @@ return {
 	},
 	[135]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4071,7 +4071,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Movement Speed"
+					text="소환수의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4084,7 +4084,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Movement Speed"
+					text="소환수의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4095,7 +4095,7 @@ return {
 	},
 	[136]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4103,7 +4103,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Duration"
+					text="소환수의 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4116,7 +4116,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Duration"
+					text="소환수의 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -4127,7 +4127,7 @@ return {
 	},
 	[137]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4139,7 +4139,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Attack Speed when on Low Life"
+					text="낮은 생명력 상태일 때 소환수 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4156,7 +4156,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Attack Speed when on Low Life"
+					text="낮은 생명력 상태일 때 소환수 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4167,7 +4167,7 @@ return {
 	},
 	[138]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4179,7 +4179,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Cast Speed when on Low Life"
+					text="낮은 생명력 상태일 때 소환수 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4196,7 +4196,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Cast Speed when on Low Life"
+					text="낮은 생명력 상태일 때 소환수 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4207,7 +4207,7 @@ return {
 	},
 	[139]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4215,7 +4215,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions's Attacks deal {0}% more Damage with Bleeding and Poison caused by Projectile Hits"
+					text="소환수의 공격으로 주는 투사체 적중에 의한 출혈 및 중독 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4228,7 +4228,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions's Attacks deal {0}% more Damage with Bleeding and Poison caused by Projectile Hits"
+					text="소환수의 공격으로 주는 투사체 적중에 의한 출혈 및 중독 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -4239,7 +4239,7 @@ return {
 	},
 	[140]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4247,7 +4247,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Projectile Attack Damage"
+					text="소환수가 주는 물리 투사체 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4260,7 +4260,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Physical Projectile Attack Damage"
+					text="소환수가 주는 물리 투사체 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4271,7 +4271,7 @@ return {
 	},
 	[141]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4279,7 +4279,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Projectile Attack Speed"
+					text="소환수의 투사체 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4292,7 +4292,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Projectile Attack Speed"
+					text="소환수의 투사체 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -4303,7 +4303,7 @@ return {
 	},
 	[142]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4311,7 +4311,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4324,7 +4324,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4335,7 +4335,7 @@ return {
 	},
 	[143]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4343,7 +4343,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Skills Cost Life instead of Mana"
+					text="소환수의 스킬이 마나 대신 생명력 소모"
 				}
 			}
 		},
@@ -4354,7 +4354,7 @@ return {
 	},
 	[144]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4362,7 +4362,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Skills Reserve Life instead of Mana"
+					text="소환수의 스킬이 마나 대신 생명력 점유"
 				}
 			}
 		},
@@ -4373,7 +4373,7 @@ return {
 	},
 	[145]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4381,7 +4381,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions Spend Life instead of Mana for Skill Effects"
+					text="이 스킬 및 소환수가 스킬 효과에 마나 대신 생명력 소모"
 				}
 			}
 		},
@@ -4392,7 +4392,7 @@ return {
 	},
 	[146]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4400,7 +4400,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Melee Physical Damage against Bleeding Enemies"
+					text="소환수가 출혈 중인 적을 상대로 주는 근접 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4413,7 +4413,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Melee Physical Damage against Bleeding Enemies"
+					text="소환수가 출혈 중인 적을 상대로 주는 근접 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4424,7 +4424,7 @@ return {
 	},
 	[147]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4432,7 +4432,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Melee Damage against Bleeding Enemies"
+					text="소환수가 출혈 중인 적을 상대로 주는 근접 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4445,7 +4445,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Melee Damage against Bleeding Enemies"
+					text="소환수가 출혈 중인 적을 상대로 주는 근접 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4456,7 +4456,7 @@ return {
 	},
 	[148]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4472,7 +4472,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions' Melee Hits have {0}% chance to Fortify"
+					text="소환수가 근접 명중 시 {0}%의 확률로 방어 상승"
 				},
 				[2]={
 					[1]={
@@ -4489,7 +4489,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Melee Hits Fortify"
+					text="소환수가 근접 명중 시 방어 상승"
 				}
 			}
 		},
@@ -4500,7 +4500,7 @@ return {
 	},
 	[149]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4508,7 +4508,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% increased Mine Throwing Speed"
+					text="이 스킬 및 소환수의 지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4521,7 +4521,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill and Minions have {0}% reduced Mine Throwing Speed"
+					text="이 스킬 및 소환수의 지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4532,7 +4532,7 @@ return {
 	},
 	[150]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4544,7 +4544,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0:d}% chance to Freeze Enemies which are Chilled"
+					text="소환수가 {0:d}%의 확률로 냉각된 적 동결 유발"
 				}
 			}
 		},
@@ -4555,7 +4555,7 @@ return {
 	},
 	[151]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4567,7 +4567,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits and Ailments against Chilled Enemies"
+					text="소환수가 냉각된 적에 대한 적중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4584,7 +4584,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits and Ailments against Chilled Enemies"
+					text="소환수가 냉각된 적에 대한 적중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4595,7 +4595,7 @@ return {
 	},
 	[152]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4603,7 +4603,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Trap Throwing Speed"
+					text="덫 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4616,7 +4616,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Trap Throwing Speed"
+					text="덫 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4627,7 +4627,7 @@ return {
 	},
 	[153]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4635,7 +4635,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mine Throwing Speed"
+					text="지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4648,7 +4648,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mine Throwing Speed"
+					text="지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -4659,7 +4659,7 @@ return {
 	},
 	[154]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4667,7 +4667,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Trap and Mine Damage"
+					text="소환수가 주는 덫 및 지뢰 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4680,7 +4680,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Trap and Mine Damage"
+					text="소환수가 주는 덫 및 지뢰 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4691,7 +4691,7 @@ return {
 	},
 	[155]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4699,7 +4699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4712,7 +4712,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4723,7 +4723,7 @@ return {
 	},
 	[156]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4731,7 +4731,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4744,7 +4744,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4755,7 +4755,7 @@ return {
 	},
 	[157]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4763,7 +4763,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Chaos Damage"
+					text="소환수가 주는 카오스 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4776,7 +4776,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Chaos Damage"
+					text="소환수가 주는 카오스 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4787,7 +4787,7 @@ return {
 	},
 	[158]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4795,7 +4795,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4808,7 +4808,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -4819,7 +4819,7 @@ return {
 	},
 	[159]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4831,7 +4831,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions cannot inflict Elemental Ailments"
+					text="소환수가 원소 상태 이상 유발 불가"
 				}
 			}
 		},
@@ -4842,7 +4842,7 @@ return {
 	},
 	[160]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4854,7 +4854,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Poison Enemies on Hit"
+					text="소환수가 명중 시 적 중독 유발"
 				}
 			}
 		},
@@ -4865,7 +4865,7 @@ return {
 	},
 	[161]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4873,7 +4873,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Damage with Poison"
+					text="소환수의 중독 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4886,7 +4886,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Damage with Poison"
+					text="소환수의 중독 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4897,7 +4897,7 @@ return {
 	},
 	[162]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4905,7 +4905,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Poison Duration"
+					text="소환수의 중독 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4918,7 +4918,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Poison Duration"
+					text="소환수의 중독 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -4929,7 +4929,7 @@ return {
 	},
 	[163]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4937,7 +4937,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Melee Splash Area of Effect"
+					text="소환수의 근접 범위 피해 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4950,7 +4950,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Melee Splash Area of Effect"
+					text="소환수의 근접 범위 피해 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -4961,7 +4961,7 @@ return {
 	},
 	[164]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4969,7 +4969,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Every third use of Minion's Attacks deals a Ruthless Blow with Melee Hits"
+					text="소환수의 공격을 세 번째 사용할 때마다 근접 명중으로 무자비한 맹타 피해를 줌"
 				}
 			}
 		},
@@ -4980,7 +4980,7 @@ return {
 	},
 	[165]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4988,7 +4988,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Ruthless Blows deal {0}% more Melee Damage"
+					text="소환수의 무자비한 맹타가 주는 근접 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -4999,7 +4999,7 @@ return {
 	},
 	[166]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5007,7 +5007,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Ruthless Blows deal {0}% more Damage with Bleeding caused by Melee Hits"
+					text="소환수의 무자비한 맹타가 근접 명중으로 유발하는 출혈 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -5018,7 +5018,7 @@ return {
 	},
 	[167]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -5030,7 +5030,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Ruthless Blows have a base Stun Duration of {0} seconds"
+					text="소환수의 무자비한 맹타의 기본 기절 지속시간 {0}초"
 				}
 			}
 		},
@@ -5041,7 +5041,7 @@ return {
 	},
 	[168]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5049,7 +5049,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Skitterbot of each type"
+					text="소환된 원격 기폭 장치가 각 유형별로 최대 {0}기"
 				}
 			}
 		},
@@ -5060,7 +5060,7 @@ return {
 	},
 	[169]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5068,7 +5068,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain {0}% more Added Damage"
+					text="소환수가 {0}% 증폭된 추가 피해 획득"
 				},
 				[2]={
 					[1]={
@@ -5081,7 +5081,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions gain {0}% less Added Damage"
+					text="소환수가 {0}% 감폭된 추가 피해 획득"
 				}
 			}
 		},
@@ -5092,7 +5092,7 @@ return {
 	},
 	[170]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5100,7 +5100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Duration"
+					text="소환수의 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -5113,7 +5113,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Duration"
+					text="소환수의 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -5124,7 +5124,7 @@ return {
 	},
 	[171]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5132,7 +5132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Damage with Bows also apply to Minions"
+					text="활 피해 증가 및 감소가 소환수에게도 적용"
 				}
 			}
 		},
@@ -5143,7 +5143,7 @@ return {
 	},
 	[172]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5151,7 +5151,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5164,7 +5164,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5175,7 +5175,7 @@ return {
 	},
 	[173]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5183,7 +5183,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Attack and Cast Speed"
+					text="소환수의 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5196,7 +5196,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Attack and Cast Speed"
+					text="소환수의 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -5207,7 +5207,7 @@ return {
 	},
 	[174]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5223,7 +5223,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Attack Skills Leech {0}% of Damage as Mana"
+					text="소환수의 공격 스킬이 피해의 {0}%를 마나로 흡수"
 				}
 			}
 		},
@@ -5234,7 +5234,7 @@ return {
 	},
 	[175]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5242,7 +5242,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Attack Speed while they have at least 20 Rage"
+					text="소환수의 격노가 20 이상인 경우 소환수의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5255,7 +5255,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions Skills have {0}% reduced Attack Speed while they have at least 20 Rage"
+					text="소환수의 격노가 20 이상인 경우 소환수 스킬의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -5266,7 +5266,7 @@ return {
 	},
 	[176]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5278,7 +5278,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions' Attacks have {0}% chance to Impale Enemies on Hit"
+					text="소환수의 공격이 명중 시 {0}%의 확률로 적을 꿰뚫음"
 				},
 				[2]={
 					[1]={
@@ -5291,7 +5291,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Attacks always Impale Enemies on Hit"
+					text="소환수의 공격이 명중 시 항상 적을 꿰뚫음"
 				}
 			}
 		},
@@ -5302,7 +5302,7 @@ return {
 	},
 	[177]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5310,7 +5310,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Minions have {0}% increased Projectile spread"
+					text="소환수가 발사하는 투사체의 투사체 확산 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5323,7 +5323,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles Fired by Minions have {0}% reduced Projectile spread"
+					text="소환수가 발사하는 투사체의 투사체 확산 범위 {0}% 감소"
 				}
 			}
 		},
@@ -5334,7 +5334,7 @@ return {
 	},
 	[178]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5346,7 +5346,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Duration of Ailments on Enemies"
+					text="소환수가 적에게 적용하는 상태 이상 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5363,7 +5363,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Duration of Ailments on Enemies"
+					text="소환수가 적에게 적용하는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -5374,7 +5374,7 @@ return {
 	},
 	[179]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5386,7 +5386,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to Poison on Hit"
+					text="소환수의 공격이 명중 시 {0}%의 확률로 적 중독 유발"
 				},
 				[2]={
 					[1]={
@@ -5399,7 +5399,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions always Poison on Hit"
+					text="소환수가 명중 시 항상 중독 유발"
 				}
 			}
 		},
@@ -5410,7 +5410,7 @@ return {
 	},
 	[180]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5418,7 +5418,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal no Chaos Damage"
+					text="소환수가 주는 카오스 피해 없음"
 				}
 			}
 		},
@@ -5429,7 +5429,7 @@ return {
 	},
 	[181]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5441,7 +5441,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to inflict Cold Exposure on Hit"
+					text="소환수가 명중 시 {0}%의 확률로 냉기 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -5454,7 +5454,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Cold Exposure on Hit"
+					text="소환수가 명중 시 냉기 노출 유발"
 				}
 			}
 		},
@@ -5465,7 +5465,7 @@ return {
 	},
 	[182]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5477,7 +5477,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to inflict Fire Exposure on Hit"
+					text="소환수가 명중 시 {0}%의 확률로 화염 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -5490,7 +5490,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Fire Exposure on Hit"
+					text="소환수가 명중 시 화염 노출 유발"
 				}
 			}
 		},
@@ -5501,7 +5501,7 @@ return {
 	},
 	[183]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5513,7 +5513,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to inflict Lightning Exposure on Hit"
+					text="소환수가 명중 시 {0}%의 확률로 번개 노출 유발"
 				},
 				[2]={
 					[1]={
@@ -5526,7 +5526,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Lightning Exposure on Hit"
+					text="소환수가 명중 시 번개 노출 유발"
 				}
 			}
 		},
@@ -5537,7 +5537,7 @@ return {
 	},
 	[184]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5553,7 +5553,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% of Chaos Damage Leeched as Life"
+					text="소환수가 카오스 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -5564,7 +5564,7 @@ return {
 	},
 	[185]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5572,7 +5572,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Summon a Phantasm when Non-Phantasm Minions Hit a Rare or Unique Enemy"
+					text="비-환영 소환수가 희귀 또는 고유 적 명중 시 {0}%의 확률로 환영 1개체 소환"
 				},
 				[2]={
 					limit={
@@ -5581,7 +5581,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summon a Phantasm when Non-Phantasm Minions Hit a Rare or Unique Enemy"
+					text="비-환영 소환수가 희귀 또는 고유 적 명중 시 환영 1개체 소환"
 				}
 			}
 		},
@@ -5592,7 +5592,7 @@ return {
 	},
 	[186]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5600,7 +5600,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Summon a Phantasm when Non-Phantasm Minions deal a Killing Blow"
+					text="비-환영 소환수가 최후의 일격 사용 시 {0}%의 확률로 환영 1개체 소환"
 				},
 				[2]={
 					limit={
@@ -5609,7 +5609,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summon a Phantasm when Non-Phantasm Minions deal a Killing Blow"
+					text="비-환영 소환수가 최후의 일격 사용 시 환영 1개체 소환"
 				}
 			}
 		},
@@ -5620,7 +5620,7 @@ return {
 	},
 	[187]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5632,7 +5632,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Have {0}% increased Effect of Cold Ailments"
+					text="소환수의 냉기 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5649,7 +5649,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions Have {0}% reduced Effect of Cold Ailments"
+					text="소환수의 냉기 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5660,7 +5660,7 @@ return {
 	},
 	[188]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5668,7 +5668,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill has {0}% increased Critical Strike Chance per Inspiration Charge"
+					text="영감 충전 하나당 해당 스킬의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5681,7 +5681,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill has {0}% reduced Critical Strike Chance per Inspiration Charge"
+					text="영감 충전 하나당 해당 스킬의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -5692,7 +5692,7 @@ return {
 	},
 	[189]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5700,7 +5700,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Critical Strike Chance against Blinded Enemies"
+					text="소환수의 실명된 적에 대한 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5713,7 +5713,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Critical Strike Chance against Blinded Enemies"
+					text="소환수의 실명된 적에 대한 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -5724,7 +5724,7 @@ return {
 	},
 	[190]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5732,7 +5732,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Cruelty granted by Minions"
+					text="소환수가 부여하는 잔혹 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5745,7 +5745,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Cruelty granted by Minions"
+					text="소환수가 부여하는 잔혹 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5756,7 +5756,7 @@ return {
 	},
 	[191]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5768,7 +5768,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {}% chance to Crush for 2 seconds on Hit"
+					text="소환수가 명중 시 {}%의 확률로 2초 동안 타쇄"
 				},
 				[2]={
 					[1]={
@@ -5781,7 +5781,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Crush for 2 seconds on Hit"
+					text="소환수가 명중 시 2초 동안 타쇄"
 				}
 			}
 		},
@@ -5792,7 +5792,7 @@ return {
 	},
 	[192]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5804,7 +5804,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage with Hits and Ailments per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 소환수가 주는 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5821,7 +5821,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage with Hits and Ailments  per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 소환수가 주는 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5832,7 +5832,7 @@ return {
 	},
 	[193]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5840,7 +5840,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5853,7 +5853,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5864,7 +5864,7 @@ return {
 	},
 	[194]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5872,7 +5872,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5885,7 +5885,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage while Leeching Life"
+					text="생명력을 흡수하는 동안 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5896,7 +5896,7 @@ return {
 	},
 	[195]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5904,7 +5904,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 소환수가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5917,7 +5917,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage while Leeching Mana"
+					text="마나를 흡수하는 동안 소환수가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5928,7 +5928,7 @@ return {
 	},
 	[196]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5940,7 +5940,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 소환수가 주는 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5957,7 +5957,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% reduced Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 소환수가 주는 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5968,7 +5968,7 @@ return {
 	},
 	[197]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5976,7 +5976,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% increased Damage with Hits against Enemies that are on Low Life"
+					text="소환수가 낮은 생명력 상태의 적 적중 시 주는 피해 {0}% 증가"
 				}
 			}
 		},
@@ -5987,7 +5987,7 @@ return {
 	},
 	[198]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5999,7 +5999,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Damaging Ailments inflicted by Minions deal damage {0}% faster"
+					text="소환수가 유발하는 상태 이상 피해 {0}%만큼 가속"
 				}
 			}
 		},
@@ -6010,7 +6010,7 @@ return {
 	},
 	[199]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6018,7 +6018,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Decay on Hit, dealing {0} Chaos Damage per second for 8 seconds"
+					text="소환수가 명중 시 부패를 유발하여, 8초 동안 1초마다 {0} 카오스 피해를 줌"
 				}
 			}
 		},
@@ -6029,7 +6029,7 @@ return {
 	},
 	[200]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6037,7 +6037,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal no Elemental Damage"
+					text="소환수가 주는 원소 피해 없음"
 				}
 			}
 		},
@@ -6048,7 +6048,7 @@ return {
 	},
 	[201]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6056,7 +6056,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6069,7 +6069,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -6080,7 +6080,7 @@ return {
 	},
 	[202]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6092,7 +6092,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Chilling Skitterbot's Aura Chills Enemies near it"
+					text="냉각 원격 기폭 장치의 오라가 주변의 적을 냉각시킴"
 				}
 			}
 		},
@@ -6103,7 +6103,7 @@ return {
 	},
 	[203]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6115,7 +6115,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Shocking Skitterbot's Aura Shocks Enemies near it"
+					text="감전 원격 기폭 장치의 오라가 주변의 적을 감전시킴"
 				}
 			}
 		},
@@ -6126,7 +6126,7 @@ return {
 	},
 	[204]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6134,7 +6134,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill has {0}% more Elemental Damage per Inspiration Charge"
+					text="영감 충전 하나당 해당 스킬의 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6147,7 +6147,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill has {0}% less Elemental Damage per Inspiration Charge"
+					text="영감 충전 하나당 해당 스킬의 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -6158,7 +6158,7 @@ return {
 	},
 	[205]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6166,7 +6166,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Shocked by Minions have {0}% increased Movement Speed"
+					text="소환수가 감전시킨 적의 이동 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6179,7 +6179,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Shocked by Minions have {0}% reduced Movement Speed"
+					text="소환수가 감전시킨 적의 이동 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6190,7 +6190,7 @@ return {
 	},
 	[206]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6198,7 +6198,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Shocked by Minions take {0}% increased Physical Damage"
+					text="소환수가 감전시킨 적이 받는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6211,7 +6211,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Shocked by Minions take {0}% reduced Physical Damage"
+					text="소환수가 감전시킨 적이 받는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6222,7 +6222,7 @@ return {
 	},
 	[207]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6234,7 +6234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Overwhelm {0}% Physical Damage Reduction"
+					text="소환수가 물리 피해 감소의 {0}% 압도"
 				}
 			}
 		},
@@ -6245,7 +6245,7 @@ return {
 	},
 	[208]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6253,7 +6253,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons"
+					text="소환수가 중독 5중첩 이상인 적을 상대로 최후의 일격 시 {0}%의 확률로 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -6262,7 +6262,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons"
+					text="소환수가 중독 5중첩 이상인 적을 상대로 최후의 일격 시 격분 충전 획득"
 				}
 			}
 		},
@@ -6273,7 +6273,7 @@ return {
 	},
 	[209]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6281,7 +6281,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to gain a Power Charge on Killing Blow"
+					text="소환수가 최후의 일격 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -6292,7 +6292,7 @@ return {
 	},
 	[210]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6304,7 +6304,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain Cruelty on Hit"
+					text="소환수가 명중 시 소환수가 잔혹 획득"
 				}
 			}
 		},
@@ -6315,7 +6315,7 @@ return {
 	},
 	[211]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6323,7 +6323,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Ignited by Minions have {0:+d}% to Fire Resistance"
+					text="소환수에 의해 점화된 적의 화염 저항 {0:+d}%"
 				}
 			}
 		},
@@ -6334,7 +6334,7 @@ return {
 	},
 	[212]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6342,7 +6342,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Attacks have {0}% increased Impale Effect"
+					text="소환수 공격의 꿰뚫기 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6355,7 +6355,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions' Attacks have {0}% reduced Impale Effect"
+					text="소환수 공격의 꿰뚫기 효과 {0}% 감소"
 				}
 			}
 		},
@@ -6366,7 +6366,7 @@ return {
 	},
 	[213]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6378,7 +6378,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Impale Damage dealt to Enemies Impaled by Minions Overwhelms {0}% Physical Damage Reduction"
+					text="소환수에게 꿰뚫린 적에게 주는 꿰뚫기 피해가 물리 피해 감소의 {0}% 압도"
 				}
 			}
 		},
@@ -6389,7 +6389,7 @@ return {
 	},
 	[214]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6397,7 +6397,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -6408,7 +6408,7 @@ return {
 	},
 	[215]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6416,7 +6416,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6429,7 +6429,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Area Damage"
+					text="소환수가 주는 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -6440,7 +6440,7 @@ return {
 	},
 	[216]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6448,7 +6448,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0:+d} to Radius of their Burning Effect"
+					text="소환수의 화상 효과 범위 {0:+d} 적용"
 				}
 			}
 		},
@@ -6459,7 +6459,7 @@ return {
 	},
 	[217]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6471,7 +6471,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Fire, Cold, and Lightning Exposure on Hit"
+					text="소환수가 명중 시 화염, 냉기, 번개 노출 유발"
 				}
 			}
 		},
@@ -6482,7 +6482,7 @@ return {
 	},
 	[218]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6490,7 +6490,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to Knock Enemies Back with Hits at Close Range"
+					text="소환수의 공격이 근거리에서 적중 시 {0}%의 확률로 적을 밀어냄"
 				}
 			}
 		},
@@ -6501,7 +6501,7 @@ return {
 	},
 	[219]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -6513,7 +6513,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Effect of Lightning Ailments"
+					text="소환수의 번개 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6530,7 +6530,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Effect of Lightning Ailments"
+					text="소환수의 번개 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -6541,7 +6541,7 @@ return {
 	},
 	[220]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6549,7 +6549,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions Attacks have {0}% chance to Maim on Hit"
+					text="소환수의 공격이 명중 시 {0}%의 확률로 힘줄 절단"
 				},
 				[2]={
 					limit={
@@ -6558,7 +6558,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Attacks always Maim on Hit"
+					text="소환수의 공격이 명중 시 항상 힘줄 절단"
 				}
 			}
 		},
@@ -6569,7 +6569,7 @@ return {
 	},
 	[221]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6577,7 +6577,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Skills have {0}% increased Critical Strike Chance per Power Charge if used by Mines"
+					text="지뢰에 의해 사용될 시 소환수의 스킬이 권능 충전 하나당 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6590,7 +6590,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions' Skills have {0}% reduced Critical Strike Chance per Power Charge if used by Mines"
+					text="지뢰에 의해 사용될 시 소환수의 스킬이 권능 충전 하나당 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -6601,7 +6601,7 @@ return {
 	},
 	[222]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6609,7 +6609,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% increased Mine Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 이 스킬 및 소환수의 지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6622,7 +6622,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill and Minions have {0}% reduced Mine Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 이 스킬 및 소환수의 지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6633,7 +6633,7 @@ return {
 	},
 	[223]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6645,7 +6645,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0} to {1} added Cold Damage per Frenzy Charge"
+					text="격분 충전 하나당 소환수의 냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -6657,7 +6657,7 @@ return {
 	},
 	[224]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6665,7 +6665,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Attack Speed"
+					text="소환수의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6678,7 +6678,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Attack Speed"
+					text="소환수의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -6689,7 +6689,7 @@ return {
 	},
 	[225]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -6701,7 +6701,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions take {0}% of their Maximum Life as Fire Damage per second"
+					text="소환수가 1초마다 자신의 최대 생명력의 {0}%를 화염 피해로 받음"
 				}
 			}
 		},
@@ -6712,7 +6712,7 @@ return {
 	},
 	[226]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6720,7 +6720,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to gain a Rampage Kill when Minions Hit a Rare or Unique Enemy"
+					text="소환수가 희귀 또는 고유 적 명중 시 {0}%의 확률로 광란 처치 획득"
 				},
 				[2]={
 					limit={
@@ -6729,7 +6729,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain a Rampage Kill when Minions Hit a Rare or Unique Enemy"
+					text="소환수가 희귀 또는 고유 적 명중 시 광란 처치 획득"
 				}
 			}
 		},
@@ -6740,7 +6740,7 @@ return {
 	},
 	[227]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -6756,7 +6756,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Leech {0}% of Elemental Damage as Life"
+					text="소환수가 원소 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -6767,7 +6767,7 @@ return {
 	},
 	[228]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6775,7 +6775,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions recover {0}% of Life on Hit"
+					text="소환수가 명중 시 생명력의 {0}% 회복"
 				}
 			}
 		},
@@ -6786,7 +6786,7 @@ return {
 	},
 	[229]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6794,7 +6794,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions cannot Taunt Enemies"
+					text="소환수가 적 도발 불가"
 				}
 			}
 		},
@@ -6805,7 +6805,7 @@ return {
 	},
 	[230]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6813,7 +6813,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Modifiers to Claw Critical Strike Chance also apply to Minions"
+					text="클로 치명타 확률 관련 속성 부여가 소환수에도 적용"
 				}
 			}
 		},
@@ -6824,7 +6824,7 @@ return {
 	},
 	[231]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6832,7 +6832,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Modifiers to Claw Critical Strike Multiplier also apply to Minions"
+					text="클로 치명타 피해 배율 속성 부여가 소환수에도 적용"
 				}
 			}
 		},
@@ -6843,7 +6843,7 @@ return {
 	},
 	[232]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6851,7 +6851,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Minions have {0}% increased Projectile spread"
+					text="소환수가 발사하는 투사체의 투사체 확산 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6864,7 +6864,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Projectiles Fired by Minions have {0}% reduced Projectile spread"
+					text="소환수가 발사하는 투사체의 투사체 확산 범위 {0}% 감소"
 				}
 			}
 		},
@@ -6875,7 +6875,7 @@ return {
 	},
 	[233]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6883,7 +6883,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Attacks have {0}% increased Area of Effect per Repeat"
+					text="소환수가 근접 공격을 반복할 때마다 해당 공격의 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6896,7 +6896,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minion's Melee Attacks have {0}% reduced Area of Effect per Repeat"
+					text="소환수가 근접 공격을 반복할 때마다 해당 공격의 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -6907,7 +6907,7 @@ return {
 	},
 	[234]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6915,7 +6915,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Attack's First Repeat deals {0}% more Damage"
+					text="소환수의 근접 공격 첫 번째 반복 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6928,7 +6928,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minion's Melee Attack's First Repeat deals {0}% less Damage"
+					text="소환수의 근접 공격 첫 번째 반복 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -6939,7 +6939,7 @@ return {
 	},
 	[235]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6947,7 +6947,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Attack's Second Repeat deals {0}% more Damage"
+					text="소환수의 근접 공격 두 번째 반복 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6960,7 +6960,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minion's Melee Attack's Second Repeat deals {0}% less Damage"
+					text="소환수의 근접 공격 두 번째 반복 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -6971,7 +6971,7 @@ return {
 	},
 	[236]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6979,7 +6979,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Melee Attack's Third Repeat deals {0}% more Damage"
+					text="소환수의 근접 공격을 세 번째 반복 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6992,7 +6992,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minion's Melee Attack's Third Repeat deals {0}% less Damage"
+					text="소환수의 근접 공격을 세 번째 반복 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7003,7 +7003,7 @@ return {
 	},
 	[237]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7015,7 +7015,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Effect of non-Damaging Ailments on Enemies"
+					text="소환수가 적에게 적용하는 비-피해 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7032,7 +7032,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Effect of non-Damaging Ailments on Enemies"
+					text="소환수가 적에게 적용하는 비-피해 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -7043,7 +7043,7 @@ return {
 	},
 	[238]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7051,7 +7051,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Summons {0} Arbalist"
+					text="석궁병 {0}마리 소환"
 				},
 				[2]={
 					limit={
@@ -7060,7 +7060,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Summons {0} Arbalists"
+					text="석궁병 {0}마리 소환"
 				}
 			}
 		},
@@ -7071,7 +7071,7 @@ return {
 	},
 	[239]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7079,7 +7079,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased distance between Firing Points"
+					text="소환수의 발사 지점 간의 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7092,7 +7092,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced distance between Firing Points"
+					text="소환수의 발사 지점 간의 거리 {0}% 감소"
 				}
 			}
 		},
@@ -7103,7 +7103,7 @@ return {
 	},
 	[240]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7111,7 +7111,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to gain a Frenzy Charge when a Mine is Detonated targeting an Enemy"
+					text="지뢰가 적을 대상으로 폭발하면 {0}% 확률로 이 스킬 및 소환수가 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -7120,7 +7120,7 @@ return {
 							[2]=100
 						}
 					},
-					text="This Skill and Minions gain a Frenzy Charge when a Mine is Detonated targeting an Enemy"
+					text="지뢰가 적을 대상으로 폭발하면 이 스킬 및 소환수가 격분 충전 획득"
 				}
 			}
 		},
@@ -7131,7 +7131,7 @@ return {
 	},
 	[241]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7139,7 +7139,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 {0}%의 확률로 이 스킬 및 소환수가 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -7148,7 +7148,7 @@ return {
 							[2]=100
 						}
 					},
-					text="This Skill and Minions have gain a Frenzy Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 이 스킬 및 소환수가 격분 충전 획득"
 				}
 			}
 		},
@@ -7159,7 +7159,7 @@ return {
 	},
 	[242]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7167,7 +7167,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to gain a Power Charge when a Mine is Detonated targeting an Enemy"
+					text="지뢰가 적을 대상으로 폭발하면 {0}% 확률로 이 스킬 및 소환수가 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -7176,7 +7176,7 @@ return {
 							[2]=100
 						}
 					},
-					text="This Skill and Minions gain a Power Charge when a Mine is Detonated targeting an Enemy"
+					text="지뢰가 적을 대상으로 폭발하면 이 스킬 및 소환수가 권능 충전 획득"
 				}
 			}
 		},
@@ -7187,7 +7187,7 @@ return {
 	},
 	[243]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7195,7 +7195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% chance to gain a Power Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 {0}%의 확률로 이 스킬 및 소환수가 권능 충전 획득"
 				},
 				[2]={
 					limit={
@@ -7204,7 +7204,7 @@ return {
 							[2]=100
 						}
 					},
-					text="This Skill and Minions gain a Power Charge when your Trap is triggered by an Enemy"
+					text="자신의 덫이 적에 의해 발동되면 이 스킬 및 소환수가 권능 충전 획득"
 				}
 			}
 		},
@@ -7215,7 +7215,7 @@ return {
 	},
 	[244]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7223,7 +7223,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minion's Projectiles Pierce an additional Target"
+					text="소환수의 투사체가 추가 대상 관통"
 				},
 				[2]={
 					limit={
@@ -7232,7 +7232,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Projectiles Pierce {0} additional Targets"
+					text="소환수의 투사체가 추가 대상 {0}개를 관통"
 				}
 			}
 		},
@@ -7243,7 +7243,7 @@ return {
 	},
 	[245]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7251,7 +7251,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Projectiles Fired by Minions have {0}% chance not to Pierce Enemies"
+					text="소환수가 발사하는 투사체가 {0}%의 확률로 적을 관통하지 않음"
 				},
 				[2]={
 					limit={
@@ -7260,7 +7260,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Minions Cannot Pierce Enemies"
+					text="소환수가 발사하는 투사체가 적을 관통하지 않음"
 				}
 			}
 		},
@@ -7271,7 +7271,7 @@ return {
 	},
 	[246]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7279,7 +7279,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Projectiles that have Pierced deal {0}% increased Damage"
+					text="소환수의 관통한 투사체가 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7292,7 +7292,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions' Projectiles that have Pierced deal {0}% reduced Damage"
+					text="소환수의 관통한 투사체가 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7303,7 +7303,7 @@ return {
 	},
 	[247]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7311,7 +7311,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Projectiles deal {0}% increased Damage with Hits to nearby Enemies"
+					text="소환수의 투사체가 주변의 적에게 주는 명중 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7324,7 +7324,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions' Projectiles deal {0}% reduced Damage with Hits to nearby Enemies"
+					text="소환수의 투사체가 주변의 적에게 주는 명중 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7335,7 +7335,7 @@ return {
 	},
 	[248]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7343,7 +7343,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fired by Minions Pierce all Targets within {0} units"
+					text="소환수가 발사하는 투사체가 {0}유닛 내의 모든 대상 관통"
 				}
 			}
 		},
@@ -7354,7 +7354,7 @@ return {
 	},
 	[249]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -7366,7 +7366,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Recover {0}% of Life when you Stun an Enemy"
+					text="적 기절 시 소환수가 생명력의 {0}% 회복"
 				}
 			}
 		},
@@ -7377,7 +7377,7 @@ return {
 	},
 	[250]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7385,7 +7385,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Penetrate {0}% Chaos Resistance"
+					text="소환수가 카오스 저항 {0}% 관통"
 				}
 			}
 		},
@@ -7396,7 +7396,7 @@ return {
 	},
 	[251]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7404,7 +7404,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Shocks Minions inflict with Critical Strikes"
+					text="소환수의 치명타로 유발한 감전의 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7417,7 +7417,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Shocks Minions inflict with Critical Strikes"
+					text="소환수의 치명타로 유발한 감전의 효과 {0}% 감소"
 				}
 			}
 		},
@@ -7428,7 +7428,7 @@ return {
 	},
 	[252]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7440,7 +7440,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Duration of Skills and Duration of Damaging Ailments"
+					text="소환수의 스킬 지속시간 및 피해를 주는 상태 이상 지속 시간{0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7457,7 +7457,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Duration of Skills and Damaging Ailments"
+					text="소환수의 스킬 지속시간 및 피해를 주는 상태 이상 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -7468,7 +7468,7 @@ return {
 	},
 	[253]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7476,7 +7476,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Convert {0}% of Physical Damage to Chaos Damage"
+					text="소환수 물리 피해의 {0}%를 카오스 피해로 전환"
 				}
 			}
 		},
@@ -7487,7 +7487,7 @@ return {
 	},
 	[254]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7499,7 +7499,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions Convert {0}% of Physical Damage to Cold Damage"
+					text="소환수 물리 피해의 {0}%를 냉기 피해로 전환"
 				}
 			}
 		},
@@ -7511,7 +7511,7 @@ return {
 	},
 	[255]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7519,7 +7519,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Convert {0}% of Physical Damage to Fire Damage"
+					text="소환수 물리 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -7530,7 +7530,7 @@ return {
 	},
 	[256]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7538,7 +7538,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Skitterbots grant {0}% more Trap and Mine Damage"
+					text="원격 기폭 장치가 덫 및 지뢰 피해 {0}% 증폭시킴"
 				},
 				[2]={
 					[1]={
@@ -7551,7 +7551,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Skitterbots grant {0}% less Trap and Mine Damage"
+					text="원격 기폭 장치가 덫 및 지뢰 피해 {0}% 감폭시킴"
 				}
 			}
 		},
@@ -7562,7 +7562,7 @@ return {
 	},
 	[257]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7574,7 +7574,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Buff grants {0} to {1} Added Attack Physical Damage"
+					text="버프 시 공격 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -7586,7 +7586,7 @@ return {
 	},
 	[258]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7594,7 +7594,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7607,7 +7607,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7618,7 +7618,7 @@ return {
 	},
 	[259]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7630,7 +7630,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies in Chilling Areas from Minion's Skills take {0}% increased Cold Damage over Time"
+					text="소환수의 스킬로 발생한 냉각 지역에 있는 적이 받는 지속 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7647,7 +7647,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies in Chilling Areas from Minion's Skills take {0}% reduced Cold Damage over Time"
+					text="소환수의 스킬로 발생한 냉각 지역에 있는 적이 받는 지속 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7658,7 +7658,7 @@ return {
 	},
 	[260]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -7670,7 +7670,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies in Chilling Areas from Minion's Skills have Cold Damage taken increased by Chill Effect"
+					text="소환수의 스킬로 발생한 냉각 지역에 있는 적이 냉각 효과로 받는 냉기 피해 증가"
 				}
 			}
 		},
@@ -7681,7 +7681,7 @@ return {
 	},
 	[261]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7689,7 +7689,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by Minions take {0}% increased Cold Damage over Time"
+					text="소환수에 의해 냉각된 적이 받는 지속 냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7702,7 +7702,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Chilled by Minions take {0}% reduced Cold Damage over Time"
+					text="소환수에 의해 냉각된 적이 받는 지속 냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7713,7 +7713,7 @@ return {
 	},
 	[262]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7721,7 +7721,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Chilled by Minions have Cold Damage taken increased by Chill Effect"
+					text="소환수에 의해 냉각된 적이 냉각 효과로 받는 냉기 피해 증가"
 				}
 			}
 		},
@@ -7732,7 +7732,7 @@ return {
 	},
 	[263]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7740,7 +7740,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7753,7 +7753,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7764,7 +7764,7 @@ return {
 	},
 	[264]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7772,7 +7772,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7785,7 +7785,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage while Leeching Energy Shield"
+					text="에너지 보호막을 흡수하는 동안 소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7796,7 +7796,7 @@ return {
 	},
 	[265]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7804,7 +7804,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Hits and Ailments against Enemies on Low Life"
+					text="소환수가 낮은 생명력 상태의 적에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7817,7 +7817,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Hits and Ailments against Enemies on Low Life"
+					text="소환수가 낮은 생명력 상태의 적에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7828,7 +7828,7 @@ return {
 	},
 	[266]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_0dp",
@@ -7840,7 +7840,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Killing a Rare Monster with a Hit from a Strike Skill with a Melee Weapon gain one of its Modifiers for a base Duration of {0} seconds"
+					text="소환수가 타격 스킬을 명중시켜 희귀 몬스터 처치 시, 해당 몬스터의 속성 1개를 기본 지속시간 {0}초 동안 획득"
 				}
 			}
 		},
@@ -7851,7 +7851,7 @@ return {
 	},
 	[267]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7859,7 +7859,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to refresh Duration of their granted Modifier by up to 5 seconds on Hitting a Rare or Unique Enemy"
+					text="소환수가 희귀 또는 고유 적을 명중 시 {0}%의 확률로 획득한 속성의 지속시간 초기화, 최대 5초"
 				}
 			}
 		},
@@ -7870,7 +7870,7 @@ return {
 	},
 	[268]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7878,7 +7878,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Ailments caused by Melee Hits"
+					text="소환수의 근접 명중이 유발하는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7891,7 +7891,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Ailments caused by Melee Hits"
+					text="소환수의 근접 명중이 유발하는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7902,7 +7902,7 @@ return {
 	},
 	[269]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7910,7 +7910,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Melee Damage"
+					text="소환수가 주는 근접 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7923,7 +7923,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Melee Damage"
+					text="소환수가 주는 근접 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7934,7 +7934,7 @@ return {
 	},
 	[270]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7942,7 +7942,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7955,7 +7955,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7966,7 +7966,7 @@ return {
 	},
 	[271]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7974,7 +7974,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Cold Damage Over Time"
+					text="소환수가 주는 지속 냉기 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7987,7 +7987,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Cold Damage Over Time"
+					text="소환수가 주는 지속 냉기 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7998,7 +7998,7 @@ return {
 	},
 	[272]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8006,7 +8006,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8019,7 +8019,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Physical Damage"
+					text="소환수가 주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8030,7 +8030,7 @@ return {
 	},
 	[273]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8038,7 +8038,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies Maimed by Minions take {0}% increased Physical Damage"
+					text="소환수에 의해 힘줄 절단된 적이 받는 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8051,7 +8051,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Enemies Maimed by Minions take {0}% reduced Physical Damage"
+					text="소환수에 의해 힘줄 절단된 적이 받는 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -8062,7 +8062,7 @@ return {
 	},
 	[274]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8074,7 +8074,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0} to {1} added Fire Damage against Burning Enemies"
+					text="소환수가 화상 상태의 적에게 주는 화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -8086,7 +8086,7 @@ return {
 	},
 	[275]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8094,7 +8094,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Critical Strike Chance against the Prey"
+					text="사냥감에 대한 소환수의 치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8107,7 +8107,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Critical Strike Chance against the Prey"
+					text="사냥감에 대한 소환수의 치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -8118,7 +8118,7 @@ return {
 	},
 	[276]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8126,7 +8126,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0:+d}% to Critical Strike Multiplier against the Prey"
+					text="사냥감에 대한 소환수의 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -8137,7 +8137,7 @@ return {
 	},
 	[277]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8145,7 +8145,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage to the Prey with Hits and Ailments"
+					text="소환수가 사냥감에게 주는 명중 및 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8158,7 +8158,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage to the Prey with Hits and Ailments"
+					text="소환수가 사냥감에게 주는 명중 및 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8169,7 +8169,7 @@ return {
 	},
 	[278]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -8181,7 +8181,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0} Base Fire Damage per second to Enemies near them"
+					text="소환수가 주변의 적에게 1초마다 {0}의 기본 화염 피해를 줌"
 				}
 			}
 		},
@@ -8192,7 +8192,7 @@ return {
 	},
 	[279]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8200,7 +8200,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8213,7 +8213,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Elemental Damage"
+					text="소환수가 주는 원소 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8224,7 +8224,7 @@ return {
 	},
 	[280]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8232,7 +8232,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions always target the Prey if possible"
+					text="소환수가 항상 사냥감을 대상으로 삼음"
 				}
 			}
 		},
@@ -8243,7 +8243,7 @@ return {
 	},
 	[281]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8251,7 +8251,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% increased Attack Speed per Momentum"
+					text="기세 하나당 소환수의 공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8264,7 +8264,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% reduced Attack Speed per Momentum"
+					text="기세 하나당 소환수의 공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -8275,7 +8275,7 @@ return {
 	},
 	[282]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_1dp",
@@ -8295,7 +8295,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When Minions reach {2} Momentum, they lose all Momentum and gain Swiftness for a Base Duration of {0} seconds"
+					text="소환수가 기세 {2} 도달 시 모든 기세를 상실하고 기본 지속시간 {0}초 동안 재빠름 획득"
 				}
 			}
 		},
@@ -8308,7 +8308,7 @@ return {
 	},
 	[283]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -8324,7 +8324,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions gain 1 Momentum when they Attack\nMinions gain 1 Momentum every {0} seconds while Channelling an Attack\nMinions lose all Momentum if they Move"
+					text="소환수가 공격 시 기세 1 획득\n소환수가 공격을 집중 유지하는 동안 {0}초마다 기세 1 획득\n소환수가 이동 시 모든 기세 상실"
 				}
 			}
 		},
@@ -8336,7 +8336,7 @@ return {
 	},
 	[284]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -8352,7 +8352,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Overpowered for a base Duration of {0} seconds when Their Hits are Blocked"
+					text="소환수의 공격 명중이 막혔을 시 소환수가 기본 지속시간 {0}초 동안 압도 유발"
 				}
 			}
 		},
@@ -8363,7 +8363,7 @@ return {
 	},
 	[285]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8371,7 +8371,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Minions also fire Projectiles from up to {0} point on each side of them"
+					text="소환수 또한 그들의 양옆 최대 {0}개 지점에서 투사체 발사"
 				},
 				[2]={
 					limit={
@@ -8380,7 +8380,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions fire Projectiles from up to {0} points on each side of them"
+					text="소환수 또한 그들의 양옆 최대 {0}개 지점에서 투사체 발사"
 				}
 			}
 		},
@@ -8391,7 +8391,7 @@ return {
 	},
 	[286]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8399,7 +8399,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8412,7 +8412,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Projectile Damage"
+					text="소환수가 주는 투사체 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8423,7 +8423,7 @@ return {
 	},
 	[287]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8431,7 +8431,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage per Power Charge"
+					text="소환수가 권능 충전 하나당 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8444,7 +8444,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage per Power Charge"
+					text="소환수가 권능 충전 하나당 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8455,7 +8455,7 @@ return {
 	},
 	[288]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8463,7 +8463,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Area of Effect"
+					text="소환수의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8476,7 +8476,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Area of Effect"
+					text="소환수의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -8487,7 +8487,7 @@ return {
 	},
 	[289]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8495,7 +8495,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Attack Speed"
+					text="소환수의 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8508,7 +8508,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Attack Speed"
+					text="소환수의 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -8519,7 +8519,7 @@ return {
 	},
 	[290]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8527,7 +8527,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Melee Area Damage"
+					text="소환수가 주는 근접 범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8540,7 +8540,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Melee Area Damage"
+					text="소환수가 주는 근접 범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8551,7 +8551,7 @@ return {
 	},
 	[291]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8559,7 +8559,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage"
+					text="소환수가 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8572,7 +8572,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage"
+					text="소환수가 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8583,7 +8583,7 @@ return {
 	},
 	[292]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8591,7 +8591,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions Shock Enemies as though dealing {0}% more Damage"
+					text="소환수가 {0}% 증폭된 피해를 준 것처럼 적에게 감전 유발"
 				},
 				[2]={
 					[1]={
@@ -8604,7 +8604,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions Shock Enemies as though dealing {0}% less Damage"
+					text="소환수가 {0}% 감폭된 피해를 준 것처럼 적에게 감전 유발"
 				}
 			}
 		},
@@ -8615,7 +8615,7 @@ return {
 	},
 	[293]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8623,7 +8623,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Enemies have -{0}% chance to Block Attack or Spell Damage from Minions"
+					text="적이 -{0}%의 확률로 소환수의 공격 또는 주문 피해를 막아냄"
 				}
 			}
 		},
@@ -8634,7 +8634,7 @@ return {
 	},
 	[294]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8642,7 +8642,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% more Duration"
+					text="소환수의 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8655,7 +8655,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions have {0}% less Duration"
+					text="소환수의 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -8666,7 +8666,7 @@ return {
 	},
 	[295]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -8686,7 +8686,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to gain Onslaught for {1} seconds when they Hit a Unique Enemy"
+					text="소환수가 고유 적 명중 시 소환수가 {0}%의 확률로 {1}초 동안 맹공 획득"
 				}
 			}
 		},
@@ -8698,7 +8698,7 @@ return {
 	},
 	[296]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -8722,7 +8722,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Minions have {0}% chance to gain Onslaught for {2} seconds on\ndealing a Killing Blow"
+					text="소환수는 최후의 일격으로 피해를 주면 {0}%의 확률로 {2}초 동안\n맹공 획득"
 				}
 			}
 		},
@@ -8735,7 +8735,7 @@ return {
 	},
 	[297]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8743,7 +8743,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal up to {0}% more Melee Damage to Enemies, based on proximity"
+					text="적이 가까울수록 소환수가 적에게 주는 근접 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -8754,7 +8754,7 @@ return {
 	},
 	[298]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8762,7 +8762,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minion's Final Repeat deals {0}% more Damage"
+					text="소환수가 마지막 반복 시 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8775,7 +8775,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minion's Final Repeat deals {0}% less Damage"
+					text="소환수가 마지막 반복 시 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8786,7 +8786,7 @@ return {
 	},
 	[299]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8798,7 +8798,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% more Damage with Ailments"
+					text="소환수가 주는 상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -8815,7 +8815,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Minions deal {0}% less Damage with Ailments"
+					text="소환수가 주는 상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -8826,7 +8826,7 @@ return {
 	},
 	[300]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -8838,7 +8838,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Withered inflicted by Minions has a base duration of {0} second"
+					text="소환수가 유발한 위축의 기본 지속시간 {0}초"
 				},
 				[2]={
 					[1]={
@@ -8851,7 +8851,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Withered inflicted by Minions has a base duration of {0} seconds"
+					text="소환수가 유발한 위축의 기본 지속시간 {0}초"
 				}
 			}
 		},
@@ -8862,7 +8862,7 @@ return {
 	},
 	[301]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8870,7 +8870,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions' Skills have {0:+d}% to Critical Strike Multiplier per Power Charge when used by Traps"
+					text="덫 설치 시 소환수의 스킬의 권능 충전 하나당 치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -8881,7 +8881,7 @@ return {
 	},
 	[302]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -8889,7 +8889,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Skill and Minions have {0}% increased Trap Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 이 스킬 및 소환수의 덫 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -8902,7 +8902,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="This Skill and Minions have {0}% reduced Trap Throwing Speed per Frenzy Charge"
+					text="격분 충전 하나당 이 스킬 및 소환수의 덫 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -8913,7 +8913,7 @@ return {
 	},
 	[303]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8925,7 +8925,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Minions have {0}% chance to inflict Withered on Hit"
+					text="소환수가 명중 시 {0}%의 확률로 위축 유발"
 				},
 				[2]={
 					[1]={
@@ -8938,7 +8938,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions inflict Withered on Hit"
+					text="소환수가 명중 시 위축 유발"
 				}
 			}
 		},
@@ -8949,7 +8949,7 @@ return {
 	},
 	[304]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -8961,7 +8961,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Agony Crawler has {0}% chance to inflict Withered for 2 seconds on Hit"
+					text="명중 시 고통의 벌레가 {0}%의 확률로 2초 동안 위축 유발"
 				},
 				[2]={
 					[1]={
@@ -8974,7 +8974,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Agony Crawler inflicts Withered for 2 seconds on Hit"
+					text="명중 시 고통의 벌레가 2초 동안 위축 유발"
 				}
 			}
 		},

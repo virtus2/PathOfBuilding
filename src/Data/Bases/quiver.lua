@@ -2,240 +2,240 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Cured Quiver"] = {
+itemBases["보존된 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 2 to 4 Fire Damage to Attacks",
+	implicit = "공격 시 화염 피해 2~4 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	req = { },
 }
-itemBases["Rugged Quiver"] = {
+itemBases["투박한 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 2 to 3 Cold Damage to Attacks",
+	implicit = "공격 시 냉기 피해 2~3 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "cold", "attack" }, },
 	req = { },
 }
-itemBases["Conductive Quiver"] = {
+itemBases["전도성 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 1 to 5 Lightning Damage to Attacks",
+	implicit = "공격 시 번개 피해 1~5 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "lightning", "attack" }, },
 	req = { },
 }
-itemBases["Heavy Quiver"] = {
+itemBases["무거운 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 1 to 4 Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 1~4 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 5, },
 }
-itemBases["Light Quiver"] = {
+itemBases["가벼운 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "+(30-40) to Dexterity",
+	implicit = "민첩 +(30-40)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 12, },
 }
-itemBases["Serrated Arrow Quiver"] = {
+itemBases["톱니 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "1 to 4 Added Physical Damage with Bow Attacks",
+	implicit = "활 공격 시 물리 피해 1~4 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 5, },
 }
-itemBases["Two-Point Arrow Quiver"] = {
+itemBases["쌍촉 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Global Accuracy Rating",
+	implicit = "일반 정확도 (20-30)% 증가",
 	implicitModTypes = { { "attack" }, },
 	req = { level = 4, },
 }
-itemBases["Sharktooth Arrow Quiver"] = {
+itemBases["상어이빨 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Gain (3-4) Life per Enemy Hit with Attacks",
+	implicit = "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 (3-4)",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	req = { level = 10, },
 }
-itemBases["Blunt Arrow Quiver"] = {
+itemBases["뭉툭한 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(25-35)% increased Stun Duration on Enemies",
+	implicit = "적에게 적용되는 기절 지속시간 (25-35)% 증가",
 	implicitModTypes = { {  }, },
 	req = { level = 16, },
 }
-itemBases["Fire Arrow Quiver"] = {
+itemBases["불화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "4 to 8 Added Fire Damage with Bow Attacks",
+	implicit = "활 공격 시 화염 피해 4~8 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	req = { level = 22, },
 }
-itemBases["Broadhead Arrow Quiver"] = {
+itemBases["넓은 촉 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "6 to 12 Added Physical Damage with Bow Attacks",
+	implicit = "활 공격 시 물리 피해 6~12 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 28, },
 }
-itemBases["Penetrating Arrow Quiver"] = {
+itemBases["관통 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Arrows Pierce an additional Target",
+	implicit = "화살이 대상을 추가 관통",
 	implicitModTypes = { { "attack" }, },
 	req = { level = 36, },
 }
-itemBases["Spike-Point Arrow Quiver"] = {
+itemBases["가시촉 화살통"] = {
 	type = "Quiver",
 	hidden = true,
 	tags = { trade_market_legacy_item = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Global Critical Strike Chance",
+	implicit = "일반 치명타 확률 (20-30)% 증가",
 	implicitModTypes = { { "critical" }, },
 	req = { level = 45, },
 }
-itemBases["Ornate Quiver"] = {
+itemBases["화려한 화살통"] = {
 	type = "Quiver",
 	tags = { not_for_sale = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Has 1 Socket",
+	implicit = "홈 1개",
 	implicitModTypes = { {  }, },
 	req = { level = 45, },
 }
-itemBases["Serrated Arrow Quiver"] = {
+itemBases["톱니 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 1 to 4 Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 1~4 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 4, },
 }
-itemBases["Fire Arrow Quiver"] = {
+itemBases["불화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds 3 to 5 Fire Damage to Attacks",
+	implicit = "공격 시 화염 피해 3~5 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	req = { level = 9, },
 }
-itemBases["Sharktooth Arrow Quiver"] = {
+itemBases["상어이빨 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Gain (6-8) Life per Enemy Hit with Attacks",
+	implicit = "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 (6-8)",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	req = { level = 14, },
 }
-itemBases["Feathered Arrow Quiver"] = {
+itemBases["깃 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Projectile Speed",
+	implicit = "투사체 속도 (20-30)% 증가",
 	implicitModTypes = { { "speed" }, },
 	req = { level = 20, },
 }
-itemBases["Penetrating Arrow Quiver"] = {
+itemBases["관통 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Arrows Pierce an additional Target",
+	implicit = "화살이 대상을 추가 관통",
 	implicitModTypes = { { "attack" }, },
 	req = { level = 25, },
 }
-itemBases["Blunt Arrow Quiver"] = {
+itemBases["뭉툭한 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds (7-9) to (13-16) Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 (7-9)~(13-16) 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 31, },
 }
-itemBases["Two-Point Arrow Quiver"] = {
+itemBases["쌍촉 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Global Accuracy Rating",
+	implicit = "일반 정확도 (20-30)% 증가",
 	implicitModTypes = { { "attack" }, },
 	req = { level = 36, },
 }
-itemBases["Spike-Point Arrow Quiver"] = {
+itemBases["가시촉 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Critical Strike Chance with Bows",
+	implicit = "활 사용 시 치명타 확률 (20-30)% 증가",
 	implicitModTypes = { { "attack", "critical" }, },
 	req = { level = 40, },
 }
-itemBases["Blazing Arrow Quiver"] = {
+itemBases["맹렬한 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds (12-15) to (24-27) Fire Damage to Attacks",
+	implicit = "공격 시 화염 피해 (12-15)~(24-27) 추가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "fire", "attack" }, },
 	req = { level = 45, },
 }
-itemBases["Broadhead Arrow Quiver"] = {
+itemBases["넓은 촉 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(8-10)% increased Attack Speed",
+	implicit = "공격 속도 (8-10)% 증가",
 	implicitModTypes = { { "attack", "speed" }, },
 	req = { level = 49, },
 }
-itemBases["Vile Arrow Quiver"] = {
+itemBases["끔찍한 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Gain (10-15)% of Physical Damage as Extra Chaos Damage",
+	implicit = "물리 피해의 (10-15)%를 추가 카오스 피해로 획득",
 	implicitModTypes = { { "physical_damage", "chaos_damage", "damage", "physical", "chaos" }, },
 	req = { level = 55, },
 }
-itemBases["Heavy Arrow Quiver"] = {
+itemBases["무거운 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "Adds (12-15) to (24-27) Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 (12-15)~(24-27) 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 61, },
 }
-itemBases["Primal Arrow Quiver"] = {
+itemBases["원시 화살통"] = {
 	type = "Quiver",
 	tags = { quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Elemental Damage with Attack Skills",
+	implicit = "공격 스킬의 원소 피해 (20-30)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "attack" }, },
 	req = { level = 66, },
 }
-itemBases["Artillery Quiver"] = {
+itemBases["포대 화살통"] = {
 	type = "Quiver",
 	tags = { not_for_sale = true, atlas_base_type = true, quiveratlas1 = true, quiver = true, default = true, },
 	influenceTags = { shaper = "quiver_shaper", elder = "quiver_elder", adjudicator = "quiver_adjudicator", basilisk = "quiver_basilisk", crusader = "quiver_crusader", eyrie = "quiver_eyrie", cleansing = "quiver_cleansing", tangle = "quiver_tangle" },
-	implicit = "(20-30)% increased Totem Placement speed",
+	implicit = "토템 설치 속도 (20-30)% 증가",
 	implicitModTypes = { { "speed" }, },
 	req = { level = 74, },
 }

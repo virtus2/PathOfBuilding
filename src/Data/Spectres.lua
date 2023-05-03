@@ -8,7 +8,7 @@ local minions, mod = ...
 
 -- Blackguard
 minions["Metadata/Monsters/Axis/AxisCaster"] = {
-	name = "Blackguard Mage",
+	name = "검은 근위대 마법사",
 	life = 0.9,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -34,7 +34,7 @@ minions["Metadata/Monsters/Axis/AxisCaster"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisCasterArc"] = {
-	name = "Blackguard Arcmage",
+	name = "검은 근위대 번개마법사",
 	life = 0.9,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -60,7 +60,7 @@ minions["Metadata/Monsters/Axis/AxisCasterArc"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisCasterLunaris"] = {
-	name = "Lunarsworn Wintermage",
+	name = "달 서약의 겨울마법사",
 	life = 0.9,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -85,7 +85,7 @@ minions["Metadata/Monsters/Axis/AxisCasterLunaris"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisEliteSoldier3Champion"] = {
-	name = "Solaris Champion",
+	name = "솔라리스 용사",
 	life = 1.5,
 	armour = 0.4,
 	fireResist = 20,
@@ -111,7 +111,7 @@ minions["Metadata/Monsters/Axis/AxisEliteSoldier3Champion"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisExperimenter"] = {
-	name = "Mortality Experimenter",
+	name = "필멸성 실험자",
 	life = 0.96,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -134,7 +134,7 @@ minions["Metadata/Monsters/Axis/AxisExperimenter"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisExperimenter2"] = {
-	name = "Flesh Sculptor",
+	name = "살점 조각가",
 	life = 0.96,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -157,7 +157,7 @@ minions["Metadata/Monsters/Axis/AxisExperimenter2"] = {
 	},
 }
 minions["Metadata/Monsters/Axis/AxisExperimenterRaiseZombie"] = {
-	name = "Reanimator",
+	name = "소생술사",
 	life = 0.96,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -181,7 +181,7 @@ minions["Metadata/Monsters/Axis/AxisExperimenterRaiseZombie"] = {
 }
 -- Bandit
 minions["Metadata/Monsters/Bandits/BanditBowExplosiveArrow"] = {
-	name = "Oak's Sniper",
+	name = "오크의 저격수",
 	life = 1.08,
 	fireResist = 0,
 	coldResist = 0,
@@ -202,7 +202,7 @@ minions["Metadata/Monsters/Bandits/BanditBowExplosiveArrow"] = {
 	},
 }
 minions["Metadata/Monsters/Bandits/BanditBowPoisonArrow"] = {
-	name = "Alira's Deadeye",
+	name = "알리라의 데드아이",
 	life = 1.08,
 	fireResist = 0,
 	coldResist = 0,
@@ -223,7 +223,7 @@ minions["Metadata/Monsters/Bandits/BanditBowPoisonArrow"] = {
 	},
 }
 minions["Metadata/Monsters/Bandits/BanditMeleeWarlordsMarkMaul"] = {
-	name = "Oak's Devoted",
+	name = "오크의 헌신자",
 	life = 1.15,
 	armour = 0.2,
 	fireResist = 0,
@@ -245,7 +245,7 @@ minions["Metadata/Monsters/Bandits/BanditMeleeWarlordsMarkMaul"] = {
 	},
 }
 minions["Metadata/Monsters/Bandit/DockworkerChampion_"] = {
-	name = "Foreman",
+	name = "작업반장",
 	life = 2.1,
 	armour = 0.5,
 	fireResist = 0,
@@ -266,7 +266,7 @@ minions["Metadata/Monsters/Bandit/DockworkerChampion_"] = {
 	},
 }
 minions["Metadata/Monsters/Bandits/BanditBowChampion"] = {
-	name = "Kraityn's Sentry",
+	name = "크레이틴의 보초",
 	life = 1.57,
 	fireResist = 0,
 	coldResist = 0,
@@ -288,7 +288,7 @@ minions["Metadata/Monsters/Bandits/BanditBowChampion"] = {
 	},
 }
 minions["Metadata/Monsters/Bandits/BanditRangedTornadoShotPetrified"] = {
-	name = "Imperial Vanguard",
+	name = "제국 선봉대",
 	life = 1.08,
 	fireResist = 0,
 	coldResist = 0,
@@ -309,7 +309,7 @@ minions["Metadata/Monsters/Bandits/BanditRangedTornadoShotPetrified"] = {
 }
 -- Beast
 minions["Metadata/Monsters/Beasts/BeastCaveDegenAura"] = {
-	name = "Shaggy Monstrosity",
+	name = "털북숭이 괴수",
 	life = 2.1,
 	armour = 0.6,
 	fireResist = 0,
@@ -330,7 +330,7 @@ minions["Metadata/Monsters/Beasts/BeastCaveDegenAura"] = {
 	},
 }
 minions["Metadata/Monsters/Beasts/BeastVulnerabilityCurse"] = {
-	name = "Armour Cruncher",
+	name = "방어구 깨물이",
 	life = 2.1,
 	armour = 0.6,
 	fireResist = 0,
@@ -351,7 +351,7 @@ minions["Metadata/Monsters/Beasts/BeastVulnerabilityCurse"] = {
 	},
 }
 minions["Metadata/Monsters/Beasts/BeastCleaveEnduringCry"] = {
-	name = "Hairy Bonecruncher",
+	name = "털투성이 뼈깨물이",
 	life = 2.1,
 	armour = 0.6,
 	fireResist = 0,
@@ -376,7 +376,7 @@ minions["Metadata/Monsters/Beasts/BeastCleaveEnduringCry"] = {
 }
 -- Blood Apes
 minions["Metadata/Monsters/BloodChieftain/MonkeyChiefBloodEnrage"] = {
-	name = "Carnage Chieftain",
+	name = "학살의 부족장",
 	life = 2.4,
 	armour = 0.2,
 	fireResist = 75,
@@ -400,7 +400,7 @@ minions["Metadata/Monsters/BloodChieftain/MonkeyChiefBloodEnrage"] = {
 	},
 }
 minions["Metadata/Monsters/BloodChieftain/MonkeyChiefBloodParasite"] = {
-	name = "Host Chieftain",
+	name = "숙주 부족장",
 	life = 2.4,
 	armour = 0.2,
 	fireResist = 75,
@@ -423,7 +423,7 @@ minions["Metadata/Monsters/BloodChieftain/MonkeyChiefBloodParasite"] = {
 }
 -- Bone Stalker
 minions["Metadata/Monsters/BoneStalker/BoneStalker"] = {
-	name = "Bone Stalker",
+	name = "뼈 추적자",
 	life = 2.1,
 	armour = 0.75,
 	fireResist = 0,
@@ -446,7 +446,7 @@ minions["Metadata/Monsters/BoneStalker/BoneStalker"] = {
 }
 -- Bull
 minions["Metadata/Monsters/Bull/Bull"] = {
-	name = "Fighting Bull",
+	name = "싸움소",
 	life = 2.38,
 	armour = 1,
 	fireResist = 0,
@@ -468,7 +468,7 @@ minions["Metadata/Monsters/Bull/Bull"] = {
 }
 -- Cage Spider
 minions["Metadata/Monster/CageSpider/CageSpider2"] = {
-	name = "Sandworn Slaves",
+	name = "모래에 닳은 노예거미",
 	life = 4.4,
 	armour = 0.6,
 	fireResist = 0,
@@ -490,7 +490,7 @@ minions["Metadata/Monster/CageSpider/CageSpider2"] = {
 }
 -- Cannibals
 minions["Metadata/Monsters/Cannibal/CannibalMaleChampion"] = {
-	name = "Cannibal Fire-eater",
+	name = "식인종 불 포식자",
 	life = 1.44,
 	fireResist = 0,
 	coldResist = 0,
@@ -512,7 +512,7 @@ minions["Metadata/Monsters/Cannibal/CannibalMaleChampion"] = {
 }
 -- Goatmen
 minions["Metadata/Monsters/Goatman/GoatmanLeapSlam"] = {
-	name = "Goatman",
+	name = "염소인간",
 	life = 1.1,
 	armour = 0.15,
 	fireResist = 40,
@@ -535,7 +535,7 @@ minions["Metadata/Monsters/Goatman/GoatmanLeapSlam"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/GoatmanLightningLeapSlamMaps"] = {
-	name = "Bearded Devil",
+	name = "염소인간 악마",
 	life = 1,
 	armour = 0.15,
 	fireResist = 40,
@@ -559,7 +559,7 @@ minions["Metadata/Monsters/Goatman/GoatmanLightningLeapSlamMaps"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/GoatmanShamanFireball"] = {
-	name = "Goatman Shaman",
+	name = "염소인간 주술사",
 	life = 1,
 	energyShield = 0.2,
 	fireResist = 75,
@@ -581,7 +581,7 @@ minions["Metadata/Monsters/Goatman/GoatmanShamanFireball"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/GoatmanShamanFireChampion"] = {
-	name = "Goatman Fire-raiser",
+	name = "염소인간 방화범",
 	life = 1.4,
 	energyShield = 0.2,
 	fireResist = 75,
@@ -604,7 +604,7 @@ minions["Metadata/Monsters/Goatman/GoatmanShamanFireChampion"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/GoatmanShamanLightning"] = {
-	name = "Bearded Shaman",
+	name = "염소인간 주술사",
 	life = 1,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -627,7 +627,7 @@ minions["Metadata/Monsters/Goatman/GoatmanShamanLightning"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/MountainGoatmanChampion"] = {
-	name = "Colossus Crusher",
+	name = "초대형 타쇄자",
 	life = 2.1,
 	armour = 0.15,
 	fireResist = 0,
@@ -649,7 +649,7 @@ minions["Metadata/Monsters/Goatman/MountainGoatmanChampion"] = {
 	},
 }
 minions["Metadata/Monsters/Goatman/MountainGoatmanShamanIceSpear"] = {
-	name = "Alpine Shaman",
+	name = "고산 주술사",
 	life = 1,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -670,7 +670,7 @@ minions["Metadata/Monsters/Goatman/MountainGoatmanShamanIceSpear"] = {
 }
 -- Miscreation
 minions["Metadata/Monsters/DemonFemale/DemonFemale"] = {
-	name = "Whipping Miscreation",
+	name = "채찍 기형물",
 	life = 0.99,
 	fireResist = 0,
 	coldResist = 0,
@@ -690,7 +690,7 @@ minions["Metadata/Monsters/DemonFemale/DemonFemale"] = {
 	},
 }
 minions["Metadata/Monsters/DemonModular/DemonFemaleRanged"] = {
-	name = "Tentacle Miscreation",
+	name = "촉수 기형물",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -715,7 +715,7 @@ minions["Metadata/Monsters/DemonModular/DemonFemaleRanged"] = {
 	},
 }
 minions["Metadata/Monsters/DemonModular/DemonFemaleRanged2"] = {
-	name = "Lunaris Concubine",
+	name = "루나리스의 첩",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 40,
@@ -734,7 +734,7 @@ minions["Metadata/Monsters/DemonModular/DemonFemaleRanged2"] = {
 	},
 }
 minions["Metadata/Monsters/DemonModular/DemonModularBladeVortex"] = {
-	name = "Slashed Miscreation",
+	name = "베어진 기형물",
 	life = 1.5,
 	fireResist = 0,
 	coldResist = 0,
@@ -754,7 +754,7 @@ minions["Metadata/Monsters/DemonModular/DemonModularBladeVortex"] = {
 	},
 }
 minions["Metadata/Monsters/DemonModular/DemonModularFire"] = {
-	name = "Burned Miscreation",
+	name = "불에 탄 기형물",
 	life = 1,
 	fireResist = 40,
 	coldResist = 0,
@@ -776,7 +776,7 @@ minions["Metadata/Monsters/DemonModular/DemonModularFire"] = {
 }
 -- Maw
 minions["Metadata/Monsters/Frog/Frog"] = {
-	name = "Fetid Maw",
+	name = "악취 나는 큰턱개구리",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -796,7 +796,7 @@ minions["Metadata/Monsters/Frog/Frog"] = {
 	},
 }
 minions["Metadata/Monsters/Frog/Frog2"] = {
-	name = "Murk Fiend",
+	name = "암흑 마귀",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -817,7 +817,7 @@ minions["Metadata/Monsters/Frog/Frog2"] = {
 }
 -- Chimeral
 minions["Metadata/Monsters/GemMonster/Iguana"] = {
-	name = "Plumed Chimeral",
+	name = "깃털 키메랄",
 	life = 1.25,
 	energyShield = 0.2,
 	fireResist = 52,
@@ -838,7 +838,7 @@ minions["Metadata/Monsters/GemMonster/Iguana"] = {
 	},
 }
 minions["Metadata/Monsters/GemMonster/IguanaChrome"] = {
-	name = "Chrome-infused Chimeral",
+	name = "크롬 주입 키메랄",
 	life = 1.54,
 	energyShield = 0.2,
 	fireResist = 52,
@@ -862,7 +862,7 @@ minions["Metadata/Monsters/GemMonster/IguanaChrome"] = {
 }
 -- Ghost Pirate
 minions["Metadata/Monsters/GhostPirates/GhostPirateBlackBowMaps"] = {
-	name = "Spectral Bowman",
+	name = "유령 활잡이",
 	life = 0.96,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -885,7 +885,7 @@ minions["Metadata/Monsters/GhostPirates/GhostPirateBlackBowMaps"] = {
 	},
 }
 minions["Metadata/Monsters/GhostPirates/GhostPirateBlackFlickerStrikeMaps"] = {
-	name = "Cursed Mariner",
+	name = "저주받은 선원",
 	life = 1,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -912,7 +912,7 @@ minions["Metadata/Monsters/GhostPirates/GhostPirateBlackFlickerStrikeMaps"] = {
 	},
 }
 minions["Metadata/Monsters/GhostPirates/GhostPirateGreenBladeVortex"] = {
-	name = "Spectral Scoundrel",
+	name = "영체 불한당",
 	life = 1.5,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -940,7 +940,7 @@ minions["Metadata/Monsters/GhostPirates/GhostPirateGreenBladeVortex"] = {
 }
 -- Undying Grappler
 minions["Metadata/Monsters/Grappler/Grappler"] = {
-	name = "Undying Grappler",
+	name = "산 송장 격투자",
 	life = 1,
 	armour = 0.3,
 	fireResist = 20,
@@ -964,7 +964,7 @@ minions["Metadata/Monsters/Grappler/Grappler"] = {
 	},
 }
 minions["Metadata/Monsters/Grappler/GrapplerLabyrinth"] = {
-	name = "Shadow Lurker",
+	name = "그림자 잠복자",
 	life = 1,
 	armour = 0.3,
 	fireResist = 20,
@@ -989,7 +989,7 @@ minions["Metadata/Monsters/Grappler/GrapplerLabyrinth"] = {
 }
 -- Ribbon
 minions["Metadata/Monsters/Guardians/GuardianFire"] = {
-	name = "Flame Sentinel",
+	name = "화염 파수꾼",
 	life = 1.8,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1013,7 +1013,7 @@ minions["Metadata/Monsters/Guardians/GuardianFire"] = {
 	},
 }
 minions["Metadata/Monsters/Guardians/GuardianFire_BlueMaps"] = {
-	name = "Frost Sentinel",
+	name = "서리 파수꾼",
 	life = 1.8,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1034,7 +1034,7 @@ minions["Metadata/Monsters/Guardians/GuardianFire_BlueMaps"] = {
 	},
 }
 minions["Metadata/Monsters/Guardians/GuardianLightning"] = {
-	name = "Galvanic Ribbon",
+	name = "충격의 리본",
 	life = 1.8,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1054,7 +1054,7 @@ minions["Metadata/Monsters/Guardians/GuardianLightning"] = {
 }
 -- Gut flayer
 minions["Metadata/Monsters/HalfSkeleton/HalfSkeleton"] = {
-	name = "Gut Flayer",
+	name = "내장 박피사",
 	life = 1.32,
 	armour = 0.5,
 	fireResist = 20,
@@ -1077,7 +1077,7 @@ minions["Metadata/Monsters/HalfSkeleton/HalfSkeleton"] = {
 }
 -- Solar Guard
 minions["Metadata/Monsters/HolyFireElemental/HolyFireElementalSolarisBeam"] = {
-	name = "Solar Guard",
+	name = "태양의 수호병",
 	life = 1.98,
 	energyShield = 0.1,
 	armour = 0.25,
@@ -1100,7 +1100,7 @@ minions["Metadata/Monsters/HolyFireElemental/HolyFireElementalSolarisBeam"] = {
 }
 -- Construct
 minions["Metadata/Monsters/incaminion/Fragment"] = {
-	name = "Ancient Construct",
+	name = "고대 구조물",
 	life = 1.19,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -1121,7 +1121,7 @@ minions["Metadata/Monsters/incaminion/Fragment"] = {
 }
 -- Carrion Queen
 minions["Metadata/Monsters/InsectSpawner/InsectSpawner"] = {
-	name = "Carrion Queen",
+	name = "부패하는 여왕",
 	life = 2.45,
 	fireResist = 0,
 	coldResist = 0,
@@ -1142,7 +1142,7 @@ minions["Metadata/Monsters/InsectSpawner/InsectSpawner"] = {
 }
 -- Kaom's Warriors
 minions["Metadata/Monsters/KaomWarrior/KaomWarrior2"] = {
-	name = "Kaom's Chosen",
+	name = "카옴의 선발대",
 	life = 1.43,
 	armour = 0.5,
 	fireResist = 40,
@@ -1162,7 +1162,7 @@ minions["Metadata/Monsters/KaomWarrior/KaomWarrior2"] = {
 	},
 }
 minions["Metadata/Monsters/KaomWarrior/KaomWarrior3"] = {
-	name = "Kaom's Chosen",
+	name = "카옴의 선발대",
 	life = 1.43,
 	armour = 0.5,
 	fireResist = 40,
@@ -1182,7 +1182,7 @@ minions["Metadata/Monsters/KaomWarrior/KaomWarrior3"] = {
 	},
 }
 minions["Metadata/Monsters/KaomWarrior/KaomWarrior7"] = {
-	name = "Tukohama's Vanguard",
+	name = "투코하마의 선봉대",
 	life = 1.43,
 	armour = 0.5,
 	fireResist = 40,
@@ -1210,7 +1210,7 @@ minions["Metadata/Monsters/KaomWarrior/KaomWarrior7"] = {
 }
 -- Kitava's Cultist
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodDelve"] = {
-	name = "Risen Vaal Fanatic",
+	name = "일어난 바알 광신도",
 	life = 2.88,
 	armour = 0.2,
 	fireResist = 20,
@@ -1231,7 +1231,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodDelve"] = {
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodChampionDelve"] = {
-	name = "Risen Vaal Advocate",
+	name = "일어난 바알 대변자",
 	life = 4.05,
 	armour = 0.2,
 	fireResist = 35,
@@ -1253,7 +1253,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodChampionDelve"] = 
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearChaosDelve"] = {
-	name = "Risen Vaal Fanatic",
+	name = "일어난 바알 광신도",
 	life = 2.88,
 	armour = 0.2,
 	fireResist = 20,
@@ -1274,7 +1274,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearChaosDelve"] = {
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearChaosChampionDelve"] = {
-	name = "Risen Vaal Advocate",
+	name = "일어난 바알 대변자",
 	life = 4.05,
 	armour = 0.2,
 	fireResist = 35,
@@ -1297,7 +1297,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearChaosChampionDelve"] = 
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearFireDelve"] = {
-	name = "Risen Vaal Fanatic",
+	name = "일어난 바알 광신도",
 	life = 2.88,
 	armour = 0.2,
 	fireResist = 20,
@@ -1318,7 +1318,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearFireDelve"] = {
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearFireChampionDelve_"] = {
-	name = "Risen Vaal Advocate",
+	name = "일어난 바알 대변자",
 	life = 4.05,
 	armour = 0.2,
 	fireResist = 35,
@@ -1340,7 +1340,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearFireChampionDelve_"] = 
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearLightningDelve"] = {
-	name = "Risen Vaal Fanatic",
+	name = "일어난 바알 광신도",
 	life = 2.88,
 	armour = 0.2,
 	fireResist = 20,
@@ -1361,7 +1361,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearLightningDelve"] = {
 	},
 }
 minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearLightningChampionDelve_"] = {
-	name = "Risen Vaal Advocate",
+	name = "일어난 바알 대변자",
 	life = 4.05,
 	armour = 0.2,
 	fireResist = 35,
@@ -1385,7 +1385,7 @@ minions["Metadata/Monsters/KitavaCultist/VaalCultistSpearLightningChampionDelve_
 }
 -- Kitava's Herald
 minions["Metadata/Monster/KitavaDemon/KitavaDemon"] = {
-	name = "Kitava's Herald",
+	name = "키타바의 전령",
 	life = 3.6,
 	armour = 0.6,
 	fireResist = 37,
@@ -1413,7 +1413,7 @@ minions["Metadata/Monster/KitavaDemon/KitavaDemon"] = {
 }
 -- Birdman
 minions["Metadata/Monsters/Kiweth/Kiweth"] = {
-	name = "Avian Retch",
+	name = "구역질나는 새",
 	life = 1.54,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -1437,7 +1437,7 @@ minions["Metadata/Monsters/Kiweth/Kiweth"] = {
 	},
 }
 minions["Metadata/Monsters/Kiweth/KiwethSeagull"] = {
-	name = "Gluttonous Gull",
+	name = "걸신들린 갈매기",
 	life = 1.3,
 	energyShield = 0.12,
 	fireResist = 0,
@@ -1462,7 +1462,7 @@ minions["Metadata/Monsters/Kiweth/KiwethSeagull"] = {
 }
 -- Delve League
 minions["Metadata/Monsters/LeagueDelve/ProtoVaalWarriorElite"] = {
-	name = "Stoneskin Flayer",
+	name = "돌 피부 타격가",
 	life = 8,
 	armour = 1,
 	fireResist = 35,
@@ -1486,7 +1486,7 @@ minions["Metadata/Monsters/LeagueDelve/ProtoVaalWarriorElite"] = {
 }
 -- Hellion
 minions["Metadata/Monsters/Lion/LionDesertSkinPuncture"] = {
-	name = "Dune Hellion",
+	name = "사구 헬리온",
 	life = 1,
 	armour = 0.1,
 	fireResist = 40,
@@ -1507,7 +1507,7 @@ minions["Metadata/Monsters/Lion/LionDesertSkinPuncture"] = {
 	},
 }
 minions["Metadata/Monsters/Lion/LionWolf3Champion"] = {
-	name = "Freezing Wolf",
+	name = "동결 늑대",
 	life = 1.8,
 	armour = 0.1,
 	fireResist = 0,
@@ -1530,7 +1530,7 @@ minions["Metadata/Monsters/Lion/LionWolf3Champion"] = {
 }
 -- Knitted Horror
 minions["Metadata/Monsters/MassSkeleton/MassSkeleton"] = {
-	name = "Knitted Horror",
+	name = "견고한 호러",
 	life = 2.25,
 	armour = 0.5,
 	fireResist = 0,
@@ -1552,7 +1552,7 @@ minions["Metadata/Monsters/MassSkeleton/MassSkeleton"] = {
 }
 -- Miners
 minions["Metadata/Monsters/Miner/MinerLantern"] = {
-	name = "Pocked Lanternbearer",
+	name = "구멍투성이 등불 운반자",
 	life = 1.21,
 	fireResist = 40,
 	coldResist = 0,
@@ -1572,7 +1572,7 @@ minions["Metadata/Monsters/Miner/MinerLantern"] = {
 	},
 }
 minions["Metadata/Monsters/Miner/MinerLanternCrystalVeins"] = {
-	name = "Pocked Illuminator",
+	name = "구멍투성이 조명자",
 	life = 1.21,
 	fireResist = 40,
 	coldResist = 0,
@@ -1593,7 +1593,7 @@ minions["Metadata/Monsters/Miner/MinerLanternCrystalVeins"] = {
 }
 -- Voidbearer
 minions["Metadata/Monsters/Monkeys/FlameBearer"] = {
-	name = "Voidbearer",
+	name = "공허운반자",
 	life = 1.1,
 	fireResist = 40,
 	coldResist = 0,
@@ -1613,7 +1613,7 @@ minions["Metadata/Monsters/Monkeys/FlameBearer"] = {
 }
 -- Stone golem
 minions["Metadata/Monsters/MossMonster/FireMonster"] = {
-	name = "Cinder Elemental",
+	name = "재투성이 정령",
 	life = 2.7,
 	armour = 0.5,
 	fireResist = 40,
@@ -1635,7 +1635,7 @@ minions["Metadata/Monsters/MossMonster/FireMonster"] = {
 }
 -- Mother of Flames
 minions["Metadata/Monsters/MotherOfFlames/MotherOfFlamesZombie"] = {
-	name = "Kiln Mother",
+	name = "가마의 어머니",
 	life = 0.9,
 	energyShield = 0.28,
 	fireResist = 40,
@@ -1656,7 +1656,7 @@ minions["Metadata/Monsters/MotherOfFlames/MotherOfFlamesZombie"] = {
 }
 -- Necromancer
 minions["Metadata/Monsters/Necromancer/NecromancerConductivity"] = {
-	name = "Sin Lord",
+	name = "죄악의 군주",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1678,7 +1678,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerConductivity"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerEnfeebleCurse"] = {
-	name = "Diabolist",
+	name = "악마술사",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1701,7 +1701,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerEnfeebleCurse"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerFlamability"] = {
-	name = "Ash Prophet",
+	name = "재 예언자",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1724,7 +1724,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerFlamability"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerFrostbite"] = {
-	name = "Death Bishop",
+	name = "죽음의 주교",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1746,7 +1746,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerFrostbite"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerElementalWeakness"] = {
-	name = "Defiler",
+	name = "모독자",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1768,7 +1768,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerElementalWeakness"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerProjectileWeakness"] = {
-	name = "Necromancer",
+	name = "네크로맨서",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1790,7 +1790,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerProjectileWeakness"] = {
 	},
 }
 minions["Metadata/Monsters/Necromancer/NecromancerVulnerability"] = {
-	name = "Necromancer",
+	name = "네크로맨서",
 	life = 2.4,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1813,7 +1813,7 @@ minions["Metadata/Monsters/Necromancer/NecromancerVulnerability"] = {
 }
 -- Undying Bomber
 minions["Metadata/Monsters/Pyromaniac/PyromaniacFire"] = {
-	name = "Undying Incinerator",
+	name = "산 송장 소각자",
 	life = 1,
 	fireResist = 75,
 	coldResist = 0,
@@ -1835,7 +1835,7 @@ minions["Metadata/Monsters/Pyromaniac/PyromaniacFire"] = {
 	},
 }
 minions["Metadata/Monsters/Pyromaniac/PyromaniacPoison"] = {
-	name = "Undying Alchemist",
+	name = "산 송장 연금술사",
 	life = 1,
 	fireResist = 75,
 	coldResist = 0,
@@ -1855,7 +1855,7 @@ minions["Metadata/Monsters/Pyromaniac/PyromaniacPoison"] = {
 }
 -- Stygian Revenant
 minions["Metadata/Monsters/Revenant/Revenant"] = {
-	name = "Stygian Revenant",
+	name = "명계의 원령",
 	life = 1.82,
 	fireResist = 0,
 	coldResist = 0,
@@ -1877,7 +1877,7 @@ minions["Metadata/Monsters/Revenant/Revenant"] = {
 }
 -- Sea Witch
 minions["Metadata/Monsters/Seawitch/SeaWitchFrostBolt"] = {
-	name = "Merveil's Blessed",
+	name = "머베일에 축복받은 자",
 	life = 1.44,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1898,7 +1898,7 @@ minions["Metadata/Monsters/Seawitch/SeaWitchFrostBolt"] = {
 	},
 }
 minions["Metadata/Monsters/Seawitch/SeaWitchScreech"] = {
-	name = "Singing Siren",
+	name = "노래하는 사이렌",
 	life = 1.02,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1919,7 +1919,7 @@ minions["Metadata/Monsters/Seawitch/SeaWitchScreech"] = {
 	},
 }
 minions["Metadata/Monsters/Seawitch/SeaWitchSpawnExploding"] = {
-	name = "Merveil's Attendant",
+	name = "머베일의 수행원",
 	life = 1.02,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1941,7 +1941,7 @@ minions["Metadata/Monsters/Seawitch/SeaWitchSpawnExploding"] = {
 	},
 }
 minions["Metadata/Monsters/Seawitch/SeaWitchSpawnTemporalChains"] = {
-	name = "Merveil's Chosen",
+	name = "머베일에 선택받은 자",
 	life = 1.02,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1963,7 +1963,7 @@ minions["Metadata/Monsters/Seawitch/SeaWitchSpawnTemporalChains"] = {
 	},
 }
 minions["Metadata/Monsters/Seawitch/SeaWitchVulnerabilityCurse"] = {
-	name = "Merveil's Retainer",
+	name = "머베일의 신하",
 	life = 1.02,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -1985,7 +1985,7 @@ minions["Metadata/Monsters/Seawitch/SeaWitchVulnerabilityCurse"] = {
 }
 -- Skeleton
 minions["Metadata/Monsters/Skeletons/SkeletonBowPuncture"] = {
-	name = "Brittle Bleeder",
+	name = "말라붙은 출혈자",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2009,7 +2009,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowPuncture"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowLightning"] = {
-	name = "Brittle Poacher",
+	name = "말라붙은 밀렵꾼",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2032,7 +2032,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowLightning"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonMeleeLarge"] = {
-	name = "Colossal Bonestalker",
+	name = "초대형 뼈추적자",
 	life = 1.98,
 	armour = 0.8,
 	fireResist = 0,
@@ -2053,7 +2053,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonMeleeLarge"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowLightning3"] = {
-	name = "Flayed Archer",
+	name = "박피된 궁수",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2074,7 +2074,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowLightning3"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonCasterColdMultipleProjectiles"] = {
-	name = "Frost Harbinger",
+	name = "서리 선구자",
 	life = 0.84,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -2095,7 +2095,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonCasterColdMultipleProjectiles"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonCasterFireMultipleProjectiles2"] = {
-	name = "Incinerated Mage",
+	name = "소각된 마법사",
 	life = 0.84,
 	energyShield = 0.4,
 	armour = 0.15,
@@ -2118,7 +2118,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonCasterFireMultipleProjectiles2"] = 
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowPoison"] = {
-	name = "Plagued Bowman",
+	name = "역병 활잡이",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2140,7 +2140,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowPoison"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowLightning2"] = {
-	name = "Restless Archer",
+	name = "쉬지 못하는 궁수",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2161,7 +2161,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowLightning2"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowLightning4"] = {
-	name = "Sin Archer",
+	name = "죄악의 궁수",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2182,7 +2182,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowLightning4"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonCasterLightningSpark"] = {
-	name = "Sparking Mage",
+	name = "전기불꽃 마법사",
 	life = 0.84,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -2204,7 +2204,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonCasterLightningSpark"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBlackCaster1_"] = {
-	name = "Desecrated Saint",
+	name = "훼손된 성자",
 	life = 0.84,
 	energyShield = 0.4,
 	fireResist = 20,
@@ -2225,7 +2225,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBlackCaster1_"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowProjectileWeaknessCurse"] = {
-	name = "Vexing Archer",
+	name = "지긋지긋한 궁수",
 	life = 0.96,
 	fireResist = 0,
 	coldResist = 0,
@@ -2247,7 +2247,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowProjectileWeaknessCurse"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonMeleeKnightElementalSwordIncursionChampion"] = {
-	name = "Enhanced Vaal Fallen",
+	name = "강화 바알 몰락자",
 	life = 2.25,
 	armour = 1,
 	fireResist = 35,
@@ -2270,7 +2270,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonMeleeKnightElementalSwordIncursionC
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonBowKnightElemental"] = {
-	name = "Vaal Slayer",
+	name = "바알 처형자",
 	life = 0.96,
 	fireResist = 37,
 	coldResist = 37,
@@ -2291,7 +2291,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonBowKnightElemental"] = {
 	},
 }
 minions["Metadata/Monsters/Skeletons/SkeletonMeleeBlackAbyssBoneLance"] = {
-	name = "Primeval Hunter",
+	name = "원시 사냥꾼",
 	life = 1.7,
 	armour = 0.15,
 	fireResist = 0,
@@ -2317,7 +2317,7 @@ minions["Metadata/Monsters/Skeletons/SkeletonMeleeBlackAbyssBoneLance"] = {
 	},
 }
 minions["Metadata/Monsters/SkeletonCannon/SkeletonCannon1"] = {
-	name = "Bone Husk",
+	name = "뼈 허스크",
 	life = 2.07,
 	armour = 0.25,
 	fireResist = 0,
@@ -2340,7 +2340,7 @@ minions["Metadata/Monsters/SkeletonCannon/SkeletonCannon1"] = {
 }
 -- Snake
 minions["Metadata/Monsters/Snake/SnakeMeleeSpit"] = {
-	name = "Bramble Cobra",
+	name = "가시나무 코브라",
 	life = 0.94,
 	armour = 0.15,
 	fireResist = 30,
@@ -2361,7 +2361,7 @@ minions["Metadata/Monsters/Snake/SnakeMeleeSpit"] = {
 	},
 }
 minions["Metadata/Monsters/Snake/SnakeScorpionMultiShot"] = {
-	name = "Barb Serpent",
+	name = "가시 독사",
 	life = 0.94,
 	armour = 0.15,
 	fireResist = 30,
@@ -2384,7 +2384,7 @@ minions["Metadata/Monsters/Snake/SnakeScorpionMultiShot"] = {
 }
 -- Spider
 minions["Metadata/Monsters/Spiders/SpiderThornFlickerStrike"] = {
-	name = "Leaping Spider",
+	name = "도약 거미",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -2403,7 +2403,7 @@ minions["Metadata/Monsters/Spiders/SpiderThornFlickerStrike"] = {
 	},
 }
 minions["Metadata/Monsters/Spiders/SpiderThornViperStrikeFlickerStrike"] = {
-	name = "Deadly Tarantula",
+	name = "치명적인 타란툴라",
 	life = 2.21,
 	fireResist = 40,
 	coldResist = 40,
@@ -2424,7 +2424,7 @@ minions["Metadata/Monsters/Spiders/SpiderThornViperStrikeFlickerStrike"] = {
 }
 -- Statue
 minions["Metadata/Monsters/Statue/DaressoStatueLargeMaleSpear"] = {
-	name = "Towering Figment",
+	name = "뛰어난 허구",
 	life = 5.76,
 	armour = 1,
 	fireResist = 0,
@@ -2448,7 +2448,7 @@ minions["Metadata/Monsters/Statue/DaressoStatueLargeMaleSpear"] = {
 	},
 }
 minions["Metadata/Monsters/Statue/StoneStatueMaleBow"] = {
-	name = "Archer Statue",
+	name = "궁수 석상",
 	life = 2.46,
 	armour = 0.2,
 	fireResist = 0,
@@ -2473,7 +2473,7 @@ minions["Metadata/Monsters/Statue/StoneStatueMaleBow"] = {
 }
 -- Ophidian
 minions["Metadata/Monsters/Taster/Taster"] = {
-	name = "Noisome Ophidian",
+	name = "유해한 장충",
 	life = 1,
 	armour = 0.2,
 	fireResist = 40,
@@ -2495,7 +2495,7 @@ minions["Metadata/Monsters/Taster/Taster"] = {
 }
 -- Templar
 minions["Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"] = {
-	name = "Slave Driver",
+	name = "노예 감독",
 	life = 1,
 	armour = 0.25,
 	fireResist = 0,
@@ -2519,7 +2519,7 @@ minions["Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"] = {
 	},
 }
 minions["Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriverKitava"] = {
-	name = "Crazed Driver",
+	name = "미쳐버린 감독",
 	life = 1,
 	armour = 0.25,
 	fireResist = 0,
@@ -2544,7 +2544,7 @@ minions["Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriverKitava"] = {
 }
 -- Undying
 minions["Metadata/Monsters/Undying/CityStalkerMaleCasterArmour"] = {
-	name = "Undying Evangelist",
+	name = "산 송장 선교사",
 	life = 1.2,
 	armour = 0.5,
 	fireResist = 37,
@@ -2566,7 +2566,7 @@ minions["Metadata/Monsters/Undying/CityStalkerMaleCasterArmour"] = {
 	},
 }
 minions["Metadata/Monsters/Undying/UndyingOutcastPuncture"] = {
-	name = "Undying Impaler",
+	name = "산 송장 가시괴물",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -2586,7 +2586,7 @@ minions["Metadata/Monsters/Undying/UndyingOutcastPuncture"] = {
 	},
 }
 minions["Metadata/Monsters/Undying/UndyingOutcastWhirlingBlades"] = {
-	name = "Undying Outcast",
+	name = "산 송장 낙오자",
 	life = 1,
 	fireResist = 0,
 	coldResist = 0,
@@ -2606,7 +2606,7 @@ minions["Metadata/Monsters/Undying/UndyingOutcastWhirlingBlades"] = {
 }
 -- Wicker Man
 minions["Metadata/Monsters/WickerMan/WickerMan"] = {
-	name = "Wicker Man",
+	name = "인신공양 제물",
 	life = 2.25,
 	armour = 1,
 	fireResist = 20,
@@ -2630,7 +2630,7 @@ minions["Metadata/Monsters/WickerMan/WickerMan"] = {
 }
 -- Redemption Sentry
 minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphArcherSpectre"] = {
-	name = "Redemption Sentry",
+	name = "구원의 보초",
 	life = 2.7,
 	fireResist = 0,
 	coldResist = 75,
@@ -2658,7 +2658,7 @@ minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphArcherS
 }
 -- Baranite Thaumaturge
 minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderMageguardCasterSpectre"] = {
-	name = "Baranite Thaumaturge",
+	name = "바란의 마석학자",
 	life = 3.6,
 	energyShield = 0.8,
 	fireResist = 0,
@@ -2683,7 +2683,7 @@ minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderMagegua
 }
 -- Baranite Sister
 minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderBlessedSisterSpectre"] = {
-	name = "Baranite Sister",
+	name = "바란의 수녀",
 	life = 1.2,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -2704,7 +2704,7 @@ minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderBlessed
 }
 -- Baranite Preacher
 minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderTemplarJudgeSpectre"] = {
-	name = "Baranite Preacher",
+	name = "바란의 전도사",
 	life = 1.68,
 	energyShield = 0.2,
 	armour = 0.5,
@@ -2727,7 +2727,7 @@ minions["Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderTemplar
 }
 -- Scale of Esh
 minions["Metadata/Monsters/SandLeaper/SandLeaperBreachSpectre_"] = {
-	name = "Scale of Esh",
+	name = "에쉬의 비늘",
 	life = 3,
 	fireResist = 30,
 	coldResist = 30,
@@ -2754,7 +2754,7 @@ minions["Metadata/Monsters/SandLeaper/SandLeaperBreachSpectre_"] = {
 }
 -- Scinteel Synthete
 minions["Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer3Spectre"] = {
-	name = "Scinteel Synthete",
+	name = "불꽃 결합자",
 	life = 3.6,
 	energyShield = 0.8,
 	fireResist = 0,
@@ -2778,7 +2778,7 @@ minions["Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer3Spectre"] = {
 }
 -- Redemption Knight
 minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphFighterSpectre_"] = {
-	name = "Redemption Knight",
+	name = "구원의 기사",
 	life = 2.7,
 	fireResist = 0,
 	coldResist = 75,
@@ -2802,7 +2802,7 @@ minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphFighter
 }
 -- Primal Crushclaw
 minions["Metadata/Monsters/LeagueHarvest/Blue/HarvestNessaCrabT3Spectre"] = {
-	name = "Primal Crushclaw",
+	name = "원시 박살발톱",
 	life = 3.6,
 	armour = 1,
 	fireResist = 20,
@@ -2830,7 +2830,7 @@ minions["Metadata/Monsters/LeagueHarvest/Blue/HarvestNessaCrabT3Spectre"] = {
 }
 -- Primal Rhex Matriarch
 minions["Metadata/Monsters/LeagueHarvest/Blue/HarvestRhexT3Spectre"] = {
-	name = "Primal Rhex Matriarch",
+	name = "원시 렉스 어미",
 	life = 3.57,
 	fireResist = 20,
 	coldResist = 20,
@@ -2858,7 +2858,7 @@ minions["Metadata/Monsters/LeagueHarvest/Blue/HarvestRhexT3Spectre"] = {
 }
 -- Templar Tactician
 minions["Metadata/Monsters/LegionLeague/LegionTemplarCaster1Spectre"] = {
-	name = "Templar Tactician",
+	name = "템플러 전술가",
 	life = 3.45,
 	energyShield = 0.4,
 	armour = 0.5,
@@ -2885,7 +2885,7 @@ minions["Metadata/Monsters/LegionLeague/LegionTemplarCaster1Spectre"] = {
 }
 -- Frost Auto-Scout
 minions["Metadata/Monsters/LeagueHeist/Robot/RobotClockworkGolemColdSpectre"] = {
-	name = "Frost Auto-Scout",
+	name = "서리 자동정찰병",
 	life = 3.6,
 	armour = 1,
 	fireResist = 40,
@@ -2908,7 +2908,7 @@ minions["Metadata/Monsters/LeagueHeist/Robot/RobotClockworkGolemColdSpectre"] = 
 }
 -- Syndicate Operative
 minions["Metadata/Monsters/LeagueBetrayal/BetrayalSecretPolice2Spectre_"] = {
-	name = "Syndicate Operative",
+	name = "연합 첩보원",
 	life = 2.1,
 	energyShield = 0.08,
 	fireResist = 20,
@@ -2933,7 +2933,7 @@ minions["Metadata/Monsters/LeagueBetrayal/BetrayalSecretPolice2Spectre_"] = {
 }
 -- Cloud Retch
 minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieKiwethSpectre"] = {
-	name = "Cloud Retch",
+	name = "구름 레치",
 	life = 2.52,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -2956,7 +2956,7 @@ minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieKiwethSpectre
 }
 -- Artless Assassin
 minions["Metadata/Monsters/LeagueHeist/Thug/ThugRanged1EliteSpectre"] = {
-	name = "Artless Assassin",
+	name = "서투른 암살자",
 	life = 3.58,
 	fireResist = 0,
 	coldResist = 75,
@@ -2985,7 +2985,7 @@ minions["Metadata/Monsters/LeagueHeist/Thug/ThugRanged1EliteSpectre"] = {
 }
 -- Ashblessed Warden
 minions["Metadata/Monsters/LeagueHeist/Robot/RobotPyreKnightEliteSpectre"] = {
-	name = "Ashblessed Warden",
+	name = "재로 축복받은 간수",
 	life = 3.6,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -3012,7 +3012,7 @@ minions["Metadata/Monsters/LeagueHeist/Robot/RobotPyreKnightEliteSpectre"] = {
 }
 -- Snow Rhex
 minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieArmouredBirdSpectre__"] = {
-	name = "Snow Rhex",
+	name = "눈 렉스",
 	life = 3.6,
 	armour = 0.5,
 	fireResist = 0,
@@ -3036,7 +3036,7 @@ minions["Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieArmouredBirdS
 }
 -- Flickershade
 minions["Metadata/Monsters/Maligaro/SecretDesecrateMonster"] = {
-	name = "Flickershade",
+	name = "일렁이는 그림자",
 	life = 3,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -3061,7 +3061,7 @@ minions["Metadata/Monsters/Maligaro/SecretDesecrateMonster"] = {
 }
 -- Trial Galecaller
 minions["Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdWeakSpectre"] = {
-	name = "Trial Galecaller",
+	name = "시련 강풍소환사",
 	life = 3.06,
 	armour = 0.3,
 	fireResist = 0,
@@ -3083,7 +3083,7 @@ minions["Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdWeakSpectre"] = {
 }
 -- Trial Windchaser
 minions["Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdSpectre"] = {
-	name = "Trial Windchaser",
+	name = "시련 바람추적자",
 	life = 3.06,
 	armour = 0.3,
 	fireResist = 0,
@@ -3107,7 +3107,7 @@ minions["Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdSpectre"] = {
 }
 -- Hyrri's Watch
 minions["Metadata/Monsters/LegionLeague/LegionKaruiArcherSpectre"] = {
-	name = "Hyrri's Watch",
+	name = "하이리의 감시병",
 	life = 2.25,
 	fireResist = 20,
 	coldResist = 20,
@@ -3131,7 +3131,7 @@ minions["Metadata/Monsters/LegionLeague/LegionKaruiArcherSpectre"] = {
 }
 -- Demon Harpy
 minions["Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite1Spectre"] = {
-	name = "Demon Harpy",
+	name = "악마 하피",
 	life = 2.38,
 	armour = 0.5,
 	fireResist = 75,
@@ -3156,7 +3156,7 @@ minions["Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite1Spec
 }
 -- Pale Angel
 minions["Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite1Spectre"] = {
-	name = "Pale Angel",
+	name = "창백한 천사",
 	life = 2.55,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -3183,7 +3183,7 @@ minions["Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite1Spectr
 }
 -- Demon Herder
 minions["Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite2_Spectre"] = {
-	name = "Demon Herder",
+	name = "악마 몰이꾼",
 	life = 2.85,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -3208,7 +3208,7 @@ minions["Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite2_Spe
 }
 -- Pale Seraphim
 minions["Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite2Spectre"] = {
-	name = "Pale Seraphim",
+	name = "창백한 치천사",
 	life = 3.04,
 	armour = 0.66,
 	fireResist = 0,
@@ -3237,7 +3237,7 @@ minions["Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite2Spectr
 }
 -- Ravenous Mishapen
 minions["Metadata/Monsters/LeagueHellscape/FleshFaction/HellscapeFleshFodder4Spectre"] = {
-	name = "Ravenous Misshapen",
+	name = "굶주린 이형",
 	life = 1.16,
 	energyShield = 0.4,
 	fireResist = 0,
@@ -3259,7 +3259,7 @@ minions["Metadata/Monsters/LeagueHellscape/FleshFaction/HellscapeFleshFodder4Spe
 }
 -- Aurid Synthete
 minions["Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer4Spectre"] = {
-	name = "Aurid Synthete",
+	name = "금가루 결합자",
 	life = 3.6,
 	energyShield = 0.8,
 	fireResist = 42,
@@ -3289,7 +3289,7 @@ minions["Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer4Spectre"] = {
 }
 -- Ruins Hellion
 minions["Metadata/Monsters/Hellion/Hellion3Spectre"] = {
-	name = "Ruins Hellion",
+	name = "유적 헬리온",
 	life = 1,
 	armour = 0.1,
 	fireResist = 40,
@@ -3310,7 +3310,7 @@ minions["Metadata/Monsters/Hellion/Hellion3Spectre"] = {
 }
 -- Arena Master
 minions["Metadata/Monsters/AtlasExiles/AdjudicatorInfluenceMonsters/AdjudicatorGrandMasterSpectre"] = {
-	name = "Arena Master",
+	name = "투기장의 대가",
 	life = 3.6,
 	armour = 0.8,
 	fireResist = 35,
@@ -3337,7 +3337,7 @@ minions["Metadata/Monsters/AtlasExiles/AdjudicatorInfluenceMonsters/AdjudicatorG
 }
 -- They of Tul
 minions["Metadata/Monsters/MinerLarge/MinerLargeCommanderBreachSpectre"] = {
-	name = "They of Tul",
+	name = "툴의 그들",
 	life = 3,
 	armour = 0.5,
 	fireResist = 30,
@@ -3362,7 +3362,7 @@ minions["Metadata/Monsters/MinerLarge/MinerLargeCommanderBreachSpectre"] = {
 }
 -- Ancient Suffering
 minions["Metadata/Monsters/LeagueDelve/GhostEncounter/WraithPurple"] = {
-	name = "Ancient Suffering",
+	name = "고대의 고통",
 	life = 1.68,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -3386,7 +3386,7 @@ minions["Metadata/Monsters/LeagueDelve/GhostEncounter/WraithPurple"] = {
 }
 -- Ancient Wraith
 minions["Metadata/Monsters/LeagueDelve/GhostEncounter/Wraith"] = {
-	name = "Ancient Wraith",
+	name = "고대의 악령",
 	life = 1.68,
 	energyShield = 0.2,
 	fireResist = 0,
@@ -3411,7 +3411,7 @@ minions["Metadata/Monsters/LeagueDelve/GhostEncounter/Wraith"] = {
 }
 -- Forged Frostbearer
 minions["Metadata/Monsters/LeagueCrucible/Cold/Pyromaniac"] = {
-	name = "Forged Frostbearer",
+	name = "벼려진 서리운반자",
 	life = 1.68,
 	fireResist = 0,
 	coldResist = 75,

@@ -4,7 +4,7 @@
 return {
 	[1]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -16,7 +16,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Base Off Hand Physical Damage"
+					text="{0}~{1} 기본 보조 장비 물리 피해"
 				}
 			}
 		},
@@ -27,7 +27,7 @@ return {
 	},
 	[2]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -39,7 +39,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Physical Damage per 15 Armour or Evasion Rating on Shield"
+					text="방패의 방어도 또는 회피 15당 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -50,7 +50,7 @@ return {
 	},
 	[3]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -62,7 +62,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Base Off Hand Attack time is {0} seconds"
+					text="기본 보조 장비 공격 시간 {0}초"
 				}
 			}
 		},
@@ -72,7 +72,7 @@ return {
 	},
 	[4]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -84,7 +84,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} to {1} Physical Damage"
+					text="{0}~{1} 물리 피해"
 				}
 			}
 		},
@@ -95,7 +95,7 @@ return {
 	},
 	[5]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -107,7 +107,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} to {1} Fire Damage"
+					text="{0}~{1} 화염 피해"
 				}
 			}
 		},
@@ -118,7 +118,7 @@ return {
 	},
 	[6]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -130,7 +130,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} to {1} Cold Damage"
+					text="{0}~{1} 냉기 피해"
 				}
 			}
 		},
@@ -141,7 +141,7 @@ return {
 	},
 	[7]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -153,7 +153,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} to {1} Lightning Damage"
+					text="{0}~{1} 번개 피해"
 				}
 			}
 		},
@@ -164,7 +164,7 @@ return {
 	},
 	[8]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -176,7 +176,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0} to {1} Chaos Damage"
+					text="{0}~{1} 카오스 피해"
 				}
 			}
 		},
@@ -187,7 +187,7 @@ return {
 	},
 	[9]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -195,7 +195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Physical Damage Converted to Lightning Damage"
+					text="물리 피해의 {0}%를 번개 피해로 전환"
 				}
 			}
 		},
@@ -205,7 +205,7 @@ return {
 	},
 	[10]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -213,7 +213,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% more Attack Damage"
+					text="주는 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -226,7 +226,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Deals {0}% less Attack Damage"
+					text="주는 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -236,7 +236,7 @@ return {
 	},
 	[11]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="multiplicative_damage_modifier",
@@ -248,7 +248,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="When Dual Wielding, Deals {0}% Damage from each Weapon combined"
+					text="쌍수 사용 시, 각 무기 조합 피해의 {0}%를 줌"
 				}
 			}
 		},
@@ -258,7 +258,7 @@ return {
 	},
 	[12]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -270,7 +270,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% more Attack Damage"
+					text="주는 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -283,7 +283,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Deals {0}% less Attack Damage"
+					text="주는 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -293,7 +293,7 @@ return {
 	},
 	[13]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -301,7 +301,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% more Damage"
+					text="주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -314,7 +314,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Deals {0}% less Damage"
+					text="주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -324,7 +324,7 @@ return {
 	},
 	[14]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="multiplicative_damage_modifier",
@@ -336,7 +336,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% of Damage"
+					text="소환수가 피해의 {0}%를 줌"
 				}
 			}
 		},
@@ -346,7 +346,7 @@ return {
 	},
 	[15]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="multiplicative_damage_modifier",
@@ -358,7 +358,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions deal {0}% of Physical Damage"
+					text="소환수가 물리 피해의 {0}%를 줌"
 				}
 			}
 		},
@@ -368,7 +368,7 @@ return {
 	},
 	[16]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -376,7 +376,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% more Physical Damage"
+					text="주는 물리 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -389,7 +389,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Deals {0}% less Physical Damage"
+					text="주는 물리 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -399,7 +399,7 @@ return {
 	},
 	[17]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -407,7 +407,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Physical Damage per Frenzy Charge"
+					text="격분 충전 하나당 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -420,7 +420,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Physical Damage per Frenzy Charge"
+					text="격분 충전 하나당 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -430,7 +430,7 @@ return {
 	},
 	[18]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -438,7 +438,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Raised Zombie"
+					text="소환한 좀비 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -447,7 +447,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Raised Zombies"
+					text="소환한 좀비 최대 {0}마리"
 				}
 			}
 		},
@@ -457,7 +457,7 @@ return {
 	},
 	[19]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -465,7 +465,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Raised Spectre"
+					text="소환한 망령 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -474,7 +474,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Raised Spectres"
+					text="소환한 망령 최대 {0}마리"
 				}
 			}
 		},
@@ -484,7 +484,7 @@ return {
 	},
 	[20]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -492,7 +492,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Skeleton"
+					text="소환된 해골 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -501,7 +501,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Skeletons"
+					text="소환된 해골 최대 {0}마리"
 				}
 			}
 		},
@@ -511,7 +511,7 @@ return {
 	},
 	[21]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -519,7 +519,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Raging Spirit"
+					text="소환된 격노의 유령 최대치 {0}"
 				},
 				[2]={
 					limit={
@@ -528,7 +528,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Raging Spirits"
+					text="소환된 격노의 유령 최대치 {0}"
 				}
 			}
 		},
@@ -538,7 +538,7 @@ return {
 	},
 	[22]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -546,7 +546,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect"
+					text="효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -559,7 +559,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area of Effect"
+					text="효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -569,7 +569,7 @@ return {
 	},
 	[23]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -577,7 +577,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Aura effect"
+					text="오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -590,7 +590,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Aura effect"
+					text="오라 효과 {0}% 감소"
 				}
 			}
 		},
@@ -600,7 +600,7 @@ return {
 	},
 	[24]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -616,7 +616,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Base duration is {0} seconds"
+					text="기본 지속시간 {0}초"
 				},
 				[2]={
 					[1]={
@@ -633,7 +633,7 @@ return {
 							[2]=0
 						}
 					},
-					text="{0:+d} seconds to Base duration"
+					text="기본 지속시간 {0:+d}초"
 				}
 			}
 		},
@@ -644,7 +644,7 @@ return {
 	},
 	[25]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -652,7 +652,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="During initial Duration, can be hit by your Projectiles up to {0} times"
+					text="초기 지속시간 동안 플레이어의 투사체에 최대 {0}번 피격될 수 있습니다"
 				}
 			}
 		},
@@ -662,7 +662,7 @@ return {
 	},
 	[26]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -674,7 +674,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Base secondary duration is {0} seconds"
+					text="기본 2차 지속시간 {0}초"
 				}
 			}
 		},
@@ -684,7 +684,7 @@ return {
 	},
 	[27]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -696,7 +696,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Additional {0} seconds Base Duration per extra corpse Consumed"
+					text="추가로 소모한 시신 하나당 기본 지속시간 {0}초 추가"
 				}
 			}
 		},
@@ -706,7 +706,7 @@ return {
 	},
 	[28]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -718,7 +718,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} seconds to Buff Duration per Endurance Charge removed"
+					text="인내 충전을 소모할 때마다 버프 지속시간 {0:+d}초 증가"
 				}
 			}
 		},
@@ -728,7 +728,7 @@ return {
 	},
 	[29]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -736,7 +736,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Buff and Debuff Duration"
+					text="버프 및 디버프 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -749,7 +749,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Buff and Debuff Duration"
+					text="버프 및 디버프 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -759,7 +759,7 @@ return {
 	},
 	[30]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -767,7 +767,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Skill Effect Duration"
+					text="스킬 효과 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -780,7 +780,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Skill Effect Duration"
+					text="스킬 효과 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -790,7 +790,7 @@ return {
 	},
 	[31]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -798,7 +798,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0} base maximum Life"
+					text="소환수의 기본 최대 생명력 {0}"
 				}
 			}
 		},
@@ -808,7 +808,7 @@ return {
 	},
 	[32]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -816,7 +816,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Area Damage"
+					text="범위 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -829,7 +829,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Area Damage"
+					text="범위 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -839,7 +839,7 @@ return {
 	},
 	[33]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -847,7 +847,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Spell Repeats once"
+					text="주문 1회 반복"
 				},
 				[2]={
 					limit={
@@ -856,7 +856,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spell Repeats {0} times"
+					text="주문 {0}회 반복"
 				}
 			}
 		},
@@ -866,7 +866,7 @@ return {
 	},
 	[34]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -874,7 +874,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Golem"
+					text="소환된 골렘 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -883,7 +883,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Golems"
+					text="소환된 골렘 최대 {0}마리"
 				}
 			}
 		},
@@ -893,7 +893,7 @@ return {
 	},
 	[35]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -909,7 +909,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons a Totem which uses this Skill"
+					text="이 스킬을 사용하는 토템 1개 소환"
 				},
 				[2]={
 					limit={
@@ -926,7 +926,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons a Ballista Totem which uses this Skill"
+					text="이 스킬을 사용하는 쇠뇌 토템 1개 소환"
 				},
 				[3]={
 					limit={
@@ -943,7 +943,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Totems which use this Skill"
+					text="이 스킬을 사용하는 토템 {0}개 소환"
 				},
 				[4]={
 					limit={
@@ -960,7 +960,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Summons {0} Ballista Totems which use this Skill"
+					text="이 스킬을 사용하는 쇠뇌 토템 {0}개 소환"
 				}
 			}
 		},
@@ -972,7 +972,7 @@ return {
 	},
 	[36]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -980,7 +980,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to maximum number of Summoned Ballista Totems"
+					text="소환 가능한 쇠뇌 토템 최대치 {0:+d}"
 				}
 			}
 		},
@@ -990,7 +990,7 @@ return {
 	},
 	[37]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -998,7 +998,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to maximum number of Summoned Totems"
+					text="소환 가능한 토템 최대치 {0:+d}"
 				}
 			}
 		},
@@ -1008,7 +1008,7 @@ return {
 	},
 	[38]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1016,7 +1016,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0} Shard Projectiles in a Spiral when Projectile ends\nModifiers to number of Projectiles only apply to the final Spiral"
+					text="투사체 소멸 시 파편 투사체 {0}개 소용돌이 모양으로 발사\n투사체 개수 속성 부여는 마지막 소용돌이에만 적용"
 				}
 			}
 		},
@@ -1026,7 +1026,7 @@ return {
 	},
 	[39]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -1038,7 +1038,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Activates every {0} second while Attached"
+					text="낙인이 부착된 동안 {0}초마다 활성화"
 				},
 				[2]={
 					[1]={
@@ -1051,7 +1051,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Activates every {0} seconds while Attached"
+					text="낙인이 부착된 동안 {0}초마다 활성화"
 				}
 			}
 		},
@@ -1061,7 +1061,7 @@ return {
 	},
 	[40]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1069,7 +1069,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Activation frequency"
+					text="활성화 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1082,7 +1082,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Activation frequency"
+					text="활성화 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -1092,7 +1092,7 @@ return {
 	},
 	[41]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1100,7 +1100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Cast Speed also apply to this Skill's Activation frequency"
+					text="시전 속도 증가 및 감소 수치를 이 스킬의 활성화 빈도에도 적용"
 				}
 			}
 		},
@@ -1110,7 +1110,7 @@ return {
 	},
 	[42]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1118,7 +1118,7 @@ return {
 							[2]=1
 						}
 					},
-					text="This Attack Repeats {0} additional time"
+					text="이 공격이 {0}회 추가 반복"
 				},
 				[2]={
 					limit={
@@ -1127,7 +1127,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Attack Repeats {0} additional times"
+					text="이 공격이 {0}회 추가 반복"
 				}
 			}
 		},
@@ -1137,7 +1137,7 @@ return {
 	},
 	[43]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1149,7 +1149,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can use Items requiring up to Level {1}"
+					text="아이템 요구 레벨이 {1} 이하인 경우 사용 가능"
 				},
 				[2]={
 					limit={
@@ -1162,7 +1162,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can use Items requiring up to Level {1}\nAnimated Weapons are transformed into random Unique Weapons with Level Requirement between {0} and {1}"
+					text="아이템 요구 레벨이 {1} 이하인 경우 사용 가능\n기동된 무기가 아이템 요구 레벨이 {0}~{1}인 무작위 고유 무기로 변화"
 				}
 			}
 		},
@@ -1173,7 +1173,7 @@ return {
 	},
 	[44]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1181,7 +1181,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} to Accuracy Rating"
+					text="정확도 {0:+d}"
 				}
 			}
 		},
@@ -1191,7 +1191,7 @@ return {
 	},
 	[45]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1199,7 +1199,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Accuracy Rating"
+					text="정확도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1212,7 +1212,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Accuracy Rating"
+					text="정확도 {0}% 감소"
 				}
 			}
 		},
@@ -1222,7 +1222,7 @@ return {
 	},
 	[46]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -1234,7 +1234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Damage with Ailments"
+					text="상태 이상 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1251,7 +1251,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Damage with Ailments"
+					text="상태 이상 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1261,7 +1261,7 @@ return {
 	},
 	[47]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1269,7 +1269,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Attack Damage with Two Handed Weapons"
+					text="양손 무기 공격 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1282,7 +1282,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Attack Damage with Two Handed Weapons"
+					text="양손 무기 공격 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -1292,7 +1292,7 @@ return {
 	},
 	[48]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1300,7 +1300,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Attack Speed with Two Handed Weapons"
+					text="양손 무기 사용 시 공격 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1313,7 +1313,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Attack Speed with Two Handed Weapons"
+					text="양손 무기 사용 시 공격 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -1323,7 +1323,7 @@ return {
 	},
 	[49]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1331,7 +1331,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have an additional Brand Attached to an Enemy"
+					text="적에게 낙인 1개 추가 부착 가능"
 				},
 				[2]={
 					limit={
@@ -1340,7 +1340,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have {0} additional Brands Attached to an Enemy"
+					text="적에게 낙인 {0}개 추가 부착 가능"
 				}
 			}
 		},
@@ -1350,7 +1350,7 @@ return {
 	},
 	[50]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1358,7 +1358,7 @@ return {
 							[2]=100
 						}
 					},
-					text="Increases and Reductions to Cast Speed apply to this Skill's Attack Speed"
+					text="시전 속도 증가 및 감소가 이 스킬의 공격 속도에도 적용"
 				},
 				[2]={
 					limit={
@@ -1367,7 +1367,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Cast Speed apply to this Skill's Attack Speed at {0}% of their value"
+					text="시전 속도 증가 및 감소가 해당 값의 {0}%만큼 이 스킬의 공격 속도에도 적용"
 				}
 			}
 		},
@@ -1377,7 +1377,7 @@ return {
 	},
 	[51]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1385,7 +1385,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Cast Speed"
+					text="시전 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1398,7 +1398,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Cast Speed"
+					text="시전 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -1408,7 +1408,7 @@ return {
 	},
 	[52]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1416,7 +1416,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Critical Strike Chance"
+					text="치명타 확률 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1429,7 +1429,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Critical Strike Chance"
+					text="치명타 확률 {0}% 감폭"
 				}
 			}
 		},
@@ -1439,7 +1439,7 @@ return {
 	},
 	[53]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1447,7 +1447,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Poison Duration"
+					text="중독 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1460,7 +1460,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Poison Duration"
+					text="중독 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -1470,7 +1470,7 @@ return {
 	},
 	[54]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1478,7 +1478,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{}% more Damage"
+					text="피해 {}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1491,7 +1491,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{}% less Damage"
+					text="피해 {}% 감폭"
 				}
 			}
 		},
@@ -1501,7 +1501,7 @@ return {
 	},
 	[55]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1509,7 +1509,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Skill Effect Duration"
+					text="스킬 효과 지속시간 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -1522,7 +1522,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Skill Effect Duration"
+					text="스킬 효과 지속시간 {0}% 감폭"
 				}
 			}
 		},
@@ -1532,7 +1532,7 @@ return {
 	},
 	[56]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1540,7 +1540,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to gain a Power Charge on Kill"
+					text="처치 시 {0}%의 확률로 권능 충전 획득"
 				}
 			}
 		},
@@ -1550,7 +1550,7 @@ return {
 	},
 	[57]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -1562,7 +1562,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d}% to Critical Strike Chance"
+					text="치명타 확률 {0:+d}%"
 				}
 			}
 		},
@@ -1572,7 +1572,7 @@ return {
 	},
 	[58]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -1584,7 +1584,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} seconds to Attack Time"
+					text="공격 시간 {0:+d}초"
 				}
 			}
 		},
@@ -1594,7 +1594,7 @@ return {
 	},
 	[59]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1602,7 +1602,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Mine Duration also apply to this Skill's Buff Duration"
+					text="지뢰 지속시간 증가 및 감소 수치를 이 스킬의 버프 지속시간에도 적용"
 				}
 			}
 		},
@@ -1612,7 +1612,7 @@ return {
 	},
 	[60]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1620,7 +1620,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Ancestor Totem Buff"
+					text="선대의 토템 버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1633,7 +1633,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Ancestor Totem Buff"
+					text="선대의 토템 버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -1643,7 +1643,7 @@ return {
 	},
 	[61]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1651,7 +1651,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Activation range"
+					text="작동 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1664,7 +1664,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Activation range"
+					text="작동 범위 {0}% 감소"
 				}
 			}
 		},
@@ -1674,7 +1674,7 @@ return {
 	},
 	[62]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1682,7 +1682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area Damage"
+					text="범위 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1695,7 +1695,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area Damage"
+					text="범위 피해 {0}% 감소"
 				}
 			}
 		},
@@ -1705,7 +1705,7 @@ return {
 	},
 	[63]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1713,7 +1713,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect while Dead"
+					text="죽음 상태에서 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1726,7 +1726,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area of Effect while Dead"
+					text="죽음 상태에서 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -1736,7 +1736,7 @@ return {
 	},
 	[64]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1744,7 +1744,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Attack and Cast Speed"
+					text="공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1757,7 +1757,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Attack and Cast Speed"
+					text="공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1767,7 +1767,7 @@ return {
 	},
 	[65]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1775,7 +1775,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Attack and Cast Speed during Onslaught"
+					text="맹공 상태일 때 공격 및 시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1788,7 +1788,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Attack and Cast Speed during Onslaught"
+					text="맹공 상태일 때 공격 및 시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1798,7 +1798,7 @@ return {
 	},
 	[66]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1810,7 +1810,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Chaos Damage"
+					text="카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1821,7 +1821,7 @@ return {
 	},
 	[67]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1833,7 +1833,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Cold Damage"
+					text="냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1844,7 +1844,7 @@ return {
 	},
 	[68]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1856,7 +1856,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Fire Damage"
+					text="화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1867,7 +1867,7 @@ return {
 	},
 	[69]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1879,7 +1879,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Lightning Damage"
+					text="번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1890,7 +1890,7 @@ return {
 	},
 	[70]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1902,7 +1902,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} to {1} Added Attack Physical Damage"
+					text="공격 시 물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -1913,7 +1913,7 @@ return {
 	},
 	[71]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1921,7 +1921,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Attack Speed"
+					text="공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1934,7 +1934,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Attack Speed"
+					text="공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1944,7 +1944,7 @@ return {
 	},
 	[72]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1952,7 +1952,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Attack Speed"
+					text="공격 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -1965,7 +1965,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Attack Speed"
+					text="공격 속도 {0}% 감소"
 				}
 			}
 		},
@@ -1975,7 +1975,7 @@ return {
 	},
 	[73]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -1983,7 +1983,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Ignore Stuns While Using this Skill"
+					text="이 스킬을 사용하는 동안 {0}%의 확률로 기절 무시"
 				},
 				[2]={
 					limit={
@@ -1992,7 +1992,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignore Stuns While Using this Skill"
+					text="이 스킬을 사용하는 동안 기절 무시"
 				}
 			}
 		},
@@ -2002,7 +2002,7 @@ return {
 	},
 	[74]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2010,7 +2010,7 @@ return {
 							[2]=1
 						}
 					},
-					text="{0:+d} Cooldown Use"
+					text="재사용 횟수 {0:+d}회"
 				},
 				[2]={
 					limit={
@@ -2019,7 +2019,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d} Cooldown Uses"
+					text="재사용 횟수 {0:+d}회"
 				}
 			}
 		},
@@ -2029,7 +2029,7 @@ return {
 	},
 	[75]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2041,7 +2041,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Ailments"
+					text="상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2058,7 +2058,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Ailments"
+					text="상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -2068,7 +2068,7 @@ return {
 	},
 	[76]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2076,7 +2076,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Aura Area of Effect"
+					text="오라 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2089,7 +2089,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Aura Area of Effect"
+					text="오라 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -2099,7 +2099,7 @@ return {
 	},
 	[77]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -2111,7 +2111,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Pulses every {0} second"
+					text="{0}초마다 파동"
 				},
 				[2]={
 					[1]={
@@ -2124,7 +2124,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Pulses every {0} seconds"
+					text="{0}초마다 파동"
 				}
 			}
 		},
@@ -2134,7 +2134,7 @@ return {
 	},
 	[78]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -2146,7 +2146,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Hits Enemies every {0} Seconds"
+					text="{0}초마다 적 명중"
 				}
 			}
 		},
@@ -2156,7 +2156,7 @@ return {
 	},
 	[79]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2164,7 +2164,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Bleeding Duration"
+					text="출혈 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2177,7 +2177,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Bleeding Duration"
+					text="출혈 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -2187,7 +2187,7 @@ return {
 	},
 	[80]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2195,7 +2195,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cast Speed"
+					text="시전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2208,7 +2208,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Cast Speed"
+					text="시전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -2218,7 +2218,7 @@ return {
 	},
 	[81]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2234,7 +2234,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Always Freezes Enemies on Hit"
+					text="명중 시 항상 동결 유발"
 				},
 				[2]={
 					[1]={
@@ -2251,7 +2251,7 @@ return {
 							[2]=0
 						}
 					},
-					text="Always Freeze"
+					text="항상 동결 유발"
 				},
 				[3]={
 					[1]={
@@ -2268,7 +2268,7 @@ return {
 							[2]=0
 						}
 					},
-					text="{0}% chance to Freeze"
+					text="{0}%의 확률로 동결 유발"
 				}
 			}
 		},
@@ -2279,7 +2279,7 @@ return {
 	},
 	[82]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2291,7 +2291,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Ignite"
+					text="{0}%의 확률로 점화 유발"
 				},
 				[2]={
 					[1]={
@@ -2304,7 +2304,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Always Ignite"
+					text="항상 점화 유발"
 				}
 			}
 		},
@@ -2314,7 +2314,7 @@ return {
 	},
 	[83]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2326,7 +2326,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Shock"
+					text="{0}%의 확률로 감전 유발"
 				},
 				[2]={
 					[1]={
@@ -2339,7 +2339,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Always Shock"
+					text="항상 감전 유발"
 				}
 			}
 		},
@@ -2349,7 +2349,7 @@ return {
 	},
 	[84]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2357,7 +2357,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gains a Stage when you Spend a total of {0} Mana while in Area"
+					text="범위 내에 있는 동안 총 {0} 마나를 소모할 때 단계 1만큼 획득"
 				}
 			}
 		},
@@ -2367,7 +2367,7 @@ return {
 	},
 	[85]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2375,7 +2375,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cost"
+					text="소모 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2388,7 +2388,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Cost"
+					text="소모 {0}% 감소"
 				}
 			}
 		},
@@ -2398,7 +2398,7 @@ return {
 	},
 	[86]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2406,7 +2406,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d}% to Critical Strike Multiplier"
+					text="치명타 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -2416,7 +2416,7 @@ return {
 	},
 	[87]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2424,7 +2424,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Curse Duration"
+					text="저주 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2437,7 +2437,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Curse Duration"
+					text="저주 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -2447,7 +2447,7 @@ return {
 	},
 	[88]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -2459,7 +2459,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Fires a beam every {0} second"
+					text="{0}초마다 광선 발사"
 				},
 				[2]={
 					[1]={
@@ -2472,7 +2472,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires a beam every {0} seconds"
+					text="{0}초마다 광선 발사"
 				}
 			}
 		},
@@ -2482,7 +2482,7 @@ return {
 	},
 	[89]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -2494,7 +2494,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Knock Enemies Back on hit"
+					text="명중 시 {0}%의 확률로 적을 밀어냄"
 				}
 			}
 		},
@@ -2504,7 +2504,7 @@ return {
 	},
 	[90]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2512,7 +2512,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Rarity of Items Dropped by Slain Enemies"
+					text="처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2525,7 +2525,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Rarity of Items Dropped by Slain Enemies"
+					text="처치한 적이 떨어뜨리는 아이템 희귀도 {0}% 감소"
 				}
 			}
 		},
@@ -2535,7 +2535,7 @@ return {
 	},
 	[91]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2543,7 +2543,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Life Cost"
+					text="생명력 소모 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2556,7 +2556,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Life Cost"
+					text="생명력 소모 {0}% 감소"
 				}
 			}
 		},
@@ -2566,7 +2566,7 @@ return {
 	},
 	[92]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2574,7 +2574,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0} Life per Enemy Hit"
+					text="명중한 적 하나당 생명력 {0} 획득"
 				},
 				[2]={
 					[1]={
@@ -2587,7 +2587,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Lose {0} Life per Enemy Hit"
+					text="명중한 적 하나당 생명력 {0} 상실"
 				}
 			}
 		},
@@ -2597,7 +2597,7 @@ return {
 	},
 	[93]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -2613,7 +2613,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Attack Damage Leeched as Life"
+					text="공격 피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -2623,7 +2623,7 @@ return {
 	},
 	[94]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2631,7 +2631,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Life Reservation"
+					text="생명력 점유 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2644,7 +2644,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Life Reservation"
+					text="생명력 점유 {0}% 감소"
 				}
 			}
 		},
@@ -2654,7 +2654,7 @@ return {
 	},
 	[95]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2662,7 +2662,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% reduced Mana Cost"
+					text="마나 소모 {0}% 감소"
 				},
 				[2]={
 					[1]={
@@ -2675,7 +2675,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% increased Mana Cost"
+					text="마나 소모 {0}% 증가"
 				}
 			}
 		},
@@ -2685,7 +2685,7 @@ return {
 	},
 	[96]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2693,7 +2693,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mana Reservation"
+					text="마나 점유 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2706,7 +2706,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mana Reservation"
+					text="마나 점유 {0}% 감소"
 				}
 			}
 		},
@@ -2716,7 +2716,7 @@ return {
 	},
 	[97]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -2728,7 +2728,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Base Mine Detonation Time is {0} seconds"
+					text="기본 지뢰 폭파 시간 {0}초"
 				}
 			}
 		},
@@ -2738,7 +2738,7 @@ return {
 	},
 	[98]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2746,7 +2746,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Fires an additional Arrow"
+					text="추가 화살 발사"
 				},
 				[2]={
 					limit={
@@ -2755,7 +2755,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0} additional Arrows"
+					text="추가 화살 {0}개 발사"
 				}
 			}
 		},
@@ -2765,7 +2765,7 @@ return {
 	},
 	[99]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2773,7 +2773,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Sentinel of Purity"
+					text="정화의 파수꾼 최대 {0}명 소환"
 				},
 				[2]={
 					limit={
@@ -2782,7 +2782,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Sentinels of Purity"
+					text="정화의 파수꾼 최대 {0}명 소환"
 				}
 			}
 		},
@@ -2792,7 +2792,7 @@ return {
 	},
 	[100]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2800,7 +2800,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Holy Relic"
+					text="신성한 유물 최대 {0}개 소환"
 				},
 				[2]={
 					limit={
@@ -2809,7 +2809,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Holy Relics"
+					text="신성한 유물 최대 {0}개 소환"
 				}
 			}
 		},
@@ -2819,7 +2819,7 @@ return {
 	},
 	[101]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2827,7 +2827,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Physical Damage Converted to Lightning Damage"
+					text="물리 피해의 {0}%를 번개 피해로 전환"
 				}
 			}
 		},
@@ -2837,7 +2837,7 @@ return {
 	},
 	[102]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2845,7 +2845,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Poison Duration"
+					text="중독 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2858,7 +2858,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Poison Duration"
+					text="중독 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -2868,7 +2868,7 @@ return {
 	},
 	[103]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2876,7 +2876,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Projectile Speed"
+					text="투사체 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2889,7 +2889,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Projectile Speed"
+					text="투사체 속도 {0}% 감소"
 				}
 			}
 		},
@@ -2899,7 +2899,7 @@ return {
 	},
 	[104]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2907,7 +2907,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Penetrates {0}% Cold Resistance"
+					text="냉기 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2917,7 +2917,7 @@ return {
 	},
 	[105]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2925,7 +2925,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Penetrates {0}% Fire Resistance"
+					text="화염 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2935,7 +2935,7 @@ return {
 	},
 	[106]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2943,7 +2943,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Penetrates {0}% Lightning Resistance"
+					text="번개 저항 {0}% 관통"
 				}
 			}
 		},
@@ -2953,7 +2953,7 @@ return {
 	},
 	[107]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2961,7 +2961,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Reservation Efficiency"
+					text="점유 효율 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -2974,7 +2974,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Reservation Efficiency"
+					text="점유 효율 {0}% 감소"
 				}
 			}
 		},
@@ -2984,7 +2984,7 @@ return {
 	},
 	[108]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -2992,7 +2992,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Reservation"
+					text="점유 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3005,7 +3005,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Reservation"
+					text="점유 {0}% 감소"
 				}
 			}
 		},
@@ -3015,7 +3015,7 @@ return {
 	},
 	[109]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3023,7 +3023,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Area of Effect"
+					text="효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3036,7 +3036,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Area of Effect"
+					text="효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -3046,7 +3046,7 @@ return {
 	},
 	[110]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3054,7 +3054,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Stun Duration on Enemies"
+					text="적에게 적용되는 기절 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3067,7 +3067,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Stun Duration on Enemies"
+					text="적에게 적용되는 기절 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -3077,7 +3077,7 @@ return {
 	},
 	[111]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3085,7 +3085,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spend Life instead of Mana for Effects of this Skill"
+					text="이 스킬의 효과에 마나 대신 생명력을 소모"
 				}
 			}
 		},
@@ -3095,7 +3095,7 @@ return {
 	},
 	[112]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3103,7 +3103,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased rotation speed"
+					text="회전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3116,7 +3116,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced rotation speed"
+					text="회전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -3126,7 +3126,7 @@ return {
 	},
 	[113]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred_2dp_if_required",
@@ -3138,7 +3138,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Rotates {0} times"
+					text="{0}회 회전"
 				}
 			}
 		},
@@ -3148,7 +3148,7 @@ return {
 	},
 	[114]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3156,7 +3156,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Lose {0} Rage per second"
+					text="1초마다 격노 {0} 상실"
 				}
 			}
 		},
@@ -3166,7 +3166,7 @@ return {
 	},
 	[115]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3178,7 +3178,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Leaves a Lingering Blade in the ground for every Volley"
+					text="칼날 1개당 지면에 지속되는 칼날 1개 남김"
 				},
 				[2]={
 					[1]={
@@ -3191,7 +3191,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Leaves a Lingering Blade in the ground for every {0} Volleys"
+					text="칼날 {0}개당 지면에 지속되는 칼날 1개 남김"
 				}
 			}
 		},
@@ -3201,7 +3201,7 @@ return {
 	},
 	[116]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3209,7 +3209,7 @@ return {
 							[2]=1
 						}
 					},
-					text="1 Volley"
+					text="칼날 1개 추가"
 				},
 				[2]={
 					limit={
@@ -3218,7 +3218,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} Volleys"
+					text="칼날 {0}개 추가"
 				}
 			}
 		},
@@ -3228,7 +3228,7 @@ return {
 	},
 	[117]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3236,7 +3236,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Leaves {0}% more Lingering Blades in the ground if you don't Cast this Spell yourself"
+					text="이 주문을 자신이 시전하지 않은 경우 지면에 남기는 지속되는 칼날 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3249,7 +3249,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Leaves {0}% fewer Lingering Blades in the ground if you don't Cast this Spell yourself"
+					text="이 주문을 자신이 시전하지 않은 경우 지면에 남기는 지속되는 칼날 {0}% 감폭"
 				}
 			}
 		},
@@ -3259,7 +3259,7 @@ return {
 	},
 	[118]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3267,7 +3267,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Blinding duration"
+					text="실명 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3280,7 +3280,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Blinding duration"
+					text="실명 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -3290,7 +3290,7 @@ return {
 	},
 	[119]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3302,7 +3302,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Creates {0} additional Spikes if you've changed Stance Recently"
+					text="최근 4초 이내 태세를 변경한 경우 가시 {0}개 추가 생성"
 				}
 			}
 		},
@@ -3312,7 +3312,7 @@ return {
 	},
 	[120]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3320,7 +3320,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Creates {0} Spikes"
+					text="가시 {0}개 생성"
 				},
 				[2]={
 					[1]={
@@ -3333,7 +3333,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Creates {0} fewer Spikes"
+					text="생성하는 가시 {0}개 감소"
 				}
 			}
 		},
@@ -3343,7 +3343,7 @@ return {
 	},
 	[121]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3351,7 +3351,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Damage while in Blood Stance"
+					text="핏빛 태세에서 주는 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -3364,7 +3364,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Damage while in Blood Stance"
+					text="핏빛 태세에서 주는 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -3374,7 +3374,7 @@ return {
 	},
 	[122]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3382,7 +3382,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Burning Damage"
+					text="화상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3395,7 +3395,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Burning Damage"
+					text="화상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3405,7 +3405,7 @@ return {
 	},
 	[123]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3413,7 +3413,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to also Poison a nearby Enemy when you inflict Poison"
+					text="중독 유발 시 {0}%의 확률로 주변의 적 1명에게도 중독 유발"
 				},
 				[2]={
 					limit={
@@ -3422,7 +3422,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Poison a nearby Enemy when you inflict Poison"
+					text="중독 유발 시 주변의 적 1명에게도 중독 유발"
 				}
 			}
 		},
@@ -3432,7 +3432,7 @@ return {
 	},
 	[124]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3440,7 +3440,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to double Stun Duration"
+					text="{0}%의 확률로 기절 지속시간 2배"
 				}
 			}
 		},
@@ -3450,7 +3450,7 @@ return {
 	},
 	[125]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3458,7 +3458,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles have {0}% chance for an additional Projectile when Forking"
+					text="투사체가 갈라질 때 {0}%의 확률로 투사체 1개 추가 생성"
 				}
 			}
 		},
@@ -3468,7 +3468,7 @@ return {
 	},
 	[126]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3484,7 +3484,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Melee Hits Fortify"
+					text="근접 명중 시 방어 상승"
 				},
 				[2]={
 					[1]={
@@ -3501,7 +3501,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Melee Hits have {0}% chance to Fortify"
+					text="근접 명중 시 {0}%의 확률로 방어 상승"
 				}
 			}
 		},
@@ -3511,7 +3511,7 @@ return {
 	},
 	[127]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3519,7 +3519,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to gain a Frenzy Charge on Killing a Frozen Enemy"
+					text="동결된 적 처치 시 {0}%의 확률로 격분 충전 획득"
 				},
 				[2]={
 					limit={
@@ -3528,7 +3528,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain a Frenzy Charge on Killing a Frozen Enemy"
+					text="동결된 적 처치 시 격분 충전 획득"
 				}
 			}
 		},
@@ -3538,7 +3538,7 @@ return {
 	},
 	[128]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3550,7 +3550,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance when throwing Mines to throw up to 1 additional Mine"
+					text="지뢰를 투척할 경우, {0}% 확률로 지뢰 1개 추가 투척"
 				}
 			}
 		},
@@ -3560,7 +3560,7 @@ return {
 	},
 	[129]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3572,7 +3572,7 @@ return {
 							[2]=99
 						}
 					},
-					text="{0}% chance to Scorch"
+					text="{0}%의 확률로 그을림"
 				},
 				[2]={
 					[1]={
@@ -3585,7 +3585,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Always Scorch"
+					text="항상 그을림"
 				}
 			}
 		},
@@ -3595,7 +3595,7 @@ return {
 	},
 	[130]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3603,7 +3603,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Chaos Damage"
+					text="카오스 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3616,7 +3616,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Chaos Damage"
+					text="카오스 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3626,7 +3626,7 @@ return {
 	},
 	[131]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3634,7 +3634,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Chill Duration on Enemies"
+					text="적에게 적용되는 냉각 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3647,7 +3647,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Chill Duration on Enemies"
+					text="적에게 적용되는 냉각 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -3657,7 +3657,7 @@ return {
 	},
 	[132]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3665,7 +3665,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Chill Effect on Enemies"
+					text="적에게 적용되는 냉각 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3678,7 +3678,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Chill Effect on Enemies"
+					text="적에게 적용되는 냉각 효과 {0}% 감소"
 				}
 			}
 		},
@@ -3688,7 +3688,7 @@ return {
 	},
 	[133]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3696,7 +3696,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mana Cost of your Skills while in Area"
+					text="범위 내에 있는 동안 스킬의 마나 소모 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3709,7 +3709,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mana Cost of your Skills while in Area"
+					text="범위 내에 있는 동안 스킬의 마나 소모 {0}% 감소"
 				}
 			}
 		},
@@ -3719,7 +3719,7 @@ return {
 	},
 	[134]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -3731,7 +3731,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Cold Ailments"
+					text="냉기 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3748,7 +3748,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Cold Ailments"
+					text="냉기 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -3758,7 +3758,7 @@ return {
 	},
 	[135]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3766,7 +3766,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0}% of Cold Damage as Extra Fire Damage"
+					text="냉기 피해의 {0}%를 추가 화염 피해로 획득"
 				}
 			}
 		},
@@ -3776,7 +3776,7 @@ return {
 	},
 	[136]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3784,7 +3784,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cold Damage"
+					text="냉기 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3797,7 +3797,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Cold Damage"
+					text="냉기 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3807,7 +3807,7 @@ return {
 	},
 	[137]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3815,7 +3815,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Consecrated Ground"
+					text="신성화 지대 효과 {0}% 증가"
 				}
 			}
 		},
@@ -3825,7 +3825,7 @@ return {
 	},
 	[138]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3833,7 +3833,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Consecrated Ground applies {0}% increased Damage taken to Enemies"
+					text="신성화 지대에 있는 적이 받는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3846,7 +3846,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Consecrated Ground applies {0}% reduced Damage taken to Enemies"
+					text="신성화 지대에 있는 적이 받는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3856,7 +3856,7 @@ return {
 	},
 	[139]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3864,7 +3864,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Consecrated Ground Area"
+					text="신성화 지대 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3877,7 +3877,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Consecrated Ground Area"
+					text="신성화 지대 범위 {0}% 감소"
 				}
 			}
 		},
@@ -3887,7 +3887,7 @@ return {
 	},
 	[140]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3895,7 +3895,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Spread when affected Enemy is Hit"
+					text="영향을 받는 적이 피격당하면 {0}%의 확률로 확산"
 				},
 				[2]={
 					limit={
@@ -3904,7 +3904,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spread when affected Enemy is Hit"
+					text="영향을 받는 적이 피격당하면 확산"
 				}
 			}
 		},
@@ -3914,7 +3914,7 @@ return {
 	},
 	[141]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3922,7 +3922,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Converted Enemies deal {0}% increased Damage"
+					text="전환된 적이 주는 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -3935,7 +3935,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Converted Enemies deal {0}% reduced Damage"
+					text="전환된 적이 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -3945,7 +3945,7 @@ return {
 	},
 	[142]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3953,7 +3953,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Converted Enemies have {0}% chance to Taunt on Hit"
+					text="적중 시 전환된 적이 {0}%의 확률로 도발"
 				},
 				[2]={
 					[1]={
@@ -3966,7 +3966,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Converted Enemies Taunt on Hit"
+					text="적중 시 전환된 적이 도발"
 				}
 			}
 		},
@@ -3976,7 +3976,7 @@ return {
 	},
 	[143]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -3984,7 +3984,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum of {0} Geysers at a time"
+					text="1회에 간헐천 최대치 {0}개"
 				}
 			}
 		},
@@ -3994,7 +3994,7 @@ return {
 	},
 	[144]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4002,7 +4002,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires Projectiles {0}% faster"
+					text="투사체 발사 {0}% 가속"
 				},
 				[2]={
 					[1]={
@@ -4015,7 +4015,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Fires Projectiles {0}% slower"
+					text="투사체 발사 {0}% 감속"
 				}
 			}
 		},
@@ -4025,7 +4025,7 @@ return {
 	},
 	[145]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4033,7 +4033,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d}% to Damage over Time Multiplier for Ailments from Critical Strikes"
+					text="치명타로 주는 상태 이상 지속 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -4043,7 +4043,7 @@ return {
 	},
 	[146]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4051,7 +4051,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{:+d}% to Critical Strike Multiplier per 100 Maximum Energy Shield on Shield"
+					text="방패의 에너지 보호막 최대치 100당 치명타 피해 배율 {:+d}%"
 				}
 			}
 		},
@@ -4061,7 +4061,7 @@ return {
 	},
 	[147]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4069,7 +4069,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Critical Strike Chance"
+					text="치명타 확률 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4082,7 +4082,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Critical Strike Chance"
+					text="치명타 확률 {0}% 감소"
 				}
 			}
 		},
@@ -4092,7 +4092,7 @@ return {
 	},
 	[148]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4100,7 +4100,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Movement Speed while at maximum Stages"
+					text="최대 단계일 때 이동 속도 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -4113,7 +4113,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Movement Speed while at maximum Stages"
+					text="최대 단계일 때 이동 속도 {0}% 감폭"
 				}
 			}
 		},
@@ -4123,7 +4123,7 @@ return {
 	},
 	[149]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4131,7 +4131,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage over Time"
+					text="지속 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4144,7 +4144,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage over Time"
+					text="지속 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4154,7 +4154,7 @@ return {
 	},
 	[150]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4162,7 +4162,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage"
+					text="피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4175,7 +4175,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage"
+					text="피해 {0}% 감소"
 				}
 			}
 		},
@@ -4185,7 +4185,7 @@ return {
 	},
 	[151]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4193,7 +4193,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage per Endurance Charge"
+					text="인내 충전 하나당 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4206,7 +4206,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage per Endurance Charge"
+					text="인내 충전 하나당 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4216,7 +4216,7 @@ return {
 	},
 	[152]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4224,7 +4224,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage per Frenzy Charge"
+					text="격분 충전 하나당 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4237,7 +4237,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage per Frenzy Charge"
+					text="격분 충전 하나당 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4247,7 +4247,7 @@ return {
 	},
 	[153]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4255,7 +4255,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage per Power Charge"
+					text="권능 충전 하나당 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4268,7 +4268,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage per Power Charge"
+					text="권능 충전 하나당 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4278,7 +4278,7 @@ return {
 	},
 	[154]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4286,7 +4286,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Ailments against Enemies that are on Full Life"
+					text="생명력이 최대인 적에 대한 적중 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4299,7 +4299,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Ailments against Enemies that are on Full Life"
+					text="생명력이 최대인 적에 대한 적중 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4309,7 +4309,7 @@ return {
 	},
 	[155]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4321,7 +4321,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Ailments per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4338,7 +4338,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Ailments  per Freeze, Shock or Ignite on Enemy"
+					text="적에게 유발된 동결, 감전 또는 점화 하나당 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4348,7 +4348,7 @@ return {
 	},
 	[156]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4356,7 +4356,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits against Frozen Enemies"
+					text="동결된 적 명중 시 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4369,7 +4369,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits against Frozen Enemies"
+					text="동결된 적 명중 시 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4379,7 +4379,7 @@ return {
 	},
 	[157]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4387,7 +4387,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4400,7 +4400,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage while on Full Energy Shield"
+					text="에너지 보호막이 최대일 때 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4410,7 +4410,7 @@ return {
 	},
 	[158]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4418,7 +4418,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage when on Full Life"
+					text="생명력이 최대일 때 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4431,7 +4431,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage when on Full Life"
+					text="생명력이 최대일 때 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4441,7 +4441,7 @@ return {
 	},
 	[159]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4453,7 +4453,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage when on Low Life"
+					text="낮은 생명력 상태일 때 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4470,7 +4470,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage when on Low Life"
+					text="낮은 생명력 상태일 때 적에게 주는 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4480,7 +4480,7 @@ return {
 	},
 	[160]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4488,7 +4488,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Ailments"
+					text="적중 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4501,7 +4501,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Ailments"
+					text="적중 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4511,7 +4511,7 @@ return {
 	},
 	[161]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4523,7 +4523,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 적중 피해 및 상태 이상 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4540,7 +4540,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits and Ailments per Curse on Enemy"
+					text="적에게 걸린 저주 하나당 적중 피해 및 상태 이상 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4550,7 +4550,7 @@ return {
 	},
 	[162]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4558,7 +4558,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits against Enemies that are on Low Life"
+					text="낮은 생명력 상태의 적 적중 시 피해 {0}% 증가"
 				}
 			}
 		},
@@ -4568,7 +4568,7 @@ return {
 	},
 	[163]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_1dp",
@@ -4580,7 +4580,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Grants Phasing for {0} seconds"
+					text="{0}초 동안 차원 능력 부여"
 				}
 			}
 		},
@@ -4590,7 +4590,7 @@ return {
 	},
 	[164]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -4602,7 +4602,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell loses 1 Intensity every 0.25 seconds while moving, or immediately if you teleport"
+					text="이동 중인 경우 이 주문이 0.25초마다 격렬함 1 상실, 순간이동할 경우에는 즉시 상실"
 				}
 			}
 		},
@@ -4612,7 +4612,7 @@ return {
 	},
 	[165]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4620,7 +4620,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Increases and Reductions to Cast Speed also apply to Projectile Frequency"
+					text="시전 속도 증가 및 감소가 투사체 빈도에도 적용"
 				}
 			}
 		},
@@ -4630,7 +4630,7 @@ return {
 	},
 	[166]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4638,7 +4638,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Damages {0} nearby Enemies when you gain Stages"
+					text="단계 획득 시 주변의 적 {0}명에게 피해"
 				}
 			}
 		},
@@ -4648,7 +4648,7 @@ return {
 	},
 	[167]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4656,7 +4656,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0:+d}% to Damage over Time Multiplier"
+					text="지속 피해 배율 {0:+d}%"
 				}
 			}
 		},
@@ -4666,7 +4666,7 @@ return {
 	},
 	[168]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4674,7 +4674,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Elemental Damage"
+					text="원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4687,7 +4687,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Elemental Damage"
+					text="원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4697,7 +4697,7 @@ return {
 	},
 	[169]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4709,7 +4709,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Overwhelm {0}% Physical Damage Reduction"
+					text="물리 피해의 {0}% 압도"
 				}
 			}
 		},
@@ -4719,7 +4719,7 @@ return {
 	},
 	[170]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4731,7 +4731,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Leaves a Lingering Blade in the ground for every Projectile fired"
+					text="발사한 투사체 1개당 지면에 지속되는 칼날 1개 남김"
 				},
 				[2]={
 					[1]={
@@ -4744,7 +4744,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Leaves a Lingering Blade in the ground for every {0} Projectiles fired"
+					text="발사한 투사체 {0}개당 지면에 지속되는 칼날 1개 남김"
 				}
 			}
 		},
@@ -4754,7 +4754,7 @@ return {
 	},
 	[171]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4766,7 +4766,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Bleeding you inflict deals Damage {0}% faster"
+					text="플레이어가 유발한 출혈이 피해 {0}% 가속"
 				}
 			}
 		},
@@ -4776,7 +4776,7 @@ return {
 	},
 	[172]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4788,7 +4788,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Ignites you inflict deal Damage {0}% faster"
+					text="플레이어가 유발한 점화가 피해 {0}% 가속"
 				},
 				[2]={
 					[1]={
@@ -4801,7 +4801,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Ignites you inflict deal Damage {0}% slower"
+					text="플레이어가 유발한 점화가 피해 {0}% 감속"
 				}
 			}
 		},
@@ -4811,7 +4811,7 @@ return {
 	},
 	[173]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -4827,7 +4827,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Poisons you inflict deal Damage {0}% faster"
+					text="플레이어가 유발한 중독이 피해 {0}% 가속"
 				}
 			}
 		},
@@ -4837,7 +4837,7 @@ return {
 	},
 	[174]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4845,7 +4845,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Fire Damage"
+					text="화염 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4858,7 +4858,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Fire Damage"
+					text="화염 피해 {0}% 감소"
 				}
 			}
 		},
@@ -4868,7 +4868,7 @@ return {
 	},
 	[175]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4876,7 +4876,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased explosion Area of Effect"
+					text="폭발 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4889,7 +4889,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced explosion Area of Effect"
+					text="폭발 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -4899,7 +4899,7 @@ return {
 	},
 	[176]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4911,7 +4911,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target gains {0} to {1} Added Fire Damage"
+					text="연결된 대상이 화염 피해 {0}~{1} 추가 획득"
 				}
 			}
 		},
@@ -4922,7 +4922,7 @@ return {
 	},
 	[177]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4930,7 +4930,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Linked target gains Added Fire Damage equal to {0}% of your Maximum Life"
+					text="연결된 대상이 플레이어의 최대 생명력의 {0}%와 동일한 화염 피해를 줌"
 				}
 			}
 		},
@@ -4940,7 +4940,7 @@ return {
 	},
 	[178]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4948,7 +4948,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Fortification Duration"
+					text="방어 상승 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4961,7 +4961,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Fortification Duration"
+					text="방어 상승 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -4971,7 +4971,7 @@ return {
 	},
 	[179]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -4979,7 +4979,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Freeze Duration on Enemies"
+					text="적에게 적용되는 동결 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -4992,7 +4992,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Freeze Duration on Enemies"
+					text="적에게 적용되는 동결 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -5002,7 +5002,7 @@ return {
 	},
 	[180]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5010,7 +5010,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires Beams with {0}% increased Frequency"
+					text="{0}% 증가한 빈도로 광선 발사"
 				},
 				[2]={
 					limit={
@@ -5019,7 +5019,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Fires Beams with {0}% reduced Frequency"
+					text="{0}% 감소한 빈도로 광선 발사"
 				}
 			}
 		},
@@ -5029,7 +5029,7 @@ return {
 	},
 	[181]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5041,7 +5041,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Blind enemies on hit"
+					text="명중 시 {0}%의 확률로 적 실명 유발"
 				}
 			}
 		},
@@ -5051,7 +5051,7 @@ return {
 	},
 	[182]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5063,7 +5063,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Chaos Damage"
+					text="카오스 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -5074,7 +5074,7 @@ return {
 	},
 	[183]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5086,7 +5086,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Cold Damage"
+					text="냉기 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -5097,7 +5097,7 @@ return {
 	},
 	[184]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5109,7 +5109,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Fire Damage"
+					text="화염 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -5120,7 +5120,7 @@ return {
 	},
 	[185]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5132,7 +5132,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Lightning Damage"
+					text="번개 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -5143,7 +5143,7 @@ return {
 	},
 	[186]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5155,7 +5155,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Adds {0} to {1} Physical Damage"
+					text="물리 피해 {0}~{1} 추가"
 				}
 			}
 		},
@@ -5166,7 +5166,7 @@ return {
 	},
 	[187]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5174,7 +5174,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% reduced Enemy Block Chance"
+					text="적 막기 확률 {0}% 감소"
 				}
 			}
 		},
@@ -5184,7 +5184,7 @@ return {
 	},
 	[188]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5192,7 +5192,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Buff Effect"
+					text="버프 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5205,7 +5205,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Buff Effect"
+					text="버프 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5215,7 +5215,7 @@ return {
 	},
 	[189]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -5227,7 +5227,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Storm Hits an Enemy every {0} Seconds"
+					text="태풍이 {0}초마다 적 명중"
 				}
 			}
 		},
@@ -5237,7 +5237,7 @@ return {
 	},
 	[190]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5245,7 +5245,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Damage with Hits"
+					text="명중 시 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5258,7 +5258,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Damage with Hits"
+					text="명중 시 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5268,7 +5268,7 @@ return {
 	},
 	[191]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -5280,7 +5280,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Pulses every {0} seconds while Frozen, Shocked, Brittle or Sapped"
+					text="동결, 감전, 허약, 활력 감소 상태인 동안 {0}초마다 파동"
 				}
 			}
 		},
@@ -5290,7 +5290,7 @@ return {
 	},
 	[192]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5298,7 +5298,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Pulse Frequency"
+					text="파동 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5311,7 +5311,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Pulse Frequency"
+					text="파동 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -5321,7 +5321,7 @@ return {
 	},
 	[193]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5329,7 +5329,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Ignite Duration on Enemies"
+					text="적에게 적용되는 점화 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5342,7 +5342,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Ignite Duration on Enemies"
+					text="적에게 적용되는 점화 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -5352,7 +5352,7 @@ return {
 	},
 	[194]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5360,7 +5360,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Loses Intensity with {0}% increased frequency while moving"
+					text="이동 중 격렬함 상실 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5373,7 +5373,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Loses Intensity with {0}% reduced frequency while moving"
+					text="이동 중 격렬함 상실 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -5383,7 +5383,7 @@ return {
 	},
 	[195]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5391,7 +5391,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectile changes direction {0} times"
+					text="투사체 방향 전환 {0}회"
 				}
 			}
 		},
@@ -5401,7 +5401,7 @@ return {
 	},
 	[196]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5409,7 +5409,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Knockback Distance"
+					text="밀어내기 거리 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5422,7 +5422,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Knockback Distance"
+					text="밀어내기 거리 {0}% 감소"
 				}
 			}
 		},
@@ -5432,7 +5432,7 @@ return {
 	},
 	[197]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5448,7 +5448,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Damage Leeched as Life"
+					text="피해의 {0}%를 생명력으로 흡수"
 				}
 			}
 		},
@@ -5458,7 +5458,7 @@ return {
 	},
 	[198]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5470,7 +5470,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Lightning Ailments"
+					text="번개 상태 이상 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5487,7 +5487,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Lightning Ailments"
+					text="번개 상태 이상 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5497,7 +5497,7 @@ return {
 	},
 	[199]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5505,7 +5505,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0}% of Lightning Damage as Extra Chaos Damage"
+					text="번개 피해의 {0}%를 추가 카오스 피해로 획득"
 				}
 			}
 		},
@@ -5515,7 +5515,7 @@ return {
 	},
 	[200]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5523,7 +5523,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Lightning Damage"
+					text="번개 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5536,7 +5536,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Lightning Damage"
+					text="번개 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5546,7 +5546,7 @@ return {
 	},
 	[201]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -5558,7 +5558,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strikes every {0} seconds"
+					text="{0}초마다 타격"
 				}
 			}
 		},
@@ -5568,7 +5568,7 @@ return {
 	},
 	[202]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5576,7 +5576,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% chance to Detonate for Double Damage instead of Chaining"
+					text="연쇄되지 않는 대신 {0}%의 확률로 폭발하여 2배의 피해를 줌"
 				}
 			}
 		},
@@ -5586,7 +5586,7 @@ return {
 	},
 	[203]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5594,7 +5594,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Effect of Maim"
+					text="힘줄 절단 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5607,7 +5607,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Effect of Maim"
+					text="힘줄 절단 효과 {0}% 감소"
 				}
 			}
 		},
@@ -5617,7 +5617,7 @@ return {
 	},
 	[204]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5625,7 +5625,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0} Mana per Enemy Hit"
+					text="명중한 적 하나당 마나 {0} 획득"
 				},
 				[2]={
 					[1]={
@@ -5638,7 +5638,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Lose {0} Mana per Enemy Hit"
+					text="명중한 적 하나당 마나 {0} 상실"
 				}
 			}
 		},
@@ -5648,7 +5648,7 @@ return {
 	},
 	[205]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred",
@@ -5664,7 +5664,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Damage Leeched as Mana"
+					text="피해의 {0}%를 마나로 흡수"
 				}
 			}
 		},
@@ -5674,7 +5674,7 @@ return {
 	},
 	[206]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5682,7 +5682,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Maximum Recovery per Energy Shield Leech"
+					text="에너지 보호막 흡수당 회복량 최대치 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5695,7 +5695,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Maximum Recovery per Energy Shield Leech"
+					text="에너지 보호막 흡수당 회복량 최대치 {0}% 감소"
 				}
 			}
 		},
@@ -5705,7 +5705,7 @@ return {
 	},
 	[207]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5713,7 +5713,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Maximum Recovery per Life Leech"
+					text="생명력 흡수당 회복량 최대치 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5726,7 +5726,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Maximum Recovery per Life Leech"
+					text="생명력 흡수당 회복량 최대치 {0}% 감소"
 				}
 			}
 		},
@@ -5736,7 +5736,7 @@ return {
 	},
 	[208]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="reminderstring",
@@ -5748,7 +5748,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Corpses Spawned have {0}% increased Maximum Life"
+					text="생성된 시신의 최대 생명력 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5765,7 +5765,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Corpses Spawned have {0}% reduced Maximum Life"
+					text="생성된 시신의 최대 생명력 {0}% 감소"
 				}
 			}
 		},
@@ -5775,7 +5775,7 @@ return {
 	},
 	[209]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5783,7 +5783,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Melee Strikes target {0} additional nearby Enemy"
+					text="근접 타격이 주변 적 {0}명을 추가 대상으로 삼음"
 				},
 				[2]={
 					limit={
@@ -5792,7 +5792,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Melee Strikes target {0} additional nearby Enemies"
+					text="근접 타격이 주변 적 {0}명을 추가 대상으로 삼음"
 				}
 			}
 		},
@@ -5802,7 +5802,7 @@ return {
 	},
 	[210]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5810,7 +5810,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Melee Damage"
+					text="근접 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5823,7 +5823,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Melee Damage"
+					text="근접 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5833,7 +5833,7 @@ return {
 	},
 	[211]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5841,7 +5841,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Melee Damage against Bleeding Enemies"
+					text="출혈 중인 적에 대한 근접 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5854,7 +5854,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Melee Damage against Bleeding Enemies"
+					text="출혈 중인 적에 대한 근접 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5864,7 +5864,7 @@ return {
 	},
 	[212]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5872,7 +5872,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Melee Physical Damage"
+					text="근접 물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5885,7 +5885,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Melee Physical Damage"
+					text="근접 물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -5895,7 +5895,7 @@ return {
 	},
 	[213]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5903,7 +5903,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mine Detonation Area of Effect"
+					text="지뢰 폭파 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5916,7 +5916,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mine Detonation Area of Effect"
+					text="지뢰 폭파 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -5926,7 +5926,7 @@ return {
 	},
 	[214]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5934,7 +5934,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Mines have {0}% increased Detonation Speed"
+					text="지뢰의 폭파 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5947,7 +5947,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Mines have {0}% reduced Detonation Speed"
+					text="지뢰의 폭파 속도 {0}% 감소"
 				}
 			}
 		},
@@ -5957,7 +5957,7 @@ return {
 	},
 	[215]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5965,7 +5965,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mine duration"
+					text="지뢰 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -5978,7 +5978,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mine duration"
+					text="지뢰 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -5988,7 +5988,7 @@ return {
 	},
 	[216]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -5996,7 +5996,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Mine Throwing Speed"
+					text="지뢰 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6009,7 +6009,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Mine Throwing Speed"
+					text="지뢰 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6019,7 +6019,7 @@ return {
 	},
 	[217]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6027,7 +6027,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Minions have {0}% chance to deal Double Damage"
+					text="소환수가 {0}%의 확률로 2배의 피해를 줌"
 				}
 			}
 		},
@@ -6037,7 +6037,7 @@ return {
 	},
 	[218]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6045,7 +6045,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Modifiers to number of Projectiles instead apply to\nthe number of targets Projectile Splits towards"
+					text="속성 부여 효과를 투사체 수 대신\n투사체가 분할되는 대상 수에 적용"
 				}
 			}
 		},
@@ -6055,7 +6055,7 @@ return {
 	},
 	[219]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6063,7 +6063,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Aura effect"
+					text="오라 효과 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6076,7 +6076,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Aura effect"
+					text="오라 효과 {0}% 감소"
 				}
 			}
 		},
@@ -6086,7 +6086,7 @@ return {
 	},
 	[220]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6094,7 +6094,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Fires an additional Projectile"
+					text="투사체 1개 추가 발사"
 				},
 				[2]={
 					limit={
@@ -6103,7 +6103,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0} additional Projectiles"
+					text="투사체 {0}개 추가 발사"
 				}
 			}
 		},
@@ -6113,7 +6113,7 @@ return {
 	},
 	[221]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6121,7 +6121,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Chains {0:+d} Times"
+					text="연쇄 {0:+d}회"
 				}
 			}
 		},
@@ -6131,7 +6131,7 @@ return {
 	},
 	[222]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6139,7 +6139,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have up to {0} additional Remote Mine placed at a time"
+					text="한 번에 원격 지뢰 최대 {0}개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -6148,7 +6148,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have up to {0} additional Remote Mines placed at a time"
+					text="한 번에 원격 지뢰 최대 {0}개 추가 설치"
 				}
 			}
 		},
@@ -6158,7 +6158,7 @@ return {
 	},
 	[223]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6166,7 +6166,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Can have up to {0} additional Trap placed at a time"
+					text="한 번에 덫 최대 {0}개 추가 설치"
 				},
 				[2]={
 					limit={
@@ -6175,7 +6175,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Can have up to {0} additional Traps placed at a time"
+					text="한 번에 덫 최대 {0}개 추가 설치"
 				}
 			}
 		},
@@ -6185,7 +6185,7 @@ return {
 	},
 	[224]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6193,7 +6193,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Throw up to 1 additional Trap"
+					text="덫 최대 1개 추가 투척"
 				},
 				[2]={
 					limit={
@@ -6202,7 +6202,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Throw up to {0} additional Traps"
+					text="덫 최대 {0}개 추가 투척"
 				}
 			}
 		},
@@ -6212,7 +6212,7 @@ return {
 	},
 	[225]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6220,7 +6220,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Animated Weapon"
+					text="기동된 무기 최대 {0}개"
 				},
 				[2]={
 					limit={
@@ -6229,7 +6229,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Animated Weapons"
+					text="기동된 무기 최대 {0}개"
 				}
 			}
 		},
@@ -6239,7 +6239,7 @@ return {
 	},
 	[226]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6247,7 +6247,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0}% more Projectiles per Steel Shard consumed"
+					text="소모한 강철 조각 하나당 발사되는 투사체 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6260,7 +6260,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="Fires {0}% less Projectiles per Steel Shard consumed"
+					text="소모한 강철 조각 하나당 발사되는 투사체 {0}% 감폭"
 				}
 			}
 		},
@@ -6270,7 +6270,7 @@ return {
 	},
 	[227]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6278,7 +6278,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Maximum {0} Summoned Reaper"
+					text="소환된 수확자 최대 {0}마리"
 				},
 				[2]={
 					limit={
@@ -6287,7 +6287,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum {0} Summoned Reapers"
+					text="소환된 수확자 최대 {0}마리"
 				}
 			}
 		},
@@ -6297,7 +6297,7 @@ return {
 	},
 	[228]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -6309,7 +6309,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Strikes every {0} second, and when you use a Lightning Skill near the Orb"
+					text="{0}초마다, 그리고 플레이어가 구슬 근처에서 번개 스킬을 사용할 때 타격"
 				},
 				[2]={
 					[1]={
@@ -6322,7 +6322,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strikes every {0} seconds, and when you use a Lightning Skill near the Orb"
+					text="{0}초마다, 그리고 플레이어가 구슬 근처에서 번개 스킬을 사용할 때 타격"
 				}
 			}
 		},
@@ -6332,7 +6332,7 @@ return {
 	},
 	[229]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -6344,7 +6344,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Strikes every {0} second while Channelling a Lightning Skill near the Orb"
+					text="구슬 근처에서 번개 스킬을 집중 유지하는 동안 {0}초마다 타격"
 				},
 				[2]={
 					[1]={
@@ -6357,7 +6357,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strikes every {0} seconds while Channelling a Lightning Skill near the Orb"
+					text="구슬 근처에서 번개 스킬을 집중 유지하는 동안 {0}초마다 타격"
 				}
 			}
 		},
@@ -6367,7 +6367,7 @@ return {
 	},
 	[230]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds",
@@ -6379,7 +6379,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Releases waves every {0} seconds"
+					text="{0}초마다 파도 방출"
 				}
 			}
 		},
@@ -6389,7 +6389,7 @@ return {
 	},
 	[231]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6397,7 +6397,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0}% of Physical Damage as Extra Fire Damage"
+					text="물리 피해의 {0}%를 추가 화염 피해로 획득"
 				}
 			}
 		},
@@ -6407,7 +6407,7 @@ return {
 	},
 	[232]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6415,7 +6415,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Gain {0}% of Physical Damage as Extra Lightning Damage"
+					text="물리 피해의 {0}%를 추가 번개 피해로 획득"
 				}
 			}
 		},
@@ -6425,7 +6425,7 @@ return {
 	},
 	[233]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6433,7 +6433,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Physical Damage"
+					text="물리 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6446,7 +6446,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Physical Damage"
+					text="물리 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6456,7 +6456,7 @@ return {
 	},
 	[234]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6464,7 +6464,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Cooldown Recovery Rate for throwing Traps"
+					text="덫 투척 재사용 대기시간 회복 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6477,7 +6477,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Cooldown Recovery Rate for throwing Traps"
+					text="덫 투척 재사용 대기시간 회복 속도 {0}% 감소"
 				}
 			}
 		},
@@ -6487,7 +6487,7 @@ return {
 	},
 	[235]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6495,7 +6495,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="You and nearby Allies have {0}% more Area of Effect"
+					text="자신 및 주변 동료들의 효과 범위 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -6508,7 +6508,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="You and nearby Allies have {0}% less Area of Effect"
+					text="자신 및 주변 동료들의 효과 범위 {0}% 감폭"
 				}
 			}
 		},
@@ -6518,7 +6518,7 @@ return {
 	},
 	[236]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6526,7 +6526,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Primary Projectile Chains {0:+d} Time"
+					text="주 투사체 연쇄 {0:+d}회"
 				},
 				[2]={
 					limit={
@@ -6535,7 +6535,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Primary Projectile Chains {0:+d} Times"
+					text="주 투사체 연쇄 {0:+d}회"
 				}
 			}
 		},
@@ -6545,7 +6545,7 @@ return {
 	},
 	[237]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -6557,7 +6557,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Arrows fire Beams every {0} second"
+					text="화살이 {0}초마다 광선 발사"
 				},
 				[2]={
 					[1]={
@@ -6570,7 +6570,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Arrows fire Beams every {0} seconds"
+					text="화살이 {0}초마다 광선 발사"
 				}
 			}
 		},
@@ -6580,7 +6580,7 @@ return {
 	},
 	[238]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6588,7 +6588,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Projectiles Pierce an additional Target"
+					text="투사체가 대상을 추가 관통"
 				},
 				[2]={
 					limit={
@@ -6597,7 +6597,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Pierce {0} additional Targets"
+					text="투사체가 대상 {0}개를 추가 관통"
 				}
 			}
 		},
@@ -6607,7 +6607,7 @@ return {
 	},
 	[239]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6615,7 +6615,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Projectile Damage"
+					text="투사체 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6628,7 +6628,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Projectile Damage"
+					text="투사체 피해 {0}% 감소"
 				}
 			}
 		},
@@ -6638,7 +6638,7 @@ return {
 	},
 	[240]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6646,7 +6646,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Split towards {0} targets"
+					text="투사체가 대상 {0}를 향해 분할"
 				}
 			}
 		},
@@ -6656,7 +6656,7 @@ return {
 	},
 	[241]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6664,7 +6664,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Fork"
+					text="투사체 갈라짐"
 				}
 			}
 		},
@@ -6674,7 +6674,7 @@ return {
 	},
 	[242]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6686,7 +6686,7 @@ return {
 							[2]=99
 						}
 					},
-					text="Projectiles have {1}% chance to Return to you"
+					text="투사체가 {1}%의 확률로 자신에게 돌아옴"
 				},
 				[2]={
 					limit={
@@ -6699,7 +6699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Return to you"
+					text="투사체가 자신에게 돌아옴"
 				},
 				[3]={
 					limit={
@@ -6712,7 +6712,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles Return to you"
+					text="투사체가 자신에게 돌아옴"
 				}
 			}
 		},
@@ -6723,7 +6723,7 @@ return {
 	},
 	[243]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6735,7 +6735,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Damage from Hits is taken from the Buff before your Life or Energy Shield\nBuff can take {1} Damage"
+					text="피격 시 피해의 {0}%가 생명력이나 에너지 보호막보다 버프에 먼저 적용\n버프의 피해 방어량 {1}"
 				}
 			}
 		},
@@ -6746,7 +6746,7 @@ return {
 	},
 	[244]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6754,7 +6754,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Fires an additional sequence of arrows"
+					text="추가 연속 화살 1회 발사"
 				},
 				[2]={
 					limit={
@@ -6763,7 +6763,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0} additional sequences of arrows"
+					text="추가 연속 화살 {0}회 발사"
 				}
 			}
 		},
@@ -6773,7 +6773,7 @@ return {
 	},
 	[245]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6781,7 +6781,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="+{0} to maximum Stages"
+					text="최대 단계 +{0}"
 				}
 			}
 		},
@@ -6791,7 +6791,7 @@ return {
 	},
 	[246]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6799,7 +6799,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Penetrates {0}% Chaos Resistance"
+					text="카오스 저항 {0}% 관통"
 				}
 			}
 		},
@@ -6809,7 +6809,7 @@ return {
 	},
 	[247]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6817,7 +6817,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% reduced Enemy chance to Dodge"
+					text="적 완벽회피 확률{0}% 감소"
 				}
 			}
 		},
@@ -6827,7 +6827,7 @@ return {
 	},
 	[248]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6835,7 +6835,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Regenerate {0} Life over 1 second"
+					text="1초 동안 생명력 {0} 재생"
 				}
 			}
 		},
@@ -6845,7 +6845,7 @@ return {
 	},
 	[249]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6853,7 +6853,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Secondary Duration"
+					text="2차 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6866,7 +6866,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Secondary Duration"
+					text="2차 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -6876,7 +6876,7 @@ return {
 	},
 	[250]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6884,7 +6884,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased wave frequency"
+					text="파도 빈도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6897,7 +6897,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced wave frequency"
+					text="파도 빈도 {0}% 감소"
 				}
 			}
 		},
@@ -6907,7 +6907,7 @@ return {
 	},
 	[251]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6915,7 +6915,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Shock Duration on Enemies"
+					text="적에게 적용되는 감전 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -6928,7 +6928,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Shock Duration on Enemies"
+					text="적에게 적용되는 감전 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -6938,7 +6938,7 @@ return {
 	},
 	[252]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6946,7 +6946,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% of your maximum Energy Shield as base Chaos Damage"
+					text="에너지 보호막 최대치의 {0}%를 기본 카오스 피해로 줌"
 				}
 			}
 		},
@@ -6956,7 +6956,7 @@ return {
 	},
 	[253]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6964,7 +6964,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Deals {0}% of your maximum Life as base Chaos Damage"
+					text="최대 생명력의 {0}%를 기본 카오스 피해로 줌"
 				}
 			}
 		},
@@ -6974,7 +6974,7 @@ return {
 	},
 	[254]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -6982,7 +6982,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Cold Damage Converted to Fire Damage"
+					text="냉기 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -6992,7 +6992,7 @@ return {
 	},
 	[255]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7000,7 +7000,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Fire Damage Converted to Chaos Damage"
+					text="화염 피해의 {0}%를 카오스 피해로 전환"
 				}
 			}
 		},
@@ -7010,7 +7010,7 @@ return {
 	},
 	[256]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7018,7 +7018,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Lightning Damage Converted to Chaos Damage"
+					text="번개 피해의 {0}%를 카오스 피해로 전환"
 				}
 			}
 		},
@@ -7028,7 +7028,7 @@ return {
 	},
 	[257]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7036,7 +7036,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Physical Damage Converted to Chaos Damage"
+					text="물리 피해의 {0}%를 카오스 피해로 전환"
 				}
 			}
 		},
@@ -7046,7 +7046,7 @@ return {
 	},
 	[258]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7058,7 +7058,7 @@ return {
 							[2]=0
 						}
 					},
-					text="{0}% of Physical Damage Converted to Cold Damage"
+					text="물리 피해의 {0}%를 냉기 피해로 전환"
 				}
 			}
 		},
@@ -7069,7 +7069,7 @@ return {
 	},
 	[259]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7077,7 +7077,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% of Physical Damage Converted to Fire Damage"
+					text="물리 피해의 {0}%를 화염 피해로 전환"
 				}
 			}
 		},
@@ -7087,7 +7087,7 @@ return {
 	},
 	[260]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7095,7 +7095,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{}% chance to Fire a caught Projectile when Hit"
+					text="피격 시 {}%의 확률로 붙잡은 투사체를 발사"
 				}
 			}
 		},
@@ -7105,7 +7105,7 @@ return {
 	},
 	[261]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7117,7 +7117,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Take {0}% of maximum Life and {1}% of maximum Energy Shield as Chaos Damage"
+					text="최대 생명력의 {0}%와 에너지 보호막 최대치의 {1}%를 카오스 피해로 받음"
 				}
 			}
 		},
@@ -7128,7 +7128,7 @@ return {
 	},
 	[262]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7136,7 +7136,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Bounces up to {0} time\nModifiers to number of Projectiles instead apply to the number of Bounces"
+					text="최대 {0}번 튕김\n속성 부여를 투사체 개수 대신 튕기는 횟수에 적용"
 				},
 				[2]={
 					limit={
@@ -7145,7 +7145,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Bounces up to {0} times\nModifiers to number of Projectiles instead apply to the number of Bounces"
+					text="최대 {0}번 튕김\n속성 부여를 투사체 개수 대신 튕기는 횟수에 적용"
 				}
 			}
 		},
@@ -7155,7 +7155,7 @@ return {
 	},
 	[263]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp_if_required",
@@ -7167,7 +7167,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell's Cast Time is added to its Cooldown if Triggered"
+					text="발동 시 이 주문의 시전 시간이 재사용 대기시간에 추가됨"
 				}
 			}
 		},
@@ -7177,7 +7177,7 @@ return {
 	},
 	[264]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7185,7 +7185,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Spell Damage"
+					text="주문 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7198,7 +7198,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Spell Damage"
+					text="주문 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7208,7 +7208,7 @@ return {
 	},
 	[265]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7216,7 +7216,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0} maximum Beam Targets"
+					text="최대 광선 대상 {0}개"
 				}
 			}
 		},
@@ -7226,7 +7226,7 @@ return {
 	},
 	[266]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7246,7 +7246,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Energy Blades have minimum Lightning Damage equal to {2}% of Energy Shield, plus {0}\nEnergy Blades have maximum Lightning Damage equal to {3}% of Energy Shield, plus {1}"
+					text="에너지 칼날의 최소 번개 피해가 에너지 보호막의 {2}%+{0}\n에너지 칼날의 최대 번개 피해가 에너지 보호막의 {3}%+{1}"
 				}
 			}
 		},
@@ -7259,7 +7259,7 @@ return {
 	},
 	[267]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7267,7 +7267,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Two Handed Energy Blades have {0}% more Lightning Damage"
+					text="양손 에너지 칼날의 번개 피해 {0}% 증폭"
 				}
 			}
 		},
@@ -7277,7 +7277,7 @@ return {
 	},
 	[268]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7285,7 +7285,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="This Spell gains Intensity when you Cast it, to a maximum of 3"
+					text="이 주문 시전 시 격렬함 획득, 최대 3 획득"
 				}
 			}
 		},
@@ -7295,7 +7295,7 @@ return {
 	},
 	[269]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7303,7 +7303,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% more Trap Damage"
+					text="덫 피해 {0}% 증폭"
 				},
 				[2]={
 					[1]={
@@ -7316,7 +7316,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% less Trap Damage"
+					text="덫 피해 {0}% 감폭"
 				}
 			}
 		},
@@ -7326,7 +7326,7 @@ return {
 	},
 	[270]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7334,7 +7334,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased initial Duration"
+					text="초기 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7347,7 +7347,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced initial Duration"
+					text="초기 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -7357,7 +7357,7 @@ return {
 	},
 	[271]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7365,7 +7365,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Fires {0} secondary Projectile"
+					text="부가 투사체 {0}개 발사"
 				},
 				[2]={
 					limit={
@@ -7374,7 +7374,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Fires {0} secondary Projectiles"
+					text="부가 투사체 {0}개 발사"
 				}
 			}
 		},
@@ -7384,7 +7384,7 @@ return {
 	},
 	[272]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7392,7 +7392,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems Explode on Death, dealing {0}% of their Life as Physical Damage"
+					text="토템이 파괴되면 폭발하여, 최대 생명력의 {0}%를 물리 피해로 줌"
 				}
 			}
 		},
@@ -7402,7 +7402,7 @@ return {
 	},
 	[273]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="per_minute_to_per_second",
@@ -7414,7 +7414,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Totems Regenerate {0}% of Life per second"
+					text="토템이 1초마다 생명력의 {0}% 재생"
 				}
 			}
 		},
@@ -7424,7 +7424,7 @@ return {
 	},
 	[274]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7432,7 +7432,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Trap Damage"
+					text="덫 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7445,7 +7445,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Trap Damage"
+					text="덫 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7455,7 +7455,7 @@ return {
 	},
 	[275]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7463,7 +7463,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Trap duration"
+					text="덫 지속시간 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7476,7 +7476,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Trap duration"
+					text="덫 지속시간 {0}% 감소"
 				}
 			}
 		},
@@ -7486,7 +7486,7 @@ return {
 	},
 	[276]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7494,7 +7494,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Trap Throwing Speed"
+					text="덫 투척 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7507,7 +7507,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Trap Throwing Speed"
+					text="덫 투척 속도 {0}% 감소"
 				}
 			}
 		},
@@ -7517,7 +7517,7 @@ return {
 	},
 	[277]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7525,7 +7525,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Trap Trigger Area of Effect"
+					text="덫 발동 효과 범위 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7538,7 +7538,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Trap Trigger Area of Effect"
+					text="덫 발동 효과 범위 {0}% 감소"
 				}
 			}
 		},
@@ -7548,7 +7548,7 @@ return {
 	},
 	[278]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7556,7 +7556,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Spawns corpses with Level {0}"
+					text="{0}레벨 시신 생성"
 				}
 			}
 		},
@@ -7566,7 +7566,7 @@ return {
 	},
 	[279]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7574,7 +7574,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Projectiles change direction {0} time\nProjectiles can Hit targets each time they change direction"
+					text="투사체가 {0}회 방향 전환\n투사체가 방향을 바꿀 때마다 대상 명중 가능"
 				},
 				[2]={
 					limit={
@@ -7583,7 +7583,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Projectiles change direction {0} times\nProjectiles can Hit targets each time they change direction"
+					text="투사체가 {0}회 방향 전환\n투사체가 방향을 바꿀 때마다 대상 명중 가능"
 				}
 			}
 		},
@@ -7593,7 +7593,7 @@ return {
 	},
 	[280]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7601,7 +7601,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Modifiers which would cause Projectiles to Fork or\nChain instead cause them to change direction additional times"
+					text="투사체가 갈래로 나뉘게 하거나 연쇄를 일으키게 하는\n속성의 효과가 투사체의 방향 전환 횟수 추가 효과로 대체"
 				}
 			}
 		},
@@ -7611,7 +7611,7 @@ return {
 	},
 	[281]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="milliseconds_to_seconds_2dp",
@@ -7623,7 +7623,7 @@ return {
 							[2]=1000
 						}
 					},
-					text="Strikes an Enemy every {0} second"
+					text="{0}초마다 적 타격"
 				},
 				[2]={
 					[1]={
@@ -7636,7 +7636,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Strikes an Enemy every {0} seconds"
+					text="{0}초마다 적 타격"
 				}
 			}
 		},
@@ -7646,7 +7646,7 @@ return {
 	},
 	[282]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7654,7 +7654,7 @@ return {
 							[2]=1
 						}
 					},
-					text="Consumes up to 1 corpse"
+					text="시신 최대 1구 소모"
 				},
 				[2]={
 					limit={
@@ -7663,7 +7663,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Consumes up to {0} corpses"
+					text="시신 최대 {0}구 소모"
 				}
 			}
 		},
@@ -7673,7 +7673,7 @@ return {
 	},
 	[283]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7681,7 +7681,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Maximum of {0} Orbs at a time"
+					text="한 번에 구슬 최대 {0}개"
 				}
 			}
 		},
@@ -7691,7 +7691,7 @@ return {
 	},
 	[284]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7699,7 +7699,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Warcry Speed"
+					text="함성 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7712,7 +7712,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Warcry Speed"
+					text="함성 속도 {0}% 감소"
 				}
 			}
 		},
@@ -7722,7 +7722,7 @@ return {
 	},
 	[285]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7730,7 +7730,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased Elemental Damage with Weapons"
+					text="무기 사용 시 원소 피해 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7743,7 +7743,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced Elemental Damage with Weapons"
+					text="무기 사용 시 원소 피해 {0}% 감소"
 				}
 			}
 		},
@@ -7753,7 +7753,7 @@ return {
 	},
 	[286]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					limit={
 						[1]={
@@ -7761,7 +7761,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="{0}% increased rotation speed if Dual Wielding"
+					text="쌍수 사용 시 회전 속도 {0}% 증가"
 				},
 				[2]={
 					[1]={
@@ -7774,7 +7774,7 @@ return {
 							[2]=-1
 						}
 					},
-					text="{0}% reduced rotation speed if Dual Wielding"
+					text="쌍수 사용 시 회전 속도 {0}% 감소"
 				}
 			}
 		},
@@ -7784,7 +7784,7 @@ return {
 	},
 	[287]={
 		lang={
-			English={
+			Korean={
 				[1]={
 					[1]={
 						k="divide_by_one_hundred_2dp_if_required",
@@ -7796,7 +7796,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Rotates {0:+d} times if Dual Wielding"
+					text="쌍수 사용 시 회전 횟수 {0:+d}"
 				}
 			}
 		},

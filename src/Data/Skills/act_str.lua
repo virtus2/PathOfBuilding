@@ -7,11 +7,11 @@
 local skills, mod, flag, skill = ...
 
 skills["Absolution"] = {
-	name = "Absolution",
+	name = "면죄",
 	color = 1,
 	baseEffectiveness = 2.0517001152039,
 	incrementalEffectiveness = 0.043200001120567,
-	description = "Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed to summon a Sentinel of Absolution for a longer secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.",
+	description = "지역에 있는 적에게 피해를 주고 짧은 시간 동안 디버프를 적용합니다. 디버프의 영향을 받는 동안 비-고유 적이 죽으면, 해당 적의 시신을 소모하여 더 긴 2차 지속시간 동안 면죄의 파수꾼 1명이 소환됩니다. 이미 소환된 파수꾼의 수가 최대치라면 기존 파수꾼 1명의 지속시간과 생명력이 초기화됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, [SkillType.Lightning] = true, [SkillType.MinionsCanExplode] = true, [SkillType.CreatesMinion] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Multicastable] = true, [SkillType.Cascadable] = true, [SkillType.Triggerable] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.CanRapidFire] = true, },
 	statDescriptionScope = "minion_spell_damage_skill_stat_descriptions",
 	castTime = 0.75,
@@ -110,9 +110,9 @@ skills["Absolution"] = {
 	},
 }
 skills["VaalAbsolution"] = {
-	name = "Vaal Absolution",
+	name = "바알 면죄",
 	color = 1,
-	description = "Causes one of your existing Sentinels of Absolution to Ascend, becoming more powerful, gaining new spells, and overriding its duration, while maintaining its other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Absolution, an existing one will be refreshed instead.",
+	description = "기존 면죄의 파수꾼 하나를 승급시킵니다. 승급한 파수꾼은 기타 보너스(보조 젬으로 인한 보너스 포함)를 유지하면서 더욱 강력해지고, 새로운 주문을 획득하고, 기존 지속시간이 무효화됩니다. 승급한 면죄의 파수꾼을 더 보유할 수 없는 경우, 새로운 면죄의 파수꾼을 승급하지 않고 기존 승급한 면죄의 파수꾼을 갱신합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, [SkillType.Lightning] = true, [SkillType.Vaal] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.5,
@@ -181,9 +181,9 @@ skills["VaalAbsolution"] = {
 	},
 }
 skills["AbyssalCry"] = {
-	name = "Infernal Cry",
+	name = "지옥불 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Covers enemies in ash, causing them to move slower and take increased fire damage. Affected enemies explode when they die, dealing fire damage in an area.",
+	description = "함성을 질러 주변의 적들을 도발해 시전자를 공격하게 하고, 이어지는 공격에 전력을 다합니다. 적들을 재로 뒤덮어 이동 속도를 느리게 만들고, 받는 화염 피해를 증가시킵니다. 영향을 받은 적은 사망하면 폭발하여 범위 내에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Fire] = true, [SkillType.Damage] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -282,9 +282,9 @@ skills["AbyssalCry"] = {
 	},
 }
 skills["InfernalCryOnHitExplosion"] = {
-	name = "Combust",
+	name = "발화",
 	color = 1,
-	description = "Deals attack damage in an area.",
+	description = "범위 내에 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Melee] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -373,9 +373,9 @@ skills["InfernalCryOnHitExplosion"] = {
 	},
 }
 skills["TotemMelee"] = {
-	name = "Ancestral Protector",
+	name = "선대의 수호자",
 	color = 1,
-	description = "Summons an Ancestor Totem which attacks enemies with melee strikes while you're near it. Being near it grants you more attack speed. Requires a Melee Weapon or Unarmed.",
+	description = "적에게 근접 공격을 하는 선대의 토템을 소환합니다. 토템 근처에 있으면 플레이어의 공격 속도가 증가합니다. 토템은 플레이어와 일정 거리 이상 멀어지면 공격을 중단합니다. 근접 무기를 장착하거나 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.SummonsTotem] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -482,9 +482,9 @@ skills["TotemMelee"] = {
 	},
 }
 skills["AncestralCry"] = {
-	name = "Ancestral Cry",
+	name = "선대의 함성",
 	color = 1,
-	description = "Performs a warcry, taunting all nearby enemies to attack the user and exerting subsequent strike attacks. Grants a buff which gives you bonus armour and melee range.",
+	description = "함성을 질러 주변의 모든 적을 도발하여 시전자를 공격하게 하고 이어지는 타격 공격에 전력을 다합니다. 방어도와 근접 범위를 증가시키는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -583,9 +583,9 @@ skills["AncestralCry"] = {
 	},
 }
 skills["AncestorTotemSlam"] = {
-	name = "Ancestral Warchief",
+	name = "선대의 대전사",
 	color = 1,
-	description = "Summons an Ancestor Totem which attacks enemies with a powerful slam while you're near it. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed.",
+	description = "선대의 토템을 소환하여 적들을 공격합니다. 토템과 가까이 있으면 시전자가 주는 근접 피해가 증가합니다. 근접 무기를 장착하거나 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.SummonsTotem] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Slam] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -691,9 +691,9 @@ skills["AncestorTotemSlam"] = {
 	},
 }
 skills["VaalAncestralWarchief"] = {
-	name = "Vaal Ancestral Warchief",
+	name = "바알 선대의 대전사",
 	color = 1,
-	description = "Summons an Ancestor Totem which attacks enemies with a powerful cascading slam while you're near it. If the enemies are far away, it will leap toward them as it slams. Being near it grants you more melee damage. Requires a Melee Weapon or Unarmed.",
+	description = "선대의 토템을 소환하여 적들을 공격합니다. 적이 멀리 떨어져 있을 경우, 적에게 도약해 공격합니다. 토템과 가까이 있으면 시전자가 주는 근접 피해가 증가합니다. 근접 무기를 장착하거나 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.SummonsTotem] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Vaal] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -793,11 +793,11 @@ skills["VaalAncestralWarchief"] = {
 	},
 }
 skills["Anger"] = {
-	name = "Anger",
+	name = "분노",
 	color = 1,
 	baseEffectiveness = 2.25,
 	incrementalEffectiveness = 0.023000000044703,
-	description = "Casts an aura that adds fire damage to the attacks and spells of you and your allies.",
+	description = "시전자와 동료들의 공격과 주문에 화염 피해를 추가하는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Fire] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.CanHaveBlessing] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -892,9 +892,9 @@ skills["Anger"] = {
 	},
 }
 skills["AnimateArmour"] = {
-	name = "Animate Guardian",
+	name = "수호자 기동",
 	color = 1,
-	description = "Animates a melee weapon or armour, attaching it to an invisible Guardian that fights by your side. Animating multiple items attaches them to the same Guardian. You cannot animate unidentified items. Cannot be used by Traps or Mines.",
+	description = "근접 무기와 방어구를 움직여 보이지 않는 수호자에게 착용시키고 시전자를 위해 싸우게 합니다. 다수의 아이템을 움직이면 같은 수호자에게 부착됩니다. 미확인 아이템에는 사용할 수 없습니다. 덫이나 지뢰 스킬에는 적용되지 않습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Totemable] = true, [SkillType.Triggerable] = true, [SkillType.CreatesMinion] = true, [SkillType.Physical] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -999,9 +999,9 @@ skills["AnimateArmour"] = {
 	},
 }
 skills["BattlemagesCry"] = {
-	name = "Battlemage's Cry",
+	name = "전투마법사의 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which boosts critical strike chance and allows attacks to benefit from increases to spell damage.",
+	description = "함성을 질러 주변의 적들을 도발하여 시전자를 공격하게 하고, 이어지는 공격에 전력을 다합니다. 치명타 확률을 올려 주고 공격이 주문 피해의 혜택을 받게 하는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -1092,8 +1092,8 @@ skills["BattlemagesCry"] = {
 	},
 }
 skills["BattlemagesCrySupport"] = {
-	name = "Battlemage's Cry",
-	description = "Supports spell skills, causing them to be triggered. Cannot support skills used by totems, traps, or mines. Vaal skills, channelling skills, and skills with a reservation cannot be triggered.",
+	name = "전투마법사의 함성",
+	description = "주문 스킬을 보조하여 발동시킵니다. 토템, 덫, 지뢰 스킬에는 적용되지 않으며 바알 스킬, 집중 유지 스킬, 점유가 있는 스킬은 발동되지 않습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Spell, SkillType.Triggerable, SkillType.AND, },
@@ -1160,10 +1160,10 @@ skills["BattlemagesCrySupport"] = {
 	},
 }
 skills["Berserk"] = {
-	name = "Berserk",
+	name = "광폭",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Consumes Rage at an accelerating rate to provide a powerful buff, granting more attack damage, attack speed, movement speed, and less damage taken.",
+	description = "격노를 빠르게 소모하지만 강력한 버프를 제공합니다. 공격 피해와 공격 속도, 이동 속도가 증가하고, 피해가 감폭합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Triggerable] = true, [SkillType.Instant] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -1259,9 +1259,9 @@ skills["Berserk"] = {
 	},
 }
 skills["Bladestorm"] = {
-	name = "Bladestorm",
+	name = "칼날 폭풍",
 	color = 1,
-	description = "Perform a spinning attack, damaging enemies around you and creating a bladestorm matching your stance. The bladestorm repeatedly damages enemies, based on your weapon damage and attack time, for a duration. Blood bladestorms are stationary and cause Bleeding, while Sand bladestorms move slowly forwards and Blind enemies. Requires a Sword or Axe. You are in Blood Stance by default.",
+	description = "회전 공격을 하여 주변의 적들에게 피해를 주고 시전자의 태세에 상응하는 칼날 폭풍을 생성합니다. 칼날 폭풍은 일정 시간 동안 시전자의 무기 피해와 공격 시간에 기반해 적들에게 반복해서 피해를 줍니다. 핏빛 칼날 폭풍은 이동하지 않으며 출혈을 유발하는 반면, 모래 칼날 폭풍은 천천히 전방으로 이동하면서 실명을 유발합니다. 검이나 도끼가 필요합니다. 기본 태세는 핏빛 태세입니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -1379,9 +1379,9 @@ skills["Bladestorm"] = {
 	},
 }
 skills["BloodSandStance"] = {
-	name = "Blood and Sand",
+	name = "피와 모래",
 	color = 1,
-	description = "Casts a buff that grants different bonuses to melee skills depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
+	description = "시전자의 태세에 따라 스킬이 효과 및 형태가 변경되는 버프를 시전합니다. 스킬을 다시 시전하면 핏빛 태세와 모래 태세를 전환할 수 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.HasReservation] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, [SkillType.Stance] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -1468,11 +1468,11 @@ skills["BloodSandStance"] = {
 	},
 }
 skills["Boneshatter"] = {
-	name = "Boneshatter",
+	name = "뼈 박살",
 	color = 1,
 	baseEffectiveness = 0.18279999494553,
 	incrementalEffectiveness = 0.053700000047684,
-	description = "Attack enemies with a forceful melee strike that also hurts you. Successive uses will raise the damage dealt both to enemies and you. Stunning an enemy with the strike releases a damaging pulse. Requires a Mace, Sceptre, Axe or Staff.",
+	description = "강력한 근접 타격으로 적을 공격하는 스킬로 플레이어 또한 피해를 받습니다. 성공적으로 사용하면 적과 플레이어 모두가 큰 피해를 받습니다. 이 타격으로 적이 기절하면 파동이 방출되어 피해를 줍니다. 철퇴, 셉터, 도끼, 지팡이가 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1657,9 +1657,9 @@ skills["Boneshatter"] = {
 	},
 }
 skills["ChainStrike"] = {
-	name = "Chain Hook",
+	name = "사슬 갈고리",
 	color = 1,
-	description = "When used at range, throws out a chain, pulling you to the enemy hit dealing damage in an area behind them. When close to the enemy, just causes the area damage directly. Requires a One Handed Mace, Sceptre, Sword or Axe.",
+	description = "거리를 두고 사용 시, 사슬을 투척하여 명중시킨 적 방향으로 이동하는 동시에 그 뒤쪽 범위에 피해를 줍니다. 해당 적과 가까운 경우 직접 범위 피해만을 줍니다. 한손 철퇴나 셉터, 검, 도끼가 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Movement] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1749,11 +1749,11 @@ skills["ChainStrike"] = {
 	},
 }
 skills["Cleave"] = {
-	name = "Cleave",
+	name = "회전베기",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords.",
+	description = "무기(쌍수일 경우 2개 모두)를 크게 휘둘러 범위 내 몬스터들에게 피해를 줍니다. 도끼와 검으로만 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.ThresholdJewelArea] = true, [SkillType.Physical] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -1841,11 +1841,11 @@ skills["Cleave"] = {
 	},
 }
 skills["VaalCleave"] = {
-	name = "Vaal Cleave",
+	name = "바알 회전베기",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Killing Blows on Rare or Unique enemies grant a buff that improves Cleave for a duration. Killing Blows on Rare Enemies also steal their modifiers for a secondary duration. Only works with Axes and Swords.",
+	description = "무기(쌍수일 경우 2개 모두)를 크게 휘둘러 범위 내 몬스터들에게 피해를 줍니다. 희귀 또는 고유 적을 상대로 최후의 일격 시, 버프를 부여하여 일정 시간 동안 회전베기를 향상시킵니다. 또한 희귀 적을 상대로 최후의 일격 시, 2차 지속시간 동안 그들의 속성을 훔칩니다. 도끼와 검으로만 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.ThresholdJewelArea] = true, [SkillType.Physical] = true, [SkillType.Vaal] = true, [SkillType.Duration] = true, [SkillType.Buff] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -1932,9 +1932,9 @@ skills["VaalCleave"] = {
 	},
 }
 skills["ConsecratedPath"] = {
-	name = "Consecrated Path",
+	name = "축성의 진격",
 	color = 1,
-	description = "Slams the ground at a targeted location. If an enemy is near where you target, you'll teleport to it from a short distance away, slam, and create an area of consecrated ground. Can't be supported by Multistrike, and requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "목표 지점의 지면을 강타합니다. 목표 지점 주위에 적이 있을 경우, 그곳으로 단거리 순간이동을 하며 충돌하여 신성화 지대를 생성합니다. 연속타격의 보조는 받을 수 없습니다. 검이나 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Melee] = true, [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Movement] = true, [SkillType.Triggerable] = true, [SkillType.Damage] = true, [SkillType.Duration] = true, [SkillType.Fire] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -2032,11 +2032,11 @@ skills["ConsecratedPath"] = {
 	},
 }
 skills["CorruptingFever"] = {
-	name = "Corrupting Fever",
+	name = "타락한 열병",
 	color = 1,
 	baseEffectiveness = 0.362399995327,
 	incrementalEffectiveness = 0.050000000745058,
-	description = "Draws out your own blood to power a buff for a duration, letting this skill inflict the Corrupting Blood debuff on enemies you hit, dealing physical damage over time for a short secondary duration. The buff's duration will be refreshed if you spend enough life before it expires.",
+	description = "자신의 피를 뽑아서 일정 시간 동안 버프를 유지합니다. 이 버프가 있으면 타락한 열병이 명중한 적에게 타락한 피 디버프를 유발하여, 짧은 별도의 지속시간 동안 지속 물리 피해를 줍니다. 버프가 만료되기 전에 생명력을 일정 기준 이상 소모하면 버프의 지속시간이 초기화됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Instant] = true, [SkillType.Physical] = true, [SkillType.Cooldown] = true, [SkillType.DamageOverTime] = true, [SkillType.Totemable] = true, },
 	statDescriptionScope = "secondary_debuff_skill_stat_descriptions",
 	castTime = 0,
@@ -2112,9 +2112,9 @@ skills["CorruptingFever"] = {
 	},
 }
 skills["DecoyTotem"] = {
-	name = "Decoy Totem",
+	name = "미끼 토템",
 	color = 1,
-	description = "Summons a totem that taunts nearby monsters to attack it.",
+	description = "주변 몬스터들을 도발하여 공격하게 만드는 토템을 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.Area] = true, [SkillType.SummonsTotem] = true, [SkillType.Multicastable] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 6,
@@ -2198,9 +2198,9 @@ skills["DecoyTotem"] = {
 	},
 }
 skills["DefianceBanner"] = {
-	name = "Defiance Banner",
+	name = "저항의 깃발",
 	color = 1,
-	description = "Casting once reserves mana to carry a banner which increases the armour and evasion of nearby allies, and reduces the critical strike chance of nearby enemies. Gains stages over time while carrying the banner near enemies. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
+	description = "스킬 시전 시, 깃발을 지니고 마나를 점유합니다. 깃발은 주변 동료들의 방어도와 회피를 증가시키며, 주변 적들의 치명타 확률을 감소시킵니다. 적 주변에서 깃발을 지니고 다니면 점차 깃발 단계가 증가합니다. 스킬을 한번 더 사용하면 깃발을 바닥에 꽂게 되며 그 즉시 마나 점유가 종료됩니다. 깃발을 바닥에 꽂으면 깃발 단계에 따라 효과가 적용됩니다. 동시에 하나의 깃발 효과만 적용됩니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.HasReservation] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.AuraDuration] = true, [SkillType.Physical] = true, [SkillType.Banner] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "banner_aura_skill_stat_descriptions",
 	castTime = 0,
@@ -2293,9 +2293,9 @@ skills["DefianceBanner"] = {
 	},
 }
 skills["Determination"] = {
-	name = "Determination",
+	name = "결의",
 	color = 1,
-	description = "Casts an aura that grants armour to you and your allies.",
+	description = "시전자와 동료들의 방어도를 증가시키는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.CanHaveBlessing] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -2382,11 +2382,11 @@ skills["Determination"] = {
 	},
 }
 skills["DevouringTotem"] = {
-	name = "Devouring Totem",
+	name = "포식 토템",
 	color = 1,
 	baseEffectiveness = 0.69999998807907,
 	incrementalEffectiveness = 0.029999999329448,
-	description = "Summons a totem that can consume nearby corpses. If you are hurt, it will destroy a corpse to leech life to you.",
+	description = "시전자가 피해를 받을 경우 주변의 시신을 파괴하여 흡수한 생명력으로 시전자를 회복시켜주는 토템을 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 7,
@@ -2471,10 +2471,10 @@ skills["DevouringTotem"] = {
 	},
 }
 skills["DominatingBlow"] = {
-	name = "Dominating Blow",
+	name = "지배의 맹타",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.",
+	description = "대상을 근접 공격하여 짧은 시간 동안 디버프를 겁니다. 비-고유 적이 디버프가 걸린 채로 죽을 경우 시신이 소모되어 동일한 희귀도 및 접두어, 접미어 속성을 가진 지배의 파수꾼이 소환됩니다. 이들은 보다 긴 별도의 지속시간을 가집니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.MinionsCanExplode] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.CreatesMinion] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Area] = true, },
 	weaponTypes = {
@@ -2580,9 +2580,9 @@ skills["DominatingBlow"] = {
 	},
 }
 skills["VaalDomination"] = {
-	name = "Vaal Domination",
+	name = "바알 지배",
 	color = 1,
-	description = "This spell causes one of your existing Sentinels of Dominance to Ascend, becoming more powerful, gaining new attacks, and overriding its duration, while maintaining its monster modifiers and other bonuses, including from support gems. If you cannot have more Ascended Sentinels of Dominance, an existing one will be refreshed instead.",
+	description = "이 주문은 기존 지배의 파수꾼 하나를 승급시킵니다. 승급한 파수꾼은 몬스터 속성과 기타 보너스(보조 젬으로 인한 보너스 포함)를 유지하면서 더욱 강력해지고, 새로운 공격을 획득하고 기존 지속시간이 무효화됩니다. 승급한 지배의 파수꾼을 더 보유할 수 없는 경우, 새로운 지배의 파수꾼을 승급하지 않고 기존 승급한 지배의 파수꾼을 갱신합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.Duration] = true, [SkillType.Vaal] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.5,
@@ -2651,9 +2651,9 @@ skills["VaalDomination"] = {
 	},
 }
 skills["PuresteelBanner"] = {
-	name = "Dread Banner",
+	name = "공포의 깃발",
 	color = 1,
-	description = "Casting once reserves mana to carry a banner which makes nearby allies inflict impale with attacks, and lessens the accuracy of nearby enemies. Gain stages by impaling enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
+	description = "스킬 시전 시, 깃발을 지니고 마나를 점유합니다. 깃발은 근처 동료들이 공격 시 적을 꿰뚫을 수 있게 해주며, 동시에 적들의 정확도를 감폭시킵니다. 깃발을 지니고 다니는 동안 적을 꿰뚫으면 단계를 증가시킬 수 있습니다. 다시 스킬을 사용하면 깃발을 자리에 놓고 마나 점유를 종료합니다. 자리에 놓으면, 증가된 단계에 따라 효과가 결정됩니다. 동시에 여러 개의 깃발을 가질 수 없습니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.HasReservation] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.AuraDuration] = true, [SkillType.Physical] = true, [SkillType.Banner] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "banner_aura_skill_stat_descriptions",
 	castTime = 0,
@@ -2748,11 +2748,11 @@ skills["PuresteelBanner"] = {
 	},
 }
 skills["Earthquake"] = {
-	name = "Earthquake",
+	name = "지진",
 	color = 1,
 	baseEffectiveness = 1.5,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. Cracks created before the first one has erupted will not generate their own aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "지면을 강타해 범위 내에 피해를 주고 대지에 균열을 생성합니다. 잠시 후 균열은 여진을 일으킵니다. 첫 번째 여진이 발생하기 전의 균열은 여진을 발생시키지 않습니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, [SkillType.Duration] = true, [SkillType.Slam] = true, [SkillType.Triggerable] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -2874,11 +2874,11 @@ skills["Earthquake"] = {
 	},
 }
 skills["VaalEarthquake"] = {
-	name = "Vaal Earthquake",
+	name = "바알 지진",
 	color = 1,
 	baseEffectiveness = 1.5,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Smashes the ground, dealing damage in an area and cracking the earth. The crack will erupt in a powerful aftershock after a short duration. After using this skill, your steps will deal damage around you, cracking the earth if the previous cracks have erupted. This effect ends after a secondary duration, or after a maximum number of aftershocks. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "지면을 강타해 범위 내에 피해를 주고 대지에 균열을 생성합니다. 잠시 후 균열은 여진을 일으킵니다. 이 스킬을 사용한 후 시전자의 걸음은 범위 피해를 주며, 이전의 여진이 끝난 경우 다시 균열을 생성합니다. 별도의 지속시간이 경과하거나 최대 여진 횟수에 도달하면 효과가 종료됩니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Vaal] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -2977,9 +2977,9 @@ skills["VaalEarthquake"] = {
 	},
 }
 skills["SpikeSlam"] = {
-	name = "Earthshatter",
+	name = "지면 분쇄",
 	color = 1,
-	description = "Slam the ground, sending out rectangular fissures that deal area damage to enemies and thrust a spike from the ground when they end. Warcries or other Slam Attacks performed by you or allied players near any spike will cause them to shatter, damaging surrounding enemies. Works with Maces, Sceptres, Axes, Staves and Unarmed.",
+	description = "지면을 강타하여 적에게 범위 피해를 주는 직사각형의 균열을 생성하고 균열이 사라지는 지점에서 가시를 방출합니다. 가시 주변에서 자신 또는 동료가 함성이나 다른 강타 스킬을 사용하면 가시가 산산조각 나서 주변 적에게 피해를 줍니다. 철퇴, 셉터, 도끼, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Multistrikeable] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -3095,10 +3095,10 @@ skills["SpikeSlam"] = {
 	},
 }
 skills["EnduringCry"] = {
-	name = "Enduring Cry",
+	name = "인내의 함성",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Performs a warcry, taunting all nearby enemies to attack the user and granting endurance charges. Gives a brief burst of life regeneration, as well as a buff which grants resistances and physical damage reduction based on your endurance charges.",
+	description = "함성을 질러 주변의 모든 적을 도발해 시전자를 공격하게 하고, 인내 충전을 부여합니다. 잠시 생명력 재생 효과를 제공하고, 시전자의 인내 충전에 따라 저항 증가 및 물리 피해 감소 효과가 있는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -3190,11 +3190,11 @@ skills["EnduringCry"] = {
 	},
 }
 skills["Exsanguinate"] = {
-	name = "Exsanguinate",
+	name = "방혈",
 	color = 1,
 	baseEffectiveness = 1.5195000171661,
 	incrementalEffectiveness = 0.052499998360872,
-	description = "Releases several tendrils of blood from your character, targeting enemies in a narrow angle in front of you. The beams deal physical damage and inflict a physical damage over time debuff to enemies, which can stack up to 3 times. Effects which allow skills to chain can apply to these tendrils.",
+	description = "플레이어에게서 전방 좁은 각도 내의 적들을 대상으로 하는 여러 갈래의 피 촉수가 뻗어 나옵니다. 촉수는 적들에게 물리 피해를 주고, 3회까지 중첩되는 지속 물리 피해 디버프를 유발합니다. 스킬의 연쇄를 일으키는 효과를 이 촉수에 적용할 수 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Chains] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Physical] = true, [SkillType.CanRapidFire] = true, [SkillType.DamageOverTime] = true, [SkillType.Duration] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -3281,11 +3281,11 @@ skills["Exsanguinate"] = {
 	},
 }
 skills["FlameLink"] = {
-	name = "Flame Link",
+	name = "화염의 연결",
 	color = 1,
 	baseEffectiveness = 0.52499997615814,
 	incrementalEffectiveness = 0.039000000804663,
-	description = "Targets an allied player to apply a buff which links you to them for a duration. While linked, they deal additional fire damage based on your life. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines.",
+	description = "동료를 대상으로 지정하여 일정 시간 동안 자신과 연결하는 버프를 적용합니다. 연결된 동안 동료가 플레이어의 생명력에 따라 화염 피해를 추가로 줍니다. 연결된 상태에서 대상이 사망하면 플레이어도 사망합니다. 이 스킬은 발동되지 않으며 토템, 덫, 지뢰가 사용할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Link] = true, [SkillType.Fire] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0.5,
@@ -3359,9 +3359,9 @@ skills["FlameLink"] = {
 	},
 }
 skills["BloodSandArmour"] = {
-	name = "Flesh and Stone",
+	name = "육체와 돌",
 	color = 1,
-	description = "Casts an aura that affects you and nearby enemies differently depending on your stance. Using the skill again alternates between Blood Stance and Sand Stance.",
+	description = "시전자의 태세에 기반해 시전자와 근접한 적들에게 서로 다른 효과를 주는 오라를 시전합니다. 스킬을 다시 사용하면 핏빛 태세와 모래 태세를 번갈아 취하게 됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Aura] = true, [SkillType.AuraAffectsEnemies] = true, [SkillType.Instant] = true, [SkillType.HasReservation] = true, [SkillType.AppliesMaim] = true, [SkillType.Area] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, [SkillType.Stance] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -3450,9 +3450,9 @@ skills["BloodSandArmour"] = {
 	},
 }
 skills["FrozenLegion"] = {
-	name = "Frozen Legion",
+	name = "얼어붙은 군단",
 	color = 1,
-	description = "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines. ",
+	description = "이 주문은 재사용 횟수를 여러 번 소모하여 얼음 조각상을 원형으로 소환합니다. 각 조각상은 플레이어의 얼어붙은 휩쓸기 공격을 1회 사용한 후 사라집니다. 도끼, 철퇴, 셉터, 지팡이로만 사용할 수 있습니다. 이 스킬은 발동되지 않으며, 주문 메아리 또는 촉발의 보조를 받지 못하고, 토템이나 덫 또는 지뢰로도 사용할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Cooldown] = true, [SkillType.Cold] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -3533,9 +3533,9 @@ skills["FrozenLegion"] = {
 	},
 }
 skills["FrozenSweep"] = {
-	name = "Frozen Sweep",
+	name = "얼어붙은 휩쓸기",
 	color = 1,
-	description = "This attack is used by your Statues to deal damage in an area around them while stepping forward. This skill cannot repeat and can only be used by Statues from Frozen Legion.",
+	description = "플레이어의 조각상이 앞으로 전진하며 그들 주변에 피해를 주는 공격입니다. 이 스킬은 반복되지 않으며 얼어붙은 군단으로 생성한 조각상만이 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Cold] = true, [SkillType.NonRepeatable] = true, [SkillType.OtherThingUsesSkill] = true, [SkillType.OwnerCannotUse] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -3678,9 +3678,9 @@ skills["FrozenSweep"] = {
 	},
 }
 skills["GeneralsCry"] = {
-	name = "General's Cry",
+	name = "장군의 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user, and summoning Mirage Warriors from nearby corpses. The Mirage Warriors each use a linked attack skill once before dissipating.",
+	description = "함성을 질러 주변의 적을 도발하여 시전자를 공격하게 하고, 주변의 시신에서 신기루 전사를 소환합니다. 각 신기루 전사는 연결된 공격 스킬을 한 번씩 사용하고 소멸합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -3766,8 +3766,8 @@ skills["GeneralsCry"] = {
 	},
 }
 skills["GeneralsCrySupport"] = {
-	name = "General's Cry",
-	description = "Supports melee attack skills. Those skills will be used by Mirage Warriors summoned by General's Cry. Supported skills cannot be supported by Multistrike.",
+	name = "장군의 함성",
+	description = "근접 공격 스킬을 보조합니다. 해당 스킬은 장군의 함성으로 소환된 신기루 전사가 사용합니다. 보조 대상 스킬이 연속타격의 보조는 받을 수 없습니다.",
 	color = 1,
 	support = true,
 	requireSkillTypes = { SkillType.Melee, SkillType.Attack, SkillType.AND, },
@@ -3836,11 +3836,11 @@ skills["GeneralsCrySupport"] = {
 	},
 }
 skills["GlacialHammer"] = {
-	name = "Glacial Hammer",
+	name = "빙하 망치",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Hits enemies, converting some of your physical damage to cold damage. If an enemy is frozen and is on less than one third life, they will shatter when hit by Glacial Hammer. If striking three times in a row, the third strike will freeze enemies more easily. Requires a Mace, Sceptre or Staff.",
+	description = "물리 피해 일부를 냉기 피해로 전환하여 공격합니다. 적이 동결 상태이고 생명력이 1/3 이하일 경우, 빙하 망치로 공격하면 산산이 조각납니다. 연속으로 3회 공격 시 3번째 공격은 적을 더 쉽게 동결시킵니다. 철퇴나 셉터, 지팡이가 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Cold] = true, [SkillType.ThresholdJewelArea] = true, },
 	weaponTypes = {
 		["Two Handed Mace"] = true,
@@ -3928,11 +3928,11 @@ skills["GlacialHammer"] = {
 	},
 }
 skills["VaalGlacialHammer"] = {
-	name = "Vaal Glacial Hammer",
+	name = "바알 빙하 망치",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Hits enemies, converting some of your physical damage to cold damage. It traps enemies with you in a circle of ice so that they can't escape. Requires a Mace, Sceptre or Staff.",
+	description = "적들을 명중시키면 물리 피해 일부가 냉기 피해로 전환됩니다. 냉기는 해당 적을 얼음의 원으로 가두어 달아날 수 없게 만듭니다. 철퇴나 셉터, 지팡이가 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Area] = true, [SkillType.Vaal] = true, [SkillType.Cold] = true, },
 	weaponTypes = {
 		["Two Handed Mace"] = true,
@@ -4016,11 +4016,11 @@ skills["VaalGlacialHammer"] = {
 	},
 }
 skills["GroundSlam"] = {
-	name = "Ground Slam",
+	name = "대지 강타",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Slams the ground in front of you, creating a wave that travels forward and damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "전방의 지면을 강타하여 대지의 물결을 일으켜 정면으로 뻗어나가게 합니다. 물결은 적들에게 피해를 주고 더욱 증가한 확률로 기절시킵니다. 시전자에게 가까운 적일수록 더 큰 피해를 받습니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -4111,11 +4111,11 @@ skills["GroundSlam"] = {
 	},
 }
 skills["VaalGroundSlam"] = {
-	name = "Vaal Ground Slam",
+	name = "바알 대지 강타",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Slams the ground in front of you, creating a wave that travels in all directions that damages enemies with an increased chance to stun. The wave deals more damage to closer enemies. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "전방의 지면을 강타하여 대지의 물결을 일으켜 사방으로 뻗어나가게 합니다. 물결은 적들에게 피해를 주고 증가된 확률로 기절시킵니다. 시전자에게 가까운 적일수록 더 큰 피해를 받습니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Vaal] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -4205,10 +4205,10 @@ skills["VaalGroundSlam"] = {
 	},
 }
 skills["HeavyStrike"] = {
-	name = "Heavy Strike",
+	name = "묵직한 타격",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Attacks enemies with a forceful blow, knocking them back. Requires a Mace, Sceptre, Axe, Sword or Two-Handed Weapon.",
+	description = "적들에게 강력한 일격을 날려 뒤로 밀어냅니다. 철퇴나 셉터, 도끼, 검, 양손 무기가 필요합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -4296,11 +4296,11 @@ skills["HeavyStrike"] = {
 	},
 }
 skills["HeraldOfAsh"] = {
-	name = "Herald of Ash",
+	name = "재의 전령",
 	color = 1,
 	baseEffectiveness = 0.5,
 	incrementalEffectiveness = 0.032699998468161,
-	description = "Grants a buff providing fire damage based on your physical damage. While you have this buff, if you kill an enemy, other enemies near them will be burned based on the overkill damage. The burn inflicted by this skill can only be affected by modifiers to damage over time (burning damage is damage over time).",
+	description = "물리 피해에 비례하여 추가 화염 피해를 제공하는 버프를 부여합니다. 효과를 받는 동안 적 처치 시 주변의 적들에게 처치한 대상의 과잉살상 피해량에 기반한 화상 피해를 줍니다. 이 화상 피해는 지속 피해 관련 속성만 적용 받습니다. (화상 피해는 지속 피해입니다.)",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.CausesBurning] = true, [SkillType.Area] = true, [SkillType.DamageOverTime] = true, [SkillType.Fire] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Herald] = true, [SkillType.Duration] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0,
@@ -4398,11 +4398,11 @@ skills["HeraldOfAsh"] = {
 	},
 }
 skills["HeraldOfPurity"] = {
-	name = "Herald of Purity",
+	name = "순수의 전령",
 	color = 1,
 	baseEffectiveness = 0.31700000166893,
 	incrementalEffectiveness = 0.01799999922514,
-	description = "Grants a buff which lets you deal more physical damage. When you kill an enemy while you have this buff, this skill will summon a Sentinel of Purity, or refresh the duration and life of an existing one instead if you have the maximum number of them. The Sentinels of Purity have a single-target melee attack and an area melee attack.",
+	description = "주는 물리 피해를 증폭시키는 버프를 부여하며, 효과를 받는 동안 적을 처치하면 정화의 파수꾼 1명이 소환되지만 이미 소환된 파수꾼의 수가 최대치라면 기존 파수꾼 1명의 지속시간과 생명력이 초기화됩니다. 정화의 파수꾼은 단일 대상에 근접 공격을 하거나 근접 범위 공격을 합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.Herald] = true, [SkillType.Minion] = true, [SkillType.Instant] = true, [SkillType.Duration] = true, [SkillType.Physical] = true, [SkillType.CreatesMinion] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Damage] = true, [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Area] = true, },
 	statDescriptionScope = "minion_skill_stat_descriptions",
@@ -4494,11 +4494,11 @@ skills["HeraldOfPurity"] = {
 	},
 }
 skills["FlameTotem"] = {
-	name = "Holy Flame Totem",
+	name = "신성한 화염 토템",
 	color = 1,
 	baseEffectiveness = 0.74919998645782,
 	incrementalEffectiveness = 0.032200001180172,
-	description = "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem.",
+	description = "주변의 적들에게 불줄기를 지속해서 뿜어내는 토템을 소환합니다. 소환된 토템 주변에는 신성화 지대를 생성됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Damage] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, [SkillType.Fire] = true, [SkillType.Channel] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 17,
@@ -4588,11 +4588,11 @@ skills["FlameTotem"] = {
 	},
 }
 skills["IceCrash"] = {
-	name = "Ice Crash",
+	name = "얼음 충격",
 	color = 1,
 	baseEffectiveness = 1.5,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Slam the ground, damaging enemies in an area around the impact in three stages. Enemies take slightly less damage on the second and third stage. Works with Swords, Maces, Sceptres, Axes, Staves and Unarmed.",
+	description = "지면을 강타해 3단계에 걸쳐 충격 지점 주위의 적들에게 피해를 줍니다. 단계가 거듭될수록 적이 받는 피해는 줄어듭니다. 검, 철퇴, 셉터, 도끼, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Cold] = true, [SkillType.Multistrikeable] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -4707,10 +4707,10 @@ skills["IceCrash"] = {
 	},
 }
 skills["ImmortalCall"] = {
-	name = "Immortal Call",
+	name = "불멸의 외침",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Take less Physical and Elemental Damage for a short time. Consumes up to 5 Endurance Charges to lengthen the buff and further lessen Physical Damage taken. Shares a cooldown with other Guard skills.",
+	description = "짧은 시간 동안, 받는 물리 피해 및 원소 피해가 감폭합니다. 인내 충전을 5개까지 소모하여 버프의 지속시간을 늘리고 받는 피해를 줄일 수 있습니다. 다른 수호 스킬과 재사용 대기시간을 공유합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Triggerable] = true, [SkillType.Instant] = true, [SkillType.Guard] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -4802,10 +4802,10 @@ skills["ImmortalCall"] = {
 	},
 }
 skills["VaalImmortalCall"] = {
-	name = "Vaal Immortal Call",
+	name = "바알 불멸의 외침",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Discharges Endurance Charges, making the character unable to die or gain Vaal souls for a short time, proportional to how many endurance charges were expended.",
+	description = "인내 충전을 방출하여 짧은 시간 동안 캐릭터가 죽지 않으며 바알 영혼을 획득하도록 해줍니다. 지속시간은 소모된 인내 충전에 비례합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Vaal] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0,
@@ -4875,11 +4875,11 @@ skills["VaalImmortalCall"] = {
 	},
 }
 skills["InfernalBlow"] = {
-	name = "Infernal Blow",
+	name = "지옥불 맹타",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Attacks with your weapon, applying a charged debuff to enemies hit by your strike, and an uncharged debuff to any other enemies hit. Upon reaching 6 charges, expiring, or the enemy's death, the charged debuff is removed, and it deals damage to that and other nearby enemies. Enemies with either debuff explode when they die, damaging other nearby enemies. Damage from this explosion cannot be reflected. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "무기로 적을 공격하여 명중시키면 해당 적에게 충전된 디버프를 걸고, 명중시킨 다른 적에게는 충전되지 않은 디버프를 겁니다. 충전이 6회가 되거나 해당 적이 죽으면 충전된 디버프는 만료되어 소멸되고 해당 적과 주변의 다른 적에게 피해를 줍니다. 적이 죽을 때마다 각각의 디버프가 폭발하여 근접한 다른 적에게 피해를 줍니다. 이 폭발로 인한 피해는 반사할 수 없습니다. 검이나 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Fire] = true, [SkillType.Duration] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -5002,9 +5002,9 @@ skills["InfernalBlow"] = {
 	},
 }
 skills["IntimidatingCry"] = {
-	name = "Intimidating Cry",
+	name = "위협의 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Grants a buff which lowers the effect of enemy physical damage reduction against your hits.",
+	description = "함성을 질러 주변의 적들을 도발하여 시전자를 공격하게 하고, 이어지는 공격에 전력을 다합니다. 플레이어가 명중시키는 공격에 대한 적의 물리 피해 감소 효과를 낮추는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -5102,10 +5102,10 @@ skills["IntimidatingCry"] = {
 	},
 }
 skills["LeapSlam"] = {
-	name = "Leap Slam",
+	name = "도약 강타",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Jump into the air, damaging and knocking back enemies with your weapon where you land. Enemies you would land on are pushed out of the way. Requires an Axe, Mace, Sceptre, Sword or Staff. Cannot be supported by Multistrike.",
+	description = "원하는 지점으로 도약 후 착지하면서 무기로 적들에게 피해를 주고 밀쳐 냅니다. 착지 지점의 적은 바깥으로 밀려납니다. 도끼나 철퇴, 셉터, 검, 지팡이가 필요합니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -5195,11 +5195,11 @@ skills["LeapSlam"] = {
 	},
 }
 skills["MoltenShell"] = {
-	name = "Molten Shell",
+	name = "용암 방패",
 	color = 1,
 	baseEffectiveness = 9.6499996185303,
 	incrementalEffectiveness = 0.016499999910593,
-	description = "Applies a buff that adds to your armour, and can take some of the damage from hits for you before being depleted. When the buff expires or is depleted, the skill deals reflected damage to enemies around you based on the total damage that was taken from the buff. Shares a cooldown with other Guard skills.",
+	description = "시전자에게 방어도를 추가하는 버프를 적용하여, 고갈되기 전까지 피격 시 받는 피해의 일부를 대신 받도록 합니다. 버프가 만료되거나 고갈될 경우, 버프가 받아낸 총 피해에 기반하여 주변의 적들에게 반사 피해를 줍니다. 다른 수호 스킬과 재사용 대기시간을 공유합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Fire] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.Triggerable] = true, [SkillType.Guard] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -5307,11 +5307,11 @@ skills["MoltenShell"] = {
 	},
 }
 skills["VaalMoltenShell"] = {
-	name = "Vaal Molten Shell",
+	name = "바알 용암 방패",
 	color = 1,
 	baseEffectiveness = 9.6499996185303,
 	incrementalEffectiveness = 0.016499999910593,
-	description = "Applies a buff that raises your armour, and takes some of the damage from hits for you before being depleted. Each second, the skill deals reflected damage to surrounding enemies based on the damage taken by the buff in that second. When the buff is removed, the skill deals reflected damage to enemies around you based on the total damage that was taken by the buff. You cannot have the buff at the same time as any other Guard skill.",
+	description = "시전자의 방어도를 높여주고 고갈되기 전까지 피격 시 받는 피해의 일부를 대신 받는 버프를 적용합니다. 스킬은 1초마다, 버프가 해당 초에 받아낸 피해를 기반으로 주변 적들에게 반사 피해를 줍니다. 버프가 제거되거나 고갈될 경우, 버프가 받아낸 총 피해에 기반하여 주변의 적들에게 반사 피해를 줍니다. 이 버프는 다른 수호 스킬과 동시에 받을 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Fire] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.Vaal] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.Cooldown] = true, [SkillType.Guard] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -5408,11 +5408,11 @@ skills["VaalMoltenShell"] = {
 	},
 }
 skills["MoltenStrike"] = {
-	name = "Molten Strike",
+	name = "용암 타격",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land.",
+	description = "근접 무기에 용암 에너지를 주입하여 공격 시 물리 피해와 화염 피해를 줍니다. 공격이 명중한 적에게서 전방으로 녹아내린 마그마 구체가 발사되어 명중된 모든 적에게 분산됩니다. 또한 이 마그마 구체는 떨어지면 폭발하여 적들에게 범위 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Projectile] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Fire] = true, [SkillType.RangedAttack] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.ThresholdJewelChaining] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -5532,11 +5532,11 @@ skills["MoltenStrike"] = {
 	},
 }
 skills["VaalMoltenStrike"] = {
-	name = "Vaal Molten Strike",
+	name = "바알 용암 타격",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land.",
+	description = "근접 무기에 용암 에너지를 주입하여 공격 시 물리 피해와 화염 피해를 줍니다. 전방으로 녹아내린 마그마 구체가 발사되며, 마그마 구체는 떨어지면 폭발하여 적에게 범위 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Projectile] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Fire] = true, [SkillType.RangedAttack] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Chains] = true, [SkillType.Vaal] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -5649,11 +5649,11 @@ skills["VaalMoltenStrike"] = {
 	},
 }
 skills["BloodSpears"] = {
-	name = "Perforate",
+	name = "천공",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Smash the ground to bring forth multiple spears to damage enemies. When in Blood Stance, multiple spikes burst from the ground in sequence, able to hit enemies multiple times. In Sand Stance, the spikes are thrust outwards. Requires a Sword or Axe. You are in Blood Stance by default.",
+	description = "지면을 강타하여 다수의 가시를 불러내 적들에게 피해를 줍니다. 핏빛 태세에서는 다수의 가시가 지면에서 연속적으로 솟아올라, 적들에게 피해를 줍니다. 모래 태세에서는 가시가 바깥쪽으로 퍼져나갑니다. 검이나 도끼로만 사용할 수 있습니다. 기본 태세는 핏빛 태세입니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -5763,9 +5763,9 @@ skills["BloodSpears"] = {
 	},
 }
 skills["PetrifiedBlood"] = {
-	name = "Petrified Blood",
+	name = "피 석화",
 	color = 1,
-	description = "Applies a buff that protects the lower half of your life, preventing some of the immediate life loss when damaged by hits and applying the loss over time instead. Your life cannot be raised above low life other than by flasks, and while above low life, skills will cost life as well as mana.",
+	description = "낮은 생명력 상태(생명력의 50% 이하 구간)를 보호해 주는 버프를 적용합니다. 버프는 피격으로 피해를 받을 때 생명력을 즉각 상실하는 대신, 일정 시간에 걸쳐 상실하도록 합니다. 플라스크 외의 수단으로는 생명력을 낮은 생명력 상태 이상으로 올릴 수 없으며, 낮은 생명력 상태 이상인 경우 스킬을 사용할 때 마나 뿐만 아니라 생명력도 소모합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.HasReservation] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -5846,9 +5846,9 @@ skills["PetrifiedBlood"] = {
 	},
 }
 skills["PhysicalDamageAura"] = {
-	name = "Pride",
+	name = "자부심",
 	color = 1,
-	description = "Casts an aura that causes nearby enemies to take more physical damage.",
+	description = "근접한 적들이 더 많은 물리 피해를 받도록 만드는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.AuraAffectsEnemies] = true, [SkillType.CanHaveBlessing] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -5935,9 +5935,9 @@ skills["PhysicalDamageAura"] = {
 	},
 }
 skills["ProtectiveLink"] = {
-	name = "Protective Link",
+	name = "보호의 연결",
 	color = 1,
-	description = "Targets an allied player to apply a buff which links you to them for a duration. While linked, they copy your block chance and recover life when they block. If the target dies while linked, you will also die. This skill cannot be triggered, or used by Totems, Traps, or Mines.",
+	description = "동료를 대상으로 지정하여 일정 시간 동안 자신과 연결하는 버프를 적용합니다. 연결된 동안 대상이 플레이어의 막기 확률과 동일한 막기 확률을 가지며, 막아낼 시 생명력을 회복합니다. 연결된 상태에서 대상이 사망하면 플레이어도 사망합니다. 이 스킬은 발동되지 않으며 토템, 덫, 지뢰가 사용할 수 없습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Duration] = true, [SkillType.Link] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0.5,
@@ -6008,10 +6008,10 @@ skills["ProtectiveLink"] = {
 	},
 }
 skills["Punishment"] = {
-	name = "Punishment",
+	name = "응징",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Curses all targets in an area, causing them to be debilitated when they hit enemies and increasing damage they take while on low life.",
+	description = "범위 내의 모든 적에게 저주를 걸어 적 명중 시 쇠잔 상태로 만들고, 낮은 생명력 상태일 때 받는 피해를 증폭합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Cascadable] = true, [SkillType.AppliesCurse] = true, [SkillType.CanRapidFire] = true, [SkillType.AreaSpell] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Hex] = true, },
 	statDescriptionScope = "curse_skill_stat_descriptions",
 	castTime = 0.5,
@@ -6096,9 +6096,9 @@ skills["Punishment"] = {
 	},
 }
 skills["FireResistAura"] = {
-	name = "Purity of Fire",
+	name = "불의 순수함",
 	color = 1,
-	description = "Casts an aura that grants fire resistance to you and your allies.",
+	description = "시전자와 동료들에게 화염 저항를 증가시키는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Fire] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.CanHaveBlessing] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -6185,9 +6185,9 @@ skills["FireResistAura"] = {
 	},
 }
 skills["FireImpurity"] = {
-	name = "Vaal Impurity of Fire",
+	name = "바알 불의 부정함",
 	color = 1,
-	description = "Casts an aura that reduces fire damage taken and provides ignite immunity to you and nearby allies, and makes hits against nearby enemies ignore their fire resistance. ",
+	description = "시전자가 받는 화염 피해를 감소시키고, 시전자 및 주변 동료들이 점화에 면역되며, 주변의 적 명중 시 적의 화염 저항을 무시하는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Totemable] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Duration] = true, [SkillType.Vaal] = true, [SkillType.Aura] = true, [SkillType.AreaSpell] = true, [SkillType.Fire] = true, [SkillType.Instant] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -6272,9 +6272,9 @@ skills["FireImpurity"] = {
 	},
 }
 skills["RageVortex"] = {
-	name = "Rage Vortex",
+	name = "격노 소용돌이",
 	color = 1,
-	description = "Spin with a sword or axe to deal damage in an area around you. Sacrifices some rage to send a ragestorm forward. While enemies are inside it, the ragestorm will slow its movement and repeatedly deal attack damage based on your attack speed.",
+	description = "검 또는 도끼를 들고 빙글빙글 돌아 주위 지역에 피해를 줍니다. 격노를 일부 소모하여 전방으로 격노 폭풍을 내보냅니다. 적들이 폭풍에 휘말리면, 폭풍은 속도가 느려지고 플레이어의 공격 속도에 따라 반복적으로 공격 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Multistrikeable] = true, },
 	weaponTypes = {
 		["Two Handed Axe"] = true,
@@ -6384,9 +6384,9 @@ skills["RageVortex"] = {
 	},
 }
 skills["RallyingCry"] = {
-	name = "Rallying Cry",
+	name = "집결의 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent attacks. Gives nearby Allies a buff based on the damage of your weapon.",
+	description = "함성을 질러 주변의 적들을 도발하여 시전자를 공격하게 하고, 이어지는 공격에 전력을 다합니다. 주변 동료들에게 무기의 피해에 따라 버프를 부여합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -6488,11 +6488,11 @@ skills["RallyingCry"] = {
 	},
 }
 skills["Reckoning"] = {
-	name = "Reckoning",
+	name = "역습",
 	color = 1,
 	baseEffectiveness = 0.5,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Perform a swift counter-attack against enemies in a cone shape when you block with your shield.",
+	description = "방패로 막아낼 시 부채꼴 범위 내의 적들에게 재빠른 반격을 가합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RequiresShield] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Physical] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -6588,9 +6588,9 @@ skills["Reckoning"] = {
 	},
 }
 skills["RejuvenationTotem"] = {
-	name = "Rejuvenation Totem",
+	name = "회복 토템",
 	color = 1,
-	description = "Summons a totem that has an aura which regenerates life for you and your nearby allies.",
+	description = "오라를 가진 토템을 소환하여 시전자와 주변 동료들의 생명력을 재생시킵니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, [SkillType.Aura] = true, [SkillType.AreaSpell] = true, [SkillType.TotemCastsWhenNotDetached] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 4,
@@ -6677,9 +6677,9 @@ skills["RejuvenationTotem"] = {
 	},
 }
 skills["VaalRejuvenationTotem"] = {
-	name = "Vaal Rejuvenation Totem",
+	name = "바알 회복 토템",
 	color = 1,
-	description = "Summons a totem that has an aura which regenerates life for you and your nearby allies. When things affected by the aura are hit, the totem's life is removed instead for some of the damage.",
+	description = "오라를 가진 토템을 소환하여 시전자와 주변 동료들의 생명력을 재생시킵니다. 해당 오라의 영향을 받는 대상이 피격되면 피해 중 일부가 대상의 생명력이 아닌 토템의 생명력에 적용됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, [SkillType.Aura] = true, [SkillType.AreaSpell] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Vaal] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 21,
@@ -6769,11 +6769,11 @@ skills["VaalRejuvenationTotem"] = {
 	},
 }
 skills["SearingBond"] = {
-	name = "Searing Bond",
+	name = "불타는 굴레",
 	color = 1,
 	baseEffectiveness = 7.5956997871399,
 	incrementalEffectiveness = 0.062199998646975,
-	description = "Summons a totem that casts a beam of fire at you and each other totem you control, dealing burning damage to enemies caught in the beam. Enemies near either end of a beam also suffer burning damage.",
+	description = "시전자와 시전자가 조종하는 각각의 토템에게 화염 광선을 시전하여 광선에 닿은 적들에게 화상 피해를 줍니다. 광선의 양쪽 끝에 가까운 적들도 화상 피해를 받습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.DamageOverTime] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.TotemCastsAlone] = true, [SkillType.CausesBurning] = true, [SkillType.SummonsTotem] = true, [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.DegenOnlySpellDamage] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 9,
@@ -6852,9 +6852,9 @@ skills["SearingBond"] = {
 	},
 }
 skills["SeismicCry"] = {
-	name = "Seismic Cry",
+	name = "지진 함성",
 	color = 1,
-	description = "Performs a warcry, taunting nearby enemies to attack the user and exerting subsequent slam attacks. Grants a buff which makes it easier for you to stun enemies.",
+	description = "함성을 질러 주변의 적들을 도발하여 시전자를 공격하게 하고 이어지는 강타 공격에 전력을 다합니다. 적을 쉽게 기절시키도록 해주는 버프를 부여합니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Warcry] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 0.8,
@@ -6957,11 +6957,11 @@ skills["SeismicCry"] = {
 	},
 }
 skills["NewShieldCharge"] = {
-	name = "Shield Charge",
+	name = "방패 돌진",
 	color = 1,
 	baseEffectiveness = 1.7799999713898,
 	incrementalEffectiveness = 0.017300000414252,
-	description = "Charges at a targeted location or enemy, pushing away enemies in your path and repeatedly dealing off-hand damage in a small area in front of you. You deal damage in a larger area when you reach the target. The further you travel, the more damage you deal, and the greater your chance of stunning enemies. Cannot be supported by Multistrike.",
+	description = "목표 지점이나 적에게 돌진하여 경로상에 있는 적을 밀어내고, 전면의 작은 범위에 보조 장비로 반복해서 피해를 줍니다. 대상에 도착 시 보다 넓은 범위 피해를 줍니다. 이동한 거리가 길어질수록 적에게 주는 피해가 증가하며 기절시킬 확률이 높아집니다. 연속타격의 보조는 받을 수 없습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RequiresShield] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Movement] = true, [SkillType.Travel] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -7049,11 +7049,11 @@ skills["NewShieldCharge"] = {
 	},
 }
 skills["ShockwaveTotem"] = {
-	name = "Shockwave Totem",
+	name = "충격파 토템",
 	color = 1,
 	baseEffectiveness = 1.0778000354767,
 	incrementalEffectiveness = 0.043600000441074,
-	description = "Summons a totem that shakes the earth around it, knocking back and damaging nearby enemies",
+	description = "주변 지역을 뒤흔드는 토템을 소환하여 주변의 적들을 밀어내고 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.SummonsTotem] = true, [SkillType.Multicastable] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.Nova] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	skillTotemId = 5,
@@ -7138,11 +7138,11 @@ skills["ShockwaveTotem"] = {
 	},
 }
 skills["Smite"] = {
-	name = "Smite",
+	name = "징벌",
 	color = 1,
 	baseEffectiveness = 0.60000002384186,
 	incrementalEffectiveness = 0.028000000864267,
-	description = "Performs a melee attack, and causes lightning to strike a targeted location or nearby enemy, dealing damage in an area. Each target can only be hit once by this skill. Hitting an enemy grants an aura, giving you and your allies additional lightning damage for a duration. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "근접 공격으로 목표 지점이나 주변의 적에게 벼락을 떨어트려 범위 피해를 줍니다. 이 스킬은 대상마다 한 번씩만 명중할 수 있습니다. 적 명중 시 오라를 획득하여 플레이어와 동료들이 일정 시간 동안 추가 번개 피해를 줍니다. 검이나 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Melee] = true, [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Multistrikeable] = true, [SkillType.Damage] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Aura] = true, [SkillType.Buff] = true, [SkillType.Lightning] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -7264,11 +7264,11 @@ skills["Smite"] = {
 	},
 }
 skills["VaalSmite"] = {
-	name = "Vaal Smite",
+	name = "바알 징벌",
 	color = 1,
 	baseEffectiveness = 0.89999997615814,
 	incrementalEffectiveness = 0.028000000864267,
-	description = "Calls lightning down to infuse your weapon, then performs a melee attack and causes lightning to strike nearby enemies, dealing damage in an area around each. Hitting an enemy grants an aura, giving you and your allies additional lightning damage for a duration, and additional lightning bolts with Smite. Requires a Sword, Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "벼락을 소환하여 무기에 주입한 후, 근접 공격으로 주변의 적에게 벼락을 떨어트려 각 적의 주위에 범위 피해를 줍니다. 적 명중 시 오라를 획득하여 플레이어와 동료들이 일정 시간 동안 추가 번개 피해를 주고, 징벌로 벼락을 추가로 떨어트립니다. 검이나 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Melee] = true, [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Damage] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Aura] = true, [SkillType.Buff] = true, [SkillType.Lightning] = true, [SkillType.Vaal] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -7382,9 +7382,9 @@ skills["VaalSmite"] = {
 	},
 }
 skills["StaticStrike"] = {
-	name = "Static Strike",
+	name = "정전기 타격",
 	color = 1,
-	description = "Attack with a melee weapon, gaining static energy for a duration if you hit an enemy. While you have static energy, you'll frequently hit a number of nearby enemies with beams, dealing attack damage.",
+	description = "근접 무기로 적을 공격해, 명중 시 일정 시간 동안 정전기 에너지를 획득합니다. 정전기 에너지를 획득한 상태에서는 수시로 주변의 여러 적에게 광선을 방출하여 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Lightning] = true, [SkillType.Chains] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -7507,11 +7507,11 @@ end,
 	},
 }
 skills["QuickGuard"] = {
-	name = "Steelskin",
+	name = "강철피부",
 	color = 1,
 	baseEffectiveness = 10,
 	incrementalEffectiveness = 0.029999999329448,
-	description = "Applies a buff which can take some of the damage from hits for you before being depleted. Shares a cooldown with other Guard skills.",
+	description = "시전자가 피격당할 경우, 피해의 일부를 대신 맞아주는 버프를 시전합니다. 다른 수호 스킬과 재사용 대기시간을 공유합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Buff] = true, [SkillType.Instant] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.Guard] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "buff_skill_stat_descriptions",
 	castTime = 0,
@@ -7602,11 +7602,11 @@ skills["QuickGuard"] = {
 	},
 }
 skills["Bloodreap"] = {
-	name = "Reap",
+	name = "낫질",
 	color = 1,
 	baseEffectiveness = 1.405699968338,
 	incrementalEffectiveness = 0.05009999871254,
-	description = "A bloody scythe swipes across a selected area, applying a physical damage over time debuff and hitting enemies with physical damage. If any survive, you gain a blood charge which raises the damage and cost of the skill. Players can have 5 maximum blood charges.",
+	description = "피투성이 낫이 선택한 지역을 휩쓸어, 지속 물리 피해 디버프를 적용하고 적을 명중하여 물리 피해를 줍니다. 살아남은 적이 있으면 스킬의 피해와 비용을 증가시키는 피 충전을 1개 획득합니다. 플레이어는 피 충전을 5개까지 보유할 수 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Physical] = true, [SkillType.DamageOverTime] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Duration] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.CanRapidFire] = true, [SkillType.Cascadable] = true, [SkillType.Triggerable] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -7700,11 +7700,11 @@ skills["Bloodreap"] = {
 	},
 }
 skills["VaalReap"] = {
-	name = "Vaal Reap",
+	name = "바알 낫질",
 	color = 1,
 	baseEffectiveness = 2.811399936676,
 	incrementalEffectiveness = 0.05009999871254,
-	description = "Bloody scythes swipe around a selected area, hitting enemies with physical damage. An area of boiling blood is left beneath them for a duration which deals physical damage over time. Also gives a bonus to maximum Blood Charges for a secondary duration.",
+	description = "피투성이 낫이 선택한 지역을 휩쓸며 적을 명중하여 물리 피해를 줍니다. 명중한 적 아래의 일정 범위에 일정 시간 동안 끓는 피가 남아 지속 물리 피해를 줍니다. 또한 2차 지속시간 동안 피 충전 최대치에 보너스를 부여합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Physical] = true, [SkillType.DamageOverTime] = true, [SkillType.Area] = true, [SkillType.AreaSpell] = true, [SkillType.Duration] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Vaal] = true, },
 	statDescriptionScope = "debuff_skill_stat_descriptions",
 	castTime = 0.8,
@@ -7792,11 +7792,11 @@ skills["VaalReap"] = {
 	},
 }
 skills["ShieldCrush"] = {
-	name = "Shield Crush",
+	name = "방패 타쇄",
 	color = 1,
 	baseEffectiveness = 1.2081999778748,
 	incrementalEffectiveness = 0.026799999177456,
-	description = "Swipe your shield, dealing area damage in three waves in front of you. Enemies can be hit by two of the waves where they overlap.",
+	description = "방패를 휘둘러 전방에 세 갈래의 파동으로 범위 피해를 줍니다. 파동이 겹치는 위치에서는 적이 파동 두 개에 명중될 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RequiresShield] = true, [SkillType.Melee] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Physical] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -7883,9 +7883,9 @@ skills["ShieldCrush"] = {
 	},
 }
 skills["SummonFireGolem"] = {
-	name = "Summon Flame Golem",
+	name = "화염 골렘 소환",
 	color = 1,
-	description = "Summons a Flame Golem that grants you increased Damage. The Flame Golem can use a fire spray, a wave of fire damage, and an explosive arcing projectile.",
+	description = "시전자가 하는 모든 공격의 피해를 증가시켜주는 화염 골렘을 소환합니다. 화염 골렘은 화염 분사, 화염 피해의 파도, 포물선을 그리며 날아가는 폭발성 투사체를 사용합니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Golem] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -7972,9 +7972,9 @@ skills["SummonFireGolem"] = {
 	},
 }
 skills["SummonRockGolem"] = {
-	name = "Summon Stone Golem",
+	name = "돌 골렘 소환",
 	color = 1,
-	description = "Summons a Stone Golem that grants you life regeneration. In addition to its melee attack, the Stone Golem uses a rolling charge and a powerful slam that can taunt enemies.",
+	description = "시전자에게 생명력 재생 능력을 부여하는 돌 골렘을 소환합니다. 돌 골렘은 근접 공격과 더불어, 구르기와 적을 도발하는 강력한 강타를 사용합니다.",
 	skillTypes = { [SkillType.Triggerable] = true, [SkillType.Mineable] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Multicastable] = true, [SkillType.Spell] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Golem] = true, [SkillType.Physical] = true, [SkillType.CreatesMinion] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Movement] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -8062,9 +8062,9 @@ skills["SummonRockGolem"] = {
 	},
 }
 skills["NewSunder"] = {
-	name = "Sunder",
+	name = "산산조각",
 	color = 1,
-	description = "Slams the ground, creating a slow wave of churning terrain that damages enemies in a sequence of areas in front of you. A number of enemies hit by the wave will release a shockwave, damaging other enemies around them. Using the skill again will stop the previous wave. Requires a Mace, Sceptre, Axe, Staff or Unarmed.",
+	description = "지면을 강타하면 요동치는 지면이 느린 파도를 일으키며 전방에 여러 개의 범위를 생성하며 순차적으로 피해를 줍니다. 파도에 맞은 적의 상당수는 충격파를 방출하여 주변의 다른 적들에게 피해를 줍니다. 스킬을 다시 사용하면 기존 파도가 멈춥니다. 철퇴, 셉터, 도끼, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -8187,11 +8187,11 @@ skills["NewSunder"] = {
 	},
 }
 skills["Sweep"] = {
-	name = "Sweep",
+	name = "휩쓸기",
 	color = 1,
 	baseEffectiveness = 0.6700000166893,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Swings a two handed melee weapon in a circle, knocking back monsters around the character.",
+	description = "양손 근접 무기를 원형으로 휘둘러, 주위의 몬스터들을 밀어냅니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Physical] = true, },
 	weaponTypes = {
 		["Two Handed Mace"] = true,
@@ -8275,9 +8275,9 @@ skills["Sweep"] = {
 	},
 }
 skills["EnduranceChargeSlam"] = {
-	name = "Tectonic Slam",
+	name = "지층 강타",
 	color = 1,
-	description = "Slam the ground, unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Consume an Endurance Charge every third time you slam the ground with this skill. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",
+	description = "지면을 강타하면 전방에 불타는 균열을 만들어 범위 피해를 주고, 그 균열에서 여러 개의 작은 균열을 무작위로 만들어 냅니다. 이 스킬로 지면을 3번 강타할 때마다 인내 충전을 1 소모합니다. 철퇴나 셉터, 검, 도끼, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Fire] = true, [SkillType.Slam] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -8382,11 +8382,11 @@ skills["EnduranceChargeSlam"] = {
 	},
 }
 skills["Vengeance"] = {
-	name = "Vengeance",
+	name = "복수",
 	color = 1,
 	baseEffectiveness = 0.5,
 	incrementalEffectiveness = 0.023299999535084,
-	description = "Chance to perform a swift counter-attack against all enemies around you when you are hit. Weapon range increases the area of this attack. Requires a Melee Weapon.",
+	description = "피격 시 일정 확률로 주위의 적에게 재빠른 반격을 가합니다. 이 공격은 무기 범위가 증가하는 효과가 있습니다. 근접 무기로만 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.InbuiltTrigger] = true, [SkillType.Physical] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -8481,9 +8481,9 @@ skills["Vengeance"] = {
 	},
 }
 skills["VigilantStrike"] = {
-	name = "Vigilant Strike",
+	name = "경계 타격",
 	color = 1,
-	description = "Attacks enemies with a powerful melee strike which grants Fortification, reducing damage you take from hits. The cooldown can be bypassed by expending an Endurance Charge. Requires a Melee Weapon.",
+	description = "강력한 근접 타격으로 적들을 공격하여 받는 명중 피해를 감소시켜 주는 방어 상승을 획득합니다. 인내 충전을 소모하면 스킬을 즉시 사용할 수 있습니다. 근접 무기로만 사용할 수 있습니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Buff] = true, [SkillType.Melee] = true, [SkillType.Multistrikeable] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.ThresholdJewelArea] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -8568,9 +8568,9 @@ skills["VigilantStrike"] = {
 	},
 }
 skills["Vitality"] = {
-	name = "Vitality",
+	name = "활력",
 	color = 1,
-	description = "Casts an aura that grants life regeneration to you and your allies.",
+	description = "플레이어와 동료들에게 생명력 재생을 부여하는 오라를 시전합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Buff] = true, [SkillType.HasReservation] = true, [SkillType.TotemCastsAlone] = true, [SkillType.Totemable] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.CanHaveBlessing] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "aura_skill_stat_descriptions",
 	castTime = 0,
@@ -8655,9 +8655,9 @@ skills["Vitality"] = {
 	},
 }
 skills["VolcanicFissure"] = {
-	name = "Volcanic Fissure",
+	name = "화산 균열",
 	color = 1,
-	description = "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "지면을 강타하여 굽이치는 균열을 생성합니다. 균열은 플레이어로부터 멀어지며 범위 피해를 주고, 목표 지점에 도달하면 폭발하여 여러 개의 용암 투사체를 내뿜습니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Projectile] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Fire] = true, [SkillType.Multistrikeable] = true, [SkillType.RangedAttack] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Totemable] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -8756,9 +8756,9 @@ skills["VolcanicFissure"] = {
 	},
 }
 skills["VaalVolcanicFissure"] = {
-	name = "Vaal Volcanic Fissure",
+	name = "바알 화산 균열",
 	color = 1,
-	description = "Slam the ground, creating a winding fissure that deals area damage while travelling outwards. When it reaches the target location it erupts, releasing a burst of molten projectiles. After erupting, the fissure continues moving towards enemies to cause further eruptions. Requires an Axe, Mace, Sceptre, Staff or Unarmed.",
+	description = "지면을 강타하여 굽이치는 균열을 생성합니다. 균열은 플레이어로부터 멀어지며 범위 피해를 주고, 목표 지점에 도달하면 폭발하여 여러 개의 용암 투사체를 내뿜습니다. 균열은 폭발 후에도 적을 향해 이동하며 추가로 폭발을 일으킵니다. 도끼, 철퇴, 셉터, 지팡이 착용 혹은 비무장 상태여야 합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Projectile] = true, [SkillType.Area] = true, [SkillType.Melee] = true, [SkillType.Slam] = true, [SkillType.Fire] = true, [SkillType.RangedAttack] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Totemable] = true, [SkillType.Vaal] = true, },
 	weaponTypes = {
 		["None"] = true,
@@ -8851,10 +8851,10 @@ skills["VaalVolcanicFissure"] = {
 	},
 }
 skills["Vulnerability"] = {
-	name = "Vulnerability",
+	name = "취약성",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Curse all targets in an area, causing them to take increased physical damage. Attacks against the cursed enemies have a chance to inflict bleeding.",
+	description = "범위 내 모든 대상에게 저주를 걸어, 적이 받는 물리 피해를 증가시킵니다. 저주에 걸린 적 공격 시 일정 확률로 출혈이 유발됩니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Cascadable] = true, [SkillType.AppliesCurse] = true, [SkillType.CanRapidFire] = true, [SkillType.AreaSpell] = true, [SkillType.Physical] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Hex] = true, },
 	statDescriptionScope = "curse_skill_stat_descriptions",
 	castTime = 0.5,
@@ -8944,10 +8944,10 @@ skills["Vulnerability"] = {
 	},
 }
 skills["WarlordsMark"] = {
-	name = "Warlord's Mark",
+	name = "전쟁군주의 징표",
 	color = 1,
 	baseEffectiveness = 0,
-	description = "Curses a single enemy, giving a chance to double the duration of stuns on them. Attacking the cursed enemy will leech life and mana, stunning them will grant rage, and killing it will grant an endurance charge. You can only have one Mark at a time.",
+	description = "단일 적에게 저주를 걸어 일정 확률로 해당 적에게 적용되는 기절 지속시간을 2배 증폭합니다. 저주받은 적을 공격하면 생명력과 마나를 흡수하고, 기절시키면 격노를 획득하며, 처치하면 인내 충전을 획득합니다. 징표는 한 번에 하나만 적용할 수 있습니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.AppliesCurse] = true, [SkillType.CanRapidFire] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Mark] = true, },
 	statDescriptionScope = "curse_skill_stat_descriptions",
 	castTime = 0.5,
@@ -9039,9 +9039,9 @@ skills["WarlordsMark"] = {
 	},
 }
 skills["BloodstainedBanner"] = {
-	name = "War Banner",
+	name = "전쟁 깃발",
 	color = 1,
-	description = "Casting once reserves mana to carry a banner which increases the accuracy of nearby allies, and physical damage taken by nearby enemies. Gain stages by killing enemies while carrying the banner. Casting the skill again places the banner, ending the mana reservation. Once placed, it becomes more powerful for each stage gained. You cannot have multiple banners at the same time.",
+	description = "스킬 시전 시, 깃발을 지니고 마나를 점유합니다. 깃발은 근처 동료들의 정확도와 적들이 받는 물리 피해를 증가시키며, 깃발을 지니고 다니는 동안 적을 처치할 때마다 깃발 단계가 증가합니다. 스킬을 한번 더 사용하면 깃발을 바닥에 꽂게 되며 그 즉시 마나 점유가 종료됩니다. 깃발을 바닥에 꽂으면 깃발 단계에 따라 효과가 적용됩니다. 동시에 하나의 깃발 효과만 적용됩니다.",
 	skillTypes = { [SkillType.Buff] = true, [SkillType.Area] = true, [SkillType.Spell] = true, [SkillType.Duration] = true, [SkillType.HasReservation] = true, [SkillType.Aura] = true, [SkillType.Instant] = true, [SkillType.AreaSpell] = true, [SkillType.AuraDuration] = true, [SkillType.Physical] = true, [SkillType.Banner] = true, [SkillType.InstantNoRepeatWhenHeld] = true, [SkillType.InstantShiftAttackForLeftMouse] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "banner_aura_skill_stat_descriptions",
 	castTime = 0,

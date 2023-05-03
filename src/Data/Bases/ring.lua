@@ -3,173 +3,173 @@
 local itemBases = ...
 
 
-itemBases["Iron Ring"] = {
+itemBases["철제 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Adds 1 to 4 Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 1~4 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { },
 }
-itemBases["Coral Ring"] = {
+itemBases["산호 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { },
 }
-itemBases["Paua Ring"] = {
+itemBases["파우아 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(20-30) to maximum Mana",
+	implicit = "마나 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "mana" }, },
 	req = { },
 }
-itemBases["Gold Ring"] = {
+itemBases["황금 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(6-15)% increased Rarity of Items found",
+	implicit = "발견하는 아이템 희귀도 (6-15)% 증가",
 	implicitModTypes = { {  }, },
 	req = { level = 20, },
 }
-itemBases["Topaz Ring"] = {
+itemBases["토파즈 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(20-30)% to Lightning Resistance",
+	implicit = "번개 저항 +(20-30)%",
 	implicitModTypes = { { "elemental", "lightning", "resistance" }, },
 	req = { level = 12, },
 }
-itemBases["Sapphire Ring"] = {
+itemBases["사파이어 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(20-30)% to Cold Resistance",
+	implicit = "냉기 저항 +(20-30)%",
 	implicitModTypes = { { "elemental", "cold", "resistance" }, },
 	req = { level = 8, },
 }
-itemBases["Ruby Ring"] = {
+itemBases["루비 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(20-30)% to Fire Resistance",
+	implicit = "화염 저항 +(20-30)%",
 	implicitModTypes = { { "elemental", "fire", "resistance" }, },
 	req = { level = 16, },
 }
-itemBases["Prismatic Ring"] = {
+itemBases["분광 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(8-10)% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +(8-10)%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	req = { level = 30, },
 }
-itemBases["Moonstone Ring"] = {
+itemBases["월장석 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(15-25) to maximum Energy Shield",
+	implicit = "에너지 보호막 최대치 +(15-25)",
 	implicitModTypes = { { "energy_shield", "defences" }, },
 	req = { level = 20, },
 }
-itemBases["Amethyst Ring"] = {
+itemBases["자수정 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(17-23)% to Chaos Resistance",
+	implicit = "카오스 저항 +(17-23)%",
 	implicitModTypes = { { "chaos", "resistance" }, },
 	req = { level = 30, },
 }
-itemBases["Diamond Ring"] = {
+itemBases["다이아몬드 반지"] = {
 	type = "Ring",
 	tags = { ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(20-30)% increased Global Critical Strike Chance",
+	implicit = "일반 치명타 확률 (20-30)% 증가",
 	implicitModTypes = { { "critical" }, },
 	req = { level = 20, },
 }
-itemBases["Two-Stone Ring"] = {
+itemBases["쌍보석 반지"] = {
 	type = "Ring",
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Fire and Lightning Resistances",
+	implicit = "화염 및 번개 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "fire", "lightning", "resistance" }, },
 	req = { level = 20, },
 }
-itemBases["Two-Stone Ring"] = {
+itemBases["쌍보석 반지"] = {
 	type = "Ring",
 	hidden = true,
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Cold and Lightning Resistances",
+	implicit = "냉기 및 번개 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "cold", "lightning", "resistance" }, },
 	req = { level = 20, },
 }
-itemBases["Two-Stone Ring"] = {
+itemBases["쌍보석 반지"] = {
 	type = "Ring",
 	hidden = true,
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Fire and Cold Resistances",
+	implicit = "화염 및 냉기 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "fire", "cold", "resistance" }, },
 	req = { level = 20, },
 }
-itemBases["Unset Ring"] = {
+itemBases["무보석 반지"] = {
 	type = "Ring",
 	tags = { ring = true, unset_ring = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Has 1 Socket",
+	implicit = "홈 1개",
 	implicitModTypes = { {  }, },
 	req = { level = 5, },
 }
-itemBases["Bone Ring"] = {
+itemBases["뼈 반지"] = {
 	type = "Ring",
 	tags = { ring = true, ring_can_roll_minion_modifiers = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Minions have +(10-15)% to all Elemental Resistances",
+	implicit = "소환수의 모든 원소 저항 +(10-15)%",
 	implicitModTypes = { { "elemental", "resistance", "minion" }, },
 	req = { level = 25, },
 }
-itemBases["Steel Ring"] = {
+itemBases["강철 반지"] = {
 	type = "Ring",
 	tags = { not_for_sale = true, ring = true, ringatlas1 = true, atlas_base_type = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Adds (3-4) to (10-14) Physical Damage to Attacks",
+	implicit = "공격 시 물리 피해 (3-4)~(10-14) 추가",
 	implicitModTypes = { { "physical_damage", "damage", "physical", "attack" }, },
 	req = { level = 80, },
 }
-itemBases["Opal Ring"] = {
+itemBases["오팔 반지"] = {
 	type = "Ring",
 	tags = { not_for_sale = true, ring = true, ringatlas2 = true, atlas_base_type = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(15-25)% increased Elemental Damage",
+	implicit = "원소 피해 (15-25)% 증가",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental" }, },
 	req = { level = 80, },
 }
-itemBases["Vermillion Ring"] = {
+itemBases["주색 반지"] = {
 	type = "Ring",
 	tags = { ringatlas3 = true, not_for_sale = true, ring = true, atlas_base_type = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(5-7)% increased maximum Life",
+	implicit = "최대 생명력 (5-7)% 증가",
 	implicitModTypes = { { "resource", "life" }, },
 	req = { level = 80, },
 }
-itemBases["Cerulean Ring"] = {
+itemBases["진청색 반지"] = {
 	type = "Ring",
 	tags = { not_for_sale = true, ring = true, atlas_base_type = true, ringatlas4 = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(8-10)% increased maximum Mana",
+	implicit = "최대 마나 (8-10)% 증가",
 	implicitModTypes = { { "resource", "mana" }, },
 	req = { level = 80, },
 }
-itemBases["Iolite Ring"] = {
+itemBases["근청석 반지"] = {
 	type = "Ring",
 	tags = { not_for_sale = true, ring = true, ringatlas5 = true, atlas_base_type = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(17-23)% increased Chaos Damage",
+	implicit = "카오스 피해 (17-23)% 증가",
 	implicitModTypes = { { "chaos_damage", "damage", "chaos" }, },
 	req = { level = 80, },
 }
@@ -177,7 +177,7 @@ itemBases["Two-Stone Ring (Fire/Lightning)"] = {
 	type = "Ring",
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Fire and Lightning Resistances",
+	implicit = "화염 및 번개 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "fire", "lightning", "resistance" }, },
 	req = { level = 20, },
 }
@@ -185,7 +185,7 @@ itemBases["Two-Stone Ring (Cold/Lightning)"] = {
 	type = "Ring",
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Cold and Lightning Resistances",
+	implicit = "냉기 및 번개 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "cold", "lightning", "resistance" }, },
 	req = { level = 20, },
 }
@@ -193,83 +193,83 @@ itemBases["Two-Stone Ring (Fire/Cold)"] = {
 	type = "Ring",
 	tags = { ring = true, twostonering = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(12-16)% to Fire and Cold Resistances",
+	implicit = "화염 및 냉기 저항 +(12-16)%",
 	implicitModTypes = { { "elemental", "fire", "cold", "resistance" }, },
 	req = { level = 20, },
 }
-itemBases["Cogwork Ring"] = {
+itemBases["톱니장치 반지"] = {
 	type = "Ring",
 	tags = { ring = true, experimental_base = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "-1 Prefix Modifier allowed\n+1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed",
+	implicit = "접두어 속성 부여의 최대 개수 -1개\n접미어 속성 부여의 최대 개수 +1개\n고정 속성 변경 불가",
 	implicitModTypes = { {  }, {  }, {  }, },
 	req = { level = 24, },
 }
-itemBases["Geodesic Ring"] = {
+itemBases["정동석 반지"] = {
 	type = "Ring",
 	tags = { ring = true, experimental_base = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+1 Prefix Modifier allowed\n-1 Suffix Modifier allowed\nImplicit Modifiers Cannot Be Changed",
+	implicit = "접두어 속성 부여의 최대 개수 +1개\n접미어 속성 부여의 최대 개수 -1개\n고정 속성 변경 불가",
 	implicitModTypes = { {  }, {  }, {  }, },
 	req = { level = 24, },
 }
-itemBases["Dusk Ring"] = {
+itemBases["황혼 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 15% reduced Skill Effect Duration\nRight ring slot: 15% increased Skill Effect Duration",
+	implicit = "왼쪽 반지 슬롯: 스킬 효과 지속시간 15% 감소\n오른쪽 반지 슬롯: 스킬 효과 지속시간 15% 증가",
 	implicitModTypes = { {  }, {  }, },
 	req = { level = 24, },
 }
-itemBases["Penumbra Ring"] = {
+itemBases["음영 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 30% reduced Effect of Curses on you\nRight ring slot: 30% increased Effect of Curses on you",
+	implicit = "왼쪽 반지 슬롯: 플레이어에게 적용되는 저주 효과 30% 감소\n오른쪽 반지 슬롯: 플레이어에게 적용되는 저주 효과 30% 증가",
 	implicitModTypes = { { "curse" }, { "curse" }, },
 	req = { level = 24, },
 }
-itemBases["Gloam Ring"] = {
+itemBases["석양 반지"] = {
 	type = "Ring",
 	tags = { ring = true, ring_can_roll_minion_modifiers = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: Minions take 15% reduced Damage\nRight ring slot: Minions take 15% increased Damage",
+	implicit = "왼쪽 반지 슬롯: 소환수가 받는 피해 15% 감소\n오른쪽 반지 슬롯: 소환수가 받는 피해 15% 증가",
 	implicitModTypes = { { "minion" }, { "minion" }, },
 	req = { level = 24, },
 }
-itemBases["Tenebrous Ring"] = {
+itemBases["어둑한 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 30% reduced Duration of Ailments on You\nRight ring slot: 30% increased Duration of Ailments on You",
+	implicit = "왼쪽 반지 슬롯: 플레이어에게 적용되는 상태 이상 지속시간 30% 감소\n오른쪽 반지 슬롯: 플레이어에게 적용되는 상태 이상 지속시간 30% 증가",
 	implicitModTypes = { { "ailment" }, { "ailment" }, },
 	req = { level = 24, },
 }
-itemBases["Shadowed Ring"] = {
+itemBases["그늘진 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 25% of Cold Damage from Hits taken as Fire Damage\nRight ring slot: 25% of Fire Damage from Hits taken as Cold Damage",
+	implicit = "왼쪽 반지 슬롯: 피격 시 냉기 피해의 25%를 화염 피해로 받음\n오른쪽 반지 슬롯: 피격 시 화염 피해의 25%를 냉기 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "cold" }, { "elemental", "fire", "cold" }, },
 	req = { level = 24, },
 }
-itemBases["Shadowed Ring"] = {
+itemBases["그늘진 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 25% of Fire Damage from Hits taken as Lightning Damage\nRight ring slot: 25% of Lightning Damage from Hits taken as Fire Damage",
+	implicit = "왼쪽 반지 슬롯: 피격 시 화염 피해의 25%를 번개 피해로 받음\n오른쪽 반지 슬롯: 피격 시 번개 피해의 25%를 화염 피해로 받음",
 	implicitModTypes = { { "elemental", "fire", "lightning" }, { "elemental", "fire", "lightning" }, },
 	req = { level = 24, },
 }
-itemBases["Shadowed Ring"] = {
+itemBases["그늘진 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Left ring slot: 25% of Lightning Damage from Hits taken as Cold Damage\nRight ring slot: 25% of Cold Damage from Hits taken as Lightning Damage",
+	implicit = "왼쪽 반지 슬롯: 피격 시 번개 피해의 25%를 냉기 피해로 받음\n오른쪽 반지 슬롯: 피격 시 냉기 피해의 25%를 번개 피해로 받음",
 	implicitModTypes = { { "elemental", "cold", "lightning" }, { "elemental", "cold", "lightning" }, },
 	req = { level = 24, },
 }
-itemBases["Ring"] = {
+itemBases["반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
@@ -277,28 +277,28 @@ itemBases["Ring"] = {
 	req = { },
 }
 
-itemBases["Breach Ring"] = {
+itemBases["균열 반지"] = {
 	type = "Ring",
 	tags = { ring = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "Properties are doubled while in a Breach",
+	implicit = "균열에 있는 동안 속성 수치 2배",
 	implicitModTypes = { {  }, },
 	req = { },
 }
-itemBases["Golden Hoop"] = {
+itemBases["황금 고리"] = {
 	type = "Ring",
 	tags = { ring = true, demigods = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "+(8-12) to all Attributes",
+	implicit = "모든 능력치 +(8-12)",
 	implicitModTypes = { { "attribute" }, },
 	req = { level = 12, },
 }
-itemBases["Jet Ring"] = {
+itemBases["흑옥 반지"] = {
 	type = "Ring",
 	hidden = true,
 	tags = { ring = true, demigods = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "ring_shaper", elder = "ring_elder", adjudicator = "ring_adjudicator", basilisk = "ring_basilisk", crusader = "ring_crusader", eyrie = "ring_eyrie", cleansing = "ring_cleansing", tangle = "ring_tangle" },
-	implicit = "(5-10)% increased Global Defences",
+	implicit = "일반 방어력 (5-10)% 증가",
 	implicitModTypes = { { "defences" }, },
 	req = { },
 }

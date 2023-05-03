@@ -3,7 +3,7 @@
 local itemBases = ...
 
 
-itemBases["Iron Hat"] = {
+itemBases["철제 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -13,7 +13,7 @@ itemBases["Iron Hat"] = {
 	armour = { ArmourBaseMin = 9, ArmourBaseMax = 13, },
 	req = { str = 9, },
 }
-itemBases["Cone Helmet"] = {
+itemBases["원뿔 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -23,7 +23,7 @@ itemBases["Cone Helmet"] = {
 	armour = { ArmourBaseMin = 38, ArmourBaseMax = 50, },
 	req = { level = 7, str = 21, },
 }
-itemBases["Barbute Helmet"] = {
+itemBases["철갑 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -33,7 +33,7 @@ itemBases["Barbute Helmet"] = {
 	armour = { ArmourBaseMin = 92, ArmourBaseMax = 115, },
 	req = { level = 18, str = 42, },
 }
-itemBases["Close Helmet"] = {
+itemBases["폐쇄형 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -43,7 +43,7 @@ itemBases["Close Helmet"] = {
 	armour = { ArmourBaseMin = 130, ArmourBaseMax = 150, },
 	req = { level = 26, str = 58, },
 }
-itemBases["Gladiator Helmet"] = {
+itemBases["검투사 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -53,7 +53,7 @@ itemBases["Gladiator Helmet"] = {
 	armour = { ArmourBaseMin = 174, ArmourBaseMax = 195, },
 	req = { level = 35, str = 75, },
 }
-itemBases["Reaver Helmet"] = {
+itemBases["강탈자 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -63,7 +63,7 @@ itemBases["Reaver Helmet"] = {
 	armour = { ArmourBaseMin = 198, ArmourBaseMax = 233, },
 	req = { level = 40, str = 85, },
 }
-itemBases["Siege Helmet"] = {
+itemBases["공성 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -73,7 +73,7 @@ itemBases["Siege Helmet"] = {
 	armour = { ArmourBaseMin = 237, ArmourBaseMax = 272, },
 	req = { level = 48, str = 101, },
 }
-itemBases["Samnite Helmet"] = {
+itemBases["삼니움 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -83,7 +83,7 @@ itemBases["Samnite Helmet"] = {
 	armour = { ArmourBaseMin = 276, ArmourBaseMax = 325, },
 	req = { level = 55, str = 114, },
 }
-itemBases["Ezomyte Burgonet"] = {
+itemBases["에조미어 기병 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -93,7 +93,7 @@ itemBases["Ezomyte Burgonet"] = {
 	armour = { ArmourBaseMin = 346, ArmourBaseMax = 381, },
 	req = { level = 60, str = 138, },
 }
-itemBases["Royal Burgonet"] = {
+itemBases["왕실 기병 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -103,7 +103,7 @@ itemBases["Royal Burgonet"] = {
 	armour = { ArmourBaseMin = 377, ArmourBaseMax = 434, },
 	req = { level = 65, str = 148, },
 }
-itemBases["Eternal Burgonet"] = {
+itemBases["영원의 기병 투구"] = {
 	type = "Helmet",
 	subType = "Armour",
 	socketLimit = 4,
@@ -114,7 +114,7 @@ itemBases["Eternal Burgonet"] = {
 	req = { level = 69, str = 138, },
 }
 
-itemBases["Leather Cap"] = {
+itemBases["가죽 모자"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -124,7 +124,7 @@ itemBases["Leather Cap"] = {
 	armour = { EvasionBaseMin = 19, EvasionBaseMax = 27, },
 	req = { dex = 13, },
 }
-itemBases["Tricorne"] = {
+itemBases["삼각모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -134,7 +134,7 @@ itemBases["Tricorne"] = {
 	armour = { EvasionBaseMin = 53, EvasionBaseMax = 69, },
 	req = { level = 10, dex = 27, },
 }
-itemBases["Leather Hood"] = {
+itemBases["가죽 두건"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -144,7 +144,7 @@ itemBases["Leather Hood"] = {
 	armour = { EvasionBaseMin = 101, EvasionBaseMax = 127, },
 	req = { level = 20, dex = 46, },
 }
-itemBases["Wolf Pelt"] = {
+itemBases["늑대 가죽모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -154,7 +154,7 @@ itemBases["Wolf Pelt"] = {
 	armour = { EvasionBaseMin = 150, EvasionBaseMax = 172, },
 	req = { level = 30, dex = 66, },
 }
-itemBases["Hunter Hood"] = {
+itemBases["사냥꾼 두건"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -164,7 +164,7 @@ itemBases["Hunter Hood"] = {
 	armour = { EvasionBaseMin = 203, EvasionBaseMax = 227, },
 	req = { level = 41, dex = 87, },
 }
-itemBases["Noble Tricorne"] = {
+itemBases["귀족 삼각모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -174,7 +174,7 @@ itemBases["Noble Tricorne"] = {
 	armour = { EvasionBaseMin = 232, EvasionBaseMax = 266, },
 	req = { level = 47, dex = 99, },
 }
-itemBases["Ursine Pelt"] = {
+itemBases["곰 가죽모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -184,7 +184,7 @@ itemBases["Ursine Pelt"] = {
 	armour = { EvasionBaseMin = 276, EvasionBaseMax = 325, },
 	req = { level = 55, dex = 114, },
 }
-itemBases["Silken Hood"] = {
+itemBases["실크 두건"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -194,7 +194,7 @@ itemBases["Silken Hood"] = {
 	armour = { EvasionBaseMin = 346, EvasionBaseMax = 381, },
 	req = { level = 60, dex = 138, },
 }
-itemBases["Sinner Tricorne"] = {
+itemBases["죄인 삼각모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -204,7 +204,7 @@ itemBases["Sinner Tricorne"] = {
 	armour = { EvasionBaseMin = 369, EvasionBaseMax = 425, },
 	req = { level = 64, dex = 138, },
 }
-itemBases["Lion Pelt"] = {
+itemBases["사자 가죽모"] = {
 	type = "Helmet",
 	subType = "Evasion",
 	socketLimit = 4,
@@ -215,7 +215,7 @@ itemBases["Lion Pelt"] = {
 	req = { level = 70, dex = 150, },
 }
 
-itemBases["Vine Circlet"] = {
+itemBases["덩굴 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -225,7 +225,7 @@ itemBases["Vine Circlet"] = {
 	armour = { EnergyShieldBaseMin = 7, EnergyShieldBaseMax = 10, },
 	req = { int = 13, },
 }
-itemBases["Iron Circlet"] = {
+itemBases["철제 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -235,7 +235,7 @@ itemBases["Iron Circlet"] = {
 	armour = { EnergyShieldBaseMin = 12, EnergyShieldBaseMax = 15, },
 	req = { level = 8, int = 23, },
 }
-itemBases["Torture Cage"] = {
+itemBases["고문용 창살"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -245,7 +245,7 @@ itemBases["Torture Cage"] = {
 	armour = { EnergyShieldBaseMin = 20, EnergyShieldBaseMax = 25, },
 	req = { level = 17, int = 40, },
 }
-itemBases["Tribal Circlet"] = {
+itemBases["부족 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -255,7 +255,7 @@ itemBases["Tribal Circlet"] = {
 	armour = { EnergyShieldBaseMin = 28, EnergyShieldBaseMax = 33, },
 	req = { level = 26, int = 58, },
 }
-itemBases["Bone Circlet"] = {
+itemBases["뼈의 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -265,7 +265,7 @@ itemBases["Bone Circlet"] = {
 	armour = { EnergyShieldBaseMin = 36, EnergyShieldBaseMax = 40, },
 	req = { level = 34, int = 73, },
 }
-itemBases["Lunaris Circlet"] = {
+itemBases["달의 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -275,7 +275,7 @@ itemBases["Lunaris Circlet"] = {
 	armour = { EnergyShieldBaseMin = 41, EnergyShieldBaseMax = 48, },
 	req = { level = 39, int = 83, },
 }
-itemBases["Steel Circlet"] = {
+itemBases["강철 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -285,7 +285,7 @@ itemBases["Steel Circlet"] = {
 	armour = { EnergyShieldBaseMin = 49, EnergyShieldBaseMax = 55, },
 	req = { level = 48, int = 101, },
 }
-itemBases["Necromancer Circlet"] = {
+itemBases["네크로맨서 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -295,7 +295,7 @@ itemBases["Necromancer Circlet"] = {
 	armour = { EnergyShieldBaseMin = 55, EnergyShieldBaseMax = 64, },
 	req = { level = 54, int = 112, },
 }
-itemBases["Solaris Circlet"] = {
+itemBases["태양의 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -305,7 +305,7 @@ itemBases["Solaris Circlet"] = {
 	armour = { EnergyShieldBaseMin = 60, EnergyShieldBaseMax = 68, },
 	req = { level = 59, int = 122, },
 }
-itemBases["Mind Cage"] = {
+itemBases["정신의 창살"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -315,7 +315,7 @@ itemBases["Mind Cage"] = {
 	armour = { EnergyShieldBaseMin = 73, EnergyShieldBaseMax = 84, },
 	req = { level = 65, int = 138, },
 }
-itemBases["Hubris Circlet"] = {
+itemBases["자만의 관"] = {
 	type = "Helmet",
 	subType = "Energy Shield",
 	socketLimit = 4,
@@ -326,7 +326,7 @@ itemBases["Hubris Circlet"] = {
 	req = { level = 69, int = 154, },
 }
 
-itemBases["Battered Helm"] = {
+itemBases["닳은 헬름"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -336,7 +336,7 @@ itemBases["Battered Helm"] = {
 	armour = { ArmourBaseMin = 13, ArmourBaseMax = 18, EvasionBaseMin = 13, EvasionBaseMax = 18, },
 	req = { str = 8, dex = 8, },
 }
-itemBases["Sallet"] = {
+itemBases["샐릿"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -346,7 +346,7 @@ itemBases["Sallet"] = {
 	armour = { ArmourBaseMin = 37, ArmourBaseMax = 48, EvasionBaseMin = 37, EvasionBaseMax = 48, },
 	req = { level = 13, str = 18, dex = 18, },
 }
-itemBases["Visored Sallet"] = {
+itemBases["차양 단 샐릿"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -356,7 +356,7 @@ itemBases["Visored Sallet"] = {
 	armour = { ArmourBaseMin = 64, ArmourBaseMax = 80, EvasionBaseMin = 64, EvasionBaseMax = 80, },
 	req = { level = 23, str = 28, dex = 28, },
 }
-itemBases["Gilded Sallet"] = {
+itemBases["도금 샐릿"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -366,7 +366,7 @@ itemBases["Gilded Sallet"] = {
 	armour = { ArmourBaseMin = 90, ArmourBaseMax = 97, EvasionBaseMin = 90, EvasionBaseMax = 97, },
 	req = { level = 33, str = 38, dex = 38, },
 }
-itemBases["Secutor Helm"] = {
+itemBases["호위병 샐릿"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -376,7 +376,7 @@ itemBases["Secutor Helm"] = {
 	armour = { ArmourBaseMin = 98, ArmourBaseMax = 116, EvasionBaseMin = 98, EvasionBaseMax = 116, },
 	req = { level = 36, str = 42, dex = 42, },
 }
-itemBases["Fencer Helm"] = {
+itemBases["검사 샐릿"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -386,7 +386,7 @@ itemBases["Fencer Helm"] = {
 	armour = { ArmourBaseMin = 117, ArmourBaseMax = 134, EvasionBaseMin = 117, EvasionBaseMax = 134, },
 	req = { level = 43, str = 49, dex = 49, },
 }
-itemBases["Lacquered Helmet"] = {
+itemBases["옻칠한 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -396,7 +396,7 @@ itemBases["Lacquered Helmet"] = {
 	armour = { ArmourBaseMin = 138, ArmourBaseMax = 155, EvasionBaseMin = 138, EvasionBaseMax = 155, },
 	req = { level = 51, str = 57, dex = 57, },
 }
-itemBases["Fluted Bascinet"] = {
+itemBases["홈이 긴 배서닛"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -406,7 +406,7 @@ itemBases["Fluted Bascinet"] = {
 	armour = { ArmourBaseMin = 160, ArmourBaseMax = 189, EvasionBaseMin = 160, EvasionBaseMax = 189, },
 	req = { level = 58, str = 64, dex = 64, },
 }
-itemBases["Pig-Faced Bascinet"] = {
+itemBases["돼지 머리 배서닛"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -416,7 +416,7 @@ itemBases["Pig-Faced Bascinet"] = {
 	armour = { ArmourBaseMin = 229, ArmourBaseMax = 263, EvasionBaseMin = 159, EvasionBaseMax = 183, },
 	req = { level = 63, str = 85, dex = 62, },
 }
-itemBases["Nightmare Bascinet"] = {
+itemBases["악몽의 배서닛"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
@@ -426,41 +426,41 @@ itemBases["Nightmare Bascinet"] = {
 	armour = { ArmourBaseMin = 162, ArmourBaseMax = 187, EvasionBaseMin = 233, EvasionBaseMax = 268, },
 	req = { level = 67, str = 62, dex = 85, },
 }
-itemBases["Sorrow Mask"] = {
+itemBases["슬픔 가면"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
 	tags = { str_dex_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "-15% additional Physical Damage Reduction\nYou are Crushed\n+(2-3) to maximum Fortification",
+	implicit = "받는 물리 피해 -15% 추가 감소\n타쇄당함\n방어 상승 최대치 +(2-3)",
 	implicitModTypes = { {  }, {  }, {  }, },
 	armour = { ArmourBaseMin = 42, ArmourBaseMax = 49, EvasionBaseMin = 42, EvasionBaseMax = 49, },
 	req = { level = 15, str = 20, dex = 20, },
 }
-itemBases["Atonement Mask"] = {
+itemBases["속죄 가면"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
 	tags = { str_dex_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "-15% additional Physical Damage Reduction\nYou are Crushed\n+(2-3) to maximum Fortification",
+	implicit = "받는 물리 피해 -15% 추가 감소\n타쇄당함\n방어 상승 최대치 +(2-3)",
 	implicitModTypes = { {  }, {  }, {  }, },
 	armour = { ArmourBaseMin = 122, ArmourBaseMax = 140, EvasionBaseMin = 122, EvasionBaseMax = 140, },
 	req = { level = 45, str = 51, dex = 51, },
 }
-itemBases["Penitent Mask"] = {
+itemBases["참회 가면"] = {
 	type = "Helmet",
 	subType = "Armour/Evasion",
 	socketLimit = 4,
 	tags = { str_dex_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "-15% additional Physical Damage Reduction\nYou are Crushed\n+(2-3) to maximum Fortification",
+	implicit = "받는 물리 피해 -15% 추가 감소\n타쇄당함\n방어 상승 최대치 +(2-3)",
 	implicitModTypes = { {  }, {  }, {  }, },
 	armour = { ArmourBaseMin = 185, ArmourBaseMax = 212, EvasionBaseMin = 185, EvasionBaseMax = 212, },
 	req = { level = 75, str = 79, dex = 79, },
 }
 
-itemBases["Rusted Coif"] = {
+itemBases["녹슨 코이프"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -470,7 +470,7 @@ itemBases["Rusted Coif"] = {
 	armour = { ArmourBaseMin = 16, ArmourBaseMax = 22, EnergyShieldBaseMin = 5, EnergyShieldBaseMax = 7, },
 	req = { level = 5, str = 9, int = 9, },
 }
-itemBases["Soldier Helmet"] = {
+itemBases["병사 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -480,7 +480,7 @@ itemBases["Soldier Helmet"] = {
 	armour = { ArmourBaseMin = 34, ArmourBaseMax = 45, EnergyShieldBaseMin = 8, EnergyShieldBaseMax = 11, },
 	req = { level = 12, str = 16, int = 16, },
 }
-itemBases["Great Helmet"] = {
+itemBases["대형 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -490,7 +490,7 @@ itemBases["Great Helmet"] = {
 	armour = { ArmourBaseMin = 61, ArmourBaseMax = 76, EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 17, },
 	req = { level = 22, str = 27, int = 27, },
 }
-itemBases["Crusader Helmet"] = {
+itemBases["십자군 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -500,7 +500,7 @@ itemBases["Crusader Helmet"] = {
 	armour = { ArmourBaseMin = 85, ArmourBaseMax = 95, EnergyShieldBaseMin = 18, EnergyShieldBaseMax = 20, },
 	req = { level = 31, str = 36, int = 36, },
 }
-itemBases["Aventail Helmet"] = {
+itemBases["쇠사슬 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -510,7 +510,7 @@ itemBases["Aventail Helmet"] = {
 	armour = { ArmourBaseMin = 101, ArmourBaseMax = 119, EnergyShieldBaseMin = 21, EnergyShieldBaseMax = 25, },
 	req = { level = 37, str = 42, int = 42, },
 }
-itemBases["Zealot Helmet"] = {
+itemBases["맹신자 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -520,7 +520,7 @@ itemBases["Zealot Helmet"] = {
 	armour = { ArmourBaseMin = 119, ArmourBaseMax = 137, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 29, },
 	req = { level = 44, str = 50, int = 50, },
 }
-itemBases["Great Crown"] = {
+itemBases["대형 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -530,7 +530,7 @@ itemBases["Great Crown"] = {
 	armour = { ArmourBaseMin = 143, ArmourBaseMax = 161, EnergyShieldBaseMin = 29, EnergyShieldBaseMax = 33, },
 	req = { level = 53, str = 59, int = 59, },
 }
-itemBases["Magistrate Crown"] = {
+itemBases["재판관 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -540,7 +540,7 @@ itemBases["Magistrate Crown"] = {
 	armour = { ArmourBaseMin = 160, ArmourBaseMax = 189, EnergyShieldBaseMin = 33, EnergyShieldBaseMax = 39, },
 	req = { level = 58, str = 64, int = 64, },
 }
-itemBases["Prophet Crown"] = {
+itemBases["예언자 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -550,7 +550,7 @@ itemBases["Prophet Crown"] = {
 	armour = { ArmourBaseMin = 224, ArmourBaseMax = 258, EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 37, },
 	req = { level = 63, str = 85, int = 62, },
 }
-itemBases["Praetor Crown"] = {
+itemBases["집정관 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
@@ -560,52 +560,52 @@ itemBases["Praetor Crown"] = {
 	armour = { ArmourBaseMin = 161, ArmourBaseMax = 185, EnergyShieldBaseMin = 51, EnergyShieldBaseMax = 58, },
 	req = { level = 68, str = 62, int = 91, },
 }
-itemBases["Imp Crown"] = {
+itemBases["임프 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
 	tags = { str_int_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit\n-10% to all Elemental Resistances",
+	implicit = "장착한 스킬이 적중 시 화염, 냉기, 번개 노출 유발\n모든 원소 저항 -10%",
 	implicitModTypes = { { "elemental", "resistance" }, { "elemental", "resistance" }, },
 	armour = { ArmourBaseMin = 42, ArmourBaseMax = 49, EnergyShieldBaseMin = 10, EnergyShieldBaseMax = 12, },
 	req = { level = 15, str = 20, int = 20, },
 }
-itemBases["Demon Crown"] = {
+itemBases["악마 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
 	tags = { str_int_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit\n-10% to all Elemental Resistances",
+	implicit = "장착한 스킬이 적중 시 화염, 냉기, 번개 노출 유발\n모든 원소 저항 -10%",
 	implicitModTypes = { { "elemental", "resistance" }, { "elemental", "resistance" }, },
 	armour = { ArmourBaseMin = 122, ArmourBaseMax = 140, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 29, },
 	req = { level = 45, str = 51, int = 51, },
 }
-itemBases["Archdemon Crown"] = {
+itemBases["대악마 왕관"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
 	tags = { str_int_armour = true, not_for_sale = true, helmet = true, armour = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Socketed Skills apply Fire, Cold and Lightning Exposure on Hit\n-10% to all Elemental Resistances",
+	implicit = "장착한 스킬이 적중 시 화염, 냉기, 번개 노출 유발\n모든 원소 저항 -10%",
 	implicitModTypes = { { "elemental", "resistance" }, { "elemental", "resistance" }, },
 	armour = { ArmourBaseMin = 185, ArmourBaseMax = 212, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 43, },
 	req = { level = 75, str = 79, int = 79, },
 }
-itemBases["Bone Helmet"] = {
+itemBases["뼈 투구"] = {
 	type = "Helmet",
 	subType = "Armour/Energy Shield",
 	socketLimit = 4,
 	tags = { str_int_armour = true, helmetatlas1 = true, not_for_sale = true, helmet = true, armour = true, atlas_base_type = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Minions deal (15-20)% increased Damage",
+	implicit = "소환수가 주는 피해 (15-20)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	armour = { ArmourBaseMin = 197, ArmourBaseMax = 227, EnergyShieldBaseMin = 40, EnergyShieldBaseMax = 46, },
 	req = { level = 73, str = 76, int = 76, },
 }
 
-itemBases["Scare Mask"] = {
+itemBases["허수아비 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -615,7 +615,7 @@ itemBases["Scare Mask"] = {
 	armour = { EvasionBaseMin = 13, EvasionBaseMax = 18, EnergyShieldBaseMin = 4, EnergyShieldBaseMax = 6, },
 	req = { dex = 8, int = 8, },
 }
-itemBases["Plague Mask"] = {
+itemBases["역병 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -625,7 +625,7 @@ itemBases["Plague Mask"] = {
 	armour = { EvasionBaseMin = 29, EvasionBaseMax = 38, EnergyShieldBaseMin = 7, EnergyShieldBaseMax = 10, },
 	req = { level = 10, dex = 14, int = 14, },
 }
-itemBases["Iron Mask"] = {
+itemBases["철 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -635,7 +635,7 @@ itemBases["Iron Mask"] = {
 	armour = { EvasionBaseMin = 48, EvasionBaseMax = 60, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 14, },
 	req = { level = 17, dex = 21, int = 21, },
 }
-itemBases["Festival Mask"] = {
+itemBases["축제용 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -645,7 +645,7 @@ itemBases["Festival Mask"] = {
 	armour = { EvasionBaseMin = 77, EvasionBaseMax = 88, EnergyShieldBaseMin = 17, EnergyShieldBaseMax = 19, },
 	req = { level = 28, dex = 33, int = 33, },
 }
-itemBases["Golden Mask"] = {
+itemBases["황금 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -655,7 +655,7 @@ itemBases["Golden Mask"] = {
 	armour = { EvasionBaseMin = 96, EvasionBaseMax = 103, EnergyShieldBaseMin = 20, EnergyShieldBaseMax = 22, },
 	req = { level = 35, dex = 40, int = 40, },
 }
-itemBases["Raven Mask"] = {
+itemBases["큰까마귀 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -665,7 +665,7 @@ itemBases["Raven Mask"] = {
 	armour = { EvasionBaseMin = 104, EvasionBaseMax = 119, EnergyShieldBaseMin = 22, EnergyShieldBaseMax = 25, },
 	req = { level = 38, dex = 44, int = 44, },
 }
-itemBases["Callous Mask"] = {
+itemBases["냉담한 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -675,7 +675,7 @@ itemBases["Callous Mask"] = {
 	armour = { EvasionBaseMin = 122, EvasionBaseMax = 137, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 28, },
 	req = { level = 45, dex = 51, int = 51, },
 }
-itemBases["Regicide Mask"] = {
+itemBases["왕 시해자 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -685,7 +685,7 @@ itemBases["Regicide Mask"] = {
 	armour = { EvasionBaseMin = 141, EvasionBaseMax = 158, EnergyShieldBaseMin = 29, EnergyShieldBaseMax = 32, },
 	req = { level = 52, dex = 58, int = 58, },
 }
-itemBases["Harlequin Mask"] = {
+itemBases["할리퀸 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -695,7 +695,7 @@ itemBases["Harlequin Mask"] = {
 	armour = { EvasionBaseMin = 157, EvasionBaseMax = 185, EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 38, },
 	req = { level = 57, dex = 64, int = 64, },
 }
-itemBases["Vaal Mask"] = {
+itemBases["바알 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -705,7 +705,7 @@ itemBases["Vaal Mask"] = {
 	armour = { EvasionBaseMin = 207, EvasionBaseMax = 239, EnergyShieldBaseMin = 37, EnergyShieldBaseMax = 43, },
 	req = { level = 62, dex = 79, int = 72, },
 }
-itemBases["Deicide Mask"] = {
+itemBases["신살자 가면"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
@@ -715,41 +715,41 @@ itemBases["Deicide Mask"] = {
 	armour = { EvasionBaseMin = 190, EvasionBaseMax = 219, EnergyShieldBaseMin = 47, EnergyShieldBaseMax = 54, },
 	req = { level = 67, dex = 73, int = 88, },
 }
-itemBases["Gale Crown"] = {
+itemBases["강풍 왕관"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
 	tags = { not_for_sale = true, helmet = true, armour = true, default = true, dex_int_armour = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Adds (3-4) to (5-6) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+	implicit = "냉기 피해 (3-4)~(5-6) 추가\n플레이어가 적중 시 냉기 저항을 실제 값보다 10% 높게 취급",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "cold" }, { "elemental_damage", "damage", "elemental", "cold" }, },
 	armour = { EvasionBaseMin = 42, EvasionBaseMax = 49, EnergyShieldBaseMin = 10, EnergyShieldBaseMax = 12, },
 	req = { level = 15, dex = 20, int = 20, },
 }
-itemBases["Winter Crown"] = {
+itemBases["겨울 왕관"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
 	tags = { not_for_sale = true, helmet = true, armour = true, default = true, dex_int_armour = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Adds (15-20) to (28-35) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+	implicit = "냉기 피해 (15-20)~(28-35) 추가\n플레이어가 적중 시 냉기 저항을 실제 값보다 10% 높게 취급",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "cold" }, { "elemental_damage", "damage", "elemental", "cold" }, },
 	armour = { EvasionBaseMin = 122, EvasionBaseMax = 140, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 29, },
 	req = { level = 45, dex = 51, int = 51, },
 }
-itemBases["Blizzard Crown"] = {
+itemBases["눈보라 왕관"] = {
 	type = "Helmet",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 4,
 	tags = { not_for_sale = true, helmet = true, armour = true, default = true, dex_int_armour = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "Adds (75-85) to (115-128) Cold Damage\nYour Hits treat Cold Resistance as 10% higher than actual value",
+	implicit = "냉기 피해 (75-85)~(115-128) 추가\n플레이어가 적중 시 냉기 저항을 실제 값보다 10% 높게 취급",
 	implicitModTypes = { { "elemental_damage", "damage", "elemental", "cold" }, { "elemental_damage", "damage", "elemental", "cold" }, },
 	armour = { EvasionBaseMin = 185, EvasionBaseMax = 212, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 43, },
 	req = { level = 75, dex = 79, int = 79, },
 }
 
-itemBases["Runic Helm"] = {
+itemBases["룬 투구"] = {
 	type = "Helmet",
 	subType = "Ward",
 	socketLimit = 4,
@@ -759,7 +759,7 @@ itemBases["Runic Helm"] = {
 	armour = { WardBaseMin = 41, WardBaseMax = 47, },
 	req = { level = 25, str = 30, dex = 30, int = 30, },
 }
-itemBases["Runic Crest"] = {
+itemBases["룬 관모"] = {
 	type = "Helmet",
 	subType = "Ward",
 	socketLimit = 4,
@@ -769,7 +769,7 @@ itemBases["Runic Crest"] = {
 	armour = { WardBaseMin = 97, WardBaseMax = 112, },
 	req = { level = 49, str = 55, dex = 55, int = 55, },
 }
-itemBases["Runic Crown"] = {
+itemBases["룬 왕관"] = {
 	type = "Helmet",
 	subType = "Ward",
 	socketLimit = 4,
@@ -780,12 +780,12 @@ itemBases["Runic Crown"] = {
 	req = { level = 68, str = 66, dex = 66, int = 66, },
 }
 
-itemBases["Golden Wreath"] = {
+itemBases["황금 화관"] = {
 	type = "Helmet",
 	socketLimit = 4,
 	tags = { not_for_sale = true, helmet = true, armour = true, demigods = true, default = true, },
 	influenceTags = { shaper = "helmet_shaper", elder = "helmet_elder", adjudicator = "helmet_adjudicator", basilisk = "helmet_basilisk", crusader = "helmet_crusader", eyrie = "helmet_eyrie", cleansing = "helmet_cleansing", tangle = "helmet_tangle" },
-	implicit = "+(16-24) to all Attributes",
+	implicit = "모든 능력치 +(16-24)",
 	implicitModTypes = { { "attribute" }, },
 	armour = { },
 	req = { level = 12, },

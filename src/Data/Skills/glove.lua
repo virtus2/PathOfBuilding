@@ -7,12 +7,12 @@
 local skills, mod, flag, skill = ...
 
 skills["EnchantmentOfBladesOnHit"] = {
-	name = "Word of Blades",
+	name = "칼날의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7000000476837,
 	incrementalEffectiveness = 0.037000000476837,
-	description = "Fires a chaining burst of ethereal blades.",
+	description = "연쇄 폭발하는 천상의 칼날을 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -39,12 +39,12 @@ skills["EnchantmentOfBladesOnHit"] = {
 	},
 }
 skills["EnchantmentOfBladesOnHit2"] = {
-	name = "Edict of Blades",
+	name = "칼날의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7000000476837,
 	incrementalEffectiveness = 0.037000000476837,
-	description = "Fires a chaining burst of ethereal blades.",
+	description = "연쇄 폭발하는 천상의 칼날을 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -71,12 +71,12 @@ skills["EnchantmentOfBladesOnHit2"] = {
 	},
 }
 skills["EnchantmentOfBladesOnHit3"] = {
-	name = "Decree of Blades",
+	name = "칼날의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7000000476837,
 	incrementalEffectiveness = 0.037000000476837,
-	description = "Fires a chaining burst of ethereal blades.",
+	description = "연쇄 폭발하는 천상의 칼날을 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -103,12 +103,12 @@ skills["EnchantmentOfBladesOnHit3"] = {
 	},
 }
 skills["EnchantmentOfBladesOnHit4"] = {
-	name = "Commandment of Blades",
+	name = "칼날의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7000000476837,
 	incrementalEffectiveness = 0.037000000476837,
-	description = "Fires a chaining burst of ethereal blades.",
+	description = "연쇄 폭발하는 천상의 칼날을 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -135,12 +135,12 @@ skills["EnchantmentOfBladesOnHit4"] = {
 	},
 }
 skills["EnchantmentOfFlamesOnHit"] = {
-	name = "Word of Flames",
+	name = "화염의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7777999639511,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a nova of fire around you, damaging nearby enemies.",
+	description = "주위로 화염 폭발을 방출하여, 주변의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -165,12 +165,12 @@ skills["EnchantmentOfFlamesOnHit"] = {
 	},
 }
 skills["EnchantmentOfFlamesOnHit2"] = {
-	name = "Edict of Flames",
+	name = "화염의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7777999639511,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a nova of fire around you, damaging nearby enemies.",
+	description = "주위로 화염 폭발을 방출하여, 주변의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -195,12 +195,12 @@ skills["EnchantmentOfFlamesOnHit2"] = {
 	},
 }
 skills["EnchantmentOfFlamesOnHit3"] = {
-	name = "Decree of Flames",
+	name = "화염의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7777999639511,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a nova of fire around you, damaging nearby enemies.",
+	description = "주위로 화염 폭발을 방출하여, 주변의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -225,12 +225,12 @@ skills["EnchantmentOfFlamesOnHit3"] = {
 	},
 }
 skills["EnchantmentOfFlamesOnHit4"] = {
-	name = "Commandment of Flames",
+	name = "화염의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.7777999639511,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a nova of fire around you, damaging nearby enemies.",
+	description = "주위로 화염 폭발을 방출하여, 주변의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -255,10 +255,10 @@ skills["EnchantmentOfFlamesOnHit4"] = {
 	},
 }
 skills["EnchantmentOfForceOnHit"] = {
-	name = "Word of Force",
+	name = "힘의 명령",
 	hidden = true,
 	color = 4,
-	description = "Release an arc of force from your weapon or fists, damaging enemies in front of you.",
+	description = "무기나 주먹에서 원호 형태로 힘을 방출해, 전방의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -280,10 +280,10 @@ skills["EnchantmentOfForceOnHit"] = {
 	},
 }
 skills["EnchantmentOfForceOnHit2"] = {
-	name = "Edict of Force",
+	name = "힘의 칙령",
 	hidden = true,
 	color = 4,
-	description = "Release an arc of force from your weapon or fists, damaging enemies in front of you.",
+	description = "무기나 주먹에서 원호 형태로 힘을 방출해, 전방의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -305,10 +305,10 @@ skills["EnchantmentOfForceOnHit2"] = {
 	},
 }
 skills["EnchantmentOfForceOnHit3"] = {
-	name = "Decree of Force",
+	name = "힘의 법령",
 	hidden = true,
 	color = 4,
-	description = "Release an arc of force from your weapon or fists, damaging enemies in front of you.",
+	description = "무기나 주먹에서 원호 형태로 힘을 방출해, 전방의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -330,10 +330,10 @@ skills["EnchantmentOfForceOnHit3"] = {
 	},
 }
 skills["EnchantmentOfForceOnHit4"] = {
-	name = "Commandment of Force",
+	name = "힘의 율령",
 	hidden = true,
 	color = 4,
-	description = "Release an arc of force from your weapon or fists, damaging enemies in front of you.",
+	description = "무기나 주먹에서 원호 형태로 힘을 방출해, 전방의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Damage] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -355,12 +355,12 @@ skills["EnchantmentOfForceOnHit4"] = {
 	},
 }
 skills["EnchantmentOfFrostOnKill"] = {
-	name = "Word of Frost",
+	name = "서리의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.6363999843597,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Fire icy projectiles around you in all directions.",
+	description = "플레이어 주변 모든 방향으로 얼음 투사체를 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -387,12 +387,12 @@ skills["EnchantmentOfFrostOnKill"] = {
 	},
 }
 skills["EnchantmentOfFrostOnKill2"] = {
-	name = "Edict of Frost",
+	name = "서리의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.6363999843597,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Fire icy projectiles around you in all directions.",
+	description = "플레이어 주변 모든 방향으로 얼음 투사체를 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -419,12 +419,12 @@ skills["EnchantmentOfFrostOnKill2"] = {
 	},
 }
 skills["EnchantmentOfFrostOnKill3"] = {
-	name = "Decree of Frost",
+	name = "서리의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.6363999843597,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Fire icy projectiles around you in all directions.",
+	description = "플레이어 주변 모든 방향으로 얼음 투사체를 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -451,12 +451,12 @@ skills["EnchantmentOfFrostOnKill3"] = {
 	},
 }
 skills["EnchantmentOfFrostOnKill4"] = {
-	name = "Commandment of Frost",
+	name = "서리의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.6363999843597,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Fire icy projectiles around you in all directions.",
+	description = "플레이어 주변 모든 방향으로 얼음 투사체를 발사합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Projectile] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -483,11 +483,11 @@ skills["EnchantmentOfFrostOnKill4"] = {
 	},
 }
 skills["EnchantmentOfFuryOnHit"] = {
-	name = "Word of Fury",
+	name = "광분의 명령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.",
+	description = "관통하는 투사체를 반복적으로 발사하여 물리 피해 일부를 화염 피해로 전환합니다. 투사체는 무기별로 달라지며, 전방에 원호 형태로 날아갑니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -532,11 +532,11 @@ skills["EnchantmentOfFuryOnHit"] = {
 	},
 }
 skills["EnchantmentOfFuryOnHit2"] = {
-	name = "Edict of Fury",
+	name = "광분의 칙령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.",
+	description = "관통하는 투사체를 반복적으로 발사하여 물리 피해 일부를 화염 피해로 전환합니다. 투사체는 무기별로 달라지며, 전방에 원호 형태로 날아갑니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -581,11 +581,11 @@ skills["EnchantmentOfFuryOnHit2"] = {
 	},
 }
 skills["EnchantmentOfFuryOnHit3"] = {
-	name = "Decree of Fury",
+	name = "광분의 법령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.",
+	description = "관통하는 투사체를 반복적으로 발사하여 물리 피해 일부를 화염 피해로 전환합니다. 투사체는 무기별로 달라지며, 전방에 원호 형태로 날아갑니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -630,11 +630,11 @@ skills["EnchantmentOfFuryOnHit3"] = {
 	},
 }
 skills["EnchantmentOfFuryOnHit4"] = {
-	name = "Commandment of Fury",
+	name = "광분의 율령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Repeatedly fires a piercing projectile based on your weapon, converting some physical damage to fire. The projectiles form an arc in front of you.",
+	description = "관통하는 투사체를 반복적으로 발사하여 물리 피해 일부를 화염 피해로 전환합니다. 투사체는 무기별로 달라지며, 전방에 원호 형태로 날아갑니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Fire] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -679,12 +679,12 @@ skills["EnchantmentOfFuryOnHit4"] = {
 	},
 }
 skills["EnchantmentOfInfernoOnKill"] = {
-	name = "Word of Inferno",
+	name = "지옥불의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3.5555999279022,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+	description = "주변의 적에게 유성을 떨어트려 그 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -713,12 +713,12 @@ skills["EnchantmentOfInfernoOnKill"] = {
 	},
 }
 skills["EnchantmentOfInfernoOnKill2"] = {
-	name = "Edict of Inferno",
+	name = "지옥불의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3.5555999279022,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+	description = "주변의 적에게 유성을 떨어트려 그 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -747,12 +747,12 @@ skills["EnchantmentOfInfernoOnKill2"] = {
 	},
 }
 skills["EnchantmentOfInfernoOnKill3"] = {
-	name = "Decree of Inferno",
+	name = "지옥불의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3.5555999279022,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+	description = "주변의 적에게 유성을 떨어트려 그 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -781,12 +781,12 @@ skills["EnchantmentOfInfernoOnKill3"] = {
 	},
 }
 skills["EnchantmentOfInfernoOnKill4"] = {
-	name = "Commandment of Inferno",
+	name = "지옥불의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 3.5555999279022,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Drops a meteor from above on a nearby foe, dealing fire damage in an area around them.",
+	description = "주변의 적에게 유성을 떨어트려 그 주변 지역에 화염 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.Fire] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -815,12 +815,12 @@ skills["EnchantmentOfInfernoOnKill4"] = {
 	},
 }
 skills["EnchantmentOfIreWhenHit"] = {
-	name = "Word of Ire",
+	name = "노여움의 명령",
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 1.2000000476837,
 	incrementalEffectiveness = 0.019999999552965,
-	description = "Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.",
+	description = "번개로 충전되어 있는 플레이어 무기의 복제품이나 그에 따른 투사체를 방출합니다. 한 지점을 회전하면서 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Lightning] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -863,12 +863,12 @@ skills["EnchantmentOfIreWhenHit"] = {
 	},
 }
 skills["EnchantmentOfIreWhenHit2"] = {
-	name = "Edict of Ire",
+	name = "노여움의 칙령",
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 1.2000000476837,
 	incrementalEffectiveness = 0.019999999552965,
-	description = "Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.",
+	description = "번개로 충전되어 있는 플레이어 무기의 복제품이나 그에 따른 투사체를 방출합니다. 한 지점을 회전하면서 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Lightning] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -911,12 +911,12 @@ skills["EnchantmentOfIreWhenHit2"] = {
 	},
 }
 skills["EnchantmentOfIreWhenHit3"] = {
-	name = "Decree of Ire",
+	name = "노여움의 법령",
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 1.2000000476837,
 	incrementalEffectiveness = 0.019999999552965,
-	description = "Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.",
+	description = "번개로 충전되어 있는 플레이어 무기의 복제품이나 그에 따른 투사체를 방출합니다. 한 지점을 회전하면서 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Lightning] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -959,12 +959,12 @@ skills["EnchantmentOfIreWhenHit3"] = {
 	},
 }
 skills["EnchantmentOfIreWhenHit4"] = {
-	name = "Commandment of Ire",
+	name = "노여움의 율령",
 	hidden = true,
 	color = 2,
 	baseEffectiveness = 1.2000000476837,
 	incrementalEffectiveness = 0.019999999552965,
-	description = "Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.",
+	description = "번개로 충전되어 있는 플레이어 무기의 복제품이나 그에 따른 투사체를 방출합니다. 한 지점을 회전하면서 범위 내의 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Lightning] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1007,10 +1007,10 @@ skills["EnchantmentOfIreWhenHit4"] = {
 	},
 }
 skills["EnchantmentOfLightWhenCrit"] = {
-	name = "Word of Light",
+	name = "빛의 명령",
 	hidden = true,
 	color = 4,
-	description = "Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.",
+	description = "주변 지역에 주 무기 피해의 일부를 가하고, 신성화 지대를 만들어 플레이어와 동료들의 생명력을 재생합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1035,10 +1035,10 @@ skills["EnchantmentOfLightWhenCrit"] = {
 	},
 }
 skills["EnchantmentOfLightWhenCrit2"] = {
-	name = "Edict of Light",
+	name = "빛의 칙령",
 	hidden = true,
 	color = 4,
-	description = "Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.",
+	description = "주변 지역에 주 무기 피해의 일부를 가하고, 신성화 지대를 만들어 플레이어와 동료들의 생명력을 재생합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1063,10 +1063,10 @@ skills["EnchantmentOfLightWhenCrit2"] = {
 	},
 }
 skills["EnchantmentOfLightWhenCrit3"] = {
-	name = "Decree of Light",
+	name = "빛의 법령",
 	hidden = true,
 	color = 4,
-	description = "Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.",
+	description = "주변 지역에 주 무기 피해의 일부를 가하고, 신성화 지대를 만들어 플레이어와 동료들의 생명력을 재생합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1091,10 +1091,10 @@ skills["EnchantmentOfLightWhenCrit3"] = {
 	},
 }
 skills["EnchantmentOfLightWhenCrit4"] = {
-	name = "Commandment of Light",
+	name = "빛의 율령",
 	hidden = true,
 	color = 4,
-	description = "Deals a portion of your main hand damage in an area around you and creates Consecrated Ground, causing you and your allies to regenerate life.",
+	description = "주변 지역에 주 무기 피해의 일부를 가하고, 신성화 지대를 만들어 플레이어와 동료들의 생명력을 재생합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.Area] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1119,10 +1119,10 @@ skills["EnchantmentOfLightWhenCrit4"] = {
 	},
 }
 skills["EnchantmentOfReflectionWhenHit"] = {
-	name = "Word of Reflection",
+	name = "투영의 명령",
 	hidden = true,
 	color = 4,
-	description = "Creates a clone of you that attacks with your weapon.",
+	description = "장비한 무기로 공격하는 분신을 만들어 냅니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_skill_stat_descriptions",
@@ -1157,10 +1157,10 @@ skills["EnchantmentOfReflectionWhenHit"] = {
 	},
 }
 skills["EnchantmentOfReflectionWhenHit2"] = {
-	name = "Edict of Reflection",
+	name = "투영의 칙령",
 	hidden = true,
 	color = 4,
-	description = "Creates a clone of you that attacks with your weapon.",
+	description = "장비한 무기로 공격하는 분신을 만들어 냅니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1195,10 +1195,10 @@ skills["EnchantmentOfReflectionWhenHit2"] = {
 	},
 }
 skills["EnchantmentOfReflectionWhenHit3"] = {
-	name = "Decree of Reflection",
+	name = "투영의 법령",
 	hidden = true,
 	color = 4,
-	description = "Creates a clone of you that attacks with your weapon.",
+	description = "장비한 무기로 공격하는 분신을 만들어 냅니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1233,10 +1233,10 @@ skills["EnchantmentOfReflectionWhenHit3"] = {
 	},
 }
 skills["EnchantmentOfReflectionWhenHit4"] = {
-	name = "Commandment of Reflection",
+	name = "투영의 율령",
 	hidden = true,
 	color = 4,
-	description = "Creates a clone of you that attacks with your weapon.",
+	description = "장비한 무기로 공격하는 분신을 만들어 냅니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.Triggerable] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1271,11 +1271,11 @@ skills["EnchantmentOfReflectionWhenHit4"] = {
 	},
 }
 skills["EnchantmentOfSpiteWhenHit"] = {
-	name = "Word of Spite",
+	name = "원한의 명령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a circle of projectiles based on your weapon, leaving chilled ground in their wake.",
+	description = "플레이어의 무기에 기반해 원형으로 투사체를 방출하며 투사체 이동 경로에 얼음 지대를 남깁니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.ChillingArea] = true, [SkillType.Cold] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1320,11 +1320,11 @@ skills["EnchantmentOfSpiteWhenHit"] = {
 	},
 }
 skills["EnchantmentOfSpiteWhenHit2"] = {
-	name = "Edict of Spite",
+	name = "원한의 칙령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a circle of projectiles based on your weapon, leaving chilled ground in their wake.",
+	description = "플레이어의 무기에 기반해 원형으로 투사체를 방출하며 투사체 이동 경로에 얼음 지대를 남깁니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.ChillingArea] = true, [SkillType.Cold] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1369,11 +1369,11 @@ skills["EnchantmentOfSpiteWhenHit2"] = {
 	},
 }
 skills["EnchantmentOfSpiteWhenHit3"] = {
-	name = "Decree of Spite",
+	name = "원한의 법령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a circle of projectiles based on your weapon, leaving chilled ground in their wake.",
+	description = "플레이어의 무기에 기반해 원형으로 투사체를 방출하며 투사체 이동 경로에 얼음 지대를 남깁니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.ChillingArea] = true, [SkillType.Cold] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1418,11 +1418,11 @@ skills["EnchantmentOfSpiteWhenHit3"] = {
 	},
 }
 skills["EnchantmentOfSpiteWhenHit4"] = {
-	name = "Commandment of Spite",
+	name = "원한의 율령",
 	hidden = true,
 	color = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Releases a circle of projectiles based on your weapon, leaving chilled ground in their wake.",
+	description = "플레이어의 무기에 기반해 원형으로 투사체를 방출하며 투사체 이동 경로에 얼음 지대를 남깁니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.RangedAttack] = true, [SkillType.Projectile] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.ChillingArea] = true, [SkillType.Cold] = true, [SkillType.ProjectilesNotFromUser] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1467,12 +1467,12 @@ skills["EnchantmentOfSpiteWhenHit4"] = {
 	},
 }
 skills["EnchantmentOfTempestOnHit"] = {
-	name = "Word of the Tempest",
+	name = "폭풍의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.",
+	description = "방출하기 전까지 유지되는 번개를 충전하여, 방출 시 주변 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 4,
@@ -1498,12 +1498,12 @@ skills["EnchantmentOfTempestOnHit"] = {
 	},
 }
 skills["EnchantmentOfTempestOnHit2"] = {
-	name = "Edict of the Tempest",
+	name = "폭풍의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.",
+	description = "방출하기 전까지 유지되는 번개를 충전하여, 방출 시 주변 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 4,
@@ -1529,12 +1529,12 @@ skills["EnchantmentOfTempestOnHit2"] = {
 	},
 }
 skills["EnchantmentOfTempestOnHit3"] = {
-	name = "Decree of the Tempest",
+	name = "폭풍의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.",
+	description = "방출하기 전까지 유지되는 번개를 충전하여, 방출 시 주변 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 4,
@@ -1560,12 +1560,12 @@ skills["EnchantmentOfTempestOnHit3"] = {
 	},
 }
 skills["EnchantmentOfTempestOnHit4"] = {
-	name = "Commandment of the Tempest",
+	name = "폭풍의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 4,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Charges you with lightning which lasts a duration before unleashing, damaging surrounding enemies.",
+	description = "방출하기 전까지 유지되는 번개를 충전하여, 방출 시 주변 적들에게 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 4,
@@ -1591,10 +1591,10 @@ skills["EnchantmentOfTempestOnHit4"] = {
 	},
 }
 skills["EnchantmentOfTheGraveOnKill"] = {
-	name = "Word of the Grave",
+	name = "무덤의 명령",
 	hidden = true,
 	color = 4,
-	description = "Summons three icy skull minions that explode at the end of their duration.",
+	description = "지속시간이 종료되면 폭발하는 3개체의 얼음 해골 소환수를 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Cold] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "minion_spell_skill_stat_descriptions",
@@ -1625,10 +1625,10 @@ skills["EnchantmentOfTheGraveOnKill"] = {
 	},
 }
 skills["EnchantmentOfTheGraveOnKill2"] = {
-	name = "Edict of the Grave",
+	name = "무덤의 칙령",
 	hidden = true,
 	color = 4,
-	description = "Summons three icy skull minions that explode at the end of their duration.",
+	description = "지속시간이 종료되면 폭발하는 3개체의 얼음 해골 소환수를 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Cold] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1659,10 +1659,10 @@ skills["EnchantmentOfTheGraveOnKill2"] = {
 	},
 }
 skills["EnchantmentOfTheGraveOnKill3"] = {
-	name = "Decree of the Grave",
+	name = "무덤의 법령",
 	hidden = true,
 	color = 4,
-	description = "Summons three icy skull minions that explode at the end of their duration.",
+	description = "지속시간이 종료되면 폭발하는 3개체의 얼음 해골 소환수를 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Cold] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1693,10 +1693,10 @@ skills["EnchantmentOfTheGraveOnKill3"] = {
 	},
 }
 skills["EnchantmentOfTheGraveOnKill4"] = {
-	name = "Commandment of the Grave",
+	name = "무덤의 율령",
 	hidden = true,
 	color = 4,
-	description = "Summons three icy skull minions that explode at the end of their duration.",
+	description = "지속시간이 종료되면 폭발하는 3개체의 얼음 해골 소환수를 소환합니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Minion] = true, [SkillType.MinionsCanExplode] = true, [SkillType.Cold] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.Duration] = true, [SkillType.CreatesMinion] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	minionSkillTypes = { [SkillType.Attack] = true, [SkillType.Melee] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
@@ -1727,12 +1727,12 @@ skills["EnchantmentOfTheGraveOnKill4"] = {
 	},
 }
 skills["EnchantmentOfThunderOnKill"] = {
-	name = "Word of Thunder",
+	name = "천둥의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.625,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Damaging cones of lightning surround you.",
+	description = "주변의 부채꼴 범위에 번개 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Lightning] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1757,12 +1757,12 @@ skills["EnchantmentOfThunderOnKill"] = {
 	},
 }
 skills["EnchantmentOfThunderOnKill2"] = {
-	name = "Edict of Thunder",
+	name = "천둥의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.625,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Damaging cones of lightning surround you.",
+	description = "주변의 부채꼴 범위에 번개 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Lightning] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1787,12 +1787,12 @@ skills["EnchantmentOfThunderOnKill2"] = {
 	},
 }
 skills["EnchantmentOfThunderOnKill3"] = {
-	name = "Decree of Thunder",
+	name = "천둥의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.625,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Damaging cones of lightning surround you.",
+	description = "주변의 부채꼴 범위에 번개 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Lightning] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1817,12 +1817,12 @@ skills["EnchantmentOfThunderOnKill3"] = {
 	},
 }
 skills["EnchantmentOfThunderOnKill4"] = {
-	name = "Commandment of Thunder",
+	name = "천둥의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.625,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Damaging cones of lightning surround you.",
+	description = "주변의 부채꼴 범위에 번개 피해를 줍니다.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Area] = true, [SkillType.TotemCastsWhenNotDetached] = true, [SkillType.Lightning] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.AreaSpell] = true, [SkillType.Nova] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
@@ -1847,10 +1847,10 @@ skills["EnchantmentOfThunderOnKill4"] = {
 	},
 }
 skills["EnchantmentOfWarOnKill"] = {
-	name = "Word of War",
+	name = "전쟁의 명령",
 	hidden = true,
 	color = 4,
-	description = "This attack is performed repeatedly by a ghostly imitation of your weapon.",
+	description = "무기의 귀신 모조품이 반복적인 공격을 수행합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1888,10 +1888,10 @@ skills["EnchantmentOfWarOnKill"] = {
 	},
 }
 skills["EnchantmentOfWarOnKill2"] = {
-	name = "Edict of War",
+	name = "전쟁의 칙령",
 	hidden = true,
 	color = 4,
-	description = "This attack is performed repeatedly by a ghostly imitation of your weapon.",
+	description = "무기의 귀신 모조품이 반복적인 공격을 수행합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1929,10 +1929,10 @@ skills["EnchantmentOfWarOnKill2"] = {
 	},
 }
 skills["EnchantmentOfWarOnKill3"] = {
-	name = "Decree of War",
+	name = "전쟁의 법령",
 	hidden = true,
 	color = 4,
-	description = "This attack is performed repeatedly by a ghostly imitation of your weapon.",
+	description = "무기의 귀신 모조품이 반복적인 공격을 수행합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -1970,10 +1970,10 @@ skills["EnchantmentOfWarOnKill3"] = {
 	},
 }
 skills["EnchantmentOfWarOnKill4"] = {
-	name = "Commandment of War",
+	name = "전쟁의 율령",
 	hidden = true,
 	color = 4,
-	description = "This attack is performed repeatedly by a ghostly imitation of your weapon.",
+	description = "무기의 귀신 모조품이 반복적인 공격을 수행합니다.",
 	skillTypes = { [SkillType.Attack] = true, [SkillType.MeleeSingleTarget] = true, [SkillType.Multistrikeable] = true, [SkillType.Melee] = true, [SkillType.Duration] = true, [SkillType.Triggered] = true, [SkillType.Triggerable] = true, [SkillType.Cooldown] = true, },
 	weaponTypes = {
 		["One Handed Mace"] = true,
@@ -2011,12 +2011,12 @@ skills["EnchantmentOfWarOnKill4"] = {
 	},
 }
 skills["EnchantmentOfWinterWhenHit"] = {
-	name = "Word of Winter",
+	name = "겨울의 명령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.0908999443054,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Unleashes an icy projectile that pulses with cold as it travels.",
+	description = "이동하는 동안 냉기를 내뿜는 얼음 투사체를 방출합니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1.4,
@@ -2042,12 +2042,12 @@ skills["EnchantmentOfWinterWhenHit"] = {
 	},
 }
 skills["EnchantmentOfWinterWhenHit2"] = {
-	name = "Edict of Winter",
+	name = "겨울의 칙령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.0908999443054,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Unleashes an icy projectile that pulses with cold as it travels.",
+	description = "이동하는 동안 냉기를 내뿜는 얼음 투사체를 방출합니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1.4,
@@ -2073,12 +2073,12 @@ skills["EnchantmentOfWinterWhenHit2"] = {
 	},
 }
 skills["EnchantmentOfWinterWhenHit3"] = {
-	name = "Decree of Winter",
+	name = "겨울의 법령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.0908999443054,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Unleashes an icy projectile that pulses with cold as it travels.",
+	description = "이동하는 동안 냉기를 내뿜는 얼음 투사체를 방출합니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1.4,
@@ -2104,12 +2104,12 @@ skills["EnchantmentOfWinterWhenHit3"] = {
 	},
 }
 skills["EnchantmentOfWinterWhenHit4"] = {
-	name = "Commandment of Winter",
+	name = "겨울의 율령",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 1.0908999443054,
 	incrementalEffectiveness = 0.035000000149012,
-	description = "Unleashes an icy projectile that pulses with cold as it travels.",
+	description = "이동하는 동안 냉기를 내뿜는 얼음 투사체를 방출합니다.",
 	skillTypes = { [SkillType.Projectile] = true, [SkillType.ProjectilesFromUser] = true, [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Trappable] = true, [SkillType.Totemable] = true, [SkillType.Mineable] = true, [SkillType.Multicastable] = true, [SkillType.Triggerable] = true, [SkillType.Triggered] = true, [SkillType.AreaSpell] = true, [SkillType.Cooldown] = true, [SkillType.InbuiltTrigger] = true, },
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1.4,

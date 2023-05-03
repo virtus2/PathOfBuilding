@@ -3,7 +3,7 @@
 local itemBases = ...
 
 
-itemBases["Splintered Tower Shield"] = {
+itemBases["쪼개진 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
@@ -13,482 +13,482 @@ itemBases["Splintered Tower Shield"] = {
 	armour = { BlockChance = 24, ArmourBaseMin = 9, ArmourBaseMax = 12, MovementPenalty = 3, },
 	req = { str = 11, },
 }
-itemBases["Corroded Tower Shield"] = {
+itemBases["부식된 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 36, ArmourBaseMax = 47, MovementPenalty = 3, },
 	req = { level = 5, str = 20, },
 }
-itemBases["Rawhide Tower Shield"] = {
+itemBases["생가죽 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 26, ArmourBaseMin = 53, ArmourBaseMax = 66, MovementPenalty = 3, },
 	req = { level = 11, str = 33, },
 }
-itemBases["Cedar Tower Shield"] = {
+itemBases["삼나무 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 94, ArmourBaseMax = 113, MovementPenalty = 3, },
 	req = { level = 17, str = 47, },
 }
-itemBases["Copper Tower Shield"] = {
+itemBases["구리 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(30-40) to maximum Life",
+	implicit = "생명력 최대치 +(30-40)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 151, ArmourBaseMax = 173, MovementPenalty = 3, },
 	req = { level = 24, str = 62, },
 }
-itemBases["Reinforced Tower Shield"] = {
+itemBases["강화 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 237, ArmourBaseMax = 260, MovementPenalty = 3, },
 	req = { level = 30, str = 76, },
 }
-itemBases["Painted Tower Shield"] = {
+itemBases["도색된 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 188, ArmourBaseMax = 216, MovementPenalty = 3, },
 	req = { level = 35, str = 87, },
 }
-itemBases["Buckskin Tower Shield"] = {
+itemBases["사슴가죽 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 26, ArmourBaseMin = 177, ArmourBaseMax = 209, MovementPenalty = 3, },
 	req = { level = 39, str = 96, },
 }
-itemBases["Mahogany Tower Shield"] = {
+itemBases["마호가니 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 230, ArmourBaseMax = 265, MovementPenalty = 3, },
 	req = { level = 43, str = 105, },
 }
-itemBases["Bronze Tower Shield"] = {
+itemBases["청동 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(30-40) to maximum Life",
+	implicit = "생명력 최대치 +(30-40)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 290, ArmourBaseMax = 324, MovementPenalty = 3, },
 	req = { level = 47, str = 114, },
 }
-itemBases["Girded Tower Shield"] = {
+itemBases["둘러싼 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 397, ArmourBaseMax = 437, MovementPenalty = 3, },
 	req = { level = 51, str = 123, },
 }
-itemBases["Crested Tower Shield"] = {
+itemBases["문장 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 293, ArmourBaseMax = 337, MovementPenalty = 3, },
 	req = { level = 55, str = 132, },
 }
-itemBases["Shagreen Tower Shield"] = {
+itemBases["거친 생가죽 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 26, ArmourBaseMin = 261, ArmourBaseMax = 308, MovementPenalty = 3, },
 	req = { level = 58, str = 139, },
 }
-itemBases["Ebony Tower Shield"] = {
+itemBases["칠흑의 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 357, ArmourBaseMax = 411, MovementPenalty = 3, },
 	req = { level = 61, str = 159, },
 }
-itemBases["Ezomyte Tower Shield"] = {
+itemBases["에조미어 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, top_tier_base_item_type = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(30-40) to maximum Life",
+	implicit = "생명력 최대치 +(30-40)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 412, ArmourBaseMax = 474, MovementPenalty = 3, },
 	req = { level = 64, str = 159, },
 }
-itemBases["Colossal Tower Shield"] = {
+itemBases["초대형 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, top_tier_base_item_type = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(10-20) to maximum Life",
+	implicit = "생명력 최대치 +(10-20)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 522, ArmourBaseMax = 601, MovementPenalty = 3, },
 	req = { level = 67, str = 159, },
 }
-itemBases["Pinnacle Tower Shield"] = {
+itemBases["최고의 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { str_armour = true, top_tier_base_item_type = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(20-30) to maximum Life",
+	implicit = "생명력 최대치 +(20-30)",
 	implicitModTypes = { { "resource", "life" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 467, ArmourBaseMax = 537, MovementPenalty = 3, },
 	req = { level = 70, str = 159, },
 }
-itemBases["Exothermic Tower Shield"] = {
+itemBases["발열성 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { experimental_base = true, str_armour = true, not_for_sale = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Scorch Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 그을림",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 125, ArmourBaseMax = 143, MovementPenalty = 3, },
 	req = { level = 30, str = 76, },
 }
-itemBases["Magmatic Tower Shield"] = {
+itemBases["마그마 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { experimental_base = true, str_armour = true, not_for_sale = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Scorch Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 그을림",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 205, ArmourBaseMax = 236, MovementPenalty = 3, },
 	req = { level = 50, str = 121, },
 }
-itemBases["Heat-attuned Tower Shield"] = {
+itemBases["조율된 열기 거대 방패"] = {
 	type = "Shield",
 	subType = "Armour",
 	socketLimit = 3,
 	tags = { experimental_base = true, str_armour = true, not_for_sale = true, str_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Scorch Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 그을림",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 23, ArmourBaseMin = 330, ArmourBaseMax = 379, MovementPenalty = 3, },
 	req = { level = 70, str = 159, },
 }
 
-itemBases["Goathide Buckler"] = {
+itemBases["염소 가죽 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 14, EvasionBaseMax = 20, MovementPenalty = 3, },
 	req = { dex = 13, },
 }
-itemBases["Pine Buckler"] = {
+itemBases["소나무 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 51, EvasionBaseMax = 66, MovementPenalty = 3, },
 	req = { level = 8, dex = 26, },
 }
-itemBases["Painted Buckler"] = {
+itemBases["도색된 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 123, EvasionBaseMax = 154, MovementPenalty = 3, },
 	req = { level = 16, dex = 44, },
 }
-itemBases["Hammered Buckler"] = {
+itemBases["단련한 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 27, EvasionBaseMin = 116, EvasionBaseMax = 139, MovementPenalty = 3, },
 	req = { level = 23, dex = 60, },
 }
-itemBases["War Buckler"] = {
+itemBases["전쟁용 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "9% increased Movement Speed",
+	implicit = "이동 속도 9% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 169, EvasionBaseMax = 194, MovementPenalty = 3, },
 	req = { level = 29, dex = 74, },
 }
-itemBases["Gilded Buckler"] = {
+itemBases["도금 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 225, EvasionBaseMax = 259, MovementPenalty = 3, },
 	req = { level = 34, dex = 85, },
 }
-itemBases["Oak Buckler"] = {
+itemBases["참나무 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 220, EvasionBaseMax = 259, MovementPenalty = 3, },
 	req = { level = 38, dex = 94, },
 }
-itemBases["Enameled Buckler"] = {
+itemBases["유약 도색 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 311, EvasionBaseMax = 349, MovementPenalty = 3, },
 	req = { level = 42, dex = 103, },
 }
-itemBases["Corrugated Buckler"] = {
+itemBases["주름진 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 27, EvasionBaseMin = 227, EvasionBaseMax = 272, MovementPenalty = 3, },
 	req = { level = 46, dex = 112, },
 }
-itemBases["Battle Buckler"] = {
+itemBases["전투용 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "9% increased Movement Speed",
+	implicit = "이동 속도 9% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 287, EvasionBaseMax = 330, MovementPenalty = 3, },
 	req = { level = 50, dex = 121, },
 }
-itemBases["Golden Buckler"] = {
+itemBases["금색 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 354, EvasionBaseMax = 407, MovementPenalty = 3, },
 	req = { level = 54, dex = 130, },
 }
-itemBases["Ironwood Buckler"] = {
+itemBases["철목 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 327, EvasionBaseMax = 385, MovementPenalty = 3, },
 	req = { level = 57, dex = 137, },
 }
-itemBases["Lacquered Buckler"] = {
+itemBases["옻칠한 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 477, EvasionBaseMax = 549, MovementPenalty = 3, },
 	req = { level = 60, dex = 154, },
 }
-itemBases["Vaal Buckler"] = {
+itemBases["바알 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, top_tier_base_item_type = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 27, EvasionBaseMin = 330, EvasionBaseMax = 379, MovementPenalty = 3, },
 	req = { level = 63, dex = 159, },
 }
-itemBases["Crusader Buckler"] = {
+itemBases["십자군 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, top_tier_base_item_type = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "9% increased Movement Speed",
+	implicit = "이동 속도 9% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 385, EvasionBaseMax = 442, MovementPenalty = 3, },
 	req = { level = 66, dex = 159, },
 }
-itemBases["Imperial Buckler"] = {
+itemBases["제국 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { dex_shield = true, dex_armour = true, top_tier_base_item_type = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "6% increased Movement Speed",
+	implicit = "이동 속도 6% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 440, EvasionBaseMax = 506, MovementPenalty = 3, },
 	req = { level = 69, dex = 159, },
 }
-itemBases["Endothermic Buckler"] = {
+itemBases["흡열성 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { experimental_base = true, dex_shield = true, dex_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Inflict Brittle on Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적에게 허약 유발",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 22, EvasionBaseMin = 112, EvasionBaseMax = 129, MovementPenalty = 3, },
 	req = { level = 30, dex = 76, },
 }
-itemBases["Polar Buckler"] = {
+itemBases["극지의 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { experimental_base = true, dex_shield = true, dex_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Inflict Brittle on Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적에게 허약 유발",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 22, EvasionBaseMin = 185, EvasionBaseMax = 212, MovementPenalty = 3, },
 	req = { level = 50, dex = 121, },
 }
-itemBases["Cold-attuned Buckler"] = {
+itemBases["조율된 냉기 버클러"] = {
 	type = "Shield",
 	subType = "Evasion",
 	socketLimit = 3,
 	tags = { experimental_base = true, dex_shield = true, dex_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Inflict Brittle on Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적에게 허약 유발",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 22, EvasionBaseMin = 302, EvasionBaseMax = 348, MovementPenalty = 3, },
 	req = { level = 70, dex = 159, },
 }
 
-itemBases["Twig Spirit Shield"] = {
+itemBases["잔가지 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(10-15)% increased Spell Damage",
+	implicit = "주문 피해 (10-15)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 22, EnergyShieldBaseMin = 6, EnergyShieldBaseMax = 8, MovementPenalty = 3, },
 	req = { int = 15, },
 }
-itemBases["Yew Spirit Shield"] = {
+itemBases["주목 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 14, MovementPenalty = 3, },
 	req = { level = 9, int = 29, },
 }
-itemBases["Bone Spirit Shield"] = {
+itemBases["뼈 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, default = true, armour = true, focus_can_roll_minion_modifiers = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Minions deal (5-10)% increased Damage",
+	implicit = "소환수가 주는 피해 (5-10)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	armour = { BlockChance = 22, EnergyShieldBaseMin = 15, EnergyShieldBaseMax = 19, MovementPenalty = 3, },
 	req = { level = 15, int = 42, },
 }
-itemBases["Tarnished Spirit Shield"] = {
+itemBases["변색된 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 21, EnergyShieldBaseMax = 25, MovementPenalty = 3, },
 	req = { level = 23, int = 60, },
 }
-itemBases["Jingling Spirit Shield"] = {
+itemBases["방울 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(10-15)% increased Spell Damage",
+	implicit = "주문 피해 (10-15)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 23, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 29, MovementPenalty = 3, },
 	req = { level = 28, int = 71, },
 }
-itemBases["Brass Spirit Shield"] = {
+itemBases["황동 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
@@ -498,51 +498,51 @@ itemBases["Brass Spirit Shield"] = {
 	armour = { BlockChance = 25, EnergyShieldBaseMin = 35, EnergyShieldBaseMax = 40, MovementPenalty = 3, },
 	req = { level = 33, int = 83, },
 }
-itemBases["Walnut Spirit Shield"] = {
+itemBases["호두나무 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 38, MovementPenalty = 3, },
 	req = { level = 37, int = 92, },
 }
-itemBases["Ivory Spirit Shield"] = {
+itemBases["상아 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, default = true, armour = true, focus_can_roll_minion_modifiers = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Minions deal (5-10)% increased Damage",
+	implicit = "소환수가 주는 피해 (5-10)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	armour = { BlockChance = 22, EnergyShieldBaseMin = 35, EnergyShieldBaseMax = 40, MovementPenalty = 3, },
 	req = { level = 41, int = 101, },
 }
-itemBases["Ancient Spirit Shield"] = {
+itemBases["고대의 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 45, MovementPenalty = 3, },
 	req = { level = 45, int = 110, },
 }
-itemBases["Chiming Spirit Shield"] = {
+itemBases["차임벨 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(10-15)% increased Spell Damage",
+	implicit = "주문 피해 (10-15)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 23, EnergyShieldBaseMin = 42, EnergyShieldBaseMax = 48, MovementPenalty = 3, },
 	req = { level = 49, int = 119, },
 }
-itemBases["Thorium Spirit Shield"] = {
+itemBases["토륨 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
@@ -552,51 +552,51 @@ itemBases["Thorium Spirit Shield"] = {
 	armour = { BlockChance = 25, EnergyShieldBaseMin = 54, EnergyShieldBaseMax = 62, MovementPenalty = 3, },
 	req = { level = 53, int = 128, },
 }
-itemBases["Lacewood Spirit Shield"] = {
+itemBases["쥐방울나무 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 47, EnergyShieldBaseMax = 55, MovementPenalty = 3, },
 	req = { level = 56, int = 134, },
 }
-itemBases["Fossilised Spirit Shield"] = {
+itemBases["화석 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, top_tier_base_item_type = true, int_armour = true, default = true, armour = true, focus_can_roll_minion_modifiers = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Minions deal (5-10)% increased Damage",
+	implicit = "소환수가 주는 피해 (5-10)% 증가",
 	implicitModTypes = { { "damage", "minion" }, },
 	armour = { BlockChance = 22, EnergyShieldBaseMin = 49, EnergyShieldBaseMax = 55, MovementPenalty = 3, },
 	req = { level = 59, int = 141, },
 }
-itemBases["Vaal Spirit Shield"] = {
+itemBases["바알 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, top_tier_base_item_type = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(5-10)% increased Spell Damage",
+	implicit = "주문 피해 (5-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 24, EnergyShieldBaseMin = 56, EnergyShieldBaseMax = 64, MovementPenalty = 3, },
 	req = { level = 62, int = 159, },
 }
-itemBases["Harmonic Spirit Shield"] = {
+itemBases["화음 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, top_tier_base_item_type = true, int_armour = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "(10-15)% increased Spell Damage",
+	implicit = "주문 피해 (10-15)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { BlockChance = 23, EnergyShieldBaseMin = 58, EnergyShieldBaseMax = 66, MovementPenalty = 3, },
 	req = { level = 65, int = 159, },
 }
-itemBases["Titanium Spirit Shield"] = {
+itemBases["티타늄 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
@@ -606,74 +606,74 @@ itemBases["Titanium Spirit Shield"] = {
 	armour = { BlockChance = 25, EnergyShieldBaseMin = 67, EnergyShieldBaseMax = 77, MovementPenalty = 3, },
 	req = { level = 68, int = 159, },
 }
-itemBases["Exhausting Spirit Shield"] = {
+itemBases["기진맥진한 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, experimental_base = true, int_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Sap Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 활력 감소",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 20, EnergyShieldBaseMin = 24, EnergyShieldBaseMax = 28, MovementPenalty = 3, },
 	req = { level = 30, int = 76, },
 }
-itemBases["Subsuming Spirit Shield"] = {
+itemBases["아우르는 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, experimental_base = true, int_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Sap Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 활력 감소",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 20, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 44, MovementPenalty = 3, },
 	req = { level = 50, int = 121, },
 }
-itemBases["Transfer-attuned Spirit Shield"] = {
+itemBases["조율된 전이 영혼 방패"] = {
 	type = "Shield",
 	subType = "Energy Shield",
 	socketLimit = 3,
 	tags = { focus = true, experimental_base = true, int_armour = true, not_for_sale = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "Sap Enemies when you Block their Damage",
+	implicit = "적이 주는 피해를 막아낼 시 적 활력 감소",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 20, EnergyShieldBaseMin = 56, EnergyShieldBaseMax = 64, MovementPenalty = 3, },
 	req = { level = 70, int = 159, },
 }
 
-itemBases["Rotted Round Shield"] = {
+itemBases["썩은 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "60% increased Block Recovery",
+	implicit = "막기 회복 60% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 13, ArmourBaseMax = 18, EvasionBaseMin = 13, EvasionBaseMax = 18, MovementPenalty = 3, },
 	req = { level = 5, str = 11, dex = 11, },
 }
-itemBases["Fir Round Shield"] = {
+itemBases["전나무 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "180% increased Block Recovery",
+	implicit = "막기 회복 180% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 29, ArmourBaseMax = 37, EvasionBaseMin = 29, EvasionBaseMax = 37, MovementPenalty = 3, },
 	req = { level = 12, str = 19, dex = 19, },
 }
-itemBases["Studded Round Shield"] = {
+itemBases["징 박힌 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "60% increased Block Recovery",
+	implicit = "막기 회복 60% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 27, ArmourBaseMin = 46, ArmourBaseMax = 58, EvasionBaseMin = 46, EvasionBaseMax = 58, MovementPenalty = 3, },
 	req = { level = 20, str = 29, dex = 29, },
 }
-itemBases["Scarlet Round Shield"] = {
+itemBases["다홍색 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
@@ -683,40 +683,40 @@ itemBases["Scarlet Round Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 87, ArmourBaseMax = 100, EvasionBaseMin = 87, EvasionBaseMax = 100, MovementPenalty = 3, },
 	req = { level = 27, str = 37, dex = 37, },
 }
-itemBases["Splendid Round Shield"] = {
+itemBases["화려한 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "120% increased Block Recovery",
+	implicit = "막기 회복 120% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 75, ArmourBaseMax = 86, EvasionBaseMin = 75, EvasionBaseMax = 86, MovementPenalty = 3, },
 	req = { level = 33, str = 44, dex = 44, },
 }
-itemBases["Maple Round Shield"] = {
+itemBases["단풍나무 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "180% increased Block Recovery",
+	implicit = "막기 회복 180% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 88, ArmourBaseMax = 99, EvasionBaseMin = 88, EvasionBaseMax = 99, MovementPenalty = 3, },
 	req = { level = 39, str = 52, dex = 52, },
 }
-itemBases["Spiked Round Shield"] = {
+itemBases["가시 박힌 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "60% increased Block Recovery",
+	implicit = "막기 회복 60% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 27, ArmourBaseMin = 102, ArmourBaseMax = 120, EvasionBaseMin = 102, EvasionBaseMax = 120, MovementPenalty = 3, },
 	req = { level = 45, str = 59, dex = 59, },
 }
-itemBases["Crimson Round Shield"] = {
+itemBases["진홍색 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
@@ -726,40 +726,40 @@ itemBases["Crimson Round Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 155, ArmourBaseMax = 178, EvasionBaseMin = 155, EvasionBaseMax = 178, MovementPenalty = 3, },
 	req = { level = 49, str = 64, dex = 64, },
 }
-itemBases["Baroque Round Shield"] = {
+itemBases["바로크 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "120% increased Block Recovery",
+	implicit = "막기 회복 120% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 122, ArmourBaseMax = 140, EvasionBaseMin = 122, EvasionBaseMax = 140, MovementPenalty = 3, },
 	req = { level = 54, str = 70, dex = 70, },
 }
-itemBases["Teak Round Shield"] = {
+itemBases["티크목 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "180% increased Block Recovery",
+	implicit = "막기 회복 180% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 131, ArmourBaseMax = 146, EvasionBaseMin = 131, EvasionBaseMax = 146, MovementPenalty = 3, },
 	req = { level = 58, str = 74, dex = 74, },
 }
-itemBases["Spiny Round Shield"] = {
+itemBases["가시투성이 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, top_tier_base_item_type = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "60% increased Block Recovery",
+	implicit = "막기 회복 60% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 27, ArmourBaseMin = 154, ArmourBaseMax = 177, EvasionBaseMin = 154, EvasionBaseMax = 177, MovementPenalty = 3, },
 	req = { level = 62, str = 85, dex = 85, },
 }
-itemBases["Cardinal Round Shield"] = {
+itemBases["선홍색 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
@@ -769,41 +769,41 @@ itemBases["Cardinal Round Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 209, ArmourBaseMax = 240, EvasionBaseMin = 209, EvasionBaseMax = 240, MovementPenalty = 3, },
 	req = { level = 66, str = 85, dex = 85, },
 }
-itemBases["Elegant Round Shield"] = {
+itemBases["고상한 원형 방패"] = {
 	type = "Shield",
 	subType = "Armour/Evasion",
 	socketLimit = 3,
 	tags = { str_dex_armour = true, top_tier_base_item_type = true, str_dex_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "120% increased Block Recovery",
+	implicit = "막기 회복 120% 증가",
 	implicitModTypes = { { "block" }, },
 	armour = { BlockChance = 25, ArmourBaseMin = 148, ArmourBaseMax = 170, EvasionBaseMin = 148, EvasionBaseMax = 170, MovementPenalty = 3, },
 	req = { level = 70, str = 85, dex = 85, },
 }
 
-itemBases["Plank Kite Shield"] = {
+itemBases["널빤지 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+4% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +4%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 22, ArmourBaseMin = 18, ArmourBaseMax = 25, EnergyShieldBaseMin = 5, EnergyShieldBaseMax = 7, MovementPenalty = 3, },
 	req = { level = 7, str = 13, int = 13, },
 }
-itemBases["Linden Kite Shield"] = {
+itemBases["린덴목 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+4% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +4%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 43, ArmourBaseMax = 56, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 14, MovementPenalty = 3, },
 	req = { level = 13, str = 20, int = 20, },
 }
-itemBases["Reinforced Kite Shield"] = {
+itemBases["강화 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
@@ -813,40 +813,40 @@ itemBases["Reinforced Kite Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 65, ArmourBaseMax = 81, EnergyShieldBaseMin = 15, EnergyShieldBaseMax = 18, MovementPenalty = 3, },
 	req = { level = 20, str = 29, int = 29, },
 }
-itemBases["Layered Kite Shield"] = {
+itemBases["겹재질 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+8% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +8%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 62, ArmourBaseMax = 73, EnergyShieldBaseMin = 13, EnergyShieldBaseMax = 16, MovementPenalty = 3, },
 	req = { level = 27, str = 37, int = 37, },
 }
-itemBases["Ceremonial Kite Shield"] = {
+itemBases["제사장의 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+12% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +12%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 22, ArmourBaseMin = 77, ArmourBaseMax = 89, EnergyShieldBaseMin = 16, EnergyShieldBaseMax = 19, MovementPenalty = 3, },
 	req = { level = 34, str = 46, int = 46, },
 }
-itemBases["Etched Kite Shield"] = {
+itemBases["조각된 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+4% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +4%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 127, ArmourBaseMax = 142, EnergyShieldBaseMin = 27, EnergyShieldBaseMax = 30, MovementPenalty = 3, },
 	req = { level = 40, str = 53, int = 53, },
 }
-itemBases["Steel Kite Shield"] = {
+itemBases["강철 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
@@ -856,40 +856,40 @@ itemBases["Steel Kite Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 146, ArmourBaseMax = 167, EnergyShieldBaseMin = 30, EnergyShieldBaseMax = 35, MovementPenalty = 3, },
 	req = { level = 46, str = 60, int = 60, },
 }
-itemBases["Laminated Kite Shield"] = {
+itemBases["합판 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+8% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +8%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 113, ArmourBaseMax = 133, EnergyShieldBaseMin = 23, EnergyShieldBaseMax = 27, MovementPenalty = 3, },
 	req = { level = 50, str = 65, int = 65, },
 }
-itemBases["Angelic Kite Shield"] = {
+itemBases["천사의 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+12% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +12%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 22, ArmourBaseMin = 124, ArmourBaseMax = 142, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 29, MovementPenalty = 3, },
 	req = { level = 55, str = 71, int = 71, },
 }
-itemBases["Branded Kite Shield"] = {
+itemBases["각인한 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+4% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +4%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 186, ArmourBaseMax = 208, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 43, MovementPenalty = 3, },
 	req = { level = 59, str = 76, int = 76, },
 }
-itemBases["Champion Kite Shield"] = {
+itemBases["용사의 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
@@ -899,179 +899,179 @@ itemBases["Champion Kite Shield"] = {
 	armour = { BlockChance = 26, ArmourBaseMin = 215, ArmourBaseMax = 247, EnergyShieldBaseMin = 44, EnergyShieldBaseMax = 50, MovementPenalty = 3, },
 	req = { level = 62, str = 85, int = 85, },
 }
-itemBases["Mosaic Kite Shield"] = {
+itemBases["조각무늬 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, top_tier_base_item_type = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+8% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +8%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 24, ArmourBaseMin = 147, ArmourBaseMax = 169, EnergyShieldBaseMin = 30, EnergyShieldBaseMax = 34, MovementPenalty = 3, },
 	req = { level = 65, str = 85, int = 85, },
 }
-itemBases["Archon Kite Shield"] = {
+itemBases["집정관의 연모양 방패"] = {
 	type = "Shield",
 	subType = "Armour/Energy Shield",
 	socketLimit = 3,
 	tags = { str_int_armour = true, top_tier_base_item_type = true, str_int_shield = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+12% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +12%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { BlockChance = 22, ArmourBaseMin = 156, ArmourBaseMax = 179, EnergyShieldBaseMin = 32, EnergyShieldBaseMax = 37, MovementPenalty = 3, },
 	req = { level = 68, str = 85, int = 85, },
 }
 
-itemBases["Spiked Bundle"] = {
+itemBases["가시 박힌 꾸러미"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 13, EvasionBaseMax = 18, EnergyShieldBaseMin = 4, EnergyShieldBaseMax = 6, MovementPenalty = 3, },
 	req = { level = 5, dex = 11, int = 11, },
 }
-itemBases["Driftwood Spiked Shield"] = {
+itemBases["유목 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 46, EvasionBaseMax = 60, EnergyShieldBaseMin = 11, EnergyShieldBaseMax = 15, MovementPenalty = 3, },
 	req = { level = 12, dex = 19, int = 19, },
 }
-itemBases["Alloyed Spiked Shield"] = {
+itemBases["합금 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 56, EvasionBaseMax = 70, EnergyShieldBaseMin = 13, EnergyShieldBaseMax = 16, MovementPenalty = 3, },
 	req = { level = 20, dex = 29, int = 29, },
 }
-itemBases["Burnished Spiked Shield"] = {
+itemBases["윤이 나는 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 62, EvasionBaseMax = 73, EnergyShieldBaseMin = 13, EnergyShieldBaseMax = 16, MovementPenalty = 3, },
 	req = { level = 27, dex = 37, int = 37, },
 }
-itemBases["Ornate Spiked Shield"] = {
+itemBases["화려한 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 120, EvasionBaseMax = 135, EnergyShieldBaseMin = 26, EnergyShieldBaseMax = 29, MovementPenalty = 3, },
 	req = { level = 33, dex = 44, int = 44, },
 }
-itemBases["Redwood Spiked Shield"] = {
+itemBases["삼나무 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 142, EvasionBaseMax = 163, EnergyShieldBaseMin = 30, EnergyShieldBaseMax = 34, MovementPenalty = 3, },
 	req = { level = 39, dex = 52, int = 52, },
 }
-itemBases["Compound Spiked Shield"] = {
+itemBases["합성 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 122, EvasionBaseMax = 144, EnergyShieldBaseMin = 25, EnergyShieldBaseMax = 30, MovementPenalty = 3, },
 	req = { level = 45, dex = 59, int = 59, },
 }
-itemBases["Polished Spiked Shield"] = {
+itemBases["광택을 낸 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 111, EvasionBaseMax = 131, EnergyShieldBaseMin = 23, EnergyShieldBaseMax = 27, MovementPenalty = 3, },
 	req = { level = 49, dex = 64, int = 64, },
 }
-itemBases["Sovereign Spiked Shield"] = {
+itemBases["주권자 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 195, EvasionBaseMax = 218, EnergyShieldBaseMin = 40, EnergyShieldBaseMax = 45, MovementPenalty = 3, },
 	req = { level = 54, dex = 70, int = 70, },
 }
-itemBases["Alder Spiked Shield"] = {
+itemBases["오리나무 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 209, EvasionBaseMax = 240, EnergyShieldBaseMin = 43, EnergyShieldBaseMax = 49, MovementPenalty = 3, },
 	req = { level = 58, dex = 74, int = 74, },
 }
-itemBases["Ezomyte Spiked Shield"] = {
+itemBases["에조미어 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, top_tier_base_item_type = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+3% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +3%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 25, EvasionBaseMin = 181, EvasionBaseMax = 209, EnergyShieldBaseMin = 37, EnergyShieldBaseMax = 43, MovementPenalty = 3, },
 	req = { level = 62, dex = 85, int = 85, },
 }
-itemBases["Mirrored Spiked Shield"] = {
+itemBases["거울 같은 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, top_tier_base_item_type = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 26, EvasionBaseMin = 151, EvasionBaseMax = 174, EnergyShieldBaseMin = 31, EnergyShieldBaseMax = 35, MovementPenalty = 3, },
 	req = { level = 66, dex = 85, int = 85, },
 }
-itemBases["Supreme Spiked Shield"] = {
+itemBases["최상급 가시 방패"] = {
 	type = "Shield",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 3,
 	tags = { dex_int_shield = true, top_tier_base_item_type = true, default = true, armour = true, shield = true, dex_int_armour = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+5% chance to Suppress Spell Damage",
+	implicit = "주문 피해 억제 확률 +5%",
 	implicitModTypes = { {  }, },
 	armour = { BlockChance = 24, EvasionBaseMin = 242, EvasionBaseMax = 278, EnergyShieldBaseMin = 49, EnergyShieldBaseMax = 57, MovementPenalty = 3, },
 	req = { level = 70, dex = 85, int = 85, },
 }
 
-itemBases["Golden Flame"] = {
+itemBases["황금 불꽃"] = {
 	type = "Shield",
 	socketLimit = 3,
 	tags = { not_for_sale = true, demigods = true, armour = true, default = true, shield = true, },
 	influenceTags = { shaper = "shield_shaper", elder = "shield_elder", adjudicator = "shield_adjudicator", basilisk = "shield_basilisk", crusader = "shield_crusader", eyrie = "shield_eyrie", cleansing = "shield_cleansing", tangle = "shield_tangle" },
-	implicit = "+(11-19)% to Chaos Resistance",
+	implicit = "카오스 저항 +(11-19)%",
 	implicitModTypes = { { "chaos", "resistance" }, },
 	armour = { BlockChance = 20, MovementPenalty = 3, },
 	req = { level = 15, },

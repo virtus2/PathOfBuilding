@@ -3,7 +3,7 @@
 local itemBases = ...
 
 
-itemBases["Plate Vest"] = {
+itemBases["판금 조끼"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -13,7 +13,7 @@ itemBases["Plate Vest"] = {
 	armour = { ArmourBaseMin = 19, ArmourBaseMax = 27, MovementPenalty = 3, },
 	req = { str = 12, },
 }
-itemBases["Chestplate"] = {
+itemBases["가슴 보호 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -23,7 +23,7 @@ itemBases["Chestplate"] = {
 	armour = { ArmourBaseMin = 68, ArmourBaseMax = 89, MovementPenalty = 5, },
 	req = { level = 6, str = 25, },
 }
-itemBases["Copper Plate"] = {
+itemBases["구리 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -33,7 +33,7 @@ itemBases["Copper Plate"] = {
 	armour = { ArmourBaseMin = 176, ArmourBaseMax = 221, MovementPenalty = 5, },
 	req = { level = 17, str = 53, },
 }
-itemBases["War Plate"] = {
+itemBases["전쟁용 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -43,7 +43,7 @@ itemBases["War Plate"] = {
 	armour = { ArmourBaseMin = 216, ArmourBaseMax = 248, MovementPenalty = 5, },
 	req = { level = 21, str = 63, },
 }
-itemBases["Full Plate"] = {
+itemBases["전신 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -53,7 +53,7 @@ itemBases["Full Plate"] = {
 	armour = { ArmourBaseMin = 284, ArmourBaseMax = 319, MovementPenalty = 5, },
 	req = { level = 28, str = 81, },
 }
-itemBases["Arena Plate"] = {
+itemBases["투기장 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -63,7 +63,7 @@ itemBases["Arena Plate"] = {
 	armour = { ArmourBaseMin = 324, ArmourBaseMax = 389, MovementPenalty = 5, },
 	req = { level = 32, str = 91, },
 }
-itemBases["Lordly Plate"] = {
+itemBases["위풍당당한 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -73,7 +73,7 @@ itemBases["Lordly Plate"] = {
 	armour = { ArmourBaseMin = 353, ArmourBaseMax = 417, MovementPenalty = 5, },
 	req = { level = 35, str = 99, },
 }
-itemBases["Bronze Plate"] = {
+itemBases["청동 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -83,7 +83,7 @@ itemBases["Bronze Plate"] = {
 	armour = { ArmourBaseMin = 373, ArmourBaseMax = 429, MovementPenalty = 5, },
 	req = { level = 37, str = 104, },
 }
-itemBases["Battle Plate"] = {
+itemBases["전투용 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -93,7 +93,7 @@ itemBases["Battle Plate"] = {
 	armour = { ArmourBaseMin = 412, ArmourBaseMax = 474, MovementPenalty = 5, },
 	req = { level = 41, str = 114, },
 }
-itemBases["Sun Plate"] = {
+itemBases["태양의 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -103,7 +103,7 @@ itemBases["Sun Plate"] = {
 	armour = { ArmourBaseMin = 451, ArmourBaseMax = 506, MovementPenalty = 5, },
 	req = { level = 45, str = 124, },
 }
-itemBases["Colosseum Plate"] = {
+itemBases["원형 경기장 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -113,7 +113,7 @@ itemBases["Colosseum Plate"] = {
 	armour = { ArmourBaseMin = 491, ArmourBaseMax = 589, MovementPenalty = 5, },
 	req = { level = 49, str = 134, },
 }
-itemBases["Majestic Plate"] = {
+itemBases["압도적인 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -123,7 +123,7 @@ itemBases["Majestic Plate"] = {
 	armour = { ArmourBaseMin = 530, ArmourBaseMax = 625, MovementPenalty = 5, },
 	req = { level = 53, str = 145, },
 }
-itemBases["Golden Plate"] = {
+itemBases["황금 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -133,7 +133,7 @@ itemBases["Golden Plate"] = {
 	armour = { ArmourBaseMin = 559, ArmourBaseMax = 643, MovementPenalty = 5, },
 	req = { level = 56, str = 152, },
 }
-itemBases["Crusader Plate"] = {
+itemBases["십자군 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -143,18 +143,18 @@ itemBases["Crusader Plate"] = {
 	armour = { ArmourBaseMin = 601, ArmourBaseMax = 691, MovementPenalty = 5, },
 	req = { level = 59, str = 160, },
 }
-itemBases["Astral Plate"] = {
+itemBases["우주의 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
 	tags = { body_armour = true, str_armour = true, armour = true, top_tier_base_item_type = true, default = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "+(8-12)% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +(8-12)%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { ArmourBaseMin = 711, ArmourBaseMax = 782, MovementPenalty = 5, },
 	req = { level = 62, str = 180, },
 }
-itemBases["Gladiator Plate"] = {
+itemBases["검투사 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -164,7 +164,7 @@ itemBases["Gladiator Plate"] = {
 	armour = { ArmourBaseMin = 738, ArmourBaseMax = 848, MovementPenalty = 5, },
 	req = { level = 65, str = 177, },
 }
-itemBases["Glorious Plate"] = {
+itemBases["영광의 판금 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour",
 	socketLimit = 6,
@@ -175,7 +175,7 @@ itemBases["Glorious Plate"] = {
 	req = { level = 68, str = 191, },
 }
 
-itemBases["Shabby Jerkin"] = {
+itemBases["허름한 조끼"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -185,7 +185,7 @@ itemBases["Shabby Jerkin"] = {
 	armour = { EvasionBaseMin = 29, EvasionBaseMax = 41, MovementPenalty = 3, },
 	req = { dex = 14, },
 }
-itemBases["Strapped Leather"] = {
+itemBases["끈을 멘 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -195,7 +195,7 @@ itemBases["Strapped Leather"] = {
 	armour = { EvasionBaseMin = 98, EvasionBaseMax = 127, MovementPenalty = 3, },
 	req = { level = 9, dex = 32, },
 }
-itemBases["Buckskin Tunic"] = {
+itemBases["사슴가죽 튜닉"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -205,7 +205,7 @@ itemBases["Buckskin Tunic"] = {
 	armour = { EvasionBaseMin = 176, EvasionBaseMax = 221, MovementPenalty = 3, },
 	req = { level = 17, dex = 53, },
 }
-itemBases["Wild Leather"] = {
+itemBases["거친 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -215,7 +215,7 @@ itemBases["Wild Leather"] = {
 	armour = { EvasionBaseMin = 255, EvasionBaseMax = 306, MovementPenalty = 3, },
 	req = { level = 25, dex = 73, },
 }
-itemBases["Full Leather"] = {
+itemBases["전신 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -225,7 +225,7 @@ itemBases["Full Leather"] = {
 	armour = { EvasionBaseMin = 284, EvasionBaseMax = 327, MovementPenalty = 3, },
 	req = { level = 28, dex = 81, },
 }
-itemBases["Sun Leather"] = {
+itemBases["태양의 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -235,7 +235,7 @@ itemBases["Sun Leather"] = {
 	armour = { EvasionBaseMin = 324, EvasionBaseMax = 382, MovementPenalty = 3, },
 	req = { level = 32, dex = 91, },
 }
-itemBases["Thief's Garb"] = {
+itemBases["도둑의 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -245,7 +245,7 @@ itemBases["Thief's Garb"] = {
 	armour = { EvasionBaseMin = 353, EvasionBaseMax = 396, MovementPenalty = 3, },
 	req = { level = 35, dex = 99, },
 }
-itemBases["Eelskin Tunic"] = {
+itemBases["장어가죽 튜닉"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -255,7 +255,7 @@ itemBases["Eelskin Tunic"] = {
 	armour = { EvasionBaseMin = 373, EvasionBaseMax = 429, MovementPenalty = 3, },
 	req = { level = 37, dex = 104, },
 }
-itemBases["Frontier Leather"] = {
+itemBases["개척자 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -265,7 +265,7 @@ itemBases["Frontier Leather"] = {
 	armour = { EvasionBaseMin = 412, EvasionBaseMax = 495, MovementPenalty = 3, },
 	req = { level = 41, dex = 114, },
 }
-itemBases["Glorious Leather"] = {
+itemBases["영광의 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -275,7 +275,7 @@ itemBases["Glorious Leather"] = {
 	armour = { EvasionBaseMin = 451, EvasionBaseMax = 519, MovementPenalty = 3, },
 	req = { level = 45, dex = 124, },
 }
-itemBases["Coronal Leather"] = {
+itemBases["광환의 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -285,7 +285,7 @@ itemBases["Coronal Leather"] = {
 	armour = { EvasionBaseMin = 491, EvasionBaseMax = 579, MovementPenalty = 3, },
 	req = { level = 49, dex = 134, },
 }
-itemBases["Cutthroat's Garb"] = {
+itemBases["살인자의 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -295,7 +295,7 @@ itemBases["Cutthroat's Garb"] = {
 	armour = { EvasionBaseMin = 530, EvasionBaseMax = 594, MovementPenalty = 3, },
 	req = { level = 53, dex = 145, },
 }
-itemBases["Sharkskin Tunic"] = {
+itemBases["상어가죽 튜닉"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -305,7 +305,7 @@ itemBases["Sharkskin Tunic"] = {
 	armour = { EvasionBaseMin = 559, EvasionBaseMax = 643, MovementPenalty = 3, },
 	req = { level = 56, dex = 152, },
 }
-itemBases["Destiny Leather"] = {
+itemBases["운명의 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -315,7 +315,7 @@ itemBases["Destiny Leather"] = {
 	armour = { EvasionBaseMin = 601, EvasionBaseMax = 721, MovementPenalty = 3, },
 	req = { level = 59, dex = 160, },
 }
-itemBases["Exquisite Leather"] = {
+itemBases["정교한 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -325,7 +325,7 @@ itemBases["Exquisite Leather"] = {
 	armour = { EvasionBaseMin = 704, EvasionBaseMax = 810, MovementPenalty = 3, },
 	req = { level = 62, dex = 170, },
 }
-itemBases["Zodiac Leather"] = {
+itemBases["성좌의 가죽 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
@@ -335,19 +335,19 @@ itemBases["Zodiac Leather"] = {
 	armour = { EvasionBaseMin = 854, EvasionBaseMax = 982, MovementPenalty = 3, },
 	req = { level = 65, dex = 197, },
 }
-itemBases["Assassin's Garb"] = {
+itemBases["암살자의 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion",
 	socketLimit = 6,
 	tags = { body_armour = true, top_tier_base_item_type = true, dex_armour = true, armour = true, default = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "3% increased Movement Speed",
+	implicit = "이동 속도 3% 증가",
 	implicitModTypes = { { "speed" }, },
 	armour = { EvasionBaseMin = 737, EvasionBaseMax = 811, },
 	req = { level = 68, dex = 183, },
 }
 
-itemBases["Simple Robe"] = {
+itemBases["단순한 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -357,7 +357,7 @@ itemBases["Simple Robe"] = {
 	armour = { EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 20, MovementPenalty = 3, },
 	req = { int = 17, },
 }
-itemBases["Silken Vest"] = {
+itemBases["실크 조끼"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -367,7 +367,7 @@ itemBases["Silken Vest"] = {
 	armour = { EnergyShieldBaseMin = 30, EnergyShieldBaseMax = 38, MovementPenalty = 3, },
 	req = { level = 11, int = 37, },
 }
-itemBases["Scholar's Robe"] = {
+itemBases["학자의 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -377,7 +377,7 @@ itemBases["Scholar's Robe"] = {
 	armour = { EnergyShieldBaseMin = 43, EnergyShieldBaseMax = 53, MovementPenalty = 3, },
 	req = { level = 18, int = 55, },
 }
-itemBases["Silken Garb"] = {
+itemBases["실크 의복"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -387,7 +387,7 @@ itemBases["Silken Garb"] = {
 	armour = { EnergyShieldBaseMin = 56, EnergyShieldBaseMax = 64, MovementPenalty = 3, },
 	req = { level = 25, int = 73, },
 }
-itemBases["Mage's Vestment"] = {
+itemBases["마법사의 법의"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -397,7 +397,7 @@ itemBases["Mage's Vestment"] = {
 	armour = { EnergyShieldBaseMin = 62, EnergyShieldBaseMax = 69, MovementPenalty = 3, },
 	req = { level = 28, int = 81, },
 }
-itemBases["Silk Robe"] = {
+itemBases["실크 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -407,7 +407,7 @@ itemBases["Silk Robe"] = {
 	armour = { EnergyShieldBaseMin = 69, EnergyShieldBaseMax = 80, MovementPenalty = 3, },
 	req = { level = 32, int = 91, },
 }
-itemBases["Cabalist Regalia"] = {
+itemBases["비법가 예복"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -417,7 +417,7 @@ itemBases["Cabalist Regalia"] = {
 	armour = { EnergyShieldBaseMin = 75, EnergyShieldBaseMax = 88, MovementPenalty = 3, },
 	req = { level = 35, int = 99, },
 }
-itemBases["Sage's Robe"] = {
+itemBases["현자의 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -427,7 +427,7 @@ itemBases["Sage's Robe"] = {
 	armour = { EnergyShieldBaseMin = 79, EnergyShieldBaseMax = 90, MovementPenalty = 3, },
 	req = { level = 37, int = 104, },
 }
-itemBases["Silken Wrap"] = {
+itemBases["실크 외투"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -437,7 +437,7 @@ itemBases["Silken Wrap"] = {
 	armour = { EnergyShieldBaseMin = 86, EnergyShieldBaseMax = 104, MovementPenalty = 3, },
 	req = { level = 41, int = 114, },
 }
-itemBases["Conjurer's Vestment"] = {
+itemBases["요술사의 법의"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -447,7 +447,7 @@ itemBases["Conjurer's Vestment"] = {
 	armour = { EnergyShieldBaseMin = 94, EnergyShieldBaseMax = 105, MovementPenalty = 3, },
 	req = { level = 45, int = 124, },
 }
-itemBases["Spidersilk Robe"] = {
+itemBases["거미줄 실크 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -457,7 +457,7 @@ itemBases["Spidersilk Robe"] = {
 	armour = { EnergyShieldBaseMin = 101, EnergyShieldBaseMax = 117, MovementPenalty = 3, },
 	req = { level = 49, int = 134, },
 }
-itemBases["Destroyer Regalia"] = {
+itemBases["파괴자 예복"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -467,7 +467,7 @@ itemBases["Destroyer Regalia"] = {
 	armour = { EnergyShieldBaseMin = 109, EnergyShieldBaseMax = 129, MovementPenalty = 3, },
 	req = { level = 53, int = 145, },
 }
-itemBases["Savant's Robe"] = {
+itemBases["석학의 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -477,7 +477,7 @@ itemBases["Savant's Robe"] = {
 	armour = { EnergyShieldBaseMin = 115, EnergyShieldBaseMax = 132, MovementPenalty = 3, },
 	req = { level = 56, int = 152, },
 }
-itemBases["Necromancer Silks"] = {
+itemBases["네크로맨서 실크 갑옷"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -487,18 +487,18 @@ itemBases["Necromancer Silks"] = {
 	armour = { EnergyShieldBaseMin = 123, EnergyShieldBaseMax = 147, MovementPenalty = 3, },
 	req = { level = 59, int = 160, },
 }
-itemBases["Occultist's Vestment"] = {
+itemBases["오컬티스트의 법의"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
 	tags = { body_armour = true, top_tier_base_item_type = true, int_armour = true, armour = true, default = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "(3-10)% increased Spell Damage",
+	implicit = "주문 피해 (3-10)% 증가",
 	implicitModTypes = { { "caster_damage", "damage", "caster" }, },
 	armour = { EnergyShieldBaseMin = 137, EnergyShieldBaseMax = 151, MovementPenalty = 3, },
 	req = { level = 62, int = 180, },
 }
-itemBases["Widowsilk Robe"] = {
+itemBases["과부거미줄 실크 로브"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -508,7 +508,7 @@ itemBases["Widowsilk Robe"] = {
 	armour = { EnergyShieldBaseMin = 157, EnergyShieldBaseMax = 181, MovementPenalty = 3, },
 	req = { level = 65, int = 187, },
 }
-itemBases["Vaal Regalia"] = {
+itemBases["바알 예복"] = {
 	type = "Body Armour",
 	subType = "Energy Shield",
 	socketLimit = 6,
@@ -519,7 +519,7 @@ itemBases["Vaal Regalia"] = {
 	req = { level = 68, int = 194, },
 }
 
-itemBases["Scale Vest"] = {
+itemBases["미늘 조끼"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -529,7 +529,7 @@ itemBases["Scale Vest"] = {
 	armour = { ArmourBaseMin = 27, ArmourBaseMax = 38, EvasionBaseMin = 27, EvasionBaseMax = 38, MovementPenalty = 3, },
 	req = { str = 10, dex = 10, },
 }
-itemBases["Light Brigandine"] = {
+itemBases["가벼운 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -539,7 +539,7 @@ itemBases["Light Brigandine"] = {
 	armour = { ArmourBaseMin = 48, ArmourBaseMax = 63, EvasionBaseMin = 48, EvasionBaseMax = 63, MovementPenalty = 3, },
 	req = { level = 8, str = 16, dex = 16, },
 }
-itemBases["Scale Doublet"] = {
+itemBases["비늘 더블릿"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -549,7 +549,7 @@ itemBases["Scale Doublet"] = {
 	armour = { ArmourBaseMin = 97, ArmourBaseMax = 121, EvasionBaseMin = 97, EvasionBaseMax = 121, MovementPenalty = 3, },
 	req = { level = 17, str = 28, dex = 28, },
 }
-itemBases["Infantry Brigandine"] = {
+itemBases["보병 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -559,7 +559,7 @@ itemBases["Infantry Brigandine"] = {
 	armour = { ArmourBaseMin = 119, ArmourBaseMax = 142, EvasionBaseMin = 119, EvasionBaseMax = 142, MovementPenalty = 3, },
 	req = { level = 21, str = 34, dex = 34, },
 }
-itemBases["Full Scale Armour"] = {
+itemBases["전신 미늘 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -569,7 +569,7 @@ itemBases["Full Scale Armour"] = {
 	armour = { ArmourBaseMin = 156, ArmourBaseMax = 180, EvasionBaseMin = 156, EvasionBaseMax = 180, MovementPenalty = 3, },
 	req = { level = 28, str = 43, dex = 43, },
 }
-itemBases["Soldier's Brigandine"] = {
+itemBases["병사용 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -579,7 +579,7 @@ itemBases["Soldier's Brigandine"] = {
 	armour = { ArmourBaseMin = 178, ArmourBaseMax = 210, EvasionBaseMin = 178, EvasionBaseMax = 210, MovementPenalty = 3, },
 	req = { level = 32, str = 48, dex = 48, },
 }
-itemBases["Field Lamellar"] = {
+itemBases["야전 라멜라"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -589,7 +589,7 @@ itemBases["Field Lamellar"] = {
 	armour = { ArmourBaseMin = 194, ArmourBaseMax = 223, EvasionBaseMin = 194, EvasionBaseMax = 223, MovementPenalty = 3, },
 	req = { level = 35, str = 53, dex = 53, },
 }
-itemBases["Wyrmscale Doublet"] = {
+itemBases["아룡 비늘 더블릿"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -599,7 +599,7 @@ itemBases["Wyrmscale Doublet"] = {
 	armour = { ArmourBaseMin = 210, ArmourBaseMax = 236, EvasionBaseMin = 210, EvasionBaseMax = 236, MovementPenalty = 3, },
 	req = { level = 38, str = 57, dex = 57, },
 }
-itemBases["Hussar Brigandine"] = {
+itemBases["경기병 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -609,7 +609,7 @@ itemBases["Hussar Brigandine"] = {
 	armour = { ArmourBaseMin = 232, ArmourBaseMax = 278, EvasionBaseMin = 232, EvasionBaseMax = 278, MovementPenalty = 3, },
 	req = { level = 42, str = 62, dex = 62, },
 }
-itemBases["Full Wyrmscale"] = {
+itemBases["전신 아룡 비늘 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -619,7 +619,7 @@ itemBases["Full Wyrmscale"] = {
 	armour = { ArmourBaseMin = 254, ArmourBaseMax = 292, EvasionBaseMin = 254, EvasionBaseMax = 292, MovementPenalty = 3, },
 	req = { level = 46, str = 68, dex = 68, },
 }
-itemBases["Commander's Brigandine"] = {
+itemBases["지휘관의 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -629,7 +629,7 @@ itemBases["Commander's Brigandine"] = {
 	armour = { ArmourBaseMin = 275, ArmourBaseMax = 325, EvasionBaseMin = 275, EvasionBaseMax = 325, MovementPenalty = 3, },
 	req = { level = 50, str = 73, dex = 73, },
 }
-itemBases["Battle Lamellar"] = {
+itemBases["전투용 라멜라"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -639,7 +639,7 @@ itemBases["Battle Lamellar"] = {
 	armour = { ArmourBaseMin = 297, ArmourBaseMax = 341, EvasionBaseMin = 297, EvasionBaseMax = 341, MovementPenalty = 3, },
 	req = { level = 54, str = 79, dex = 79, },
 }
-itemBases["Dragonscale Doublet"] = {
+itemBases["용 비늘 더블릿"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -649,7 +649,7 @@ itemBases["Dragonscale Doublet"] = {
 	armour = { ArmourBaseMin = 313, ArmourBaseMax = 351, EvasionBaseMin = 313, EvasionBaseMax = 351, MovementPenalty = 3, },
 	req = { level = 57, str = 83, dex = 83, },
 }
-itemBases["Desert Brigandine"] = {
+itemBases["사막 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -659,7 +659,7 @@ itemBases["Desert Brigandine"] = {
 	armour = { ArmourBaseMin = 376, ArmourBaseMax = 451, EvasionBaseMin = 376, EvasionBaseMax = 451, MovementPenalty = 3, },
 	req = { level = 60, str = 96, dex = 96, },
 }
-itemBases["Full Dragonscale"] = {
+itemBases["전신 용 비늘 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -669,7 +669,7 @@ itemBases["Full Dragonscale"] = {
 	armour = { ArmourBaseMin = 470, ArmourBaseMax = 541, EvasionBaseMin = 373, EvasionBaseMax = 429, MovementPenalty = 3, },
 	req = { level = 63, str = 115, dex = 94, },
 }
-itemBases["General's Brigandine"] = {
+itemBases["장군의 브리간딘"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -679,7 +679,7 @@ itemBases["General's Brigandine"] = {
 	armour = { ArmourBaseMin = 415, ArmourBaseMax = 465, EvasionBaseMin = 415, EvasionBaseMax = 465, MovementPenalty = 3, },
 	req = { level = 66, str = 103, dex = 103, },
 }
-itemBases["Triumphant Lamellar"] = {
+itemBases["승리의 라멜라"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion",
 	socketLimit = 6,
@@ -690,7 +690,7 @@ itemBases["Triumphant Lamellar"] = {
 	req = { level = 69, str = 95, dex = 116, },
 }
 
-itemBases["Chainmail Vest"] = {
+itemBases["사슬 조끼"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -700,7 +700,7 @@ itemBases["Chainmail Vest"] = {
 	armour = { ArmourBaseMin = 27, ArmourBaseMax = 38, EnergyShieldBaseMin = 9, EnergyShieldBaseMax = 13, MovementPenalty = 5, },
 	req = { str = 10, int = 10, },
 }
-itemBases["Chainmail Tunic"] = {
+itemBases["사슬 튜닉"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -710,7 +710,7 @@ itemBases["Chainmail Tunic"] = {
 	armour = { ArmourBaseMin = 48, ArmourBaseMax = 63, EnergyShieldBaseMin = 13, EnergyShieldBaseMax = 17, MovementPenalty = 5, },
 	req = { level = 8, str = 16, int = 16, },
 }
-itemBases["Ringmail Coat"] = {
+itemBases["외투 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -720,7 +720,7 @@ itemBases["Ringmail Coat"] = {
 	armour = { ArmourBaseMin = 97, ArmourBaseMax = 121, EnergyShieldBaseMin = 22, EnergyShieldBaseMax = 28, MovementPenalty = 5, },
 	req = { level = 17, str = 28, int = 28, },
 }
-itemBases["Chainmail Doublet"] = {
+itemBases["사슬 더블릿"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -730,7 +730,7 @@ itemBases["Chainmail Doublet"] = {
 	armour = { ArmourBaseMin = 119, ArmourBaseMax = 140, EnergyShieldBaseMin = 27, EnergyShieldBaseMax = 31, MovementPenalty = 5, },
 	req = { level = 21, str = 34, int = 34, },
 }
-itemBases["Full Ringmail"] = {
+itemBases["전신 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -740,7 +740,7 @@ itemBases["Full Ringmail"] = {
 	armour = { ArmourBaseMin = 156, ArmourBaseMax = 180, EnergyShieldBaseMin = 34, EnergyShieldBaseMax = 39, MovementPenalty = 5, },
 	req = { level = 28, str = 43, int = 43, },
 }
-itemBases["Full Chainmail"] = {
+itemBases["전신 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -750,7 +750,7 @@ itemBases["Full Chainmail"] = {
 	armour = { ArmourBaseMin = 178, ArmourBaseMax = 199, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 43, MovementPenalty = 5, },
 	req = { level = 32, str = 48, int = 48, },
 }
-itemBases["Holy Chainmail"] = {
+itemBases["성스러운 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -760,7 +760,7 @@ itemBases["Holy Chainmail"] = {
 	armour = { ArmourBaseMin = 194, ArmourBaseMax = 233, EnergyShieldBaseMin = 41, EnergyShieldBaseMax = 49, MovementPenalty = 5, },
 	req = { level = 35, str = 53, int = 53, },
 }
-itemBases["Latticed Ringmail"] = {
+itemBases["격자형 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -770,7 +770,7 @@ itemBases["Latticed Ringmail"] = {
 	armour = { ArmourBaseMin = 216, ArmourBaseMax = 248, EnergyShieldBaseMin = 45, EnergyShieldBaseMax = 52, MovementPenalty = 5, },
 	req = { level = 39, str = 59, int = 59, },
 }
-itemBases["Crusader Chainmail"] = {
+itemBases["십자군 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -780,7 +780,7 @@ itemBases["Crusader Chainmail"] = {
 	armour = { ArmourBaseMin = 237, ArmourBaseMax = 266, EnergyShieldBaseMin = 50, EnergyShieldBaseMax = 55, MovementPenalty = 5, },
 	req = { level = 43, str = 64, int = 64, },
 }
-itemBases["Ornate Ringmail"] = {
+itemBases["화려한 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -790,7 +790,7 @@ itemBases["Ornate Ringmail"] = {
 	armour = { ArmourBaseMin = 259, ArmourBaseMax = 298, EnergyShieldBaseMin = 54, EnergyShieldBaseMax = 62, MovementPenalty = 5, },
 	req = { level = 47, str = 69, int = 69, },
 }
-itemBases["Chain Hauberk"] = {
+itemBases["쇠사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -800,7 +800,7 @@ itemBases["Chain Hauberk"] = {
 	armour = { ArmourBaseMin = 281, ArmourBaseMax = 314, EnergyShieldBaseMin = 58, EnergyShieldBaseMax = 65, MovementPenalty = 5, },
 	req = { level = 51, str = 75, int = 75, },
 }
-itemBases["Devout Chainmail"] = {
+itemBases["신도 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -810,7 +810,7 @@ itemBases["Devout Chainmail"] = {
 	armour = { ArmourBaseMin = 302, ArmourBaseMax = 363, EnergyShieldBaseMin = 62, EnergyShieldBaseMax = 74, MovementPenalty = 5, },
 	req = { level = 55, str = 80, int = 80, },
 }
-itemBases["Loricated Ringmail"] = {
+itemBases["단단한 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -820,7 +820,7 @@ itemBases["Loricated Ringmail"] = {
 	armour = { ArmourBaseMin = 325, ArmourBaseMax = 374, EnergyShieldBaseMin = 66, EnergyShieldBaseMax = 76, MovementPenalty = 5, },
 	req = { level = 58, str = 84, int = 84, },
 }
-itemBases["Conquest Chainmail"] = {
+itemBases["점령자의 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -830,7 +830,7 @@ itemBases["Conquest Chainmail"] = {
 	armour = { ArmourBaseMin = 387, ArmourBaseMax = 445, EnergyShieldBaseMin = 79, EnergyShieldBaseMax = 91, MovementPenalty = 5, },
 	req = { level = 61, str = 96, int = 96, },
 }
-itemBases["Elegant Ringmail"] = {
+itemBases["고상한 고리 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -840,7 +840,7 @@ itemBases["Elegant Ringmail"] = {
 	armour = { ArmourBaseMin = 377, ArmourBaseMax = 433, EnergyShieldBaseMin = 92, EnergyShieldBaseMax = 105, MovementPenalty = 5, },
 	req = { level = 64, str = 90, int = 105, },
 }
-itemBases["Saint's Hauberk"] = {
+itemBases["성인의 쇠사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -850,7 +850,7 @@ itemBases["Saint's Hauberk"] = {
 	armour = { ArmourBaseMin = 443, ArmourBaseMax = 496, EnergyShieldBaseMin = 76, EnergyShieldBaseMax = 85, MovementPenalty = 5, },
 	req = { level = 67, str = 109, int = 94, },
 }
-itemBases["Saintly Chainmail"] = {
+itemBases["성인의 사슬 갑옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Energy Shield",
 	socketLimit = 6,
@@ -861,7 +861,7 @@ itemBases["Saintly Chainmail"] = {
 	req = { level = 70, str = 99, int = 115, },
 }
 
-itemBases["Padded Vest"] = {
+itemBases["패드 조끼"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -871,7 +871,7 @@ itemBases["Padded Vest"] = {
 	armour = { EvasionBaseMin = 27, EvasionBaseMax = 38, EnergyShieldBaseMin = 9, EnergyShieldBaseMax = 13, MovementPenalty = 3, },
 	req = { dex = 10, int = 10, },
 }
-itemBases["Oiled Vest"] = {
+itemBases["기름칠된 조끼"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -881,7 +881,7 @@ itemBases["Oiled Vest"] = {
 	armour = { EvasionBaseMin = 54, EvasionBaseMax = 70, EnergyShieldBaseMin = 14, EnergyShieldBaseMax = 18, MovementPenalty = 3, },
 	req = { level = 9, dex = 17, int = 17, },
 }
-itemBases["Padded Jacket"] = {
+itemBases["패드 재킷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -891,7 +891,7 @@ itemBases["Padded Jacket"] = {
 	armour = { EvasionBaseMin = 102, EvasionBaseMax = 128, EnergyShieldBaseMin = 24, EnergyShieldBaseMax = 29, MovementPenalty = 3, },
 	req = { level = 18, dex = 30, int = 30, },
 }
-itemBases["Oiled Coat"] = {
+itemBases["기름칠된 외투"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -901,7 +901,7 @@ itemBases["Oiled Coat"] = {
 	armour = { EvasionBaseMin = 124, EvasionBaseMax = 146, EnergyShieldBaseMin = 28, EnergyShieldBaseMax = 33, MovementPenalty = 3, },
 	req = { level = 22, dex = 35, int = 35, },
 }
-itemBases["Scarlet Raiment"] = {
+itemBases["다홍색 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -911,7 +911,7 @@ itemBases["Scarlet Raiment"] = {
 	armour = { EvasionBaseMin = 156, EvasionBaseMax = 180, EnergyShieldBaseMin = 34, EnergyShieldBaseMax = 39, MovementPenalty = 3, },
 	req = { level = 28, dex = 43, int = 43, },
 }
-itemBases["Waxed Garb"] = {
+itemBases["밀랍재질 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -921,7 +921,7 @@ itemBases["Waxed Garb"] = {
 	armour = { EvasionBaseMin = 178, EvasionBaseMax = 205, EnergyShieldBaseMin = 38, EnergyShieldBaseMax = 44, MovementPenalty = 3, },
 	req = { level = 32, dex = 48, int = 48, },
 }
-itemBases["Bone Armour"] = {
+itemBases["뼈 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -931,7 +931,7 @@ itemBases["Bone Armour"] = {
 	armour = { EvasionBaseMin = 194, EvasionBaseMax = 233, EnergyShieldBaseMin = 41, EnergyShieldBaseMax = 49, MovementPenalty = 3, },
 	req = { level = 35, dex = 53, int = 53, },
 }
-itemBases["Quilted Jacket"] = {
+itemBases["누비 재킷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -941,7 +941,7 @@ itemBases["Quilted Jacket"] = {
 	armour = { EvasionBaseMin = 221, EvasionBaseMax = 248, EnergyShieldBaseMin = 46, EnergyShieldBaseMax = 52, MovementPenalty = 3, },
 	req = { level = 40, dex = 60, int = 60, },
 }
-itemBases["Sleek Coat"] = {
+itemBases["매끈한 외투"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -951,7 +951,7 @@ itemBases["Sleek Coat"] = {
 	armour = { EvasionBaseMin = 243, EvasionBaseMax = 287, EnergyShieldBaseMin = 51, EnergyShieldBaseMax = 60, MovementPenalty = 3, },
 	req = { level = 44, dex = 65, int = 65, },
 }
-itemBases["Crimson Raiment"] = {
+itemBases["진홍색 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -961,7 +961,7 @@ itemBases["Crimson Raiment"] = {
 	armour = { EvasionBaseMin = 264, EvasionBaseMax = 304, EnergyShieldBaseMin = 55, EnergyShieldBaseMax = 63, MovementPenalty = 3, },
 	req = { level = 48, dex = 71, int = 71, },
 }
-itemBases["Lacquered Garb"] = {
+itemBases["옻칠한 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -971,7 +971,7 @@ itemBases["Lacquered Garb"] = {
 	armour = { EvasionBaseMin = 286, EvasionBaseMax = 329, EnergyShieldBaseMin = 59, EnergyShieldBaseMax = 68, MovementPenalty = 3, },
 	req = { level = 52, dex = 76, int = 76, },
 }
-itemBases["Crypt Armour"] = {
+itemBases["지하실 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -981,7 +981,7 @@ itemBases["Crypt Armour"] = {
 	armour = { EvasionBaseMin = 308, EvasionBaseMax = 369, EnergyShieldBaseMin = 63, EnergyShieldBaseMax = 76, MovementPenalty = 3, },
 	req = { level = 56, dex = 82, int = 82, },
 }
-itemBases["Sentinel Jacket"] = {
+itemBases["파수꾼 재킷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -991,7 +991,7 @@ itemBases["Sentinel Jacket"] = {
 	armour = { EvasionBaseMin = 330, EvasionBaseMax = 370, EnergyShieldBaseMin = 67, EnergyShieldBaseMax = 76, MovementPenalty = 3, },
 	req = { level = 59, dex = 86, int = 86, },
 }
-itemBases["Varnished Coat"] = {
+itemBases["광택 나는 외투"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -1001,7 +1001,7 @@ itemBases["Varnished Coat"] = {
 	armour = { EvasionBaseMin = 387, EvasionBaseMax = 434, EnergyShieldBaseMin = 79, EnergyShieldBaseMax = 89, MovementPenalty = 3, },
 	req = { level = 62, dex = 96, int = 96, },
 }
-itemBases["Blood Raiment"] = {
+itemBases["피의 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -1011,7 +1011,7 @@ itemBases["Blood Raiment"] = {
 	armour = { EvasionBaseMin = 436, EvasionBaseMax = 501, EnergyShieldBaseMin = 73, EnergyShieldBaseMax = 84, MovementPenalty = 3, },
 	req = { level = 65, dex = 107, int = 90, },
 }
-itemBases["Sadist Garb"] = {
+itemBases["가학자 의복"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
@@ -1021,30 +1021,30 @@ itemBases["Sadist Garb"] = {
 	armour = { EvasionBaseMin = 427, EvasionBaseMax = 491, EnergyShieldBaseMin = 93, EnergyShieldBaseMax = 107, MovementPenalty = 3, },
 	req = { level = 68, dex = 103, int = 109, },
 }
-itemBases["Carnal Armour"] = {
+itemBases["육욕의 갑옷"] = {
 	type = "Body Armour",
 	subType = "Evasion/Energy Shield",
 	socketLimit = 6,
 	tags = { body_armour = true, top_tier_base_item_type = true, armour = true, default = true, dex_int_armour = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "+(20-25) to maximum Mana",
+	implicit = "마나 최대치 +(20-25)",
 	implicitModTypes = { { "resource", "mana" }, },
 	armour = { EvasionBaseMin = 353, EvasionBaseMax = 388, EnergyShieldBaseMin = 103, EnergyShieldBaseMax = 113, MovementPenalty = 3, },
 	req = { level = 71, dex = 88, int = 122, },
 }
 
-itemBases["Sacrificial Garb"] = {
+itemBases["희생의 의복"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion/Energy Shield",
 	socketLimit = 6,
 	tags = { body_armour = true, str_dex_int_armour = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "+1 to Level of all Vaal Skill Gems",
+	implicit = "모든 바알 스킬 젬 레벨 +1",
 	implicitModTypes = { { "gem" }, },
 	armour = { ArmourBaseMin = 329, ArmourBaseMax = 378, EvasionBaseMin = 329, EvasionBaseMax = 378, EnergyShieldBaseMin = 67, EnergyShieldBaseMax = 77, MovementPenalty = 3, },
 	req = { level = 72, str = 66, dex = 66, int = 66, },
 }
-itemBases["Grasping Mail"] = {
+itemBases["탐욕스러운 사슬옷"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion/Energy Shield",
 	socketLimit = 6,
@@ -1054,14 +1054,14 @@ itemBases["Grasping Mail"] = {
 	armour = { ArmourBaseMin = 217, ArmourBaseMax = 250, EvasionBaseMin = 217, EvasionBaseMax = 250, EnergyShieldBaseMin = 44, EnergyShieldBaseMax = 51, MovementPenalty = 3, },
 	req = { level = 70, str = 60, dex = 60, int = 60, },
 }
-itemBases["Golden Mantle"] = {
+itemBases["황금 외투"] = {
 	type = "Body Armour",
 	subType = "Armour/Evasion/Energy Shield",
 	hidden = true,
 	socketLimit = 6,
 	tags = { body_armour = true, str_dex_int_armour = true, demigods = true, armour = true, not_for_sale = true, default = true, },
 	influenceTags = { shaper = "body_armour_shaper", elder = "body_armour_elder", adjudicator = "body_armour_adjudicator", basilisk = "body_armour_basilisk", crusader = "body_armour_crusader", eyrie = "body_armour_eyrie", cleansing = "body_armour_cleansing", tangle = "body_armour_tangle" },
-	implicit = "+(15-25)% to all Elemental Resistances",
+	implicit = "모든 원소 저항 +(15-25)%",
 	implicitModTypes = { { "elemental", "resistance" }, },
 	armour = { ArmourBaseMin = 75, ArmourBaseMax = 86, EvasionBaseMin = 75, EvasionBaseMax = 86, EnergyShieldBaseMin = 17, EnergyShieldBaseMax = 19, },
 	req = { level = 20, str = 8, dex = 8, int = 8, },

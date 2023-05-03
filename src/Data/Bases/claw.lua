@@ -2,282 +2,282 @@
 -- Item data (c) Grinding Gear Games
 local itemBases = ...
 
-itemBases["Nailed Fist"] = {
+itemBases["못박은 너클"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 3 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 3 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 4, PhysicalMax = 11, CritChanceBase = 6.2, AttackRateBase = 1.6, Range = 11, },
 	req = { dex = 11, int = 11, },
 }
-itemBases["Sharktooth Claw"] = {
+itemBases["상어이빨 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 6 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 6 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 6, PhysicalMax = 17, CritChanceBase = 6.5, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 7, dex = 14, int = 20, },
 }
-itemBases["Awl"] = {
+itemBases["송곳"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 7 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 7 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 7, PhysicalMax = 23, CritChanceBase = 6.3, AttackRateBase = 1.55, Range = 11, },
 	req = { level = 12, dex = 25, int = 25, },
 }
-itemBases["Cat's Paw"] = {
+itemBases["고양이 발"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 8 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 8 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 12, PhysicalMax = 22, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 17, dex = 39, int = 27, },
 }
-itemBases["Blinder"] = {
+itemBases["실명기"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 12 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 12 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 12, PhysicalMax = 31, CritChanceBase = 6.3, AttackRateBase = 1.55, Range = 11, },
 	req = { level = 22, dex = 41, int = 41, },
 }
-itemBases["Timeworn Claw"] = {
+itemBases["오래된 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 19 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 19 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 16, PhysicalMax = 43, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 11, },
 	req = { level = 26, dex = 39, int = 56, },
 }
-itemBases["Sparkling Claw"] = {
+itemBases["섬광 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 15 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 15 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 14, PhysicalMax = 38, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 30, dex = 64, int = 44, },
 }
-itemBases["Fright Claw"] = {
+itemBases["섬뜩한 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 20 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 20 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 12, PhysicalMax = 46, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 34, dex = 61, int = 61, },
 }
-itemBases["Double Claw"] = {
+itemBases["이중 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { maraketh = true, onehand = true, not_for_sale = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 15 Life per Enemy Hit\nGrants 6 Mana per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 15 획득\n명중한 적 하나당 마나 6 획득",
 	implicitModTypes = { { "resource", "life", "mana", "attack" }, { "resource", "life", "mana", "attack" }, },
 	weapon = { PhysicalMin = 15, PhysicalMax = 44, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 36, dex = 67, int = 67, },
 }
-itemBases["Thresher Claw"] = {
+itemBases["도리깨 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 25 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 25 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 20, PhysicalMax = 53, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 11, },
 	req = { level = 37, dex = 53, int = 77, },
 }
-itemBases["Gouger"] = {
+itemBases["후비개"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 24 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 24 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 15, PhysicalMax = 51, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 40, dex = 70, int = 70, },
 }
-itemBases["Tiger's Paw"] = {
+itemBases["호랑이 발"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "1.6% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 1.6%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 23, PhysicalMax = 43, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 43, dex = 88, int = 61, },
 }
-itemBases["Gut Ripper"] = {
+itemBases["내장 거열기"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 44 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 44 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 20, PhysicalMax = 53, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 46, dex = 80, int = 80, },
 }
-itemBases["Prehistoric Claw"] = {
+itemBases["선사 시대 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "2% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 2%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 26, PhysicalMax = 68, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 11, },
 	req = { level = 49, dex = 69, int = 100, },
 }
-itemBases["Noble Claw"] = {
+itemBases["귀족 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 40 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 40 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 21, PhysicalMax = 56, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 52, dex = 105, int = 73, },
 }
-itemBases["Eagle Claw"] = {
+itemBases["독수리 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "2% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 2%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 17, PhysicalMax = 69, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 55, dex = 94, int = 94, },
 }
-itemBases["Twin Claw"] = {
+itemBases["쌍둥이 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { maraketh = true, onehand = true, not_for_sale = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 28 Life per Enemy Hit\nGrants 10 Mana per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 28 획득\n명중한 적 하나당 마나 10 획득",
 	implicitModTypes = { { "resource", "life", "mana", "attack" }, { "resource", "life", "mana", "attack" }, },
 	weapon = { PhysicalMin = 21, PhysicalMax = 64, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 57, dex = 103, int = 103, },
 }
-itemBases["Great White Claw"] = {
+itemBases["거대 하얀 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 46 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 46 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 30, PhysicalMax = 78, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 11, },
 	req = { level = 58, dex = 81, int = 117, },
 }
-itemBases["Throat Stabber"] = {
+itemBases["목구멍 송곳"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 40 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 40 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 21, PhysicalMax = 73, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 60, dex = 113, int = 113, },
 }
-itemBases["Hellion's Paw"] = {
+itemBases["헬리온의 발"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "1.6% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 1.6%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 29, PhysicalMax = 55, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 62, dex = 131, int = 95, },
 }
-itemBases["Eye Gouger"] = {
+itemBases["눈 후비개"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, top_tier_base_item_type = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 50 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 50 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 26, PhysicalMax = 68, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 64, dex = 113, int = 113, },
 }
-itemBases["Vaal Claw"] = {
+itemBases["바알 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, top_tier_base_item_type = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "2% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 2%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 29, PhysicalMax = 76, CritChanceBase = 6.5, AttackRateBase = 1.3, Range = 11, },
 	req = { level = 66, dex = 95, int = 131, },
 }
-itemBases["Imperial Claw"] = {
+itemBases["제국 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, top_tier_base_item_type = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 46 Life per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 46 획득",
 	implicitModTypes = { { "resource", "life", "attack" }, },
 	weapon = { PhysicalMin = 25, PhysicalMax = 65, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 68, dex = 131, int = 95, },
 }
-itemBases["Terror Claw"] = {
+itemBases["공포의 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { onehand = true, top_tier_base_item_type = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "2% of Physical Attack Damage Leeched as Life",
+	implicit = "물리 공격 피해의 2%를 생명력으로 흡수",
 	implicitModTypes = { { "resource", "life", "physical", "attack" }, },
 	weapon = { PhysicalMin = 18, PhysicalMax = 71, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 70, dex = 113, int = 113, },
 }
-itemBases["Gemini Claw"] = {
+itemBases["쌍생아 클로"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { maraketh = true, onehand = true, not_for_sale = true, default = true, weapon = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Grants 38 Life per Enemy Hit\nGrants 14 Mana per Enemy Hit",
+	implicit = "명중한 적 하나당 생명력 38 획득\n명중한 적 하나당 마나 14 획득",
 	implicitModTypes = { { "resource", "life", "mana", "attack" }, { "resource", "life", "mana", "attack" }, },
 	weapon = { PhysicalMin = 23, PhysicalMax = 68, CritChanceBase = 6.3, AttackRateBase = 1.5, Range = 11, },
 	req = { level = 72, dex = 121, int = 121, },
 }
-itemBases["Shadow Fangs"] = {
+itemBases["그림자 송곳니"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { weapon = true, onehand = true, not_for_sale = true, default = true, experimental_base = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Adds (23-33) to (45-60) Chaos Damage",
+	implicit = "카오스 피해 (23-33)~(45-60) 추가",
 	implicitModTypes = { { "chaos_damage", "damage", "chaos", "attack" }, },
 	weapon = { PhysicalMin = 13, PhysicalMax = 24, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 30, dex = 54, int = 54, },
 }
-itemBases["Malign Fangs"] = {
+itemBases["해악의 송곳니"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { weapon = true, onehand = true, not_for_sale = true, default = true, experimental_base = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Adds (38-48) to (70-90) Chaos Damage",
+	implicit = "카오스 피해 (38-48)~(70-90) 추가",
 	implicitModTypes = { { "chaos_damage", "damage", "chaos", "attack" }, },
 	weapon = { PhysicalMin = 20, PhysicalMax = 37, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 50, dex = 86, int = 86, },
 }
-itemBases["Void Fangs"] = {
+itemBases["공허의 송곳니"] = {
 	type = "Claw",
 	socketLimit = 3,
 	tags = { weapon = true, onehand = true, not_for_sale = true, default = true, experimental_base = true, one_hand_weapon = true, claw = true, },
 	influenceTags = { shaper = "claw_shaper", elder = "claw_elder", adjudicator = "claw_adjudicator", basilisk = "claw_basilisk", crusader = "claw_crusader", eyrie = "claw_eyrie", cleansing = "claw_cleansing", tangle = "claw_tangle" },
-	implicit = "Adds (40-55) to (80-98) Chaos Damage",
+	implicit = "카오스 피해 (40-55)~(80-98) 추가",
 	implicitModTypes = { { "chaos_damage", "damage", "chaos", "attack" }, },
 	weapon = { PhysicalMin = 22, PhysicalMax = 41, CritChanceBase = 6, AttackRateBase = 1.6, Range = 11, },
 	req = { level = 70, dex = 113, int = 113, },

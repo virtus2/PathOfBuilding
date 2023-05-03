@@ -27,7 +27,7 @@ function loadStatFile(fileName)
 		elseif line:match("handed_description") or (line:match("description") and not line:match("_description")) then	
 			local name = line:match("description ([%w_]+)")
 			curLang = { }
-			curDescriptor = { lang = { ["English"] = curLang }, order = order, name = name }
+			curDescriptor = { lang = { ["Korean"] = curLang }, order = order, name = name }
 			order = order + 1
 		elseif not curDescriptor.stats then
 			local stats = line:match("%d+%s+([%w_%+%-%% ]+)")
@@ -144,7 +144,7 @@ function describeStats(stats)
 			val[i] = stats[s] or { min = 0, max = 0 }
 			val[i].fmt = "d"
 		end
-		local desc = matchLimit(descriptor.lang["English"], val)
+		local desc = matchLimit(descriptor.lang["Korean"], val)
 		if desc then
 			for _, spec in ipairs(desc) do
 				if spec.k == "negate" then
